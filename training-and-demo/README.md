@@ -1,2 +1,2 @@
-# Training & Demo
+# DIGIT Training & Demo
 

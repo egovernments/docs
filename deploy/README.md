@@ -4,7 +4,7 @@ description: >-
   specifications.
 ---
 
-# Deploy DIGIT
+# Deployment Tools
 
 ### Pre-Requisites:
 

@@ -1,4 +1,4 @@
-# Public Grievance
+# Public Grievance & Redressal
 
 ### **Overview**
 
