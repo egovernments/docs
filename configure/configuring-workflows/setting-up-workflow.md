@@ -16,7 +16,7 @@ Before you proceed with the configuration, make sure the following pre-requisite
 * Create and modify workflow configuration
 * Configure State level as well BusinessService level SLA
 * Control access to workflow actions from configuration
-* Validates if the flow defined in configuration is complete during creation
+* Validates if the flow defined in configuration is complete during the creation
 
 ### Deployment Details
 
@@ -103,17 +103,17 @@ Before you proceed with the configuration, make sure the following pre-requisite
    ```
 
 2. Once the businessService json is created add it in request body of _\_create_ API of workflow and call the API to create the workflow.
-3. To update the workflow first search the workflow object using _\_search_ API and then make changes in the businessService object and then call _\_update_ using the modified search result. \(States cannot be removed using _\_update_ API as it will leave applications in that state in an invalid state. In such cases first all the applications in that state should be moved forward or backward state and then state should be disabled through DB directly\)
+3. To update the workflow first search the workflow object using _\_search_ API and then make changes in the businessService object and then call _\_update_ using the modified search result. \(States cannot be removed using _\_update_ API as it will leave applications in that state in an invalid state. In such cases first, all the applications in that state should be moved forward or backward state and then the state should be disabled through DB directly\)
 
 ### Integration 
 
 #### Integration Scope
 
-The workflow configuration can be used by any module which performs a sequence of operations on an application/Entity. It can be used to simulate and track processes in organisations to make it more efficient to and increase the accountability.
+The workflow configuration can be used by any module which performs a sequence of operations on an application/Entity. It can be used to simulate and track processes in organisations to make it more efficient to and increase accountability.
 
 #### Integration Benefits
 
-Integrating with workflow service provides a way to have an dynamic workflow configuration which can be easily modified according to the changing requirements. The modules don’t have to deal with any validations regarding workflow such as authorisation of the user to take an action, if documents are required to be uploaded at certain stage etc. as they will be automatically handled by _egov-workflow-v2_ service based on the configuration defined. It also automatically keeps updating SLA for all applications which provides a way to track the time taken by an application to get processed.  
+Integrating with workflow service provides a way to have a dynamic workflow configuration which can be easily modified according to the changing requirements. The modules don’t have to deal with any validations regarding workflow such as authorisation of the user to take an action, if documents are required to be uploaded at certain stage etc. as they will be automatically handled by _egov-workflow-v2_ service based on the configuration defined. It also automatically keeps updating SLA for all applications which provides a way to track the time taken by an application to get processed.  
 
 #### Steps to Integration
 

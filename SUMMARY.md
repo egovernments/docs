@@ -8,6 +8,7 @@
   * [Product Brochures](understand-digit/product-brochures/README.md)
     * [Property Tax](understand-digit/product-brochures/property-tax.md)
   * [Modules & User Guides](understand-digit/product-user-guides/README.md)
+    * [Logging In To DIGIT](understand-digit/product-user-guides/logging-in-to-digit.md)
     * [Trade License](understand-digit/product-user-guides/trade-license.md)
     * [Public Grievance & Redressal](understand-digit/product-user-guides/public-grievance/README.md)
       * [Citizen Guide](understand-digit/product-user-guides/public-grievance/citizen-guide.md)
