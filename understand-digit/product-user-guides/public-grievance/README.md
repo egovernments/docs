@@ -8,9 +8,12 @@ description: A complete guide to using the PGR module
 
 The Public Grievance Redressal or the PGR  is a standardized solution offering on DIGIT platform to register and redress citizen grievances. It provides a transparent and trackable mechanism to solve public grievances by inducing responsive administration. PGR enables the citizens to file the complaints using various channels and helps the municipal employees to resolve them in a time bound manner.
 
+### Key Features
+
+* 
 Citizens can register their complaints through the web portal or the mobile application. Once registered, the urban local body employees act on the complaints and work on it until the reported issue is resolved. 
 
-#### User Roles
+### User Roles
 
 Refer to the table below to understand the different user roles and the scope of action linked to each role. The manual provides a detailed description of how to use the system for each role.
 
@@ -71,23 +74,7 @@ Refer to the table below to understand the different user roles and the scope of
   </tbody>
 </table>
 
-### Getting Started With PGR
-
-This section of the user manual guides you through the user login process. Citizens can sign up to use the PGR module through the online web portal or the mobile application login interface.   
-
-
-#### Logging In To PGR
-
-The first step to logging in to the PGR module is to register a user.
-
-To register as a user 
-
-1. Enter the ULB url in your browser. For instance, people of Punjab will use the [link](https://mseva.lgpunjab.gov.in/citizen/user/register%20) to register for Punjab mSeva services.
-2. Enter your **Mobile Number** to register as a user.
-3. Enter your **Name**.
-4. Select your city from the **City** drop-down list.
-5. Click on the **Continue** button. 
-6. The system sends an **OTP** to your mobile number. Enter the **OTP**.
+### 
 
 
 

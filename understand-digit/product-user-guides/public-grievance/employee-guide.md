@@ -8,21 +8,48 @@ Citizen complaints are routed through different workflows. The workflows represe
 
 These workflows include -
 
-File Complaints
+* File Complaints
+* Search Complaints
+* Reopen Complaints
+* Assign Complaints
+* Re-Assign Complaints
+* Share Complaints
+* Reject Complaints
+* Resolve Complaints
 
-Search Complaints
+### File Complaints
 
-Reopen Complaints
 
-Assign Complaints
 
-Re-Assign Complaints
+### Search Complaints
 
-Share Complaints
 
-Reject Complaints
 
-Resolve Complaints
+### Reopen Complaints
+
+
+
+### Assign Complaints
+
+
+
+### Re-Assign Complaints
+
+
+
+### Share Complaints
+
+
+
+### Reject Complaints
+
+
+
+### Resolve Complaints
+
+
+
+
 
 
 
