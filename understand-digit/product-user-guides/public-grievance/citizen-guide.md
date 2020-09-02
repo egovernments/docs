@@ -10,11 +10,10 @@ description: Learn how to file complaints and track your complaints
 
 **The Citizen role can -**
 
-1. **File complaints**
-2. **Track complaints**
-3. **Rate complaints**
-4. **Reopen complaints**
-5. **Comment on complaints**
+1. \*\*\*\*[**File complaints**](https://app.gitbook.com/@egov-digit/s/external/understand-digit/product-user-guides/public-grievance/citizen-guide#file-complaints)\*\*\*\*
+2. \*\*\*\*[**Track complaints**](https://app.gitbook.com/@egov-digit/s/external/understand-digit/product-user-guides/public-grievance/citizen-guide#my-complaints)\*\*\*\*
+3. \*\*\*\*[**Rate complaints**](https://app.gitbook.com/@egov-digit/s/external/understand-digit/product-user-guides/public-grievance/citizen-guide#rate-complaints)\*\*\*\*
+4. \*\*\*\*[**Reopen complaints**](https://app.gitbook.com/@egov-digit/s/external/understand-digit/product-user-guides/public-grievance/citizen-guide#reopen-complaints)\*\*\*\*
 
 ### **File Complaints**
 

@@ -10,6 +10,7 @@
   * [Modules & User Guides](understand-digit/product-user-guides/README.md)
     * [Trade License](understand-digit/product-user-guides/trade-license.md)
     * [Public Grievance & Redressal](understand-digit/product-user-guides/public-grievance/README.md)
+      * [Employee Guide](understand-digit/product-user-guides/public-grievance/employee-guide.md)
       * [Citizen Guide](understand-digit/product-user-guides/public-grievance/citizen-guide.md)
     * [Property Tax](understand-digit/product-user-guides/property-tax.md)
   * [Release Notes](understand-digit/release-notes/README.md)
