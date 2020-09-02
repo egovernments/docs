@@ -1,3 +1,7 @@
+---
+description: A complete guide to using the PGR module
+---
+
 # Public Grievance & Redressal
 
 ### **Overview**
