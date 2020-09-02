@@ -17,7 +17,7 @@ Commitment and transparency are deeply ingrained values defining our product dev
 ### DIGIT Roadmap
 
 {% tabs %}
-{% tab title="1st Quarter \(Apr-Jun 2020\)" %}
+{% tab title="Q1 \(Apr-Jun 2020\)" %}
 Water & Sewerage 
 
 * [x] Create provision to apply for new Water & Sewerage connection.
@@ -33,7 +33,7 @@ Online Building Plan Approval System \(OBPAS\)
 * [x] Facilitate stakeholders to apply for occupancy certificate online.
 {% endtab %}
 
-{% tab title="2nd Quarter \(Jul-Sep 2020\)" %}
+{% tab title="Q2 \(Jul-Sep 2020\)" %}
 Water & Sewerage 
 
 * [ ] Create provision to apply for new Water & Sewerage connection.
@@ -49,7 +49,7 @@ Online Building Plan Approval System \(OBPAS\)
 * [ ] Facilitate stakeholders to apply for occupancy certificate online.
 {% endtab %}
 
-{% tab title="3rd Quarter \(Oct-Dec 2020\)" %}
+{% tab title="Q3 Oct-Dec 2020\)" %}
 Water & Sewerage 
 
 * [ ] Create provision to apply for new Water & Sewerage connection.
