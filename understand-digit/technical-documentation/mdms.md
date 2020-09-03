@@ -40,8 +40,6 @@ Incase the url is unavailable, please go to the [docs folder](https://github.com
 
 **CONFIGURATIONS AND STRUCTURE:**  
   
-
-
 The config json files to be written should follow the listed rules 
 
 1. The config files should have json extension .  

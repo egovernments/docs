@@ -16,16 +16,16 @@ To register as a user
 
 ![](https://docs.google.com/drawings/u/0/d/sCySEn2c6u0FD_9SmYqV9XA/image?w=624&h=379&rev=1&ac=1&parent=1pR9OLsrbm5UDtHSuq-Iv2BM78gUTwagbwGpCMGdeqrg)
 
-1. Enter your Mobile Number to register as a user.
-2. Enter your Name.
-3. Select your city from the City drop-down list.
-4. Click on the Continue button. 
-5. The system sends an OTP to your mobile number. Enter the OTP.
+1. Enter your **Mobile Number** to register as a user.
+2. Enter your **Name**.
+3. Select your city from the **City** drop-down list.
+4. Click on the **Continue** button. 
+5. The system sends an OTP to your mobile number. Enter the **OTP**.
 
 ![](https://docs.google.com/drawings/u/0/d/s2T32WcZI52UesXbpGgcd5Q/image?w=624&h=333&rev=1&ac=1&parent=1pR9OLsrbm5UDtHSuq-Iv2BM78gUTwagbwGpCMGdeqrg)
 
-1. Click on the Resend button on the screen in case you have not received your OTP.
-2. Click on the Get Started button.
+1. Click on the **Resend** button on the screen in case you have not received your OTP.
+2. Click on the **Get Started** button.
 3. You are registered as a user in the mSeva app.
 
 ![](https://docs.google.com/drawings/u/0/d/sNyb8dw-xIYxcNLqvo3_d8w/image?w=624&h=349&rev=1&ac=1&parent=1pR9OLsrbm5UDtHSuq-Iv2BM78gUTwagbwGpCMGdeqrg)
