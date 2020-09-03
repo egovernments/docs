@@ -63,7 +63,7 @@
   * [Configuration FAQs](configure/configuration-faqs.md)
   * [Setting up a Language](configure/setting-up-a-language/README.md)
     * [Adding a language](configure/setting-up-a-language/adding-a-language.md)
-    * [Setting a default language for SMS & Email](configure/setting-up-a-language/setting-a-default-language-for-sms-and-email.md)
+    * [Setting Up Default Language For SMS & Emails](configure/setting-up-a-language/setting-a-default-language-for-sms-and-email.md)
 * [Customizing DIGIT](customizing-digit/README.md)
   * [Frontend/UI](customizing-digit/customizing-frontend.md)
   * [Services](customizing-digit/customizing-services/README.md)
