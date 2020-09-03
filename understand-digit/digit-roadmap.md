@@ -41,7 +41,7 @@ Water & Sewerage
 
 Property Tax 
 
-* [ ] Provide citizens the capability to search for registered properties in the public domain without login.
+* [ ] Provide citizens with the capability to search for registered properties in the public domain without login.
 
 Online Building Plan Approval System \(OBPAS\)
 
