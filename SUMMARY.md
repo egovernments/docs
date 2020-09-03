@@ -76,7 +76,7 @@
     * [Data Migration Principles](customizing-digit/data-migration/data-migration-principles.md)
     * [Data Templates](customizing-digit/data-migration/data-templates.md)
     * [Data Migration Kit](customizing-digit/data-migration/data-migration-kit.md)
-* [Deployment Tools](deploy/README.md)
+* [Deploy DIGIT](deploy/README.md)
   * [Infra Requirements](deploy/cluster-requirements.md)
   * [Infra Size Calculator](deploy/estimating-infra.md)
   * [Supported Clouds](deploy/infra-structure-overview/README.md)
