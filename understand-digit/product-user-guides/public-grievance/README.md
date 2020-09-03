@@ -6,12 +6,12 @@ description: A complete guide to using the PGR module
 
 ### **Introduction To PGR**
 
-The Public Grievance Redressal or the PGR  is a standardized solution offering on DIGIT platform to register and redress citizen grievances. It provides a transparent and trackable mechanism to solve public grievances by inducing responsive administration. PGR enables the citizens to file the complaints using various channels and helps the municipal employees to resolve them timely.
+The Public Grievance Redressal or the PGR  is a standardized solution offering on DIGIT platform to register and redress citizen grievances. It provides a transparent and trackable mechanism to solve public grievances by inducing responsive administration. PGR enables the citizens to file the complaints using various channels and helps the municipal employees to resolve them in a time bound manner.
 
 ### Key Features
 
-* Citizens can lodge complaints, track, reopen and rate complaints through the web portal or the mobile application. 
-* ULB employees too can use the web or mobile interface to comment, forward, assign, verify, share, and resolve citizen complaints.
+* 
+Citizens can register their complaints through the web portal or the mobile application. Once registered, the urban local body employees act on the complaints and work on it until the reported issue is resolved. 
 
 ### User Roles
 

@@ -1,7 +1,3 @@
----
-description: Illustrative help docs
----
-
 # Modules & User Guides
 
 ### Introduction To User Modules
