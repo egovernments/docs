@@ -45,7 +45,7 @@ Property Tax
 
 Online Building Plan Approval System \(OBPAS\)
 
-* [ ] Provide the capability to scrutinize the plan diagram online for occupancy certificate post construction
+* [ ] Provide the capability to scrutinize the plan diagram online for occupancy certificate post construction.
 * [ ] Facilitate stakeholders to apply for occupancy certificate online.
 {% endtab %}
 
@@ -61,7 +61,7 @@ Property Tax
 
 Online Building Plan Approval System \(OBPAS\)
 
-* [ ] Provide the capability to scrutinize the plan diagram online for occupancy certificate post construction
+* [ ] Provide the capability to scrutinize the plan diagram online for occupancy certificate post construction.
 * [ ] Facilitate stakeholders to apply for occupancy certificate online.
 {% endtab %}
 {% endtabs %}
