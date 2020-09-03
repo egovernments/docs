@@ -1,7 +1,3 @@
----
-description: Product themes and deliverable
----
-
 # DIGIT Roadmap
 
 ### Roadmap Overview
@@ -45,11 +41,11 @@ Water & Sewerage
 
 Property Tax 
 
-* [ ] Provide citizens with the capability to search for registered properties in the public domain without login.
+* [ ] Provide citizens the capability to search for registered properties in the public domain without login.
 
 Online Building Plan Approval System \(OBPAS\)
 
-* [ ] Provide the capability to scrutinize the plan diagram online for occupancy certificate post construction.
+* [ ] Provide the capability to scrutinize the plan diagram online for occupancy certificate post construction
 * [ ] Facilitate stakeholders to apply for occupancy certificate online.
 {% endtab %}
 
@@ -61,11 +57,11 @@ Water & Sewerage
 
 Property Tax 
 
-* [ ] Provide citizens with the capability to search for registered properties in the public domain without login.
+* [ ] Provide citizens the capability to search for registered properties in the public domain without login.
 
 Online Building Plan Approval System \(OBPAS\)
 
-* [ ] Provide the capability to scrutinize the plan diagram online for occupancy certificate post construction.
+* [ ] Provide the capability to scrutinize the plan diagram online for occupancy certificate post construction
 * [ ] Facilitate stakeholders to apply for occupancy certificate online.
 {% endtab %}
 {% endtabs %}
