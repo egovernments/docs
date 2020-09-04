@@ -2,7 +2,7 @@
 description: Learn how to file complaints and track your complaints
 ---
 
-# Citizen Guide
+# Citizen User Manual
 
 Citizens represent individuals or communities who are the system end-users. The PGR module provides the citizens with the scope to file their complaints or grievances to initiate necessary action.
 
@@ -22,28 +22,20 @@ To file complaints
 
 1. Navigate to **Complaints** Home page. 
 2. Click on the **File Complaints** tab on the screen. This will open the complaint form page.
-3. Select the relevant **Complaint Type** and the subtype from the drop-down list of options. Refer to the list of complaint types available in PGR.
-
-![](https://docs.google.com/drawings/u/0/d/sa372GYgtBITUupIQZK8BpA/image?w=624&h=457&rev=8&ac=1&parent=1pR9OLsrbm5UDtHSuq-Iv2BM78gUTwagbwGpCMGdeqrg)
-
-1. Enter any additional information in the **Complaint Additional Details** field.
-2. Click on the map ![](https://lh6.googleusercontent.com/Tb0JpM-oURDy9qhH7F4LITbbrFVqAB8aWv69et5RaDEyzN4wLKA0KBGBGtcWXyn8xhwR9K0tf_9w3SKPhMu3_3go2w_KG3axcTko-OlvM7_ndMyKxnF2NNvnvXMnOjNjrNlEFm0_)  icon to pinpoint the **Complaint Location**.
-3. The **City** field will display the city specified in your profile by default. You can change the city if required.
-4. Choose the applicable **Locality/Mohalla** from the drop-down list.
-5. Enter the **House No.** and **Street Name**.
-6. Enter any **Landmark** to identify the exact location for the listed complaint. 
-7. Click on the camera ![](https://lh5.googleusercontent.com/i3Z0ifdkN7rCTzGL4tuRylboF_6NII2XsA39nq8rjyODj70xnI6E8AacqgJ1yoOazCnti1BJzTXXOybYcGgXpEyiTsugTgx6s078mjLIXoneJ5P7MCMysdMhYDHHazmMcnN92-Qn)  icon to upload any photos for the complaint.
-8. Click on the **Submit Complaint** button once you have finished filling in all the details.
-
-![](https://lh6.googleusercontent.com/MsZIJ3A2-bTvvv_NpxWb3t3u6O9VbdnC_jcZV64AMOlBOHd6Q2l2dBsJo6Lp2cfCuC8z3GDPrUkwT68GfQnc8ls76GsoGeg1dCO48k4Shw0Tv69n-jWKD-5CN6pTwM1jabhtgCbk)
-
-1. The system will display the Complaint Registered Successfully message along with the **Complaint No**.
-2. Click on the **Continue** button. Your complaint details are available on the dashboard.
-
-![](https://lh4.googleusercontent.com/JsuSwZN1YEjovJ9Mezq5STjFjnB-KoMTc-bL3RlIZsYkccDYgMdzd48mtYXf0cNfzvtOc1gpkHT7KdVdZpfo1ZraW4A39P7WU-KGm99pQ9_flbuHvlOyJ-zeIKRbyjhmio3fhNE5)
-
-1. The bell icon on the top right corner of the complaint tab will display any notifications received for the complaint.
-2. Click on the bell ![](https://lh5.googleusercontent.com/vODtR2YU20TBPUG_0UJRjeh9gtAX7LKHP-dYrLbGuvz1d9VF2ZFcVoVvYKqjCxrP_TFcT0s4BhlSa1at8AvAjnH8Y0ez2L8ZKuVnH6VdaUNCqpk91VPxM0vYbexdz7jxk9g5rSSB) icon to view the complaint details.
+3. Select the relevant **Complaint Type** and the subtype from the drop-down list of options. 
+4. Refer to the list of complaint types available in PGR. ![](../../../.gitbook/assets/pgr-complaint1.png) 
+5. Enter any additional information in the **Complaint Additional Details** field.
+6. Click on the map ![](https://lh6.googleusercontent.com/Tb0JpM-oURDy9qhH7F4LITbbrFVqAB8aWv69et5RaDEyzN4wLKA0KBGBGtcWXyn8xhwR9K0tf_9w3SKPhMu3_3go2w_KG3axcTko-OlvM7_ndMyKxnF2NNvnvXMnOjNjrNlEFm0_)  icon to pinpoint the **Complaint Location**.
+7. The **City** field will display the city specified in your profile by default. You can change the city if required.
+8. Choose the applicable **Locality/Mohalla** from the drop-down list.
+9. Enter the **House No.** and **Street Name**.
+10. Enter any **Landmark** to identify the exact location for the listed complaint. 
+11. Click on the camera ![](https://lh5.googleusercontent.com/i3Z0ifdkN7rCTzGL4tuRylboF_6NII2XsA39nq8rjyODj70xnI6E8AacqgJ1yoOazCnti1BJzTXXOybYcGgXpEyiTsugTgx6s078mjLIXoneJ5P7MCMysdMhYDHHazmMcnN92-Qn)  icon to upload any photos for the complaint.
+12. Click on the **Submit Complaint** button once you have finished filling in all the details. ![](../../../.gitbook/assets/pgr-complaint2.png) 
+13. The system will display the Complaint Registered Successfully message along with the **Complaint No**.
+14. Click on the **Continue** button. Your complaint details are available on the dashboard. ![](../../../.gitbook/assets/pgr-complaint3.png) 
+15. The bell icon on the top right corner of the complaint tab will display any notifications received for the complaint.
+16. Click on the bell ![](https://lh5.googleusercontent.com/vODtR2YU20TBPUG_0UJRjeh9gtAX7LKHP-dYrLbGuvz1d9VF2ZFcVoVvYKqjCxrP_TFcT0s4BhlSa1at8AvAjnH8Y0ez2L8ZKuVnH6VdaUNCqpk91VPxM0vYbexdz7jxk9g5rSSB) icon to view the complaint details.
 
 ### My Complaints
 
@@ -52,15 +44,9 @@ To view or track complaints
 
 1. Click on **My Complaints** tab.
 2. The system will display all complaints filed by you or from your account and the corresponding status.
-
-![](https://lh6.googleusercontent.com/Qrp5X0sRtvLoRYpWhrwGJqbiNIFcDBrwykegC3IbeUbryJrF2uGYUJZJvcAplJuYzqSFDiU8pMB0IKW_LG6W238LwCqpwixImfLBP6l0FLR6M1wyZVC-0JkDYbdmODmFCw3p0tnE)
-
-1. Click on the **Open** button corresponding to any complaint to view the complaint details.
-
-![](https://lh6.googleusercontent.com/sCstNQhHsU_4VSjNaeNShwwlWP9JVv_hRyB4SJ9POwUqROVSnMYPgSqcKcsWvPtN-Y_UJP0okQ5xGlkTqsb0Mp6TET-E60tkOZVPUYwoSqpt2LrIziZmNKIHulAbuMj-yfp3VDKn)
-
-1. The complaint summary view contains the **Complaint Details**, **Complaint Timeline**, and **Comments** text box. The complaint timeline indicates the action taken on the complaint and the current or pending action status of the complaint.
-2. Enter any additional information about the complaint in the **Comments** section.
+3. Click on the **Open** button corresponding to any complaint to view the complaint details. ![](../../../.gitbook/assets/pgr-complaint4.png) 
+4. The complaint summary view contains the **Complaint Details**, **Complaint Timeline**, and **Comments** text box. The complaint timeline indicates the action taken on the complaint and the current or pending action status of the complaint. ![](../../../.gitbook/assets/pgr-complaint5.png) 
+5. Enter any additional information about the complaint in the **Comments** section.
 
 ### Rate Complaints
 
@@ -71,11 +57,8 @@ To rate resolved complaints
 2. Click on the **My Complaints** tab.
 3. Scroll down to the complaint you want to rate. 
 4. You can rate only complaints marked as Closed.
-5. Scroll down to the **Complaint Timeline** section.
-
-![](https://lh4.googleusercontent.com/YrDkHeVMyf8WdXykJ8oEkQbX43nhn4u2g7Zvmfh1FXNvCHJrkj2eS6bCgeOL1ZC5vRM9YN6Z3XmYu4BWd55GaUI854VkF_09bDOjjkoIvR5nwn7Swl4g7zI4tHVEHXPxzYRIIREb)
-
-1. Click on the **Rate** button on the timeline.
+5. Scroll down to the **Complaint Timeline** section. ![](../../../.gitbook/assets/pgr-complaint6.png) 
+6. Click on the **Rate** button on the timeline.
 
 ![](https://lh5.googleusercontent.com/TI3k2EiJUD0lB5zwTqKtgFYn5VVJQwRtcMpQBaUC6y9Z7Fcg4OJrTm42S0iO9qTVBBzgfDTcu0C5qarsgzthwRvEzzrM2KOnbt6CLNWAUyOy48COADImO-haH_EDM_vLbpsxO1dZ)
 

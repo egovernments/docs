@@ -74,7 +74,10 @@ Refer to the table below to understand the different user roles and the scope of
   </tbody>
 </table>
 
-### 
+### User Manual Sections
+
+* Citizen Manual
+* Employee Manual
 
 
 

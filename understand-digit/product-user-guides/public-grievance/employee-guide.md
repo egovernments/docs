@@ -2,7 +2,7 @@
 description: Guide to processing citizen complaints
 ---
 
-# Employee Guide
+# Employee User Manual
 
 Citizen complaints are routed through different workflows. The workflows represent a methodical and rational approach to complaint resolution.
 
