@@ -53,24 +53,15 @@ You are logged in to the app.
 To change your account details
 
 1. Click on the drop-down icon next to your profile logo on the top right corner of the window.
-
-![](https://docs.google.com/drawings/u/0/d/sFKAsXe9liLY7Lo0M8W9t4g/image?w=624&h=276&rev=1&ac=1&parent=1pR9OLsrbm5UDtHSuq-Iv2BM78gUTwagbwGpCMGdeqrg)
-
-1. Click on Edit Profile.
-
-![](https://docs.google.com/drawings/u/0/d/sBqvSnRMTqVKhmjaDMEJLYA/image?w=624&h=281&rev=1&ac=1&parent=1pR9OLsrbm5UDtHSuq-Iv2BM78gUTwagbwGpCMGdeqrg)
-
-1. Enter your new user Name if you want to change the existing profile name.
-2. Select the applicable City from the drop-down list if you want to change your city settings.
-3. Enter your Email Id if you want to reset your email address.
-4. Click on the camera ![](https://lh4.googleusercontent.com/TByzXzqFM0xmlOY171TFHKEst3YNcF6R-xQPlvOT5IJaD-nucFOcwTp4xeZn94Lwp2eEJ8w_xO_QR5g7ZEjnuGEq8EMJSi7rVw3T_m-qdkfQrS_sEA_duHIC4nKAfa2yTLS35hSA)  icon to upload or change your Profile photo.
-5. Click on the Gallery button to select an image from your photo gallery or files on the computer.
-
-![](https://lh5.googleusercontent.com/UmbDvYrrd1YR2kFw_T1iygV1tbJ_dmY3MLm1-d-YivLrFzlQEpJHJ0Fp0eBm-E07oowkR0JOhdiPhWQLHRXl8wQlVEiXBGahoT1cnvfpmtSHeGTddpxVXWoHqt1WAaM6DFRP0VZq)
-
-1. Select the file and click on the Open button. This will load the selected image as the profile picture.
-2. Click on the Remove button to delete the existing profile picture.
-3. Click on the Save button.
+2. Click on **Edit Profile**. ![](../../.gitbook/assets/mseva-login.png) 
+3. Enter your new user Name if you want to change the existing profile name.
+4. Select the applicable City from the drop-down list if you want to change your city settings.
+5. Enter your Email Id if you want to reset your email address.
+6. Click on the camera ![](https://lh4.googleusercontent.com/TByzXzqFM0xmlOY171TFHKEst3YNcF6R-xQPlvOT5IJaD-nucFOcwTp4xeZn94Lwp2eEJ8w_xO_QR5g7ZEjnuGEq8EMJSi7rVw3T_m-qdkfQrS_sEA_duHIC4nKAfa2yTLS35hSA)  icon to upload or change your Profile photo.
+7. Click on the **Gallery** button to select an image from your photo gallery or files on the computer. ![](../../.gitbook/assets/edit-profile.png) 
+8. Select the file and click on the Open button. This will load the selected image as the profile picture.
+9. Click on the Remove button to delete the existing profile picture.
+10. Click on the Save button.
 
 The profile changes are saved and applied.  
 
