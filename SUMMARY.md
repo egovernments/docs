@@ -33,7 +33,7 @@
     * [Municipal Service](understand-digit/technical-documentation/municipal-service.md)
     * [Utilities](understand-digit/technical-documentation/utilities.md)
   * [Quality Assurance](understand-digit/testcases.md)
-* [DIGIT Training & Demo](training-and-demo/README.md)
+* [Training & Demo](training-and-demo/README.md)
   * [Training Calendar](training-and-demo/training-calendar.md)
   * [Videos](training-and-demo/videos.md)
 * [Configuring DIGIT](configure/README.md)
