@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Workflow Service](README.md)
+* [DIGIT](README.md)
 * [Getting Started](getting-started-with-digit/README.md)
   * [Digit Overview](getting-started-with-digit/digit-platform-overview.md)
   * [DIGIT Architecture](getting-started-with-digit/technology-and-architecture.md)
@@ -26,10 +26,11 @@
         * [WS Contracts](understand-digit/release-notes/digit-2.0-30.07.2020/api-contracts/ws-contracts.md)
   * [DIGIT Roadmap](understand-digit/digit-roadmap.md)
   * [Product FAQs](understand-digit/product-faqs.md)
-  * [DIGIT Service](understand-digit/technical-documentation/README.md)
+  * [DIGIT Services](understand-digit/technical-documentation/README.md)
     * [Core Service](understand-digit/technical-documentation/core-service.md)
     * [MDMS](understand-digit/technical-documentation/mdms.md)
-    * [Business Service](understand-digit/technical-documentation/business-service.md)
+    * [Business Service](understand-digit/technical-documentation/business-service/README.md)
+      * [Workflow Service](understand-digit/technical-documentation/business-service/workflow-service.md)
     * [Municipal Service](understand-digit/technical-documentation/municipal-service.md)
     * [Utilities](understand-digit/technical-documentation/utilities.md)
   * [Quality Assurance](understand-digit/testcases.md)
