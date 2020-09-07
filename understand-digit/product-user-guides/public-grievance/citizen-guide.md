@@ -58,16 +58,13 @@ To rate resolved complaints
 3. Scroll down to the complaint you want to rate. 
 4. You can rate only complaints marked as Closed.
 5. Scroll down to the **Complaint Timeline** section. ![](../../../.gitbook/assets/pgr-complaint6.png) 
-6. Click on the **Rate** button on the timeline.
-
-![](https://lh5.googleusercontent.com/TI3k2EiJUD0lB5zwTqKtgFYn5VVJQwRtcMpQBaUC6y9Z7Fcg4OJrTm42S0iO9qTVBBzgfDTcu0C5qarsgzthwRvEzzrM2KOnbt6CLNWAUyOy48COADImO-haH_EDM_vLbpsxO1dZ)
-
-1. Click on the number of stars on the screen to rate the work on the complaint on five.
-2. Click on the most appropriate feedback statement to rate the work.
-3. Add any additional information in the **Comments** section.
-4. Click on the **Submit** button.
-5. The system displays an acknowledgement for your ratings.
-6. Click on the **Go To Home** button to navigate back to the home page.
+6. Click on the **Rate** button on the timeline. ![](../../../.gitbook/assets/pgr-complaint7.png) 
+7. Click on the number of stars on the screen to rate the work on the complaint on five.
+8. Click on the most appropriate feedback statement to rate the work.
+9. Add any additional information in the **Comments** section.
+10. Click on the **Submit** button.
+11. The system displays an acknowledgement for your ratings.
+12. Click on the **Go To Home** button to navigate back to the home page.
 
 ### Reopen Complaints
 
@@ -75,16 +72,12 @@ To reopen the complaint
 
 1. Navigate to **Complaints &gt; My Complaints** menu option in the sidebar.
 2. Click on the closed complaint that you want to reopen.
-3. Scroll down to the **Complaint Timeline** section.
+3. Scroll down to the **Complaint Timeline** section. ![](../../../.gitbook/assets/pgr-complaint8.png) 
+4. Click on the **Re-Open** button on the timeline.
 
-![](https://lh6.googleusercontent.com/4wAdWqA_U-UpkWgBFt9Nfqz25_SMQskdaBrclRtRd6tSOei5sj3TqrLH96kViDib4X9QFEnd7mzxMl-FzDJK7k1K-ENldTmt8dfTwidrDmNZdusuZM5zE19c2sGoXEJ3Wu-RAnMo)
-
-1. Click on the **Re-Open** button on the timeline.
-
-![](https://lh3.googleusercontent.com/K8DjKt00FSoGT-MOFHp4TAbhPOasficXgB7Qzl7U-GleSYbHzM4a0JwNgxu1Jw0rk7rAQC_PMftcV0O_s6krZs7VTQAe2LdbaPb2ftt_uSwDYz9x8xu6uy2CbYplB1LqJ1e0RoIn)The Re-Open button will be available only for 5 days after the complaint is resolved and closed by the department employee. The number of days can vary depending on the State or ULBs. The citizen or CSR will not be able to reopen complaints once this period is over.  
+![](https://lh3.googleusercontent.com/K8DjKt00FSoGT-MOFHp4TAbhPOasficXgB7Qzl7U-GleSYbHzM4a0JwNgxu1Jw0rk7rAQC_PMftcV0O_s6krZs7VTQAe2LdbaPb2ftt_uSwDYz9x8xu6uy2CbYplB1LqJ1e0RoIn)The Re-Open button will be available only for 5 days after the complaint is resolved and closed by the department employee. The number of days can vary depending on the State or ULBs. The citizen or CSR will not be able to reopen complaints once this period is over. ![](../../../.gitbook/assets/pgr-complaint9.png) 
 
 
-![](https://lh6.googleusercontent.com/_0q7cIz6f_poIUNzZTFJkEESK1JN0fgO7urTnmndOvypUh85LnR8A7i01HWSVt_YoWgqMfEgnfzKvE2_Jf-9Z3UNhg5X2he4-B1VpHov7zURq-o8krkYSnjS321n2_8C1L15hsJi)
 
 1. Select the appropriate reason for reopening the complaint.
 2. Click on the camera icon to upload any photos related to the complaint.
