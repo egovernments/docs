@@ -8,7 +8,7 @@
 * [Modules & Features](understand-digit/README.md)
   * [Untitled](understand-digit/untitled.md)
   * [Product Brochures](understand-digit/product-brochures/README.md)
-    * [Public Greviance Redressal](understand-digit/product-brochures/property-tax.md)
+    * [Property Tax](understand-digit/product-brochures/property-tax.md)
     * [Property Tax](understand-digit/product-brochures/property-tax-1.md)
   * [Modules & User Guides](understand-digit/product-user-guides/README.md)
     * [Logging In To DIGIT](understand-digit/product-user-guides/logging-in-to-digit.md)
