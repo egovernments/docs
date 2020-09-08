@@ -2,11 +2,11 @@
 
 * [DIGIT](README.md)
 * [Getting Started](getting-started-with-digit/README.md)
-  * [Untitled](getting-started-with-digit/untitled.md)
   * [Digit Overview](getting-started-with-digit/digit-platform-overview.md)
   * [DIGIT Architecture](getting-started-with-digit/technology-and-architecture.md)
 * [Modules & Features](understand-digit/README.md)
-  * [Product Brochures](understand-digit/product-brochures.md)
+  * [Product Brochures](understand-digit/product-brochures/README.md)
+    * [Property Tax](understand-digit/product-brochures/property-tax.md)
   * [Modules & User Guides](understand-digit/product-user-guides/README.md)
     * [Logging In To DIGIT](understand-digit/product-user-guides/logging-in-to-digit.md)
     * [Finance](understand-digit/product-user-guides/finance/README.md)
