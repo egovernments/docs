@@ -814,32 +814,3 @@ The first step to logging in to use the PT module is to register as a user.
 
 ![](https://lh6.googleusercontent.com/W6rh2ubrjC8-N2AILnEyjAu8apdF8vehbNGM9E6hDIJIBablfDiJPXElGwAv-WSdyk0CRv95YpH0WvCShWGqKo7K2BymQ42I3VKETvl79b_xyC7_NZohECXD9jgY1woaC1IRHbGP)
 
-1. Select the file and click on the Open button. This will load the selected image as the profile picture.
-2. Click on the Remove button to delete the existing profile picture.
-3. Click on the Save button.
-
-The profile changes are saved and applied.
-
-#### **Change Language**
-
-Users can change the language of the app from English to Hindi or the local language for ease and convenience.
-
-**To change language**
-
-1. Click on the button marked English adjacent to the profile icon.
-
-![](https://lh4.googleusercontent.com/WNPFforW1_o594BqR3hnEJlBcQe7NAdmGsNaTHckFUpQnVUyobnVlYunnuLYz6UwbSNQRhMFkRUDpcwGzDhYTF5guRMikAr_ODj7qPaWix2D3XuiFTxW5JpufqWy015abzDzgRH7)
-
-1. Select the preferred language from the list of available languages.
-
-The system menu and prompts will now be displayed in the selected language.
-
-#### **Logging out**
-
-To log out from the app 
-
-1. Click on the drop-down icon next to your profile logo on the top right corner of the window.
-2. Click on Logout.
-
-You are logged out of the system.
-
