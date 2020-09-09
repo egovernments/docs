@@ -1,7 +1,3 @@
----
-description: Explore DIGIT
----
-
 # Getting Started
 
 This section offers a deeper insight into the DIGIT platform, its key features, benefits, and architecture details. 
