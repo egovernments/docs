@@ -1,10 +1,36 @@
 ---
 description: >-
-  Deployment Instructions, sequence and requirements on different cloud
-  specifications.
+  Gives an overview of the Infra requirements, how to deploy DIGIT on various
+  cloud infrastructure.
 ---
 
 # Deploy DIGIT
+
+### Overview <a id="requirements"></a>
+
+DIGIT is the largest urban governance platform built for billions of transactions between citizens and the state govt. The platform is built with key capabilities like scale, speed, integration, configurable, customizable, extendable, multi-tenanted, security, etc. 
+
+### Why microservice architecture
+
+To fulfil these demands it is designed as a microservice architecture where services are categorized based on the function and deployed as a layered stack that gives better control over each component of an application that exist in its own container, independently managed and updated. This means that developers can build applications from multiple components and program each component in the language best suited to its function, rather than having to choose a single less-than-ideal language to use for everything. Optimizing software all the way down to the components of the application helps you increase the quality of your products. No time and resources are wasted managing the effects updating one application has on another. 
+
+For being successful in the Microservices journey, here are certain requirements that need to be ascertained:
+
+| DevOps | Auto Scaling | Stateful Services |
+| :--- | :--- | :--- |
+| Scheduled Job Handling | API Gateway | Container Management |
+| Resource and Storage Handling | Fault Tolerance | Load Balancing |
+| Distributed Metrics | Application Runtime and Packaging | App Deployment |
+| Configuration Management | Service Discovery | CI / CD |
+| Virtualization | Hardware & Storage | OS & Networking |
+
+
+
+###  <a id="requirements"></a>
+
+### 
+
+### 
 
 ### Pre-Requisites:
 
