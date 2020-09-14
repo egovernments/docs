@@ -25,7 +25,7 @@ Before you proceed with the configuration, make sure the following pre-requisite
 
 ### Interaction Diagram <a id="Interaction-Diagram"></a>
 
-![](../../../.gitbook/assets/image%20%2874%29.png)
+![](../../../.gitbook/assets/image%20%2875%29.png)
 
 ![](blob:https://digit-discuss.atlassian.net/b00532c9-ebd9-4399-b198-202b588a8601#media-blob-url=true&id=95c4be68-8755-4a4c-9eb6-c295e87d8332&collection=contentId-669450371&contextId=669450371&mimeType=image%2Fpng&name=worddav963cd69be3831c4f701bb66896d09787.png&size=212244&width=900&height=978)![](blob:https://digit-discuss.atlassian.net/19aa7d81-d831-432b-b67c-c0ad69fcc147#media-blob-url=true&id=d06a4095-4c3a-4ef7-a837-83cd9d30d4f5&collection=contentId-669450371&contextId=669450371&mimeType=image%2Fpng&name=worddavaddee1c883411ab62c12446fae7cf3f5.png&size=137791&width=866&height=996)
 

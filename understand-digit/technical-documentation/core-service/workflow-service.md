@@ -32,6 +32,8 @@ Before you proceed with the documentation, make sure the following pre-requisite
 
 ### Interaction Diagram: <a id="Interaction-Diagram:"></a>
 
+![](../../../.gitbook/assets/image%20%2874%29.png)
+
 ![](blob:https://digit-discuss.atlassian.net/448394c3-ba08-49e2-b7f2-b0a91b9b58db#media-blob-url=true&id=00a48d7e-a191-463b-8a2d-94819a5e083e&collection=contentId-664174657&contextId=664174657&mimeType=image%2Fpng&name=Screen%20Shot%202019-01-23%20at%202.59.24%20AM.png&size=176193&width=1540&height=1058)
 
 ### Deployment Details <a id="Deployment-Details"></a>
