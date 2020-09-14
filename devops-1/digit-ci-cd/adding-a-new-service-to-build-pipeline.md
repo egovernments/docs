@@ -66,11 +66,11 @@ URL - [https://builds.egovernments.org/](https://builds.egovernments.org/)
 
 **Check git repository URL is available in** [**ci.yaml**](https://github.com/egovernments/eGov-infraOps/blob/master/helm/environments/ci.yaml)[‌](https://github.com/egovernments/eGov-infraOps/blob/master/helm/environments/ci.yaml)‌
 
-![](../../../.gitbook/assets/0%20%281%29.png)
+![](../../.gitbook/assets/0%20%281%29.png)
 
 If git repository URL is available build the Job-Builder Job
 
-![](../../../.gitbook/assets/1%20%281%29.png)
+![](../../.gitbook/assets/1%20%281%29.png)
 
 If git repository URL is not available ask devops team to add.
 
@@ -115,11 +115,11 @@ This chart can also be modified further based on the user requirements.
 
 The Deployment of manifests to the Kubernetes cluster is made very simple and easy. We have Jenkins Jobs for each state and environment specific. We need to provide the image name or the service name in the respective Jenkins deployment job.
 
-![](../../../.gitbook/assets/2%20%281%29.png)
+![](../../.gitbook/assets/2%20%281%29.png)
 
 Enter a caption for this image \(optional\)
 
-![](../../../.gitbook/assets/3%20%281%29.png)
+![](../../.gitbook/assets/3%20%281%29.png)
 
 Enter a caption for this image \(optional\)
 

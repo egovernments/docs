@@ -4,7 +4,7 @@ description: >-
   cloud infrastructure.
 ---
 
-# Deploy DIGIT
+# DIGIT Deployment
 
 ### Overview <a id="requirements"></a>
 

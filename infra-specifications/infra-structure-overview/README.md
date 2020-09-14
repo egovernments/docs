@@ -4,5 +4,5 @@ description: >-
   Infra.
 ---
 
-# Supported Clouds
+# Supported Infra
 

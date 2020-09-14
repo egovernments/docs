@@ -1,6 +1,6 @@
-# Google Cloud Platform
+# Google Cloud
 
-##  Google Cloud Platform
+## Google Cloud Platform
 
 ### Google Cloud Platform <a id="google-cloud-platform"></a>
 
