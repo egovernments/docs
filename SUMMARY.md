@@ -33,6 +33,7 @@
   * [Product FAQs](understand-digit/product-faqs.md)
   * [DIGIT Services](understand-digit/technical-documentation/README.md)
     * [Core Service](understand-digit/technical-documentation/core-service/README.md)
+      * [Access Control Service](understand-digit/technical-documentation/core-service/access-control-service.md)
       * [User Service](understand-digit/technical-documentation/core-service/user-service.md)
       * [Location Service](understand-digit/technical-documentation/core-service/location-service.md)
       * [Workflow Service](understand-digit/technical-documentation/core-service/workflow-service.md)
