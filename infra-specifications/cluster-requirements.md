@@ -1,14 +1,18 @@
 ---
 description: >-
-  Gives an overview Infra requirements to provision DIGIT and why digit services
-  containerised and deployed on Kubernetes.
+  Infra requirements to provision DIGIT and why digit services containerised and
+  deployed on Kubernetes.
 ---
 
 # Infra Requirements
 
-###  <a id="requirements"></a>
+### Requirements
 
-### Requirements <a id="requirements"></a>
+DIGIT Infra is abstracted to ****[**kubernetes**](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/) which is an open source containers orchestration platform that helps abstracting variety of infra types that are being available across each state, like Physical, VMs, on-premisis clouds\(**VMware, OpenStack, Nutanix**, etc.\), commercial clouds \(**Google, AWS, Azure, etc**.\), SDC and NIC into a standard infra type. Essentially it unifies various infra types into a standard and single type of infrastructure and thus DIGIT becomes **multi-cloud supported, portable, extensible, high-performant and scalable** containerized workloads and services. This facilitates both declarative configuration and automation. Kubernetes services, eco-system, support and tools are widely available.
+
+#### Basic need to provision Kubernetes Cluster <a id="master-cluster"></a>
+
+Kubernetes as such is a set of components that designated jobs of scheduling, controlling, monitoring 
 
 #### Master Cluster <a id="master-cluster"></a>
 
