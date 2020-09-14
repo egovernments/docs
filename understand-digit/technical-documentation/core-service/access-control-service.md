@@ -53,7 +53,7 @@ Any new micro service that is to be added in the platform won’t have to worry 
 
 #### Interaction Diagram:  <a id="Interaction-Diagram:"></a>
 
-![](../../../.gitbook/assets/image%20%2876%29.png)
+![](../../../.gitbook/assets/image%20%2877%29.png)
 
 ### Reference Docs <a id="Reference-Docs"></a>
 
