@@ -7,7 +7,6 @@
 * [Modules & Features](understand-digit/README.md)
   * [Product Brochures](understand-digit/product-brochures/README.md)
     * [Property Tax](understand-digit/product-brochures/property-tax.md)
-    * [Property Tax](understand-digit/product-brochures/property-tax-1.md)
     * [PGR](understand-digit/product-brochures/pgr.md)
   * [Modules & User Manuals](understand-digit/product-user-guides/README.md)
     * [Logging In To DIGIT](understand-digit/product-user-guides/logging-in-to-digit.md)
