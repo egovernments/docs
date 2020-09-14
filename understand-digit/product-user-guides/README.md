@@ -2,7 +2,7 @@
 description: Illustrative help docs
 ---
 
-# Modules & User Guides
+# Modules & User Manuals
 
 ### Introduction To User Modules
 

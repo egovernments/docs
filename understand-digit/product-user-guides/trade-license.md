@@ -2,7 +2,7 @@
 
 ### **Introduction to Trade License**
 
-The Trade License \(TL\) module offers the citizens and governance bodies a convenient and transparent means of processing trade licenses. Trade license is the permission issued by the local governing bodies to carry on specified business or trading activity within the authorized area. It is a mandatory document required to run business or commercial activity of any type.  
+The Trade License \(TL\) module offers the citizens and governance bodies a convenient and transparent means of processing trade licenses. Trade license is the permission issued by the local governing bodies to carry on specified business or trading activity within the authorized area. It is a mandatory document required to run a business or commercial activity of any type.  
 
 
 The TL module enables citizens to apply for trade licenses or renew existing licenses online. It facilitates the governing bodies to validate and approve the license applications.
@@ -62,7 +62,7 @@ The TL module enables citizens to apply for trade licenses or renew existing lic
         <p>Reject</p>
         <p>Edit</p>
       </td>
-      <td style="text-align:left">Employees who goes on to the field (i.e. location of trade) and physically
+      <td style="text-align:left">Employees who go on to the field (i.e. location of trade) and physically
         verifies the information provided by the applicant is correct, checks safety
         precaution followed by the trade owner</td>
     </tr>
@@ -75,7 +75,7 @@ The TL module enables citizens to apply for trade licenses or renew existing lic
         <p>Reject</p>
         <p>Cancel TL</p>
       </td>
-      <td style="text-align:left">Employee who has the final authority to approve or reject the application</td>
+      <td style="text-align:left">The employee who has the final authority to approve or reject the application</td>
     </tr>
   </tbody>
 </table>

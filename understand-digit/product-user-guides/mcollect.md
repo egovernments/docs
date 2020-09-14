@@ -1,3 +1,7 @@
+---
+description: A complete guide to using mCollect module
+---
+
 # mCollect
 
 ### **Introduction to mCollect**
