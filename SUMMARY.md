@@ -57,6 +57,7 @@
     * [Periodic Log Cleanup](configure/setting-up-digit/periodic-log-cleanup.md)
   * [Setting up Master Data](configure/setting-up-master-data/README.md)
     * [MDMS Overview](configure/setting-up-master-data/mdms-overview.md)
+    * [Configuring Master Data](configure/setting-up-master-data/configuring-master-data.md)
     * [Adding new Master](configure/setting-up-master-data/adding-new-master.md)
     * [Configuring Tenants](configure/setting-up-master-data/configuring-tenants.md)
     * [State Level Vs City Level Master](configure/setting-up-master-data/state-level-vs-city-level-master.md)
