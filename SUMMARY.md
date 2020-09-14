@@ -20,6 +20,7 @@
       * [Employee User Manual](understand-digit/product-user-guides/public-grievance/employee-guide.md)
     * [Property Tax](understand-digit/product-user-guides/property-tax.md)
   * [Release Notes](understand-digit/release-notes/README.md)
+    * [MDMS And Configuration Updates](understand-digit/release-notes/mdms-and-configuration-updates.md)
     * [DIGIT 2.0 \(30.07.2020\)](understand-digit/release-notes/digit-2.0-30.07.2020/README.md)
       * [New Releases](understand-digit/release-notes/digit-2.0-30.07.2020/new-releases.md)
       * [Upgrades and Patches](understand-digit/release-notes/digit-2.0-30.07.2020/upgrades-and-patches.md)
