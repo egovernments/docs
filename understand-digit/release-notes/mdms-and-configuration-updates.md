@@ -1,4 +1,4 @@
-# MDMS And Configuration Updates
+# MDMS & Config Updates
 
 **MDMS changes**
 
@@ -52,49 +52,54 @@
 | BPA | Update | [noc-persister.yml](https://github.com/egovernments/configs/commit/b94803a5d2e700b56c35b89b8cde5e1e32cfdbc4) | Changed filestore to filestoreId |
 | BPA | Update | [noc-persister.yml](https://github.com/egovernments/configs/commit/5f7eafdf3339d49a736d31c50037333a11c0f114) | Updated noc persister |
 
-### Infra Change: <a id="Infra-Change:"></a>
+### Deployment Config Change: <a id="Infra-Change:"></a>
 
 W&S
 
-* File Name : **helm/charts/municipal-services/sw-services/values.yaml**
-* Removed the following details from values.yml
+File Name : **helm/charts/municipal-services/sw-services/values.yaml,** Removed the following details from values.yml
 
-scid-format: "SW/\[CITY.CODE\]/\[fy:yyyy-yy\]/\[SEQ\_EGOV\_COMMON\]"
+```text
+scid-format: "SW/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]"
 
-* name: EGOV\_IDGEN\_SCID\_FORMAT
+name: EGOV_IDGEN_SCID_FORMAT
+value: {{ index .Values "scid-format" | quote }}
+```
 
-value: {{ index .Values "scid-format" \| quote }}
+Filename: **helm/charts/municipal-services/ws-services/values.yaml,** Removed the following data
 
-Removed the following data from **helm/charts/municipal-services/ws-services/values.yaml**
+```text
+wcid-format: "WS/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]"
 
-wcid-format: "WS/\[CITY.CODE\]/\[fy:yyyy-yy\]/\[SEQ\_EGOV\_COMMON\]"
+name: EGOV_IDGEN_WCID_FORMAT
+value: {{ index .Values "wcid-format" | quote }}
+```
 
-* name: EGOV\_IDGEN\_WCID\_FORMAT
+File Name **: helm/environments/&lt;env&gt;.yaml,** Autocreate-new-seq flag must be enabled in IdGen Service of environment file. 
 
-value: {{ index .Values "wcid-format" \| quote }}
-
-Autocreate-new-seq flag must be enabled in IdGen Service of environment file. Refer the following
-
-* File Name **: helm/environments/&lt;env&gt;.yaml**
-
+```text
 autocreate-new-seq: "true"
+change the key from 
+    "allowed-file-formats:" to "allowed-file-formats-map:"
+```
 
-* File Name : **helm/environments/qa.yaml**
-  * change the key from allowed-file-formats: to **allowed-file-formats-map:**
-* File Name :**helm/charts/municipal-services/firenoc-services/values.yaml**
-  * Added EGOV\_DEFAULT\_STATE\_ID in fire noc environment file to pick up proper tenant during search call.
+File Name :**helm/charts/municipal-services/firenoc-services/values.yaml,** Added EGOV\_DEFAULT\_STATE\_ID in fire noc environment file to pick up proper tenant during search call.
 
-`1 2 3 4 5` `- name: EGOV_DEFAULT_STATE_ID valueFrom: configMapKeyRef: name: egov-config key: egov-state-level-tenant-id`
+```text
+- name: EGOV_DEFAULT_STATE_ID 
+valueFrom: configMapKeyRef: name: egov-config key: egov-state-level-tenant-id
+```
 
 ### SMS-Notification Service <a id="SMS-Notification-Service"></a>
 
 Added sms.config.map property for SMS changes
 
-File Name : **helm/charts/core-services/egov-notification-sms/values.yaml**
+File Name : **helm/charts/core-services/egov-notification-sms/values.yaml,** Remove the sms.config.map from the values.yml file
 
-Remove the sms.config.map from the values.yml file
+It should move to **helm/environments/&lt;env&gt;.yaml** like below
 
-It should move to **helm/environments/qa.yaml** like below
+```text
+1sms-config-map: "{'User':'$username', 'passwd': '$password', 'sid':'$senderid', 'mobilenumber':'$mobil
+```
 
- `1` `sms-config-map: "{'User':'$username', 'passwd': '$password', 'sid':'$senderid', 'mobilenumber':'$mobil`
+\`\`
 

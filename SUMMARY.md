@@ -28,7 +28,7 @@
       * [API Contracts](understand-digit/release-notes/digit-2.0-30.07.2020/api-contracts/README.md)
         * [WS Contracts](understand-digit/release-notes/digit-2.0-30.07.2020/api-contracts/ws-contracts.md)
     * [Service Build Updates](understand-digit/release-notes/service-build-updates.md)
-    * [MDMS And Configuration Updates](understand-digit/release-notes/mdms-and-configuration-updates.md)
+    * [MDMS & Config Updates](understand-digit/release-notes/mdms-and-configuration-updates.md)
   * [DIGIT Roadmap](understand-digit/digit-roadmap.md)
   * [Product FAQs](understand-digit/product-faqs.md)
   * [DIGIT Services](understand-digit/technical-documentation/README.md)
