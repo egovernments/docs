@@ -1,3 +1,7 @@
+---
+description: Digital Governance Platform
+---
+
 # DIGIT Architecture
 
 ### Architecture Overview <a id="Architecture-Overview"></a>
