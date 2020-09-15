@@ -10,13 +10,13 @@ description: >-
 
 DIGIT Infra is abstracted to ****[**kubernetes**](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/) which is an open source containers orchestration platform that helps abstracting variety of infra types that are being available across each state, like Physical, VMs, on-premisis clouds\(**VMware, OpenStack, Nutanix**, etc.\), commercial clouds \(**Google, AWS, Azure, etc**.\), SDC and NIC into a standard infra type. Essentially it unifies various infra types into a standard and single type of infrastructure and thus DIGIT becomes **multi-cloud supported, portable, extensible, high-performant and scalable** containerized workloads and services. This facilitates both declarative configuration and automation. Kubernetes services, eco-system, support and tools are widely available.
 
-#### Basic need to provision Kubernetes Cluster <a id="master-cluster"></a>
+### Basic need to provision Kubernetes Cluster
 
 Kubernetes as such is a set of components that designated jobs of scheduling, controlling, monitoring 
 
 #### Master Cluster <a id="master-cluster"></a>
 
-* Six or more machines running one of:
+* 3 or more machines running one of:
   * Ubuntu 16.04+
   * Debian 9
   * CentOS 7
@@ -27,7 +27,7 @@ Kubernetes as such is a set of components that designated jobs of scheduling, co
 
 #### User Cluster <a id="user-cluster"></a>
 
-* One or more machines running one of:
+* 3 or more machines running one of:
   * Ubuntu 16.04+
   * Debian 9
   * CentOS 7
@@ -47,13 +47,13 @@ Kubernetes as such is a set of components that designated jobs of scheduling, co
 
 It is very likely that hardware devices will have unique addresses, although some virtual machines may have identical values. Kubernetes uses these values to uniquely identify the nodes in the cluster. If these values are not unique to each node, the installation process may [fail](https://github.com/kubernetes/kubeadm/issues/31).
 
-#### Check Network Adapters <a id="check-network-adapters"></a>
+### Check Network Adapters
 
 If you have more than one network adapter, and your Kubernetes components are not reachable on the default route, we recommend you add IP route\(s\) so Kubernetes cluster addresses go via the appropriate adapter.
 
 #### Check Required Ports <a id="check-required-ports"></a>
 
-**Master Cluster Master Node\(s\)**
+### **Master Cluster Master Node\(s\)**
 
 | Protocol | Direction | Port Range | Purpose |
 | :--- | :--- | :--- | :--- |
@@ -64,7 +64,7 @@ If you have more than one network adapter, and your Kubernetes components are no
 | TCP | Inbound | 10252 | kube-controller-manager |
 | TCP | Inbound | 10255 | Read-only kubelet API |
 
-**Worker Node\(s\)& User Cluster Worker Nodes**
+### **Worker Node\(s\)& User Cluster Worker Nodes**
 
 | Protocol | Direction | Port Range | Purpose |
 | :--- | :--- | :--- | :--- |

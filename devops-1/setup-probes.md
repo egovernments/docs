@@ -4,7 +4,7 @@ description: >-
   and the availability of the service is ensured automatically.
 ---
 
-# Setup Probes
+# Readiness & Liveness
 
 ## What is Probes <a id="8ec4"></a>
 
