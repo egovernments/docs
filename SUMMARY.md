@@ -70,6 +70,7 @@
     * [Setting up Workflow](configure/configuring-workflows/setting-up-workflow.md)
     * [Configuring workflow for an entity](configure/configuring-workflows/configuring-workflow-for-an-entity.md)
   * [Configuring Localization](configure/configuring-localization.md)
+  * [Setting Up eDCR Service](configure/setting-up-edcr-service.md)
   * [Configuration FAQs](configure/configuration-faqs.md)
   * [Setting up a Language](configure/setting-up-a-language/README.md)
     * [Adding New Language](configure/setting-up-a-language/adding-a-language.md)
