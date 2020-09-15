@@ -8,7 +8,7 @@ description: DIGIT Modules
 
 DIGIT offers several modules. Each module is designed to automate the manual workflows for various governance units.
 
-![](../.gitbook/assets/image%20%2863%29.png)
+![](../.gitbook/assets/image%20%2879%29.png)
 
 ### Features
 
