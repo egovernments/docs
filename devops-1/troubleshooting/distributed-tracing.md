@@ -30,7 +30,7 @@ Here are some basic terminologies of Opentracing:
 
 **Trace —** A Trace tells the story of a transaction or workflow as it propagates through a distributed system. It is simply a set of spans sharing a _TraceID_. Each component in a distributed system contributes its own span.
 
-![](../.gitbook/assets/image%20%2880%29.png)
+![](../../.gitbook/assets/image%20%2880%29.png)
 
 OpenTracing is a way for services to “_describe and propagate distributed traces without knowledge of the underlying OpenTracing implementation._”
 
@@ -98,13 +98,13 @@ Here is a brief description of how OpenTracing has been used in the program:
 
 Now, check your Jaeger UI, you can see a new service “booking” added. Select the service and click on “Find Traces” to see the traces of your service. Every time you run the program a new trace will be created.
 
-![](../.gitbook/assets/image%20%2881%29.png)
+![](../../.gitbook/assets/image%20%2881%29.png)
 
 You can now compare the duration of traces through the graph shown above. You can also filter traces using “Tags” section under “Find Traces”. For example, Setting “error=true” tag will filter out all the jobs that have errors.
 
 To view the detailed trace, you can select a specific trace instance and check details like the time taken by each service, errors during execution and logs.
 
-![](../.gitbook/assets/image%20%2882%29.png)
+![](../../.gitbook/assets/image%20%2882%29.png)
 
 ## Conclusion <a id="362c"></a>
 
