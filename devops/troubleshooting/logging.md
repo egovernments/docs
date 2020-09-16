@@ -1,7 +1,7 @@
 ---
 description: >-
   A good/meaningful logging system is a system that everyone can use and
-  understand. Not only developers need logging.
+  understand. How Digit Logging is configured.
 ---
 
 # Logging
