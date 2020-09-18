@@ -12,7 +12,7 @@ Kubernetes project started in year the 2014 with [more than a decade of experien
 
 ## Kubernetes Architecture <a id="af9f"></a>
 
-![Figure 1: Kubernetes Architecture](../.gitbook/assets/image%20%2865%29.png)
+![Figure 1: Kubernetes Architecture](../../.gitbook/assets/image%20%2865%29.png)
 
 One of the fundamental design decisions which have been taken by this impeccable cluster manager is its ability to deploy existing applications that run on VMs without any changes to the application code. On the high level, any application that runs on VMs can be deployed on Kubernetes by simply containerizing its components. This is achieved by its core features; container grouping, container orchestration, overlay networking, container-to-container routing with layer 4 virtual IP based routing system, service discovery, support for running daemons, deploying stateful application components, and most importantly the ability to extend the container orchestrator for supporting complex orchestration requirements.
 
@@ -22,7 +22,7 @@ That's just a glimpse of what Kubernetes provides out of the box. In the next fe
 
 ## Application Deployment Model <a id="9379"></a>
 
-![Figure 2: Kubernetes Application Deployment Model](../.gitbook/assets/image%20%2867%29.png)
+![Figure 2: Kubernetes Application Deployment Model](../../.gitbook/assets/image%20%2867%29.png)
 
 The above figure illustrates the high level application deployment model on Kubernetes. It uses a resource called [ReplicaSet](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/) for orchestrating containers. A ReplicaSet can be considered as a YAML or a JSON based metadata file which defines the container images, ports, the number of replicas, activation health checks, liveness health checks, environment variables, volume mounts, security rules, etc required for creating and managing the containers. Containers are always created on Kubernetes as groups called [Pods](https://kubernetes.io/docs/concepts/workloads/pods/pod/) which is again a Kubernetes metadata definition or a resource. Each pod allows sharing the file system, network interfaces, operating system users, etc among the containers using Linux namespaces, cgroups, and other kernel features. The ReplicaSets can be managed by another high level resource called [Deployments](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/) for providing features for rolling out updates and handling their rollbacks.
 
@@ -34,13 +34,13 @@ kubectl run  --image= --port=
 
 ## Service Discovery & Load Balancing <a id="ca6b"></a>
 
-![Figure 3: Kubernetes Service Discovery &amp; Load Balancing Model](../.gitbook/assets/image%20%2866%29.png)
+![Figure 3: Kubernetes Service Discovery &amp; Load Balancing Model](../../.gitbook/assets/image%20%2866%29.png)
 
 One of the key features of Kubernetes is its service discovery and internal routing model provided using SkyDNS and layer 4 virtual IP based routing system. These features provide internal routing for application requests using services. A set of pods created via a replica set can be load balanced using a service within the cluster network. The services get connected to pods using selector labels. Each service will get assigned a unique IP address, a hostname derived from its name and route requests among the pods in round robin manner. The services will even provide IP-hash based routing mechanism for applications which may require session affinity. A service can define a collection of ports and the properties defined for the given service will apply to all the ports in the same way. Therefore, in a scenario where session affinity is only needed for a given port where all the other ports required to use round robin based routing, multiple services may need to be used.
 
 ### How Services Internally Work <a id="52e3"></a>
 
-![Figure 4: Kubernetes Service Proxy Modes \(Userspace, iptables, &amp; ipvs\)](../.gitbook/assets/image%20%2869%29.png)
+![Figure 4: Kubernetes Service Proxy Modes \(Userspace, iptables, &amp; ipvs\)](../../.gitbook/assets/image%20%2869%29.png)
 
 Kubernetes services have been implemented using a component called kube-proxy. A kube-proxy instance runs in each node and provides three proxy modes: Userspace, iptables and IPVS. The current default is iptables.
 
@@ -52,7 +52,7 @@ The third proxy mode was [added in Kubernetes v1.8](https://github.com/kubernete
 
 ## Internal/External Routing Separation <a id="2c4b"></a>
 
-![Figure 5: Kubernetes Internal/External Routing Separation](../.gitbook/assets/image%20%2871%29.png)
+![Figure 5: Kubernetes Internal/External Routing Separation](../../.gitbook/assets/image%20%2871%29.png)
 
 Kubernetes services can be exposed to the external networks in two main ways. The first is using node ports by exposing dynamic ports on the nodes that forward traffic to the service ports. The second is using a load balancer configured via an ingress controller which can delegate requests to the services by connecting to the same overlay network. An ingress controller is a background process which may run in a container which listens to the Kubernetes API, dynamically configure and reloads a given load balancer according to a given set of ingresses. An ingress defines the routing rules based on hostnames and context paths using services.
 
@@ -66,7 +66,7 @@ The above command will create a service of load balancer type and map it to the 
 
 ## Usage of Persistent Volumes <a id="52ef"></a>
 
-![Figure 6: Kubernetes Persistent Volume Binding Models](../.gitbook/assets/image%20%2870%29.png)
+![Figure 6: Kubernetes Persistent Volume Binding Models](../../.gitbook/assets/image%20%2870%29.png)
 
 Applications that require persisting data on the filesystem may use volumes for mounting storage devices to ephemeral containers similar to how volumes are used with VMs. Kubernetes has properly designed this concept by loosely coupling physical storage devices with containers by introducing an intermediate resource called persistent volume claims \(PVCs\). A PVC defines the disk size, disk type \(ReadWriteOnce, ReadOnlyMany, ReadWriteMany\) and dynamically links a storage device to a volume defined against a pod. The binding process can either be done in a static way using PVs or dynamically be using a persistent storage provider. In both approaches, a volume will get linked to a PV one to one and depend on the configuration given data will be preserved even if the pods get terminated. According to the disk type used multiple pods will be able to connect to the same disk and read/write.
 
@@ -74,7 +74,7 @@ Disks that support ReadWriteOnce will only be able to connect to a single pod an
 
 ## Deploying Daemons on Nodes <a id="d20c"></a>
 
-![Figure 7: Deploying Daemons on Kubernetes Nodes](../.gitbook/assets/image%20%2872%29.png)
+![Figure 7: Deploying Daemons on Kubernetes Nodes](../../.gitbook/assets/image%20%2872%29.png)
 
 Kubernetes provides a resource called DaemonSets for running a copy of a pod in each Kubernetes node as a daemon. Some of the use cases of DaemonSets are as follows:
 
@@ -85,7 +85,7 @@ Kubernetes provides a resource called DaemonSets for running a copy of a pod in 
 
 ## Deploying Stateful Distributed Systems <a id="3f04"></a>
 
-![Figure 8: Stateful Component Deployment Model](../.gitbook/assets/image%20%2873%29.png)
+![Figure 8: Stateful Component Deployment Model](../../.gitbook/assets/image%20%2873%29.png)
 
 One of the most difficult tasks of containerizing applications is the process of designing the deployment architecture of stateful distributed components. Stateless components can be easily containerized as they may not have a predefined startup sequence, clustering requirements, point to point TCP connections, unique network identifiers, graceful startup and termination requirements, etc. Systems such as databases, big data analysis systems, distributed key/value stores, and message brokers, may have complex distributed architectures that may require above features. Kubernetes introduced StatefulSets resource for supporting such complex requirements.
 

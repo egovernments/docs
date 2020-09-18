@@ -1,2 +1,2 @@
-# Customizing DIGIT
+# Customize DIGIT
 

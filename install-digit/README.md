@@ -2,5 +2,5 @@
 description: Partner with us to enhance and integrate more to the platform.
 ---
 
-# Install DIGIT
+# Configure DIGIT
 
