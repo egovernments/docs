@@ -107,6 +107,7 @@
       * [Routing Traffic](deploy-flow/deployment/digit-deployment-on-aws/routing-traffic.md)
       * [Backbone Deployment](deploy-flow/deployment/digit-deployment-on-aws/backbone-deployment.md)
 * [DIGIT DevOps](devops/README.md)
+  * [DevOps Skills](devops/devops-skills.md)
   * [Resource Requests & Limits](devops/resource-requests-and-limits.md)
   * [Readiness & Liveness](devops/probes.md)
   * [Troubleshooting](devops/troubleshooting/README.md)
