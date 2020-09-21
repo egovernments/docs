@@ -5,7 +5,6 @@
   * [DIGIT Architecture](digit-overview/architecture.md)
 * [Product Overview](modules-features/README.md)
   * [Brochures](modules-features/product-brochures/README.md)
-    * [Property Tax](modules-features/product-brochures/brochure-pt.md)
     * [PGR](modules-features/product-brochures/brochure-pgr.md)
   * [User Manuals](modules-features/user-guides/README.md)
     * [Logging In To DIGIT](modules-features/user-guides/guide-login.md)
