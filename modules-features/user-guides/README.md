@@ -11,10 +11,10 @@ DIGIT modules follow structured workflows to allow easy tracking of applications
 This section contains:
 
 * Logging In To DIGIT
-* [Trade License User ](https://app.gitbook.com/@egov-digit/s/external/understand-digit/product-user-guides/trade-license)Guide
-* [Public Grievances & Redressal User Guide](https://app.gitbook.com/@egov-digit/s/external/understand-digit/product-user-guides/public-grievance)
-* Property Tax User Guide
-* mCollect User Guide
+* [Trade License User ](https://app.gitbook.com/@egov-digit/s/external/understand-digit/product-user-guides/trade-license)Manual
+* [Public Grievances & Redressal User ](https://app.gitbook.com/@egov-digit/s/external/understand-digit/product-user-guides/public-grievance)Manual
+* Property Tax User Manual
+* mCollect User Manual
 
 
 
