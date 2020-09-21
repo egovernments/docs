@@ -1,9 +1,8 @@
 # Table of contents
 
 * [DIGIT](README.md)
-* [Getting Started](getting-started/README.md)
-  * [Digit Overview](getting-started/digit-overview.md)
-  * [DIGIT Architecture](getting-started/architecture.md)
+* [Digit Overview](digit-overview/README.md)
+  * [DIGIT Architecture](digit-overview/architecture.md)
 * [Product Overview](modules-features/README.md)
   * [Brochures](modules-features/product-brochures/README.md)
     * [Property Tax](modules-features/product-brochures/brochure-pt.md)
