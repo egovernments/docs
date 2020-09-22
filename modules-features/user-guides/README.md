@@ -14,7 +14,7 @@ This section contains:
 * [Trade License User Manual](guide-tl/)
 * [Public Grievances & Redressal User Manual](guide-pgr/)
 * [Property Tax User Manual](guide-pt.md)
-* [mCollect User Manual](guide-mcollect.md)
+* [mCollect User Manual](guide-mcollect/)
 * [Finance User Manual](guide-finance/)
 
 
