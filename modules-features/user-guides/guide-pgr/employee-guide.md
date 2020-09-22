@@ -1,22 +1,22 @@
 ---
-description: Guide to processing citizen complaints
+description: >-
+  This section illustrates the steps for different employee user roles at the
+  ULB level
 ---
 
 # Employee User Manual
 
-Citizen complaints are routed through different workflows. The workflows represent a methodical and rational approach to complaint resolution.
+### CSR
 
-These workflows include -
+Complaints can also be registered by ULB counter employees on behalf of the citizen. 
 
-* File Complaints
-* Search Complaints
-* Reopen Complaints
-* Rate Complaints
-* Assign Complaints
-* Re-Assign Complaints
-* Share Complaints
-* Reject Complaints
-* Resolve Complaints
+The CSR or counter employees can perform the following actions on PGR -
+
+1. [File Complaints](employee-guide.md#file-complaints)
+2. [Search or Track Complaints](employee-guide.md#search-complaints)
+3. [Reopen Complaints](employee-guide.md#reopen-complaints)
+
+![](https://docs.google.com/drawings/u/0/d/sU6rjcwIb9fCKVVn6TmBleg/image?w=425&h=156&rev=18&ac=1&parent=1pR9OLsrbm5UDtHSuq-Iv2BM78gUTwagbwGpCMGdeqrg)
 
 ### File Complaints
 
@@ -66,6 +66,22 @@ To reopen the complaint
 10. The system displays an acknowledgement message stating the complaint is reopened.
 11. Click on the **Go To Home** button to navigate back to the home page.
 
+### GRO
+
+The Grievance Routing Officer or GRO manages the complaints queue. The role ensures the complaints are routed to the appropriate employees for prompt action.  
+
+
+![](https://docs.google.com/drawings/u/0/d/seDcaL8vC1txsB-nX-fjHdQ/image?w=550&h=183&rev=117&ac=1&parent=1pR9OLsrbm5UDtHSuq-Iv2BM78gUTwagbwGpCMGdeqrg)
+
+GROs can 
+
+1. [Assign complaints](employee-guide.md#assign-complaints)
+2. [Re-Assign complaints](employee-guide.md#re-assign-complaints)
+3. [Share complaints](employee-guide.md#share-complaints)
+4. [Reject complaints](employee-guide.md#reject-complaints)
+5. Call citizens
+6. Comment on complaints
+
 ### Assign Complaints
 
 Grievances filed by citizens are assigned to specific employees who are responsible for acting on and resolving the complaints.   
@@ -80,8 +96,7 @@ To assign complaints
 7. Select an employee. ![](../../../.gitbook/assets/pgr-complaint18.png) 
 8. Click on the **Assign** button. 
 
-The complaint is assigned to the selected employee.  
-
+The complaint is assigned to the selected employee.
 
 ### Re-Assign Complaints
 
@@ -109,8 +124,7 @@ To share complaints
 5. Select the person or list of people for sharing.
 6. Click on the **Send** button.
 
-The complaint is shared with the selected recipients.  
-
+The complaint is shared with the selected recipients.
 
 ### Reject Complaints
 
@@ -125,9 +139,51 @@ To reject complaints
 6. Click on the **Submit** button.
 7. The complaint is rejected.
 
+### **FME**
+
+First Mile Employees or FMEs are responsible for acting on citizen complaints. 
+
+FMEs can -
+
+1. [Request Re-Assign](employee-guide.md#request-re-assign)
+2. [Mark Resolved](employee-guide.md#resolve-complaints)
+3. Call citizens
+4. Comment on complaints
+5. [Search complaints](employee-guide.md#search-complaints)
+6. [Share complaints](employee-guide.md#share-complaints)
+
+![](https://docs.google.com/drawings/u/0/d/szovKDR3VG6ANH92_TvpdDQ/image?w=511&h=201&rev=61&ac=1&parent=1pR9OLsrbm5UDtHSuq-Iv2BM78gUTwagbwGpCMGdeqrg)
+
+### 
+
+### **Request Re-Assign**
+
+FMEs work on the assigned complaints. In some cases, the FMEs may request complaints to be reassigned to some other employee. 
+
+To request reassign
+
+1. Navigate to the Complaints menu option in the sidebar.
+2. Click on Open Complaints.
+3. Search for a specific complaint using the Citizen Mobile No. or inputting the last 6 digits of the Complaint No.
+
+![](https://lh3.googleusercontent.com/Vv8ny3w8w0sZAikd4m6IBOX88tVLqRbzBRUVaAbK6OkNuPFGr62Z3BaDoWsEZd8-8PVHGL_r3DOipAuquLM2QHkMIvzozxMy-2OgMRC338fK5YPUotfakHleUBnyvupXsjkAffU4)
+
+1. Else, click on the relevant complaint from the list of open complaints.
+2. Click on the Request Re-Assign button available in the bottom right corner of the screen.
+
+![](https://lh5.googleusercontent.com/T7WDN_gtW0hKtf4hIgBwlbmDmyxyMEgxWGIiACKWM9ufmVaeCeb1SHtNQvWwnfjeg_UoCZ-QPzQiZEtiAWb5rZMFDl22hOpyWZY4FQwyvCssMK-FkUgAgdRVj9Rfc6fBFkGj0uTm)
+
+1. Select a specific reason for requesting a re-assign.
+
+![](https://lh3.googleusercontent.com/r2XYgPDVi1clkK7pGV--aX2b1hdE_YKGav1rpDurKhiJD3SUHctZJ4_-oQ1U9yY0ybSWgDGi7ef9cKTrH-frc4QszzovLw6fcdifQw50QrgKRvhYNQ9yvZzQBHCd9nr5h5Su4qe-)
+
+1. Enter any additional information in the Comments section.
+2. Click on the Request Re-Assign button.
+
 ### Resolve Complaints
 
-Once the complaints are actioned on the FME marks the issue resolved. The complaint is closed subsequently.  
+Once the complaints are actioned on the FME marks the issue resolved. The complaint is closed subsequently.
+
 To mark the complaint resolved
 
 1. Navigate to the **Complaints** menu option in the sidebar.

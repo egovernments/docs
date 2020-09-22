@@ -1,5 +1,5 @@
 ---
-description: This section illustrates the steps for citizens
+description: 'Learn how to search, download and print your payment receipts'
 ---
 
 # Citizen User Manual

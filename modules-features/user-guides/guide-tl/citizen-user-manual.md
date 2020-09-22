@@ -1,5 +1,5 @@
 ---
-description: This section illustrates the steps for citizens and counter employees
+description: 'Learn how to apply for new trade license, renew and pay trade license fee'
 ---
 
 # Citizen User Manual

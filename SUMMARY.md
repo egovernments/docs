@@ -20,6 +20,7 @@
       * [Citizen User Manual](modules-features/user-guides/guide-pgr/citizen-guide.md)
       * [Employee User Manual](modules-features/user-guides/guide-pgr/employee-guide.md)
     * [Property Tax](modules-features/user-guides/guide-pt/README.md)
+      * [Employee User Manual](modules-features/user-guides/guide-pt/employee-user-manual.md)
       * [Citizen User Manual](modules-features/user-guides/guide-pt/citizen-user-manual.md)
   * [Services Overview](modules-features/technical-documentation/README.md)
     * [Core Services](modules-features/technical-documentation/core-service/README.md)

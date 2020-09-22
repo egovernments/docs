@@ -1,3 +1,9 @@
+---
+description: >-
+  Learn how to add new property, assess or transfer property and pay property
+  tax
+---
+
 # Citizen User Manual
 
 ### **Citizens and CE**

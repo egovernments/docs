@@ -1,3 +1,7 @@
+---
+description: Illustrative guide to using the trade license module
+---
+
 # Trade License
 
 ### **Introduction to Trade License**

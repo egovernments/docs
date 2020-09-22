@@ -27,8 +27,7 @@ Refer to the table below to understand the different user roles and the scope of
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left"><a href="citizen-guide.md">Citizens</a>
-      </td>
+      <td style="text-align:left">Citizens</td>
       <td style="text-align:left">
         <p>File Complaints</p>
         <p>Track Complaints</p>
@@ -40,8 +39,7 @@ Refer to the table below to understand the different user roles and the scope of
       <td style="text-align:left">Individuals and society groups/communities</td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="employee-guide.md">Customer Service Representatives (CSR)</a>
-      </td>
+      <td style="text-align:left">Customer Service Representatives (CSR)</td>
       <td style="text-align:left">
         <p>File Complaints</p>
         <p>Track Complaints</p>
@@ -76,10 +74,14 @@ Refer to the table below to understand the different user roles and the scope of
   </tbody>
 </table>
 
-### User Manual Sections
+### Using PGR
 
-* [Citizen Manual](citizen-guide.md)
-* [Employee Manual](employee-guide.md)
+This section guides you through the details of using the PGR module for each role. Click on the relevant role below to learn more about how to use the PGR system.
+
+* Citizens
+* CSR
+* GRO
+* FME
 
 
 
