@@ -11,7 +11,7 @@ DIGIT modules follow structured workflows to allow easy tracking of applications
 This section contains:
 
 * [Logging In To DIGIT](guide-login.md)
-* [Trade License User Manual](guide-tl.md)
+* [Trade License User Manual](guide-tl/)
 * [Public Grievances & Redressal User Manual](guide-pgr/)
 * [Property Tax User Manual](guide-pt.md)
 * [mCollect User Manual](guide-mcollect.md)
