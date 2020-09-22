@@ -76,8 +76,8 @@ Refer to the table below to understand the different user roles and the scope of
 
 ### User Manual Sections
 
-* Citizen Manual
-* Employee Manual
+* [Citizen Manual](citizen-guide.md)
+* [Employee Manual](employee-guide.md)
 
 
 
