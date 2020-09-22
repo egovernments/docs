@@ -1,7 +1,5 @@
 # User Service
 
-
-
 ### Overview <a id="Overview"></a>
 
 User service is responsible for user data management and providing functionality to login and logout into Digit system
@@ -10,7 +8,7 @@ User service is responsible for user data management and providing functionality
 
 Before you proceed with the configuration, make sure the following pre-requisites are met -
 
-* _Java 8_
+* Java 8
 * Kafka server is up and running
 * Encryption and MDMS services are running
 * PSQL server is running and database
@@ -20,24 +18,22 @@ Before you proceed with the configuration, make sure the following pre-requisite
 
 * Store, update and search user data
 * Provide authentication
-* Provide login,logout functionality into DIGIT platform
+* Provide login, logout functionality into DIGIT platform
 * Store user data PIIs in encrypted form
 
 ### Interaction Diagram <a id="Interaction-Diagram"></a>
 
 ![](../../../.gitbook/assets/image%20%2875%29.png)
 
-![](blob:https://digit-discuss.atlassian.net/b00532c9-ebd9-4399-b198-202b588a8601#media-blob-url=true&id=95c4be68-8755-4a4c-9eb6-c295e87d8332&collection=contentId-669450371&contextId=669450371&mimeType=image%2Fpng&name=worddav963cd69be3831c4f701bb66896d09787.png&size=212244&width=900&height=978)![](blob:https://digit-discuss.atlassian.net/19aa7d81-d831-432b-b67c-c0ad69fcc147#media-blob-url=true&id=d06a4095-4c3a-4ef7-a837-83cd9d30d4f5&collection=contentId-669450371&contextId=669450371&mimeType=image%2Fpng&name=worddavaddee1c883411ab62c12446fae7cf3f5.png&size=137791&width=866&height=996)
-
 ### Deployment Details <a id="Deployment-Details"></a>
 
 1. Setup latest version of egov-enc-service and egov-mdms- service
-2. Deploy latest version of egov-user service
+2. Deploy the latest version of egov-user service
 3. Add Role-Action mapping for API’s
 
 ### Configuration Details <a id="Configuration-Details"></a>
 
-Following are the properties in application.properties file in user service which are configurable.
+Following application properties file in user service are configurable.
 
 | **Property** | **Value** | **Remarks** |
 | :--- | :--- | :--- |
@@ -59,7 +55,7 @@ Following are the properties in application.properties file in user service whic
 
 #### Integration Scope <a id="Integration-Scope"></a>
 
- User data management and functionality to login and logout into Digit system using otp and password.
+User data management and functionality to login and logout into Digit system using OTP and password.
 
 #### Integration Benefits <a id="Integration-Benefits"></a>
 
@@ -71,8 +67,8 @@ Providing following functionality to citizen and employee type users
   * Update user details
   * Forgot password
   * Change password
-  * User role mapping\(Single ulb to multiple role\)
-  * Enable employee to login into DIGIT system based on password.
+  * User role mapping\(Single ULB to multiple roles\)
+  * Enable employee to login into DIGIT system based on a password.
 * Citizen:
   * Create user
   * Update user
@@ -82,7 +78,7 @@ Providing following functionality to citizen and employee type users
 
 #### Steps to Integration <a id="Steps-to-Integration"></a>
 
-* To integrate, host of egov-user should be overwritten in helm chart.
+* To integrate, host of egov-user should be overwritten in the helm chart.
 * Use /citizen/\_create and /users/\_createnovalidate endpoints for creating users into the system
 * Use /v1/\_search and /\_search endpoints to search users in the system depending on various search parameters
 * Use /profile/\_update for partial update and /users/\_updatenovalidate for update
