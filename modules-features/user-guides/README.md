@@ -13,7 +13,7 @@ This section contains:
 * [Logging In To DIGIT](guide-login.md)
 * [Trade License User Manual](guide-tl/)
 * [Public Grievances & Redressal User Manual](guide-pgr/)
-* [Property Tax User Manual](guide-pt.md)
+* [Property Tax User Manual](guide-pt/)
 * [mCollect User Manual](guide-mcollect/)
 * [Finance User Manual](guide-finance/)
 
