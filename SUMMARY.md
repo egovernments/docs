@@ -32,6 +32,8 @@
   * [Release Notes](modules-features/release-notes/README.md)
     * [Configuration Changes](modules-features/release-notes/configuration-changes.md)
     * [Product Release Notes](modules-features/release-notes/product-release-notes/README.md)
+      * [Advance Payments Release Notes](modules-features/release-notes/product-release-notes/advance-payments-release-notes.md)
+      * [Public Grievance & Redressal Release Notes](modules-features/release-notes/product-release-notes/public-grievance-and-redressal-release-notes.md)
       * [Water & Sewerage Release Notes](modules-features/release-notes/product-release-notes/water-and-sewerage-release-notes.md)
       * [Property Tax Release Notes](modules-features/release-notes/product-release-notes/property-tax-release-notes.md)
       * [Trade License Release Notes](modules-features/release-notes/product-release-notes/trade-license-release-notes.md)
