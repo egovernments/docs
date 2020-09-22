@@ -6,9 +6,10 @@ description: Module specific release details
 
 This section contains individual product module release details. Click on the product links below to find out specific details on new features, updates and enhancements.
 
-* [BPA Release Notes](https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/695828614/BPA+Release+Notes)
-* [Trade License Release Notes](https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/695828627/Trade+License+Release+Notes)
-* [Property Tax Release Notes](https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/695828643/Property+Tax+Release+Notes)
-* [Water & Sewerage Release Notes](https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/695632019/Water+Sewerage+Release+Notes)
-* [Advance Payments Release Notes](https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/706150407/Advance+Payments+Release+Notes)
+* [BPA Release Notes](bpa-release-notes.md)
+* [Trade License Release Notes](trade-license-release-notes.md)
+* [Property Tax Release Notes](property-tax-release-notes.md)
+* [Public Grievance & Redressal Release Notes](public-grievance-and-redressal-release-notes.md)
+* [Water & Sewerage Release Notes](water-and-sewerage-release-notes.md)
+* [Advance Payments Release Notes](advance-payments-release-notes.md)
 
