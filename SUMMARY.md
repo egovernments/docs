@@ -29,7 +29,7 @@
       * [pgr-services](modules-features/technical-documentation/municipal-service/pgr-services.md)
       * [Trade-License Service](modules-features/technical-documentation/municipal-service/trade-license-service.md)
     * [Utilities](modules-features/technical-documentation/utilities.md)
-  * [Releases & Upgrades](modules-features/release-notes/README.md)
+  * [Release Notes](modules-features/release-notes/README.md)
     * [DIGIT 2.0 \(30.07.2020\)](modules-features/release-notes/release-2.0/README.md)
       * [Release Summary](modules-features/release-notes/release-2.0/2.0-summary.md)
       * [Upgrades and Patches](modules-features/release-notes/release-2.0/2.0-upgrades-summary.md)
