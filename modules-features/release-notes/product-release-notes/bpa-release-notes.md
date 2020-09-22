@@ -19,10 +19,6 @@ OC eDCR will validate whether the actual construction is complying to the by-law
 
 ### Release Features <a id="Release-Features"></a>
 
-| **Key Features** | **Description** |
-| :--- | :--- |
-
-
 <table>
   <thead>
     <tr>
