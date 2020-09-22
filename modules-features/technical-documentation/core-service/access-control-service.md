@@ -2,9 +2,9 @@
 
 ### Overview <a id="Overview"></a>
 
-DIGIT is API based Platform here each API is denoting to a DIGIT resource. Access Control Service \(ACS\) primary job is to authorise end user based on their roles and provide access of the DIGIT platform resources. Access control functionality basically works based on below points:
+DIGIT is API based Platform here each API is denoting to a DIGIT resource. Access Control Service \(ACS\) primary job is to authorise end-user based on their roles and provide access to the DIGIT platform resources. Access control functionality basically works based on below points:
 
-**Actions:** Actions are events which is performed by an user. This can be a api end-point or Frontend event. This is MDMS master
+**Actions:** Actions are events which are performed by an user. This can be a api end-point or Frontend event. This is MDMS master
 
 **Roles:** Role are assigned to user, a user can hold multiple roles. Roles are defined in MDMS masters.
 

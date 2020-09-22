@@ -6,7 +6,7 @@
 * [Product Overview](modules-features/README.md)
   * [Brochures](modules-features/product-brochures.md)
   * [User Manuals](modules-features/user-guides/README.md)
-    * [Logging In To DIGIT](modules-features/user-guides/guide-login.md)
+    * [Logging Into DIGIT](modules-features/user-guides/guide-login.md)
     * [mCollect](modules-features/user-guides/guide-mcollect.md)
     * [Finance](modules-features/user-guides/guide-finance/README.md)
       * [Citizen User Manual](modules-features/user-guides/guide-finance/citizen-user-manual.md)

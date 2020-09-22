@@ -2,7 +2,7 @@
 description: Guide to user registration and user profile management
 ---
 
-# Logging In To DIGIT
+# Logging Into DIGIT
 
 DIGIT users can sign up to use various modules through the online web portal or the mobile application login interface.
 
