@@ -17,10 +17,6 @@
 
 | **Key Feature** | **Description** |
 | :--- | :--- |
-
-
-| **Key Feature** | **Description** |
-| :--- | :--- |
 | Ability to search Property in public domain | This feature provides the ability to search properties registered in our system in the public domain. Users do not have to log in to our platform to see the property owners and due details. |
 | Ability to make property tax payments without login in DIGIT | Citizens can pay their property tax dues without having to login into the system. Citizens can access this feature from open search, SMS/email notification, or any physical artefact having a payment link. |
 | Payment link in the SMS and email notification | At the time of bill generation, SMS and an email notification will be triggered to the citizen’s registered IDs. The notification will have a payment link that will direct the citizen to the DIGIT common payment page. User does not have to log in. |

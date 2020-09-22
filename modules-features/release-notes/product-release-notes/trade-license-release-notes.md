@@ -14,10 +14,6 @@ Trade License v2.0 enables seamless and hassle-free renewal mechanism for existi
 
 ### Release Features <a id="Release-Features"></a>
 
-| **Key Feature** | **Description** |
-| :--- | :--- |
-
-
 <table>
   <thead>
     <tr>
