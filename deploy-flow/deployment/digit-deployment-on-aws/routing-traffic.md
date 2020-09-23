@@ -10,7 +10,7 @@ An API object that manages external access to the services in a cluster, typical
 
 Ingress may provide load balancing, SSL termination and name-based virtual hosting.
 
-## Terminology <a id="Terminology"></a>
+### Terminology
 
 For clarity, this guide defines the following terms:
 
@@ -20,7 +20,7 @@ For clarity, this guide defines the following terms:
 * Cluster network: A set of links, logical or physical, that facilitate communication within a cluster according to the Kubernetes [networking model](https://kubernetes.io/docs/concepts/cluster-administration/networking/).
 * Service: A Kubernetes [Service](https://kubernetes.io/docs/concepts/services-networking/service/) that identifies a set of Pods using [label](https://kubernetes.io/docs/concepts/overview/working-with-objects/labels) selectors. Unless mentioned otherwise, Services are assumed to have virtual IPs only routable within the cluster network.
 
-## What is Ingress? <a id="What-is-Ingress?"></a>
+### What is Ingress?
 
 ​[Ingress](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#ingress-v1-networking-k8s-io) exposes HTTP and HTTPS routes from outside the cluster to [services](https://kubernetes.io/docs/concepts/services-networking/service/) within the cluster. Traffic routing is controlled by rules defined on the Ingress resource.
 
@@ -32,7 +32,7 @@ An Ingress may be configured to give Services externally-reachable URLs, load ba
 
 An Ingress does not expose arbitrary ports or protocols. Exposing services other than HTTP and HTTPS to the internet typically uses a service of type [Service.Type=NodePort](https://kubernetes.io/docs/concepts/services-networking/service/#nodeport) or [Service.Type=LoadBalancer](https://kubernetes.io/docs/concepts/services-networking/service/#loadbalancer).
 
-## Prerequisites <a id="Prerequisites"></a>
+### Prerequisites
 
 You must have an [ingress controller](https://kubernetes.io/docs/concepts/services-networking/ingress-controllers) to satisfy an Ingress. Only creating an Ingress resource has no effect.
 
@@ -40,7 +40,7 @@ You may need to deploy an Ingress controller such as [ingress-nginx](https://kub
 
 Ideally, all Ingress controllers should fit the reference specification. In reality, the various Ingress controllers operate slightly differently.
 
-## The Ingress resource <a id="The-Ingress-resource"></a>
+### The Ingress resource
 
 An Ingress resource example:
 
@@ -54,7 +54,7 @@ As with all other Kubernetes resources, an Ingress needs apiVersion, kind, and m
 
 The Ingress [spec](https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#spec-and-status) has all the information needed to configure a load balancer or proxy server. Most importantly, it contains a list of rules matched against all incoming requests. Ingress resource only supports rules for directing HTTP\(S\) traffic.
 
-### Ingress rules <a id="Ingress-rules"></a>
+### Ingress rules
 
 Each HTTP rule contains the following information:
 
@@ -65,5 +65,5 @@ Each HTTP rule contains the following information:
 A defaultBackend is often configured in an Ingress controller to service any requests that do not match a path in the spec.
 
 * Learn about the [Ingress API](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#ingress-v1beta1-networking-k8s-io)​
-* * Learn about [Cert-manager](https://cert-manager.io/docs/)​
+* Learn about [Cert-manager](https://cert-manager.io/docs/)​
 

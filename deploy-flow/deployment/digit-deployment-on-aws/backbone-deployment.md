@@ -7,12 +7,12 @@ Once the cluster is ready and healthy you can start deploying backbones services
 1.  Backbone \(Redis, ZooKeeper-v2, Kafka-v2,elasticsearch-data-v1, elasticsearch-client-v1, elasticsearch-master-v1\)
 2.  Gateway \(Zuul, nginx-ingress-controller\)
 
-## Prerequisites <a id="Prerequisites"></a>
+### Prerequisites
 
 * Understanding of VM Instances, LoadBalancers, SecurityGroups/Firewalls, nginx, DB Instance, Data Volumes.
 * Experience of kubernetes, docker, jenkins, helm, golang, Infra-as-code.
-* 
- Deploy configuration and deployment backbone services:
+
+Deploy configuration and deployment backbone services:
 
 1. Clone the git repo[ ![](https://github.githubassets.com/favicon.ico)https://github.com/egovernments/eGov-infraOps](https://github.com/egovernments/eGov-infraOps) . Copy existing [dev.yaml](https://github.com/egovernments/eGov-infraOps/blob/master/helm/environments/dev.yaml) and [dev-secrets.yaml](https://github.com/egovernments/eGov-infraOps/blob/master/helm/environments/dev-secrets.yaml) with new environment name \(eg..yaml and-secrets.yaml\)
 2.  Modify the global domain and set namespaces create to true
