@@ -1,14 +1,10 @@
----
-description: >-
-  Gives an overview of the Infra requirements, how to deploy DIGIT on various
-  cloud infrastructure
----
-
 # Deploy DIGIT
 
 ### Overview <a id="requirements"></a>
 
 DIGIT is the largest urban governance platform built for billions of transactions between citizens and the state govt. The platform is built with key capabilities like scale, speed, integration, configurable, customizable, extendable, multi-tenanted, security, etc. 
+
+This page discusses the key infrastructural requirements and deploying DIGIT on various cloud environment.
 
 ### Why Microservice Architecture
 

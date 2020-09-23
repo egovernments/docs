@@ -1,10 +1,8 @@
----
-description: >-
-  Infra requirements to provision DIGIT and why digit services containerised and
-  deployed on Kubernetes.
----
-
 # Infra Requirements
+
+### Overview
+
+This page discusses the infrastructure requirements for DIGIT services. It also explains why DIGIT services are containerised and deployed on Kubernetes.
 
 ### Requirements
 
