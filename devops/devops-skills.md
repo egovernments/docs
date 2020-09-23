@@ -6,7 +6,7 @@ description: >-
 
 # Skills Needed
 
-## Hiring DevOps Resources
+### Hiring DevOps Resources
 
 Anyone involved in hiring DevOps engineers will realize that it is hard to find prospective candidates who have all the skills listed in this section. 
 
@@ -18,11 +18,11 @@ An experienced DevOps engineer would be able to describe most of the technologie
 
 In theory, a template like this should be used only for assessing the current experience of a prospective hire. The needed skills can be picked up on the jobs that demand deep knowledge in certain areas. Therefore, the focus should be to hire smart engineers who have a track record of picking up new skills, rolling out innovative projects at work, and contributing to reputed open-source projects.
 
-## 1. Knowledge of Infrastructure
+### 1. Knowledge of Infrastructure
 
-A DevOps engineer should have a good understanding of both classic \(datacenter-based\) and cloud infrastructure components, even if the team has dedicated infrastructure team.
+A DevOps engineer should have a good understanding of both classic \(data centre-based\) and cloud infrastructure components, even if the team has a dedicated infrastructure team.
 
-### **A. Classic Infrastructure**
+#### **A. Classic Infrastructure**
 
 This involves how real hardware \(servers and storage devices\) are racked, networked, and accessed from both the corporate network and the internet. It also involves the provisioning of shared storage to be used across multiple servers and the methods available for that, as well as infrastructure and methods for load balancing.
 
@@ -39,27 +39,27 @@ Cloud infrastructure has to do with core cloud computing and storage components 
 
 #### **Networking Basics**
 
-* Network layers.
+* Network layers
 * Routers, domain controllers, etc.
-* Networks and subnets.
-* IP address.
-* VPN.
-* DNS.
-* Firewall.
-* IP tables.
-* Network access between applications \(ACL\).
-* Networking in cloud \(i.e., Amazon AWS\).
+* Networks and subnets
+* IP address
+* VPN
+* DNS
+* Firewall
+* IP tables
+* Network access between applications \(ACL\)
+* Networking in the cloud \(i.e., Amazon AWS\)
 
 #### **Load Balancing**
 
-* Load balancing infrastructure and methods.
-* Geographical load balancing.
-* Understanding of CDN.
-* Load balancing in cloud.
+* Load balancing infrastructure and methods
+* Geographical load balancing
+* Understanding of CDN
+* Load balancing in the cloud
 
-## 2. DevOps Toolchain
+### 2. DevOps Toolchain
 
-A DevOps engineer should have experience using specialized tools for implementing various DevOps processes. While Jenkins, Dockers, kubernetes, Terraform, Ansible, and the like are known to most DevOps guys, other tools might be obscure or not very obvious \(such as the importance of knowing one major monitoring tool in and out\). Some tools like, source code control systems, are shared with development teams.
+A DevOps engineer should have experience using specialized tools for implementing various DevOps processes. While Jenkins, Dockers, Kubernetes, Terraform, Ansible, and the like are known to most DevOps guys, other tools might be obscure or not very obvious \(such as the importance of knowing one major monitoring tool in and out\). Some tools like, source code control systems, are shared with development teams.
 
 The list here has only examples of basic tools. An experienced DevOps engineer would have used some application or tool from all or most of these categories.
 
@@ -86,7 +86,7 @@ The list here has only examples of basic tools. An experienced DevOps engineer w
 ### **Build and CI**
 
 * Experience building on Jenkins standalone, or dockerized.
-* Experience using Jenkins as Continuous Integration \(CI\) platform.
+* Experience using Jenkins as a Continuous Integration \(CI\) platform.
 * CI/CD pipeline scripting using groovy
 * Experience with CI platform features such as:
   * Integration with SCM systems.
@@ -94,12 +94,12 @@ The list here has only examples of basic tools. An experienced DevOps engineer w
   * Scheduling and chaining of build jobs.
   * Source-code change based triggers.
   * Worker and slave nodes.
-  * REST API support and nNotification management.
+  * REST API support and Notification management.
 
-### **Artifacts Management**
+### **Artefacts Management**
 
-* Should know what artifacts are and why they have to be managed.
-* Experience using a standard artifacts management system such as Artifactory.
+* Should know what artefacts are and why they have to be managed.
+* Experience using a standard artefacts management system such as Artifactory.
 * Experience caching third-party tools and dependencies in-house.
 
 ### **Configuration Management**
@@ -115,9 +115,9 @@ The list here has only examples of basic tools. An experienced DevOps engineer w
 * Knowledge of the workflow of released code getting into production.
 * Ability to push code to production with the use of SSH-based tools such as Ansible.
 * Ability to perform on-demand or Continuous Delivery \(CD\) of code from Jenkins.
-* Ability to perform agent-driven code pull to update production environment.
+* Ability to perform agent-driven code pull to update the production environment.
 * Knowledge of deployment strategies, with or without an impact on the software service.
-* Knowledge of code deployment in cloud \(using auto-scaling groups, machine images, etc.\).
+* Knowledge of code deployment in the cloud \(using auto-scaling groups, machine images, etc.\).
 
 ### **Monitoring**
 
@@ -128,9 +128,9 @@ The list here has only examples of basic tools. An experienced DevOps engineer w
 * Experience doing log management with ELK.
 * Experience monitoring SaaS solutions \(i.e., Datadog and Loggly\).
 
-## 3. System Tools and Methods
+### 3. System Tools and Methods
 
-To get an automation project up and running, a DevOps engineer builds new things such as configuration objects in an application and code snippets of full-blown programs. However, a major part of the work is gluing many things together at the system level on the given infrastructure. Such efforts are not different from traditional system integration work and, in my opinion, the ingenuity of an engineer at this level determines his or her real value on the team. It is easy to find cookbooks, recipes, and best practices for vendor-supported tools, but it would take experience working on diverse projects to gain the necessary skill set to implement robust integrations that have to work reliably in production.
+To get an automation project up and running, a DevOps engineer builds new things such as configuration objects in an application and code snippets of full-blown programs. However, a major part of the work is glueing many things together at the system level on the given infrastructure. Such efforts are not different from traditional system integration work and, in my opinion, the ingenuity of an engineer at this level determines his or her real value on the team. It is easy to find cookbooks, recipes, and best practices for vendor-supported tools, but it would take experience working on diverse projects to gain the necessary skill set to implement robust integrations that have to work reliably in production.
 
 Important system-level tools and techniques are listed here. The engineer should have knowledge about the following. 
 
@@ -160,7 +160,7 @@ Important system-level tools and techniques are listed here. The engineer should
 * Basics of compilers such as node.js and Javac.
 * Make and Makefile, npm, Maven, Gradle, etc.
 * Code libraries in Node, Java, Python, React etc.
-* Build artifacts such as JAR, WAR and node modules.
+* Build artefacts such as JAR, WAR and node modules.
 * Running builds from Jenkins.
 
 ### **Packaging**
@@ -171,22 +171,22 @@ Important system-level tools and techniques are listed here. The engineer should
 * Use of Packer.
 * Docker and containers for microservices.
 
-## **4. Artifacts Management**
+### **4. Artefacts Management**
 
-* **Use of artifacts repository:** Distribution and release of builds; meeting build and deployment dependencies.
-* Serving artifacts from shared storage volume.
-* Mounting locations from cloud storage services such AWS S3.
-* Artifactory as artifacts server.
+* **Use of artefacts repository:** Distribution and release of builds; meeting build and deployment dependencies
+* Serving artefacts from a shared storage volume
+* Mounting locations from cloud storage services such as AWS S3
+* Artifactory as artefacts server
 
 ### **File Transfer**
 
-* SCP, Rsync, FTP, and their SSL counterparts.
-* Via shared storage.
-* File transfer with cloud storage services such as AWS S3.
+* SCP, Rsync, FTP, and SSL counterparts
+* Via shared storage
+* File transfer with cloud storage services such as AWS S3
 
 ### **Deployment**
 
-* Code pushing using system level file transfer tools.
+* Code pushing using system-level file transfer tools.
 * Scripting using SSH libraries such as Paramiko.
 * Orchestrating code pushes using configuration management tools.
 
@@ -199,7 +199,7 @@ Important system-level tools and techniques are listed here. The engineer should
 
 ### **Files and Storage**
 
-* Typical uses of find, DF, DU, etc.
+* Typical uses of the find, DF, DU, etc.
 
 ### **Linux Distributions**
 
@@ -219,24 +219,24 @@ Important system-level tools and techniques are listed here. The engineer should
 
 Sample usages and steps to install these tools:
 
-* NC.
-* Netstat.
-* Traceroute.
-* VMStat.
-* LSOF.
-* Top.
-* NSLookup.
-* Ping.
-* TCPDump.
+* NC
+* Netstat
+* Traceroute
+* VMStat
+* LSOF
+* Top
+* NSLookup
+* Ping
+* TCPDump
 * Dig
-* Sar.
-* Uptime.
-* IFConfig.
-* Route.
+* Sar
+* Uptime
+* IFConfig
+* Route
 
-## Programming Primer for DevOps
+### Programming Primer for DevOps
 
-One of the attributes that helps differentiate a DevOps engineer from other members in the operations team, like sysadmins, DBAs, and operations support staff, is his or her ability to write code. The coding and scripting skill is just one of the tools in the DevOps toolbox, but it's a powerful one that a DevOps engineer would maintain as part of practicing his or her trade.
+One of the attributes that helps differentiate a DevOps engineer from other members in the operations team, like sysadmins, DBAs, and operations support staff, is his or her ability to write code. The coding and scripting skill is just one of the tools in the DevOps toolbox, but it's a powerful one that a DevOps engineer would maintain as part of practising his or her trade.
 
 Coding is the last resort when things cannot be integrated by configuring and tweaking the applications and tools that are used in an automation project.
 
@@ -254,7 +254,7 @@ Knowledge of Python would make your life easier when dealing with DevOps applica
 
 #### **Web Programming**
 
-One of the categories of projects a DevOps engineer would end up doing is building dashboards. Though dashboarding features are found with most of the DevOps tools, those are specific to the application, and there will be a time when you may require to have a general purpose dashboard with more dynamic content than just static links and text.
+One of the categories of projects a DevOps engineer would end up doing is building dashboards. Though dashboarding features are found with most of the DevOps tools, those are specific to the application, and there will be a time when you may require to have a general-purpose dashboard with more dynamic content than just static links and text.
 
 Another requirement is to build web UI for provisioning tools to present those as self-service tools to user groups.
 
@@ -262,7 +262,7 @@ In both these cases, deep web programming skills are not required. Knowledge of 
 
 #### **Configuration Languages**
 
-Almost every application and tool that is used for building, deploying, and maintaining software systems uses configuration files. While manual reading of these files might not require any expertise, a DevOps engineer should know how config files in such formats are created and parsed programmatically.
+Almost every application and tool that is used for building, deploying, and maintaining software systems use configuration files. While manual reading of these files might not require any expertise, a DevOps engineer should know how config files in such formats are created and parsed programmatically.
 
 A DevOps engineer should have a good understanding of these formats:
 
@@ -271,7 +271,7 @@ A DevOps engineer should have a good understanding of these formats:
 * JSON.
 * YAML.
 
-The engineer should also know how these formats are parsed in his/her favorite scripting language.
+The engineer should also know how these formats are parsed in his/her favourite scripting language.
 
 ### **REST API**
 
@@ -279,7 +279,7 @@ The wide acceptance of REST API as a standard to expose features that other appl
 
 * **HTTP/HTTPS:** REST APIs are based on HTTP/HTTPS protocol and a solid understanding of its working is required. Knowledge of HTTP headers, status codes, and main verbs GET, POST, and PUT.
 * **REST API basics:** Normal layout of APIs defined for an application.
-* **Curl and Wget**: Command line tools to access REST API and HTTP URLs. Some knowledge of the support available for HTTP protocol in scripting languages will be useful and that would be an indication of working with REST APIs.
+* **Curl and Wget**: Command-line tools to access REST API and HTTP URLs. Some knowledge of the support available for HTTP protocol in scripting languages will be useful and that would be an indication of working with REST APIs.
 * **Authentication methods:** Cookie-based and OAuth authentication; API keys; use of If-Match and If-None-Match set of HTTP headers for updates.
 * **API management tools:** If the application you support provides an API for the users, most probably, its usage will be managed by some API Gateway tool. Though not an essential skill, experience in this area would be good if one works on the API provider side.
 
@@ -298,7 +298,7 @@ There was a time when mere knowledge of programming with RDBMS was enough for an
 Those who have built cloud infrastructure with a focus on automation and versioning should know some of these \(or similar\) tools:
 
 * **cloud-init:** Cloud-init can be used to configure a virtual machine when it is spun up. This is very useful when a node is spun up from a machine image with baseline or even application software already baked in.
-* **AWS/Azure/GCloud CLI:** If the application runs on Commercial cloud , knowledge of  CLI is needed, which would be handy to put together simple automation scripts.
+* **AWS/Azure/GCloud CLI:** If the application runs on Commercial cloud, knowledge of  CLI is needed, which would be handy to put together simple automation scripts.
 * **Terraform:** HashiCorp’s Terraform is an important tool if the focus would be to provision infrastructure as code \(IaaS\). Using this, infrastructure can be configured independently of the target cloud or virtualization platform.
 * **Ansible:** It can be used to build machine images for a variety of virtualization technologies and cloud platforms, it is useful if the infrastructure is provisioned in a mixed or hybrid cloud environment.
 
