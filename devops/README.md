@@ -1,4 +1,2 @@
 # DIGIT DevOps
 
-## **Contents**
-

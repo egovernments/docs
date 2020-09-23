@@ -1,7 +1,3 @@
----
-description: Partner with us to enhance and integrate more to the platform.
----
-
 # Configure DIGIT
 
 Learn how to configure the DIGIT platform. Partner with us to enhance and integrate more into the platform.
