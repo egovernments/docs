@@ -8,19 +8,22 @@ DIGIT users can sign up to use various modules through the online web portal or 
 
 #### User Registration
 
-The first step to logging in to use the **DIGIT** modules is to register as a user.
+The first step to logging in to use the **DIGIT** modules is to register as a user. 
 
 To register as a user 
 
-1. Enter the ULB url in your browser. For instance, people of Punjab will use the link [https://mseva.lgpunjab.gov.in/citizen/user/register](https://mseva.lgpunjab.gov.in/citizen/user/register) to register for Punjab mSeva services. ![](../../.gitbook/assets/logging1.png) 
+1. Enter the ULB URL in your browser. For instance, people of Punjab will use the link [https://mseva.lgpunjab.gov.in/citizen/user/register](https://mseva.lgpunjab.gov.in/citizen/user/register) to register for Punjab mSeva services.  
 2. Enter your **Mobile Number** to register as a user.
 3. Enter your **Name**.
 4. Select your city from the **City** drop-down list.
 5. Click on the **Continue** button. 
-6. The system sends an OTP to your mobile number. Enter the **OTP**. ![](../../.gitbook/assets/logging2.png) 
-7. Click on the **Resend** button on the screen in case you have not received your OTP.
-8. Click on the **Get Started** button.
-9. You are registered as a user in the mSeva app. ![](../../.gitbook/assets/logging3.png) 
+6. The system sends an OTP to your mobile number. Enter the **OTP**.
+7.  ![](../../.gitbook/assets/logging2.png) 
+8. Click on the **Resend** button on the screen in case you have not received your OTP.
+9. Click on the **Get Started** button.
+10. You are registered as a user in the mSeva app. ![](../../.gitbook/assets/logging3.png) 
+
+![](../../.gitbook/assets/logging1.png)
 
 #### User Login
 
