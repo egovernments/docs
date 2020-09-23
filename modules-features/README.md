@@ -1,4 +1,6 @@
-# Product And Modules
+# Product Overview
+
+### Overview
 
 DIGIT offers several modules. Each module is designed to automate the manual workflows for various governance units.
 
