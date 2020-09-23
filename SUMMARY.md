@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Welcome to DIGIT Docs](README.md)
-* [Digit Overview](digit-overview/README.md)
+* [DIGIT Concepts](digit-overview/README.md)
   * [DIGIT Architecture](digit-overview/architecture.md)
 * [Product Overview](modules-features/README.md)
   * [Brochures](modules-features/product-brochures.md)

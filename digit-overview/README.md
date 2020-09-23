@@ -2,11 +2,13 @@
 description: Digital Infrastructure For Governance Impact & Transformation
 ---
 
-# Digit Overview
+# DIGIT Concepts
 
 ### What is DIGIT? <a id="What-is-DIGIT?"></a>
 
-eGov’s platform DIGIT is a manifestation of [Societal Platform](https://societalplatform.org/) thinking. A systemic method to resolve complex societal challenges with speed, at scale, and sustainably. Societal Platform is an initiative of EkStep Foundation. eGovernments Foundation transforms urban governance with the use of scalable and replicable technology solutions that enable efficient and effective municipal operations, better decision making, and contact-less urban service delivery.
+eGov’s platform DIGIT is a manifestation of [Societal Platform](https://societalplatform.org/) \(an EkStep Foundation initiative\) thinking. DIGIT is a comprehensive, state of the art OpenSource, interoperable and scalable civic tech platform for citizens and city governments to manage, monitor and interact in a transparent, effective and efficient manner. 
+
+eGovernments Foundation transforms urban governance with the use of scalable and replicable technology solutions that enable efficient and effective municipal operations, better decision making, and contact-less urban service delivery.
 
 ### DIGIT Features <a id="DIGIT-Features"></a>
 
