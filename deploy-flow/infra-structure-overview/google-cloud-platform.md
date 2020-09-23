@@ -6,7 +6,7 @@
 
 #### Compute Engine API <a id="compute-engine-api"></a>
 
-For the access to the Compute Engine API it has to be enabled at the [Google APIs console](https://console.developers.google.com/apis/dashboard).
+For access to the Compute Engine API, it has to be enabled at the [Google APIs console](https://console.developers.google.com/apis/dashboard).
 
 #### User Roles <a id="user-roles"></a>
 
@@ -59,5 +59,5 @@ base64 -w 0 ./k8c-cluster-provisioner-sa-key.json
 
 #### Passing the Google Service Account <a id="passing-the-google-service-account"></a>
 
-The base64 encoded secret of the service account will passed in the field `serviceAccount` of the `cloudProviderSpec` of the machine deployment. The encoded secret can be entered in the UI field `Service Account`:
+The base64 encoded secret of the service account will be passed in the field `serviceAccount` of the `cloudProviderSpec` of the machine deployment. The encoded secret can be entered in the UI field `Service Account`:
 

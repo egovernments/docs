@@ -4,13 +4,13 @@
 
 ### Prepare Azure Environment <a id="prepare-azure-environment"></a>
 
-For provisioning Kubernetes clusters with the [Azure cloud provider](https://github.com/kubermatic/machine-controller/tree/master/pkg/cloudprovider/provider/azure) Kubermatic needs a service account with \(at least\) the the Azure role `Contributor`. Please follow the following steps to create an matching service account:
+For provisioning Kubernetes clusters with the [Azure cloud provider](https://github.com/kubermatic/machine-controller/tree/master/pkg/cloudprovider/provider/azure) Kubermatic needs a service account with \(at least\) the Azure role `Contributor`. Please follow the following steps to create a matching service account.
 
 #### Login to Azure and Get Basic Information <a id="login-to-azure-and-get-basic-information"></a>
 
 Login to Azure with [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/?view=azure-cli-latest) `az`.
 
-This command will open in your default browser a window where you can authenticate. After you succefull logged in get your subscription ID.
+This command will open in your default browser a window where you can authenticate. After you succefully logged in get your subscription ID.
 
 ```text
 az account show --query id -o json

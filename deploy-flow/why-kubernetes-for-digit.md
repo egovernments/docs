@@ -1,7 +1,7 @@
 ---
 description: >-
-  Why kubernetes is required and what are the key advantages that it brings to
-  run a large containerised platform like DIGIT in production environments.
+  Why Kubernetes is required and what are the key advantages that it brings to
+  run a large containerised platform like DIGIT in production environments
 ---
 
 # Why Kubernetes for DIGIT
