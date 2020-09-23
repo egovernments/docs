@@ -33,7 +33,7 @@ govc vm.change -e="disk.enableUUID=1" -vm='/PATH/TO/VM'
 
 1. Convert it to vmdk: `qemu-img convert -f qcow2 -O vmdk CentOS-7-x86_64-GenericCloud.qcow2 CentOS-7-x86_64-GenericCloud.vmdk`
 2. Upload it to a Datastore of your vSphere installation
-3. Create a new virtual machine that uses the uploaded vmdk as rootdisk
+3. Create a new virtual machine that uses the uploaded vmdk as rootdisk.
 
 ### **Modifications**
 
