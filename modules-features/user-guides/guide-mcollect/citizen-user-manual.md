@@ -4,8 +4,6 @@ description: 'Learn how to search, download and print your payment receipts'
 
 # Citizen User Manual
 
-### **Citizen**
-
 The citizen pays the fees for miscellaneous services through the CEs or FEs. Once the payment transaction is complete the citizen can access the payment receipts online.
 
 ![](https://docs.google.com/drawings/u/0/d/sHPfa8rq5qQ18fUbHEBwxsw/image?w=227&h=283&rev=45&ac=1&parent=1GZKzf7O_6WDB5ba1gb6QUT6CqipoQzuRuWT44fTAgGo)
