@@ -1,16 +1,14 @@
----
-description: >-
-  Why Kubernetes is required and what are the key advantages that it brings to
-  run a large containerised platform like DIGIT in production environments
----
-
 # Why Kubernetes for DIGIT
 
-## The Big Why  <a id="6b5a"></a>
+## Overview <a id="6b5a"></a>
 
-Kubernetes project started in year the 2014 with [more than a decade of experience of running production workloads at Google](https://queue.acm.org/detail.cfm?id=2898444). Kubernetes has now become the de facto standard for deploying containerized applications at scale in private, public and hybrid cloud environments. The largest public cloud platforms [AWS](https://aws.amazon.com/ecs/), [Google Cloud](https://cloud.google.com/kubernetes-engine/), [Azure](https://azure.microsoft.com/en-us/services/container-service/), [IBM Cloud](https://www.ibm.com/cloud/container-service) and [Oracle Cloud](https://cloud.oracle.com/containers) now provide managed services for Kubernetes. A few years back RedHat, Mesosphere, Pivotal, VMware, Nutanix completely redesigned their implementation with Kubernetes and collaborated with the Kubernetes community for implementing the next generation container platform with incorporated key features of Kubernetes such as container grouping, overlay networking, layer 4 routing, secrets, etc.  Today many organizations & technology providers adapting kubernetes at a rapid phase.
+This page explains why Kubernetes is required. It deep dives into the key benefits of using Kubernetes to run a large containerized platform like DIGIT in production environments.
 
-## Kubernetes Architecture <a id="af9f"></a>
+### The Big Why 
+
+Kubernetes project started in the year 2014 with [more than a decade of experience of running production workloads at Google](https://queue.acm.org/detail.cfm?id=2898444). Kubernetes has now become the de facto standard for deploying containerized applications at scale in private, public and hybrid cloud environments. The largest public cloud platforms [AWS](https://aws.amazon.com/ecs/), [Google Cloud](https://cloud.google.com/kubernetes-engine/), [Azure](https://azure.microsoft.com/en-us/services/container-service/), [IBM Cloud](https://www.ibm.com/cloud/container-service) and [Oracle Cloud](https://cloud.oracle.com/containers) now provide managed services for Kubernetes. A few years back RedHat, Mesosphere, Pivotal, VMware, Nutanix completely redesigned their implementation with Kubernetes and collaborated with the Kubernetes community for implementing the next generation container platform with incorporated key features of Kubernetes such as container grouping, overlay networking, layer 4 routing, secrets, etc.  Today many organizations & technology providers adapting kubernetes at a rapid phase.
+
+### Kubernetes Architecture
 
 ![Figure 1: Kubernetes Architecture](../.gitbook/assets/image%20%2865%29.png)
 

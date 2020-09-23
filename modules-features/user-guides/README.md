@@ -4,8 +4,6 @@ description: Illustrative help docs
 
 # User Manuals
 
-### Introduction To User Modules
-
 DIGIT modules follow structured workflows to allow easy tracking of applications and processes. This section walks you through the various workflows and features supported by each module.
 
 * [Logging In To DIGIT](guide-login.md)
