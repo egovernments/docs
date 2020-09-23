@@ -1,11 +1,8 @@
----
-description: >-
-  Provisioning Kubernetes cluster which is an abstracted infrastructure
-  requirement for DIGIT to be deployed. Here we'll provision infra-as-code on
-  AWS using terraform.
----
-
 # AWS
+
+### Overview
+
+This page discusses the provisioning of the Kubernetes cluster which is an abstracted infrastructure requirement for DIGIT to be deployed. Learn how to provision infra-as-code on AWS using terraform.
 
 {% embed url="https://www.youtube.com/watch?v=moW4bZhdQIk" %}
 

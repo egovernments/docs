@@ -1,14 +1,10 @@
 # Google Cloud
 
-## Google Cloud Platform
-
-### Google Cloud Platform <a id="google-cloud-platform"></a>
-
-#### Compute Engine API <a id="compute-engine-api"></a>
+### Compute Engine API
 
 For access to the Compute Engine API, it has to be enabled at the [Google APIs console](https://console.developers.google.com/apis/dashboard).
 
-#### User Roles <a id="user-roles"></a>
+### User Roles
 
 The user for the _Google Service Account_ that has to be created has to have three roles:
 
@@ -33,7 +29,7 @@ gcloud projects add-iam-policy-binding YOUR_PROJECT_ID --member 'serviceAccount:
 gcloud projects add-iam-policy-binding YOUR_PROJECT_ID --member 'serviceAccount:YOUR_SERVICE_ACCOUNT_ID' --role='roles/viewer'
 ```
 
-#### Google Service Account <a id="google-service-account"></a>
+### Google Service Account
 
 A _Google Service Account_ for the platform has to be created, see [Creating and managing service accounts](https://cloud.google.com/iam/docs/creating-managing-service-accounts). The result is a JSON file containing the fields
 
@@ -57,7 +53,7 @@ gcloud iam service-accounts keys create --iam-account YOUR_SERVICE_ACCOUNT k8c-c
 base64 -w 0 ./k8c-cluster-provisioner-sa-key.json
 ```
 
-#### Passing the Google Service Account <a id="passing-the-google-service-account"></a>
+### Passing the Google Service Account
 
 The base64 encoded secret of the service account will be passed in the field `serviceAccount` of the `cloudProviderSpec` of the machine deployment. The encoded secret can be entered in the UI field `Service Account`:
 

@@ -1,5 +1,7 @@
 # Backbone Deployment
 
+### Overview
+
 Once the cluster is ready and healthy you can start deploying backbones services.
 
  Deploy configuration and deployment in the following Services Lists
@@ -7,10 +9,10 @@ Once the cluster is ready and healthy you can start deploying backbones services
 1.  Backbone \(Redis, ZooKeeper-v2, Kafka-v2,elasticsearch-data-v1, elasticsearch-client-v1, elasticsearch-master-v1\)
 2.  Gateway \(Zuul, nginx-ingress-controller\)
 
-### Prerequisites
+### Pre-requisites
 
 * Understanding of VM Instances, LoadBalancers, SecurityGroups/Firewalls, nginx, DB Instance, Data Volumes.
-* Experience of kubernetes, docker, jenkins, helm, golang, Infra-as-code.
+* Experience of Kubernetes, Docker, Jenkins, helm, golang, Infra-as-code.
 
 Deploy configuration and deployment backbone services:
 
@@ -19,7 +21,7 @@ Deploy configuration and deployment backbone services:
 
 ![](https://gblobscdn.gitbook.com/assets%2F-MERG_iQW5oN4ukgXP8K%2F-MGrj6BrCyQtBc7G4ijs%2F-MGrupRtrQfYiFoTL3XU%2Fimage.png?alt=media&token=8a640c33-f38c-4580-bf8c-caa157f34b6b)
 
-3. Modify the below mentioned changes for each backbone services:
+3. Modify the below-mentioned changes for each backbone services:
 
  Eg. For Kafka-v2 If you are using **AWS as cloud provider,** change the respective volume id’s and zone’s
 
