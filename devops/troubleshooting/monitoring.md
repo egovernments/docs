@@ -1,6 +1,6 @@
 # Monitoring & Alerts
 
-​[Prometheus](https://github.com/prometheus) is an open-source system monitoring and alerting toolkit originally built at [SoundCloud](https://soundcloud.com/).
+​[Prometheus](https://github.com/prometheus) is an open-source systems monitoring and alerting toolkit originally built at [SoundCloud](https://soundcloud.com/)
 
 ![](https://gblobscdn.gitbook.com/assets%2F-MERG_iQW5oN4ukgXP8K%2F-MGrw8HGOm3l_f8x_z_k%2F-MGrwL-4kKqpAxJeuFs6%2Fimage.png?alt=media&token=5abd97b1-ed7e-4431-8b19-05990306b7c6)
 
@@ -10,7 +10,7 @@
 
 The default installation is intended to suit monitoring a kubernetes cluster the chart is deployed onto. It closely matches the kube-prometheus project.
 
-* service monitors to scrape internal kubernetes components
+* * * * * * * service monitors to scrape internal kubernetes components
   * kube-apiserver
   * kube-scheduler
   * kube-controller-manager
@@ -20,7 +20,7 @@ The default installation is intended to suit monitoring a kubernetes cluster the
 
 With the installation, the chart also includes dashboards and alerts.
 
-**Deployment steps**
+**Deployment steps:**
 
 1.  Add environment variable to the respective env config file
 
@@ -48,7 +48,7 @@ With the installation, the chart also includes dashboards and alerts.
 go run main.go deploy -e   -c 'prometheus-operator,grafana,prometheues-kafka-exporter'
 ```
 
-**To create a new panel in the existing dashboard**
+**To create a new panel in the existing dashboard:-**
 
 1.  Login to dashboard and click on add panel
 

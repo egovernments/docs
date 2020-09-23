@@ -3,7 +3,7 @@
 * [DIGIT Docs](README.md)
 * [DIGIT Concepts](digit-overview/README.md)
   * [DIGIT Architecture](digit-overview/architecture.md)
-* [Product Overview](modules-features/README.md)
+* [Product And Modules](modules-features/README.md)
   * [Brochures](modules-features/product-brochures.md)
   * [User Manuals](modules-features/user-guides/README.md)
     * [Logging Into DIGIT](modules-features/user-guides/guide-login.md)
