@@ -1,19 +1,27 @@
 ---
-description: 'Digital Infrastructure for Governance, Impact & Transformation'
+description: A centralized hub for DIGIT knowledge and information resources
 ---
 
-# DIGIT
+# Welcome to DIGIT Docs
 
-### Welcome to DIGIT
+DIGIT is an open-source and open API powered platform for developers, enterprises and citizens to build new applications and solutions. The platform facilitates local governments to achieve quicker implementation time-frames, process improvements, accountability and transparency at various levels of administration.
 
-Digit is an open-source and open API powered platform for developers, enterprises and citizens to build new applications and solutions. The platform facilitates local governments to achieve quicker implementation time-frames, process improvements, accountability and transparency at various levels of administration.  
+{% hint style="info" %}
+Latest Release Notes - Versioned docs for effective support
+{% endhint %}
 
+{% hint style="info" %}
+Configure DIGIT - Setting up the platform and configuring key usage parameters
+{% endhint %}
 
-Urban Governance Transformation at Scale and Speed
+{% hint style="info" %}
+Deploy DIGIT - Concept, Architecture, Infrastructure Requirements, and Deployment 
+{% endhint %}
 
-![](.gitbook/assets/image%20%285%29.png)
+{% hint style="success" %}
+Download Product Brochures
+{% endhint %}
 
-![](.gitbook/assets/image%20%282%29.png)
+  
 
-![](.gitbook/assets/image%20%287%29.png)
 

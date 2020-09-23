@@ -16,8 +16,6 @@ description: 'New release features, enhancements, and fixes'
 <table>
   <thead>
     <tr>
-      <th style="text-align:left"><b>S.No.</b>
-      </th>
       <th style="text-align:left"><b>Feature</b>
       </th>
       <th style="text-align:left"><b>Description</b>
@@ -26,7 +24,6 @@ description: 'New release features, enhancements, and fixes'
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">1.</td>
       <td style="text-align:left">Advance Payments</td>
       <td style="text-align:left">
         <p>Ability to handle <a href="https://digit-discuss.atlassian.net/wiki/spaces/ED/pages/604307457/Release+Notes+for+Advance+Payment+implementation+in+W+S">advanced payments</a> -
@@ -35,12 +32,10 @@ description: 'New release features, enhancements, and fixes'
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">2.</td>
       <td style="text-align:left">API Contracts</td>
       <td style="text-align:left">Advance Collection integration with W&amp;S</td>
     </tr>
     <tr>
-      <td style="text-align:left">3.</td>
       <td style="text-align:left">Infra/Ops Simplification &amp; Enablement</td>
       <td style="text-align:left">
         <p>Infra &amp; Service monitoring v1.0.0 (Prometheus, Alertmanager &amp;
@@ -70,8 +65,6 @@ description: 'New release features, enhancements, and fixes'
 <table>
   <thead>
     <tr>
-      <th style="text-align:left"><b>S.No.</b>
-      </th>
       <th style="text-align:left"><b>Updated Feature</b>
       </th>
       <th style="text-align:left"><b>Description</b>
@@ -80,7 +73,6 @@ description: 'New release features, enhancements, and fixes'
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">1.</td>
       <td style="text-align:left">Baseline version upgrades</td>
       <td style="text-align:left">
         <ul>
@@ -100,7 +92,6 @@ description: 'New release features, enhancements, and fixes'
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">2.</td>
       <td style="text-align:left">UI enhancements</td>
       <td style="text-align:left">
         <ul>
@@ -112,7 +103,6 @@ description: 'New release features, enhancements, and fixes'
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">3.</td>
       <td style="text-align:left">Non-functional enhancements</td>
       <td style="text-align:left">
         <ul>

@@ -8,19 +8,19 @@ description: Technical Release Details
 
 | **Feature** | **Status** | **Changes** | **Description** |
 | :--- | :--- | :--- | :--- |
-| BPA | New | [PR-1123](https://github.com/egovernments/egov-mdms-data/pull/1123/files) | To add order for the documents |
+| BPA | New | [PR-1123](https://github.com/egovernments/egov-mdms-data/pull/1123/files) | To add an order for the documents |
 | BPA | Deprecate | [PR-1037](https://github.com/egovernments/egov-mdms-data/pull/1037/files) | removed the sanction for OC low application |
 | BPA | Update | [PR-1118](https://github.com/egovernments/egov-mdms-data/pull/1118/files) | To update disclaimer |
-| BPA | Update | [PR-1062](https://github.com/egovernments/egov-mdms-data/pull/1062/files) | Changed url - bpa to land |
-| BPA | New | [PR-1019](https://github.com/egovernments/egov-mdms-data/pull/1019/files) | Added idFormat for OC |
+| BPA | Update | [PR-1062](https://github.com/egovernments/egov-mdms-data/pull/1062/files) | Changed URL - BPA to land |
+| BPA | New | [PR-1019](https://github.com/egovernments/egov-mdms-data/pull/1019/files) | Added id Format for OC |
 | BPA | New | [PR-1016](https://github.com/egovernments/egov-mdms-data/pull/1016/files) | Added checklist for OC |
 | BPA | Update | [PR-1008](https://github.com/egovernments/egov-mdms-data/pull/1008/files) | Updated usages |
 | BPA | Update | [PR-1007](https://github.com/egovernments/egov-mdms-data/pull/1007/files) | Updated Sub occupancy type |
 | BPA | Update | [PR-1006](https://github.com/egovernments/egov-mdms-data/pull/1006) | Updated Occupancy type |
 | BPA | New | [PR-997](https://github.com/egovernments/egov-mdms-data/pull/997) | Added tax period for OC |
-| BPA | New | [PR-996](https://github.com/egovernments/egov-mdms-data/pull/996/files) | Added taxheadmaster for OC |
+| BPA | New | [PR-996](https://github.com/egovernments/egov-mdms-data/pull/996/files) | Added tax headmaster for OC |
 | BPA | New | [PR-995](https://github.com/egovernments/egov-mdms-data/pull/995/files) | Added billing service for OC |
-| BPA | Update | [PR-1162](https://github.com/egovernments/egov-mdms-data/pull/1162/files) | Changed id format for bpa permit |
+| BPA | Update | [PR-1162](https://github.com/egovernments/egov-mdms-data/pull/1162/files) | Changed id format for BPA permit |
 | W&S | Update | [PR-1043](https://github.com/egovernments/egov-mdms-data/pull/1043) | To update the ID format |
 | W&S | Update | [PR-1058](https://github.com/egovernments/egov-mdms-data/pull/1058) | to update application types |
 | TL | Update | [PR-1160](https://github.com/egovernments/egov-mdms-data/pull/1160) | Updated URL for Required doc screen |
@@ -42,19 +42,19 @@ description: Technical Release Details
 | BillGenie | Update | [bill-genie.yml](https://github.com/egovernments/configs/commit/0f3708cdcf6fba00aa36aab5baeae9a7eeb3ab62#diff-9352898a62515ccb3822f24506a37090) | To Update lower cases search |
 | BPA | Update | [land-persister.yml](https://github.com/egovernments/configs/commit/5682f1adb60b40663fe13d545e0c865ad4537b08) | Added audit details for owner |
 | BPA | Deprecate | [bpa-persister.yml](https://github.com/egovernments/configs/commit/9ae764474a702249cd3aaefa806a3331a37e0364) | Removed land info from bpa-persister |
-| BPA | New | [egov-bpa-indexer.yml](https://github.com/egovernments/configs/commit/47528052b4904ce5ab679324f13165458a83d05a) | Added indexer for bpa |
+| BPA | New | [egov-bpa-indexer.yml](https://github.com/egovernments/configs/commit/47528052b4904ce5ab679324f13165458a83d05a) | Added indexer for BPA |
 | BPA | New | [rainmaker-bpastakeholder-indexer.yml](https://github.com/egovernments/configs/commit/47528052b4904ce5ab679324f13165458a83d05a) | Added indexer for stakeholder Registration |
-| BPA | Update | [bpa-revocation.json](https://github.com/egovernments/configs/commit/47528052b4904ce5ab679324f13165458a83d05a) | Changed owners to landinfo and added revocation letter conten |
+| BPA | Update | [bpa-revocation.json](https://github.com/egovernments/configs/commit/47528052b4904ce5ab679324f13165458a83d05a) | Changed owners to land info and added revocation letter content |
 | BPA | New | [buildingpermit-low.json](https://github.com/egovernments/configs/commit/47528052b4904ce5ab679324f13165458a83d05a) | Added report run date |
 | BPA | New | [buildingpermit.json](https://github.com/egovernments/configs/commit/47528052b4904ce5ab679324f13165458a83d05a) | Added report run date |
-| BPA | New | [occupancy-certificate.json](https://github.com/egovernments/configs/commit/47528052b4904ce5ab679324f13165458a83d05a) | Added oc certificate |
+| BPA | New | [occupancy-certificate.json](https://github.com/egovernments/configs/commit/47528052b4904ce5ab679324f13165458a83d05a) | Added OC certificate |
 | BPA | Update | [bpa-revocation.json](https://github.com/egovernments/configs/commit/47528052b4904ce5ab679324f13165458a83d05a) | Updated texts |
 | BPA | Update | [buildingpermit.json](https://github.com/egovernments/configs/commit/47528052b4904ce5ab679324f13165458a83d05a) | Changed alignment and added QA code |
 | BPA | New | [occupancy-certificate.json](https://github.com/egovernments/configs/commit/47528052b4904ce5ab679324f13165458a83d05a) | Added for OC |
 | BPA | Update | [buildingpermit-low.json](https://github.com/egovernments/configs/commit/3da5fcefeedda4b13eda3128b42c8e87aea6697a) | Changed alignment and added QA code |
 | BPA | New | [occupancy-certificate.json](https://github.com/egovernments/configs/commit/143dda97f86e06544868ec92d5816766ea128e75) | Added for OC |
 | BPA | Update | [noc-persister.yml](https://github.com/egovernments/configs/commit/b94803a5d2e700b56c35b89b8cde5e1e32cfdbc4) | Changed filestore to filestoreId |
-| BPA | Update | [noc-persister.yml](https://github.com/egovernments/configs/commit/5f7eafdf3339d49a736d31c50037333a11c0f114) | Updated noc persister |
+| BPA | Update | [noc-persister.yml](https://github.com/egovernments/configs/commit/5f7eafdf3339d49a736d31c50037333a11c0f114) | Updated NOC persister |
 
 ### Infra Changes <a id="Infra-Change:"></a>
 
@@ -111,7 +111,7 @@ description: Technical Release Details
         <p></p>
         <p>helm/environments/&lt;env&gt;.yaml</p>
       </td>
-      <td style="text-align:left">Autocreate-new-seq flag must be enabled in IdGen Service of environment
+      <td style="text-align:left">Autocreate-new-seq flag must be enabled in IdGen Service of the environment
         file</td>
       <td style="text-align:left"><code>autocreate-new-seq: &quot;true&quot;</code>
       </td>
@@ -137,7 +137,7 @@ description: Technical Release Details
       </td>
       <td style="text-align:left">
         <p></p>
-        <p>Added EGOV_DEFAULT_STATE_ID in fire noc environment file to pick up proper
+        <p>Added EGOV_DEFAULT_STATE_ID in fire NOC environment file to pick up proper
           tenant during search call</p>
       </td>
       <td style="text-align:left">

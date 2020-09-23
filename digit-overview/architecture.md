@@ -4,8 +4,6 @@ description: Digital Governance Platform
 
 # DIGIT Architecture
 
-### Architecture Overview <a id="Architecture-Overview"></a>
-
 DIGIT is India’s largest open-source platform for Urban Governance. It is built OpenAPI \(OAS 2.0\) and provides API based access to a variety of urban/municipal services enabling state governments and city administrators to provide citizen services with relevant new services and also integrating the existing system into the platform and run seamlessly on any commercial/on-prem cloud infrastructure with scale and speed.
 
 ### Architecture Map <a id="Architecture-Map"></a>
