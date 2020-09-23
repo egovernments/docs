@@ -8,8 +8,6 @@ description: Illustrative help docs
 
 DIGIT modules follow structured workflows to allow easy tracking of applications and processes. This section walks you through the various workflows and features supported by each module.
 
-This section contains:
-
 * [Logging In To DIGIT](guide-login.md)
 * [Trade License User Manual](guide-tl/)
 * [Public Grievances & Redressal User Manual](guide-pgr/)

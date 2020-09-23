@@ -8,9 +8,9 @@ description: >-
 
 ### Requirements
 
-DIGIT Infra is abstracted to ****[**kubernetes**](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/) which is an open source containers orchestration platform that helps abstracting variety of infra types that are being available across each state, like Physical, VMs, on-premisis clouds\(**VMware, OpenStack, Nutanix**, etc.\), commercial clouds \(**Google, AWS, Azure, etc**.\), SDC and NIC into a standard infra type. Essentially it unifies various infra types into a standard and single type of infrastructure and thus DIGIT becomes **multi-cloud supported, portable, extensible, high-performant and scalable** containerized workloads and services. This facilitates both declarative configuration and automation. Kubernetes services, eco-system, support and tools are widely available.
+DIGIT Infra is abstracted to ****[**Kubernetes**](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/) which is an open-source containers orchestration platform that helps in abstracting variety of infra types that are being available across each state, like Physical, VMs, on-premises clouds\(**VMware, OpenStack, Nutanix**, etc.\), commercial clouds \(**Google, AWS, Azure, etc**.\), SDC and NIC into a standard infra type. Essentially it unifies various infra types into a standard and single type of infrastructure and thus DIGIT becomes **multi-cloud supported, portable, extensible, high-performant and scalable** containerized workloads and services. This facilitates both declarative configuration and automation. Kubernetes services, eco-system, support and tools are widely available.
 
-### Basic need to provision Kubernetes Cluster
+### The basic need to provision Kubernetes Cluster
 
 Kubernetes as such is a set of components that designated jobs of scheduling, controlling, monitoring 
 
@@ -36,9 +36,9 @@ Kubernetes as such is a set of components that designated jobs of scheduling, co
 * 2 GB or more of RAM per machine \(any less will leave little room for your apps\)
 * 2 CPUs or more
 * Full network connectivity between all machines in the cluster \(public or private network is fine\)
-* Unique hostname, MAC address, and product\_uuid for every node. See [here](cluster-requirements.md#verify-the-mac-address-and-product-uuid-are-unique-for-every-node) for more details.
-* Certain ports are open on your machines. See below for more details.
-* Swap disabled. You **MUST** disable swap in order for the kubelet to work properly.
+* Unique hostname, MAC address, and product\_uuid for every node. Click [here](cluster-requirements.md#verify-the-mac-address-and-product-uuid-are-unique-for-every-node) for more details.
+* Certain ports are open on your machines. See below for more details
+* Swap disabled. You **MUST** disable swap in order for the Kubelet to work properly
 
 #### Verify the MAC Address and `product_uuid` Are Unique for Every Node <a id="verify-the-mac-address-and-product_uuid-are-unique-for-every-node"></a>
 
