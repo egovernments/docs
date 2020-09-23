@@ -6,11 +6,11 @@ description: >-
 
 # Logging
 
-### Introduction
+## Introduction
 
 The logging concern is one of the most complicated parts of our microservices. Microservices should stay as pure as possible. So, we shouldn’t use any library if we can \(like logging, monitoring, resilience library dependencies\). It means, every dependency can change any time and then usually, we must do that change for the other microservices. There is a lot of work here. Instead of that, we need to handle these dependencies with a more generic way. For logging, **the way is the stdout logging**. For most of the programming languages, logging to stdout is the default way and probably no additional change required at the beginning.
 
-### What is needed to build a meaningful logging system in MSA?
+## What is needed to build a meaningful logging system in MSA?
 
 ### **1. Use a Unique Id to correlate Requests**
 
@@ -45,7 +45,7 @@ Bear in mind that, logging system is not only for developers. It’s also used b
 
 Sometimes, you log requests from end-users that contain PII. We need to be careful, it might violate [GDPR](https://gdpr-info.eu/).
 
-### Logging approaches in MSA
+## Logging approaches in MSA
 
 There are two techniques for logging in MSA. Each service will implement the logging mechanism by itself and using one logging service for all services. Both of them have Good and Not Good points. — _I’m using both these approaches in my project._
 
