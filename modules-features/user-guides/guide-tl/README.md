@@ -4,8 +4,6 @@ description: Illustrative guide to using the trade license module
 
 # Trade License
 
-### **Introduction to Trade License**
-
 The Trade License \(TL\) module offers the citizens and governance bodies a convenient and transparent means of processing trade licenses. Trade license is the permission issued by the local governing bodies to carry on specified business or trading activity within the authorized area. It is a mandatory document required to run a business or commercial activity of any type.  
 
 
