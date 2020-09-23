@@ -28,7 +28,7 @@ Since Kubernetes is open source, vulnerabilities appear quickly and security pat
 
 Having a CI/CD pipeline that runs periodically for executing rolling updates for your cluster is a plus. You would not need to check for upgrades manually, and rolling updates would cause minimal disruption and downtime; also, there would be fewer chances to make mistakes.
 
-That would make upgrades less of a pain. If you are using a managed kubernetes cluster, your cloud provider can cover this aspect for you.
+That would make upgrades less of a pain. If you are using a managed Kubernetes cluster, your cloud provider can cover this aspect for you.
 
 ## Patch and Harden Your OS <a id="239f"></a>
 
@@ -42,7 +42,7 @@ Kubernetes post version 1.6 has role-based access control \(RBAC\) enabled by de
 
 You also need to ensure that legacy attribute-based access control \(ABAC\) is disabled. Enforcing RBAC gives you several advantages as you can now control who can access your cluster and ensure that the right people have the right set of permissions.
 
-RBAC does not end with securing access to the cluster by kubectl clients but also by pods running within the cluster, nodes, proxies, scheduler, and volume plugins.
+RBAC does not end with securing access to the cluster by Kubectl clients but also by pods running within the cluster, nodes, proxies, scheduler, and volume plugins.
 
 Only provide the required access to service accounts and ensure that the API server authenticates and authorizes them every time they make a request.
 
@@ -50,7 +50,7 @@ Only provide the required access to service accounts and ensure that the API ser
 
 Running your API server on plain HTTP in production is a terrible idea. It opens your cluster to a man in the middle attack and would open up multiple security holes.
 
-Always use transport layer security \(TLS\) to ensure that communication between kubectl clients and the API server is secure and encrypted.
+Always use transport layer security \(TLS\) to ensure that communication between Kubectl clients and the API server is secure and encrypted.
 
 Be aware of any non-TLS ports you expose for managing your cluster. Also ensure that internal clients such as pods running within the cluster, nodes, proxies, scheduler, and volume plugins use TLS to interact with the API server.
 
@@ -63,8 +63,6 @@ Namespaces logically behave as a separate cluster within Kubernetes. You might w
 After that, you can do clever stuff like defining resource quotas, limit ranges, user permissions, and RBAC on the namespace layer.
 
 Avoid binding ClusterRoles to users and service accounts, instead provide them namespace roles so that users have access only to their namespace and do not unintentionally misconfigure someone else’s resources.
-
-
 
 Cluster Role and Namespace Role Bindings
 
@@ -136,17 +134,17 @@ That will limit users from seeking an unusually large amount of resources such a
 
 Specifying a default resource limit and request on a namespace level is generally a good idea as developers aren’t perfect. If they forget to specify a limit, then the default limit and requests would protect you from resource overrun.
 
-## Protect Your etcd Cluster Like a Treasure Vault <a id="7a8d"></a>
+## Protect Your ETCD Cluster Like a Treasure Vault <a id="7a8d"></a>
 
-The etcd datastore is the primary source of data for your Kubernetes cluster. That is where all cluster information and the expected configuration is stored.
+The ETCD datastore is the primary source of data for your Kubernetes cluster. That is where all cluster information and the expected configuration is stored.
 
-If someone gains access to your etcd database, all security measures will go down the drain. They will have full control of your cluster, and they can do what they want by modifying state in your etcd datastore.
+If someone gains access to your ETCD database, all security measures will go down the drain. They will have full control of your cluster, and they can do what they want by modifying state in your ETCD datastore.
 
-You should always ensure that only the API server can communicate with the etcd datastore and only through TLS using a secure mutual auth. You can put your etcd nodes behind a firewall and block all traffic except the ones originating from the API server.
+You should always ensure that only the API server can communicate with the ETCD datastore and only through TLS using a secure mutual auth. You can put your ETCD nodes behind a firewall and block all traffic except the ones originating from the API server.
 
-Do not use the master etcd for any other purpose but for managing your Kubernetes cluster and do not provide any other component any access to the etcd cluster.
+Do not use the master ETCD for any other purpose but for managing your Kubernetes cluster and do not provide any other component access to the ETCD cluster.
 
-Enable encryption of your secret data at rest. That is extremely important so that if someone gets access to your etcd cluster, they should not be able to view your secrets by just doing a hex dump of your secrets.
+Enable encryption of your secret data at rest. That is extremely important so that if someone gets access to your ETCD cluster, they should not be able to view your secrets by just doing a hex dump of your secrets.
 
 ## Control Container Privileges <a id="7e5b"></a>
 
