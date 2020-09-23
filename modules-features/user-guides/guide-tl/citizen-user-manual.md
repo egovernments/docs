@@ -51,39 +51,25 @@ In the **Trade Details** panel, enter the following details.
 
 ![](https://lh4.googleusercontent.com/BvUqG-3XQRa-IDpwGvgnBDZvBsDOfnzk5Up5694u7J6oO6Sk61W-fvKNz3BBCsOIoxiq8FagRF9odjhxjYlKVN7-OkkSnL7a7fk4u5r9jNFm5SgAVYmbAFl2aNRAP0PblYg1dnXn)
 
-1. Select the applicable **Financial Year**.
-2. Select the relevant **License Type** from the drop-down list.
-3. Enter the **Name of Trade**.
-4. Select the appropriate **Structure Type** and **Structure Sub Type.**  
-5. Enter the **Trade Commencement Date**. 
-6. Enter the **Trade GST No.** if applicable. 
-7. Enter the **Operational Area \(Sq Ft\)**. and the **Number of Employees** for the listed trade. 
+Select the applicable **Financial Year**. Select the relevant **License Type** from the drop-down list. Enter the **Name of Trade**. Select the appropriate **Structure Type** and **Structure Sub Type.** Enter the **Trade Commencement Date**. Enter the **Trade GST No.** if applicable. Enter the **Operational Area \(Sq Ft\)**. and the **Number of Employees** for the listed trade. 
 
 In the **Trade Unit** panel, provide the following details -
 
 ![](https://lh5.googleusercontent.com/jieF4BEmQTqs0CuITSsKLLtQqKPbLmRAKyGXNxYy5DVjKjOPmL1-YVXJ8o-s1YgKUyeMl4j02gWR91EXNIWz-L-ENFrFsEPUt8pyGd4meOyMXVniFuM4DDt5CMUr_sM-01GmhYcA)
 
-1. Select the applicable **Trade Category, Trade Type, Trade Sub Type, UOM \(Unit of Measurement\), and UOM value.**
-2. Click on the ![](https://lh5.googleusercontent.com/9i0yqS0fLNvPb0l1gizOYKxicZ5sT5BtAOT4aESaCW7d4Xj8MWRuof_nI3hH4d5LjAffv-Fd8qzqa3c5GIn_XiVQXGbfR1a7o75-jvIPeh7ZhRzMMKGmGJnTTyVBBkq32j_zWcNr) icon to add more trade units.
+Select the applicable **Trade Category, Trade Type, Trade Sub Type, UOM \(Unit of Measurement\), and UOM value.** Click on the ![](https://lh5.googleusercontent.com/9i0yqS0fLNvPb0l1gizOYKxicZ5sT5BtAOT4aESaCW7d4Xj8MWRuof_nI3hH4d5LjAffv-Fd8qzqa3c5GIn_XiVQXGbfR1a7o75-jvIPeh7ZhRzMMKGmGJnTTyVBBkq32j_zWcNr) icon to add more trade units.
 
 In the **Accessories** panel, enter the following details -
 
 ![](https://lh4.googleusercontent.com/34HRkcaaNf3tasjBSWz0gDAvNOsMwrluqzQIXRgtJJhPNfSZzAQZJe-9wK5zfwWV9sXAeItEkTuOqYx6DptToVqId8wTrBiIBT5dblI105X4nv9MMQZwMhOn5Ua146IUSECZ-pgP)
 
-1. Select the applicable **Accessories** for the listed trade. 
-2. Select the corresponding **UOM** for the selected accessories. 
-3. Enter the **UOM value**.
-4. Enter the **Accessory Count**.
-5. Click on the ![](https://lh4.googleusercontent.com/74xRfp424rm8Ae4GQHxb2UgVT2DXnOwATZ5JMMtUP2Cf8q8sJwzOf7dyuXw7Ldq8OXD2r7_R0L9r7ju3m4xlsw4gVuiS_PGzsBWCs3ERQSTQ9UASQvG1pzhBtbtgAK9H8TIjIJZj) icon to add more accessories.
+Select the applicable **Accessories** for the listed trade. Select the corresponding **UOM** for the selected accessories. Enter the **UOM value**. Enter the **Accessory Count**. Click on the ![](https://lh4.googleusercontent.com/74xRfp424rm8Ae4GQHxb2UgVT2DXnOwATZ5JMMtUP2Cf8q8sJwzOf7dyuXw7Ldq8OXD2r7_R0L9r7ju3m4xlsw4gVuiS_PGzsBWCs3ERQSTQ9UASQvG1pzhBtbtgAK9H8TIjIJZj) icon to add more accessories.
 
 Enter the following details in the **Trade Location Details** panel -
 
 ![](https://lh5.googleusercontent.com/22cP9lB0x6WO-kb7drIYKo8UH0cRe89sugBUKimIyY6C-ux9T3Evc2leG7yetW9VgtR9KRRqhsOCUQsl-WuF_sI3K1pvK25ebU0C6Hu7HeB7MlNLr9RWLg7hZUY5_k2kjHJYoJKm)
 
-1. Select the **City**. The system displays the registered city by default.
-2. Enter the **Property ID/UID**, **Door/House No**., **Building/Colony Name**, **Street Name**, **Mohalla**, and **Pincode** for the listed premises.
-3. Click on the map icon to provide the GIS coordinates for the location.
-4. Enter the **Electricity Connection No.** for the listed premise.
+Select the **City**. The system displays the registered city by default. Enter the **Property ID/UID**, **Door/House No**., **Building/Colony Name**, **Street Name**, **Mohalla**, and **Pincode** for the listed premises. Click on the map icon to provide the GIS coordinates for the location. Enter the **Electricity Connection No.** for the listed premise.
 
 Click on the **Next Step** button to move to the **Owner Details** section.
 
@@ -93,10 +79,7 @@ Click on the **Next Step** button to move to the **Owner Details** section.
 
 Select the **Type of Ownership** and the **Type of Sub-Ownership**. Provide the following information in the **Owner Information** section.
 
-1. Enter the owner **Mobile No., Name, Father/Husband’s Name.**
-2. Check Father or Husband to indicate the **Relationship** of the given name with the owner. 
-3. Check the applicable **Gender** of the owner. Enter the **Date of Birth** of the owner. Enter the owner’s **Email ID, PAN No., Correspondence Address**.
-4. Select the applicable **Special Owner Category** from the drop-down list.
+Enter the owner **Mobile No., Name, Father/Husband’s Name.** Check Father or Husband to indicate the **Relationship** of the given name with the owner. Check the applicable **Gender** of the owner. Enter the **Date of Birth** of the owner. Enter the owner’s **Email ID, PAN No., Correspondence Address**. Select the applicable **Special Owner Category** from the drop-down list.
 
 Click on the **Next Step** button to move to the **Documents** section.
 

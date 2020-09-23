@@ -27,7 +27,7 @@ The TL module enables citizens to apply for trade licenses or renew existing lic
       <td style="text-align:left">
         <p>Apply for Trade License</p>
         <p>Pay for license</p>
-        <p>Track status of license application</p>
+        <p>Track status of license</p>
         <p>Download payment receipts</p>
       </td>
       <td style="text-align:left">Individuals and business entities</td>
@@ -91,4 +91,18 @@ This section guides you through the details of using the TL module for each role
 3. [Document Verifier \(DV\)](employee-user-manual.md#document-verifier-dv)
 4. [Field Inspector \(FI\)](employee-user-manual.md#field-inspector-fi)
 5. [Approver](employee-user-manual.md#approver)
+
+### User Manual Sections
+
+* [Citizen Manual](../guide-pgr/citizen-guide.md)
+* [Employee Manual](../guide-pgr/employee-guide.md)
+
+  
+
+
+#### \*\*\*\*
+
+#### \*\*\*\*
+
+### 
 
