@@ -1,4 +1,2 @@
 # Services
 
-Details coming soon...
-
