@@ -71,7 +71,7 @@
   * [Setting up Master Data](install-digit/setting-up-master-data/README.md)
     * [MDMS Overview](install-digit/setting-up-master-data/mdms-overview.md)
     * [Configuring Master Data](install-digit/setting-up-master-data/configuring-master-data.md)
-    * [Adding new Master](install-digit/setting-up-master-data/adding-new-master.md)
+    * [Adding New Master](install-digit/setting-up-master-data/adding-new-master.md)
     * [Configuring Tenants](install-digit/setting-up-master-data/configuring-tenants.md)
     * [State Level Vs City Level Master](install-digit/setting-up-master-data/state-level-vs-city-level-master.md)
   * [Configuring Services](install-digit/configuring-digit-services/README.md)

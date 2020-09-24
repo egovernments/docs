@@ -1,7 +1,5 @@
 # Configuring Master Data
 
-
-
 ### Overview <a id="Overview"></a>
 
 Configuring Master Data for a new module requires creating a new module in the master config file and adding masters data. For better organizing, create all the master data files belongs to the module in the same folder. Organizing in same folder is not mandatory it is based on the moduleName in the Master data file.
