@@ -21,9 +21,9 @@ The File Complaints option allows citizens to register their complaints.
 
 To file complaints navigate to **Complaints** Home page. Click on the **File Complaints** tab on the screen. This will open the complaint form page. Select the relevant **Complaint Type** and the subtype from the drop-down list of options. Refer to the [list of complaint types](complaint-types-list.md) available in PGR. 
 
-![](https://docs.google.com/drawings/u/0/d/sWVUhcYiUMkLftsgVCuSTog/image?w=587&h=301&rev=13&ac=1&parent=1pR9OLsrbm5UDtHSuq-Iv2BM78gUTwagbwGpCMGdeqrg)
+![](../../../.gitbook/assets/pgr-user-manual-1.png)
 
- Enter any additional information in the **Complaint Additional Details** field. Click on the map ![](https://lh6.googleusercontent.com/Tb0JpM-oURDy9qhH7F4LITbbrFVqAB8aWv69et5RaDEyzN4wLKA0KBGBGtcWXyn8xhwR9K0tf_9w3SKPhMu3_3go2w_KG3axcTko-OlvM7_ndMyKxnF2NNvnvXMnOjNjrNlEFm0_)  icon to pinpoint the **Complaint Location**. The **City** field will display the city specified in your profile by default. You can change the city if required. Choose the applicable **Locality/Mohalla** from the drop-down list. Enter the **House No.** and **Street Name**. Enter any **Landmark** to identify the exact location for the listed complaint. 
+Enter any additional information in the **Complaint Additional Details** field. Click on the map ![](https://lh6.googleusercontent.com/Tb0JpM-oURDy9qhH7F4LITbbrFVqAB8aWv69et5RaDEyzN4wLKA0KBGBGtcWXyn8xhwR9K0tf_9w3SKPhMu3_3go2w_KG3axcTko-OlvM7_ndMyKxnF2NNvnvXMnOjNjrNlEFm0_)  icon to pinpoint the **Complaint Location**. The **City** field will display the city specified in your profile by default. You can change the city if required. Choose the applicable **Locality/Mohalla** from the drop-down list. Enter the **House No.** and **Street Name**. Enter any **Landmark** to identify the exact location for the listed complaint. 
 
 Click on the camera ![](https://lh5.googleusercontent.com/i3Z0ifdkN7rCTzGL4tuRylboF_6NII2XsA39nq8rjyODj70xnI6E8AacqgJ1yoOazCnti1BJzTXXOybYcGgXpEyiTsugTgx6s078mjLIXoneJ5P7MCMysdMhYDHHazmMcnN92-Qn)  icon to upload any photos for the complaint. Click on the **Submit Complaint** button once you have finished filling in all the details. 
 
