@@ -1,4 +1,4 @@
-# Setting up Workflow
+# Setting Up Workflows
 
 ### Overview
 
@@ -27,83 +27,84 @@ Before you proceed with the configuration, make sure the following pre-requisite
 
 ### Configuration Details
 
-1. Create the businessService JSON based on product requirement. Following is an sample json of a simple 2 step workflow where an application can be applied by citizen or counter employee and then can be either rejected or approved by the approver.
+Create the businessService JSON based on product requirement. Following is an sample json of a simple 2 step workflow where an application can be applied by citizen or counter employee and then can be either rejected or approved by the approver.
 
-   ```text
-   {
-         "tenantId": "pb",
-         "businessService": "PGR",
-         "business": "pgr-services",
-         "businessServiceSla": 432000000,
-         "states": [
-           {
-             "sla": null,
-             "state": null,
-             "applicationStatus": null,
-             "docUploadRequired": false,
-             "isStartState": true,
-             "isTerminateState": false,
-             "isStateUpdatable": true,
-             "actions": [
-               {
-                 "action": "APPLY",
-                 "nextState": "PENDINGFORASSIGNMENT",
-                 "roles": [
-                   "CITIZEN",
-                   "COUNTER_EMPLOYEE"
-                 ]
-               }
-             ]
-           },
-           {
-             "sla": null,
-             "state": "APPLIED",
-             "applicationStatus": "APPLIED",
-             "docUploadRequired": false,
-             "isStartState": false,
-             "isTerminateState": false,
-             "isStateUpdatable": false,
-             "actions": [
-               {
-                 "action": "APPROVE",
-                 "nextState": "APPROVED",
-                 "roles": [
-                   "APPROVER"
-                 ]
-               },
-               {
-                 "action": "REJECT",
-                 "nextState": "REJECTED",
-                 "roles": [
-                   "APPROVER"
-                 ]
-               }
-             ]
-           },
-           {
-             "sla": null,
-             "state": "REJECTED",
-             "applicationStatus": "REJECTED",
-             "isStateUpdatable": false,
-             "docUploadRequired": false,
-             "isStartState": false,
-             "isTerminateState": true
-           },
-           {
-             "sla": null,
-             "state": "APPROVED",
-             "applicationStatus": "APPROVED",
-             "isStateUpdatable": false,
-             "docUploadRequired": false,
-             "isStartState": false,
-             "isTerminateState": true
-           }
-         ]
-       }
-   ```
+```text
+{
+      "tenantId": "pb",
+      "businessService": "PGR",
+      "business": "pgr-services",
+      "businessServiceSla": 432000000,
+      "states": [
+        {
+          "sla": null,
+          "state": null,
+          "applicationStatus": null,
+          "docUploadRequired": false,
+          "isStartState": true,
+          "isTerminateState": false,
+          "isStateUpdatable": true,
+          "actions": [
+            {
+              "action": "APPLY",
+              "nextState": "PENDINGFORASSIGNMENT",
+              "roles": [
+                "CITIZEN",
+                "COUNTER_EMPLOYEE"
+              ]
+            }
+          ]
+        },
+        {
+          "sla": null,
+          "state": "APPLIED",
+          "applicationStatus": "APPLIED",
+          "docUploadRequired": false,
+          "isStartState": false,
+          "isTerminateState": false,
+          "isStateUpdatable": false,
+          "actions": [
+            {
+              "action": "APPROVE",
+              "nextState": "APPROVED",
+              "roles": [
+                "APPROVER"
+              ]
+            },
+            {
+              "action": "REJECT",
+              "nextState": "REJECTED",
+              "roles": [
+                "APPROVER"
+              ]
+            }
+          ]
+        },
+        {
+          "sla": null,
+          "state": "REJECTED",
+          "applicationStatus": "REJECTED",
+          "isStateUpdatable": false,
+          "docUploadRequired": false,
+          "isStartState": false,
+          "isTerminateState": true
+        },
+        {
+          "sla": null,
+          "state": "APPROVED",
+          "applicationStatus": "APPROVED",
+          "isStateUpdatable": false,
+          "docUploadRequired": false,
+          "isStartState": false,
+          "isTerminateState": true
+        }
+      ]
+    }
+```
 
-2. Once the businessService json is created add it in request body of _\_create_ API of workflow and call the API to create the workflow.
-3. To update the workflow first search the workflow object using _\_search_ API and then make changes in the businessService object and then call _\_update_ using the modified search result. \(States cannot be removed using _\_update_ API as it will leave applications in that state in an invalid state. In such cases first, all the applications in that state should be moved forward or backward state and then the state should be disabled through DB directly\)
+Once the businessService json is created add it in request body of _\_create_ API of workflow and call the API to create the workflow.
+
+To update the workflow first search the workflow object using _\_search_ API and then make changes in the businessService object and then call _\_update_ using the modified search result. \(States cannot be removed using _\_update_ API as it will leave applications in that state in an invalid state. In such cases first, all the applications in that state should be moved forward or backward state and then the state should be disabled through DB directly\)
 
 ### Integration 
 

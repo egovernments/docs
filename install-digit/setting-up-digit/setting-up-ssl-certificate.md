@@ -1,4 +1,4 @@
-# Setting up SSL Certificate
+# Setting Up SSL Certificate
 
 Details coming soon...
 

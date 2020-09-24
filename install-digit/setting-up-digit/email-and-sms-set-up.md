@@ -1,4 +1,4 @@
-# Email and SMS set up
+# Email And SMS Setup
 
 Details coming soon...
 

@@ -1,4 +1,4 @@
-# Configuring workflow for an entity
+# Configuring Workflows For An Entity
 
 ### Overview
 
@@ -43,84 +43,82 @@ Before you proceed with the configuration, make sure the following pre-requisite
 
 ### Configuration Details
 
-1. The Workflow configuration has 3 level of hierarchy:  
-    a. BusinessService  
-    b. State  
-    c. Action  
-   The top level object is BusinessService, it contains fields describing the workflow and list of States that are part of the workflow. The businessService can be defined at tenant level like pb.amritsar or at state level like pb. All objects maintains an audit sub object which keeps track of who is creating and updating and the time of it
+The Workflow configuration has 3 level of hierarchy:  
+ a. BusinessService  
+ b. State  
+ c. Action  
+The top level object is BusinessService, it contains fields describing the workflow and list of States that are part of the workflow. The businessService can be defined at tenant level like pb.amritsar or at state level like pb. All objects maintains an audit sub object which keeps track of who is creating and updating and the time of it
 
-   ```text
-   {
-           "tenantId": "pb.amritsar",
-           "businessService": "PGR",
-           "business": "pgr-services",
-           "businessServiceSla": 432000000,
-           "states": [...]
-       }
-   ```
+```text
+{
+        "tenantId": "pb.amritsar",
+        "businessService": "PGR",
+        "business": "pgr-services",
+        "businessServiceSla": 432000000,
+        "states": [...]
+    }
+```
 
-  
-   Each State object is a valid status for the application. The State object contains the information of the state and what actions can be performed on it.  
+Each State object is a valid status for the application. The State object contains the information of the state and what actions can be performed on it.
 
+```text
+{
+        "sla": 36000000,
+        "state": "PENDINGFORASSIGNMENT",
+        "applicationStatus": "PENDINGFORASSIGNMENT",
+        "docUploadRequired": false,
+        "isStartState": false,
+        "isTerminateState": false,
+        "isStateUpdatable": false,
+        "actions": [...]
+    }
+```
 
-   ```text
-   {
-           "sla": 36000000,
-           "state": "PENDINGFORASSIGNMENT",
-           "applicationStatus": "PENDINGFORASSIGNMENT",
-           "docUploadRequired": false,
-           "isStartState": false,
-           "isTerminateState": false,
-           "isStateUpdatable": false,
-           "actions": [...]
-       }
-   ```
+The action object is the last object in hierarchy, it defines the name of the action and the roles that can perform the action.
 
-  
-   The action object is the last object in hierarchy, it defines the name of the action and the roles that can perform the action.  
+```text
+      {
+          "action": "ASSIGN",
+          "roles": [
+              "GRO",
+              "DGRO"
+          ],
+          "nextState": "PENDINGATLME",
+      }
+```
 
+The workflow should always start from null state as the service treats new applications as having null as the initial state. eg:
 
-   ```text
-         {
-             "action": "ASSIGN",
-             "roles": [
-                 "GRO",
-                 "DGRO"
-             ],
-             "nextState": "PENDINGATLME",
-         }
-   ```
+```text
+{
+                    "sla": null,
+                    "state": null,
+                    "applicationStatus": null,
+                    "docUploadRequired": false,
+                    "isStartState": true,
+                    "isTerminateState": false,
+                    "isStateUpdatable": true,
+                    "actions": [
+                        {
+                            "action": "APPLY",
+                            "nextState": "APPLIED",
+                            "roles": [
+                                "CITIZEN",
+                                "CSR"
+                            ]
+                        }
+                    ]
+                }
+```
 
-2. The workflow should always start from null state as the service treats new applications as having null as the initial state. eg:
+In action object whatever nextState is defined, the application will be sent to that state. It can be to another forward state or even some backward state from where the application have already passed  
+_\( generally such actions are named SENDBACK\)_
 
-   ```text
-   {
-                       "sla": null,
-                       "state": null,
-                       "applicationStatus": null,
-                       "docUploadRequired": false,
-                       "isStartState": true,
-                       "isTerminateState": false,
-                       "isStateUpdatable": true,
-                       "actions": [
-                           {
-                               "action": "APPLY",
-                               "nextState": "APPLIED",
-                               "roles": [
-                                   "CITIZEN",
-                                   "CSR"
-                               ]
-                           }
-                       ]
-                   }
-   ```
-
-3. In action object whatever nextState is defined, the application will be sent to that state. It can be to another forward state or even some backward state from where the application have already passed _\( generally such actions are named SENDBACK\)_
-4. SENDBACKTOCITIZEN is a special keyword for action name. This action sends back the application to citizen’s inbox for him to take action. A new State should be created on which Citizen can take action and should be the nextState of this action. While calling this action from module _assignes_ should be enriched by the module with the uuids of the owners of the application
+SENDBACKTOCITIZEN is a special keyword for action name. This action sends back the application to citizen’s inbox for him to take action. A new State should be created on which Citizen can take action and should be the nextState of this action. While calling this action from module _assignes_ should be enriched by the module with the uuids of the owners of the application
 
 ### Integration
 
- For integration related steps please refer to the document _' Setting Up Workflows'_  in the Reference Docs
+For integration related steps please refer to the document _' Setting Up Workflows'_  in the Reference Docs
 
 ### Reference Docs
 
