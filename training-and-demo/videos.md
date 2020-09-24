@@ -54,6 +54,6 @@ Navigate to the relevant category to view the list of videos available.
 </table>
 
 {% hint style="info" %}
-Watchout for this space as we are constantly adding on to our video library.
+Watch out for this space as we are constantly adding on to our video library.
 {% endhint %}
 
