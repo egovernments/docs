@@ -6,6 +6,12 @@ description: A centralized hub for DIGIT knowledge and information resources
 
 DIGIT is an open-source and open API powered platform for developers, enterprises and citizens to build new applications and solutions. The platform facilitates local governments to achieve quicker implementation time-frames, process improvements, accountability and transparency at various levels of administration.
 
+{% include "modules-features/release-notes/README.md" %}
+
+{% page-ref page="modules-features/release-notes/README.md" %}
+
+{% extends "install-digit/README.md" %}
+
 {% hint style="info" %}
 [Latest Release Notes](modules-features/release-notes/) - Versioned docs for effective support
 {% endhint %}
