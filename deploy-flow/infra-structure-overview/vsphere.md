@@ -16,14 +16,14 @@ Supported operating systems
 
 ### **Importing the OVA**
 
-1. Go into the VSphere WebUI, select your data centre, right-click onto it and choose “Deploy OVF Template”
-2. Fill in the “URL” field with the appropriate URL
-3. Click through the dialogue until “Select storage”
+1. Go into the VSphere WebUI, select your datacenter, right click onto it and choose “Deploy OVF Template”
+2. Fill in the “URL” field with the appropriate url
+3. Click through the dialog until “Select storage”
 4. Select the same storage you want to use for your machines
 5. Select the same network you want to use for your machines
-6. Leave everything in the “Customize Template” and “Ready to complete” dialogue as it is
-7. Wait until the VM got fully imported and the “Snapshots” =&gt; “Create Snapshot” button is not greyed out anymore.
-8. The template VM must have the disk.enable UUID flag set to 1, this can be done using the [govc tool](https://github.com/vmware/govmomi/tree/master/govc) with the following command:
+6. Leave everyhting in the “Customize Template” and “Ready to complete” dialog as it is
+7. Wait until the VM got fully imported and the “Snapshots” =&gt; “Create Snapshot” button is not grayed out anymore
+8. The template VM must have the disk.enableUUID flag set to 1, this can be done using the [govc tool](https://github.com/vmware/govmomi/tree/master/govc) with the following command:
 
 ```text
 govc vm.change -e="disk.enableUUID=1" -vm='/PATH/TO/VM'
@@ -37,11 +37,11 @@ govc vm.change -e="disk.enableUUID=1" -vm='/PATH/TO/VM'
 
 ### **Modifications**
 
-Modifications like Network, disk size, etc. must be done in the ova template before creating a worker node from it. If user clusters have dedicated networks, all user clusters, therefore, need a custom template.
+Modifications like Network, disk size, etc. must be done in the ova template before creating a worker node from it. If user clusters have dedicated networks, all user clusters therefore need a custom template.
 
 ### VM Folder
 
-During the creation of a user cluster Kubermatic creates a dedicated VM folder in the root path on the Datastore \(Defined in the [datacenters.yaml](https://docs.kubermatic.io/installation/install_kubermatic/#defining-the-datacenters)\). That folder will contain all worker nodes of a user cluster.
+During creation of a user cluster Kubermatic creates a dedicated VM folder in the root path on the Datastore \(Defined in the [datacenters.yaml](https://docs.kubermatic.io/installation/install_kubermatic/#defining-the-datacenters)\). That folder will contain all worker nodes of a user cluster.
 
 ### Credentials / Cloud-Config
 
@@ -51,7 +51,7 @@ As this Config must also be deployed onto each worker node of a user cluster, it
 
 ### Permissions
 
-The VSphere user must have the following permissions on the correct resources
+The vsphere user has to have to following permissions on the correct resources:
 
 ### **Seed Cluster**
 
@@ -62,17 +62,17 @@ The VSphere user must have the following permissions on the correct resources
       * Change Configuration
         * Add existing disk
         * Add new disk
-        * Add or remove the device
+        * Add or remove device
         * Remove disk
     * Folder
       * Create folder
-      * Delete folder
+      * Delete dolder
 * Role `k8c-storage-datastore-propagate`
   * Granted at **Datastore**, propagated
   * Permissions
     * Datastore
       * Allocate space
-      * Low-level file operations
+      * Low level file operations
 * Role `Read-only` \(predefined\)
   * Granted at …, **not** propagated
     * Datacenter
@@ -80,7 +80,7 @@ The VSphere user must have the following permissions on the correct resources
 ### **User Cluster**
 
 * Role `k8c-user-vcenter`
-  * Granted at **vcentre** level, **not** propagated
+  * Granted at **vcenter** level, **not** propagated
   * Needed to customize VM during provisioning
   * Permissions
     * VirtualMachine
@@ -88,13 +88,13 @@ The VSphere user must have the following permissions on the correct resources
         * Modify customization specification
         * Read customization specifications
 * Role `k8c-user-datacenter`
-  * Granted at **datacentre** level, **not** propagated
+  * Granted at **datacenter** level, **not** propagated
   * Needed for cloning the template VM \(obviously this is not done in a folder at this time\)
   * Permissions
     * Datastore
       * Allocate space
       * Browse datastore
-      * Low-level file operations
+      * Low level file operations
       * Remove file
     * vApp
       * vApp application configuration
@@ -106,7 +106,7 @@ The VSphere user must have the following permissions on the correct resources
     * Inventory
       * Create from existing
 * Role `k8c-user-cluster-propagate`
-  * Granted at the **cluster** level, propagated
+  * Granted at **cluster** level, propagated
   * Needed for upload of `cloud-init.iso` \(Ubuntu and CentOS\) or defining the Ignition config into Guestinfo \(CoreOS\)
   * Permissions
     * Host
@@ -115,9 +115,9 @@ The VSphere user must have the following permissions on the correct resources
       * Local operations
         * Reconfigure virtual machine
     * Resource
-      * Assign virtual machine to the resource pool
-      * Migrate powered off the virtual machine
-      * Migrate powered-on virtual machine
+      * Assign virtual machine to resource pool
+      * Migrate powered off virtual machine
+      * Migrate powered on virtual machine
     * vApp
       * vApp application configuration
       * vApp instance configuration
@@ -127,12 +127,12 @@ The VSphere user must have the following permissions on the correct resources
     * Network
       * Assign network
 * Role `k8c-user-datastore-propagate`
-  * Granted at **datastore/datastore cluster** level, propagated
+  * Granted at **datastore / datastore cluster** level, propagated
   * Permissions
     * Datastore
       * Allocate space
       * Browse datastore
-      * Low-level file operations
+      * Low level file operations
 * Role `k8c-user-folder-propagate`
   * Granted at **VM Folder** and **Template Folder** level, propagated
   * Needed for managing the node VMs
