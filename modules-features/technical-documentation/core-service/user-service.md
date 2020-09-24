@@ -1,4 +1,4 @@
-# User Services
+# User Service
 
 ### Overview <a id="Overview"></a>
 
