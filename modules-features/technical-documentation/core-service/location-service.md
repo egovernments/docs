@@ -1,4 +1,4 @@
-# Location Service
+# Location Services
 
 ### Overview <a id="Overview"></a>
 
