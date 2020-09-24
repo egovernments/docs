@@ -27,7 +27,7 @@ Enter any additional information in the **Complaint Additional Details** field. 
 
 Click on the camera ![](https://lh5.googleusercontent.com/i3Z0ifdkN7rCTzGL4tuRylboF_6NII2XsA39nq8rjyODj70xnI6E8AacqgJ1yoOazCnti1BJzTXXOybYcGgXpEyiTsugTgx6s078mjLIXoneJ5P7MCMysdMhYDHHazmMcnN92-Qn)  icon to upload any photos for the complaint. Click on the **Submit Complaint** button once you have finished filling in all the details. 
 
-![](https://docs.google.com/drawings/u/0/d/sa372GYgtBITUupIQZK8BpA/image?w=624&h=457&rev=8&ac=1&parent=1pR9OLsrbm5UDtHSuq-Iv2BM78gUTwagbwGpCMGdeqrg)
+![](https://lh3.googleusercontent.com/ben8tfc8Lp0Do6Pht3bRAVYFBvldAvmdg6nCHNy7SXM8vgKwDmiXT6sZ3wD00_REKLWJu8prNoefhBfPDxxtT-8A8p69N6pZxshMd8yET9JsGz7fSyvT1tz2YJlnBDlRmHdXDzZ3)
 
  The system will display the Complaint Registered Successfully message along with the **Complaint No**. Click on the **Continue** button. Your complaint details are available on the dashboard.  
 
