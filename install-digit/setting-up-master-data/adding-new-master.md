@@ -16,21 +16,47 @@ After adding the new master, the MDMS service needs to be restarted to read the 
 
 ### Configuration Details <a id="Configuration-Details"></a>
 
-Creating Master JSON:  
-  
+**Creating Master JSON**  
 The new JSON file needs to contain 3 keys as shown in the below code snippet.  
-The new master can be created for Statewide or ULB wise. Tenant id and config in the master config file determines this.`1 2 3 4 5` `{ "tenantId": "< TENANT ID >", "moduleName": "< MODULE NAME >", "< MASTER NAME >": [] }`
+The new master can be created for Statewide or ULB wise. Tenant id and config in the master config file determines this.
 
-Configuring the master config file:  
-  
-The Master config file is structured as below. Each key in the Master config is a module and each key in the module is a master.  
-  
-`1 2 3 4 5 6 7 8 9 10 11 12 13` `{ "<module1>":{ "<master1>":{}, "<master2>":{}, ... }, "<module2>":{ <master3>:{}, <master4>:{}, ... }, ... }`
+```text
+{
+  "tenantId": "< TENANT ID >",
+  "moduleName": "< MODULE NAME >",
+  "< MASTER NAME >": []
+}
+```
 
-  
-Each master contain following data and keys are self-explanatory  
-  
-`1 2 3 4 5` `"master":{ "masterName": "<>", "isStateLevel": true, "uniqueKeys": [] }`
+**Configuring the master config file**  
+The Master config file is structured as below. Each key in the Master config is a module and each key in the module is a master.
+
+```text
+{
+  "<module1>":{
+    "<master1>":{},
+    "<master2>":{},
+    ...
+  },
+  "<module2>":{
+    <master3>:{},
+    <master4>:{},
+    ...
+  },
+  ...
+}
+
+```
+
+Each master contain the following data and keys are self-explanatory
+
+```text
+"master":{
+    "masterName": "<>",
+    "isStateLevel": true,
+    "uniqueKeys": []
+}
+```
 
 ### Reference Docs <a id="Reference-Docs"></a>
 
