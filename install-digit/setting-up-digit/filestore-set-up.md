@@ -1,4 +1,4 @@
-# FileStore Setup
+# FileStore set up
 
 Details coming soon...
 
