@@ -33,7 +33,13 @@ The config JSON files to be written should follow the listed rules
 * The config files should have JSON extension
 * The file should mention the tenantId, module name, and the master name first before defining the data 
 
-`1 2 3 4 5` `{ "tenantId": "uk", "moduleName": "BillingService", "{$MasterName}":[ ] }`
+```text
+{
+  "tenantId": "uk",
+  "moduleName": "BillingService",
+  "{$MasterName}":[ ]
+}
+```
 
 | **Title** | **Description** |
 | :--- | :--- |
@@ -41,9 +47,27 @@ The config JSON files to be written should follow the listed rules
 | moduleName | Name of the module to which the master data belongs |
 | MasterName | The Master Name will be substituted by the actual name of the master data. The array succeeding it will contain the actual data. |
 
- Example Config JSON for “Billing Service”`1 2 3 4 5 6 7 8 9 10 11 12 13 14 15` `{ "tenantId": "pb", "moduleName": "BillingService", "BusinessService": [ { "businessService": "PropertyTax", "code": "PT", "collectionModesNotAllowed": [ "DD" ], "partPaymentAllowed": true, "isAdvanceAllowed": true, "isVoucherCreationEnabled": true } ] }`
+ Example Config JSON for “Billing Service”
 
-### Reference Docs <a id="Reference-Docs"></a>
+```text
+{
+  "tenantId": "pb",
+  "moduleName": "BillingService",
+ "BusinessService": 
+ [
+    {
+      "businessService": "PropertyTax",
+      "code": "PT",
+      "collectionModesNotAllowed": [ "DD" ],
+      "partPaymentAllowed": true,
+      "isAdvanceAllowed": true,
+      "isVoucherCreationEnabled": true
+    }
+]
+}
+```
+
+### Reference Docs
 
 #### Doc Links <a id="Doc-Links"></a>
 
