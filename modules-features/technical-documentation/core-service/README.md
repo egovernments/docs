@@ -1,6 +1,6 @@
 # Core Services
 
-This section provides you key configuration and integration details for DIGIT core services. 
+Core Services is one of the key DIGIT components. Browse through this section to learn more about key configuration and integration details of these core services. 
 
 The key core services covered include -
 
