@@ -19,7 +19,7 @@ The Citizen role can -
 
 The File Complaints option allows citizens to register their complaints. 
 
-To file complaints navigate to **Complaints** Home page. Click on the **File Complaints** tab on the screen. This will open the complaint form page. Select the relevant **Complaint Type** and the subtype from the drop-down list of options. Refer to the list of complaint types available in PGR. 
+To file complaints navigate to **Complaints** Home page. Click on the **File Complaints** tab on the screen. This will open the complaint form page. Select the relevant **Complaint Type** and the subtype from the drop-down list of options. Refer to the [list of complaint types](complaint-types-list.md) available in PGR. 
 
 ![](https://docs.google.com/drawings/u/0/d/sWVUhcYiUMkLftsgVCuSTog/image?w=587&h=301&rev=13&ac=1&parent=1pR9OLsrbm5UDtHSuq-Iv2BM78gUTwagbwGpCMGdeqrg)
 
