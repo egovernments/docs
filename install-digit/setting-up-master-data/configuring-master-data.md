@@ -55,3 +55,5 @@ Please check the link to create new master[ Adding New Master](https://digit-dis
 |   Sample Master config file | [![](https://github.githubassets.com/favicon.ico)https://github.com/egovernments/playground-mdms-data/blob/master/master-config.json - Connect to preview](https://github.com/egovernments/playground-mdms-data/blob/master/master-config.json) |
 |  Sample Module folder |  [![](https://github.githubassets.com/favicon.ico)https://github.com/egovernments/playground-mdms-data/tree/master/data/pg/TradeLicense - Connect to preview](https://github.com/egovernments/playground-mdms-data/tree/master/data/pg/TradeLicense) |
 
+
+
