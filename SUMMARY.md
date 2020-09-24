@@ -14,6 +14,7 @@
       * [Citizen User Manual](modules-features/user-guides/guide-tl/citizen-user-manual.md)
       * [Employee User Manual](modules-features/user-guides/guide-tl/employee-user-manual.md)
     * [Public Grievance & Redressal](modules-features/user-guides/guide-pgr/README.md)
+      * [Complaint Types List](modules-features/user-guides/guide-pgr/complaint-types-list.md)
       * [Citizen User Manual](modules-features/user-guides/guide-pgr/citizen-guide.md)
       * [Employee User Manual](modules-features/user-guides/guide-pgr/employee-guide.md)
     * [Property Tax](modules-features/user-guides/guide-pt/README.md)

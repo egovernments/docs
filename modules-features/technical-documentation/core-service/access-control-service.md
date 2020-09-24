@@ -30,7 +30,7 @@ Before you proceed with the configuration, make sure the following pre-requisite
 
 ### Configuration Details <a id="Configuration-Details"></a>
 
-Define the roles 
+Define the roles :
 
 ```text
 {
@@ -40,7 +40,7 @@ Define the roles
 }
 ```
 
-Add the Actions \(URL\) 
+Add the Actions \(URL\) :
 
 ```text
 {
@@ -57,7 +57,7 @@ Add the Actions \(URL\)
 }
 ```
 
-Add the role action mapping
+Add the role action mapping:
 
 ```text
 {
