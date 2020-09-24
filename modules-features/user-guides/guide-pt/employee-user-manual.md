@@ -22,23 +22,15 @@ DV is responsible for verifying the supporting documents uploaded by the propert
 
 Property applications are rejected if the supporting documents uploaded by the applicant fails to comply with the property regulatory requirements or the details provided in the form are incorrect.
 
-**To reject applications**
-
-1. Navigate to the Home page.
-2. Search for the application you want to verify by entering any of the search parameters.
-3. Click on the Application No. to open the application.
-4. Scroll down the form to review the filled in details.
+To reject applications navigate to the **Home** page. Search for the application you want to verify by entering any of the search parameters. Click on the **Application No.** to open the application. Scroll down the form to review the filled in details.
 
 ![](https://lh6.googleusercontent.com/IKibaRZvBvTUPqIrcz3NkCzlRoVs7DY_OS-pB5pe_mrupKdZbp3I-wIsVZJGpi7_WDNEgsgXmOm7b-fDHcCqGNiLjuhbITkKKmnULj2QUkRZnHPE3oeDfS2plZhOwZLVWLyv5Xgs)
 
-1. Click on the Take Action button available at the bottom of the page.
-2. Click on Reject.
+Click on the **Take Action** button available at the bottom of the page. Click on **Reject**.
 
 ![](https://lh6.googleusercontent.com/UqUs5TKUHCy5GY8M4qplD0yGjWMTt2KaudLcfNIm9fecYlJeD9Elirxvgq7SPMBgxFzYD2B_ud-fDvxJhRUnJlqkLBFaIft6L8ELqqQPQE4aGtOFulWVeOsLQucDYeYFTZOBlbYI)
 
-1. Enter your Comments to state the reason for rejection.
-2. Click on the Upload Files button to upload any supporting documents to validate the rejection.
-3. Click on the Reject button.
+Enter your **Comments** to state the reason for rejection. Click on the **Upload Files** button to upload any supporting documents to validate the rejection. Click on the **Reject** button.
 
 The applicant will receive a rejection notification on his mobile number or email address.
 
@@ -46,40 +38,26 @@ The applicant will receive a rejection notification on his mobile number or emai
 
 The DV verifies and forwards the property applications to the Field Inspector if the DV finds all information and documents provided by the applicant correct.
 
-**To verify and forward the application**
-
-1. Navigate to the Home page.
-2. Search for the application you want to verify by entering any of the search parameters.
-3. Click on the Application No. to open the application.
-4. Scroll down the form to review the filled in details.
+To verify and forward the application navigate to the Home page. Search for the application you want to verify by entering any of the search parameters. Click on the **Application No.** to open the application. Scroll down the form to review the filled in details.
 
 ![](https://lh6.googleusercontent.com/IKibaRZvBvTUPqIrcz3NkCzlRoVs7DY_OS-pB5pe_mrupKdZbp3I-wIsVZJGpi7_WDNEgsgXmOm7b-fDHcCqGNiLjuhbITkKKmnULj2QUkRZnHPE3oeDfS2plZhOwZLVWLyv5Xgs)
 
-1. Click on the Take Action button available at the bottom of the page.
-2. Click on the Verify and Forward button.
-3. Select the relevant Assignee Name from the list of available employees for subsequent processing.
+Click on the **Take Action** button available at the bottom of the page. Click on the **Verify and Forward** button. Select the relevant **Assignee Name** from the list of available employees for subsequent processing.
 
 ![](https://lh4.googleusercontent.com/gO3C_nMkBmlMkAhsF8cDfgeoIU7UTUBwwGoAqax7y4pzrRWxpCzt33jx7zqFYSGXBVFIqJ067GS0tyv6RlJYt91VDdKe3nYGS65ia7ZOz-pLuKoOnXOlL9D52fvpeakS7HfwGZa2)
 
-1. Enter any additional information in the Comments field in context to the application for the assignee’s knowledge.
-2. Click on Upload Files to upload any supporting documents for the application.
-3. Click on the Verify and Forward button.
+Enter any additional information in the **Comments** field in context to the application for the assignee’s knowledge. Click on **Upload Files** to upload any supporting documents for the application. Click on the **Verify and Forward** button.
 
-The property application is assigned to the selected Assignee for subsequent processing.  
+The property application is assigned to the selected assignee for subsequent processing.  
 
 
 ### **Edit Application**
 
-1. Navigate to the Home page.
-2. Search for the application you want to verify by entering any of the search parameters.
-3. Click on the Application No. to open the application.
-4. Scroll down the form to review the filled in details.
+To edit applications navigate to the **Home** page. Search for the application you want to verify by entering any of the search parameters. Click on the **Application No.** to open the application. Scroll down the form to review the filled in details.
 
 ![](https://lh6.googleusercontent.com/IKibaRZvBvTUPqIrcz3NkCzlRoVs7DY_OS-pB5pe_mrupKdZbp3I-wIsVZJGpi7_WDNEgsgXmOm7b-fDHcCqGNiLjuhbITkKKmnULj2QUkRZnHPE3oeDfS2plZhOwZLVWLyv5Xgs)
 
-1. Click on the Take Action button available at the bottom of the page.
-2. Click on the Edit button.
-3. Change any details in the form as required.
+Click on the **Take Action** button available at the bottom of the page. Click on the **Edit** button. Change any details in the form as required.
 
 ### **Field Inspector \(FI\)**
 
@@ -99,23 +77,15 @@ FI is responsible for inspecting and verifying the field details of the property
 
 FI sends back the applications to the citizens if some vital information is missing in the application or there is a mistake in the information provided.
 
-**To send applications back to the citizen**
-
-1. Navigate to the Home page.
-2. Search for the application you want to verify by entering any of the search parameters.
-3. Click on the Application No. to open the application.
-4. Scroll down the form to review the filled in details.
+To send applications back to the citizen navigate to the **Home** page. Search for the application you want to verify by entering any of the search parameters. Click on the **Application No.** to open the application. Scroll down the form to review the filled in details.
 
 ![](https://lh3.googleusercontent.com/oocVw_MeILKm1l20nzynbbW01rpxbJuj6--fPme-4uvxYbwCQ3tv2oM36e6Ts4ENjw6z4rODqKhu5i5UXTStSQKt9ktxzaIFcWHNTTiDzmvP8717BIOwlvY76pWVUxGt1Y9SA2r1)
 
-1. Click on the Take Action button available at the bottom of the page.
-2. Click on the Send Back to Citizen button.
-3. Enter any Comments stating why the application is sent back.
+Click on the **Take Action** button available at the bottom of the page. Click on the **Send Back to Citizen** button. Enter any **Comments** stating why the application is sent back.
 
 ![](https://lh4.googleusercontent.com/QxYlS-XjQVPXT78nQ9YicS7bVuT4xXdPPlAjzEsOQiLo45Mo36gCRDK0Aj5ULXBg4ry0SFkCWmTKRnHvp-zzIGudS648wyHeuXTC2XsiuwJ2fKpa09n4zUn03Ddl_phDSHNfl_P9)
 
-1. Click on the Upload Files button to upload any files or images in context to the application.
-2. Click on the Send Back to Citizen button.
+Click on the **Upload Files** button to upload any files or images in context to the application. Click on the **Send Back to Citizen** button.
 
 The system displays a success acknowledgement message stating that the application is sent back to the initiator.
 
@@ -123,24 +93,15 @@ The system displays a success acknowledgement message stating that the applicati
 
 The FI can send back the PT application to the DV if there is any mistake or lapses in the document verification process.
 
-**To send back applications to the DV**
-
-1. Navigate to the Home page.
-2. Search for the application you want to verify by entering any of the search parameters.
-3. Click on the Application No. to open the application.
-4. Scroll down the form to review the filled in details.
+To send back applications to the DV navigate to the Home page. Search for the application you want to verify by entering any of the search parameters. Click on the **Application No.** to open the application. Scroll down the form to review the filled in details.
 
 ![](https://lh5.googleusercontent.com/CAkPIW393cavBhrnb849mvjo0Lf2P2dPXNA_cNDbMYiu19aca-VA8enxxoPvvujjj68fiQ1riE4g7Z_pRK-IJKDfoeABTLXeL_X0I6hLzGjXGMh4dtEj5SP2zcWS10tWMW9XPFe4)
 
-1. Click on the Take Action button available at the bottom of the page.
-2. Click on the Send Back button.
+Click on the **Take Action** button available at the bottom of the page. Click on the **Send Back** button.
 
 ![](https://lh5.googleusercontent.com/LF0t4mF5vsbIUqjefvG70mcgO1yxgBduldOF7KP1f5Y8HBKBKUMd2xphgRhkMLw2TPcnv_Fg1_pjNgDmn3yy7oyZwLNu1W8D4V7_w5Sc7uj7RqSp5NcOl2UJXCLqQsUupoJWf5fD)
 
-1. Select the Assignee Name who will be responsible for verifying the application.
-2. Enter any Comments stating why the application is sent back.
-3. Click on the Upload Files button to upload any files or images in context.
-4. Click on the Send Back button.
+Select the **Assignee Name** who will be responsible for verifying the application. Enter any **Comments** stating why the application is sent back. Click on the **Upload Files** button to upload any files or images in context. Click on the **Send Back** button.
 
 The application is assigned back to the selected assignee for verification of documents.
 
@@ -148,23 +109,15 @@ The application is assigned back to the selected assignee for verification of do
 
 Property tax applications are rejected if the supporting documents uploaded by the applicant fails to comply with the license requirements or the details provided in the form are incorrect.
 
-**To reject applications**
-
-1. Navigate to the Home page.
-2. Search for the application you want to verify by entering any of the search parameters.
-3. Click on the Application No. to open the application.
-4. Scroll down the form to review the filled in details.
+To reject applications navigate to the **Home** page. Search for the application you want to verify by entering any of the search parameters. Click on the **Application No.** to open the application. Scroll down the form to review the filled in details.
 
 ![](https://lh3.googleusercontent.com/e1R1lyArskwD4OY6fvNVXswWI5s3LygDHGH_ceBpKNJ3lYx822PNy-K56cLCJaqYkhy9kfrIqDoMwUrERZt5h3eNVgD63QvzD2eJEl_ugFAiVnzV24tgDii5pfaJ4pJYX5WT1IXw)
 
-1. Click on the Take Action button available at the bottom of the page.
-2. Click on Reject.
+Click on the **Take Action** button available at the bottom of the page. Click on **Reject**.
 
 ![](https://lh6.googleusercontent.com/UqUs5TKUHCy5GY8M4qplD0yGjWMTt2KaudLcfNIm9fecYlJeD9Elirxvgq7SPMBgxFzYD2B_ud-fDvxJhRUnJlqkLBFaIft6L8ELqqQPQE4aGtOFulWVeOsLQucDYeYFTZOBlbYI)
 
-1. Enter your Comments to state the reason for rejection.
-2. Click on the Upload Files button to upload any supporting documents to validate the rejection.
-3. Click on the Reject button.
+Enter your **Comments** to state the reason for rejection. Click on the **Upload Files** button to upload any supporting documents to validate the rejection. Click on the **Reject** button.
 
 The applicant will receive a rejection notification on his mobile number or email address.
 
@@ -172,26 +125,17 @@ The applicant will receive a rejection notification on his mobile number or emai
 
 The FI verifies and forwards the property applications to the Approver if the information and documents provided by the applicant are correct.
 
-**To verify and forward the application**
-
-1. Navigate to the Home page.
-2. Search for the application you want to verify by entering any of the search parameters.
-3. Click on the Application No. to open the application.
-4. Scroll down the form to review the filled in details.
+To verify and forward the application navigate to the **Home** page. Search for the application you want to verify by entering any of the search parameters. Click on the **Application No.** to open the application. Scroll down the form to review the filled in details.
 
 ![](https://lh4.googleusercontent.com/L54G0ik5rYE3dKBIS3LPBpSSknbWRWQ_c5zlI4wKLLPOnUa-YBPbD02Bp8Xw0OXbjpzOmv2IVym8wgzDqRtVAVFYkwpVIlpHbDnvVCKIpIGFbns4_nB2bSHDl0McSOovo2ZF4sFi)
 
-1. Click on the Take Action button available at the bottom of the page.
-2. Click on the Verify and Forward button.
-3. Select the relevant Assignee Name from the list of available employees for subsequent processing.
+Click on the **Take Action** button available at the bottom of the page. Click on the **Verify and Forward** button. Select the relevant **Assignee Name** from the list of available employees for subsequent processing.
 
 ![](https://lh4.googleusercontent.com/gO3C_nMkBmlMkAhsF8cDfgeoIU7UTUBwwGoAqax7y4pzrRWxpCzt33jx7zqFYSGXBVFIqJ067GS0tyv6RlJYt91VDdKe3nYGS65ia7ZOz-pLuKoOnXOlL9D52fvpeakS7HfwGZa2)
 
-1. Enter any additional information in the Comments field in context to the application for the assignee’s knowledge.
-2. Click on Upload Files to upload any supporting documents for the application.
-3. Click on the Verify and Forward button.
+Enter any additional information in the **Comments** field in context to the application for the assignee’s knowledge. Click on **Upload Files** to upload any supporting documents for the application. Click on the **Verify and Forward** button.
 
-The property application is assigned to the selected Assignee for subsequent processing.
+The property application is assigned to the selected assignee for subsequent processing.
 
 ### **Approver**
 
@@ -209,24 +153,15 @@ The Approver is responsible for the final approval of the PT application.
 
 The Approver can send back the property applications to the FI or DV if there is any mistake or lapses in the document verification process.
 
-**To send back applications to the DV or FI** 
-
-1. Navigate to the Home page.
-2. Search for the application you want to verify by entering any of the search parameters.
-3. Click on the Application No. to open the application.
-4. Scroll down the form to review the filled in details.
+To send back applications to the DV or FI navigate to the **Home** page. Search for the application you want to verify by entering any of the search parameters. Click on the **Application No.** to open the application. Scroll down the form to review the filled in details.
 
 ![](https://lh4.googleusercontent.com/zDdpBxKH3znbdKcuRFQHmBGXcpsvWs8Udbs2RBNtVger_uQ7DsXXx0Bh3SMumttLVlTstqZPrYIqgRG2ehB6BWTe4TzuYXSQc_VBn7RZUD7C_YlevcWHwSBWkJQqocZF-EJzJCX0)
 
-1. Click on the Take Action button available at the bottom of the page.
-2. Click on the Send Back button.
+Click on the **Take Action** button available at the bottom of the page. Click on the **Send Back** button.
 
 ![](https://lh5.googleusercontent.com/LF0t4mF5vsbIUqjefvG70mcgO1yxgBduldOF7KP1f5Y8HBKBKUMd2xphgRhkMLw2TPcnv_Fg1_pjNgDmn3yy7oyZwLNu1W8D4V7_w5Sc7uj7RqSp5NcOl2UJXCLqQsUupoJWf5fD)
 
-1. Select the Assignee Name who will be responsible for verifying the application.
-2. Enter any Comments stating why the application is sent back.
-3. Click on the Upload Files button to upload any files or images in context.
-4. Click on the Send Back button.
+Select the **Assignee Name** who will be responsible for verifying the application. Enter any **Comments** stating why the application is sent back. Click on the **Upload Files** button to upload any files or images in context. Click on the **Send Back** button.
 
 The application is assigned back to the selected assignee for verification of application.
 
@@ -234,23 +169,15 @@ The application is assigned back to the selected assignee for verification of ap
 
 Property applications are rejected if the supporting documents uploaded by the applicant fails to comply with the regulatory requirements or the details provided in the form are incorrect.
 
-To reject applications
-
-1. Navigate to the Home page.
-2. Search for the application you want to verify by entering any of the search parameters.
-3. Click on the Application No. to open the application.
-4. Scroll down the form to review the filled in details.
+To reject applications navigate to the Home page. Search for the application you want to verify by entering any of the search parameters. Click on the **Application No.** to open the application. Scroll down the form to review the filled in details.
 
 ![](https://lh4.googleusercontent.com/l73mJXkfayKQ2EQcFw72Y33KMvJuItBWV3OAzoEDA5-O614rNzaIJue9ZX7lYr5P3Jk9GZnCB0cfsc2w1swqgGxu11q0wE7KRij4cd2NavsU6Os8sMGDx1IkcdUlG2UJs7RXWbWQ)
 
-1. Click on the Take Action button available at the bottom of the page.
-2. Click on Reject.
+Click on the **Take Action** button available at the bottom of the page. Click on **Reject**.
 
 ![](https://lh6.googleusercontent.com/UqUs5TKUHCy5GY8M4qplD0yGjWMTt2KaudLcfNIm9fecYlJeD9Elirxvgq7SPMBgxFzYD2B_ud-fDvxJhRUnJlqkLBFaIft6L8ELqqQPQE4aGtOFulWVeOsLQucDYeYFTZOBlbYI)
 
-1. Enter your Comments to state the reason for rejection.
-2. Click on the Upload Files button to upload any supporting documents to validate the rejection.
-3. Click on the Reject button.
+Enter your **Comments** to state the reason for rejection. Click on the **Upload Files** button to upload any supporting documents to validate the rejection. Click on the **Reject** button.
 
 The applicant will receive a rejection notification on his mobile number or email address.
 
@@ -258,24 +185,15 @@ The applicant will receive a rejection notification on his mobile number or emai
 
 The Approver signs off the PT application once the information and documents provided by the applicant are found correct. 
 
-To approve the application
-
-1. Navigate to the Home page.
-2. Search for the application you want to verify by entering any of the search parameters.
-3. Click on the Application No. to open the application.
-4. Scroll down the form to review the filled in details.
+To approve the application navigate to the Home page. Search for the application you want to verify by entering any of the search parameters. Click on the **Application No.** to open the application. Scroll down the form to review the filled in details.
 
 ![](https://lh6.googleusercontent.com/79QnqnrTlcpv9Injybe0v_8Wgo9dVvwKFFX_3DyG1yqM6GV1obgv7lUks5nZ-ZPWltD3ps7Ar6eAPpPhgcydtImjCUXOgmLoPoIFj_xbtOkPV-7KaykycnArmvBFvPLGA3YxGN01)
 
-1. Click on the Take Action button available at the bottom of the page.
-2. Click on the Approve button.
+Click on the **Take Action** button available at the bottom of the page. Click on the **Approve** button.
 
 ![](https://lh4.googleusercontent.com/FK9qMm0lMtuirKg8IaqBLn1IdKIYJ4bkcbpOSRUEmTD5ZoOaP3KQLKxeUZiDnEXyDh4xfBP_5FYVd-OK8U8NeKDMcJlSectELXGQbbiDQICl0cdIXWVJHpUMSwokE-mNwAwn7OnX)
 
-1. Select the relevant Assignee Name from the list of available employees for subsequent processing.
-2. Enter any additional information in the Comments field in context to the application for the assignee’s knowledge.
-3. Click on Upload Files to upload any supporting documents for the application.
-4. Click on the Approve button.
+Select the relevant **Assignee Name** from the list of available employees for subsequent processing. Enter any additional information in the **Comments** field in context to the application for the assignee’s knowledge. Click on **Upload Files** to upload any supporting documents for the application. Click on the **Approve** button.
 
 The property application is approved.
 

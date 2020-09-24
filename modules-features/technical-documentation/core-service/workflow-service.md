@@ -1,4 +1,4 @@
-# Workflow Service
+# Workflow Services
 
 ### Overview <a id="Overview"></a>
 
@@ -90,5 +90,5 @@ The workflow configuration can be used by any module which performs a sequence o
 | _/process/\_transition_ | [https://www.getpostman.com/collections/8552e3de40c819e34190](https://www.getpostman.com/collections/8552e3de40c819e34190) |
 | _/process/\_search_ | [https://www.getpostman.com/collections/8552e3de40c819e34190](https://www.getpostman.com/collections/8552e3de40c819e34190) |
 
-_\(Note: All the API’s are in the same postman collection therefore the same link is added in each row\)_
+_\(Note: All the API’s are in the same postman collection, therefore, the same link is added in each row\)_
 

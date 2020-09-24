@@ -11,7 +11,7 @@ DIGIT modules follow structured workflows to allow easy tracking of applications
 * [Public Grievances & Redressal User Manual](guide-pgr/)
 * [Property Tax User Manual](guide-pt/)
 * [mCollect User Manual](guide-mcollect/)
-* [Finance User Manual](guide-finance/)
+* [Finance User Manual]()
 
 
 
