@@ -9,5 +9,5 @@ Learn all about setting up DIGIT and its various components.
 * [Setting Up SSL Certificate](setting-up-ssl-certificate.md)
 * [Perioding Log Cleanup](periodic-log-cleanup.md)
 
-
+Details for these pages coming up soon...
 
