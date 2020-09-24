@@ -112,7 +112,7 @@
   * [Security Practices](devops/security-practices.md)
 * [Training & Demos](training-and-demo/README.md)
   * [Training Calendar](training-and-demo/training-calendar.md)
-  * [Videos](training-and-demo/videos.md)
+  * [Training Videos](training-and-demo/videos.md)
 * [DIGIT Support](digit-support/README.md)
   * [Support Process](digit-support/support-process.md)
   * [Standard Operating Procedure](digit-support/standard-operating-procedure.md)
