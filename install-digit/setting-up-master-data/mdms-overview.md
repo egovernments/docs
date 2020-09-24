@@ -1,7 +1,5 @@
 # MDMS Overview
 
-
-
 ### Overview <a id="Overview"></a>
 
 MDMS stands for Master Data Management Service. MDMS is One of the applications in the eGov DIGIT core group of services. This service aims to reduce the time spent by developers on writing codes to store and fetch master data \( primary data needed for module functionality \) which doesn’t have any business logic associated with them. 
