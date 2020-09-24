@@ -1,6 +1,6 @@
 # Why Kubernetes for DIGIT
 
-## Overview <a id="6b5a"></a>
+### Overview
 
 This page explains why Kubernetes is required. It deep dives into the key benefits of using Kubernetes to run a large containerized platform like DIGIT in production environments.
 
