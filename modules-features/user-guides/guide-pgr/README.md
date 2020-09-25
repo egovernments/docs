@@ -4,8 +4,6 @@ description: A complete guide to using the PGR module
 
 # Public Grievance & Redressal
 
-### **Introduction To PGR**
-
 The Public Grievance Redressal or the PGR  is a standardized solution offering on DIGIT platform to register and redress citizen grievances. It provides a transparent and trackable mechanism to solve public grievances by inducing responsive administration. PGR enables the citizens to file the complaints using various channels and helps the municipal employees to resolve them timely.
 
 ### Key Features
@@ -74,10 +72,14 @@ Refer to the table below to understand the different user roles and the scope of
   </tbody>
 </table>
 
-### User Manual Sections
+### Using PGR
 
-* Citizen Manual
-* Employee Manual
+This section guides you through the details of using the PGR module for each role. Click on the relevant role below to learn more about how to use the PGR system.
+
+* [Citizens](citizen-guide.md)
+* [CSR](employee-guide.md#csr)
+* [GRO](employee-guide.md#gro)
+* [FME](employee-guide.md#fme)
 
 
 

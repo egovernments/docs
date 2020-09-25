@@ -1,4 +1,4 @@
-# Adding new Master
+# Adding New Master
 
 ### Overview <a id="Overview"></a>
 
@@ -12,23 +12,51 @@ Before proceeding with the configuration, make sure the following pre-requisites
 
 ### Deployment Details <a id="Deployment-Details"></a>
 
-1. After adding the new master, the MDMS service needs to be restarted to read the newly added data.
+After adding the new master, the MDMS service needs to be restarted to read the newly added data.
 
 ### Configuration Details <a id="Configuration-Details"></a>
 
-1.  1. Creating Master JSON:  The new JSON file needs to contain 3 keys as shown in the below code snippet. The new master can be created for Statewide or ULB wise. Tenant id and config in the master config file determines this.`1 2 3 4 5` `{ "tenantId": "< TENANT ID >", "moduleName": "< MODULE NAME >", "< MASTER NAME >": [] }`
-   2. Configuring the master config file:  
-  
-      The Master config file is structured as below. Each key in the Master config is a module and each key in the module is a master.  
-  
-      `1 2 3 4 5 6 7 8 9 10 11 12 13` `{ "<module1>":{ "<master1>":{}, "<master2>":{}, ... }, "<module2>":{ <master3>:{}, <master4>:{}, ... }, ... }`
+**Creating Master JSON**  
+The new JSON file needs to contain 3 keys as shown in the below code snippet.  
+The new master can be created for Statewide or ULB wise. Tenant id and config in the master config file determines this.
 
-  
-      Each master contain following data and keys are self-explanatory  
-  
-      `1 2 3 4 5` `"master":{ "masterName": "<>", "isStateLevel": true, "uniqueKeys": [] }`
+```text
+{
+  "tenantId": "< TENANT ID >",
+  "moduleName": "< MODULE NAME >",
+  "< MASTER NAME >": []
+}
+```
 
+**Configuring the master config file**  
+The Master config file is structured as below. Each key in the Master config is a module and each key in the module is a master.
 
+```text
+{
+  "<module1>":{
+    "<master1>":{},
+    "<master2>":{},
+    ...
+  },
+  "<module2>":{
+    <master3>:{},
+    <master4>:{},
+    ...
+  },
+  ...
+}
+
+```
+
+Each master contain the following data and keys are self-explanatory
+
+```text
+"master":{
+    "masterName": "<>",
+    "isStateLevel": true,
+    "uniqueKeys": []
+}
+```
 
 ### Reference Docs <a id="Reference-Docs"></a>
 

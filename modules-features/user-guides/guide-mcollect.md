@@ -18,9 +18,7 @@ The mCollect module is designed to facilitate the ULBs process miscellaneous typ
 
 #### **User roles**
 
-Refer to the table below to understand the different user roles and the scope of action linked to each role. The applicable user roles and action items can vary from one State to another. DIGIT customizes the workflows to suit the requirements defined at the State level.   
-  
-****
+Refer to the table below to understand the different user roles and the scope of action linked to each role. The applicable user roles and action items can vary from one State to another. DIGIT customizes the workflows to suit the requirements defined at the State level. 
 
 <table>
   <thead>
@@ -42,8 +40,8 @@ Refer to the table below to understand the different user roles and the scope of
         <p>Download Receipts</p>
         <p>Print Receipts</p>
       </td>
-      <td style="text-align:left">Citizen pays the applicable fees for miscellaneous services through the
-        CEs or FEs</td>
+      <td style="text-align:left">The citizen pays the applicable fees for miscellaneous services through
+        the CEs or FEs</td>
     </tr>
     <tr>
       <td style="text-align:left"><b>Counter Employee (CE)</b>
@@ -65,7 +63,7 @@ Refer to the table below to understand the different user roles and the scope of
         <p>Download Receipts</p>
         <p>Print Receipts</p>
       </td>
-      <td style="text-align:left">Field employees also collects miscellaneous payments from the citizens
+      <td style="text-align:left">Field employees also collect miscellaneous payments from the citizens
         on the field</td>
     </tr>
   </tbody>
@@ -74,10 +72,7 @@ Refer to the table below to understand the different user roles and the scope of
 ### **Getting Started with MCS**
 
 This section of the user manual guides you through the user login process. ULB employees can sign up to use the MCS module through the online web portal or the mobile application login interface.   
-
-
 Refer to Appendix 1 to learn more about user registration, logging in, editing user profile, and logging out.  
-  
 
 
 ### **Using MCS**
@@ -141,7 +136,7 @@ The counter employees collect and process the miscellaneous payments on behalf o
 CE can process and collect payments for miscellaneous services through the DIGIT web portal or the DIGIT mobile app.   
 ****
 
-**To process new payment**
+**To process a new payment**
 
 1. Navigate to the **Universal Collections** option in the sidebar main menu. 
 

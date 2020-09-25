@@ -6,19 +6,19 @@ description: >-
 
 # Security Practices
 
-## Introduction:
+### Introduction
 
 Security is always a difficult subject to approach either by the lack of experience; either by the fact you should know when the level of security is right for what you have to secure.
 
-Security is a major concern when it comes to government systems and infra. As an architect, we can consider that working with technical educated people \(engineers, experts\) and tools \(systems, frameworks, IDE\) should prevent the key VAPT issues.
+Security is a major concern when it comes to government systems and infra. As an architect, we can consider that working with technically educated people \(engineers, experts\) and tools \(systems, frameworks, IDE\) should prevent key VAPT issues.
 
 However, it’s quite difficult to avoid, a certain infatuation from different categories of people to try to hack the systems. 
 
-## Infra Security <a id="6e9f"></a>
+### Infra Security
 
 ### 1. Update to the latest version
 
-There aren’t only bug fixes in each release but also new security measures . to require advantage of them, we recommend working with the newest stable version.
+There aren’t only bug fixes in each release but also new security measures to require advantage of them, we recommend working with the newest stable version.
 
 Updates and support could also be harder than the new features offered in releases, so plan your updates a minimum of once a quarter. Significantly simplify updates can utilize the providers of managed Kubernetes-solutions.
 
@@ -28,13 +28,13 @@ Use RBAC \(Role-Based Access Control\) to regulate who can access and what right
 
 However, enabling RBAC isn’t enough — it still must be used effectively. within the general case, the rights to the whole cluster \(cluster-wide\) should be avoided, giving preference to rights in certain namespaces. Avoid giving someone cluster administrator privileges even for debugging — it’s much safer to grant rights only necessary and from time to time.
 
-If the appliance requires access to the Kubernetes API, create separate service accounts. and provides them the minimum set of rights required for every use case. This approach is far better than giving an excessive amount of privilege to the default account within the namespace.
+If the appliance requires access to the Kubernetes API, create separate service accounts. and provides them with the minimum set of rights required for every use case. This approach is far better than giving an excessive amount of privilege to the default account within the namespace.
 
 ### 3. Use namespaces to set security boundaries
 
 Creating separate namespaces **is vital because of the** first level of component isolation. **it’s** much easier **to regulate** security settings — **for instance**, network policies — when **different types** of workloads are deployed in separate namespaces.
 
-To get in-depth knowledge on Kubernetes, enroll a love demo on [**Kubernetes course**](https://onlineitguru.com/kubernetes-training.html)
+To get in-depth knowledge on Kubernetes, enrol a love demo on [**Kubernetes course**](https://onlineitguru.com/kubernetes-training.html)
 
 ### 4. Separate sensitive workloads
 
@@ -76,7 +76,7 @@ Make sure that audit logs are enabled and that you are monitoring for the occurr
 
 Managed solution providers \(including GKE\) provide access to this data in their interfaces and can help you set up notifications in case of authorization failures.
 
-## Conclusion <a id="c11e"></a>
+### Conclusion
 
-Follow these guidelines for a more secure [**Kubernetes cluster**](https://medium.com/faun/what-is-the-kubernetes-cluster-de2a33e6572?source=---------24------------------). Remember that even after the cluster is configured securely, you need to ensure security in other aspects of the configuration and operation of containers. To improve the security of the technology stack, study the tools that provide a central system for managing deployed containers, constantly monitoring and protecting containers and cloud-native applications
+Follow these guidelines for a more secure [**Kubernetes cluster**](https://medium.com/faun/what-is-the-kubernetes-cluster-de2a33e6572?source=---------24------------------). Remember that even after the cluster is configured securely, you need to ensure security in other aspects of the configuration and operation of containers. To improve the security of the technology stack, study the tools that provide a central system for managing deployed containers, constantly monitoring and protecting containers and cloud-native applications.
 

@@ -1,17 +1,17 @@
-# Location Service
+# Location Services
 
 ### Overview <a id="Overview"></a>
 
-An core application which provides location details of the tenant for which the services are being provided.
+A core application which provides location details of the tenant for which the services are being provided.
 
 ### Pre-requisites <a id="Pre-requisites"></a>
 
 Before you proceed with the documentation, make sure the following pre-requisites are met -
 
-* _Java 8_
-* PSQL server is running and database is created.
-* Knowledge of egov-mdms service.
-* egov-mdms service is running and all the required mdms master are loaded in it.
+* Java 8
+* PSQL server is running and database is created
+* Knowledge of egov-mdms service
+* egov-mdms service is running and all the required mdms master are loaded in it
 
 ### Key Functionalities <a id="Key-Functionalities"></a>
 
@@ -37,7 +37,34 @@ Before you proceed with the documentation, make sure the following pre-requisite
 
 ### Configuration Details <a id="Configuration-Details"></a>
 
-The boundary data has been moved to mdms from the master tables in DB. The location service fetches the JSON from mdms and parses it to the structure of boundary object as mentioned above. A sample master would look like below`1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24` `{ "tenantId": "pg.cityA", "moduleName": "egov-location", "TenantBoundary": [ { "hierarchyType": { "code": "ADMIN", "name": "ADMIN" }, "boundary": { "id": 1, "boundaryNum": 1, "name": "CityA", "localname": "CityA", "longitude": null, "latitude": null, "label": "City", "code": "pg.cityA", "children": [] } } ] }`
+The boundary data has been moved to mdms from the master tables in DB. The location service fetches the JSON from mdms and parses it to the structure of boundary object as mentioned above. A sample master would look like below.
+
+```text
+{
+  "tenantId": "pg.cityA",
+   "moduleName": "egov-location",
+  "TenantBoundary": [
+  {
+      "hierarchyType": {
+              "code": "ADMIN",
+              "name": "ADMIN"
+      },
+       "boundary": {
+                "id": 1,
+                "boundaryNum": 1,
+                "name": "CityA",
+                "localname": "CityA",
+                "longitude": null,
+                "latitude": null,
+                "label": "City",
+                "code": "pg.cityA",
+                "children": []
+        }
+  
+    }
+ ]
+}
+```
 
 | **Attribute Name** | **Description** |
 | :--- | :--- |

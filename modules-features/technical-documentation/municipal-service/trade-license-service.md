@@ -1,26 +1,24 @@
 # Trade-License Service
 
-
-
 ### Overview <a id="Overview"></a>
 
-This service is used to issue license to user after verification. The service is designed in such way that it can be used to serve different type of licenses. Currently used to issue trade licenses, perform stakeholder registration and issue lock down pass. The service is integrated with workflow where we can define the steps for approval of the application. Once the application is approved the license is generated.
+This service is used to issue a license to the user after verification. The service is designed in such a way that it can be used to serve different type of licenses. Currently used to issue trade licenses, perform stakeholder registration and issue lockdown pass. The service is integrated with workflow where we can define the steps for approval of the application. Once the application is approved the license is generated.
 
 ### Pre-requisites <a id="Pre-requisites"></a>
 
 Before you proceed with the documentation, make sure the following pre-requisites are met -
 
-* _Java 8_
+* Java 8
 * Kafka server is up and running
 * egov-persister service is running and has tl-services persister config path added in it
 * PSQL server is running  and database is created
 
 ### Key Functionalities <a id="Key-Functionalities"></a>
 
-* Used for license generations in trade licenses, stakeholder registration and issue lock down pass
-* In stakeholder registration, give roles to applicant on successful application, to access Building Plan Approval services.
+* Used for license generations in trade licenses, stakeholder registration and issue lockdown pass
+* Define roles to applicants on successful application to access Building Plan Approval services at the time of stakeholder registration
 * Generate application number and license number
-* Support workflow
+* Support workflows
 * Provide notification on various status changes for an application
 
 ### Interaction Diagram <a id="Interaction-Diagram"></a>
@@ -29,7 +27,7 @@ Before you proceed with the documentation, make sure the following pre-requisite
 
 ### Deployment Details <a id="Deployment-Details"></a>
 
-1. Add mdms configs required for tradelicense and bpa stake holder registration and restart mdms service
+1. Add MDMS configs required for Trade License and BPA stakeholder registration and restart MDMS service
 2. Deploy the latest version of tl-services service
 3. Add tl-service persister yaml path in persister configuration and restart persister service
 4. Add Role-Action mapping for API’s
@@ -38,41 +36,41 @@ Before you proceed with the documentation, make sure the following pre-requisite
 
 ### Configuration Details <a id="Configuration-Details"></a>
 
-Following are the properties in application.properties file in trade license service which are configurable.
+Following application properties in the Trade License service are configurable.
 
-| **Property** | **Value** | **Remarks** |
+| Property  | Value  | Remarks |
 | :--- | :--- | :--- |
 | egov.idgen.tl.applicationNum.format | PB-TL-\[cy:yyyy-MM-dd\]-\[SEQ\_EG\_TL\_APL\] | The format of the TL application number |
 | egov.idgen.tl.licensenumber.format | PB-TL-\[cy:yyyy-MM-dd\]-\[SEQ\_EG\_PT\_LN\] | The format of the TL license number |
 | egov.idgen.bpa.applicationNum.format | PB-SK-\[cy:yyyy-MM-dd\]-\[SEQ\_EG\_TL\_APL\] | The format of the Stake holder application number |
 | egov.idgen.bpa.licensenumber.format | PB-SK-\[cy:yyyy-MM-dd\]-\[SEQ\_EG\_PT\_LN\] | The format of the Stake holder license number |
 | egov.tl.max.limit | 100 | Max number of records to be returned |
-| citizen.allowed.search.params | tenantId,applicationNumber,limit,offset,licenseNumbers | The search parameters on which citizen can search |
-| employee.allowed.search.params | tenantId,applicationNumber,applicationType,status,mobileNumber,fromDate,toDate,licenseNumbers,oldLicenseNumber,limit,offset | The search parameters on which employee can search |
+| citizen.allowed.search.params | tenantId, applicationNumber, limit, offset, licenseNumbers | The search parameters on which citizen can search |
+| employee.allowed.search.params | tenantId, applicationNumber, applicationType, status, mobileNumber, fromDate, toDate, licenseNumbers, oldLicenseNumber, limit, offset | The search parameters on which employee can search |
 | persister.save.tradelicense.topic | save-tl-tradelicense | The name of kafka topic on which create request are published |
 | persister.update.tradelicense.topic | update-tl-tradelicense | The name of kafka topic on which update request are published |
-| persister.update.tradelicense.workflow.topic | update-tl-workflow | The name of kafka topic on which status update request are published |
+| persister.update.tradelicense.workflow.topic | update-tl-workflow | The name of kafka topic on which update request are published |
 
 ### Integration <a id="Integration"></a>
 
 #### Integration Scope <a id="Integration-Scope"></a>
 
-The trade-license service is currently used to issue trade licenses, perform stakeholder registration and issue lock down pass.
+The trade-license service is currently used to issue trade licenses, perform stakeholder registration and issue lockdown pass.
 
 #### Integration Benefits <a id="Integration-Benefits"></a>
 
 * Provide backend support for the different license registration process.
 * Mseva and SMS notifications on application status changes.
-* Elastic search index for creating visualizations and Dashboards.
-* Bpa Stakeholder registration provides new roles to the user to access Building Plan Approval system.
+* The elastic search index for creating visualizations and Dashboards.
+* Bpa Stakeholder registration provides new roles to the user to access the Building Plan Approval system.
 * Supports workflow which is configurable
 
 #### Steps to Integration <a id="Steps-to-Integration"></a>
 
-1. To integrate, host of tl-services service should be overwritten in helm chart.
+1. To integrate, host of tl-services service should be overwritten in the helm chart.
 2. {servicename}/\_create/ \_create should be added as the create endpoint for creating any license in the system
-3. {servicename}/\_search/ \_search should be added as the search endpoint .This method handles all requests to search existing records depending on different search criteria
-4. {servicename}/\_update/ \_update should be added as the update endpoint. This method is used to update fields in existing records or to update status of application based on workflow.
+3. {servicename}/\_search/ \_search should be added as the search endpoint. This method handles all requests to search existing records depending on different search criteria
+4. {servicename}/\_update/ \_update should be added as the update endpoint. This method is used to update fields in existing records or to update the status of the application based on workflow.
 
 ### Reference Docs <a id="Reference-Docs"></a>
 
@@ -88,9 +86,9 @@ The trade-license service is currently used to issue trade licenses, perform sta
 
 #### API List <a id="API-List"></a>
 
-In all below endpoints if servicename is BPAREG it is treated as stakeholder registration application and if it is TLor if it is absent then the application is treated as tradelicense application.
+In all below endpoints if the service name is BPAREG it is treated as stakeholder registration application and if it is TL or if it is absent then the application is treated as trade license application.
 
-Stake holder registration APIs:- [https://www.getpostman.com/collections/d18b79ccfb69ee8bb526](https://www.getpostman.com/collections/d18b79ccfb69ee8bb526)
+Stakeholder registration APIs:- [https://www.getpostman.com/collections/d18b79ccfb69ee8bb526](https://www.getpostman.com/collections/d18b79ccfb69ee8bb526)
 
 Trade-License APIs:- [https://www.getpostman.com/collections/99f98723c45f97024831](https://www.getpostman.com/collections/99f98723c45f97024831)
 
@@ -106,27 +104,27 @@ Trade-License APIs:- [https://www.getpostman.com/collections/99f98723c45f9702483
     <tr>
       <td style="text-align:left">{servicename}/_create, _create</td>
       <td style="text-align:left">This API is used to create an application for the license in the system.
-        Whenever an application is created a application number is generated and
+        Whenever an application is created an application number is generated and
         assigned to the application for future reference.</td>
     </tr>
     <tr>
       <td style="text-align:left">{servicename}/_search, /_search</td>
       <td style="text-align:left">This API is used to search the applications in the system based on various
-        search parameters like mobile number, application number,status etc.</td>
+        search parameters like mobile number, the application number, status etc.</td>
     </tr>
     <tr>
       <td style="text-align:left">{servicename}/_update, _update</td>
       <td style="text-align:left">
         <p>The _update API is used to update the application information or to forward
           the application from one state to another.</p>
-        <p>In case of stakeholder registration if application reaches last stage
-          the role depending on the license type is given to the user.</p>
+        <p>In the case of the stakeholder registration if the application reaches
+          the last stage the role depending on the license type is given to the user.</p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">{servicename}/{jobname}/_batch, /_batch</td>
-      <td style="text-align:left">Searches trade licenses which are expiring and sends reminder sms to owner&apos;s
-        of the licenses</td>
+      <td style="text-align:left">Searches trade licenses which are expiring and send a reminder SMS to
+        owner&apos;s of the licenses</td>
     </tr>
   </tbody>
 </table>

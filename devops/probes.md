@@ -6,13 +6,13 @@ description: >-
 
 # Readiness & Liveness
 
-## What is Probes <a id="8ec4"></a>
+### What is Probes
 
 Determining the state of a service based on readiness, liveness, and startup to detect and deal with unhealthy situations. It may happen that if the application needs to initialize some state, make database connections, or load data before handling application logic. This gap in time between when the application is actually ready versus when Kubernetes thinks is ready becomes an issue when the deployment begins to scale and unready applications receive traffic and send back 500 errors.
 
 Many developers assume that when basic pod setup is adequate, especially when the application inside the pod is configured with daemon process managers \(e.g. PM2 for Node.js\). However, since Kubernetes deems a pod as healthy and ready for requests as soon as all the containers start, the application may receive traffic before it is actually ready. 
 
-## Kubernetes Probes <a id="f97c"></a>
+### Kubernetes Probes
 
 Kubernetes supports readiness and liveness probes for versions ≤ 1.15. Startup probes were added in 1.16 as an alpha feature and graduated to beta in 1.18 \(_WARNING: 1.16 deprecated several Kubernetes APIs. Use this_ [_migration guide_](https://medium.com/dev-genius/upgrading-to-kubernetes-1-16-ad977933694d) _to check for compatibility_\).
 
@@ -24,7 +24,7 @@ All the probe have the following parameters:
 * `successThreshold` : minimum number of consecutive successful checks for the probe to pass
 * `failureThreshold` : number of retries before marking the probe as failed. For liveness probes, this will lead to the pod restarting. For readiness probes, this will mark the pod as unready.
 
-### Readiness Probes <a id="84a4"></a>
+### Readiness Probes
 
 Readiness probes are used to let kubelet know when the application is ready to accept new traffic. If the application needs some time to initialize state after the process has started, configure the readiness probe to tell Kubernetes to wait before sending new traffic. A primary use case for readiness probes is directing traffic to deployments behind a service.
 
@@ -40,13 +40,13 @@ On the other hand, liveness probes are used to restart unhealthy containers. The
 
 ### **Startup Probes** <a id="1b53"></a>
 
-Startup probes are similar to readiness probes but only executed at startup. They are optimized for slow starting containers or applications with unpredictable initialization processes. With readiness probes, we can configure the `initialDelaySeconds` to determine how long to wait before probing for readiness. Now consider an application where it occasionally needs to download large amounts of data or do an expensive operation at the start of the process. Since `initialDelaySeconds` is a static number, we are forced to always take the worst-case scenario \(or extend the `failureThreshold`that may affect long-running behavior\) and wait for a long time even when that application does not need to carry out long-running initialization steps. With startup probes, we can instead configure `failureThreshold` and `periodSeconds` to model this uncertainty better. For example, setting `failureThreshold` to 15 and `periodSeconds` to 5 means the application will get 10 x 5 = 75s to startup before it fails.
+Startup probes are similar to readiness probes but only executed at startup. They are optimized for slow starting containers or applications with unpredictable initialization processes. With readiness probes, we can configure the `initialDelaySeconds` to determine how long to wait before probing for readiness. Now consider an application where it occasionally needs to download large amounts of data or do an expensive operation at the start of the process. Since `initialDelaySeconds` is a static number, we are forced to always take the worst-case scenario \(or extend the `failureThreshold`that may affect long-running behaviour\) and wait for a long time even when that application does not need to carry out long-running initialization steps. With startup probes, we can instead configure `failureThreshold` and `periodSeconds` to model this uncertainty better. For example, setting `failureThreshold` to 15 and `periodSeconds` to 5 means the application will get 10 x 5 = 75s to startup before it fails.
 
-## Configuring Probe Actions <a id="3622"></a>
+### Configuring Probe Actions
 
 Now that we understand the different types of probes, we can examine the three different ways to configure each probe.
 
-### **HTTP** <a id="245d"></a>
+### **HTTP**
 
 The kubelet sends an HTTP GET request to an endpoint and checks for a 2xx or 3xx response. You can reuse an existing HTTP endpoint or set up a lightweight HTTP server for probing purposes \(e.g. an Express server with `/healthz` endpoint\).
 
@@ -85,22 +85,22 @@ readinessProbe:
      command: ["/bin/sh", "-ec", "vault status -tls-skip-verify"]
 ```
 
-## Best Practices <a id="f849"></a>
+### Best Practices
 
 The exact parameters for the probes depend on your application, but here are some general best practices to get started:
 
 * For older \(≤ 1.15\) Kubernetes clusters, use a readiness probe with an initial delay to deal with the container startup phase \(use p99 times for this\). But make this check lightweight, since the readiness probe will execute throughout the entire lifecycle of the pod. We don’t want the probe to timeout because the readiness check takes a long time to compute.
 * For newer \(≥ 1.16\) Kubernetes clusters, use a startup probe for applications with unpredictable or variable startup times. The startup probe may share the same endpoint \(e.g. `/healthz` \) as the readiness and liveness probes, but set the `failureThreshold` higher than the other probes to account for longer start times, but more reasonable time to failure for liveness and readiness checks.
-* Readiness and liveness probes may share the same endpoint if the readiness probes aren’t used for other signaling purposes. If there’s only one pod \(i.e. using a Vertical Pod Autoscaler\), set the readiness probe to address the startup behavior and use the liveness probe to determine health. In this case, marking the pod unhealthy means downtime.
+* Readiness and liveness probes may share the same endpoint if the readiness probes aren’t used for other signalling purposes. If there’s only one pod \(i.e. using a Vertical Pod Autoscaler\), set the readiness probe to address the startup behaviour and use the liveness probe to determine health. In this case, marking the pod unhealthy means downtime.
 * Readiness checks can be used in various ways to signal system degradation. For example, if the application loses connection to the database, readiness probes may be used to temporarily block new requests and allow the system to reconnect. It can also be used to load balance work to other pods by marking busy pods as not ready.
 
-In short, well-defined probes generally lead to better resilience and availability. Be sure to observe the startup times and system behavior to tweak the probe settings as the applications change.
+In short, well-defined probes generally lead to better resilience and availability. Be sure to observe the startup times and system behaviour to tweak the probe settings as the applications change.
 
-## Tools <a id="e44b"></a>
+### Tools
 
 Finally, given the importance of Kubernetes probes, you can use a Kubernetes resource analysis tool to detect missing probes. These tools can be run against existing clusters or be baked into the CI/CD process to automatically reject workloads without properly configured resources.
 
-* [**polaris**](https://github.com/FairwindsOps/polaris): a resource analysis tool with a nice dashboard that can also be used as a validating webhook or CLI tool.
-* [**kube-score**](https://github.com/zegl/kube-score): a static code analysis tool that works with Helm, Kustomize, and standard YAML files.
-* [**popeye**](https://github.com/derailed/popeye)**:** read-only utility tool that scans Kubernetes clusters and reports potential issues with configurations.
+* [**Polaris**](https://github.com/FairwindsOps/polaris): a resource analysis tool with a nice dashboard that can also be used as a validating webhook or CLI tool.
+* [**Kube-score**](https://github.com/zegl/kube-score): a static code analysis tool that works with Helm, Kustomize, and standard YAML files.
+* [**Popeye**](https://github.com/derailed/popeye)**:** read-only utility tool that scans Kubernetes clusters and reports potential issues with configurations.
 
