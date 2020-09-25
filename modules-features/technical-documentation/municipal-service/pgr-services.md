@@ -1,10 +1,10 @@
 # PGR Services
 
-### Overview <a id="Overview"></a>
+## Overview <a id="Overview"></a>
 
- Public Grievances & Redressal \(PGR\) is a system that enables citizens to raise a complaint with there ULB’s. A citizen can track the complaint, upload image related to the complaint, re-open the complaint if he/she is not satisfied and rate the service. This document contains the details about how to setup PGR service and describes the functionalities it provides
+Public Grievances & Redressal \(PGR\) is a system that enables citizens to raise a complaint with there ULB’s. A citizen can track the complaint, upload image related to the complaint, re-open the complaint if he/she is not satisfied and rate the service. This document contains the details about how to setup PGR service and describes the functionalities it provides
 
-### Pre-requisites <a id="Pre-requisites"></a>
+## Pre-requisites <a id="Pre-requisites"></a>
 
 Before you proceed with the configuration, make sure the following pre-requisites are met -
 
@@ -25,7 +25,7 @@ Before you proceed with the configuration, make sure the following pre-requisite
   * egov-url-shortening
   * egov-hrms
 
-### Key Functionalities <a id="Key-Functionalities"></a>
+## Key Functionalities <a id="Key-Functionalities"></a>
 
 * A citizen can file, track and rate the complaint
 * A citizen can add image and comments related to the complaint
@@ -34,14 +34,14 @@ Before you proceed with the configuration, make sure the following pre-requisite
 * ULB can track the SLA for resolving each complaint and can use it as a metric to streamline the process for resolving complaints
 * Department wise assignment of the complaint to the LME
 
-### Deployment Details <a id="Deployment-Details"></a>
+## Deployment Details <a id="Deployment-Details"></a>
 
 1. Deploy the latest version of pgr-services
 2. Add pgr-service-persister.yml file in config folder in git and add that path in persister. _\(The file path is to be added in environment yaml file in param called_ persist-yml-path _\)_
-3.  If any Report Config is created, the config should be added to the config folder in git and that path should be added in Report service. \(_The file path is to be added in a file called “reportFileLocationsv1.txt” in Config folder_\)
+3. If any Report Config is created, the config should be added to the config folder in git and that path should be added in Report service. \(_The file path is to be added in a file called “reportFileLocationsv1.txt” in Config folder_\)
 4. If index is to be created add the indexer config path in indexer service. \(_The file path is to be added in environment yaml file in param called_ egov-indexer-yaml-repo-path\)
 
-### Configuration Details <a id="Configuration-Details"></a>
+## Configuration Details <a id="Configuration-Details"></a>
 
 1. Add master data in MDMS service with the module name as RAINMAKER-PGR. Following is some sample master data for the service:
 
@@ -81,7 +81,7 @@ Before you proceed with the configuration, make sure the following pre-requisite
 }
 ```
 
-Create businessService \(workflow configuration\) using the  __/businessservice/\_create. Following is the product configuration for PGR:
+Create businessService \(workflow configuration\) using the \_\_/businessservice/\_create. Following is the product configuration for PGR:
 
 ```text
 {
@@ -360,35 +360,35 @@ Add Role-Action mapping for the APIs in MDMS. Following are the required entries
     }
 ```
 
-### Integration <a id="Integration"></a>
+## Integration <a id="Integration"></a>
 
-#### Integration Scope <a id="Integration-Scope"></a>
+### Integration Scope <a id="Integration-Scope"></a>
 
-PGR service can be integrated with any organisation or system which wants to track customer queries or complaint. The organisations can customise the workflow depending on their product requirements. 
+PGR service can be integrated with any organisation or system which wants to track customer queries or complaint. The organisations can customise the workflow depending on their product requirements.
 
-#### Integration Benefits <a id="Integration-Benefits"></a>
+### Integration Benefits <a id="Integration-Benefits"></a>
 
 * Easy tracking and resolution of complaints
 * Configurable workflow according to client requirement
 
-#### Steps to Integration <a id="Steps-to-Integration"></a>
+### Steps to Integration <a id="Steps-to-Integration"></a>
 
-1.  Customer can raise a complaint using the `/requests/_create`.
+1. Customer can raise a complaint using the `/requests/_create`.
 2. Organisation or System can search the complaint using `/requests/_searchendpoint`.
 3. Once the complaint is raised the organisation or system can call `/requests/_update` endpoint to move the application further in workflow until it gets resolved.
 
-### Interaction Diagram <a id="Interaction-Diagram"></a>
+## Interaction Diagram <a id="Interaction-Diagram"></a>
 
 ![](../../../.gitbook/assets/image%20%2877%29.png)
 
-### Reference Docs <a id="Interaction-Diagram"></a>
+## Reference Docs <a id="Interaction-Diagram"></a>
 
-#### Doc Links <a id="Doc-Links"></a>
+### Doc Links <a id="Doc-Links"></a>
 
-| **Title**  | **Link** |
+| **Title** | **Link** |
 | :--- | :--- |
-|  Workflow Technical Document |  [Workflow Service](https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/664174657/Workflow+Service) |
-|  User Technical Document | [User Service](https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/669450371/User+Service)   |
+| Workflow Technical Document | [Workflow Service](https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/664174657/Workflow+Service) |
+| User Technical Document | [User Service](https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/669450371/User+Service) |
 | MDMS Technical Document | NEEDS TO BE UPDATED |
 | IDGen Technical Document | NEEDS TO BE UPDATED |
 | Localization Technical Document | NEEDS TO BE UPDATED |
@@ -396,12 +396,12 @@ PGR service can be integrated with any organisation or system which wants to tra
 | SMS Notification Technical Document | NEEDS TO BE UPDATED |
 | HRMS Technical Document | NEEDS TO BE UPDATED |
 
-#### API List <a id="API-List"></a>
+### API List <a id="API-List"></a>
 
 |  | **Link** |
 | :--- | :--- |
-|  /requests/\_create |  [https://www.getpostman.com/collections/09154f94d2c291a96777](https://www.getpostman.com/collections/09154f94d2c291a96777) |
-|  /requests/\_update |  [https://www.getpostman.com/collections/09154f94d2c291a96777](https://www.getpostman.com/collections/09154f94d2c291a96777) |
+| /requests/\_create | [https://www.getpostman.com/collections/09154f94d2c291a96777](https://www.getpostman.com/collections/09154f94d2c291a96777) |
+| /requests/\_update | [https://www.getpostman.com/collections/09154f94d2c291a96777](https://www.getpostman.com/collections/09154f94d2c291a96777) |
 | /requests/\_search | [https://www.getpostman.com/collections/09154f94d2c291a96777](https://www.getpostman.com/collections/09154f94d2c291a96777) |
 | /requests/\_count | [https://www.getpostman.com/collections/09154f94d2c291a96777](https://www.getpostman.com/collections/09154f94d2c291a96777) |
 

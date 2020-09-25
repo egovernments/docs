@@ -6,5 +6,3 @@ This section addresses the key areas of concern and its potential remedial steps
 * [Logging](logging.md)
 * [Monitoring & Alerts](monitoring.md)
 
-
-

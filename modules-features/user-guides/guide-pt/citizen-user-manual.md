@@ -6,11 +6,11 @@ description: >-
 
 # Citizen User Manual
 
-### **Citizens and CE**
+## **Citizens and CE**
 
 Citizens represent individuals, communities, or business entities who are the system end-users. The PT module allows property owners to register their property details online. These details are then used for various property-related transactions.
 
-The citizen can also approach the Counter Employee \(CE\) to register new property, assess property or pay property tax. 
+The citizen can also approach the Counter Employee \(CE\) to register new property, assess property or pay property tax.
 
 ![](https://docs.google.com/drawings/u/0/d/seSp91QR2XSdophhuwmkCJA/image?w=425&h=232&rev=266&ac=1&parent=1q5Qmal_ywLqWn-MBuGYWdfkTLSyN9MnVg4tEXL4D9es)
 
@@ -25,11 +25,11 @@ The citizen can also approach the Counter Employee \(CE\) to register new proper
 * [Pay property tax](citizen-user-manual.md#pay-property-tax)
 * [Download payment receipts](citizen-user-manual.md#pay-property-tax)
 
-### **Add New Property**
+## **Add New Property**
 
 Citizens or CE can add new property details through the DIGIT web portal or the DIGIT mobile app.
 
-To add a new property click on the **Property Tax** card available in the **Citizen Services** section of the Home page. 
+To add a new property click on the **Property Tax** card available in the **Citizen Services** section of the Home page.
 
 ![](https://docs.google.com/drawings/u/0/d/seDWOsUhRoTzs1JxJAujc0Q/image?w=624&h=290&rev=7&ac=1&parent=1q5Qmal_ywLqWn-MBuGYWdfkTLSyN9MnVg4tEXL4D9es)
 
@@ -61,17 +61,17 @@ The system will display the New Property form page.
 
 ![](https://docs.google.com/drawings/u/0/d/sH7DsvB9k7W2f1N2DERQplg/image?w=624&h=328&rev=1&ac=1&parent=1q5Qmal_ywLqWn-MBuGYWdfkTLSyN9MnVg4tEXL4D9es)
 
-The **City** field displays the registered city by default. Click on the drop-down list to select a different city. Enter the **House/Shop No.**, **Building/Colony Name**, **Street Name**, **Locality/Mohalla**, and the **Pincode**. Enter the **Existing Property ID** in case there is a legacy property ID available for the listed property. 
+The **City** field displays the registered city by default. Click on the drop-down list to select a different city. Enter the **House/Shop No.**, **Building/Colony Name**, **Street Name**, **Locality/Mohalla**, and the **Pincode**. Enter the **Existing Property ID** in case there is a legacy property ID available for the listed property.
 
 Click on the **Next** button to move to the next section.
 
 Enter the following details in the Property Details section
 
-Select the applicable **Property Usage Type** and the **Property Type** from the drop-down list available. 
+Select the applicable **Property Usage Type** and the **Property Type** from the drop-down list available.
 
 ![](https://lh3.googleusercontent.com/ed-f8D4t_UWDuuixclY9-qEsWFf0W_Y2q9dI79zEHsXqdRBbFBni-PXKndENVMcHqc2WSVY9-sDy94QZ9QmKqbA3trWn4GNbZC2Rq19-Q3PKXSMGqC-r1b0PU5SLQ6hdFhXnNFkL)
 
-Check **Yes** or **No** to indicate **Whether rainwater harvesting structure provided on the property?** Enter **Vasika No.** and **Vasika Date** if applicable. Enter **Allotment Letter No.** and **Allotment Date** if applicable. 
+Check **Yes** or **No** to indicate **Whether rainwater harvesting structure provided on the property?** Enter **Vasika No.** and **Vasika Date** if applicable. Enter **Allotment Letter No.** and **Allotment Date** if applicable.
 
 ![](https://lh5.googleusercontent.com/CgVWTR3yGwL-7F5v9FXuK8IBn_4e6mwyXk5B1DC4r59dp0dcEUVPzifBTMJz7LD-SV4GyGtePWFU7oa7Yckfxa_xPa4kZsLYQaZeWbv5aY54ZROICaEUGQGnETwze7oX40pJAV4A)
 
@@ -95,7 +95,7 @@ Upload the required documents in the **Documents** section of the application fo
 
 ![](https://lh4.googleusercontent.com/qKE-yjtQ3e_6egULk3hb7wlMgf6WN2nx7EVVVT_fmbiphre5LYU9fAIhrXQGzE5zfIhyiZnp0C-9Whl6TqaJTjwG1brk2n2T4cENRxjGGD-wcGifcYG9ImXZrReBwcfVHYQc-GZB)
 
-Click on the **Upload File** button to upload the documents. 
+Click on the **Upload File** button to upload the documents.
 
 Click on the **Next** button to proceed to the next section.
 
@@ -111,7 +111,7 @@ The **Property ID** is available along with this message.
 
 Click on the **Download** button on top of the message box to download the application. Click on the **Print** button to print the application.
 
-### **Search Property**
+## **Search Property**
 
 To search for a submitted application or track the status of submitted applications navigate to the **Property Tax** home page. There are two search options available. Users can search by property or application.
 
@@ -125,19 +125,19 @@ To Search by Application click on the **Search Application** tab.
 
 ![](https://lh6.googleusercontent.com/vjL27TvS3qFDTf4pxpCzVRQBw9A3U4uh7ZzWCjNVGt-m80GxWVBFadXw9YDtfRBKbPD6ZmAyIDmQAIdqnmIyMBupjSPO0SlTWrZSCpbKiiJ3cKBUFxGYGe3PoS-o45rTHFPzYMM8)
 
-Enter any of the following search parameters or combinations to refine the search for property. Enter the **Application No.** or the **Owner Mobile No.** or the **Unique Property ID**. 
+Enter any of the following search parameters or combinations to refine the search for property. Enter the **Application No.** or the **Owner Mobile No.** or the **Unique Property ID**.
 
-Click on the **Search** button to view the search results. Click on the **Reset** button to renew search with different parameters. 
+Click on the **Search** button to view the search results. Click on the **Reset** button to renew search with different parameters.
 
-The search results show the filtered list of property entries along with the application **Status.** 
+The search results show the filtered list of property entries along with the application **Status.**
 
 ![](https://lh3.googleusercontent.com/rd4FhXx12OniH-A7WcIm5uJVHI3fkIOyyu_TA47tvhkQR3Qa56VmnixiF0RS3YHTik2SzXT1uXpLD5assNNtFfLts1joJfXndT_CCQW5cPFh4ZGbvZ6p6rzUkYy61FCUowIjSw7U)
 
-An **Active** Status means the listed property is pending for further action. **Inworkflow** status means there is some action going on for the listed property and hence it is not accessible for any other action. Once the action is complete the status will change to **Active**. 
+An **Active** Status means the listed property is pending for further action. **Inworkflow** status means there is some action going on for the listed property and hence it is not accessible for any other action. Once the action is complete the status will change to **Active**.
 
-Click on the **Unique Property ID** or **Application No.** hyperlink to access the property details. 
+Click on the **Unique Property ID** or **Application No.** hyperlink to access the property details.
 
-### **Assess Property**
+## **Assess Property**
 
 Listed properties are assessed every financial year to calculate the property tax amount.
 
@@ -185,15 +185,15 @@ Click on the **Submit** button to apply the rebate or charges to the tax amount.
 
 Click on the **OK** button to move back to the Assessment page.
 
-Click on **Assess Property** once you complete reviewing all details. The system will display the assessment success acknowledgement message. 
+Click on **Assess Property** once you complete reviewing all details. The system will display the assessment success acknowledgement message.
 
 ![](https://lh6.googleusercontent.com/0tFvRflW44Rsa-iB3EnJeBF3ylH1EBDR1fdkm_sVy2JrOFw6JlhTVeD38co-sF5ZNAR1rvTNGralI2SLVH77Yv1OM_gOt9400JDuvpaEPf1Vh8SDod5fzBSMJjUdDMQON6-vaWdh)
 
 Click on the **Proceed to Payment** button to pay the property tax. Else click on the **Home** button to navigate back to the home page.
 
-### **Pay Property Tax**
+## **Pay Property Tax**
 
-Applicants have to pay the property tax once the property is assessed for the specified financial year.  
+Applicants have to pay the property tax once the property is assessed for the specified financial year.
 
 To make payment for property tax click on the **Proceed to Payment** button after the property assessment is complete. The **Payment Collection** Details panel displays the tax **Fee Details**.
 
@@ -209,7 +209,7 @@ Enter payment details as requested on the screen. Click on the **Generate Receip
 
 Once the payment is complete the **Property Tax Receipt** is issued. Click on the **Download** or **Print** button to download or print the tax Payment Receipt.
 
-### **Transfer Property Ownership**
+## **Transfer Property Ownership**
 
 The PT module allows users to transfer the ownership of property.
 
@@ -233,7 +233,7 @@ The application timeline shows three sections -
 2. **Document Upload**
 3. **Summary**
 
-The Transfer Details page includes three panels - 
+The Transfer Details page includes three panels -
 
 **Transferor Details** - This panel displays the current owner details.
 
@@ -245,13 +245,13 @@ The Transfer Details page includes three panels -
 
 Enter the following details in the form -
 
-Select applicable **Ownership Type**. Enter the **Name**, **Gender**, and **Mobile No.** of the transferee. Enter **Guardian’s Name** of the transferee and the **Relationship with Guardian**. Enter the **Email** address of the transferee. Select the relevant **Special Applicant Category**. Enter the **Correspondence Address** of the transferee. 
+Select applicable **Ownership Type**. Enter the **Name**, **Gender**, and **Mobile No.** of the transferee. Enter **Guardian’s Name** of the transferee and the **Relationship with Guardian**. Enter the **Email** address of the transferee. Select the relevant **Special Applicant Category**. Enter the **Correspondence Address** of the transferee.
 
 **Registration Details** - This panel requires the user to input the registration details in context to the transfer of the property ownership.
 
 ![](https://lh3.googleusercontent.com/1ctDCpWc4mt9YfbGLdZezDrRB9Azl9-QmQgkooQFqh3BpHFtJrbRWZOpBAG-uKWw0XyFqvJcQP85kwpcrAZ-B1-zEQH6d3Pg8WipXNm9leQvX9Ssgraz8-XCXoXnbiPtb-6B4DAS)
 
-Enter the following details in the form. 
+Enter the following details in the form.
 
 Select **Reason for Property Transfer**. Enter **Property Market Value**, the **Registration Document No.** and the **Registration Document Issue Date**. Enter the **Registration Document Value**. Enter any **Remarks**.
 
@@ -265,11 +265,11 @@ Click on the **Next Step** button to move to the **Summary** section.
 
 ![](https://lh3.googleusercontent.com/Md0jGktoVEPKOz_wgxlOVtMEfo465oW1k2zLOdtXWaJ_opmk_tyEya2wnUzNJkVXDfwGrXHO1eELOwOK-LdeonsTIk6CjoUmIlcOLJll82-HG77nG51B0td8SiSlImxkmnemanO9)
 
-The **Summary** page will display the filled-in application details. Scroll down the page to review the information entered. Click on the **Previous Step** button to go back and make any changes in the form. 
+The **Summary** page will display the filled-in application details. Scroll down the page to review the information entered. Click on the **Previous Step** button to go back and make any changes in the form.
 
 Click on the **Submit** button once all details are reviewed. The screen will display the application success message. Click on the **Download** button on top of the message box to download the application. Click on the **Print** button to print the application.
 
-### **Edit Property**
+## **Edit Property**
 
 To make any changes in the application navigate to the **Home** page. Search for the application you want to verify by entering any of the search parameters. Click on the **Application No.** to open the application. Scroll down the form to review the filled in details.
 
@@ -278,6 +278,4 @@ To make any changes in the application navigate to the **Home** page. Search for
 Click on the **Edit Property** button available at the bottom of the page. Change any details in the form as required. Click on the **Update Property** button once all changes are complete.
 
 ![](https://lh6.googleusercontent.com/XtsThM4bEc0a60zbxxolazcaz12HF8-_b6LnFhL283sUwkbzlZhtvfAehFSdOlvrebWfbr1sqcq4-haLIRjjYbivtc14pFNMDwfzuXguuiRTJOoo86Ok-ic6P6RsZm917gPXA-u5)
-
-### 
 

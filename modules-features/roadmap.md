@@ -4,11 +4,11 @@ description: Product themes and deliverable
 
 # DIGIT Roadmap
 
-### Roadmap Overview
+## Roadmap Overview
 
 Commitment and transparency are deeply ingrained values defining our product development approach. We are constantly developing new capabilities to facilitate the digital transformation of our cities. Take a glimpse into our DIGIT Roadmap to learn more about our upcoming tools and features.
 
-### Key Themes And Objectives
+## Key Themes And Objectives
 
 | Themes | Objectives |
 | :--- | :--- |
@@ -18,16 +18,16 @@ Commitment and transparency are deeply ingrained values defining our product dev
 | Theme 4: Enhance data privacy and security | Update and enhance data privacy parameters on DIGIT across reports, modules, and dashboards |
 | Theme 5: New product innovation | Identify high-impact product innovation areas through validation, understanding the domain, and processes involved |
 
-### DIGIT Roadmap
+## DIGIT Roadmap
 
 {% tabs %}
 {% tab title="Q1 \(Apr-Jun 2020\)" %}
-Water & Sewerage 
+Water & Sewerage
 
 * [x] Create provision to apply for new Water & Sewerage connection.
 * [ ] Integrate Water & Sewerage connection with DIGIT Property Registry.
 
-Property Tax 
+Property Tax
 
 * [x] Provide citizens with the capability to search for registered properties in the public domain without login.
 
@@ -38,12 +38,12 @@ Online Building Plan Approval System \(OBPAS\)
 {% endtab %}
 
 {% tab title="Q2 \(Jul-Sep 2020\)" %}
-Water & Sewerage 
+Water & Sewerage
 
 * [ ] Create provision to apply for new Water & Sewerage connection.
 * [ ] Integrate Water & Sewerage connection with DIGIT Property Registry.
 
-Property Tax 
+Property Tax
 
 * [ ] Provide citizens with the capability to search for registered properties in the public domain without login.
 
@@ -54,12 +54,12 @@ Online Building Plan Approval System \(OBPAS\)
 {% endtab %}
 
 {% tab title="Q3 Oct-Dec 2020\)" %}
-Water & Sewerage 
+Water & Sewerage
 
 * [ ] Create provision to apply for new Water & Sewerage connection.
 * [ ] Integrate Water & Sewerage connection with DIGIT Property Registry.
 
-Property Tax 
+Property Tax
 
 * [ ] Provide citizens with the capability to search for registered properties in the public domain without login.
 
@@ -69,8 +69,4 @@ Online Building Plan Approval System \(OBPAS\)
 * [ ] Facilitate stakeholders to apply for occupancy certificate online.
 {% endtab %}
 {% endtabs %}
-
-
-
-
 

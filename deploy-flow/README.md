@@ -1,14 +1,14 @@
 # Deploy DIGIT
 
-### Overview <a id="requirements"></a>
+## Overview <a id="requirements"></a>
 
-DIGIT is the largest urban governance platform built for billions of transactions between citizens and the state govt. The platform is built with key capabilities like scale, speed, integration, configurable, customizable, extendable, multi-tenanted, security, etc. 
+DIGIT is the largest urban governance platform built for billions of transactions between citizens and the state govt. The platform is built with key capabilities like scale, speed, integration, configurable, customizable, extendable, multi-tenanted, security, etc.
 
 This page discusses the key infrastructural requirements and deploying DIGIT on various cloud environment.
 
-### Why Microservice Architecture
+## Why Microservice Architecture
 
-To fulfil these demands it is designed as a microservice architecture where services are categorized based on the function and deployed as a layered stack that gives better control over each component of an application that exists in its own container, independently managed and updated. This means that developers can build applications from multiple components and program each component in the language best suited to its function, rather than having to choose a single less-than-ideal language to use for everything. Optimizing software all the way down to the components of the application helps you increase the quality of your products. No time and resources are wasted managing the effects updating one application have on another. 
+To fulfil these demands it is designed as a microservice architecture where services are categorized based on the function and deployed as a layered stack that gives better control over each component of an application that exists in its own container, independently managed and updated. This means that developers can build applications from multiple components and program each component in the language best suited to its function, rather than having to choose a single less-than-ideal language to use for everything. Optimizing software all the way down to the components of the application helps you increase the quality of your products. No time and resources are wasted managing the effects updating one application have on another.
 
 For being successful in the Microservices journey, here are certain requirements that need to be ascertained:
 
@@ -20,7 +20,7 @@ For being successful in the Microservices journey, here are certain requirements
 | Configuration Management | Service Discovery | CI / CD |
 | Virtualization | Hardware & Storage | OS & Networking |
 
-### Pre-Requisites
+## Pre-Requisites
 
 * On-premise/private cloud accounts
   * Interface to access and provision required infra
@@ -37,7 +37,7 @@ For being successful in the Microservices journey, here are certain requirements
   * Experience of Kubernetes, Docker, Jenkins, Helm, Infra-as-code, Terraform
   * Experience on DevOps/SRE practice on a Microservices and modern infrastructure
 
-### High-level Action To Deploy DIGIT
+## High-level Action To Deploy DIGIT
 
 1. [Provisioning the Kubernetes Cluster](https://medium.com/better-programming/build-your-own-multi-node-kubernetes-cluster-with-monitoring-346a7e2ef6e2) in any of the 
    * [Commercial cloud](https://learn.hashicorp.com/terraform?track=kubernetes#kubernetes) or 

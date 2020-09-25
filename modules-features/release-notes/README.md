@@ -4,14 +4,14 @@ description: 'New release features, enhancements, and fixes'
 
 # Release Notes
 
-### Release Summary <a id="Release-Summary"></a>
+## Release Summary <a id="Release-Summary"></a>
 
 ‌DIGIT 2.0 is a baselined release that has got few functional changes, but more of non-functional standardisation changes.
 
 * Functional: Introducing advance payment feature and Advance collection integration with W/S.
 * Non-functional: Upgrading spring boot and tracer version of all the backend services to enhance the range of non-functional benefits like performance, metrics, and security. Also, all digit services/configs are baselined to follow the Semantic Versioning. These would enable the partner eco-system, system Integrators and state teams for easy on-going upgrades and integrations.
 
-### New ‌Feature Additions <a id="New-&#x200C;Feature-Additions"></a>
+## New ‌Feature Additions <a id="New-&#x200C;Feature-Additions"></a>
 
 <table>
   <thead>
@@ -60,7 +60,7 @@ description: 'New release features, enhancements, and fixes'
   </tbody>
 </table>
 
-### Enhancements <a id="Enhancements"></a>
+## Enhancements <a id="Enhancements"></a>
 
 <table>
   <thead>
@@ -122,7 +122,7 @@ DIGIT 2.0 is a baselined release - considering simplification and standardizatio
 * Next release might have a few more enhancements to the services naming conventions and handling MDMS and Configs better.
 * **Impact**: Functionally, the upgrade to DIGIT 2.0 will not impact the existing environments.
 
-### Document Resources and Links <a id="&#x200C;Document-Resources-and-Links"></a>
+## Document Resources and Links <a id="&#x200C;Document-Resources-and-Links"></a>
 
 <table>
   <thead>
@@ -165,7 +165,7 @@ DIGIT 2.0 is a baselined release - considering simplification and standardizatio
           </li>
           <li><a href="https://digit-discuss.atlassian.net/l/c/dVxJH2B5">Generation of Acknowledgement PDF</a>
           </li>
-          <li><a href="https://digit-discuss.atlassian.net/wiki/spaces/EGR/pages/450789466/How+to+add+dynamic+drop+down+for+mdms+data?atlOrigin=eyJpIjoiNDY0ZGQxY2RhNTBkNDExOWE4ZTc1MTUxOTk4MTZmOTAiLCJwIjoiYyJ9">How to add dynamic dropdown for MDMS data </a>
+          <li><a href="https://digit-discuss.atlassian.net/wiki/spaces/EGR/pages/450789466/How+to+add+dynamic+drop+down+for+mdms+data?atlOrigin=eyJpIjoiNDY0ZGQxY2RhNTBkNDExOWE4ZTc1MTUxOTk4MTZmOTAiLCJwIjoiYyJ9">How to add dynamic dropdown for MDMS data</a>
           </li>
           <li><a href="https://digit-discuss.atlassian.net/wiki/spaces/EGR/pages/572522501/Acknowledgment+screens?atlOrigin=eyJpIjoiNWI5YzdmZDkyNThmNGI4MGFlMjI2MDg0NzRkMWQ4ZTgiLCJwIjoiYyJ9">Common Acknowledgment screens</a>
           </li>
@@ -221,11 +221,9 @@ DIGIT 2.0 is a baselined release - considering simplification and standardizatio
   </tbody>
 </table>
 
-### Upcoming Release Highlights
+## Upcoming Release Highlights
 
 * Renaming of the backend services with a naming convention in place.
 * Config \(MDMS, Configs\) Baseline versioning.
 * Readme.md and Localsetup.md documentations for Core, Business, Municipal, and Other services.
-
-
 

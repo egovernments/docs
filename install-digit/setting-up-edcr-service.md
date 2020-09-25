@@ -1,6 +1,6 @@
 # Setting Up eDCR Service
 
-### Overview
+## Overview
 
 This document mainly covers all the steps that one needs to do for setting up a new instance of eDCR \(Development Control Regulations\). Say when a new State is to be set up, there are some activities to be executed in a defined order. Setting up an instance of an application server and configuring customer-specific rules, and data, etc are a few of the key activities.
 
@@ -9,7 +9,7 @@ This document mainly covers all the steps that one needs to do for setting up a 
 * Uniform code base supporting all the ULBs for the state. City-specific changes are maintained using client-specific implementation repositories.
 * A separate schema for each ULB in the database.
 
-### Prerequisites
+## Prerequisites
 
 * Prior Knowledge of Java/J2EE.
 * Prior Knowledge of Spring and Hibernate
@@ -22,7 +22,7 @@ This document mainly covers all the steps that one needs to do for setting up a 
   * Git 2.8.3
   * JDK 8 update 112 or higher
 
-### Configurations and Setup
+## Configurations and Setup
 
 eDCR Service repository will be used to define default rules. The statewide rules to be defined within the client implementation repository.
 
@@ -51,7 +51,7 @@ The EG\_CITY table, master data is used to decide the rules.
 4. The district, city, and grade information will be reading from the eg\_city table, so in this table need to update that information before starting the coding.
 5. In a state, only for one or two cities if the rules are changing then need to override rules only for those cities in a separate file, for other all cities the default code will pick. Here default code is state level \(Far\_{Client id}\) configured one.
 
-**Configuration Changes to setup State and Cities** 
+**Configuration Changes to setup State and Cities**
 
 1. The state is configured by adding property **tenant.{domain\_name}=schema\_name \(state\_name\)** in egov-erp-override.properties**.**
 2. Each new ULB is enabled by adding a schema name and domain name in egov-erp-override.properties file\(Available in **Wildfly server** under **${HOME\_DIR}/wildfly-11.0.0.Final/modules/system/layers/base/org/egov/settings/main/config**\). Schema names should follow a naming standard, It should be the same as that of the city name.
@@ -94,7 +94,7 @@ Add the property and update the MDMS search URL, mdms.searchurl=/egov-mdms-servi
 3. The tenantId used should follow {state\_name.city\_name} naming convention, then the state\_name passed in the request and city code in the state schema must be the same.
 {% endhint %}
 
-### References
+## References
 
 | Title | Link |
 | :--- | :--- |

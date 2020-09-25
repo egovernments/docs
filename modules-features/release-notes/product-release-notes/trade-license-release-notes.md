@@ -1,10 +1,10 @@
 # Trade License Release Notes
 
-### Overview <a id="Overview"></a>
+## Overview <a id="Overview"></a>
 
 Trade License v2.0 enables seamless and hassle-free renewal mechanism for existing trade licenses. Separate workflows for unedited and edited renewal applications to accelerate the process.
 
-### Release Highlights <a id="Release-Highlights"></a>
+## Release Highlights <a id="Release-Highlights"></a>
 
 * The renewal application can be generated for any existing trade license
 * Users can edit trade type and owner details before submitting the renewal application 
@@ -12,7 +12,7 @@ Trade License v2.0 enables seamless and hassle-free renewal mechanism for existi
 * The one-touch renewal process is applicable for unedited applications too 
 * Users will receive SMS notifications for renewal application progress
 
-### Release Features <a id="Release-Features"></a>
+## Release Features <a id="Release-Features"></a>
 
 <table>
   <thead>
@@ -108,9 +108,9 @@ Trade License v2.0 enables seamless and hassle-free renewal mechanism for existi
   </tbody>
 </table>
 
-### Reference Doc Links <a id="Reference-Doc-Links"></a>
+## Reference Doc Links <a id="Reference-Doc-Links"></a>
 
 | **Doc Links** | **Description** |
 | :--- | :--- |
-|  [TL Renewal Technical Documentation](https://digit-discuss.atlassian.net/wiki/spaces/EPE/pages/edit-v2/231636995?draftShareId=c160aad5-d7d6-4b4a-9185-11caa6040e70) |  Technical docs for TL renewal |
+| [TL Renewal Technical Documentation](https://digit-discuss.atlassian.net/wiki/spaces/EPE/pages/edit-v2/231636995?draftShareId=c160aad5-d7d6-4b4a-9185-11caa6040e70) | Technical docs for TL renewal |
 

@@ -4,11 +4,11 @@ description: 'Learn how to apply for new trade license, renew and pay trade lice
 
 # Citizen User Manual
 
-### **Citizens and CE**
+## **Citizens and CE**
 
-Citizens represent individuals, communities, or business entities who are the system end-users. The TL module allows business owners to apply for a trade license online or even apply for renewal of an existing license. 
+Citizens represent individuals, communities, or business entities who are the system end-users. The TL module allows business owners to apply for a trade license online or even apply for renewal of an existing license.
 
-The citizen can also approach the Counter Employee \(CE\) to submit new TL applications or raise renewal requests for existing licenses. 
+The citizen can also approach the Counter Employee \(CE\) to submit new TL applications or raise renewal requests for existing licenses.
 
 ![](https://docs.google.com/drawings/u/0/d/sd-LrBh27pu0GXrg1gv1_aQ/image?w=425&h=384&rev=143&ac=1&parent=1-UsBUntevcj1rpVyD7UPVKYh53dRt8xSD5x658AZMCk)
 
@@ -20,13 +20,13 @@ The citizen can also approach the Counter Employee \(CE\) to submit new TL appli
 * [Pay license fee](citizen-user-manual.md#pay-trade-license-fee)
 * Download payment receipts, license certificates, or applications
 
-### **Apply For New TL**
+## **Apply For New TL**
 
 Citizens or CE can apply for a new trade license through the DIGIT web portal or the DIGIT mobile app. To apply for new TL click on the **Trade License** card available in the **Citizen Services** section of the DIGIT home page.
 
 ![](https://docs.google.com/drawings/u/0/d/sqRD79LrdfKCRrJCRFl-PzQ/image?w=624&h=290&rev=3&ac=1&parent=1-UsBUntevcj1rpVyD7UPVKYh53dRt8xSD5x658AZMCk)
 
-Click on the **New Application** button on the screen. This will open the TL application form page. 
+Click on the **New Application** button on the screen. This will open the TL application form page.
 
 ![](https://lh5.googleusercontent.com/A3Rg9bbLpb5Zf35k82PPbfzT2b4anONcRpIiAr2jGxFnaHCsB4Dv9AO4AUodRfuPATb5TCwbN6aXHwy9DyyI6DOC90dOPqU4MT8AGLHV4g1CMqV8MmZFAOK0sJdWcgmBmmtif-mT)
 
@@ -45,13 +45,13 @@ The New Application form page contains various sub-sections -
 3. **Documents**
 4. **Summary**
 
-The system displays the **Trade Details** page. The page contains 4 panels - **Trade Details**, **Trade Unit**, **Accessories**, and **Trade Location Details**. 
+The system displays the **Trade Details** page. The page contains 4 panels - **Trade Details**, **Trade Unit**, **Accessories**, and **Trade Location Details**.
 
 In the **Trade Details** panel, enter the following details.
 
 ![](https://lh4.googleusercontent.com/BvUqG-3XQRa-IDpwGvgnBDZvBsDOfnzk5Up5694u7J6oO6Sk61W-fvKNz3BBCsOIoxiq8FagRF9odjhxjYlKVN7-OkkSnL7a7fk4u5r9jNFm5SgAVYmbAFl2aNRAP0PblYg1dnXn)
 
-Select the applicable **Financial Year**. Select the relevant **License Type** from the drop-down list. Enter the **Name of Trade**. Select the appropriate **Structure Type** and **Structure Sub Type.** Enter the **Trade Commencement Date**. Enter the **Trade GST No.** if applicable. Enter the **Operational Area \(Sq Ft\)**. and the **Number of Employees** for the listed trade. 
+Select the applicable **Financial Year**. Select the relevant **License Type** from the drop-down list. Enter the **Name of Trade**. Select the appropriate **Structure Type** and **Structure Sub Type.** Enter the **Trade Commencement Date**. Enter the **Trade GST No.** if applicable. Enter the **Operational Area \(Sq Ft\)**. and the **Number of Employees** for the listed trade.
 
 In the **Trade Unit** panel, provide the following details -
 
@@ -101,7 +101,7 @@ Scroll down the page to view the filled-in details. Click on the Edit icon ![](h
 
 The **Trade License Application No.** is displayed along with this message. Click on the **Download** button to download a copy of the application. Click on the **Print** button to print the application.
 
-### **Renew Trade License**
+## **Renew Trade License**
 
 Citizens can renew their existing trade applications on the DIGIT portal. CE can also apply for TL renewal on behalf of the citizens. To renew TL navigate to the home page and then click on the **Trade License** option. Click on **My Applications**. Click on the **Renew Now** button on the specific license.
 
@@ -113,13 +113,13 @@ The system will display the license details. Click on the **Take Action** button
 
 The Trade License is submitted for renewal.
 
-### **Search Application**
+## **Search Application**
 
 To search for a submitted application or track the status of submitted applications navigate to the **Trade License** home page.
 
 ![](https://lh6.googleusercontent.com/C38Srk3CObmsrw8AFrii-ZKAdW4uJnEGC9JI-MFgE9rJQMs5Wl6PMnGcUgnmxwz_td_FkZhj_rfP1vLhaE5an-_GmnQguqslAUBpX_RGtUhILHpb9IcmG-1dN8HF9f6hLkojdGDw)
 
-Enter at least one of the listed search parameters in the Search panel. The listed search parameters include 
+Enter at least one of the listed search parameters in the Search panel. The listed search parameters include
 
 * **Application No.**
 * **Trade License No.**
@@ -137,7 +137,7 @@ Click on the **Application No.** link. The screen displays the application detai
 
 ![](https://lh5.googleusercontent.com/wwssUJSEF6Y2Zvocm3RDS3kt_btJzwXorsOSM5gW6VNx3S1ltAxXkVSmiHYghwi0HwtLeJ9vIOZdVMPGxgDn2D37JGAUGAh7BV90TydWxZOVVxGc3fpw-K0aNMc1hBYAQt5cJ4bh)
 
-Click on the **Take Action** button and click on **Edit** option to edit the form details. The **Task Status** panel on the top of the Application displays the current status of the application. 
+Click on the **Take Action** button and click on **Edit** option to edit the form details. The **Task Status** panel on the top of the Application displays the current status of the application.
 
 ![](https://lh6.googleusercontent.com/IBncnMqelOyxSodY9RBH6Nr9fRReVSEu6s-ODOr_Nonc25ack5G8GZ_4ZBu_mnmqXVTwTngE98PoW6ozXc9uaXFSTLFCEPKMncGYeXY6a5id3V_pSEIvKOt9otoV1GGRpO3VVK_D)
 
@@ -145,7 +145,7 @@ Click on the **View History** button on the top right corner of the **Task Statu
 
 ![](https://lh5.googleusercontent.com/rn3oh8pUdYWR5c4rlw3z93rxTgon-3wnJ7bjjdOedKNLeTinrywQVZNS57uBVnsVu8MxBEV7IIQ3WGn4K4-zjMRCPNxvOOlwpGRcHFaZ_x34FIjV2XQeFMhoBly3kgo740vdrzL9)
 
-### **Pay Trade License Fee**
+## **Pay Trade License Fee**
 
 Applicants have to pay the license fee once the TL application is approved. The application status changes to **Pending for Payment**. To make payment for the trade license fee click on your **Application No.** to open the application. Click on the **Take Action** button.
 

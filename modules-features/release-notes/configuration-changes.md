@@ -4,7 +4,7 @@ description: Technical Release Details
 
 # Configuration Changes
 
-### **MDMS changes**
+## **MDMS changes**
 
 | **Feature** | **Status** | **Changes** | **Description** |
 | :--- | :--- | :--- | :--- |
@@ -30,7 +30,7 @@ description: Technical Release Details
 | Localization | New | [PR-1073](https://github.com/egovernments/egov-mdms-data/pull/1073) | Added new action for v2 localisation search |
 | Reports | Deprecate | [PR-1170](https://github.com/egovernments/egov-mdms-data/pull/1170) | Disabling the Reports and UI localization Links |
 
-### Backend Config Changes
+## Backend Config Changes
 
 | **Module** | **Action** | **PR** | **Description** |
 | :--- | :--- | :--- | :--- |
@@ -56,7 +56,7 @@ description: Technical Release Details
 | BPA | Update | [noc-persister.yml](https://github.com/egovernments/configs/commit/b94803a5d2e700b56c35b89b8cde5e1e32cfdbc4) | Changed filestore to filestoreId |
 | BPA | Update | [noc-persister.yml](https://github.com/egovernments/configs/commit/5f7eafdf3339d49a736d31c50037333a11c0f114) | Updated NOC persister |
 
-### Infra Changes <a id="Infra-Change:"></a>
+## Infra Changes <a id="Infra-Change:"></a>
 
 <table>
   <thead>
@@ -70,23 +70,14 @@ description: Technical Release Details
   <tbody>
     <tr>
       <td style="text-align:left">W&amp;S</td>
-      <td style="text-align:left">
-        <p></p>
-        <p>helm/charts/municipal-services/sw-services/values.yaml</p>
-      </td>
-      <td style="text-align:left">
-        <p></p>
-        <p>Removed the following details from values.yml</p>
-      </td>
+      <td style="text-align:left">helm/charts/municipal-services/sw-services/values.yaml</td>
+      <td style="text-align:left">Removed the following details from values.yml</td>
       <td style="text-align:left"><code>scid-format: &quot;SW/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]&quot;</code>
       </td>
     </tr>
     <tr>
       <td style="text-align:left"></td>
-      <td style="text-align:left">
-        <p></p>
-        <p>EGOV_IDGEN_SCID_FORMAT</p>
-      </td>
+      <td style="text-align:left">EGOV_IDGEN_SCID_FORMAT</td>
       <td style="text-align:left"></td>
       <td style="text-align:left"><code>value: {{ index .Values &quot;scid-format&quot; | quote }}</code>
       </td>
@@ -107,10 +98,7 @@ description: Technical Release Details
     </tr>
     <tr>
       <td style="text-align:left"></td>
-      <td style="text-align:left">
-        <p></p>
-        <p>helm/environments/&lt;env&gt;.yaml</p>
-      </td>
+      <td style="text-align:left">helm/environments/&lt;env&gt;.yaml</td>
       <td style="text-align:left">Autocreate-new-seq flag must be enabled in IdGen Service of the environment
         file</td>
       <td style="text-align:left"><code>autocreate-new-seq: &quot;true&quot;</code>
@@ -118,32 +106,17 @@ description: Technical Release Details
     </tr>
     <tr>
       <td style="text-align:left"></td>
-      <td style="text-align:left">
-        <p></p>
-        <p>helm/environments/qa.yaml</p>
-      </td>
-      <td style="text-align:left">
-        <p></p>
-        <p>change the key from allowed-file-formats: to <b>allowed-file-formats-map</b>
-        </p>
+      <td style="text-align:left">helm/environments/qa.yaml</td>
+      <td style="text-align:left">change the key from allowed-file-formats: to <b>allowed-file-formats-map</b>
       </td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left"></td>
-      <td style="text-align:left">
-        <p></p>
-        <p>helm/charts/municipal-services/firenoc-services/values.yaml</p>
-      </td>
-      <td style="text-align:left">
-        <p></p>
-        <p>Added EGOV_DEFAULT_STATE_ID in fire NOC environment file to pick up proper
-          tenant during search call</p>
-      </td>
-      <td style="text-align:left">
-        <p></p>
-        <p></p>
-      </td>
+      <td style="text-align:left">helm/charts/municipal-services/firenoc-services/values.yaml</td>
+      <td style="text-align:left">Added EGOV_DEFAULT_STATE_ID in fire NOC environment file to pick up proper
+        tenant during search call</td>
+      <td style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left">SMS Notification Service</td>
@@ -160,7 +133,7 @@ description: Technical Release Details
   </tbody>
 </table>
 
-### Service Build Artefacts
+## Service Build Artefacts
 
 <table>
   <thead>
@@ -895,13 +868,9 @@ description: Technical Release Details
   </tbody>
 </table>
 
-### Deprecated Features
+## Deprecated Features
 
 * egov-data-uploader
 * egov-common-masters
 * egov-index-custom-consumer
-
-
-
-
 

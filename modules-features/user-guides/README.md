@@ -12,17 +12,3 @@ DIGIT modules follow structured workflows to allow easy tracking of applications
 * [Property Tax User Manual](guide-pt/)
 * [mCollect User Manual](guide-mcollect/)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-

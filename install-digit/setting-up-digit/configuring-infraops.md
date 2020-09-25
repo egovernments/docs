@@ -2,7 +2,3 @@
 
 Details coming soon...
 
-###  <a id="Key-Functionalities"></a>
-
-
-

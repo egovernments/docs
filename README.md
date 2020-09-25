@@ -13,11 +13,11 @@ DIGIT is an open-source and open API powered platform for developers, enterprise
 {% endhint %}
 
 {% hint style="success" %}
-[Deploy DIGIT](deploy-flow/) - Concept, Architecture, Infrastructure Requirements, and Deployment 
+[Deploy DIGIT](deploy-flow/) - Concept, Architecture, Infrastructure Requirements, and Deployment
 {% endhint %}
 
 {% hint style="success" %}
-[Product Brochures](modules-features/product-brochures.md) - Download our informative brochures  
+[Product Brochures](modules-features/product-brochures.md) - Download our informative brochures
 {% endhint %}
 
 {% hint style="success" %}
@@ -25,8 +25,6 @@ DIGIT is an open-source and open API powered platform for developers, enterprise
 {% endhint %}
 
 {% hint style="success" %}
-[Training Resources](training-and-demo/) - Access PDF files, watch product training videos 
+[Training Resources](training-and-demo/) - Access PDF files, watch product training videos
 {% endhint %}
-
-
 

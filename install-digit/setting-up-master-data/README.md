@@ -8,7 +8,3 @@ Learn how to setup DIGIT master data.
 * [Configuring Tenants](configuring-tenants.md)
 * [State Level vs City Level Master](state-level-vs-city-level-master.md)
 
-
-
-
-
