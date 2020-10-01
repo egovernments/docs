@@ -13,7 +13,7 @@ DIGIT is an open-source and open API powered platform for developers, enterprise
 {% endhint %}
 
 {% hint style="success" %}
-[Deploy DIGIT](deploy-flow/) - Concept, Architecture, Infrastructure Requirements, and Deployment 
+[Deploy DIGIT](setup-digit/) - Concept, Architecture, Infrastructure Requirements, and Deployment 
 {% endhint %}
 
 {% hint style="success" %}
