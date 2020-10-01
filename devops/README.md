@@ -11,5 +11,3 @@ This section contains docs and information resources that guide you through the 
 
 /Install DIGIT
 
-
-
