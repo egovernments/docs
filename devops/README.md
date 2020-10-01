@@ -9,5 +9,5 @@ This section contains docs and information resources that guide you through the 
 * [CI/CD](cicd.md)
 * [Security Practices](security-practices.md)
 
-/Install DIGIT
+
 
