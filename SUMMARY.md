@@ -78,7 +78,7 @@
     * [State Level Vs City Level Master](install-digit/setting-up-master-data/state-level-vs-city-level-master.md)
   * [Configuring Master Data Templates](install-digit/configuring-master-data-templates/README.md)
     * [Environment Setup](install-digit/configuring-master-data-templates/environment-setup/README.md)
-      * [State Level Setup](install-digit/configuring-master-data-templates/environment-setup/state-level-setup-1.md)
+      * [ULB Level Setup](install-digit/configuring-master-data-templates/environment-setup/ulb-level-setup.md)
       * [State Level Setup](install-digit/configuring-master-data-templates/environment-setup/state-level-setup/README.md)
         * [Email Account Configuration](install-digit/configuring-master-data-templates/environment-setup/state-level-setup/email-account-configuration.md)
         * [Tenants Information](install-digit/configuring-master-data-templates/environment-setup/state-level-setup/tenants-information.md)
