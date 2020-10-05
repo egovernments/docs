@@ -86,6 +86,7 @@
         * [Payment Gateway Configuration](install-digit/configuring-master-data-templates/environment-setup/state-level-setup/payment-gateway-configuration.md)
         * [POS Integration Configuration](install-digit/configuring-master-data-templates/environment-setup/state-level-setup/pos-integration-configuration.md)
         * [Domain Name Configuration](install-digit/configuring-master-data-templates/environment-setup/state-level-setup/domain-name-configuration.md)
+        * [SSL Configuration](install-digit/configuring-master-data-templates/environment-setup/state-level-setup/ssl-configuration.md)
       * [ULB Level Setup](install-digit/configuring-master-data-templates/environment-setup/ulb-level-setup/README.md)
         * [Boundary Hierarchies](install-digit/configuring-master-data-templates/environment-setup/ulb-level-setup/boundary-hierarchies.md)
         * [Boundary Data](install-digit/configuring-master-data-templates/environment-setup/ulb-level-setup/boundary-data.md)
