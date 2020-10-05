@@ -85,7 +85,5 @@ This checklist covers the activities which are specific to the entity.
 
 Configurable Data Template -Trade Sub Type
 
- Configuration Data Tem...ter.xlsx17 KB
-
-Sample Configurable Data- Trade Sub Type
+ Sample Configurable Data- Trade Sub Type
 
