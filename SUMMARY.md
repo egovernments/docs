@@ -83,6 +83,7 @@
         * [Tenants Information](install-digit/configuring-master-data-templates/environment-setup/state-level-setup/tenants-information.md)
         * [SMS Account Configuration](install-digit/configuring-master-data-templates/environment-setup/state-level-setup/sms-account-configuration.md)
         * [Google Play Store Account](install-digit/configuring-master-data-templates/environment-setup/state-level-setup/google-play-store-account.md)
+        * [Payment Gateway Configuration](install-digit/configuring-master-data-templates/environment-setup/state-level-setup/payment-gateway-configuration.md)
       * [ULB Level Setup](install-digit/configuring-master-data-templates/environment-setup/ulb-level-setup/README.md)
         * [Boundary Hierarchies](install-digit/configuring-master-data-templates/environment-setup/ulb-level-setup/boundary-hierarchies.md)
         * [Boundary Data](install-digit/configuring-master-data-templates/environment-setup/ulb-level-setup/boundary-data.md)
