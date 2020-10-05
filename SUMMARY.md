@@ -80,6 +80,7 @@
     * [Environment Setup](install-digit/configuring-master-data-templates/environment-setup/README.md)
       * [State Level Setup](install-digit/configuring-master-data-templates/environment-setup/state-level-setup/README.md)
         * [Tenants Information](install-digit/configuring-master-data-templates/environment-setup/state-level-setup/tenants-information.md)
+        * [SMS Account Configuration](install-digit/configuring-master-data-templates/environment-setup/state-level-setup/sms-account-configuration.md)
   * [Configuring Services](install-digit/configuring-digit-services/README.md)
     * [API Dos and Don'ts](install-digit/configuring-digit-services/api-dos-and-donts.md)
     * [Setting Up Service Locally](install-digit/configuring-digit-services/setting-up-service-locally.md)

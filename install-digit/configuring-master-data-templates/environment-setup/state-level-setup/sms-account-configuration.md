@@ -1,0 +1,2 @@
+# SMS Account Configuration
+
