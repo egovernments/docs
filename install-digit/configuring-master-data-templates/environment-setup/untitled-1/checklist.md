@@ -20,14 +20,6 @@ The data type is an attribute of data, is a particular kind of data item, as def
 
 ## Checklist <a id="Checklist"></a>
 
-| Sr. No. | Activity | Example |
-| :--- | :--- | :--- |
-
-
-| Sr. No. | Activity | Example |
-| :--- | :--- | :--- |
-
-
 <table>
   <thead>
     <tr>
