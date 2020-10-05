@@ -20,39 +20,28 @@ The data type is an attribute of data, is a particular kind of data item, as def
 
 ## Checklist <a id="Checklist"></a>
 
+| State Level: These activities are applicable to state-level entities only |
+| :--- |
+
+
+| Sr. No. | Activity | Example |
+| :--- | :--- | :--- |
+| 1 | The entity is to be decided to be defined at the state level and all the ULBs are agreed on the same. | NA |
+| 2 | Data filled into templates should cater to the needs of each and every ULBs. | NA |
+
+| General: These activities are applicable to all the entities |
+| :--- |
+
+
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Sr. No.</th>
+      <th style="text-align:left">S.No.</th>
       <th style="text-align:left">Activity</th>
       <th style="text-align:left">Example</th>
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td style="text-align:left">State Level: These activities are applicable to state-level entities only.</td>
-      <td
-      style="text-align:left"></td>
-        <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">1</td>
-      <td style="text-align:left">The entity is to be decided to be defined at the state level and all the
-        ULBs are agreed on the same.</td>
-      <td style="text-align:left">NA</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">2</td>
-      <td style="text-align:left">Data filled into templates should cater to the needs of each and every
-        ULBs.</td>
-      <td style="text-align:left">NA</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">General: These activities are applicable to all the entities.</td>
-      <td
-      style="text-align:left"></td>
-        <td style="text-align:left"></td>
-    </tr>
     <tr>
       <td style="text-align:left">3</td>
       <td style="text-align:left">Order of headers should remain unchanged in the template while filling
@@ -70,7 +59,7 @@ The data type is an attribute of data, is a particular kind of data item, as def
       <td style="text-align:left">Codes filled in the template for all the records are unique. It means
         no 2 records in the template share the same code.</td>
       <td style="text-align:left">
-        <p>Below records in code, value pair is not acceptable.</p>
+        <p>Below records in code, value pair are not acceptable.</p>
         <p>RES - Residential</p>
         <p>RES - Non-residential</p>
       </td>
@@ -110,12 +99,22 @@ The data type is an attribute of data, is a particular kind of data item, as def
       <td style="text-align:left">Local language values should be Unicode charset only.</td>
       <td style="text-align:left">NA</td>
     </tr>
+  </tbody>
+</table>
+
+| Data Type Based: These activities are applicable to all entities |
+| :--- |
+
+
+<table>
+  <thead>
     <tr>
-      <td style="text-align:left">Data Type Based: These activities are applicable to all entities.</td>
-      <td
-      style="text-align:left"></td>
-        <td style="text-align:left"></td>
+      <th style="text-align:left">S.No.</th>
+      <th style="text-align:left">Activity</th>
+      <th style="text-align:left">Example</th>
     </tr>
+  </thead>
+  <tbody>
     <tr>
       <td style="text-align:left">12</td>
       <td style="text-align:left">Values of data type alphanumeric consist of the alphabet and numeric values
@@ -174,4 +173,6 @@ The data type is an attribute of data, is a particular kind of data item, as def
     </tr>
   </tbody>
 </table>
+
+
 
