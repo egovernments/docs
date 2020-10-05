@@ -87,7 +87,6 @@
         * [Boundary Data](install-digit/configuring-master-data-templates/environment-setup/ulb-level-setup/boundary-data.md)
         * [Cross Hierarchy Mapping](install-digit/configuring-master-data-templates/environment-setup/ulb-level-setup/cross-hierarchy-mapping.md)
         * [ULB Bank Accounts](install-digit/configuring-master-data-templates/environment-setup/ulb-level-setup/ulb-bank-accounts.md)
-    * [Module Setup](install-digit/configuring-master-data-templates/module-setup.md)
   * [Configuring Services](install-digit/configuring-digit-services/README.md)
     * [API Dos and Don'ts](install-digit/configuring-digit-services/api-dos-and-donts.md)
     * [Setting Up Service Locally](install-digit/configuring-digit-services/setting-up-service-locally.md)
