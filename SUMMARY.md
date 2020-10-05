@@ -90,6 +90,7 @@
         * [ULB Departments](install-digit/configuring-master-data-templates/environment-setup/state-level-setup/ulb-departments.md)
         * [ULB Designations](install-digit/configuring-master-data-templates/environment-setup/state-level-setup/ulb-designations.md)
         * [Localization](install-digit/configuring-master-data-templates/environment-setup/state-level-setup/localization.md)
+        * [Google Map Configuration](install-digit/configuring-master-data-templates/environment-setup/state-level-setup/google-map-configuration.md)
       * [ULB Level Setup](install-digit/configuring-master-data-templates/environment-setup/ulb-level-setup/README.md)
         * [Boundary Hierarchies](install-digit/configuring-master-data-templates/environment-setup/ulb-level-setup/boundary-hierarchies.md)
         * [Boundary Data](install-digit/configuring-master-data-templates/environment-setup/ulb-level-setup/boundary-data.md)
