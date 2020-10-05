@@ -79,6 +79,7 @@
   * [Configuring Master Data Templates](install-digit/configuring-master-data-templates/README.md)
     * [Environment Setup](install-digit/configuring-master-data-templates/environment-setup/README.md)
       * [State Level Setup](install-digit/configuring-master-data-templates/environment-setup/state-level-setup/README.md)
+        * [Email Account Configuration](install-digit/configuring-master-data-templates/environment-setup/state-level-setup/email-account-configuration.md)
         * [Tenants Information](install-digit/configuring-master-data-templates/environment-setup/state-level-setup/tenants-information.md)
         * [SMS Account Configuration](install-digit/configuring-master-data-templates/environment-setup/state-level-setup/sms-account-configuration.md)
   * [Configuring Services](install-digit/configuring-digit-services/README.md)
