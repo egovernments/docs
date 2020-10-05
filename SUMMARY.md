@@ -93,6 +93,7 @@
         * [Boundary Data](install-digit/configuring-master-data-templates/environment-setup/ulb-level-setup/boundary-data.md)
         * [Cross Hierarchy Mapping](install-digit/configuring-master-data-templates/environment-setup/ulb-level-setup/cross-hierarchy-mapping.md)
         * [ULB Bank Accounts](install-digit/configuring-master-data-templates/environment-setup/ulb-level-setup/ulb-bank-accounts.md)
+      * [Module Setup](install-digit/configuring-master-data-templates/environment-setup/module-setup.md)
       * [Configuring Trade Licenses Data](install-digit/configuring-master-data-templates/environment-setup/configuring-trade-licenses-data/README.md)
         * [Trade Category](install-digit/configuring-master-data-templates/environment-setup/configuring-trade-licenses-data/trade-category.md)
         * [Trade Type](install-digit/configuring-master-data-templates/environment-setup/configuring-trade-licenses-data/trade-type.md)
