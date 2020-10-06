@@ -14,7 +14,9 @@ An Urban Local Body \(ULB\) is defined as a tenant. The information which descri
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 98362532657 | Main Hall, Sonepur | [nagarsewa.sonepur.com](http://nagarsewa.sonepur.com/) | 24.8874° N | 86.9198° E | snp@bihar.gov.in |  |  |  |  |  [Logo](https://drive.google.com/drive/folders/1mDosChmhu-RO6O3Z5FlmSJR_VWbb8oxR) |
 
-Note: Data given in the table is a sample data.
+{% hint style="info" %}
+Data given in the table is a sample data.
+{% endhint %}
 
 ### Procedure
 
