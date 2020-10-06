@@ -1,10 +1,10 @@
 # Ownership Category
 
-## Introduction <a id="Introduction"></a>
+### Introduction
 
 Ownership is the state or fact of exclusive rights and control over property, which may be an asset, including an object, land or real estate, or intellectual property. Ownership involves multiple rights, collectively referred to as title, which may be separated and held by different parties. Further, the ownership can be categories based on the nature and type of the parties property is owned by e.g Property owned by an individual who is the resident of the city, by an institution etc.
 
-## Data Table <a id="Data-Table"></a>
+### Data Table
 
 Given below is the sample data table from the template in which the data has to be collected:
 
@@ -14,9 +14,9 @@ Given below is the sample data table from the template in which the data has to 
 | 2 | COMPANY | Company | कंपनिगत |
 | 3 | SOCIETY | Society | सहकारी समिति |
 
-## Procedure <a id="Procedure"></a>
+### Procedure
 
-### Data Definition <a id="Data-Definition"></a>
+#### Data Definition
 
 | Sr. No. | Column Name | Data Type | Data Size | Is Mandatory? | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -24,7 +24,7 @@ Given below is the sample data table from the template in which the data has to 
 | 2 | Ownership Category \(In English\) | Text |  256 | Yes | This is the name of the ownership category in the English language |
 | 3 | Ownership Category \(In Local Language\) | Text |  256 | Yes | This is the name of the ownership category in the local language |
 
-### Steps to fill Data <a id="Steps-to-fill-Data"></a>
+#### Steps to fill Data
 
 1. Download the data template attached to this page.
 2. Get a good understanding of all the headers in the template sheet, their data type, size, and definitions by referring to the ‘Data Definition’ section of this document.
@@ -34,29 +34,25 @@ Given below is the sample data table from the template in which the data has to 
 6. Start filling the template with the codes in the second column, its English name in 3rd and Local Language name in 4th.
 7. Verify the data once again by going through the checklist and making sure that each and every point mentioned in the checklist is covered.
 
-## Checklist <a id="Checklist"></a>
+### Checklist
 
 The checklist is a set of activities to be performed one the data is filled into a template to ensure data type, size, and format of data is as per the expectation. These activities have been divided into 2 groups as given below.
 
-### Common Checklist <a id="Common-Checklist"></a>
+#### Common Checklist
 
 This checklist covers all the activities which are common across the entities.
 
 | Sr. No. | Checklist Parameter | Example |
 | :--- | :--- | :--- |
-| 1 | Make sure that each and every point in this reference list has been taken care of | [Checklist](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/502203140/Checklist) |
+| 1 | Make sure that each and every point in this reference list has been taken care of | [Checklist](../untitled-1/checklist.md) |
 
-### Entity Specific Checklist <a id="Entity-Specific-Checklist"></a>
+#### Entity Specific Checklist
 
 Not Applicable
 
-## Attachments <a id="Attachments"></a>
+### Attachments
 
-Below attached is the template for gathering the data for Ownership Category:
+{% file src="../../../../.gitbook/assets/confiigurable-template-pt-ownershiptype.xlsx" caption="Configuration Data Template" %}
 
-1. Configurable Data Template - Ownership Category
-
-Confiigurable Template PT OwnershipType.xlsx8 KB
-
- 2. Sample Configurable Data Template- Ownership CategorySample Configurable Data P...ory.xlsx9 KB
+{% file src="../../../../.gitbook/assets/sample-configurable-data-pt-ownership-category.xlsx" caption="Sample Data" %}
 

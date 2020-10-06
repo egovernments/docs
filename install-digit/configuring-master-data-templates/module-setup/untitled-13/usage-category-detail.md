@@ -1,10 +1,10 @@
 # Usage Category Detail
 
-### Introduction <a id="Introduction"></a>
+### Introduction
 
 The Usage category could be more detailed out on classifying them further and detailing more specifically on what kind of usage it is such as hotel, shops, community centre etc.
 
-### Data Table <a id="Data-Table"></a>
+### Data Table
 
 Below mentioned is the definition of the template which is used in data gathering:
 
@@ -13,21 +13,23 @@ Below mentioned is the definition of the template which is used in data gatherin
 | 1. | RED | RESIDENTIAL |  | आवासीय | 2019-20 |
 | 2. | NONRED | HOTELS |  | होटल पेईग गेस्ट हाउस 10 कमरों तक\(बेगैर वातानुकूलित\) | 2018-19 |
 
-Note: Data given in the table is a sample data.
+{% hint style="info" %}
+ Data given in the table is a sample data.
+{% endhint %}
 
-## Procedure <a id="Procedure"></a>
+### Procedure
 
-### Data Definition <a id="Data-Definition"></a>
+#### Data Definition
 
 | Sr. No. | Column Name | Data Type | Data Size | Mandatory | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | Usage Category Detail Code | Alphanumeric | 64 | Yes | This column ideally contains the code for which the Usage Category Detail is being categorized |
-| 2 | Usage Category Sub Minor Code  | Alphanumeric | 64 | Yes | This is the mapping between detail and Sub Minor Code. Refer [Sub Minor](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/419823644/Usage+Category+Subminor) entity for more detail |
+| 2 | Usage Category Sub Minor Code  | Alphanumeric | 64 | Yes | This is the mapping between detail and Sub Minor Code. Refer [Sub Minor ](usage-category-sub-minor.md)entity for more detail |
 | 3 | Usage Category Detail Description \(English\)  | Text | 256 | Yes | Description/ Detail of the detail code in which the category is being classified in the English Language |
 | 4 | Usage Category Detail Description \(Local Language\)  | Text | 256 | No | Description/ Detail of the detail code in which the category is being classified in Local Language. e.g. Hindi, Telugu etc. |
 | 5 | Effective From Financial Year | Numeric |  \(12,2\) | Yes | This is the year from which the category detail has come into effect for property tax |
 
-### Steps to Fill Data <a id="Steps-to-Fill-Data"></a>
+#### Steps to Fill Data
 
 1. Download the data template attached to this page.
 2. Get a good understanding of all the headers in the template sheet, their data type, size, and definitions by referring to the ‘Data Definition’ section of this document.
@@ -39,25 +41,25 @@ Note: Data given in the table is a sample data.
 8. In the active column fill up weather the category is still active or not.
 9. Verify the data once again by going through the checklist and making sure that each and every point mentioned in the checklist is covered.
 
-## Checklist <a id="Checklist"></a>
+### Checklist
 
 The checklist is a set of activities to be performed on the data is filled into a template to ensure data type, size, and format of data is as per the expectation. These activities have been divided into 2 groups as given below.
 
-### Common Checklist <a id="Common-Checklist"></a>
+#### Common Checklist
 
 This checklist covers all the activities which are common across the entities.
 
 | Sr. No. | Checklist Parameter | Example |
 | :--- | :--- | :--- |
-| 1 | Make sure that each and every point in this reference list has been taken care of | [Checklist](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/502203140/Checklist) |
+| 1 | Make sure that each and every point in this reference list has been taken care of | [Checklist](../untitled-1/checklist.md) |
 
-### Entity Specific Checklist <a id="Entity-Specific-Checklist"></a>
+#### Entity Specific Checklist
 
 This checklist covers the activities which are specific to the entity.
 
-### Attachments <a id="Attachments"></a>
+### Attachments
 
-1.Configurable Template Usage Type DetailConfigurable Data... V1.xlsx10 KB
+{% file src="../../../../.gitbook/assets/configurable-data-template-usagetypedetail-v1.xlsx" caption="Configuration Data Template" %}
 
-2. Configurable Sample Data Usage Type DetailConfigurable Sample Data... V1.xlsx10 KB
+{% file src="../../../../.gitbook/assets/configurable-sample-data-usagetypedetail-v1.xlsx" caption="Sample Data" %}
 
