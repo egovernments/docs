@@ -32,7 +32,7 @@ In order to justify the Property[ Owner’s Special Category](owner-special-cate
 4. Identify the “Owner Categories” that exists at a ULB/ State level.
 5. Add the “Owner Type Code” respectively. The predefined format of the Owner Type Code only must be used from the “[Owner Special Category](owner-special-category.md)” Master Sheet and not any random code. This will provide the base reference for the mapping of ownership type with the required documents.
 
-## Checklist <a id="Checklist"></a>
+### Checklist
 
 The checklist is a set of activities to be performed one the data is filled into a template to ensure data type, size, and format of data is as per the expectation. These activities have been divided into 2 groups as given below.
 
