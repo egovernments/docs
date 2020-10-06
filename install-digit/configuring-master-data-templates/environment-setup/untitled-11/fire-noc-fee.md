@@ -1,7 +1,5 @@
 # Fire NOC Fee
 
-
-
 ## Introduction <a id="Introduction"></a>
 
 After the building usage and sub usage ontology has been defined for all the Firestations, the next step is to collect the Fire NOC fee that the citizens have to pay to obtain the certificate.
