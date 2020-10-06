@@ -1,12 +1,12 @@
 # Domain Name Configuration
 
-## Introduction <a id="Introduction"></a>
+### Introduction
 
 The domain name is the address through which the internet users can access the website rather than entering the whole IP address in the search bar of the browser.
 
 This domain name is ideally chosen by the state/client since its a product which has to be used for/by them.
 
-## Data Table <a id="Data-Table"></a>
+### Data Table
 
 Following is the table through which the information can be shared.
 
@@ -32,13 +32,15 @@ Following is the table through which the information can be shared.
   </tbody>
 </table>
 
-Note: Data given in the table is a sample data.
+{% hint style="info" %}
+Data given in the table is a sample data.
+{% endhint %}
 
-## Procedure <a id="Procedure"></a>
+### Procedure
 
 Since all state governments/clients prefer to host the websites on their servers, this activity is ideally done by them.
 
-### Data Definition <a id="Data-Definition"></a>
+#### Data Definition
 
 <table>
   <thead>
@@ -79,7 +81,7 @@ Since all state governments/clients prefer to host the websites on their servers
   </tbody>
 </table>
 
-### Steps to fill data <a id="Steps-to-fill-data"></a>
+#### Steps to fill data
 
 Following are the steps which are to be followed:
 
@@ -90,15 +92,15 @@ Following are the steps which are to be followed:
 5. If the state disagrees to host on their server, then a domain name has to be purchased by any of the external vendors and the EXTERNAL-IP address has to be mapped with them.
 6. Verify the data once again by going through the checklist and making sure that each and every point mentioned in the checklist is covered.
 
-## Checklist <a id="Checklist"></a>
+#### Checklist
 
 This checklist covers all the activities which are common across the entities.
 
 | Sr. No. | Checklist Parameter | Example |
 | :--- | :--- | :--- |
-| 1 | Make sure that each and every point in this reference list has been taken care of. | [Checklist](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/502203140/Checklist) |
+| 1 | Make sure that each and every point in this reference list has been taken care of. | [Checklist](../../module-setup/untitled-1/checklist.md) |
 
-### Entity Specific Checklist <a id="Entity-Specific-Checklist"></a>
+#### Entity Specific Checklist
 
 This checklist covers the activities which are specific to the entity:
 
@@ -122,11 +124,7 @@ This checklist covers the activities which are specific to the entity:
       style="text-align:left">-</td>
     </tr>
     <tr>
-      <td style="text-align:left">
-        <ol>
-          <li></li>
-        </ol>
-      </td>
+      <td style="text-align:left">2.</td>
       <td style="text-align:left">Only one domain name and its corresponding IP address have to be provided</td>
       <td
       style="text-align:left">-</td>
@@ -134,12 +132,9 @@ This checklist covers the activities which are specific to the entity:
   </tbody>
 </table>
 
-## Attachments <a id="Attachments"></a>
+### Attachments
 
-1. Following is the attached configurable data template in case the state is doing the required activities.
-2. Configurable Data Template - Domain Name Configuration
+{% file src="../../../../.gitbook/assets/configurable-data-template-domain-name\_v1.xlsx" caption="Configuration Data Template" %}
 
-Configurable Data Temp...\_V1.xlsx9 KB
-
-1. Sample Configurable Data - Domain Name Configuration
+{% file src="../../../../.gitbook/assets/configurable-sample-data-domain-name\_v1.xlsx" caption="Sample Data Template" %}
 
