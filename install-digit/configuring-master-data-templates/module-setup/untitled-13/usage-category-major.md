@@ -1,10 +1,10 @@
 # Usage Category Major
 
-## Introduction <a id="Introduction"></a>
+### Introduction
 
 A property can be used for a variety of things such as to live or to do some trading/selling etc activity or for any other purpose. Properties can be classified into various categories on the basis of there usage. Below is the mentioned data table which gives a reference for classification.
 
-## Data Table  <a id="Data-Table"></a>
+### Data Table 
 
 | Sr. No | Usage Category Major Code\* | Usage Category Major\* \(In English\) | Usage Category Major\* \(In Local Language\) |
 | :--- | :--- | :--- | :--- |
@@ -12,11 +12,13 @@ A property can be used for a variety of things such as to live or to do some tra
 | 2 | NONRESIDENTIAL | Non-residential | गैर आवासीय |
 | 3 | MIXED | Mixed | मिश्रित |
 
-Note: Data given in the table is a sample data.
+{% hint style="info" %}
+The data described in the above table is a sample.
+{% endhint %}
 
-## Procedure <a id="Procedure"></a>
+### Procedure
 
-### Data Definition <a id="Data-Definition"></a>
+#### Data Definition
 
 | Sr. No. | Column Name | Data Type | Data Size | Is Mandatory? | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -24,7 +26,7 @@ Note: Data given in the table is a sample data.
 | 2 | Usage Category Major \(In English\) | Text | 256 | Yes | This is the description of the major category in the English Language. |
 | 3 | Usage Category Major \(In Local Language\) | Text | 256 | Yes | This is the description of the major category in the Local Language e.g. Telugu, Hindi etc. |
 
-### Steps to Fill Data <a id="Steps-to-Fill-Data"></a>
+#### Steps to Fill Data
 
 1. Download the data template attached to this page.
 2. Refer to the ‘Data Definition’ section of this document to understand the headers in the template sheet, their data type, size, and definitions.
@@ -32,26 +34,25 @@ Note: Data given in the table is a sample data.
 4. Identify all the property usages categorized at first level and fill into the given template.
 5. Go through the checklist to verify the data. Make sure that each and every point mentioned in the checklist is covered.
 
-## Checklist <a id="Checklist"></a>
+### Checklist
 
 The checklist is a set of activities to be performed one the data is filled into a template to ensure data type, size, and format of data is as per the expectation. These activities have been divided into 2 groups as given below.
 
-### Common Checklist <a id="Common-Checklist"></a>
+#### Common Checklist
 
 This checklist covers all the activities which are common across the entities.
 
 | Sr. No. | Checklist Parameter | Example |
 | :--- | :--- | :--- |
-| 1. | Make sure that each and every point in this reference list has been taken care of | [Checklist](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/502203140/Checklist) |
+| 1. | Make sure that each and every point in this reference list has been taken care of | [Checklist](../untitled-1/checklist.md) |
 
-### Entity Specific Checklist <a id="Entity-Specific-Checklist"></a>
+#### Entity Specific Checklist
 
 Not Applicable
 
-## Attachments <a id="Attachments"></a>
+### Attachments
 
-1. Configurable Data Template - Usage Category Major
+{% file src="../../../../.gitbook/assets/configurable-template-pt-usage-typemajor.xlsx" caption="Configuration Data Template" %}
 
-    2. Configurable Sample Data - Usage Category Major  
-
+{% file src="../../../../.gitbook/assets/configurable-sample-data-usage-category-major.xlsx" caption="Sample Data" %}
 
