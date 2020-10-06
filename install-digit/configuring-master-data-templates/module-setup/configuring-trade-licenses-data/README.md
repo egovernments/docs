@@ -1,12 +1,10 @@
 # Configuring Trade Licenses Data
 
-
-
-## Introduction <a id="Introduction"></a>
+### Introduction
 
 The Trade License application, developed on the eGov-DIGIT platform, makes the process of obtaining a Trade License easy, smooth, and transparent. The module, hence, removes the need for manual processing and streamlines the key trade license management functions to provide a better user experience.
 
-## Module Features <a id="Module-Features"></a>
+### Module Features
 
 DIGIT Trade License module enables citizens to -
 
@@ -23,22 +21,22 @@ DIGIT Trade License module enables employees to -
 3. View custom dashboards for module statistics.
 4. Filter search results using advanced configurable search parameters.
 
-## Module Ontology <a id="Module-Ontology"></a>
+### Module Ontology
 
 #### State Level <a id="State-Level"></a>
 
-1. [Trade Category](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/450887718/Trade+Category)
-2. [Trade Type](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/406716590/Trade+Type)
-3. [Trade Sub Type](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/451346455/Trade+Sub+type)
-4. [Trade License Documents Attachment](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/409010266/Trade+License+Documents+Attachment)
-5. [Structure Type](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/599261450/Structure+Type)
-6. [Structure Subtype](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/599064767/Structure+Subtype)
+1. [Trade Category](trade-category.md)
+2. [Trade Type](trade-type.md)
+3. [Trade Sub Type](trade-sub-type.md)
+4. [Trade License Documents Attachment](trade-license-documents-attachment.md)
+5. [Structure Type](structure-type.md)
+6. [Structure Subtype](structure-sub-type.md)
 
 #### ULB Level <a id="ULB-Level"></a>
 
-1. [Trade License Fee](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/409141313/Trade+License+Fee)
+1. [Trade License Fee](trade-license-fee.md)
 
-## Module Reports <a id="Module-Reports"></a>
+### Module Reports
 
 1. Receipt Register
 2. Application Status
