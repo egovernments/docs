@@ -1,12 +1,12 @@
 # SMS Account Configuration
 
-## Introduction <a id="Introduction"></a>
+### Introduction
 
 The SMS service is a way of communicating necessary information/updates to the users on there various transactions on DIGIT applications.
 
 In order to update the users, there is a certain notification which has been configured at various steps in the application process which can be changed/ configured based upon the requirements.
 
-## Data Table <a id="Data-Table"></a>
+### Data Table
 
 We have the below-mentioned parameters which we use for configuration:
 
@@ -16,13 +16,15 @@ We have the below-mentioned parameters which we use for configuration:
 | 2 | sms.username.parameter | mnsbihar@001 |
 | 3 | sms.username.value | \*\*\* |
 
-Note: The data given in the above table is sample data. The parameters and its values are SMS service provided specific and may vary accordingly.
+{% hint style="info" %}
+The data given in the above table is sample data. The parameters and its values are SMS service provided specific and may vary accordingly.
+{% endhint %}
 
-## Procedure <a id="Procedure"></a>
+### Procedure
 
 For the SMS service to be integrated there are various things for which the vendor more or less guides us for the steps to be followed but below mentioned are a few basic steps and the generic data definitions which could be followed.
 
-### Data Definition <a id="Data-Definition"></a>
+#### Data Definition
 
 Below mentioned are the descriptions of the parameters which are needed for configuration:
 
@@ -31,9 +33,11 @@ Below mentioned are the descriptions of the parameters which are needed for conf
 | 1 | Parameter | Alphanumeric | 64 | Yes | The parameter required to be configured |
 | 2 | Value | Alphanumeric | 64 | Yes | The corresponding value of the parameter |
 
-Note: Parameter names could differ from vendor to vendor.
+{% hint style="info" %}
+Parameter names could differ from vendor to vendor.
+{% endhint %}
 
-### Steps to fill Data <a id="Steps-to-fill-Data"></a>
+#### Steps to fill Data
 
 Since the SMS service is a vendor delivered service for which the below steps would have to be followed:
 
@@ -43,19 +47,19 @@ Since the SMS service is a vendor delivered service for which the below steps wo
 4. The SMS vendor has to provide the data in the data template attached.
 5. Verify the data once again by going through the checklist and making sure that each and every point mentioned in the checklist is covered.
 
-## Checklist <a id="Checklist"></a>
+### Checklist
 
 The checklist is a set of activities to be performed one the data is filled into a template to ensure data type, size, and format of data is as per the expectation. These activities have been divided into 2 groups as given below.
 
-### Common Checklist <a id="Common-Checklist"></a>
+#### Common Checklist
 
 This checklist covers all the activities which are common across the entities.
 
 | Sr. No. | Checklist Parameter | Example |
 | :--- | :--- | :--- |
-| 1 | Make sure that each and every point in this reference list has been taken care of. | [Checklist](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/502203140/Checklist) |
+| 1 | Make sure that each and every point in this reference list has been taken care of. | [Checklist](../../module-setup/untitled-1/checklist.md) |
 
-### Entity Specific Checklist <a id="Entity-Specific-Checklist"></a>
+#### Entity Specific Checklist
 
 This checklist covers the activities which are specific to the entity.
 
@@ -63,9 +67,9 @@ This checklist covers the activities which are specific to the entity.
 | :--- | :--- | :--- |
 | 1 | Make sure that the vendor should support multiple language functionality and especially the local language of the state. | - |
 
-## Attachments <a id="Attachments"></a>
+### Attachments
 
-1. Configurable Data Template - SMS Configuration
+{% file src="../../../../.gitbook/assets/configurable-data-template-sms\_configuration\_v1.xlsx" caption="Configuration Data Template" %}
 
-    2. Sample Configurable Data - SMS Configuration
+{% file src="../../../../.gitbook/assets/configurable-sample-data-template-sms-account-configuration\_v1.xlsx" caption="Sample Data Template" %}
 
