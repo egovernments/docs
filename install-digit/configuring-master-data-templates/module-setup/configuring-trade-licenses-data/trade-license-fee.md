@@ -86,5 +86,5 @@ This checklist covers the activities which are specific to the entity.
 
 {% file src="../../../../.gitbook/assets/configuration-data-template-trade-master-4-.xlsx" caption="Configuration Data Template" %}
 
-{% file src="../../../../.gitbook/assets/sample-configuration-data-template-trade-master-filled-4-.xlsx" caption="Sample Data Template" %}
+{% file src="../../../../.gitbook/assets/sample-configuration-data-template-trade-master-filled-4- \(1\).xlsx" caption="Sample Data Template" %}
 
