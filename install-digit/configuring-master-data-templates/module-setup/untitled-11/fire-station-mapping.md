@@ -1,7 +1,5 @@
 # Fire Station Mapping
 
-
-
 ### Introduction <a id="Introduction"></a>
 
 After we have created the fire station master, the next step would be to map the Districts, Sub-Districts, and ULBs with the fire stations. The two points that are very important to note here are:
@@ -35,21 +33,21 @@ Urban Area
 
 | Sr. No. | Column Name | Data Type | Data Size | Mandatory | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | District Code | Reference | 64  | Yes | The code given to each district in the [Area served masters](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/413696313/Areas+Served+Masters) |
-| 2 | ULB Code | Reference | 64  | Yes | The code given to each district in the [Area served masters](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/413696313/Areas+Served+Masters) |
-| 3 | Fire Station Code | Reference | 64  | Yes | The code given to each Fire station in the [Fire Station masters](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/414089217/Fire+Station+Master) |
-| 4 | Fire Station Name | Reference | 256 | Yes | The Fire Stations listed in the [Fire Station masters](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/414089217/Fire+Station+Master) |
+| 1 | District Code | Reference | 64  | Yes | The code given to each district in the [Area served masters](areas-served-master.md) |
+| 2 | ULB Code | Reference | 64  | Yes | The code given to each district in the [Area served masters](areas-served-master.md) |
+| 3 | Fire Station Code | Reference | 64  | Yes | The code given to each Fire station in the [Fire Station masters](fire-station-master.md) |
+| 4 | Fire Station Name | Reference | 256 | Yes | The Fire Stations listed in the[ Fire Station masters](fire-station-master.md) |
 
 Rural Area
 
 | Sr. No. | Column Name | Data Type | Data Size | Mandatory | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | District Code | Reference |  64 | Yes | The code given to each district in the [Area served masters](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/413696313/Areas+Served+Masters) |
-| 2 | Sub District Code | Reference | 64  | Yes | The code given to each sub-district in the [Area served masters](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/413696313/Areas+Served+Masters) |
-| 3 | Fire Station Code | Reference | 64  | Yes | The code is given to each Fire station in the [Fire Station masters](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/414089217/Fire+Station+Master) |
-| 4 | Fire Station Name | Reference | 256 | Yes | The Fire Stations listed in the [Fire Station masters](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/414089217/Fire+Station+Master) |
+| 1 | District Code | Reference |  64 | Yes | The code given to each district in the[ Area served masters](areas-served-master.md) |
+| 2 | Sub District Code | Reference | 64  | Yes | The code given to each sub-district in the [Area served masters](areas-served-master.md) |
+| 3 | Fire Station Code | Reference | 64  | Yes | The code is given to each Fire station in the [Fire Station masters](fire-station-master.md) |
+| 4 | Fire Station Name | Reference | 256 | Yes | The Fire Stations listed in the [Fire Station masters](fire-station-master.md) |
 
-#### How to fill data: <a id="How-to-fill-data:"></a>
+#### How to fill data <a id="How-to-fill-data:"></a>
 
 **Urban Area - Fire Mapping**
 
@@ -71,29 +69,28 @@ Rural Area
 6. Identify the fire stations that are serving each District - Sub District combination and enter their name in the Fire Station column along with its code in the Fire Station Code.
 7. Verify the data once again by going through the checklist and making sure that each and every point mentioned in the checklist is covered.
 
-### Common Checklist <a id="Common-Checklist"></a>
+### Checklist <a id="Common-Checklist"></a>
+
+#### Common Checklist
 
 This checklist covers all the activities which are common across the entities.
 
 | Sr. No. | Checklist Parameter | Example |
 | :--- | :--- | :--- |
-| 1 | Make sure that each and every point in this reference list has been taken care of | [Checklist](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/502203140/Checklist) |
+| 1 | Make sure that each and every point in this reference list has been taken care of | [Checklist](../untitled-1/checklist.md) |
 
-### Entity Specific Checklist <a id="Entity-Specific-Checklist"></a>
+#### Entity Specific Checklist
 
 This checklist covers the activities which are specific to the entity.
 
 | Sr. No. | Checklist Parameter | Example |
 | :--- | :--- | :--- |
-
-
-| Sr. No. | Checklist Parameter | Example |
-| :--- | :--- | :--- |
-| 1 | District Codes, Sub-district Codes, and ULB codes have to be similar to the codes entered in the Area Master | [Areas Served Masters](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/413696313/Areas+Served+Masters) |
-| 2 | The Fire Station Name and the Fire station Code should be similar to the name and codes entered in the Fire Station Master | [Fire Station Master](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/414089217/Fire+Station+Master) |
+| 1 | District Codes, Sub-district Codes, and ULB codes have to be similar to the codes entered in the Area Master | [Areas Served Masters](areas-served-master.md) |
+| 2 | The Fire Station Name and the Fire station Code should be similar to the name and codes entered in the Fire Station Master | [Fire Station Master](fire-station-master.md) |
 
 ### Attachments <a id="Attachments"></a>
 
-1. Configuration data template -Fire Station Mapping
-2. Sample configuration data - Fire Station Mapping
+{% file src="../../../../.gitbook/assets/configuration-data-fire-station-mapping.xlsx" caption="Configuration Data Template" %}
+
+{% file src="../../../../.gitbook/assets/sample-data-template-fire-station-mapping.xlsx" caption="Sample Data" %}
 

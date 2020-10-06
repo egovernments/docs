@@ -1,32 +1,32 @@
 # Areas Served Master
 
-
-
-### Introduction <a id="Introduction"></a>
+### Introduction
 
 In all most all the states fire stations serve both the urban as well as the rural areas, therefore we need to prepare the masters for both urban areas as well as the rural areas being served in the state.
 
-### Data Table <a id="Data-Table"></a>
+### Data Table
 
-#### Urban Area Master <a id="Urban-Area-Master"></a>
+#### Urban Area Master
 
 | Sr. No. | \*District Code | \*District Name | \*ULB Code | \*ULB Name |
 | :--- | :--- | :--- | :--- | :--- |
 | 1 |  DC01 | Amritsar | ULB01 | Amritsar |
 | 2 |  DC01 | Amritsar | ULB02 | Ajnala |
 
-#### Rural Area Master <a id="Rural-Area-Master"></a>
+#### Rural Area Master
 
 | Sr. No. | \*District Code | \*District Name | \*Sub District Code | **\***Sub District Name |
 | :--- | :--- | :--- | :--- | :--- |
 | 1 |  DC02 | Patiala | SDC01 | Jhabal |
 | 2 |  DC02 | Patiala | SDC02 | Patran |
 
-Note: Note: Data given in the above tables is sample data.
+{% hint style="info" %}
+Data given in the above table is a sample data.
+{% endhint %}
 
-### Procedure <a id="Procedure"></a>
+### Procedure
 
-#### Data Definitions: <a id="Data-Definitions:"></a>
+#### Data Definitions
 
 **Urban Area**
 
@@ -46,9 +46,9 @@ Note: Note: Data given in the above tables is sample data.
 | 3 | Sub-district Code | Text |  256 | Yes | The code is given to the subdistrict by the state team. Eg: SDC01 for Jhabal, SDC02 Patran |
 | 4 | Sub-district Name | Alphameric |  64 | Yes | Name of the sub-district Eg: Jhabal, Patran |
 
-### How to fill data: <a id="How-to-fill-data:"></a>
+#### How to fill data
 
-#### Urban Areas <a id="Urban-Areas"></a>
+**Urban Areas**
 
 1. Download the data template attached to this page.
 2. Get a good understanding of all the headers in the template sheet, their data type, size, and definitions by referring to the ‘Data Definition’ section of this document.
@@ -59,7 +59,7 @@ Note: Note: Data given in the above tables is sample data.
 7. Give each ULB a unique code and enter the code in the ULB Code column.
 8. Verify the data once again by going through the checklist and making sure that each and every point mentioned in the checklist is covered.
 
-#### Rural Areas <a id="Rural-Areas"></a>
+**Rural Areas**
 
 1. Download the data template attached to this page.
 2. Get a good understanding of all the headers in the template sheet, their data type, size, and definitions by referring to the ‘Data Definition’ section of this document.
@@ -70,11 +70,11 @@ Note: Note: Data given in the above tables is sample data.
 7. Give each Sub District a unique code and enter the code in the Sub District Code column.
 8. Verify the data once again by going through the checklist and making sure that each and every point mentioned in the checklist is covered.
 
-## Checklist <a id="Checklist"></a>
+### Checklist
 
 The checklist is a set of activities to be performed one the data is filled into a template to ensure data type, size, and format of data is as per the expectation. These activities have been divided into 2 groups as given below.
 
-### Common Checklist <a id="Common-Checklist"></a>
+#### Common Checklist
 
 This checklist covers all the activities which are common across the entities.
 
@@ -82,13 +82,9 @@ This checklist covers all the activities which are common across the entities.
 | :--- | :--- | :--- |
 | 1 | Make sure that each and every point in this reference list has been taken care of. | [Checklist](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/502203140/Checklist) |
 
-### Entity Specific Checklist <a id="Entity-Specific-Checklist"></a>
+#### Entity Specific Checklist
 
 This checklist covers the activities which are specific to the entity.
-
-| Sr. No. | Checklist Parameter | Example |
-| :--- | :--- | :--- |
-
 
 <table>
   <thead>
@@ -120,8 +116,9 @@ This checklist covers the activities which are specific to the entity.
   </tbody>
 </table>
 
-### Attachments <a id="Attachments"></a>
+### Attachments
 
-1. Configuration data template - Area Master
-2. Sample configuration data - Area Master
+{% file src="../../../../.gitbook/assets/configuration-data-area-master.xlsx" caption="Configuration Date Template" %}
+
+{% file src="../../../../.gitbook/assets/sample-data-template-area-master.xlsx" caption="Sample Data" %}
 

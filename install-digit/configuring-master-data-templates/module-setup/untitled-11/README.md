@@ -1,15 +1,13 @@
 # Configuring Fire NOC Data
 
-
-
-## Introduction <a id="Introduction"></a>
+### Introduction
 
 The Fire No-Objection Certificate \(NOC\) application, developed on the eGov-DIGIT platform, makes the  
 process of obtaining a Fire NOC easy, smooth, and transparent. It eliminates the current manual process  
 by automating and streamlining it, thus providing a better citizen service experience with the Urban  
 Local Body \(ULB\) and Fire station employees.
 
-## Module Features <a id="Module-Features"></a>
+### Module Features
 
 Features offered to the citizens-
 
@@ -26,21 +24,21 @@ Features offered to the Employees-
 3. Dashboard with application statistics.
 4. Search applications using configurable parameters.
 
-## Module Ontology <a id="Module-Ontology"></a>
+### Module Ontology
 
-### State Level <a id="State-Level"></a>
+#### State Level
 
-1. [Fire Stations Master](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/414089217/Fire+Station+Master)
-2. [Building Usage Type](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/422412337/Building+Usage+Type)
-3. [Building Usage Subtype](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/408946786/Building+Sub+Usage+Type)
-4. [Application Workflow](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/426672254/Applications+Workflow)
-5. [Area Master](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/413696313/Areas+Served+Masters)
+1. [Fire Stations Master](fire-station-master.md)
+2. [Building Usage Type](building-usage-type.md)
+3. [Building Usage Subtype](building-usage-sub-type.md)
+4. [Application Workflow](../untitled/workflow-actions.md)
+5. [Area Master](areas-served-master.md)
 
-### ULB Level <a id="ULB-Level"></a>
+#### ULB Level
 
-1. [Boundry Data](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/406552674/Boundary+Data)
+1. [Boundry Data](../../environment-setup/ulb-level-setup/boundary-data.md)
 
-## Module Reports <a id="Module-Reports"></a>
+### Module Reports
 
 1. Receipt Register
 2. Application Status

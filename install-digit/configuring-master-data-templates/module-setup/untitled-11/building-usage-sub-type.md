@@ -1,33 +1,35 @@
 # Building Sub Usage Type
 
-## Introduction <a id="Introduction"></a>
+### Introduction
 
 After the building usage types are identified, the next activity is to identify the building sub usage types.
 
 Buildings types can be further classified into various subcategories to go into the granular level of their usage details. The National Building Code of India \(NBC\) also classifies the building's usage type into the sub usage types which can be seen in the attachment.
 
-## Data Table  <a id="Data-Table"></a>
+### Data Table 
 
 | Sr. No. | \*Building Usage Type Code | \*Sub Type Code | \*Building Sub Usage Type | \*Sub Divison \(as per NBC\) | \*Building Sub Usage Type \(as per NBC\) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 |  BU01 | BSU01 | Hotel | A4 | Hotel |
 | 2 |  BU01 | BSU02 | Apartment | A5 | Apartment House |
 
-Note: Data given in the above table is a sample data.
+{% hint style="info" %}
+Data given in the above table is a sample data.
+{% endhint %}
 
-## Procedure <a id="Procedure"></a>
+### Procedure
 
-### Data Definitions <a id="Data-Definitions"></a>
+#### Data Definitions
 
 | Sr. No. | Column Name | Data Type | Data Size | Mandatory | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | Building Usage Type Code | Reference |  64 | Yes | The codes are given to the building usage type in the [building usage type master](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/422412337/Building+Usage+Type) |
+| 1 | Building Usage Type Code | Reference |  64 | Yes | The codes are given to the building usage type in the[ building usage type master](building-usage-type.md) |
 | 2 | Sub Type Code | Alphameric |  64 | Yes | The code is given to the building sub usage type by the Fire Station. Eg: BSU01 for Hotel, BSU02 for Apartment Houses |
 | 3 | Building Sub Usage Type | Text | 256  | Yes | Name of subcategories within each building usage type as per the fire station. Eg: Hotel, Apartment Houses |
 | 4 | Sub Divison \(as per NBC\) | Alphameric | 64  | Yes | The code is given to the building sub usage type as per NBC. Eg: Subdivision A4, A5 |
 | 5 | Building Sub Usage Type \(as per NBC\) | Text | 256 | Yes | Name of subcategories within each building usage type as per NBC. Eg: Hotel, Apartment House |
 
-### How to fill data <a id="How-to-fill-data"></a>
+#### How to fill data
 
 1. Download the data template attached to this page.
 2. Get a good understanding of all the headers in the template sheet, their data type, size, and definitions by referring to the ‘Data Definition’ section of this document.
@@ -38,19 +40,19 @@ Note: Data given in the above table is a sample data.
 7. Record the appropriate subdivision and building sub usage type from NBC in the Subdivision \(as per NBC\) and Building Sub Usage Type \(as per NBC\) respectively.
 8. Verify the data once again by going through the checklist and making sure that each and every point mentioned in the checklist is covered.
 
-## Checklist <a id="Checklist"></a>
+### Checklist
 
 The checklist is a set of activities to be performed one the data is filled into a template to ensure data type, size, and format of data is as per the expectation. These activities have been divided into 2 groups as given below.
 
-### Common Checklist <a id="Common-Checklist"></a>
+#### Common Checklist
 
 This checklist covers all the activities which are common across the entities.
 
 | Sr. No. | Checklist Parameter | Example |
 | :--- | :--- | :--- |
-| 1 | Make sure that each and every point in this reference list has been taken care of | [Checklist](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/502203140/Checklist) |
+| 1 | Make sure that each and every point in this reference list has been taken care of | [Checklist](../untitled-1/checklist.md) |
 
-### Entity Specific Checklist <a id="Entity-Specific-Checklist"></a>
+#### Entity Specific Checklist
 
 This checklist covers the activities which are specific to the entity.
 
@@ -66,12 +68,12 @@ This checklist covers the activities which are specific to the entity.
     <tr>
       <td style="text-align:left">1</td>
       <td style="text-align:left">The Building Usage Type Code should be similar to the ones defined in
-        the <a href="https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/422412337/Building+Usage+Type">building usage type master</a>
-      </td>
-      <td style="text-align:left">
+        the<a href="building-usage-type.md"> building usage type maste</a>r</td>
+      <td
+      style="text-align:left">
         <p>BU01: Residential</p>
         <p>BU02: Educational</p>
-      </td>
+        </td>
     </tr>
     <tr>
       <td style="text-align:left">2</td>
@@ -94,11 +96,13 @@ This checklist covers the activities which are specific to the entity.
   </tbody>
 </table>
 
-## Attachments <a id="Attachments"></a>
+### Attachments
 
-1. Configuration data template - Building Sub Usage TypeConfiguration data template - ...ype.xlsx9 KB
+{% file src="../../../../.gitbook/assets/configuration-data-template-building-sub-usage-type.xlsx" caption="Configuration Data Template" %}
 
-2. Sample configuration data - Building Sub Usage TypeSample configuration data - B...ype.xlsx8 KB
+{% file src="../../../../.gitbook/assets/sample-configuration-data-building-sub-usage-type.xlsx" caption="Sample Data" %}
 
-3. National Building Code - Building Sub usage Types
+{% file src="../../../../.gitbook/assets/nbc-building-sub-usage-type.xlsx" caption="NBC Classification" %}
+
+
 
