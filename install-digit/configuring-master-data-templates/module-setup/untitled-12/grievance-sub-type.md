@@ -1,10 +1,10 @@
 # Grievance Sub Type
 
-## Introduction <a id="Introduction"></a>
+### Introduction
 
 Grievance sub-type defines the second level of classification of grievances which are related to ULB’s functions and adds detail to a grievance type.
 
-## Data Table <a id="Data-Table"></a>
+### Data Table
 
 The data table below represents the structure of the template and given here to explain the template in detail.
 
@@ -14,22 +14,24 @@ The data table below represents the structure of the template and given here to 
 | 2 | SLS02 | Street Light Not Working | स्ट्रीट लाइट काम नहीं कर रही है | SLS | TP | 48 |
 | 3 | WNS01 | Illegal Discharge of Sewage | सीवेज का अवैध निपटान | WNS | PHS | 48 |
 
-\(Note: The Rows in the above table consists of Sample Data\)
+{% hint style="info" %}
+ Data given in the table is a sample data.
+{% endhint %}
 
-## Procedure <a id="Procedure"></a>
+### Procedure
 
-### Data Definition <a id="Data-Definition"></a>
+#### Data Definition
 
 | Sr. No. | Column Name | Data Type | Data Size | Is Mandatory? | Definition/ Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | Grievance Subtype Code | Alphanumeric | 64 | Yes | Unique code is given to the grievance subtype and is used to uniquely identify the complaint subtype. E.g. SLS01 given above in data table to identify Street Lights complaint subtype |
 | 2 | Grievance Subtype \(In English\) | Text | 256 | Yes | This is the text or string stating grievance subtype in English |
 | 3 | Grievance Subtype \(In Local Language\) | Text | 256 | Yes | This the text or string stating the grievance subtype in local language like Hindi, Telugu etc. whatever is applicable |
-| 4 | Grievance Type Code | Reference | 64 | Yes | Reference to parent grievance type code from the[ Grievance Type](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/408879264/Grievance+Type) entity |
-| 5 | Department Code | Reference | 64 | Yes | Unique department code from the[ ULB's Departments](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/428965945/ULB%27s+Departments) entity |
+| 4 | Grievance Type Code | Reference | 64 | Yes | Reference to parent grievance type code from the [Grievance Type](grievance-type.md) entity |
+| 5 | Department Code | Reference | 64 | Yes | Unique department code from the [ULB's Departments](../../environment-setup/state-level-setup/ulb-departments.md) entity |
 | 6 | SLA \(In Hours\) | Decimal | \(5,2\) | Yes | This field defined the service level agreements in hours. This the time within which a complaint raised to be resolved |
 
-### Steps to fill data <a id="Steps-to-fill-data"></a>
+#### Steps to fill data
 
 1. Download the data template attached to this page.
 2. Have it open and go through all the headers and understand the meaning of them by referring 'Data Definition' section.
@@ -38,17 +40,17 @@ The data table below represents the structure of the template and given here to 
 5. Start filling the data starting from serial no. and complete a record at once. repeat this exercise until the entire data is filled into a template.
 6. Verify the data once again by going through the checklist and taking care of each and every checklist point/ activity mentioned in the checklist.
 
-## Checklist <a id="Checklist"></a>
+### Checklist
 
 The checklist is a set of activities to be performed after the data is filled into a template to ensure data type, size, and format of data is as per the expectation. These activities have been divided into 2 groups as given below.
 
-### Common Checklist <a id="Common-Checklist"></a>
+#### Common Checklist
 
 This checklist covers all the activities which are common across the entities.
 
-To see the common checklist refer to the page[ Checklist](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/502203140/Checklist) consisting of all the activities which are to be followed to ensure complete and quality data.
+To see the common checklist refer to the page [Checklist](../untitled-1/checklist.md) consisting of all the activities which are to be followed to ensure complete and quality data.
 
-### Entity Specific Checklist <a id="Entity-Specific-Checklist"></a>
+#### Entity Specific Checklist
 
 This checklist covers the activities which are specific to the entity.
 
@@ -83,9 +85,11 @@ This checklist covers the activities which are specific to the entity.
   </tbody>
 </table>
 
-## Attachments <a id="Attachments"></a>
+### Attachments
 
-1. Configuration Data Template - Grievance Subtype
+{% file src="../../../../.gitbook/assets/grievance-subtype\_template\_v1.xlsx" caption="Configuration Data Template" %}
 
-    2. DIGIT sample configuration data - Grievance Subtype
+{% file src="../../../../.gitbook/assets/grievance-type-and-subtype\_configuraion-data.xlsx" caption="Sample Data" %}
+
+
 
