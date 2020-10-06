@@ -1,7 +1,5 @@
 # Configuring Finance Data
 
-
-
 ## Introduction <a id="Introduction"></a>
 
 Financial Module \(FM\) is a key module that is built on coexistence with DIGIT which enables municipalities to create and manage financial transactions like budget, revenue demand, receipt, advances, deposits, bills, payments, asset creation \(capitalization\), fund transfer and also reconciliations and reporting.
