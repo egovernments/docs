@@ -154,6 +154,7 @@
         * [NOC Departments](install-digit/configuring-master-data-templates/environment-setup/untitled-8/noc-departments.md)
         * [Fee Structure](install-digit/configuring-master-data-templates/environment-setup/untitled-8/fee-structure.md)
         * [eDCR Drawing](install-digit/configuring-master-data-templates/environment-setup/untitled-8/edcr-drawing.md)
+      * [Configuring HRMS Data](install-digit/configuring-master-data-templates/environment-setup/configuring-hrms-data.md)
       * [Configuring Finance Data](install-digit/configuring-master-data-templates/environment-setup/untitled-6/README.md)
         * [Chart Of Accounts](install-digit/configuring-master-data-templates/environment-setup/untitled-6/chart-of-accounts.md)
         * [Funds](install-digit/configuring-master-data-templates/environment-setup/untitled-6/funds.md)
