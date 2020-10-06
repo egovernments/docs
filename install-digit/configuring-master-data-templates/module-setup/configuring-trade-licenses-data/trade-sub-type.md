@@ -1,35 +1,37 @@
 # Trade Sub Type
 
-## Introduction <a id="Introduction"></a>
+### Introduction
 
 Trade Type can be further sub-classified into Trade Sub Type depending on the trade ontology existing in the ULBs or States. Hence, Hotels can be further classified into Dhabas in North India or Udupis in South India.
 
-Once the [Trade Type\(s\)](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/406716590/Trade+Type) are defined, the next task is to -
+Once the [Trade Type\(s\)](trade-type.md) are defined, the next task is to -
 
 * Define Trade Sub Types
 * Map Trade Types to corresponding Trade Sub Types
 
-## Data Table <a id="Data-Table"></a>
+### Data Table
 
 | Sr. No. | Trade Sub Type Code\* | Trade Sub Type Name\* \(In English\) | Trade Sub Type Name\* \(In Local Language\) | Trade Type Code\* |
 | :--- | :--- | :--- | :--- | :--- |
 | 1 | TRADE\_SUBTYPE\_CLINIC | Clinic | क्लिनिक | TRADE\_TYPE\_MEDICAL |
 | 2 | TRADE\_SUBTYPE\_DHABA | Dhaba | ढाबा | TRADE\_TYPE\_HOTEL |
 
-Note: The above table contains sample Trade Sub Type data.
+{% hint style="info" %}
+The table above contains sample Trade Type data.
+{% endhint %}
 
-## Procedure <a id="Procedure"></a>
+### Procedure
 
-### Data Definition <a id="Data-Definition"></a>
+#### Data Definition
 
 | Sr. No. | Column Name | Data Type | Data Size | Is Mandatory? | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | Trade Sub Type Code | Alphanumeric | 64 | Yes | The Code assigned to the Trade Sub Type. Eg: TRADE\_TYPE\_Dhaba is assigned to Hotels |
 | 2 | Trade Sub Type Name \(In English\) | Text | 256  | Yes | Name of the Trade Sub Type in English. Eg: Clinic |
 | 3 | Trade Sub Type Name \(In Local Language\) | Text | 256  | Yes | Name of the Trade Sub Type in Local Language \(as decided\). Eg: Dhaba is described as “ढाबा” in Hindi |
-| 4 | Trade Type Code | Reference | 64 | Yes | The Code assigned to the [Trade Type](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/406716590/Trade+Type). Eg: TRADE\_TYPE\_MEDICAL is assigned to Hospitals |
+| 4 | Trade Type Code | Reference | 64 | Yes | The Code assigned to the [Trade Type](trade-type.md). Eg: TRADE\_TYPE\_MEDICAL is assigned to Hospitals |
 
-### Steps to fill data <a id="Steps-to-fill-data"></a>
+#### Steps to fill data
 
 1. Download the data template attached to this page.
 2. Refer to the ‘Data Definition’ section of this document to learn more about the template sheet, data type, size, and definitions.
@@ -38,19 +40,19 @@ Note: The above table contains sample Trade Sub Type data.
 5. Enter the English name for Trade Sub Type Name \(English\).
 6. Enter the local name for the Trade Sub Type Name \(Local Language\).
 
-## Checklist <a id="Checklist"></a>
+### Checklist
 
 The checklist contains a set of activities to be performed once the data is filled into a template to ensure data entry requirements are met. These activities have been divided into 2 groups as given below.
 
-### Common Checklist <a id="Common-Checklist"></a>
+#### Common Checklist
 
 This checklist covers all the activities which are common across the entities.
 
 | Sr. No. | Checklist Parameter | Example |
 | :--- | :--- | :--- |
-| 1 | Make sure that each and every point in this reference list has been taken care of | [Checklist](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/502203140/Checklist) |
+| 1 | Make sure that each and every point in this reference list has been taken care of | [Checklist](../untitled-1/checklist.md) |
 
-### Entity Specific Checklist <a id="Entity-Specific-Checklist"></a>
+#### Entity Specific Checklist
 
 This checklist covers the activities which are specific to the entity.
 
@@ -81,9 +83,9 @@ This checklist covers the activities which are specific to the entity.
   </tbody>
 </table>
 
-## Attachments <a id="Attachments"></a>
+### Attachments
 
-Configurable Data Template -Trade Sub Type
+{% file src="../../../../.gitbook/assets/configuration-data-template-trade-master-3- \(1\).xlsx" caption="Configuration Data Template" %}
 
- Sample Configurable Data- Trade Sub Type
+{% file src="../../../../.gitbook/assets/sample-configuration-data-template-trade-master-filled-3-.xlsx" caption="Sample Data Template" %}
 
