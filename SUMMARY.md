@@ -156,6 +156,7 @@
         * [eDCR Drawing](install-digit/configuring-master-data-templates/environment-setup/untitled-8/edcr-drawing.md)
       * [Configuring HRMS Data](install-digit/configuring-master-data-templates/environment-setup/configuring-hrms-data/README.md)
         * [User Roles](install-digit/configuring-master-data-templates/environment-setup/configuring-hrms-data/user-roles.md)
+        * [System Users](install-digit/configuring-master-data-templates/environment-setup/configuring-hrms-data/system-users.md)
       * [Configuring Finance Data](install-digit/configuring-master-data-templates/environment-setup/untitled-6/README.md)
         * [Chart Of Accounts](install-digit/configuring-master-data-templates/environment-setup/untitled-6/chart-of-accounts.md)
         * [Funds](install-digit/configuring-master-data-templates/environment-setup/untitled-6/funds.md)
