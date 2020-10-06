@@ -2,7 +2,7 @@
 description: 'New release features, enhancements, and fixes'
 ---
 
-# Release Notes
+# Release Notes DIGIT 2.0
 
 ### Release Summary <a id="Release-Summary"></a>
 
