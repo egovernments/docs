@@ -72,6 +72,7 @@ Refer to the table below to understand the different user roles and the scope of
 
 This section guides you through the details of using the MCS module for the defined roles. Click on the relevant role below to learn more about how to use the MCS system.
 
-1. [Citizen](citizen-user-manual.md)
-2. [Counter Employee \(CE\) and Field Employee \(FE\)](employee-user-manual.md)
+{% page-ref page="citizen-user-manual.md" %}
+
+{% page-ref page="employee-user-manual.md" %}
 
