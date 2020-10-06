@@ -1,12 +1,12 @@
 # Payment Gateway Configuration
 
-## Introduction <a id="Introduction"></a>
+### Introduction
 
 DIGIT has modules which require the user to pay for the service that he/ she is availing for example property tax, trade license etc. . In order to achieve the functionality, we have a common payment gateway developed which acts a liaison between DIGIT apps and external payment gateways \(which depends on the client requirements\).
 
 This module facilitates payments and lookup of transaction status.
 
-## Data Table <a id="Data-Table"></a>
+### Data Table
 
 Following are the details required from the payment gateway vendor in order to configure the payment gateway:
 
@@ -14,11 +14,13 @@ Following are the details required from the payment gateway vendor in order to c
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1. | File Name | File Name | XYZ\#123 | UDDUK | File Name |
 
-Note: Data given in the table is a sample data.
+{% hint style="info" %}
+Data given in the table is a sample data.
+{% endhint %}
 
-## Procedure <a id="Procedure"></a>
+### Procedure
 
-### Data Definition <a id="Data-Definition"></a>
+#### Data Definition
 
 <table>
   <thead>
@@ -82,7 +84,7 @@ Note: Data given in the table is a sample data.
   </tbody>
 </table>
 
-### Steps to fill data <a id="Steps-to-fill-data"></a>
+#### Steps to fill data
 
 The payment gateway is a vendor oriented service that is integrated with different modules in order to facilitate the transactions. Below mentioned are the steps which are followed:
 
@@ -94,32 +96,28 @@ The payment gateway is a vendor oriented service that is integrated with differe
 6. Get the IP address for UAT and Production environments whitelisted from the vendor.
 7. Verify the data once again by going through the checklist and making sure that each and every point mentioned in the checklist is covered.
 
-## Checklist <a id="Checklist"></a>
+### Checklist
 
 The checklist is a set of activities to be performed one the data is filled into a template to ensure data type, size, and format of data is as per the expectation. These activities have been divided into 2 groups as given below.
 
-### Common Checklist <a id="Common-Checklist"></a>
+#### Common Checklist
 
 This checklist covers all the activities which are common across the entities.
 
 | Sr. No. | Checklist Parameter | Example |
 | :--- | :--- | :--- |
-| 1 | Make sure that each and every point in this reference list has been taken care of. | [Checklist](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/502203140/Checklist) |
+| 1 | Make sure that each and every point in this reference list has been taken care of | [Checklist](../../module-setup/untitled-1/checklist.md) |
 
-### Entity Specific Checklist <a id="Entity-Specific-Checklist"></a>
+#### Entity Specific Checklist
 
 This checklist covers the activities which are specific to the entity.
-
-| Sr. No. | Checklist Parameter | Example |
-| :--- | :--- | :--- |
-
 
 | Sr. No. | Checklist Parameter | Example |
 | :--- | :--- | :--- |
 | 1 | While finalizing a payment gateway vendor make sure that the vendor should support transactions into multiple bank accounts based on the key\( which would be tenantid\) | - |
 | 2 | Do get the details for both the environments separately i.e UAT and Production | - |
 
-## Attachments <a id="Attachments"></a>
+### Attachments
 
-1.Configurable Data Template - Payment Gateway Configuration V1
+{% file src="../../../../.gitbook/assets/configurable-data-template-payment-gateway-configuration-v1.xlsx" caption="Configuration Data Template" %}
 
