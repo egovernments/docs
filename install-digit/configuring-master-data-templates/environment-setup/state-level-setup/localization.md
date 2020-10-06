@@ -1,18 +1,20 @@
 # Localization
 
-## Introduction <a id="Introduction"></a>
+### Introduction
 
 Localization is a practice to localize various UI visible data into the local wordings according to the client's requirements. This practice of localization is enforced to various clients so that it becomes easier for the people using the service to understand the common terminology and make the best use of the available system.
 
-The following texts\( but not limited to\) on the web page can be localized:
+The following texts \(but not limited to\) on the web page can be localized:
 
 1. Labels
 2. Messages: Alert messages, success messages, validation messages and other notifications etc.
 3. Help Texts
 
-Note: The module-specific master data would already have been made available in the localized form while collecting the data for the respective module-specific configuration.
+{% hint style="info" %}
+The module-specific master data would already have been made available in the localized form while collecting the data for the respective module-specific configuration.
+{% endhint %}
 
-## Data Table <a id="Data-Table"></a>
+### Data Table
 
 | Sr. No. | Code\* | Module\* | Message \(In English\)\* | Message \(In Local Language\)\* |
 | :--- | :--- | :--- | :--- | :--- |
@@ -20,11 +22,13 @@ Note: The module-specific master data would already have been made available in 
 | 2 | ACTION\_TEST\_TL\_REPORTS | Trade License | Trade License Reports | ट्रेड लाइसेंस रिपोर्ट |
 | 3 | CORE\_COMMON\_CITY | Property Tax | City | शहर |
 
-\*Note- Data mentioned in the data table is a sample data.
+{% hint style="info" %}
+Data mentioned in the data table is a sample data.
+{% endhint %}
 
-## Procedure <a id="Procedure"></a>
+### Procedure
 
-### Data Definition <a id="Data-Definition"></a>
+#### Data Definition
 
 | Sr. No. | Column Name | Data Type | Data Size | Is Mandatory? | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -33,7 +37,7 @@ Note: The module-specific master data would already have been made available in 
 | 3 | Message\(In English\) | Text | 256 | Yes | The English language that is being displayed on the UI |
 | 4 | Message\(In Local Language\) | Text | 256 | Yes | The text in the local language that the client wants to be displayed |
 
-### Steps to fill Data <a id="Steps-to-fill-Data"></a>
+#### Steps to fill Data
 
 1. Download the data template attached to this page.
 2. Get a good understanding of all the headers in the template sheet, their data type, size, and definitions by referring to the ‘Data Definition’ section of this document.
@@ -42,21 +46,21 @@ Note: The module-specific master data would already have been made available in 
 5. Ask the client to fill the localized text in the last column which is the message\(local language\) column.
 6. Verify the data once again by going through the checklist and making sure that each and every point mentioned in the checklist is covered.
 
-## Checklist <a id="Checklist"></a>
+### Checklist
 
 This checklist covers all the activities which are common across the entities.
 
 | Sr. No. | Checklist Parameter | Example |
 | :--- | :--- | :--- |
-| 1 | Make sure that each and every point in this reference list has been taken care of | [Checklist](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/502203140/Checklist) |
+| 1 | Make sure that each and every point in this reference list has been taken care of | [Checklist](../../module-setup/untitled-1/checklist.md) |
 
-### Entity Specific Checklist <a id="Entity-Specific-Checklist"></a>
+#### Entity Specific Checklist
 
 Not Applicable
 
-## Attachments <a id="Attachments"></a>
+### Attachments
 
-1. Configurable Data Template - Localization
+{% file src="../../../../.gitbook/assets/configurable-data-template-localization-v1.xlsx" caption="Configuration Data Template" %}
 
-    2. Configurable Sample Data - Localization
+{% file src="../../../../.gitbook/assets/configurable-sample-data-localization-v1.xlsx" caption="Sample Data Template" %}
 

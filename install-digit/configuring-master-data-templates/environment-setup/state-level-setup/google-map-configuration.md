@@ -1,11 +1,12 @@
 # Google Map Configuration
 
-## Introduction <a id="Introduction"></a>
+### Introduction
 
 At times in the different modules, there is a need to capture the address of the user’s place of residence or where the person is doing a trade, for which the user has to enter his/her full address which creates a task. In order to simplify the process, we can have google map geolocation service in place which would help us get the exact coordinates of the place on the map and help us identify the place.
 
 This service is paid and the client has to purchase the below items:
 
+{% hint style="info" %}
 **Google Map API's**
 
 [https://developers.google.com/maps/documentation/javascript/get-api-key](https://developers.google.com/maps/documentation/javascript/get-api-key)  
@@ -14,8 +15,9 @@ This service is paid and the client has to purchase the below items:
 1. **Maps JavaScript API \(web-client\)** Return the location and accuracy radius of a device, based on Wi-Fi or cell towers. $5
 2. **Geolocation API** Return the location and accuracy radius of a device, based on Wi-Fi or cell towers. $5
 3. **Places API for Web \(web-server\)** Turn a phone number, address, or name into a place, and provide its name and address. $17
+{% endhint %}
 
-## Data Table <a id="Data-Table"></a>
+### Data Table
 
 <table>
   <thead>
@@ -39,11 +41,11 @@ This service is paid and the client has to purchase the below items:
   </tbody>
 </table>
 
-Note: The data provided is sample data
+Note: 
 
-## Procedure <a id="Procedure"></a>
+### Procedure
 
-### Data Definition <a id="Data-Definition"></a>
+#### Data Definition
 
 <table>
   <thead>
@@ -70,11 +72,7 @@ Note: The data provided is sample data
       <td style="text-align:left">The URL of the API that is being purchased</td>
     </tr>
     <tr>
-      <td style="text-align:left">
-        <ol>
-          <li></li>
-        </ol>
-      </td>
+      <td style="text-align:left">2.</td>
       <td style="text-align:left">API Key</td>
       <td style="text-align:left">Alphanumeric</td>
       <td style="text-align:left">64</td>
@@ -85,7 +83,11 @@ Note: The data provided is sample data
   </tbody>
 </table>
 
-### Steps to fill the data <a id="Steps-to-fill-the-data"></a>
+{% hint style="info" %}
+The data provided is sample data
+{% endhint %}
+
+#### Steps to fill the data
 
 1. Download the data template attached to this page.
 2. Get a good understanding of all the headers in the template sheet, their data type, size, and definitions by referring to the ‘Data Definition’ section of this document.
@@ -94,24 +96,25 @@ Note: The data provided is sample data
 5. Get the details for the API URL and key from the client.
 6. Verify the data once again by going through the checklist and making sure that each and every point mentioned in the checklist is covered.
 
-## Checklist <a id="Checklist"></a>
+### Checklist
 
 The checklist is a set of activities to be performed one the data is filled into a template to ensure data type, size, and format of data is as per the expectation. These activities have been divided into 2 groups as given below.
 
-### Common Checklist <a id="Common-Checklist"></a>
+#### Common Checklist
 
 This checklist covers all the activities which are common across the entities.
 
 | Sr. No. | Checklist Parameter | Example |
 | :--- | :--- | :--- |
-| 1 | Make sure that each and every point in this reference list has been taken care of | [Checklist](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/502203140/Checklist) |
+| 1 | Make sure that each and every point in this reference list has been taken care of | [Checklist](../../module-setup/untitled-1/checklist.md) |
 
-### Entity Specific Checklist <a id="Entity-Specific-Checklist"></a>
+#### Entity Specific Checklist
 
 Not Applicable
 
-## Attachments <a id="Attachments"></a>
+### Attachments
 
-1. Configurable Data Template- Google Map Account Configuration.
-2. Configurable Sample Data - Google Map Account Configuration
+{% file src="../../../../.gitbook/assets/configurable-data-template-google-map-account-configuration-v1.xlsx" caption="Configuration Data Template" %}
+
+{% file src="../../../../.gitbook/assets/configurable-sample-data-google-map-account-configuration-v1.xlsx" caption="Sample Data Template" %}
 

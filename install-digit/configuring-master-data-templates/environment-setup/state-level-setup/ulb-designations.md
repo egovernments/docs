@@ -1,10 +1,10 @@
 # ULB Designations
 
-## Introduction <a id="Introduction"></a>
+### Introduction
 
 A designation is an act of pointing someone out with a name, a title or an assignment. For example, someone being named president of an organization. This document is to help to gather various designations data which are generally used in ULBs.
 
-## Data Table <a id="Data-Table"></a>
+### Data Table
 
 | Sr. No. | Designation Code\* | Designation Name\* \(In English \) | Designation Name\* \(In Local Language\) |
 | :--- | :--- | :--- | :--- |
@@ -12,11 +12,13 @@ A designation is an act of pointing someone out with a name, a title or an assig
 | 2  |  AO |  Accounts Officer |  लेखा अधिकारी |
 | 3  |  AC |  Additional Commissioner |  अपर आयुक्त |
 
-Note: Data given in the table is a sample data.
+{% hint style="info" %}
+Data given in the table is a sample data.
+{% endhint %}
 
-## Procedure <a id="Procedure"></a>
+### Procedure
 
-### Data Definition <a id="Data-Definition"></a>
+#### Data Definition
 
 | Sr. No. | Column Name  | Data Type | Data Size | Is Mandatory? | Definition/ Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -24,7 +26,7 @@ Note: Data given in the table is a sample data.
 | 2 | Designation Name \(In English\) | Text | 256 | Yes | Designation name in English |
 | 3 | Designation Name \(In Local Language\) | Text | 256 | Yes | Designation Name in the local language. e.g. Hindi, Telugu etc. whichever is applicable |
 
-### Steps to fill data <a id="Steps-to-fill-data"></a>
+#### Steps to fill data
 
 1. Download the data template attached to this page.
 2. Have it open and go through all the headers and understand the meaning given in this document under section 'Data Definition'.
@@ -34,23 +36,23 @@ Note: Data given in the table is a sample data.
 6. Start filling the data starting from serial no. and complete a record at once. repeat this exercise until the entire data is filled into a template.
 7. Verify the data once again by going through the checklist and taking care of each and every point mentioned in the checklist.
 
-## Checklist <a id="Checklist"></a>
+### Checklist
 
 The checklist is a set of activities to be performed after the data is filled into a template to ensure data type, size, and format of data is as per the expectation. These activities have been divided into 2 groups as given below.
 
-### Common Checklist <a id="Common-Checklist"></a>
+#### Common Checklist
 
 This checklist covers all the activities which are common across the entities.
 
-To see the common checklist refer to the page[ Checklist](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/502203140/Checklist) consisting of all the activities which are to be followed to ensure complete and quality data.
+To see the common checklist refer to the [Checklist](../../module-setup/untitled-1/checklist.md) page consisting of all the activities which are to be followed to ensure complete and quality data.
 
-### Entity Specific Checklist <a id="Entity-Specific-Checklist"></a>
+#### Entity Specific Checklist
 
 This checklist covers the activities which are specific to the entity. There is no entity-specific checklist is applicable for this entity.
 
-## Attachments <a id="Attachments"></a>
+### Attachments
 
-1. Configuration data template - ULB’s Designations
+{% file src="../../../../.gitbook/assets/configuration-data-template-ulbs-designations.xlsx" caption="Configuration Data Template" %}
 
-    2. Sample configuration data - ULB’s Designations
+{% file src="../../../../.gitbook/assets/sample-configuration-data-ulbs-designations.xlsx" caption="Sample Data Template" %}
 

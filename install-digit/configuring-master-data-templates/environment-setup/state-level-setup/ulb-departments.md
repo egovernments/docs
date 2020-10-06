@@ -1,10 +1,10 @@
 # ULB Departments
 
-## Introduction <a id="Introduction"></a>
+### Introduction
 
 The departments are defined as different sections within the ULB based on which the functions performed by ULBs and employees in ULB are grouped. The budgets details of the ULBs are also defined by the department. It is suggested that the ULB across the state adopt the same department naming terminology. This document will help you in filling the department detail in the template provided.
 
-## Data Table <a id="Data-Table"></a>
+### Data Table
 
 | Sr. No. | Department Code\* | Department name \(In English\)\* | Department Name \(In Local Language\)\* |
 | :--- | :--- | :--- | :--- |
@@ -13,11 +13,13 @@ The departments are defined as different sections within the ULB based on which 
 | 3 | REV |  Revenue | राजस्व |
 | 4 | TP |  Town Planning | नगर नियोजन |
 
-Note: Data given in the table is a sample data.
+{% hint style="info" %}
+Data given in the table is a sample data.
+{% endhint %}
 
-## Procedure <a id="Procedure"></a>
+### Procedure
 
-### Data Definition <a id="Data-Definition"></a>
+#### Data Definition
 
 | Sr. No. | Column Name | Data Type | Data Size | Is Mandatory? | Definition/ Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -25,7 +27,7 @@ Note: Data given in the table is a sample data.
 | 2 | Department Name \( In English\)\* | Text | 256 | Yes | The name of the department in the ULB in English |
 | 3 | Department Name \(In Local Language\)\* | Text | 256 | Yes | The name of the department working in the ULB in local language e.g. Telugu, Hindi etc. whichever is applicable |
 
-### Steps to Fill Data <a id="Steps-to-Fill-Data"></a>
+#### Steps to Fill Data
 
 1. Download the data template attached to this page.
 2. Have it open and go through all the headers and understand the meaning given in this document under section 'Data Definition'.
@@ -35,23 +37,23 @@ Note: Data given in the table is a sample data.
 6. Start filling the data starting from serial no. and complete a record at once. repeat this exercise until the entire data is filled into a template.
 7. Verify the data once again by going through the checklist and taking care of each and every point mentioned in the checklist.
 
-## Checklist <a id="Checklist"></a>
+### Checklist
 
 The checklist is a set of activities to be performed after the data is filled into a template to ensure data type, size, and format of data is as per the expectation. These activities have been divided into 2 groups as given below.
 
-### Common Checklist <a id="Common-Checklist"></a>
+#### Common Checklist
 
 This checklist covers all the activities which are common across the entities.
 
-To see the common checklist refer to the page[ Checklist](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/502203140/Checklist) consisting of all the activities which are to be followed to ensure complete and quality data.
+To see the common checklist refer to the [Checklist](../../module-setup/untitled-1/checklist.md) page consisting of all the activities which are to be followed to ensure complete and quality data.
 
-### Entity Specific Checklist <a id="Entity-Specific-Checklist"></a>
+#### Entity Specific Checklist
 
 This checklist covers the activities which are specific to the entity. There is no entity-specific checklist is applicable for this entity.
 
-## Attachments  <a id="Attachments[hardBreak][hardBreak]"></a>
+### Attachments
 
-Configuration data template - ULB’s DepartmentsConfiguration data template
+{% file src="../../../../.gitbook/assets/configuration-data-template-ulbs-departments.xlsx" caption="Configuration Data Template" %}
 
-Sample configuration data - ULB’s Departments
+{% file src="../../../../.gitbook/assets/sample-configuration-data-ulbs-departments.xlsx" caption="Sample Data Template" %}
 
