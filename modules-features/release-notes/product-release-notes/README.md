@@ -1,5 +1,5 @@
 ---
-description: DIGIT 2.0 Module specific Changes details
+description: DIGIT 2.0 Module specific release details
 ---
 
 # Product Release Notes
