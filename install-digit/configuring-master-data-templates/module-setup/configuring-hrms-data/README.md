@@ -1,7 +1,5 @@
 # Configuring HRMS Data
 
-
-
 ## Introduction <a id="Introduction"></a>
 
 Human Resource Management System \(HRMS\) is a key module, a combination of systems and processes that connect human resource management and information technology through HR software. The HRMS module can be used for candidate recruiting, payroll management, leave approval, succession planning, attendance tracking, career progression, performance reviews, and the overall maintenance of employee information within an organization.

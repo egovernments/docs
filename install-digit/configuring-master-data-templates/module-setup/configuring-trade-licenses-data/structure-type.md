@@ -51,7 +51,7 @@ The separate entity-specific checklist is not needed for this entity data templa
 
 ### Attachments
 
-{% file src="../../../../.gitbook/assets/configuration-data-template-structure-type\_v1-1-.xlsx" caption="Configuration Data Template" %}
+{% file src="../../../../.gitbook/assets/configuration-data-template-structure-type\_v1-1- \(1\).xlsx" caption="Configuration Data Template" %}
 
 {% file src="../../../../.gitbook/assets/sample-configuraion-data-structure-type-and-subtype-1-.xlsx" caption="Sample Data" %}
 

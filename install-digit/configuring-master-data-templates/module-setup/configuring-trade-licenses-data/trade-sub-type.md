@@ -17,7 +17,7 @@ Once the [Trade Type\(s\)](trade-type.md) are defined, the next task is to -
 | 2 | TRADE\_SUBTYPE\_DHABA | Dhaba | ढाबा | TRADE\_TYPE\_HOTEL |
 
 {% hint style="info" %}
-The table above contains sample Trade Type data.
+The table above contains sample data.
 {% endhint %}
 
 ### Procedure
