@@ -1,20 +1,22 @@
 # Interest Rates
 
-## Introduction <a id="Introduction"></a>
+### Introduction
 
 This is the amount which is calculated on percentage defined and collected from citizen if failed to pay the property tax demand on time. It is also called the late payment penalty.
 
-## Data Table <a id="Data-Table"></a>
+### Data Table
 
 | Rate | Minimum Amount | Flat Amount | Maximum Amount | From FY\* | Start Date\* |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 18% | 200 | 120 | 20000 | 2014-15 | 01/01/2019 |
 
-Note: The data provided is sample data.
+{% hint style="info" %}
+ Data given in the table is a sample data.
+{% endhint %}
 
-## Procedure <a id="Procedure"></a>
+### Procedure
 
-### Data Definition <a id="Data-Definition"></a>
+#### Data Definition
 
 | Sr. No. | Column Name | Data Type | Data Size | Is Mandatory? | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -25,7 +27,7 @@ Note: The data provided is sample data.
 | 5 | From FY | Decimal | \(12,2\) | Yes | The year from which the interest rate begins. |
 | 6 | Start Date | Decimal | \(12,2\) | Yes | The date from which this penalty has to start. |
 
-### Steps to fill Data <a id="Steps-to-fill-Data"></a>
+#### Steps to fill Data
 
 1. Download the data template attached to this page.
 2. Get a good understanding of all the headers in the template sheet, their data type, size, and definitions by referring to the ‘Data Definition’ section of this document.
@@ -35,27 +37,25 @@ Note: The data provided is sample data.
 6. Start filling the data from the interest rate followed by the rest of the details.
 7. Verify the data once again by going through the checklist and making sure that each and every point mentioned in the checklist is covered.
 
-## Checklist <a id="Checklist"></a>
+### Checklist
 
 The checklist is a set of activities to be performed one the data is filled into a template to ensure data type, size, and format of data is as per the expectation. These activities have been divided into 2 groups as given below.
 
-### Common Checklist <a id="Common-Checklist"></a>
+#### Common Checklist
 
 This checklist covers all the activities which are common across the entities.
 
 | Sr. No. | Checklist Parameter | Example |
 | :--- | :--- | :--- |
-| 1 | Make sure that each and every point in this reference list has been taken care of. | [Checklist](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/502203140/Checklist) |
+| 1 | Make sure that each and every point in this reference list has been taken care of. | [Checklist](../untitled-1/checklist.md) |
 
-### Entity Specific Checklist <a id="Entity-Specific-Checklist"></a>
+#### Entity Specific Checklist
 
 Not Applicable
 
-## Attachments <a id="Attachments"></a>
+### Attachments
 
-1. Configurable Data Template - Interest Rates
+{% file src="../../../../.gitbook/assets/configurable-data-template-interest-rates-v1.xlsx" caption="Configuration Data Template" %}
 
-Configurable Data Template... V1.xlsx9 KB
-
- 2. Configurable Sample Data - Interest RatesConfigurable Sample Data... V1.xlsx9 KB
+{% file src="../../../../.gitbook/assets/configurable-sample-data-interest-rates-v1.xlsx" caption="Sample Data" %}
 

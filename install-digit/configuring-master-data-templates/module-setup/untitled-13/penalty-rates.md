@@ -1,21 +1,21 @@
 # Penalty Rates
 
-## Introduction <a id="Introduction"></a>
+### Introduction
 
 The penalty is defined as an amount which is charged to the citizen in violation of any rule. There would be multiple penalties defined associated with different rules and acts. Penalty rate decides on how and what amount to be calculated for a penalty.
 
 Within DIGIT, the calculation of the penalty amount is configurable at both the State & ULB level.
 
-## Data Table <a id="Data-Table"></a>
+### Data Table
 
 | Sr. No. | Penalty Head | \*Penalty Rate \(In % \) | Minimum Penalty Amount | \*Flat Amount | \*From Financial Year | \*Start Date |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | Late assessment | 12.5 | 1000 | 500 | 2019-20 | 01-04-2019 |
 | 2 | Unauthorized Construction | 100 | 5000 | 5000 | 2019-20 | 01-04-2019 |
 
-## Procedure <a id="Procedure"></a>
+### Procedure
 
-### Data Definition <a id="Data-Definition"></a>
+#### Data Definition
 
 | Sr. No. | Column Name | Data Type | Data Size | Is Mandatory? | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -25,7 +25,7 @@ Within DIGIT, the calculation of the penalty amount is configurable at both the 
 | 4 | From Financial Year | Decimal | \(12,2\) | Yes | The year from which the penalty rate begins |
 | 5 | Penalty Start Date | Decimal | \(12,2\) | Yes | The Date from which the penalty amount will be applicable within a financial year |
 
-### Steps to fill Data <a id="Steps-to-fill-Data"></a>
+#### Steps to fill Data
 
 1. Download the data template attached to this page.
 2. Get a good understanding of all the headers in the template sheet, their data type, size, and definitions by referring to the ‘Data Definition’ section of this document.
@@ -33,31 +33,25 @@ Within DIGIT, the calculation of the penalty amount is configurable at both the 
 4. Identify all the different types of penalty amounts \(by percentage/ by a flat amount\) etc and fill them in the provided columns respectively.
 5. Fill in the details of the financial year/ date from which the type of defined penalties will be applicable.
 
-## Checklist <a id="Checklist"></a>
+### Checklist
 
 The checklist is a set of activities to be performed one the data is filled into a template to ensure data type, size, and format of data is as per the expectation. These activities have been divided into 2 groups as given below.
 
-### Common Checklist <a id="Common-Checklist"></a>
+#### Common Checklist
 
 This checklist covers all the activities which are common across the entities.
 
 | Sr. No. | Checklist Parameter | Example |
 | :--- | :--- | :--- |
-| 1 | Make sure that each and every point in this reference list has been taken care of | [Checklist](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/502203140/Checklist) |
+| 1 | Make sure that each and every point in this reference list has been taken care of | [Checklist](../untitled-1/checklist.md) |
 
-### Entity Specific Checklist <a id="Entity-Specific-Checklist"></a>
+#### Entity Specific Checklist
 
 Not Applicable
 
-## Attachments <a id="Attachments"></a>
+### Attachments
 
-1. Configurable Data Template - Penalty Rates
+{% file src="../../../../.gitbook/assets/configuration-data-template-pt-master-4-.xlsx" caption="Configuration Data Template" %}
 
-\(Refer to “Penalty Configuration” tab in the attached file\)
-
- Configuration Data T...ter.xlsx10 KB
-
-1. Configurable Sample Data - Penalty Rates
-
-Configuration Sample Data-PT Master.xlsx15 KB
+{% file src="../../../../.gitbook/assets/configuration-sample-data-pt-master-4-.xlsx" caption="Sample Data" %}
 
