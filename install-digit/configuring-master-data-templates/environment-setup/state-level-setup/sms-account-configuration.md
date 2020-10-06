@@ -2,9 +2,9 @@
 
 ### Introduction
 
-The SMS service is a way of communicating necessary information/updates to the users on there various transactions on DIGIT applications.
+The SMS service is a way of communicating necessary information/updates to the users on their various transactions on DIGIT applications.
 
-In order to update the users, there is a certain notification which has been configured at various steps in the application process which can be changed/ configured based upon the requirements.
+In order to update the users, there are certain notification parameters that are system configured for various steps in the application process. These configurations can be changed/reconfigured based upon the ULB requirements.
 
 ### Data Table
 
