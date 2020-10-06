@@ -2,18 +2,18 @@
 
 Key configurations at the state level include -
 
-* Tenants Information
-* SMS Account Configuration
-* Email Account Configuration
-* Google Play Store Account
-* Payment Gateway Configuration
-* POS Configuration
-* Domain Name Configuration
-* SSL Configuration
-* ULB Departments
-* ULB Designations
-* Localization
-* Google Map Configuration
+* [Tenants Information](tenants-information.md)
+* [SMS Account Configuration](sms-account-configuration.md)
+* [Email Account Configuration](email-account-configuration.md)
+* [Google Play Store Account](google-play-store-account.md)
+* [Payment Gateway Configuration](payment-gateway-configuration.md)
+* [POS Configuration](pos-integration-configuration.md)
+* [Domain Name Configuration](domain-name-configuration.md)
+* [SSL Configuration](ssl-configuration.md)
+* [ULB Departments](ulb-departments.md)
+* [ULB Designations](ulb-designations.md)
+* [Localization](localization.md)
+* [Google Map Configuration](google-map-configuration.md)
 
 
 
