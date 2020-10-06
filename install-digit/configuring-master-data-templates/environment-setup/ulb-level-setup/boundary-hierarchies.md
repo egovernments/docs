@@ -1,6 +1,6 @@
 # Boundary Hierarchies
 
-## Introduction <a id="Introduction"></a>
+### Introduction
 
 A ULB is divided into certain categories of boundaries by ULB administrative authorities in order to carry out ULB’s functions better. A ULB/City could be divided by a different set of delimitation of boundaries based on functions as given below.
 
@@ -10,7 +10,7 @@ A ULB is divided into certain categories of boundaries by ULB administrative aut
 
 All these authorities have designated certain levels of boundary classification for a certain ULB.
 
-## Data Table <a id="Data-Table"></a>
+### Data Table
 
 The below mention table is used to collect data for the types of hierarchy being followed:
 
@@ -58,11 +58,13 @@ The below mention table is used to collect data for the types of hierarchy being
   </tbody>
 </table>
 
-Note: The above-mentioned data for the boundary hierarchy is sample data.
+{% hint style="info" %}
+The above-mentioned data for the boundary hierarchy is sample data.
+{% endhint %}
 
-## Procedure <a id="Procedure"></a>
+### Procedure
 
-### Data Definition <a id="Data-Definition"></a>
+#### Data Definition
 
 | Sr. No. | Column Name | Data Type | Data Size | Is Mandatory? | Definition/ Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -70,7 +72,7 @@ Note: The above-mentioned data for the boundary hierarchy is sample data.
 | 2 | Boundary Hierarchy Type | Alphanumeric | 256 | Yes | The meaningful name to define one group of boundaries defined to perform one function |
 | 3 | Description | Alphanumeric | 256 | Yes | A brief description of the boundary hierarchy |
 
-### Steps to fill data <a id="Steps-to-fill-data"></a>
+#### Steps to fill data
 
 1. Download the data template attached to this page.
 2. Get a good understanding of all the headers in the template sheet, their data type, size, and definitions by referring to the ‘Data Definition’ section of this document.
@@ -82,19 +84,19 @@ Note: The above-mentioned data for the boundary hierarchy is sample data.
 8. A brief description of the boundary hierarchy type would be helpful.
 9. Verify the data once again by going through the checklist and taking care of each and every point mentioned in the checklist.
 
-## Checklist <a id="Checklist"></a>
+### Checklist
 
 The checklist is a set of activities to be performed one the data is filled into a template to ensure data type, size, and format of data is as per the expectation. These activities have been divided into 2 groups as given below.
 
-### Common Checklist <a id="Common-Checklist"></a>
+#### Common Checklist
 
 This checklist covers all the activities which are common across the entities.
 
 | Sr. No. | Checklist Parameter | Example |
 | :--- | :--- | :--- |
-| 1 | Make sure that each and every point in this reference list has been taken care of. | [Checklist](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/502203140/Checklist) |
+| 1 | Make sure that each and every point in this reference list has been taken care of | [Checklist](../../module-setup/untitled-1/checklist.md) |
 
-### Entity Specific Checklist <a id="Entity-Specific-Checklist"></a>
+#### Entity Specific Checklist
 
 This checklist covers the activities which are specific to the entity.
 
@@ -103,9 +105,9 @@ This checklist covers the activities which are specific to the entity.
 | 1 | Make sure that the hierarchies types should be uniform across all the ULB’s /cities in the state | - |
 | 2 | Only 3 types of boundary hierarchies are allowed | - |
 
-## Attachments <a id="Attachments"></a>
+### Attachments
 
-1. Configuration Data Template - Boundary Hierarchies
+{% file src="../../../../.gitbook/assets/configurable-data-template-boundary-hierachies-v1.xlsx" caption="Configuration Data Template" %}
 
-    2. Configuration Sample Data - Boundary Hierarchies
+{% file src="../../../../.gitbook/assets/confugurable-sample-data-boundary-hierarchy-v1.xlsx" caption="Sample Data Template" %}
 
