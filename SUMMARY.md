@@ -130,7 +130,7 @@
         * [Escalation Matrix](install-digit/configuring-master-data-templates/environment-setup/untitled-12/escalation-matrix.md)
       * [Configuring Fire NOC Data](install-digit/configuring-master-data-templates/environment-setup/untitled-11/README.md)
         * [Building Usage Type](install-digit/configuring-master-data-templates/environment-setup/untitled-11/building-usage-type.md)
-        * [Building Usage Sub Type](install-digit/configuring-master-data-templates/environment-setup/untitled-11/building-usage-sub-type.md)
+        * [Building Sub Usage Type](install-digit/configuring-master-data-templates/environment-setup/untitled-11/building-usage-sub-type.md)
         * [Fire Station Master](install-digit/configuring-master-data-templates/environment-setup/untitled-11/fire-station-master.md)
         * [Areas Served Master](install-digit/configuring-master-data-templates/environment-setup/untitled-11/areas-served-master.md)
         * [Fire Station Mapping](install-digit/configuring-master-data-templates/environment-setup/untitled-11/fire-station-mapping.md)
