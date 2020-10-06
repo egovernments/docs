@@ -25,7 +25,7 @@ The main features of the product are as given below.
 1. [Property Type](property-type.md)
 2. [Property Sub Type](property-sub-type.md)
 3. [Property Usage Major](usage-category-major.md)
-4. Property Usage Minor
+4. [Property Usage Minor](usage-category-minor.md)
 5. [Property Usage Sub Minor](usage-category-sub-minor.md)
 6. [Property Usage Detail](usage-category-detail.md)
 7. [Construction Type](construction-type.md)

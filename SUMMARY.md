@@ -111,6 +111,7 @@
         * [Property Type](install-digit/configuring-master-data-templates/module-setup/untitled-13/property-type.md)
         * [Property Sub Type](install-digit/configuring-master-data-templates/module-setup/untitled-13/property-sub-type.md)
         * [Usage Category Major](install-digit/configuring-master-data-templates/module-setup/untitled-13/usage-category-major.md)
+        * [Usage Category Minor](install-digit/configuring-master-data-templates/module-setup/untitled-13/usage-category-minor.md)
         * [Usage Category Sub Minor](install-digit/configuring-master-data-templates/module-setup/untitled-13/usage-category-sub-minor.md)
         * [Usage Category Detail](install-digit/configuring-master-data-templates/module-setup/untitled-13/usage-category-detail.md)
         * [Ownership Category](install-digit/configuring-master-data-templates/module-setup/untitled-13/ownership-category.md)

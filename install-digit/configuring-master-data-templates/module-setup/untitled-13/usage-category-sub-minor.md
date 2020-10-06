@@ -1,10 +1,10 @@
 # Usage Category Sub Minor
 
-## Introduction <a id="Introduction"></a>
+### Introduction
 
 This is a further sub-classification of the usage types into sub minor category. Here the properties can be further classified such as commercial food joints etc.
 
-## Data Table <a id="Data-Table"></a>
+### Data Table
 
 Below mentioned is the data table from the template used to collect the data:
 
@@ -14,18 +14,18 @@ Below mentioned is the data table from the template used to collect the data:
 | 2 | RETAIL | COMMERCIAL | Retail | खुदरा | 3 | 300 | 200 | 01-04-2020 |
 | 3 | HOTELS | COMMERCIAL | Hotels | होटल | 5.1 | 200 | 300 | 01-04-2020 |
 
-\*Mandatory Columns
+{% hint style="info" %}
+ Data given in the table is a sample data.
+{% endhint %}
 
-Note: Data given in the table is a sample data.
+### Procedure
 
-## Procedure <a id="Procedure"></a>
-
-### Data Definition <a id="Data-Definition"></a>
+#### Data Definition
 
 | Sr. No. | Column Name | Data Type | Data Size | Is Mandatory? | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | Usage Category Sub Minor Code | Alphanumeric | 64 | Yes | This is the unique code given to every category |
-| 2 | Usage Category Minor Code | Alphanumeric | 64 | Yes | This is the relationship between sub minor and [minor usage categories](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/408946253/Usage+Category+Minor). |
+| 2 | Usage Category Minor Code | Alphanumeric | 64 | Yes | This is the relationship between sub minor and [minor usage categories.](usage-category-minor.md) |
 | 3 | Usage Category Sub Minor \(In English\)  | Text | 256 | Yes | This is the description of the sub minor category in English |
 | 4 | Usage Category Sub Minor \(In Local Language\) | Text | 256 | Yes | This is the description of the sub minor category in Local Language |
 | 5 | Exemption Rate \(in % \)  | Decimal |  \(5,2\) | No | This column defines the % to which the property could be exempted |
@@ -33,7 +33,7 @@ Note: Data given in the table is a sample data.
 | 7 | Flat Exemption Amount  | Decimal |  \(5,2\) | No | This is the flat amount by which the property owner can be exempted |
 | 8 | Effective From Date | Date | NA | Yes | This the date from which the exemption is applicable. |
 
-### Steps to Fill Data <a id="Steps-to-Fill-Data"></a>
+#### Steps to Fill Data
 
 1. Download the data template attached to this page.
 2. Get a good understanding of all the headers in the template sheet, their data type, size, and definitions by referring to the ‘Data Definition’ section of this document.
@@ -46,25 +46,25 @@ Note: Data given in the table is a sample data.
 9. Most importantly do get a mapping of these sub minor codes to their parent which is minor usage type.
 10. Verify the data once again by going through the checklist and making sure that each and every point mentioned in the checklist is covered.
 
-## Checklist <a id="Checklist"></a>
+### Checklist
 
 The checklist is a set of activities to be performed on the data is filled into a template to ensure data type, size, and format of data is as per the expectation. These activities have been divided into 2 groups as given below.
 
-### Common Checklist <a id="Common-Checklist"></a>
+#### Common Checklist
 
 This checklist covers all the activities which are common across the entities.
 
 | Sr. No. | Checklist Parameter | Example |
 | :--- | :--- | :--- |
-| 1 | Make sure that each and every point in this reference list has been taken care of | [Checklist](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/502203140/Checklist) |
+| 1 | Make sure that each and every point in this reference list has been taken care of | [Checklist](../untitled-1/checklist.md) |
 
-### Entity Specific Checklist <a id="Entity-Specific-Checklist"></a>
+#### Entity Specific Checklist
 
 Not Applicable
 
-## Attachments <a id="Attachments"></a>
+### Attachments
 
-1.Configurable Template for Usage Category Sub Minor
+{% file src="../../../../.gitbook/assets/configurable-data-template-pt-usagetypesubminor.xlsx" caption="Configuration Data Template" %}
 
- 2. Configurable Sample Data for Usage Category Sub Minor
+{% file src="../../../../.gitbook/assets/sample-configurable-data-pt-usagetype-minor.xlsx" caption="Sample Data" %}
 
