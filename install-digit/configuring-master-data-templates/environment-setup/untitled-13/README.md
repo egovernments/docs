@@ -1,5 +1,7 @@
 # Configuring Property Tax Data
 
+
+
 ## Introduction <a id="Introduction"></a>
 
 DIGIT Property Tax facilitate ULBs and citizens to automate the assessment/ re-assessment of property tax for a property and its demand billing and collection. It also enables the ULBs as well as citizens to process the transfer of title of a property in case of a sale, gift or will and captures the history of ownership.

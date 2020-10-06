@@ -52,6 +52,10 @@ This checklist covers all the activities which are common across the entities.
 
 This checklist covers the activities which are specific to the entity.
 
+| Sr. No. | Checklist Parameter | Example |
+| :--- | :--- | :--- |
+
+
 <table>
   <thead>
     <tr>
@@ -75,7 +79,7 @@ This checklist covers the activities which are specific to the entity.
 
 ## Attachments <a id="Attachments"></a>
 
-Configuration data template - Service CategoryConfiguration Data Templat...ory.xlsx10 KB
+Configuration data template - Service Category
 
-Sample configuration data - Service CategorySample Confugration Data...ory.xlsx10 KB
+Sample configuration data - Service Category
 
