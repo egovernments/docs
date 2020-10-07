@@ -1,12 +1,12 @@
 # Contractors
 
-## Introduction <a id="Introduction"></a>
+### Introduction
 
 A contractor is a person or firm who undertakes a contract to provide materials or labour to perform a service or do a job.
 
-Contractors are basically who takes up the works which is awarded by the State or a ULB for a set period. For Example Construction of New Roads/Bridges, Maintenance of Parks etc.
+Contractors are basically who takes up the works which are awarded by the State or a ULB for a set period. For Example Construction of New Roads/Bridges, Maintenance of Parks etc.
 
-## Data Table <a id="Data-Table"></a>
+### Data Table
 
 <table>
   <thead>
@@ -69,30 +69,32 @@ Contractors are basically who takes up the works which is awarded by the State o
   </tbody>
 </table>
 
-Note: Data given in the table is a sample data.
+{% hint style="info" %}
+Data given in the table is a sample data.
+{% endhint %}
 
-## Procedure <a id="Procedure"></a>
+### Procedure
 
-### Data Definition <a id="Data-Definition"></a>
+#### Data Definition
 
 | Sr No | Column Name | Data Type | Data Size | Is Mandatory? | Definition/ Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | Name | Text | 50 | Yes | The register Name of the Company/Firm or an Individual Person Name, this will help the user to easily identify the contract assigned and also while generating the bills. |
-| 2 | Contractor Code | Alphanumeric | 50 | Yes | A unique code that identifies the contractor of the works. |
-| 3 | Permanent Address | Alphanumeric | 250 | Yes | Company/Firm permanent address or an Individual Person permanent address, this will help the user to send the hard copy document to the contractor. Example, A signed hard copy of the contract. |
+| 1 | Name | Text | 50 | Yes | The register Name of the Company/Firm or an Individual Person Name, this will help the user to easily identify the contract assigned and also while generating the bills |
+| 2 | Contractor Code | Alphanumeric | 50 | Yes | A unique code that identifies the contractor of the works |
+| 3 | Permanent Address | Alphanumeric | 250 | Yes | Company/Firm permanent address or an Individual Person permanent address, this will help the user to send the hard copy document to the contractor. Example, A signed hard copy of the contract |
 | 4 | Correspondence Address | Alphanumeric | 250 | No | Alternative address of a Company/Firm or an Individual Person Alternative address |
-| 5 | Registration No | Alphanumeric | 21 | Yes | Company/Firm registered number, it’s a unique number assigned by the Registrar of Companies. |
-| 6 | Contact Person | Text | 100 | Yes | Details of a contact person of an individual or a Company/Firm. This will help the user to contact a person in case of any information required. |
-| 7 | Email ID | Alphanumeric | 250 | No | Company/Firm email Id or an individual person email Id, with the email Id the contractor, can receive the notification related to works and payments. |
-| 8 | Mobile No | Alphanumeric | 12 | Yes | Company/Firm Mobile number or an individual person mobile number, the contractor can receive SMS alerts after the bills are processed. |
-| 9 | PAN No | Alphanumeric | 10 | No | Company/Firm registered PAN number or an individual person PAN number. |
-| 10 | GST/TIN No | Alphanumeric | 15 | Yes | GST/TIN No: Company/Firm registered GST/TIN number is a Tax Identification Number. |
-| 11 | GST registered State/UT | Alphanumeric | 15 | Yes | The company/Firm has multiple businesses with the state or union territory a separate registered GST number is a Tax Identification Number. |
-| 12 | Bank Name | Text | 50 | No | Company/Firm Bank Name in which they hold the account or an individual person Bank account name which he/she holds the account. |
-| 13 | Bank Account No | Alphanumeric | 25 | No | Company/Firm Bank Account number or an individual person Bank Account number. With the bank account number, the bill payment can be made to the correct account, also while doing the RTGS fund transfer the amount can be transferred to the respective firms or individual account. |
-| 14 | IFSC Code | Alphanumeric | 11 | No | The Bank IFSC code pertaining to the bank account of the Company/Firm or an Individual person holding a bank account, the IFSC code will be a validation check for the bank account provided by the contractor and useful for the user while doing a bill payment via RTGS. |
+| 5 | Registration No | Alphanumeric | 21 | Yes | Company/Firm registered number, it’s a unique number assigned by the Registrar of Companies |
+| 6 | Contact Person | Text | 100 | Yes | Details of a contact person of an individual or a Company/Firm. This will help the user to contact a person in case of any information required |
+| 7 | Email ID | Alphanumeric | 250 | No | Company/Firm email Id or an individual person email Id, with the email Id the contractor, can receive the notification related to works and payments |
+| 8 | Mobile No | Alphanumeric | 12 | Yes | Company/Firm Mobile number or an individual person mobile number, the contractor can receive SMS alerts after the bills are processed |
+| 9 | PAN No | Alphanumeric | 10 | No | Company/Firm registered PAN number or an individual person PAN number |
+| 10 | GST/TIN No | Alphanumeric | 15 | Yes | GST/TIN No: Company/Firm registered GST/TIN number is a Tax Identification Number |
+| 11 | GST registered State/UT | Alphanumeric | 15 | Yes | The company/Firm has multiple businesses with the state or union territory a separate registered GST number is a Tax Identification Number |
+| 12 | Bank Name | Text | 50 | No | Company/Firm Bank Name in which they hold the account or an individual person Bank account name which he/she holds the account |
+| 13 | Bank Account No | Alphanumeric | 25 | No | Company/Firm Bank Account number or an individual person Bank Account number. With the bank account number, the bill payment can be made to the correct account, also while doing the RTGS fund transfer the amount can be transferred to the respective firms or individual account |
+| 14 | IFSC Code | Alphanumeric | 11 | No | The Bank IFSC code pertaining to the bank account of the Company/Firm or an Individual person holding a bank account, the IFSC code will be a validation check for the bank account provided by the contractor and useful for the user while doing a bill payment via RTGS |
 
-### Steps to fill data <a id="Steps-to-fill-data"></a>
+#### Steps to fill data
 
 1. Download the data template attached to this page.
 2. Have it open and go through all the headers and understand the meaning of them by referring 'Data Definition' section.
@@ -101,11 +103,11 @@ Note: Data given in the table is a sample data.
 5. Start filling the data starting from serial no. and complete a record at once. repeat this exercise until the entire data is filled into a template.
 6. Verify the data once again by going through the checklist and taking care of each and every point mentioned in the checklist.
 
-## Checklist <a id="Checklist"></a>
+### Checklist
 
 The checklist is a set of activities to be performed once the data is filled into a template to ensure data type, size, and format of data is as per the expectation. These activities have been divided into 2 groups as given below.
 
-### Common Checklist <a id="Common-Checklist"></a>
+#### Common Checklist
 
 This checklist covers all the activities which are common across the entities.
 
@@ -113,7 +115,7 @@ This checklist covers all the activities which are common across the entities.
 | :--- | :--- | :--- |
 | 1 | Make sure that each and every point in this reference list has been taken care of | [Checklist](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/502203140/Checklist) |
 
-### Entity Specific Checklist <a id="Entity-Specific-Checklist"></a>
+#### Entity Specific Checklist
 
 This checklist covers the activities which are specific to the entity.
 
@@ -122,9 +124,11 @@ This checklist covers the activities which are specific to the entity.
 | 1 | The Contractors Code should be alphanumeric and unique | RAK00123 |
 | 2 | The Email ID should be valid Id, email Id should contain the Company/Firm name or an individual personal name before the “@” and the “XXXXX.com” after the “@” | ABCLtd@xeror.com |
 
-## Attachments <a id="Attachments"></a>
+### Attachments
 
-Configuration data template - Contractor
+{% file src="../../../../.gitbook/assets/configuration-data-template-contractor.xlsx" caption="Configuration Data Template" %}
 
-Sample configuration data - Contractor
+{% file src="../../../../.gitbook/assets/sample-confugration-data-contractor.xlsx" caption="Sample Data" %}
+
+
 

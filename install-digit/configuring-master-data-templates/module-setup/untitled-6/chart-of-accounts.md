@@ -1,10 +1,10 @@
 # Chart Of Accounts
 
-## Introduction <a id="Introduction"></a>
+### Introduction
 
-A chart of Accounts \(COA\) is a listing of the Ledger codes that a State or ULB’s has identified and made available for recording transactions in its general ledger. COA is a standard data which need to be setup as per the National Municipal Accounting Manual or Respective State wise manual. Click [here](http://www.cmao.nic.in/Resources/National%20Accounting%20Manual.pdf) for NMAM manual. The COA definition can consist of 3 or 4 levels of hierarchy. Ex: Major-&gt;Minor-&gt;Detailed \(3 levels\) or Major-&gt;Minor-&gt;Sub Minor-&gt;Detailed \(4 Levels\). It is upto the state to define the levels required depending on the reporting needs. Detailed code is the node or the level at which the transaction is done.
+A chart of Accounts \(COA\) is a listing of the Ledger codes that a State or ULB’s has identified and made available for recording transactions in its general ledger. COA is a standard data which need to be set up as per the National Municipal Accounting Manual or Respective State-wise manual. Click [here](http://www.cmao.nic.in/Resources/National%20Accounting%20Manual.pdf) for NMAM manual. The COA definition can consist of 3 or 4 levels of hierarchy. Ex: Major-&gt;Minor-&gt;Detailed \(3 levels\) or Major-&gt;Minor-&gt;Sub Minor-&gt;Detailed \(4 Levels\). It is up to the state to define the levels required depending on the reporting needs. Detailed code is the node or the level at which the transaction is done.
 
-## Data Table <a id="Data-Table"></a>
+### Data Table
 
 | Sr. No\* | Major Code\* | Major head Description\* | Minor Code\* | Minor Head Description\* | SubMinor Code | SubMinor Head Description | Detailed Heads \(Ledgers\)\* | Ledger Code\* | Type | Account Detail Type | Function Required | Budget Required |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -13,11 +13,13 @@ A chart of Accounts \(COA\) is a listing of the Ledger codes that a State or ULB
 | 3 | 350 | Other Liabilities | 350-11 | Employee Liabilities |  |  | Salaries Unpaid | 350-11-01 | Liabilities | Drawing Officer | Yes/No | Yes/No |
 | 4 | 410 | Fixed Assets | 410-20 | Buildings |  |  | Office Building | 410-20-02 | Assets |  | Yes/No | Yes/No |
 
-Note: Data given in the table is a sample data. It consists of sub minor level too.
+{% hint style="info" %}
+Data given in the table is a sample data.
+{% endhint %}
 
-## Procedure <a id="Procedure"></a>
+### Procedure
 
-### Data Definition <a id="Data-Definition"></a>
+#### Data Definition
 
 | Sr No | Column Name | Data Type | Data Size | Is Mandatory? | Definition/ Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -34,7 +36,7 @@ Note: Data given in the table is a sample data. It consists of sub minor level t
 | 11 | Function Required | Text | 250 | No | A GL Code can be linked for the validation of the Function, the user while posting a transaction can select a particular function to which transaction will be linked and this will facilitate easy Function wise reporting |
 | 12 | Budget Required | Text | 250 | No | A GL Code can be linked for the validation of a Budget. User can have a validation check while posting a transaction into the system, this will facilitate to track the amount usage |
 
-### Steps to fill data <a id="Steps-to-fill-data"></a>
+#### Steps to fill data
 
 1. Download the data template attached to this page.
 2. Have it open and go through all the headers and understand the meaning of them by referring 'Data Definition' section.
@@ -42,19 +44,19 @@ Note: Data given in the table is a sample data. It consists of sub minor level t
 4. Start filling the data starting from serial no. and complete a record at once. repeat this exercise until the entire data is filled into a template.
 5. Verify the data once again by going through the checklist and taking care of each and every point mentioned in the checklist.
 
-## Checklist <a id="Checklist"></a>
+### Checklist
 
 The checklist is a set of activities to be performed once the data is filled into a template to ensure data type, size, and format of data is as per the expectation. These activities have been divided into 2 groups as given below.
 
-### Common Checklist <a id="Common-Checklist"></a>
+#### Common Checklist
 
 This checklist covers all the activities which are common across the entities.
 
 | Sr. No | Checklist Parameter | Example |
 | :--- | :--- | :--- |
-| 1 | Make sure that each and every point in this reference list has been taken care of | [Checklist](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/502203140/Checklist) |
+| 1 | Make sure that each and every point in this reference list has been taken care of | [Checklist](../untitled-1/checklist.md) |
 
-### Entity Specific Checklist <a id="Entity-Specific-Checklist"></a>
+#### Entity Specific Checklist
 
 This checklist covers the activities which are specific to the entity.
 
@@ -85,9 +87,11 @@ This checklist covers the activities which are specific to the entity.
   </tbody>
 </table>
 
-## Attachments <a id="Attachments"></a>
+### Attachments
 
-Configuration data template - Chart of Account
+{% file src="../../../../.gitbook/assets/configuration-data-template-chart-of-account.xlsx" caption="Configuration Data Template" %}
 
-Sample configuration data - Chart of Account
+{% file src="../../../../.gitbook/assets/sample-confugration-data-chart-of-account.xlsx" caption="Sample Data" %}
+
+
 
