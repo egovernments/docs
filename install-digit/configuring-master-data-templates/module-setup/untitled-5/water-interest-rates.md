@@ -55,7 +55,7 @@ Separate Entity Specific Checklist is not required for this module data.
 
 ## Attachments <a id="Attachments"></a>
 
-1. Configuration data template - Interest rate
+{% file src="../../../../.gitbook/assets/configuration-data-template-interest-rate.xlsx" caption="Configuration Data Template " %}
 
-    2. Sample configuration data - Interest rate
+{% file src="../../../../.gitbook/assets/sample-configuration-data-interest-rate.xlsx" caption="Sample Data" %}
 
