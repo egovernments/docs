@@ -53,7 +53,7 @@ Not Applicable
 
 ## Attachments <a id="Attachments"></a>
 
-1. Configurable Data Template Tax Heads
+{% file src="../../../../.gitbook/assets/configurable-data-template-tax-heads-v1 \(1\).xlsx" caption="Configuration Data Template " %}
 
-    2. Configurable Sample Data Tax Heads
+{% file src="../../../../.gitbook/assets/configurable-sample-data-tax-heads-v1 \(1\).xlsx" caption="Sample Data" %}
 

@@ -1,7 +1,5 @@
 # Sewerage Interest Rates
 
-
-
 ## Introduction <a id="Introduction"></a>
 
 Interest is levied on the consumer if the consumer fails to make the bill payment before a specified due date. The consumer has to make the full payment before the due date to avoid interest charges. The number of days after which the interest is applicable is configurable at the ULB level. The interest amount is charged to the consumer on a daily basis once the specified grace period is over and till the bill payment is done.
@@ -57,6 +55,7 @@ Separate Entity Specific Checklist is not required for this module data.
 
 ## Attachments <a id="Attachments"></a>
 
-1. Configuration data template - Interest rate
-2. Sample configuration data - Interest rate
+{% file src="../../../../.gitbook/assets/configuration-data-template-interest-rate \(1\).xlsx" caption="Configuration Data Template " %}
+
+{% file src="../../../../.gitbook/assets/sample-configuration-data-interest-rate \(1\).xlsx" caption="Sample Data" %}
 

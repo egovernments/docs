@@ -76,7 +76,7 @@ This checklist covers the activities which are specific to the entity.
 
 ## Attachments <a id="Attachments"></a>
 
-Configuration data template - User Roles
+{% file src="../../../../.gitbook/assets/configuration-data-template-user-roles.xlsx" caption="Configuration Data Template " %}
 
-Sample configuration data - User Roles
+{% file src="../../../../.gitbook/assets/sample-confugration-data-user-roles.xlsx" caption="Sample Data" %}
 

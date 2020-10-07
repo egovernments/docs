@@ -71,9 +71,9 @@ Entity Specific Checklist is not required separately.
 
 ## Attachments <a id="Attachments"></a>
 
-1. Configuration data template - Demand bill format
+{% file src="../../../../.gitbook/assets/configuration-data-template-demand-bill-format.xlsx" caption="Configuration Data Template " %}
 
-    2. Sample configuration data - Demand bill format
+{% file src="../../../../.gitbook/assets/sample-configuration-data-demand-bill-format.xlsx" caption="Sample Data" %}
 
-    3. Sample bill PDF - Demand bill format
+{% file src="../../../../.gitbook/assets/sample\_bill.pdf" caption="Sample Bill" %}
 

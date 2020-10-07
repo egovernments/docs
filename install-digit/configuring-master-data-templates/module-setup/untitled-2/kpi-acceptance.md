@@ -115,8 +115,11 @@ This checklist covers the activities which are specific to the entity:
 
 ## Attachment <a id="Attachment"></a>
 
-1. Configurable Data Template - KPI Acceptance
-2. Configurable Sample Data - KPI Acceptance
-3. List of available chart types
-4. Sample Dashboard
+{% file src="../../../../.gitbook/assets/configurable-data-template-kpi-acceptance-v1.xlsx" caption="Configuration Data Template " %}
+
+{% file src="../../../../.gitbook/assets/configurable-sample-data-kpi-acceptance-v1.xlsx" caption="Sample Data" %}
+
+{% file src="../../../../.gitbook/assets/list-of-available-chart-types-v1.xlsx" caption="List of Available Chart Types" %}
+
+{% file src="../../../../.gitbook/assets/sample-pgr-dashboard.pdf" caption="Sample PGR Dashboard" %}
 
