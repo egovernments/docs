@@ -1,10 +1,10 @@
 # ULB Portal
 
-## Introduction <a id="Introduction"></a>
+### Introduction
 
 A ULB portal is a specially designed website for a ULB that serves as the single point of access for information. It can also be considered a library of personalized and categorized content. A ULB web portal helps in search navigation, personalization, notification and information integration, and often provides features like task management, collaboration, and business intelligence and application integration.
 
-## Data Table <a id="Data-Table"></a>
+### Data Table
 
 This section tells about the template and table given below represents the template. Full template to fill with the portal content is attached with this page at the last into attachments sections.
 
@@ -51,13 +51,15 @@ This section tells about the template and table given below represents the templ
   </tbody>
 </table>
 
-Note: Data given in the table is a sample data.
+{% hint style="info" %}
+Data given in the table is a sample data.
+{% endhint %}
 
-## Procedure <a id="Procedure"></a>
+### Procedure
 
 This section consists the information about the meaning of each and every section in the template and then how to fill the templates in a few easy steps.
 
-### Data Definition <a id="Data-Definition"></a>
+#### Data Definition
 
 Below table consist of a standard section of any portal. The additional section as required will have to capture as part of customization.
 
@@ -86,7 +88,7 @@ Below table consist of a standard section of any portal. The additional section 
 | 21 | Tender Listing | Template | N/A | NO | All the tender issued by the ULB needs to be added under this section |
 | 22 | Contact Us | Template | N/A | Yes | All details of the contact person should be added under this section |
 
-### Steps to fill data <a id="Steps-to-fill-data"></a>
+#### Steps to fill data
 
 1. Download the data template attached to this page.
 2. Have it open and go through all the headers and understand the meaning given in this document under section 'Data Definition'.
@@ -95,11 +97,11 @@ Below table consist of a standard section of any portal. The additional section 
 5. Start filling the data starting from serial no. and complete a record at once. repeat this exercise until the entire data is filled into a template.
 6. Verify the data once again by going through the checklist and taking care of each and every point mentioned in the checklist.
 
-## Checklist <a id="Checklist"></a>
+### Checklist
 
 The checklist is a set of activities to be performed one the data is filled into a template to ensure data type, size, and format of data is as per the expectation. These activities have been divided into 2 groups as given below.
 
-### Common Checklist <a id="Common-Checklist"></a>
+#### Common Checklist
 
 This checklist covers all the activities which are common across the entities.
 
@@ -107,21 +109,19 @@ This checklist covers all the activities which are common across the entities.
 | :--- | :--- | :--- |
 | 1 | Make sure that each and every point in this reference list has been taken care of. | [Checklist](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/502203140/Checklist) |
 
-### Entity Specific Checklist <a id="Entity-Specific-Checklist"></a>
+#### Entity Specific Checklist
 
 This checklist covers all the activities which are specific to the entity.
 
 | Sr. No. | Checklist Parameter | Example |
 | :--- | :--- | :--- |
-
-
-| Sr. No. | Checklist Parameter | Example |
-| :--- | :--- | :--- |
 | 1 | All the sections with data type ‘Template’, data to be filled into the section-wise template provided as an attachment | NA |
 
-## Attachments <a id="Attachments"></a>
+### Attachments
 
-1. Configurable Data Template - ULB Web Portal Content
+{% file src="../../../../.gitbook/assets/configurable-data-template-ulb-portal\_v1.xls" caption="Configuration Data Template" %}
 
-    2. Sample configurable Data - ULB Web Portal Content
+{% file src="../../../../.gitbook/assets/sample-configuration-data-ulb-portal\_v1.xls" caption="Sample Data" %}
+
+
 
