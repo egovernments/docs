@@ -8,8 +8,6 @@ description: Product themes and deliverable
 
 Commitment and transparency are deeply ingrained values defining our product development approach. We are constantly developing new capabilities to facilitate the digital transformation of our cities. Take a glimpse into our DIGIT Roadmap to learn more about our upcoming tools and features.
 
-![](../.gitbook/assets/image%20%2889%29.png)
-
 ### Key Themes And Objectives
 
 | Themes | Objectives |
