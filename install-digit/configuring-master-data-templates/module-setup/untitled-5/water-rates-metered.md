@@ -52,7 +52,7 @@ Separate Entity Specific Checklist is not required for this module data.
 
 ## Attachments <a id="Attachments"></a>
 
-1. Configuration data template - Water rates \(metered\)
+{% file src="../../../../.gitbook/assets/configuration-data-template-water-rates-metered-.xlsx" caption="Configuration Data Template " %}
 
-   2. Sample configuration data - Water rates \(metered\)
+{% file src="../../../../.gitbook/assets/sample-configuration-data-water-rates-metered-.xlsx" caption="Sample Data" %}
 
