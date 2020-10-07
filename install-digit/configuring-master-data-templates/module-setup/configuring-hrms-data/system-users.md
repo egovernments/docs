@@ -103,7 +103,7 @@ This checklist covers the activities which are specific to the entity.
 
 ## Attachments <a id="Attachments"></a>
 
-Configuration data template - System User
+{% file src="../../../../.gitbook/assets/configuration-data-template-system-user.xlsx" caption="Configuration Data Template " %}
 
-Sample configuration data - System User
+{% file src="../../../../.gitbook/assets/sample-confugration-data-system-user.xlsx" caption="Sample Data " %}
 
