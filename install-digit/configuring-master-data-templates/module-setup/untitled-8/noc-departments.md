@@ -52,8 +52,7 @@ There is no separate entity-specific checklist for this entity.
 
 ## Attachments <a id="Attachments"></a>
 
-1. Configuration Data Template - NOC Departments
+{% file src="../../../../.gitbook/assets/configurable-data-template-noc-departments\_v1.xlsx" caption="Configuration Data Template " %}
 
-    2. Sample Configuration Data - NOC Departments  
-
+{% file src="../../../../.gitbook/assets/noc-department-sample.xlsx" caption="Sample Data" %}
 
