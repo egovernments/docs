@@ -52,7 +52,9 @@ There is no separate entity-specific checklist for this entity.
 
 ## Attachments <a id="Attachments"></a>
 
-1. Configuration Data Template - Usage Type
+{% file src="../../../../.gitbook/assets/configuration-data-template-building-usage-type\_v1.xlsx" caption="Configuration Data Template " %}
 
-    2. Sample Configuration Data - Usage Type
+{% file src="../../../../.gitbook/assets/sample-configuration-data-building-usage-type.xlsx" caption="Sample Data " %}
+
+
 
