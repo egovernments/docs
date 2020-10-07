@@ -52,7 +52,9 @@ There is no separate entity-specific checklist for this entity.
 
 ## Attachments <a id="Attachments"></a>
 
-1. Configuration Data Template - Inspection Checklist
+{% file src="../../../../.gitbook/assets/inspection-checklist-template\_obps.xlsx" caption="Configuration Data Template " %}
 
-    2. Sample Configuration Data - Inspection Checklist
+{% file src="../../../../.gitbook/assets/inspection-checklist-sample\_obps.xlsx" caption="Sample Data" %}
+
+
 
