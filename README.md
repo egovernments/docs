@@ -4,27 +4,19 @@
 
 DIGIT is an open-source and open API powered platform for developers, enterprises and citizens to build new applications and solutions. The platform facilitates local governments to achieve quicker implementation time-frames, process improvements, accountability and transparency at various levels of administration.
 
-{% hint style="success" %}
-[Latest Release Notes](modules-features/release-notes/) - Versioned docs for effective support
-{% endhint %}
+{% page-ref page="digit-overview.md" %}
 
-{% hint style="success" %}
-[Configure DIGIT](install-digit/) - Setting up the platform and configuring key usage parameters
-{% endhint %}
+{% page-ref page="setup-digit/architecture.md" %}
 
-{% hint style="success" %}
-[Deploy DIGIT](setup-digit/) - Concept, Architecture, Infrastructure Requirements, and Deployment 
-{% endhint %}
+{% page-ref page="modules-features/release-notes/product-release-notes/" %}
 
-{% hint style="success" %}
-[Product Brochures](modules-features/product-brochures.md) - Download our informative brochures
-{% endhint %}
+{% page-ref page="setup-digit/" %}
 
-{% hint style="success" %}
-[Product User Manuals](modules-features/user-guides/) - Access illustrative help docs for modules and features
-{% endhint %}
+{% page-ref page="install-digit/" %}
 
-{% hint style="success" %}
-[Training Resources](training-and-demo/) - Access PDF files, watch product training videos
-{% endhint %}
+{% page-ref page="modules-features/product-brochures.md" %}
+
+{% page-ref page="modules-features/user-guides/" %}
+
+{% page-ref page="training-and-demo/" %}
 
