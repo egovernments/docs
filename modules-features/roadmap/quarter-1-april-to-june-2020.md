@@ -1,7 +1,5 @@
 # Quarter 1 - April to June 2020
 
-**Quarter 1 - April to June 2020**
-
 | Release Date: 01/06/2020 | Beta date:  | GA date:  |
 | :--- | :--- | :--- |
 

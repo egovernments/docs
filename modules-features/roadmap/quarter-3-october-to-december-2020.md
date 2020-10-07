@@ -33,7 +33,7 @@
 
 * Improve automation test cases coverage
 * Automating onboarding procedures 
-* Add provision to simplify most often asked state level UI changes
+* Add a provision to simplify most often asked state-level UI changes
 {% endhint %}
 
 {% hint style="success" %}
