@@ -55,7 +55,7 @@ There is no separate entity-specific checklist for this entity.
 
 ## Attachments <a id="Attachments"></a>
 
-1. Fee Structure Template
+{% file src="../../../../.gitbook/assets/fee-structure-template.xlsx" caption="Configuration Data Template " %}
 
-    2. Fee Structure Sample Data
+{% file src="../../../../.gitbook/assets/fee-structure-sample-data.xlsx" caption="Sample Data" %}
 
