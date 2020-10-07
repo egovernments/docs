@@ -7,5 +7,3 @@ This section contains details on how to customize the DIGIT user interface and s
 * [Master & Configuration Data Load Kit](master-and-configuration-data-load-kit.md)
 * [Data Migration](data-migration/)
 
-
-

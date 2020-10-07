@@ -6,9 +6,9 @@ description: >-
 
 # Resource Requests & Limits
 
-Containerising applications and running them on Kubernetes doesn’t mean we can forget all about resource utilization. Our thought process may have changed because we can much more easily scale-out our application as demand increases, but many times we need to consider how our containers might fight with each other for resources. Resource Requests and Limits can be used to help stop the “noisy neighbour” problem in a Kubernetes Cluster. 
+Containerising applications and running them on Kubernetes doesn’t mean we can forget all about resource utilization. Our thought process may have changed because we can much more easily scale-out our application as demand increases, but many times we need to consider how our containers might fight with each other for resources. Resource Requests and Limits can be used to help stop the “noisy neighbour” problem in a Kubernetes Cluster.
 
-### Resource Requests
+## Resource Requests
 
 To put things simply, a resource request specifies the minimum amount of resources a container needs to successfully run. Thought of in another way, this is a guarantee from Kubernetes that you’ll always have this amount of either CPU or Memory allocated to the container.
 
@@ -20,7 +20,7 @@ What a resource request can do, is to ensure that at least a small part of that 
 
 ![](https://documents.lucidchart.com/documents/85c359e4-da7c-4eca-8ed2-bfa90d599d5f/pages/FO6Qkj8_qSsz?a=3238&x=63&y=265&w=1386&h=393&store=1&accept=image%2F*&auth=LCA%20e43a8117eede4818321fafb1b5db60de1176fc32-ts%3D1587233233)
 
-### Resource Limits
+## Resource Limits
 
 As you might guess, a resource limit is the maximum amount of CPU or memory that can be used by a container. The limit represents the upper bounds of how much CPU or memory that a container within a pod can consume in a Kubernetes cluster, regardless of whether or not the cluster is under resource contention.
 
@@ -28,7 +28,7 @@ As you might guess, a resource limit is the maximum amount of CPU or memory that
 
 Limits prevent containers from taking up more resources on the cluster than you’re willing to let them.
 
-### Common Practices
+## Common Practices
 
 As a general rule, all containers should have a request for memory and CPU before deploying to a cluster. This will ensure that if resources are running low, your container can still do the minimum amount of work to stay in a healthy state until those resource free up again \(hopefully\).
 
@@ -40,9 +40,9 @@ At this point, you may be thinking about adding a high “request” value to ma
 
 ![](https://documents.lucidchart.com/documents/85c359e4-da7c-4eca-8ed2-bfa90d599d5f/pages/FO6Qkj8_qSsz?a=3687&x=1733&y=273&w=1045&h=1026&store=1&accept=image%2F*&auth=LCA%208947fe6e088cd6618338a5b630abff3858c6849f-ts%3D1587233233)
 
-### Resource Requests and Limits – In Action
+## Resource Requests and Limits – In Action
 
-#### CPU Limit Example
+### CPU Limit Example
 
 Let us try out using a CPU limit on a pod and see what happens when we try to request more CPU than we’re allowed to have. Before we set the limit though, let us look at a pod with a single container under normal conditions. I’ve deployed a resource consumer container in my cluster and by default, you can see that I am using 1m CPU\(cores\) and 6 Mi\(bytes\) of memory.
 
@@ -113,7 +113,7 @@ After redeploying the container and again increasing my CPU load to 400m, we can
 
 ![](https://theithollow.com/wp-content/uploads/2020/04/k8s-podlimits-3.png)
 
-#### CPU Requests Example
+### CPU Requests Example
 
 OK, next, I’ve deployed two pods into my Kubernetes cluster and those pods are on the same worker node for a simple example about contention. I’ve got a guaranteed pod that has 1000m CPU set as a limit but also as a request. The other pod is unbounded, meaning there is no limit on how much CPU it can utilize.
 
@@ -123,7 +123,7 @@ After the deployment, each pod is really not using any resources as you can see 
 
 ![](https://theithollow.com/wp-content/uploads/2020/04/image-4-1024x153.png)
 
-We make a request to increase the load on my non-guaranteed pod. 
+We make a request to increase the load on my non-guaranteed pod.
 
 ![](https://theithollow.com/wp-content/uploads/2020/04/image-5-1024x52.png)
 
@@ -131,7 +131,7 @@ And if we look at the container's resources you can see that even though my cont
 
 ![](https://theithollow.com/wp-content/uploads/2020/04/image-6-1024x82.png)
 
-### Summary
+## Summary
 
 Kubernetes uses Resource Requests to set a minimum amount of resources for a given container so that it can be used if it needs it. You can also set a Resource Limit to set the maximum amount of resources a pod can utilize.
 

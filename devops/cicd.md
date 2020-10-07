@@ -1,10 +1,10 @@
 # CI/CD
 
-### Overview
+## Overview
 
-Since there are many DIGIT services and the development code is part of various git repos, you need to understand the concept of **cicd-as-service** which is open sourced. This page also guides you through the process of creating a CI/CD pipeline.  
+Since there are many DIGIT services and the development code is part of various git repos, you need to understand the concept of **cicd-as-service** which is open sourced. This page also guides you through the process of creating a CI/CD pipeline.
 
-{% embed url="https://www.youtube.com/watch?v=87RWvE4Jgpw" %}
+{% embed url="https://www.youtube.com/watch?v=87RWvE4Jgpw" caption="" %}
 
 **As a developer -** To integrate any new service/app to the CI/CD below is the starting point:
 
@@ -60,9 +60,9 @@ When the Jenkins Job =&gt; job builder is executed the CI Pipeline gets created 
 
 As a result of the pipeline execution, the respective app/service docker image will be built and pushed to the Docker repository.
 
-### **Continuous Integration \(CI\)**
+## **Continuous Integration \(CI\)**
 
-The Jenkins CI pipeline is configured and managed 'as code'. 
+The Jenkins CI pipeline is configured and managed 'as code'.
 
 [New Service Integration - Example](https://digit-discuss.atlassian.net/wiki/spaces/DOPS/pages/111673399/New+Service+Integration+-+Example) URL - [https://builds.egovernments.org/](https://builds.egovernments.org/)
 
@@ -78,7 +78,7 @@ If git repository URL is available build the Job-Builder Job
 
 If git repository URL is not available ask the devops team to add.
 
-### **Continuous Deployment \(CD\)**‌
+## **Continuous Deployment \(CD\)**‌
 
 The services deployed and managed **on a Kubernetes cluster** in cloud platforms like **AWS, Azure, GCP, OpenStack, etc.** Here, we use **helm charts** to manage and generate the **Kubernetes manifest files** and use them for further deployment to respective **Kubernetes cluster**. Each service is created as charts which will have the below-mentioned files in it.
 
@@ -101,13 +101,13 @@ Github repository
 
 We have an automatic helm chart generator utility which needs to be installed on the local machine, the utility will prompt for user inputs about the newly developed service\( app specifications\) for creating the helm chart. The requested chart with the configuration values \(created based on the inputs provided\) will be created for the user.
 
-‌                       _**Name of the service?  test-service  
-                       Application Type? NA  
-                       Kubernetes health checks to be enabled? Yes  
-                       Flyway DB migration container necessary? No  
-                       Expose service to the internet? Yes  
-                       Route through API gateway \[zuul\]  No  
-                       Context path? hello**_‌
+‌ _**Name of the service? test-service  
+Application Type? NA  
+Kubernetes health checks to be enabled? Yes  
+Flyway DB migration container necessary? No  
+Expose service to the internet? Yes  
+Route through API gateway \[zuul\] No  
+Context path? hello**_‌
 
 The generated chart will have the following files.
 
@@ -136,6 +136,4 @@ Enter a caption for this image \(optional\)
 * Reads the image name or the service name given and finds the chart that is specific to it.
 * Generates the Kubernetes manifests files from the chart using helm template engine.
 * Execute the deployment manifest with the specified docker image\(s\) to the Kubernetes cluster.
-
-
 

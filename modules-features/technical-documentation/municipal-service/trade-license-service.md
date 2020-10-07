@@ -1,10 +1,10 @@
 # Trade-License Service
 
-### Overview <a id="Overview"></a>
+## Overview <a id="Overview"></a>
 
 This service is used to issue a license to the user after verification. The service is designed in such a way that it can be used to serve different type of licenses. Currently used to issue trade licenses, perform stakeholder registration and issue lockdown pass. The service is integrated with workflow where we can define the steps for approval of the application. Once the application is approved the license is generated.
 
-### Pre-requisites <a id="Pre-requisites"></a>
+## Pre-requisites <a id="Pre-requisites"></a>
 
 Before you proceed with the documentation, make sure the following pre-requisites are met -
 
@@ -13,7 +13,7 @@ Before you proceed with the documentation, make sure the following pre-requisite
 * egov-persister service is running and has tl-services persister config path added in it
 * PSQL server is running  and database is created
 
-### Key Functionalities <a id="Key-Functionalities"></a>
+## Key Functionalities <a id="Key-Functionalities"></a>
 
 * Used for license generations in trade licenses, stakeholder registration and issue lockdown pass
 * Define roles to applicants on successful application to access Building Plan Approval services at the time of stakeholder registration
@@ -21,11 +21,11 @@ Before you proceed with the documentation, make sure the following pre-requisite
 * Support workflows
 * Provide notification on various status changes for an application
 
-### Interaction Diagram <a id="Interaction-Diagram"></a>
+## Interaction Diagram <a id="Interaction-Diagram"></a>
 
 ![](../../../.gitbook/assets/image%20%2876%29.png)
 
-### Deployment Details <a id="Deployment-Details"></a>
+## Deployment Details <a id="Deployment-Details"></a>
 
 1. Add MDMS configs required for Trade License and BPA stakeholder registration and restart MDMS service
 2. Deploy the latest version of tl-services service
@@ -34,11 +34,11 @@ Before you proceed with the documentation, make sure the following pre-requisite
 5. Create businessService \(workflow configuration\) according to trade license and stakeholder registration
 6. Add tl-service indexer yaml path in indexer service configuration and restart indexer service
 
-### Configuration Details <a id="Configuration-Details"></a>
+## Configuration Details <a id="Configuration-Details"></a>
 
 Following application properties in the Trade License service are configurable.
 
-| Property  | Value  | Remarks |
+| Property | Value | Remarks |
 | :--- | :--- | :--- |
 | egov.idgen.tl.applicationNum.format | PB-TL-\[cy:yyyy-MM-dd\]-\[SEQ\_EG\_TL\_APL\] | The format of the TL application number |
 | egov.idgen.tl.licensenumber.format | PB-TL-\[cy:yyyy-MM-dd\]-\[SEQ\_EG\_PT\_LN\] | The format of the TL license number |
@@ -51,13 +51,13 @@ Following application properties in the Trade License service are configurable.
 | persister.update.tradelicense.topic | update-tl-tradelicense | The name of kafka topic on which update request are published |
 | persister.update.tradelicense.workflow.topic | update-tl-workflow | The name of kafka topic on which update request are published |
 
-### Integration <a id="Integration"></a>
+## Integration <a id="Integration"></a>
 
-#### Integration Scope <a id="Integration-Scope"></a>
+### Integration Scope <a id="Integration-Scope"></a>
 
 The trade-license service is currently used to issue trade licenses, perform stakeholder registration and issue lockdown pass.
 
-#### Integration Benefits <a id="Integration-Benefits"></a>
+### Integration Benefits <a id="Integration-Benefits"></a>
 
 * Provide backend support for the different license registration process.
 * Mseva and SMS notifications on application status changes.
@@ -65,18 +65,18 @@ The trade-license service is currently used to issue trade licenses, perform sta
 * Bpa Stakeholder registration provides new roles to the user to access the Building Plan Approval system.
 * Supports workflow which is configurable
 
-#### Steps to Integration <a id="Steps-to-Integration"></a>
+### Steps to Integration <a id="Steps-to-Integration"></a>
 
 1. To integrate, host of tl-services service should be overwritten in the helm chart.
 2. {servicename}/\_create/ \_create should be added as the create endpoint for creating any license in the system
 3. {servicename}/\_search/ \_search should be added as the search endpoint. This method handles all requests to search existing records depending on different search criteria
 4. {servicename}/\_update/ \_update should be added as the update endpoint. This method is used to update fields in existing records or to update the status of the application based on workflow.
 
-### Reference Docs <a id="Reference-Docs"></a>
+## Reference Docs <a id="Reference-Docs"></a>
 
-#### Doc Links <a id="Doc-Links"></a>
+### Doc Links <a id="Doc-Links"></a>
 
-| **Title**  | **Link** |
+| **Title** | **Link** |
 | :--- | :--- |
 | Billing Slabs | [Billing Slabs](https://digit-discuss.atlassian.net/l/c/Z7U7p0Q8) |
 | Local Setup | [LOCALSETUP.md](https://github.com/egovernments/core-services/blob/4a74fd3be04ab0a2fe0641f10b57b7e9b9f82aff/egov-user/LOCALSETUP.md) |
@@ -84,7 +84,7 @@ The trade-license service is currently used to issue trade licenses, perform sta
 | API Swagger Documentation \(Stakeholder registration\) | bpa\_stakeholder\_registration \(3\) \(1\).yaml23 KB |
 | BPA StakeHolder Registration release Doc | [BPA StakeHolder Registration release Doc](https://digit-discuss.atlassian.net/l/c/rPiHmMP7) |
 
-#### API List <a id="API-List"></a>
+### API List <a id="API-List"></a>
 
 In all below endpoints if the service name is BPAREG it is treated as stakeholder registration application and if it is TL or if it is absent then the application is treated as trade license application.
 

@@ -4,7 +4,7 @@ description: DIGIT 2.0 - Technical Details of the Changes
 
 # Configuration Changes
 
-### **MDMS changes**
+## **MDMS changes**
 
 | **Feature** | **Status** | **Changes** | **Description** |
 | :--- | :--- | :--- | :--- |
@@ -30,7 +30,7 @@ description: DIGIT 2.0 - Technical Details of the Changes
 | Localization | New | [PR-1073](https://github.com/egovernments/egov-mdms-data/pull/1073) | Added new action for v2 localisation search |
 | Reports | Deprecate | [PR-1170](https://github.com/egovernments/egov-mdms-data/pull/1170) | Disabling the Reports and UI localization Links |
 
-### Backend Config Changes
+## Backend Config Changes
 
 | **Module** | **Action** | **PR** | **Description** |
 | :--- | :--- | :--- | :--- |
@@ -80,10 +80,7 @@ description: DIGIT 2.0 - Technical Details of the Changes
     </tr>
     <tr>
       <td style="text-align:left"></td>
-      <td style="text-align:left">
-        <p></p>
-        <p>EGOV_IDGEN_SCID_FORMAT</p>
-      </td>
+      <td style="text-align:left">EGOV_IDGEN_SCID_FORMAT</td>
       <td style="text-align:left"></td>
       <td style="text-align:left"><code>value: {{ index .Values &quot;scid-format&quot; | quote }}</code>
       </td>
@@ -104,10 +101,7 @@ description: DIGIT 2.0 - Technical Details of the Changes
     </tr>
     <tr>
       <td style="text-align:left"></td>
-      <td style="text-align:left">
-        <p></p>
-        <p>helm/environments/&lt;env&gt;.yaml</p>
-      </td>
+      <td style="text-align:left">helm/environments/&lt;env&gt;.yaml</td>
       <td style="text-align:left">Autocreate-new-seq flag must be enabled in IdGen Service of the environment
         file</td>
       <td style="text-align:left"><code>autocreate-new-seq: &quot;true&quot;</code>
@@ -148,7 +142,7 @@ description: DIGIT 2.0 - Technical Details of the Changes
   </tbody>
 </table>
 
-### Service Build Artefacts
+## Service Build Artefacts
 
 <table>
   <thead>
@@ -844,13 +838,9 @@ description: DIGIT 2.0 - Technical Details of the Changes
   </tbody>
 </table>
 
-### Deprecated Features
+## Deprecated Features
 
 * egov-data-uploader
 * egov-common-masters
 * egov-index-custom-consumer
-
-
-
-
 

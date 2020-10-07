@@ -4,17 +4,17 @@ description: DIGIT 2.0 changes to the Advance Payments
 
 # Advance Payments
 
-### Overview <a id="Overview"></a>
+## Overview <a id="Overview"></a>
 
- Advance payments feature helps citizens to make a payment more than the pending amount. The platform informs the citizen about the excess amount paid and the amount available as an advance in the bills and receipts. 
+Advance payments feature helps citizens to make a payment more than the pending amount. The platform informs the citizen about the excess amount paid and the amount available as an advance in the bills and receipts.
 
-### Release Highlights <a id="Release-Highlights"></a>
+## Release Highlights <a id="Release-Highlights"></a>
 
 1. Pay/ Adjust excess amount against the demand generated
 2. Generate Receipt showing the excess payment
 3. Generate Bill with advance amount adjustment
 
-### Release Features  <a id="Release-Features"></a>
+## Release Features <a id="Release-Features"></a>
 
 <table>
   <thead>
@@ -74,14 +74,14 @@ description: DIGIT 2.0 changes to the Advance Payments
   </tbody>
 </table>
 
-### Known Issues  <a id="Known-Issues"></a>
+## Known Issues <a id="Known-Issues"></a>
 
 | **Issue** | **Description** |
 | :--- | :--- |
 | Bill amount incorrectly calculated | 'Due amount' miscalculation, if multiple meter readings are added without payment |
 | Advance adjusted incorrectly calculated | 'Advance adjusted' miscalculated in the bill PDF |
 
-### Upcoming Release Feature <a id="Upcoming-Release-Feature"></a>
+## Upcoming Release Feature <a id="Upcoming-Release-Feature"></a>
 
 <table>
   <thead>
@@ -92,12 +92,8 @@ description: DIGIT 2.0 changes to the Advance Payments
   </thead>
   <tbody>
     <tr>
+      <td style="text-align:left">Cap on the amount entered</td>
       <td style="text-align:left">
-        <p></p>
-        <p>Cap on the amount entered</p>
-      </td>
-      <td style="text-align:left">
-        <p></p>
         <ol>
           <li>There is a check provided to inform the user about the amount entered
             when it crosses a certain limit.</li>
@@ -116,12 +112,8 @@ description: DIGIT 2.0 changes to the Advance Payments
       </td>
     </tr>
     <tr>
+      <td style="text-align:left">Changes in Bill PDF</td>
       <td style="text-align:left">
-        <p></p>
-        <p>Changes in Bill PDF</p>
-      </td>
-      <td style="text-align:left">
-        <p></p>
         <ol>
           <li>Tax heads must display &apos;unadjusted&apos; values on the bill PDF</li>
         </ol>
@@ -130,7 +122,7 @@ description: DIGIT 2.0 changes to the Advance Payments
   </tbody>
 </table>
 
-### Reference Doc Links <a id="Reference-Doc-Links"></a>
+## Reference Doc Links <a id="Reference-Doc-Links"></a>
 
 | **Doc Links** | **Description** |
 | :--- | :--- |

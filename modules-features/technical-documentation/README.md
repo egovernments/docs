@@ -10,7 +10,3 @@ The key services include -
 * [Municipal Services](municipal-service/)
 * [Utilities](utilities.md)
 
-
-
-
-

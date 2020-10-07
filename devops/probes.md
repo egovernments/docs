@@ -6,13 +6,13 @@ description: >-
 
 # Readiness & Liveness
 
-### What is Probes
+## What is Probes
 
 Determining the state of a service based on readiness, liveness, and startup to detect and deal with unhealthy situations. It may happen that if the application needs to initialize some state, make database connections, or load data before handling application logic. This gap in time between when the application is actually ready versus when Kubernetes thinks is ready becomes an issue when the deployment begins to scale and unready applications receive traffic and send back 500 errors.
 
-Many developers assume that when basic pod setup is adequate, especially when the application inside the pod is configured with daemon process managers \(e.g. PM2 for Node.js\). However, since Kubernetes deems a pod as healthy and ready for requests as soon as all the containers start, the application may receive traffic before it is actually ready. 
+Many developers assume that when basic pod setup is adequate, especially when the application inside the pod is configured with daemon process managers \(e.g. PM2 for Node.js\). However, since Kubernetes deems a pod as healthy and ready for requests as soon as all the containers start, the application may receive traffic before it is actually ready.
 
-### Kubernetes Probes
+## Kubernetes Probes
 
 Kubernetes supports readiness and liveness probes for versions ≤ 1.15. Startup probes were added in 1.16 as an alpha feature and graduated to beta in 1.18 \(_WARNING: 1.16 deprecated several Kubernetes APIs. Use this_ [_migration guide_](https://medium.com/dev-genius/upgrading-to-kubernetes-1-16-ad977933694d) _to check for compatibility_\).
 
@@ -24,7 +24,7 @@ All the probe have the following parameters:
 * `successThreshold` : minimum number of consecutive successful checks for the probe to pass
 * `failureThreshold` : number of retries before marking the probe as failed. For liveness probes, this will lead to the pod restarting. For readiness probes, this will mark the pod as unready.
 
-### Readiness Probes
+## Readiness Probes
 
 Readiness probes are used to let kubelet know when the application is ready to accept new traffic. If the application needs some time to initialize state after the process has started, configure the readiness probe to tell Kubernetes to wait before sending new traffic. A primary use case for readiness probes is directing traffic to deployments behind a service.
 
@@ -32,21 +32,21 @@ Readiness probes are used to let kubelet know when the application is ready to a
 
 One important thing to note with readiness probes is that it **runs during the pod’s entire lifecycle**. This means that readiness probes will run not only at startup but repeatedly throughout as long as the pod is running. This is to deal with situations where the application is temporarily unavailable \(i.e. loading large data, waiting on external connections\). In this case, we don’t want to necessarily kill the application but wait for it to recover. Readiness probes are used to detect this scenario and not send traffic to these pods until it passes the readiness check again.
 
-### Liveness Probes <a id="29ef"></a>
+## Liveness Probes <a id="29ef"></a>
 
 On the other hand, liveness probes are used to restart unhealthy containers. The kubelet periodically pings the liveness probe, determines the health, and kills the pod if it fails the liveness check. Liveness checks can help the application recover from a deadlock situation. Without liveness checks, Kubernetes deems a deadlocked pod healthy since the underlying process continues to run from Kubernetes’s perspective. By configuring the liveness probe, the kubelet can detect that the application is in a bad state and restarts the pod to restore availability.
 
 ![Kubernetes Liveness Probes](https://miro.medium.com/max/60/0*yicsIyLNZJlDlIsf.GIF?q=20)
 
-### **Startup Probes** <a id="1b53"></a>
+## **Startup Probes** <a id="1b53"></a>
 
 Startup probes are similar to readiness probes but only executed at startup. They are optimized for slow starting containers or applications with unpredictable initialization processes. With readiness probes, we can configure the `initialDelaySeconds` to determine how long to wait before probing for readiness. Now consider an application where it occasionally needs to download large amounts of data or do an expensive operation at the start of the process. Since `initialDelaySeconds` is a static number, we are forced to always take the worst-case scenario \(or extend the `failureThreshold`that may affect long-running behaviour\) and wait for a long time even when that application does not need to carry out long-running initialization steps. With startup probes, we can instead configure `failureThreshold` and `periodSeconds` to model this uncertainty better. For example, setting `failureThreshold` to 15 and `periodSeconds` to 5 means the application will get 10 x 5 = 75s to startup before it fails.
 
-### Configuring Probe Actions
+## Configuring Probe Actions
 
 Now that we understand the different types of probes, we can examine the three different ways to configure each probe.
 
-### **HTTP**
+## **HTTP**
 
 The kubelet sends an HTTP GET request to an endpoint and checks for a 2xx or 3xx response. You can reuse an existing HTTP endpoint or set up a lightweight HTTP server for probing purposes \(e.g. an Express server with `/healthz` endpoint\).
 
@@ -65,7 +65,7 @@ livenessProbe:
      port: 8080
 ```
 
-### TCP <a id="ed8f"></a>
+## TCP <a id="ed8f"></a>
 
 If you just need to check whether or not a TCP connection can be made, you can specify a TCP probe. The pod is marked healthy if can establish a TCP connection. Using a TCP probe may be useful for a gRPC or FTP server where HTTP calls may not be suitable.
 
@@ -75,7 +75,7 @@ readinessProbe:
      port: 21
 ```
 
-### Command <a id="0a7d"></a>
+## Command <a id="0a7d"></a>
 
 Finally, a probe can be configured to run a shell command. The check passes if the command returns with exit code 0; otherwise, the pod is marked as unhealthy. This type of probe may be useful if it is not desirable to expose an HTTP server/port or if it is easier to check initialization steps via command \(e.g. check if a configuration file has been created, run a CLI command\).
 
@@ -85,7 +85,7 @@ readinessProbe:
      command: ["/bin/sh", "-ec", "vault status -tls-skip-verify"]
 ```
 
-### Best Practices
+## Best Practices
 
 The exact parameters for the probes depend on your application, but here are some general best practices to get started:
 
@@ -96,7 +96,7 @@ The exact parameters for the probes depend on your application, but here are som
 
 In short, well-defined probes generally lead to better resilience and availability. Be sure to observe the startup times and system behaviour to tweak the probe settings as the applications change.
 
-### Tools
+## Tools
 
 Finally, given the importance of Kubernetes probes, you can use a Kubernetes resource analysis tool to detect missing probes. These tools can be run against existing clusters or be baked into the CI/CD process to automatically reject workloads without properly configured resources.
 

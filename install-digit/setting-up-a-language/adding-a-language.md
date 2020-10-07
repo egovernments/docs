@@ -1,11 +1,11 @@
 # Adding New Language
 
-### Overview <a id="Overview"></a>
+## Overview <a id="Overview"></a>
 
 Digit system supports multiple languages.  
 To add a new language, it should be configured in MDMS.
 
-### Pre-requisites <a id="Pre-requisites"></a>
+## Pre-requisites <a id="Pre-requisites"></a>
 
 Before proceeding with the configuration, following are the pre-requisites -
 
@@ -13,19 +13,19 @@ Before proceeding with the configuration, following are the pre-requisites -
 * Knowledge of MDMS is required.
 * User with permissions to edit the git repository where MDMS data is configured.
 
-### Key Functionalities <a id="Key-Functionalities"></a>
+## Key Functionalities <a id="Key-Functionalities"></a>
 
 * Users can view the web page of digit application in the language of their choice by selecting it from the available languages.
 * SMS and Emails of information about the transactions on digit application, can be received in languages based on the selection.
 
-### Deployment Details <a id="Deployment-Details"></a>
+## Deployment Details <a id="Deployment-Details"></a>
 
 After adding the new language, the MDMS service needs to be restarted to read the newly added data.
 
-### Configuration Details <a id="Configuration-Details"></a>
+## Configuration Details <a id="Configuration-Details"></a>
 
 A new language is added in StateInfo.json  
-In MDMS, file **StateInfo.json**, under **common-masters** folder holds the details of language  to be added.
+In MDMS, file **StateInfo.json**, under **common-masters** folder holds the details of language to be added.
 
 ```text
 {
@@ -77,7 +77,7 @@ Language is added as an array element under the array named “languages”. Eac
 ```
 
 {% hint style="info" %}
-"हिंदी" and "ಕನ್ನಡ",”language3” are more than one languages\(Hindi,Kannada,somelangauge\) added other than "ENGLISH".  
+"हिंदी" and "ಕನ್ನಡ",”language3” are more than one languages\(Hindi,Kannada,somelangauge\) added other than "ENGLISH".
 {% endhint %}
 
 In UI the labels and master values that populates in dropdown or textboxes are added as a key for localization. For eg., when a user logs in, at the top of inbox page, a welcome message in English language shows as “Welcome User name“. The text “Welcome” is English localization for the Key “CS\_LANDING\_PAGE\_WELCOME\_TEXT”.
@@ -149,11 +149,11 @@ Any one language from the multiple added language, can be set as default. For ex
 }
 ```
 
-### Reference Docs <a id="Reference-Docs"></a>
+## Reference Docs <a id="Reference-Docs"></a>
 
-#### Doc Links <a id="Doc-Links"></a>
+### Doc Links <a id="Doc-Links"></a>
 
-| **Title**  | **Link** |
+| **Title** | **Link** |
 | :--- | :--- |
-|  StateInfo.json | [https://github.com/egovernments/ukd-mdms-data/blob/DEV/data/uk/common-masters/StateInfo.json](https://github.com/egovernments/ukd-mdms-data/blob/DEV/data/uk/common-masters/StateInfo.json) |
+| StateInfo.json | [https://github.com/egovernments/ukd-mdms-data/blob/DEV/data/uk/common-masters/StateInfo.json](https://github.com/egovernments/ukd-mdms-data/blob/DEV/data/uk/common-masters/StateInfo.json) |
 
