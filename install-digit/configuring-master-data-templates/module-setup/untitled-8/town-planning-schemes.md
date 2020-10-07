@@ -52,7 +52,7 @@ There is no separate entity-specific checklist for this entity.
 
 ## Attachments <a id="Attachments"></a>
 
-1. Configuration Data Template - Town planning Scheme
+{% file src="../../../../.gitbook/assets/configurable-data-template-scheme\_v1.xlsx" caption="Configuration Data Template " %}
 
-    2. Sample Configuration Data - Town planning Scheme
+{% file src="../../../../.gitbook/assets/town-planning-scheme-sample.xlsx" caption="Sample Data" %}
 
