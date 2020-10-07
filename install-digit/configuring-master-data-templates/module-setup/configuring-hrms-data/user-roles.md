@@ -1,10 +1,10 @@
 # User Roles
 
-## Introduction <a id="Introduction"></a>
+### Introduction
 
 A user role defines permissions for users to perform a group of tasks. In a default application installation, there are some predefined roles with a predefined set of permissions. Each role has a certain number set of tasks it is allowed to perform and these roles are Super Admin, Trade License Approver, Data Entry Admin and Trade License document verifier etc.
 
-## Data Table <a id="Data-Table"></a>
+### Data Table
 
 | Sr. No. | Code\* | Name\* | Description |
 | :--- | :--- | :--- | :--- |
@@ -12,11 +12,13 @@ A user role defines permissions for users to perform a group of tasks. In a defa
 | 2 | GRO | Grievance Routing Officer | Grievance Routing Officer |
 | 3 | CSR | Customer Support Representative | An employee who files and follows up complaints on behalf of the citizen |
 
-Note: Data given in the table is a sample data.
+{% hint style="info" %}
+Data given in the table is sample data for reference.
+{% endhint %}
 
-## Procedure <a id="Procedure"></a>
+### Procedure
 
-### Data Definition <a id="Data-Definition"></a>
+#### Data Definition
 
 | Sr. No. | Column Name | Data Type | Data Size | Is Mandatory? | Definition/ Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -24,7 +26,7 @@ Note: Data given in the table is a sample data.
 | 2 | Name | Text | 256 | Yes | The Name indicates the User Role while creating an employee a role can be assigned to an individual employee |
 | 3 | Description | Text | 256 | No | A short narration provided to the user role name |
 
-### Steps to fill data <a id="Steps-to-fill-data"></a>
+#### Steps to fill data
 
 1. Download the data template attached to this page.
 2. Have it open and go through all the headers and understand the meaning of them by referring 'Data Definition' section.
@@ -33,19 +35,19 @@ Note: Data given in the table is a sample data.
 5. Start filling the data starting from serial no. and complete a record at once. repeat this exercise until the entire data is filled into a template.
 6. Verify the data once again by going through the checklist and taking care of each and every point mentioned in the checklist.
 
-## Checklist <a id="Checklist"></a>
+### Checklist
 
 The checklist is a set of activities to be performed once the data is filled into a template to ensure data type, size, and format of data is as per the expectation. These activities have been divided into 2 groups as given below.
 
-### Common Checklist <a id="Common-Checklist"></a>
+#### Common Checklist
 
 This checklist covers all the activities which are common across the entities.
 
 | Sr. No | Checklist Parameter | Example |
 | :--- | :--- | :--- |
-| 1 | Make sure that each and every point in this reference list has been taken care of | [Checklist](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/502203140/Checklist) |
+| 1 | Make sure that each and every point in this reference list has been taken care of | [Checklist](../untitled-1/checklist.md) |
 
-### Entity Specific Checklist <a id="Entity-Specific-Checklist"></a>
+#### Entity Specific Checklist
 
 This checklist covers the activities which are specific to the entity.
 
@@ -74,7 +76,7 @@ This checklist covers the activities which are specific to the entity.
   </tbody>
 </table>
 
-## Attachments <a id="Attachments"></a>
+### Attachments
 
 {% file src="../../../../.gitbook/assets/configuration-data-template-user-roles.xlsx" caption="Configuration Data Template " %}
 

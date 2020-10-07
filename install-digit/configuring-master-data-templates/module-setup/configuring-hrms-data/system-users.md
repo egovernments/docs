@@ -1,23 +1,25 @@
 # System Users
 
-## Introduction <a id="Introduction"></a>
+### Introduction
 
 A system user is a person who uses the application service. A user often has a user account and is identified to the system by a username. A user is a person who accesses a particular application to perform a set of actions.
 
 Each user has a certain number of set tasks, the user would be allowed to perform a task by assigning particular roles which are Super Admin, Trade License Approver, Data Entry Admin and Trade License document verifier etc.
 
-## Data Table <a id="Data-Table"></a>
+### Data Table
 
 | Sl No. | Name\* | Mobile No\* | Father/Husband's Name \* | Gender \* | Date of Birth\* | Email | Correspondence Address \* | ULB\* | Role\* | Employment Type \* | Current Assignment | Status \* | Hierarchy \* | Boundary Type \* | Boundary \* | Assigned from Date\* | Department\* | Designation\* |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | Pooja | 9999999999 | Mr.Bala Chandra | FEMALE | 22/01/1987 | [poojachandra914@gmail.com](mailto:poojachandra914@gmail.com) | Nagar Nigam Haldwani-PIN CODE-263139 | Haldwani | Super User | PERMANENT | Yes | EMPLOYED | REVENUE | City | Haldwani | 05/10/2019 | Revenue | Tax Inspector |
 | 2 | M.C. Joshi | 9999999999 | Late Jai Dutt Joshi | MALE | 04/08/1965 | [haldwaninagarnigam@gmail.com](mailto:haldwaninagarnigam@gmail.com) | Nagar Nigam Haldwani | Haridwar | TL Counter Employee | PERMANENT | Yes | EMPLOYED | REVENUE | City | Haldwani | 30/10/2019 | Revenue | Tax Collector |
 
-Note: Data given in the table is a sample data.
+{% hint style="info" %}
+Data given in the table is sample data for reference.
+{% endhint %}
 
-## Procedure <a id="Procedure"></a>
+### Procedure
 
-### Data Definition <a id="Data-Definition"></a>
+#### Data Definition
 
 | Sr No | Column Name | Data Type | Data Size | Is Mandatory? | Definition/ Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -29,7 +31,7 @@ Note: Data given in the table is a sample data.
 | 6 | Email | Alphanumeric | 256 | No | The email id of his/her, this email id is linked to receiving all the official communication from the customers and other counterparts |
 | 7 | Correspondence Address | Text | 256 | Yes | The address of his/her, this information is saved for internal records |
 | 8 | ULB | Text | 256 | Yes | A ULB to be assigned against the individual employee, So that the assigned role can perform his/her duty within that assigned ULB |
-| 9 | Role | Text | 256 | Yes | A Role is a permission for users to perform a group of tasks, a role is assigned to the user to perform a function within the application. A user can be assigned multiple roles. Click[ User Roles](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/428769455/User+Roles) for the Role master Data |
+| 9 | Role | Text | 256 | Yes | A Role is a permission for users to perform a group of tasks, a role is assigned to the user to perform a function within the application. A user can be assigned multiple roles. Click [User Roles](user-roles.md) for the Role master Data |
 | 10 | Employment Type | Text | 256 | Yes | The employment types indicate the type of contract which he/she hold with the organization. This indicates whether he/she is a permanent employee or a contract employee for short period. The employment type “Permanent”, “Temporary”, “DailyWages” and “Contract” either one should be selected |
 | 11 | Current Assignment | Text | 64 | Yes | The current assignment type to indicate whether the employee is currently assigned to a particular department and designation. A user can be also be assigned multiple assignments to perform his/her function |
 | 12 | Status | Text | 256 | Yes | The Status indicates the type of status which he/she hold, whether employed or not within the organization |
@@ -40,7 +42,7 @@ Note: Data given in the table is a sample data.
 | 17 | Department | Text | 256 | Yes | The Department indicates the particular department to which his/her role is assigned |
 | 18 | Designation | Text | 256 | Yes | The designation indicates a particular designation is assigned to his/her role |
 
-### Steps to fill data <a id="Steps-to-fill-data"></a>
+#### Steps to fill data
 
 1. Download the data template attached to this page.
 2. Have it open and go through all the headers and understand the meaning of them by referring 'Data Definition' section.
@@ -48,11 +50,11 @@ Note: Data given in the table is a sample data.
 4. Start filling the data starting from serial no. and complete a record at once. repeat this exercise until the entire data is filled into a template.
 5. Verify the data once again by going through the checklist and taking care of each and every point mentioned in the checklist.
 
-## Checklist <a id="Checklist"></a>
+### Checklist
 
 The checklist is a set of activities to be performed once the data is filled into a template to ensure data type, size, and format of data is as per the expectation. These activities have been divided into 2 groups as given below.
 
-### Common Checklist <a id="Common-Checklist"></a>
+#### Common Checklist
 
 This checklist covers all the activities which are common across the entities.
 
@@ -60,7 +62,7 @@ This checklist covers all the activities which are common across the entities.
 | :--- | :--- | :--- |
 | 1 | Make sure that each and every point in this reference list has been taken care of | [Checklist](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/502203140/Checklist) |
 
-### Entity Specific Checklist <a id="Entity-Specific-Checklist"></a>
+#### Entity Specific Checklist
 
 This checklist covers the activities which are specific to the entity.
 
@@ -101,7 +103,7 @@ This checklist covers the activities which are specific to the entity.
   </tbody>
 </table>
 
-## Attachments <a id="Attachments"></a>
+### Attachments
 
 {% file src="../../../../.gitbook/assets/configuration-data-template-system-user.xlsx" caption="Configuration Data Template " %}
 
