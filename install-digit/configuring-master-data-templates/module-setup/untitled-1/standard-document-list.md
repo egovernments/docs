@@ -1,10 +1,10 @@
 # Standard Document List
 
-## Introduction <a id="Introduction"></a>
+### Introduction
 
 Document list represents the documents which are needed to avail a service across the modules. Mostly these are standard documents issued by various government departments.
 
-## Standard Documents <a id="Standard-Documents"></a>
+### Standard Documents
 
 | Sr. No. | Code | Document Name | Purpose | Description |
 | :--- | :--- | :--- | :--- | :--- |

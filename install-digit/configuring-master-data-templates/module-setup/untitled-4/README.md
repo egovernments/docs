@@ -1,10 +1,10 @@
 # Configuring Sewerage Charges Data
 
-## Introduction <a id="Introduction"></a>
+### Introduction
 
 The Sewerage Charges module offers a consolidated platform for managing new and existing sewerage connections. The module eliminates the need for manual processing and streamlines the key sewerage management functions for operational efficiency. DIGIT Water & Sewerage \(W&S\) module enables automated processing of new connection requests, generating water bills, and facilitating online payment of bills.
 
-## Module Features <a id="Module-Features"></a>
+### Module Features
 
 DIGIT Sewerage Charges module enables citizens to -
 
@@ -21,19 +21,19 @@ DIGIT Sewerage module enables employees at ULB and State level to -
 3. View custom dashboards for module statistics.
 4. Filter search results using advanced configurable search parameters.
 
-## Module Ontology <a id="Module-Ontology"></a>
+### Module Ontology
 
-### State Level <a id="State-Level"></a>
+#### State Level
 
 None
 
-### ULB Level <a id="ULB-Level"></a>
+#### ULB Level
 
-1. [Sewerage Rates](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/484540442/Sewerage+Rates)
-2. [Sewerage Penalty Rates](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/484573298/Sewerage+Penalty+Rates)
-3. [Sewerage Interest Rates](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/484606094/Sewerage+Interest+Rates)
+1. [Sewerage Rates](sewerage-rates.md)
+2. [Sewerage Penalty Rates](sewerage-penalty-rates.md)
+3. [Sewerage Interest Rates](sewerage-interest-rates.md)
 
-### Module Reports <a id="Module-Reports"></a>
+### Module Reports
 
 None
 

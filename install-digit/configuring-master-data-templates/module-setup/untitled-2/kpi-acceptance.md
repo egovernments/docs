@@ -1,12 +1,12 @@
 # KPI Acceptance
 
-
+### Introduction
 
 Key Performance Indicators\(KPI\) are a way of showing certain insights from the data available which would help the key management authorities to take important business decisions in order to improve the business, enhance the business process and help the people improve the way of functioning. This exercise largely becomes dependent on the data.
 
 The insight could be shown in various available forms such as line graph, bar graph or a tabular format.
 
-## Data Table <a id="Data-Table"></a>
+### Data Table
 
 <table>
   <thead>
@@ -33,24 +33,20 @@ The insight could be shown in various available forms such as line graph, bar gr
       <td style="text-align:left">Showing the status of closed complaints over a year month-wise</td>
     </tr>
     <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
       <td style="text-align:left">Pie Chart</td>
       <td style="text-align:left">Showing the various type of complaints</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
     </tr>
     <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
       <td style="text-align:left">Metric</td>
       <td style="text-align:left">Showing the rate of different complaint status by percentage in a tabular
         format</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left">
-        <ol>
-          <li></li>
-        </ol>
-      </td>
+      <td style="text-align:left">2.</td>
       <td style="text-align:left">Property Tax</td>
       <td style="text-align:left">Horizontal Bar Graph</td>
       <td style="text-align:left">Showing the various information about property application status month-wise
@@ -59,9 +55,9 @@ The insight could be shown in various available forms such as line graph, bar gr
   </tbody>
 </table>
 
-## Procedure <a id="Procedure"></a>
+### Procedure
 
-### Data Definition <a id="Data-Definition"></a>
+#### Data Definition
 
 | Sr. No. | Column Name | Data Type | Data Size | Mandatory | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -69,7 +65,7 @@ The insight could be shown in various available forms such as line graph, bar gr
 | 2 | KPI Chart Type | Text | 256 | Yes | The type of chart which has to display information |
 | 3 | Description | Text | 256 | Yes | A brief description of the information that the chart has to display. Steps to fill Data |
 
-### Steps to fill Data <a id="Steps-to-fill-Data"></a>
+#### Steps to fill Data
 
 1. Download the data template attached to this page.
 2. Get a good understanding of all the headers in the template sheet, their data type, size, and definitions by referring to the ‘Data Definition’ section of this document.
@@ -79,15 +75,15 @@ The insight could be shown in various available forms such as line graph, bar gr
 6. After which the gather the information for various chart types and the information that the chart types have to display in the description column.
 7. Verify the data once again by going through the checklist and making sure that each and every point mentioned in the checklist is covered.
 
-## Checklist <a id="Checklist"></a>
+### Checklist
 
 This checklist covers all the activities which are common across the entities.
 
 | Sr. No. | Checklist Parameter | Example |
 | :--- | :--- | :--- |
-| 1 | Make sure that each and every point in this reference list has been taken care of | [Checklist](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/502203140/Checklist) |
+| 1 | Make sure that each and every point in this reference list has been taken care of | [Checklist](../untitled-1/checklist.md) |
 
-### Entity Specific Checklist <a id="Entity-Specific-Checklist"></a>
+#### Entity Specific Checklist
 
 This checklist covers the activities which are specific to the entity:
 
@@ -113,7 +109,7 @@ This checklist covers the activities which are specific to the entity:
   </tbody>
 </table>
 
-## Attachment <a id="Attachment"></a>
+### Attachment
 
 {% file src="../../../../.gitbook/assets/configurable-data-template-kpi-acceptance-v1.xlsx" caption="Configuration Data Template " %}
 

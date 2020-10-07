@@ -1,10 +1,10 @@
 # Workflow Levels
 
-## Introduction <a id="Introduction"></a>
+### Introduction
 
 Workflow levels are defined for a service with Rights/Role to perform a set of Workflow Actions. There would one or more than one levels involved in a workflow process. This page helps to understand and then define all the levels with its job description and fill in a standard template.
 
-## Data Table <a id="Data-Table"></a>
+### Data Table
 
 | Sr. No. | Module | Service | Workflow Level | Task | Role |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -14,11 +14,13 @@ Workflow levels are defined for a service with Rights/Role to perform a set of W
 | 4 | Finance | Bill Accounting | Level 4 | Verify the Bill | Chief Accountant |
 | 5 | Finance | Bill Accounting | Level 5 | Approval | Approver |
 
-Note: Data given in the above table is sample data.
+{% hint style="info" %}
+Data given in the above table is sample data.
+{% endhint %}
 
-## Procedure <a id="Procedure"></a>
+### Procedure
 
-### Data Definition <a id="Data-Definition"></a>
+#### Data Definition
 
 | Sr. No. | Column Name | Data Type | Data Size | Is Mandatory? | Definition/ Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -28,7 +30,7 @@ Note: Data given in the above table is sample data.
 | 4 | Task | Text | 64 | Yes | The task refers to which state the action is in progress during the workflow |
 | 5 | Job Description | Text | 256 | Yes | A short description provided for the role \(Example: Designation of the Role\) |
 
-### Step to fill data <a id="Step-to-fill-data"></a>
+#### Step to fill data
 
 1. Download the data template attached to this page.
 2. Have it open and go through all the headers and understand the meaning of them by referring 'Data Definition' section.
@@ -37,11 +39,11 @@ Note: Data given in the above table is sample data.
 5. Start filling the data starting from serial no. and complete a record at once. repeat this exercise until the entire data is filled into a template.
 6. Verify the data once again by going through the checklist and taking care of each and every point mentioned in the checklist.
 
-## Checklist <a id="Checklist"></a>
+### Checklist
 
 The checklist is a set of activities to be performed once the data is filled into a template to ensure data type, size, and format of data is as per the expectation. These activities have been divided into 2 groups as given below.
 
-### Common Checklist <a id="Common-Checklist"></a>
+#### Common Checklist
 
 This checklist covers all the activities which are common across the entities.
 
@@ -49,11 +51,11 @@ This checklist covers all the activities which are common across the entities.
 | :--- | :--- | :--- |
 | 1 | Make sure that each and every point in this reference list has been taken care of | [Checklist](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/502203140/Checklist) |
 
-### Entity Specific Checklist <a id="Entity-Specific-Checklist"></a>
+#### Entity Specific Checklist
 
 Please discuss with a relevant department head before finalizing the workflow.
 
-## Attachments <a id="Attachments"></a>
+### Attachments
 
 {% file src="../../../../.gitbook/assets/workflowtemplate\_v2.xlsx" caption="Workflow Template" %}
 

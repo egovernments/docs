@@ -1,31 +1,33 @@
 # Sewerage Rates
 
-## Introduction <a id="Introduction"></a>
+### Introduction
 
 Sewerage Charges are recurring charges levied for a pre-defined billing period. The billing period is configurable as per the state or ULB requirement. The rate for calculation of sewerage charges can vary widely and is dependent upon various parameters. For instance, they can be dependent either upon plot size slab combined with property usage type or solely dependent upon property usage type. In some cases, sewerage charges can also be levied as a percentage of water charges.
 
-## Data Table <a id="Data-Table"></a>
+### Data Table
 
 | Sr. No. | \*Property Usage Type | \*Property size slab from \(units\) | \*Property size slab to \(units\) | \*Percentage of water charges \(%\) | \*Flat fee \(in Rs\) | \*Rate |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | Residential | 1 | 150 | 30 | 200 | 5 |
 | 2  | Residential | 151 | 300 | 40 | 500 | 10 |
 
-Note: The above table contains sample data for sewerage rates.
+{% hint style="info" %}
+Data given in the table is sample data for reference.
+{% endhint %}
 
-## Procedure <a id="Procedure"></a>
+### Procedure
 
-### Data Definition <a id="Data-Definition"></a>
+#### Data Definition
 
 | Sr. No. | Column Name | Data Type | Data Size | Mandatory | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | Property usage type | Text | 64 | Yes | Refer to [property usage type](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/413958414/Usage+Category+Major) |
+| 1 | Property usage type | Text | 64 | Yes | Refer to[ property usage type](../untitled-11/building-usage-type.md) |
 | 2 | Slab \(Property size value\) | Decimal | \(10,2\) | Yes | From and to value for property size |
 | 3 | Flat fee | Decimal | \(3,2\) | Yes | Flat sewerage charges collected based on property usage type |
 | 4 | Percentage of water charges | Decimal | \(3,2\) | Yes | Percent value |
 | 5 | Rate | Decimal | \(3,2\) | Yes | Consumption charges per unit corresponding to the usage type |
 
-### Steps to fill data <a id="Steps-to-fill-data"></a>
+#### Steps to fill data
 
 1. Download the data template attached to this page.
 2. Refer to the ‘Data Definition’ section of this document to learn more about the template sheet, data type, size, and definitions.
@@ -37,23 +39,23 @@ Note: The above table contains sample data for sewerage rates.
 8. Enter the corresponding consumption Rate per unit.
 9. Verify the data once again by going through the checklist and making sure that each and every point mentioned in the checklist is covered.
 
-## Checklist <a id="Checklist"></a>
+### Checklist
 
 The checklist contains a set of activities to be performed once the data is filled into a template to ensure data entry requirements are met. These activities have been divided into 2 groups as given below.
 
-### Common Checklist <a id="Common-Checklist"></a>
+#### Common Checklist
 
 This checklist covers all the activities which are common across the entities.
 
 | Sr. No. | Checklist Parameter | Example |
 | :--- | :--- | :--- |
-| 1 | Make sure that each and every point in this reference list has been taken care of | [Checklist](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/502203140/Checklist) |
+| 1 | Make sure that each and every point in this reference list has been taken care of | [Checklist](../untitled-1/checklist.md) |
 
-### Entity Specific Checklist <a id="Entity-Specific-Checklist"></a>
+#### Entity Specific Checklist
 
 Separate Entity Specific Checklist is not required for this module data.
 
-## Attachments <a id="Attachments"></a>
+### Attachments
 
 {% file src="../../../../.gitbook/assets/configuration-data-template-sewerage-rates.xlsx" caption="Configuration Data Template " %}
 

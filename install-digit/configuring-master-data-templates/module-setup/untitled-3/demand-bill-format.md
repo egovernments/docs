@@ -1,12 +1,12 @@
 # Demand Bill Format
 
-## Introduction <a id="Introduction"></a>
+### Introduction
 
 Bill format can be configured on a module level. Few components on the DIGIT sample bill can be configured on a state level and few at ULB level. Components that can be changed on a module level can be categorized as mentioned:
 
 1. Important messages: Values can be configured on a module level - state level
 
-## Data Table <a id="Data-Table"></a>
+### Data Table
 
 <table>
   <thead>
@@ -31,11 +31,13 @@ Bill format can be configured on a module level. Few components on the DIGIT sam
   </tbody>
 </table>
 
-Note: Data given in the above table is a sample data.
+{% hint style="info" %}
+Data given in the table is sample data for reference.
+{% endhint %}
 
-## Procedure <a id="Procedure"></a>
+### Procedure
 
-### Data Definition <a id="Data-Definition"></a>
+#### Data Definition
 
 | Sr. No. | Column Name | Data Type | Data Size | Mandatory | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -43,7 +45,7 @@ Note: Data given in the above table is a sample data.
 | 2 | Particulars | Alphanumeric | 256 | Yes | Each category can have multiple entries under it, ie particulars |
 | 3 | Business | Text | 64 | Yes | The business for which the Bill format is to be configured |
 
-### How to fill data <a id="How-to-fill-data"></a>
+#### How to fill data
 
 1. Download the data template attached to this page.
 2. Get a good understanding of all the headers in the template sheet, their data type, size, and definitions by referring to the ‘Data Definition’ section of this document.
@@ -53,23 +55,23 @@ Note: Data given in the above table is a sample data.
 6. Map the particulars under each category with DIGIT sample bill
 7. Verify the data once again by going through the checklist and making sure that each and every point mentioned in the checklist is covered.
 
-## Checklist <a id="Checklist"></a>
+### Checklist
 
 The checklist is a set of activities to be performed one the data is filled into a template to ensure data type, size, and format of data is as per the expectation. These activities have been divided into 2 groups as given below.
 
-### Common Checklist <a id="Common-Checklist"></a>
+#### Common Checklist
 
 This checklist covers all the activities which are common across the entities.
 
 | Sr. No. | Checklist Parameter | Example |
 | :--- | :--- | :--- |
-| 1 | Make sure that each and every point in this reference list has been taken care of | [Checklist](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/502203140/Checklist) |
+| 1 | Make sure that each and every point in this reference list has been taken care of | [Checklist](../untitled-1/checklist.md) |
 
-### Entity Specific Checklist <a id="Entity-Specific-Checklist"></a>
+#### Entity Specific Checklist
 
 Entity Specific Checklist is not required separately.
 
-## Attachments <a id="Attachments"></a>
+### Attachments
 
 {% file src="../../../../.gitbook/assets/configuration-data-template-demand-bill-format.xlsx" caption="Configuration Data Template " %}
 
