@@ -70,10 +70,7 @@ description: DIGIT 2.0 - Technical Details of the Changes
   <tbody>
     <tr>
       <td style="text-align:left">W&amp;S</td>
-      <td style="text-align:left">
-        <p></p>
-        <p>helm/charts/municipal-services/sw-services/values.yaml</p>
-      </td>
+      <td style="text-align:left">helm/charts/municipal-services/sw-services/values.yaml</td>
       <td style="text-align:left">Removed the following details from values.yml</td>
       <td style="text-align:left"><code>scid-format: &quot;SW/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]&quot;</code>
       </td>
@@ -109,20 +106,14 @@ description: DIGIT 2.0 - Technical Details of the Changes
     </tr>
     <tr>
       <td style="text-align:left"></td>
-      <td style="text-align:left">
-        <p></p>
-        <p>helm/environments/qa.yaml</p>
-      </td>
+      <td style="text-align:left">helm/environments/qa.yaml</td>
       <td style="text-align:left">Change the key from allowed-file-formats: to <b>allowed-file-formats-map</b>
       </td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left"></td>
-      <td style="text-align:left">
-        <p></p>
-        <p>helm/charts/municipal-services/firenoc-services/values.yaml</p>
-      </td>
+      <td style="text-align:left">helm/charts/municipal-services/firenoc-services/values.yaml</td>
       <td style="text-align:left">Added EGOV_DEFAULT_STATE_ID in fire NOC environment file to pick up proper
         tenant during search call</td>
       <td style="text-align:left"></td>
@@ -331,7 +322,6 @@ description: DIGIT 2.0 - Technical Details of the Changes
       <td style="text-align:left">
         <p><a href="https://github.com/egovernments/configs/commit/47528052b4904ce5ab679324f13165458a83d05a">egov-bpa-indexer.yml</a>
         </p>
-        <p></p>
         <p><a href="https://github.com/egovernments/configs/commit/47528052b4904ce5ab679324f13165458a83d05a">rainmaker-bpastakeholder-indexer.yml</a>
         </p>
       </td>
