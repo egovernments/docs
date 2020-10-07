@@ -50,7 +50,7 @@ A separate entity-specific checklist is not needed for this module data.
 
 ## Attachments <a id="Attachments"></a>
 
-1. Configuration data template - Pipe Size Types
+{% file src="../../../../.gitbook/assets/configuration-data-template-pipe-size-types.xlsx" caption="Configuration Data Template " %}
 
-    2. Sample configuration data - Pipe Size Types
+{% file src="../../../../.gitbook/assets/sample-configuration-data-pipe-size-types.xlsx" caption="Sample Data" %}
 
