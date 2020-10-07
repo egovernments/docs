@@ -51,7 +51,9 @@ There is no separate entity-specific checklist for this entity.
 
 ## Attachment <a id="Attachment"></a>
 
-1. Configuration data template - Building Sub Occupancy
+{% file src="../../../../.gitbook/assets/configuration-data-template-building-sub-occupancy\_v1.xlsx" caption="Configuration Data Template" %}
 
-    2. Configuration sample data - Building Sub Occupancy
+{% file src="../../../../.gitbook/assets/sub-occupancy-sample-data.xlsx" caption="Sample Data" %}
+
+
 
