@@ -55,5 +55,5 @@ Please discuss with a relevant department head before finalizing the workflow.
 
 ## Attachments <a id="Attachments"></a>
 
-Enclosed Sample Template refers to “Workflow Level” tabWorkflowTemplate\_V2.xlsx27 KB
+{% file src="../../../../.gitbook/assets/workflowtemplate\_v2.xlsx" caption="Workflow Template" %}
 
