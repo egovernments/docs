@@ -53,7 +53,9 @@ There is no separate entity-specific checklist for this entity.
 
 ## Attachments <a id="Attachments"></a>
 
-1. Configurable data template - List of Services
+{% file src="../../../../.gitbook/assets/configuration-data-template-list-of-services-2-.xlsx" caption="Configuration Data Template" %}
 
-    2. Sample configurable data - List of services
+{% file src="../../../../.gitbook/assets/sample-configuration-data-list-of-services.xlsx" caption="Sample Data" %}
+
+
 
