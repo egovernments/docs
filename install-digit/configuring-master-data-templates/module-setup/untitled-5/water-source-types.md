@@ -49,7 +49,7 @@ A separate Entity Specific Checklist is not required for this module data.
 
 ## Attachments <a id="Attachments"></a>
 
-1. Configuration data template - Water source types
+{% file src="../../../../.gitbook/assets/configuration-data-template-water-source-types.xlsx" caption="Configuration Data Template " %}
 
-    2. Sample configuration data - Water source types
+{% file src="../../../../.gitbook/assets/sample-configuration-data-water-source-types.xlsx" caption="Sample Data" %}
 
