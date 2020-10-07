@@ -1,30 +1,32 @@
 # Water Rates \(Non-Metered\)
 
-## Introduction <a id="Introduction"></a>
+### Introduction
 
 Water Charges are recurring charges levied for a pre-defined billing period. The billing period is configurable as per the state or ULB requirement. The rate for calculation of water charges vary widely and is dependent upon various parameters. Charges for water are dependent upon either plot size slab or No. of taps combined with property usage type. In some cases, they can also be solely dependent upon the property usage type.
 
-## Data Table <a id="Data-Table"></a>
+### Data Table
 
 | Sr. No. | Property Usage Type\* | Property size value from \(units\) | Property size value to \(units\) | No. of taps | Rate |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | Residential | 1 | 150 | 1 | 200 |
 | 2  | Residential | 151 | 200 | 1 | 300 |
 
-Note: The table above contains sample non-metered water rates data.
+{% hint style="info" %}
+Data given in the table is sample data for reference.
+{% endhint %}
 
-## Procedure <a id="Procedure"></a>
+### Procedure
 
-### Data Definition <a id="Data-Definition"></a>
+#### Data Definition
 
 | Sr. No. | Column Name | Data Type | Data Size | Mandatory | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | Property usage type | Alphanumeric | 64 | Yes | Specifies the [property usage type](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/413958414/Usage+Category+Major) |
+| 1 | Property usage type | Alphanumeric | 64 | Yes | Specifies the[ property usage type](../untitled-11/building-usage-type.md) |
 | 2 | Slab \(Property size value\) | Decimal | \(10,2\) | Yes | From and to value for property size |
 | 3 | No. of Taps | Integer | 2 | Yes | No. of Taps to be recorded for calculation of water charges |
 | 4 | Rate | Decimal | \(3,2\) | Yes | Consumption charges per unit corresponding to the usage type |
 
-### Steps to fill data <a id="Steps-to-fill-data"></a>
+#### Steps to fill data
 
 1. Download the data template attached to this page.
 2. Refer to the ‘Data Definition’ section of this document to learn more about the template sheet, data type, size, and definitions.
@@ -35,23 +37,23 @@ Note: The table above contains sample non-metered water rates data.
 7. Enter the Rate or the per-unit water consumption charges that will be applicable for the listed parameters.
 8. Verify the data once again by going through the checklist and making sure that each and every point mentioned in the checklist is covered.
 
-## Checklist <a id="Checklist"></a>
+### Checklist
 
 The checklist contains a set of activities to be performed once the data is filled into a template to ensure data entry requirements are met. These activities have been divided into 2 groups as given below.
 
-### Common Checklist <a id="Common-Checklist"></a>
+#### Common Checklist
 
 This checklist covers all the activities which are common across the entities.
 
 | Sr. No. | Checklist Parameter | Example |
 | :--- | :--- | :--- |
-| 1 | Make sure that each and every point in this reference list has been taken care of | [Checklist](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/502203140/Checklist) |
+| 1 | Make sure that each and every point in this reference list has been taken care of | [Checklist](../untitled-1/checklist.md) |
 
-### Entity Specific Checklist <a id="Entity-Specific-Checklist"></a>
+#### Entity Specific Checklist
 
 Separate Entity Specific Checklist is not required for this module data.
 
-## Attachments <a id="Attachments"></a>
+### Attachments
 
 {% file src="../../../../.gitbook/assets/sample-configuration-data-water-rates-non-metered-.xlsx" caption="Sample Data" %}
 

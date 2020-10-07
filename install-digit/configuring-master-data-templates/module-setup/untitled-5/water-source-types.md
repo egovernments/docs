@@ -1,28 +1,30 @@
 # Water Source Types
 
-## Introduction <a id="Introduction"></a>
+### Introduction
 
 There are two reasons for recording the water source. One is to measure availability vs consumption. And, the other is to monitor the water quality. Each ULB captures this information. Hence, the water source details are configurable at the ULB level. ULBs can configure water source data at two levels - water source and water sub source.
 
-## Data Table <a id="Data-Table"></a>
+### Data Table
 
 | Sr. No. | \*Water source | \*Water sub source |
 | :--- | :--- | :--- |
 | 1 | Ground | Well |
 |  2 | Ground  | Hand-pump |
 
-Note: The table above contains sample water source data.
+{% hint style="info" %}
+Data given in the table is sample data for reference.
+{% endhint %}
 
-## Procedure <a id="Procedure"></a>
+### Procedure
 
-### Data Definition <a id="Data-Definition"></a>
+#### Data Definition
 
 | Sr. No. | Column Name | Data Type | Data Size | Mandatory | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | Water source | Text | 64 | Yes | Water source major category |
 | 2 | Water sub source | Text | 64 | Yes | Water source minor category |
 
-### Steps to fill data <a id="Steps-to-fill-data"></a>
+#### Steps to fill data
 
 1. Download the data template attached to this page.
 2. Refer to the ‘Data Definition’ section of this document for more details on data type, size, and definitions.
@@ -31,11 +33,11 @@ Note: The table above contains sample water source data.
 5. Enter the corresponding Water Sub Source. This will map the water sub source to the specified water source.
 6. Verify the data once again by going through the checklist and making sure that each and every point mentioned in the checklist is covered.
 
-## Checklist <a id="Checklist"></a>
+### Checklist
 
 The checklist is a set of activities to be performed one the data is filled into a template to ensure data entry requirements are met. These activities have been divided into 2 groups as given below.
 
-### Common Checklist <a id="Common-Checklist"></a>
+#### Common Checklist
 
 This checklist covers all the activities which are common across the entities.
 
@@ -43,11 +45,11 @@ This checklist covers all the activities which are common across the entities.
 | :--- | :--- | :--- |
 | 1 | Make sure that each and every point in this reference list has been taken care of | [Checklist](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/502203140/Checklist) |
 
-### Entity Specific Checklist <a id="Entity-Specific-Checklist"></a>
+#### Entity Specific Checklist
 
 A separate Entity Specific Checklist is not required for this module data.
 
-## Attachments <a id="Attachments"></a>
+### Attachments
 
 {% file src="../../../../.gitbook/assets/configuration-data-template-water-source-types.xlsx" caption="Configuration Data Template " %}
 

@@ -1,10 +1,10 @@
 # Configuring Water Charges Data
 
-## Introduction <a id="Introduction"></a>
+### Introduction
 
 The Water Charges module offers a consolidated platform for managing new and existing water connections. The module eliminates the need for manual processing and streamlines the key water management functions for operational efficiency. DIGIT Water & Sewerage \(W&S\) module enables automated processing of new connection requests, generating water bills, and facilitating online payment of bills.
 
-## Module Features <a id="Module-Features"></a>
+### Module Features
 
 DIGIT Water Charges module enables citizens to -
 
@@ -21,22 +21,22 @@ DIGIT Water module enables employees at ULB and State level to -
 3. View custom dashboards for module statistics.
 4. Filter search results using advanced configurable search parameters.
 
-## Module Ontology <a id="Module-Ontology"></a>
+### Module Ontology
 
-### State Level <a id="State-Level"></a>
+#### State Level
 
 None
 
-### ULB Level <a id="ULB-Level"></a>
+#### ULB Level
 
-1. [Pipe Size Types](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/484409363/Pipe+Size+Types)
-2. [Water Source Types](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/484343881/Water+Source+Types)
-3. [Water Rates \(metered\)](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/484540435/Water+Rates+Metered)
-4. [Water Rates \(non-metered\)](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/484606057/Water+Rates+Non-metered)
-5. [Water Penalty Rates](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/484474949/Water+Penalty+Rates)
-6. [Water Interest Rates](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/484507694/Water+Interest+Rates)
+1. [Pipe Size Types](pipe-size-types.md)
+2. [Water Source Types](water-source-types.md)
+3. [Water Rates \(metered\)](water-rates-metered.md)
+4. [Water Rates \(non-metered\)](water-rates-non-metered.md)
+5. [Water Penalty Rates](water-penalty-rates.md)
+6. [Water Interest Rates](water-interest-rates.md)
 
-## Module Reports <a id="Module-Reports"></a>
+### Module Reports
 
 None
 
