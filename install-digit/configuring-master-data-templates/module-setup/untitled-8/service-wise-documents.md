@@ -50,7 +50,7 @@ There is no separate entity-specific checklist for this entity.
 
 ## Attachments <a id="Attachments"></a>
 
-1. Configuration Data Template - Service-wise documents
+{% file src="../../../../.gitbook/assets/sample-configuration-data-service-documents.xlsx" caption="Sample Data" %}
 
-    2. Sample Configuration Data - Service-wise documents
+{% file src="../../../../.gitbook/assets/configuration-data-template-service-documents\_v1.xlsx" caption="Configuration data template" %}
 
