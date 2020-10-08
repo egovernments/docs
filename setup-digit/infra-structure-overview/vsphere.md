@@ -65,6 +65,7 @@ The VSphere user must have the following permissions on the correct resources
         * Add or remove the device
         * Remove disk
     * Folder
+
       * Create folder
       * Delete folder
 * Role `k8c-storage-datastore-propagate`
