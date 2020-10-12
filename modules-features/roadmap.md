@@ -149,7 +149,7 @@ EoDB mandates the following details about a Property should be verifiable inform
 
 * Upgrades to Product and Technical Documentation, Templates, Release Documentation
 * Knowledge repository setup for internal users and Partners
-* Self help demo setup
+* Self-help demo setup
 * Product Training material
 {% endhint %}
 
