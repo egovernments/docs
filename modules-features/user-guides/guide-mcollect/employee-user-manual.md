@@ -19,7 +19,7 @@ The counter employees collect and process the miscellaneous payments on behalf o
 * Print receipts
 * Download payment receipts
 
-## **Collect Payment**
+### **Collect Payment**
 
 CE can process and collect payments for miscellaneous services through the DIGIT web portal or the DIGIT mobile app. To process a new payment navigate to the **Universal Collections** option in the sidebar main menu.
 
@@ -63,7 +63,7 @@ Click on the **Generate Receipt** button once the payment is collected or proces
 
 Click on the **Download** button to download/view the receipt. Click on the **Print** button to print the receipt.
 
-## **Search Receipts**
+### **Search Receipts**
 
 To search for payment receipts navigate to the Universal Collections page in the sidebar main menu.
 
