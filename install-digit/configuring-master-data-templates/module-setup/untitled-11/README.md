@@ -1,4 +1,4 @@
-# Configuring Fire NOC Data
+# Fire NOC Data Templates
 
 ### Introduction
 

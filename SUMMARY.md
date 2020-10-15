@@ -127,7 +127,7 @@
         * [Grievance Sub Type](install-digit/configuring-master-data-templates/module-setup/untitled-12/grievance-sub-type.md)
         * [Routing Matrix](install-digit/configuring-master-data-templates/module-setup/untitled-12/routing-matrix.md)
         * [Escalation Matrix](install-digit/configuring-master-data-templates/module-setup/untitled-12/escalation-matrix.md)
-      * [Configuring Fire NOC Data](install-digit/configuring-master-data-templates/module-setup/untitled-11/README.md)
+      * [Fire NOC Data Templates](install-digit/configuring-master-data-templates/module-setup/untitled-11/README.md)
         * [Building Usage Type](install-digit/configuring-master-data-templates/module-setup/untitled-11/building-usage-type.md)
         * [Building Sub Usage Type](install-digit/configuring-master-data-templates/module-setup/untitled-11/building-usage-sub-type.md)
         * [Fire Station Master](install-digit/configuring-master-data-templates/module-setup/untitled-11/fire-station-master.md)
