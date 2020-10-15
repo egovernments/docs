@@ -1,4 +1,4 @@
-# Configuring Web Portals
+# Web Portals Templates
 
 States and ULBs can configure their web portal to deploy the DIGIT portal effectively. State-level and ULB level web portal configuration details are covered in this section. 
 

@@ -1,4 +1,4 @@
-# Configuring mCollect Data
+# mCollect Data Templates
 
 ### Introduction
 

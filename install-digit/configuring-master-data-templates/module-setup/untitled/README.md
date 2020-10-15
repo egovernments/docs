@@ -1,4 +1,4 @@
-# Configuring Workflow Data
+# Workflow Data Templates
 
 A **workflow process** is a series of sequential tasks that are carried out based on user-**defined** rules or conditions, to execute a business **process**. It is a collection of data, rules, and tasks that need to be completed to achieve a certain business outcome.
 

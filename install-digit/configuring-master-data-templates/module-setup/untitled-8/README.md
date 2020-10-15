@@ -1,4 +1,4 @@
-# Configuring OBPAS Data
+# OBPAS Data Templates
 
 ### Introduction
 

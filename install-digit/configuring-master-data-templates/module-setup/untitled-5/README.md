@@ -1,4 +1,4 @@
-# Configuring Water Charges Data
+# Water Charges Data Templates
 
 ### Introduction
 

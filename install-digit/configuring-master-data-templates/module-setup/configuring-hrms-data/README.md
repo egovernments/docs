@@ -1,4 +1,4 @@
-# Configuring HRMS Data
+# HRMS Data Templates
 
 ### Introduction
 

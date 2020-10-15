@@ -1,4 +1,4 @@
-# Configuring Sewerage Charges Data
+# Sewerage Charges Data Templates
 
 ### Introduction
 

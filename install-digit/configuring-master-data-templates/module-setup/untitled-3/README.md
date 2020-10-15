@@ -1,4 +1,4 @@
-# Configuring Billing And Payments Data
+# Billing And Payments Data Templates
 
 ### Introduction
 

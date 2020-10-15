@@ -1,4 +1,4 @@
-# Configuring Finance Data
+# Finance Data Templates
 
 ### Introduction
 
