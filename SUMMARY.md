@@ -74,7 +74,7 @@
     * [Adding New Master](install-digit/setting-up-master-data/adding-new-master.md)
     * [Configuring Tenants](install-digit/setting-up-master-data/configuring-tenants.md)
     * [State Level Vs City Level Master](install-digit/setting-up-master-data/state-level-vs-city-level-master.md)
-  * [Configuring Master Data Templates](install-digit/configuring-master-data-templates/README.md)
+  * [Master Data Collection Templates](install-digit/configuring-master-data-templates/README.md)
     * [Environment Setup](install-digit/configuring-master-data-templates/environment-setup/README.md)
       * [State Level Setup](install-digit/configuring-master-data-templates/environment-setup/state-level-setup/README.md)
         * [Tenants Information](install-digit/configuring-master-data-templates/environment-setup/state-level-setup/tenants-information.md)

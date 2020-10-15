@@ -1,4 +1,4 @@
-# Configuring Master Data Templates
+# Master Data Collection Templates
 
 ### Objective
 
