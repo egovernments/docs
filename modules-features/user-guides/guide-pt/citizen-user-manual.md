@@ -25,7 +25,7 @@ The citizen can also approach the Counter Employee \(CE\) to register new proper
 * [Pay property tax](citizen-user-manual.md#pay-property-tax)
 * [Download payment receipts](citizen-user-manual.md#pay-property-tax)
 
-## **Add New Property**
+### **Add New Property**
 
 Citizens or CE can add new property details through the DIGIT web portal or the DIGIT mobile app.
 
@@ -111,7 +111,7 @@ The **Property ID** is available along with this message.
 
 Click on the **Download** button on top of the message box to download the application. Click on the **Print** button to print the application.
 
-## **Search Property**
+### **Search Property**
 
 To search for a submitted application or track the status of submitted applications navigate to the **Property Tax** home page. There are two search options available. Users can search by property or application.
 
@@ -137,7 +137,7 @@ An **Active** Status means the listed property is pending for further action. **
 
 Click on the **Unique Property ID** or **Application No.** hyperlink to access the property details.
 
-## **Assess Property**
+### **Assess Property**
 
 Listed properties are assessed every financial year to calculate the property tax amount.
 
@@ -191,7 +191,7 @@ Click on **Assess Property** once you complete reviewing all details. The system
 
 Click on the **Proceed to Payment** button to pay the property tax. Else click on the **Home** button to navigate back to the home page.
 
-## **Pay Property Tax**
+### **Pay Property Tax**
 
 Applicants have to pay the property tax once the property is assessed for the specified financial year.
 
@@ -209,7 +209,7 @@ Enter payment details as requested on the screen. Click on the **Generate Receip
 
 Once the payment is complete the **Property Tax Receipt** is issued. Click on the **Download** or **Print** button to download or print the tax Payment Receipt.
 
-## **Transfer Property Ownership**
+### **Transfer Property Ownership**
 
 The PT module allows users to transfer the ownership of property.
 
@@ -269,7 +269,7 @@ The **Summary** page will display the filled-in application details. Scroll down
 
 Click on the **Submit** button once all details are reviewed. The screen will display the application success message. Click on the **Download** button on top of the message box to download the application. Click on the **Print** button to print the application.
 
-## **Edit Property**
+### **Edit Property**
 
 To make any changes in the application navigate to the **Home** page. Search for the application you want to verify by entering any of the search parameters. Click on the **Application No.** to open the application. Scroll down the form to review the filled in details.
 
