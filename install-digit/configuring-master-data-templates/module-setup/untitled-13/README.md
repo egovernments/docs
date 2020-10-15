@@ -1,4 +1,4 @@
-# Property Tax Data Templates
+# Configuring Property Tax Data
 
 ###  Introduction
 

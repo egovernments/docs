@@ -122,7 +122,7 @@
         * [Penalty Rates](install-digit/configuring-master-data-templates/module-setup/untitled-13/penalty-rates.md)
         * [Rebate Rates](install-digit/configuring-master-data-templates/module-setup/untitled-13/rebate-rates.md)
         * [Mutation Fee](install-digit/configuring-master-data-templates/module-setup/untitled-13/mutation-fee.md)
-      * [Configuring PGR Data](install-digit/configuring-master-data-templates/module-setup/untitled-12/README.md)
+      * [PGR Data Templates](install-digit/configuring-master-data-templates/module-setup/untitled-12/README.md)
         * [Grievance Type](install-digit/configuring-master-data-templates/module-setup/untitled-12/grievance-type.md)
         * [Grievance Sub Type](install-digit/configuring-master-data-templates/module-setup/untitled-12/grievance-sub-type.md)
         * [Routing Matrix](install-digit/configuring-master-data-templates/module-setup/untitled-12/routing-matrix.md)
