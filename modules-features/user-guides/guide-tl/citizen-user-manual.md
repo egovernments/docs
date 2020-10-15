@@ -20,7 +20,7 @@ The citizen can also approach the Counter Employee \(CE\) to submit new TL appli
 * [Pay license fee](citizen-user-manual.md#pay-trade-license-fee)
 * Download payment receipts, license certificates, or applications
 
-## **Apply For New TL**
+### **Apply For New TL**
 
 Citizens or CE can apply for a new trade license through the DIGIT web portal or the DIGIT mobile app. To apply for new TL click on the **Trade License** card available in the **Citizen Services** section of the DIGIT home page.
 
@@ -101,7 +101,7 @@ Scroll down the page to view the filled-in details. Click on the Edit icon ![](h
 
 The **Trade License Application No.** is displayed along with this message. Click on the **Download** button to download a copy of the application. Click on the **Print** button to print the application.
 
-## **Renew Trade License**
+### **Renew Trade License**
 
 Citizens can renew their existing trade applications on the DIGIT portal. CE can also apply for TL renewal on behalf of the citizens. To renew TL navigate to the home page and then click on the **Trade License** option. Click on **My Applications**. Click on the **Renew Now** button on the specific license.
 
@@ -113,7 +113,7 @@ The system will display the license details. Click on the **Take Action** button
 
 The Trade License is submitted for renewal.
 
-## **Search Application**
+### **Search Application**
 
 To search for a submitted application or track the status of submitted applications navigate to the **Trade License** home page.
 
@@ -145,7 +145,7 @@ Click on the **View History** button on the top right corner of the **Task Statu
 
 ![](https://lh5.googleusercontent.com/rn3oh8pUdYWR5c4rlw3z93rxTgon-3wnJ7bjjdOedKNLeTinrywQVZNS57uBVnsVu8MxBEV7IIQ3WGn4K4-zjMRCPNxvOOlwpGRcHFaZ_x34FIjV2XQeFMhoBly3kgo740vdrzL9)
 
-## **Pay Trade License Fee**
+### **Pay Trade License Fee**
 
 Applicants have to pay the license fee once the TL application is approved. The application status changes to **Pending for Payment**. To make payment for the trade license fee click on your **Application No.** to open the application. Click on the **Take Action** button.
 
