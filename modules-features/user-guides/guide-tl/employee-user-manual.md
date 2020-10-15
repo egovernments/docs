@@ -18,7 +18,7 @@ The DV can
 * [Verify and forward applications](employee-user-manual.md#verify-and-forward)
 * [Edit applications](employee-user-manual.md#edit-application)
 
-## **Reject Applications**
+### **Reject Applications**
 
 Trade license applications are rejected if the supporting documents uploaded by the applicant fails to comply with the license requirements or the details provided in the form are incorrect.
 
@@ -34,7 +34,7 @@ Enter your **Comments** to state the reason for rejection. Click on the **Upload
 
 The applicant will receive a rejection notification on his mobile number or email address.
 
-## **Verify and Forward**
+### **Verify and Forward**
 
 The DV verifies and forwards the TL application to the Field Inspector if the DV finds all information and documents provided by the applicant correct.
 
@@ -50,7 +50,7 @@ Enter any additional information in the **Comments** field in context to the app
 
 The TL application is assigned to the selected Assignee for subsequent processing.
 
-## **Edit Application**
+### **Edit Application**
 
 To edit applications navigate to the Home page. Search for the application you want to verify by entering any of the search parameters. Click on the **Application No.** to open the application. Scroll down the form to review the filled in details.
 
@@ -72,7 +72,7 @@ The FI can
 * [Verify and forward applications](employee-user-manual.md#verify-and-forward-1)
 * [Edit applications](employee-user-manual.md#edit-application-1)
 
-## **Send Back To Citizen**
+### **Send Back To Citizen**
 
 FI sends back the applications to the citizens if some vital information is missing in the application or there is a mistake in the information provided.
 
@@ -90,7 +90,7 @@ Click on the **Upload Files** button to upload any files or images in context to
 
 The system displays a success acknowledgement message stating that the application is sent back to the initiator.
 
-## **Send Back**
+### **Send Back**
 
 The FI can send back the TL application to the DV if there is any mistake or lapses in the document verification process.
 
@@ -106,7 +106,7 @@ Select the **Assignee Name** who will be responsible for verifying the applicati
 
 The application is assigned back to the selected assignee for verification of documents.
 
-## **Reject Applications**
+### **Reject Applications**
 
 Trade license applications are rejected if the supporting documents uploaded by the applicant fails to comply with the license requirements or the details provided in the form are incorrect.
 
@@ -122,7 +122,7 @@ Enter your **Comments** to state the reason for rejection. Click on the **Upload
 
 The applicant will receive a rejection notification on his mobile number or email address.
 
-## **Verify and Forward**
+### **Verify and Forward**
 
 The FI verifies and forwards the TL application to the Approver if the information and documents provided by the applicant are correct.
 
@@ -138,7 +138,7 @@ Enter any additional information in the **Comments** field in context to the app
 
 The TL application is assigned to the selected Assignee for subsequent processing.
 
-## **Edit Application**
+### **Edit Application**
 
 To make any changes in the application navigate to the Home page. Search for the application you want to verify by entering any of the search parameters. Click on the **Application No.** to open the application. Scroll down the form to review the filled in details.
 
@@ -158,7 +158,7 @@ The Approver can
 * [Reject applications](employee-user-manual.md#reject-applications-2)
 * [Approve applications](employee-user-manual.md#approve-applications)
 
-## **Send Back**
+### **Send Back**
 
 The Approver can send back the TL application to the FI or DV if there is any mistake or lapses in the document verification process.
 
@@ -174,7 +174,7 @@ Select the **Assignee Name** who will be responsible for verifying the applicati
 
 The application is assigned back to the selected assignee for verification of application.
 
-## **Reject Applications**
+### **Reject Applications**
 
 Trade license applications are rejected if the supporting documents uploaded by the applicant fails to comply with the license requirements or the details provided in the form are incorrect.
 
@@ -190,7 +190,7 @@ Enter your **Comments** to state the reason for rejection. Click on the **Upload
 
 The applicant will receive a rejection notification on his mobile number or email address.
 
-## **Approve Applications**
+### **Approve Applications**
 
 The Approver signs off the TL application once the information and documents provided by the applicant are found correct. The TL Certificate is issued once the application is approved.
 
