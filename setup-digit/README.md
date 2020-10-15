@@ -8,11 +8,11 @@ description: >-
 
 ## Overview
 
-DIGIT is the largest urban governance platform built for billions-and-billions of transactions between citizens and the state govt though various municipal services/integration. The platform is built with key capabilities like scale, speed, integration, configurable, customizable, extendable, multi-tenanted, security, etc. Here, we shall discusses the key requirements and capabilities.
+DIGIT is the largest urban governance platform built for billions-and-billions of transactions between citizens and the state govt through various municipal services/integration. The platform is built with key capabilities like scale, speed, integration, configurable, customizable, extendable, multi-tenanted, security, etc. Here, we shall discuss the key requirements and capabilities.
 
 ### Prerequisites
 
-Before proceeding to setup DIGIT, it is essential to know the some of the key technical details about DIGIT, like architecture, tech stack, how is it packaged and deployed on various infrastructure. Some of these details are explained in the previous sections. Below are some of the key capabilities to know about DIGIT as a platform.
+Before proceeding to set up DIGIT, it is essential to know some of the key technical details about DIGIT, like architecture, tech stack, how it is packaged and deployed on various infrastructure. Some of these details are explained in the previous sections. Below are some of the key capabilities to know about DIGIT as a platform.
 
 1. DIGIT is a collection of various services built as a RESTFul APIs with OpenAPI standard
 2. DIGIT is built as a MSA \(Microservices Architecture\)
