@@ -2,7 +2,8 @@
 
 ### Introduction
 
-A property can be used for a variety of things such as to live or to do some trading/selling etc activity or for any other purpose. Properties can be classified into various categories on the basis of there usage. Below is the mentioned data table which gives a reference for classification.
+A property can be used for a variety of things such as to live or to do some trading/selling etc activity or for any other purpose. Properties can be classified into various categories on the basis of there usage. Ideally, property usage is categorized as residential, non-residential or a mix of both.  
+****
 
 ### Data Table 
 
