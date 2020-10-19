@@ -18,7 +18,7 @@ The CSR or counter employees can perform the following actions on PGR -
 
 ![](https://docs.google.com/drawings/u/0/d/sU6rjcwIb9fCKVVn6TmBleg/image?w=425&h=156&rev=18&ac=1&parent=1pR9OLsrbm5UDtHSuq-Iv2BM78gUTwagbwGpCMGdeqrg)
 
-## File Complaints
+### File Complaints
 
 To file complaints on behalf of the citizen navigate to the Home page and click on the **Complaints** card. Else, click on the **Complaints** menu option in the sidebar. Click on the **File Complaint** tab on the screen. This will open the complaint form page.
 
@@ -32,7 +32,7 @@ Click on **File Complaint** button once you have finished filling in all the det
 
 Click on the **Continue** button. Your complaint details are available on the dashboard. Click on the complaint to view the complaint details.
 
-## Search Complaints
+### Search Complaints
 
 Employees can search for specific complaints using the registered mobile number of citizens or by entering the last few digits of the complaint number.
 
@@ -44,7 +44,7 @@ Click on the **Search** button. The system will retrieve and display the matchin
 
 ![](https://lh6.googleusercontent.com/OUsA9G3Jh6SN9J3fxUz8JCJ59tc4-w2OK9EqxYNkKsU4wbGNFrbfw_FyPXLsR90C64v_CX-nNKE83ZJ7YCRuCad2HgciR-In2Fx2qt94RJvlb-p5grwHPPib6FxkPVanHXj359DL)
 
-## Reopen Complaints
+### Reopen Complaints
 
 To reopen the complaints navigate to **Complaints &gt; My Complaints** menu option in the sidebar. Click on the closed complaint that you want to reopen. Scroll down to the **Complaint Timeline** section. Click on the **Re-Open** button on the timeline.
 
@@ -75,11 +75,11 @@ GROs can
 5. Call citizens
 6. Comment on complaints
 
-## Assign Complaints
+### Assign Complaints
 
 Grievances filed by citizens are assigned to specific employees who are responsible for acting on and resolving the complaints.
 
-To assign complaints navigate to the Home page and click on the Complaints card. Or, navigate to **Complaints &gt; Open Complaints.** The GRO Complaint page contains two tabs - **Unassigned** and **Assigned** complaints.
+To assign complaints, navigate to the Home page and click on the Complaints card. Or, navigate to **Complaints &gt; Open Complaints.** The GRO Complaint page contains two tabs - **Unassigned** and **Assigned** complaints.
 
 ![](https://lh5.googleusercontent.com/-P3BKRAfx7ULwO19jjfo4XTgmNmXP8sSdTqNb4DqUnB9pcp6nIqxEIWsJUBEWBWfUTInqAce9_IfvMSxVhsbzJJymSzVnz3zuhU5LC4BEhLXDJ7YVXj_2vYTf_wTXgm7JgK3_0YA)
 
@@ -95,7 +95,7 @@ Click on the **Assign** button.
 
 The complaint is assigned to the selected employee.
 
-## Re-Assign Complaints
+### Re-Assign Complaints
 
 Assigned complaints can be re-assigned by the GRO depending on the situation and requirements.
 
@@ -105,7 +105,7 @@ To re-assign complaints navigate to the Home page and click on the **Complaints*
 
 The Complaint is re-assigned to the selected employee.
 
-## Share Complaints
+### Share Complaints
 
 GROs can share complaints with other department users based on the requirements.
 
@@ -121,7 +121,7 @@ Select the appropriate channel. The system will redirect you to the selected cha
 
 The complaint is shared with the selected recipients.
 
-## Reject Complaints
+### Reject Complaints
 
 In certain cases, the GRO might reject registered complaints. This usually happens when the complaint is beyond the operational scope of the department or the complaint is invalid.
 
@@ -146,7 +146,7 @@ FMEs can -
 
 ![](https://docs.google.com/drawings/u/0/d/szovKDR3VG6ANH92_TvpdDQ/image?w=511&h=201&rev=61&ac=1&parent=1pR9OLsrbm5UDtHSuq-Iv2BM78gUTwagbwGpCMGdeqrg)
 
-## **Request Re-Assign**
+### **Request Re-Assign**
 
 FMEs work on the assigned complaints. In some cases, the FMEs may request complaints to be reassigned to some other employee.
 
@@ -164,11 +164,11 @@ Select a specific reason for requesting a re-assign.
 
 Enter any additional information in the **Comments** section. Click on the **Request Re-Assign** button.
 
-## Resolve Complaints
+### Resolve Complaints
 
 Once the complaints are actioned on the FME marks the issue resolved. The complaint is closed subsequently.
 
-To mark the complaint resolved navigate to the **Complaints** menu option in the sidebar. Click on **Open Complaints**. Search for a specific complaint using the **Citizen Mobile No.** or inputting the last 6 digits of the **Complaint No.**
+To mark the complaint resolved, navigate to the **Complaints** menu option in the sidebar. Click on **Open Complaints**. Search for a specific complaint using the **Citizen Mobile No.** or inputting the last 6 digits of the **Complaint No.**
 
 ![](https://lh3.googleusercontent.com/Vv8ny3w8w0sZAikd4m6IBOX88tVLqRbzBRUVaAbK6OkNuPFGr62Z3BaDoWsEZd8-8PVHGL_r3DOipAuquLM2QHkMIvzozxMy-2OgMRC338fK5YPUotfakHleUBnyvupXsjkAffU4)
 

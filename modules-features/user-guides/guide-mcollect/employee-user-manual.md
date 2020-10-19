@@ -8,18 +8,18 @@ description: >-
 
 ## **CE And FE**
 
-The counter employees collect and process the miscellaneous payments on behalf of the citizens. _\*\*_
+The counter employees or field employees collect and process the miscellaneous payments on behalf of the citizens. 
 
 ![](https://docs.google.com/drawings/u/0/d/sdqYT5-oQRjT_c5OP_fcsbA/image?w=303&h=297&rev=128&ac=1&parent=1GZKzf7O_6WDB5ba1gb6QUT6CqipoQzuRuWT44fTAgGo)
 
-**The CE role can -**
+**The CE or FE role can -**
 
 * Collect payment
 * Search payment receipts
 * Print receipts
 * Download payment receipts
 
-## **Collect Payment**
+### **Collect Payment**
 
 CE can process and collect payments for miscellaneous services through the DIGIT web portal or the DIGIT mobile app. To process a new payment navigate to the **Universal Collections** option in the sidebar main menu.
 
@@ -63,7 +63,7 @@ Click on the **Generate Receipt** button once the payment is collected or proces
 
 Click on the **Download** button to download/view the receipt. Click on the **Print** button to print the receipt.
 
-## **Search Receipts**
+### **Search Receipts**
 
 To search for payment receipts navigate to the Universal Collections page in the sidebar main menu.
 

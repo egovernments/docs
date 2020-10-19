@@ -1,4 +1,4 @@
-# DIGIT DevOps
+# Deployment Tools
 
 This section contains docs and information resources that guide you through the key DevOps concepts and its role in managing the DIGIT platform.
 

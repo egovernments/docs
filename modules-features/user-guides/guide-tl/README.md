@@ -6,7 +6,11 @@ description: Illustrative guide to using the trade license module
 
 The Trade License \(TL\) module offers the citizens and governance bodies a convenient and transparent means of processing trade licenses. Trade license is the permission issued by the local governing bodies to carry on specified business or trading activity within the authorized area. It is a mandatory document required to run a business or commercial activity of any type.
 
+### Key Features
+
 The TL module enables citizens to apply for trade licenses or renew existing licenses online. It facilitates the governing bodies to validate and approve the license applications.
+
+### User Roles
 
 <table>
   <thead>
@@ -26,7 +30,7 @@ The TL module enables citizens to apply for trade licenses or renew existing lic
       <td style="text-align:left">
         <p>Apply for Trade License</p>
         <p>Pay for license</p>
-        <p>Track status of license application</p>
+        <p>Track status of the license application</p>
         <p>Download payment receipts</p>
       </td>
       <td style="text-align:left">Individuals and business entities</td>
@@ -81,7 +85,7 @@ The TL module enables citizens to apply for trade licenses or renew existing lic
   </tbody>
 </table>
 
-## **Using TL**
+### **Using TL**
 
 This section guides you through the details of using the TL module for each role. Click on the relevant role below to learn more about how to use the TL system.
 

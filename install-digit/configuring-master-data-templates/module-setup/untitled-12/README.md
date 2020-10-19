@@ -1,4 +1,4 @@
-# Configuring PGR Data
+# PGR Data Templates
 
 ### Introduction
 

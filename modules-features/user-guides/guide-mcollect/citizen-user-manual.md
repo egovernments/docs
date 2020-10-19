@@ -14,7 +14,7 @@ The citizen pays the fees for miscellaneous services through the CEs or FEs. Onc
 * Download receipts
 * Print receipts
 
-## **Search Download And Print Receipts**
+### **Search Download And Print Receipts**
 
 Citizens can search for payment receipts and download or print these online. To search for payment receipts navigate to the **Collections** option in the sidebar main menu.
 
@@ -26,7 +26,7 @@ The system will display the relevant search results in the panel below. Click on
 
 The system will generate a pdf format of the payment receipt. Click on the download icon on the pdf page to download the receipt.
 
-Click on the print icon on the pdf page to print the receipt.
+Click on the Print icon on the pdf page to print the receipt.
 
 Click on the **Reset** button to renew your search with different parameters.
 

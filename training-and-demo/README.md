@@ -1,4 +1,4 @@
-# Training & Demos
+# DIGIT Training Materials
 
 Access our extensive library of product training resources available in pdf file formats or short training videos.
 

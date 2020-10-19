@@ -1,10 +1,10 @@
-# Configuring Master Data Templates
+# Master Data Collection Templates
 
-## Objective <a id="Objective"></a>
+### Objective
 
 Content of pages within this document is designed to help implementation parties and end-users in providing the required data in minimal interaction and iterations and ensure the quality, consistency and shape of data needed to configure into the system.
 
-## Audience <a id="Audience"></a>
+### Audience
 
  This page is intended to help stakeholders as given below on data gathering activities.
 
@@ -13,7 +13,7 @@ Content of pages within this document is designed to help implementation parties
 3. ULB Team \(Nodal and DEO\)
 4. Implementation Partners
 
-## Output Artefacts <a id="Output-Artefacts"></a>
+### Output Artefacts
 
 The artefacts of this document are the data template of a configurable entity, a page with content defining the entity template and helping on how to fill the template with required data. 
 

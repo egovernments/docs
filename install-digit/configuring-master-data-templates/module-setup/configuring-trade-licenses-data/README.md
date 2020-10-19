@@ -1,4 +1,4 @@
-# Configuring Trade Licenses Data
+# Trade Licenses Templates
 
 ### Introduction
 
