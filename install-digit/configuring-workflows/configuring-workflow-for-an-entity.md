@@ -2,19 +2,19 @@
 
 ### Overview
 
-Workflow is defined as a sequence of tasks that has to be performed on an application/Entity to process it. The _egov-workflow-v2_ is a workflow engine which helps in performing this operations seamlessly using a predefined configuration. We will discuss how to create this configuration for a new product in this document.
+Workflow is defined as a sequence of tasks that has to be performed on an application/Entity to process it. The _egov-workflow-v2_ is a workflow engine which helps in performing these operations seamlessly using a predefined configuration. We will discuss how to create this configuration for a new product in this document.
 
 ### Pre-requisites
 
 Before you proceed with the configuration, make sure the following pre-requisites are met -
 
 * _egov-workflow-v2 service is up and running_
-* Role-Action mapping are added for businessService API’s 
+* Role-Action mapping are added for business Service API’s 
 
 ### Key Functionalities
 
 * Create and modify workflow configuration according to the product requirements
-* Configure State level as well BusinessService level SLA to efficiently track progress of the application
+* Configure State level as well BusinessService level SLA to efficiently track the progress of the application
 * Control access to perform actions through configuration
 
 | **Attribute Name** | **Description** |
@@ -36,18 +36,18 @@ Before you proceed with the configuration, make sure the following pre-requisite
 
 ### Deployment Details
 
-1. Deploy latest version of egov-workflow-v2 service
+1. Deploy the latest version of egov-workflow-v2 service
 2. Add businessService persister yaml path in persister configuration
 3. Add Role-Action mapping for BusinessService API’s
 4. Overwrite the egov.wf.statelevel flag \( _true_ for state level and _false_ for tenant level\)
 
 ### Configuration Details
 
-The Workflow configuration has 3 level of hierarchy:  
+The Workflow configuration has 3 levels of hierarchy:  
 a. BusinessService  
 b. State  
 c. Action  
-The top level object is BusinessService, it contains fields describing the workflow and list of States that are part of the workflow. The businessService can be defined at tenant level like pb.amritsar or at state level like pb. All objects maintains an audit sub object which keeps track of who is creating and updating and the time of it
+The top-level object is BusinessService, it contains fields describing the workflow and list of States that are part of the workflow. The businessService can be defined at tenant level like pb.amritsar or at the state level like pb. All objects maintain an audit sub-object which keeps track of who is creating and updating and the time of it.
 
 ```text
 {
@@ -74,7 +74,7 @@ Each State object is a valid status for the application. The State object contai
     }
 ```
 
-The action object is the last object in hierarchy, it defines the name of the action and the roles that can perform the action.
+The action object is the last object in the hierarchy, it defines the name of the action and the roles that can perform the action.
 
 ```text
       {
@@ -87,7 +87,7 @@ The action object is the last object in hierarchy, it defines the name of the ac
       }
 ```
 
-The workflow should always start from null state as the service treats new applications as having null as the initial state. eg:
+The workflow should always start from the null state as the service treats new applications as having null as the initial state. eg:
 
 ```text
 {
@@ -111,14 +111,14 @@ The workflow should always start from null state as the service treats new appli
                 }
 ```
 
-In action object whatever nextState is defined, the application will be sent to that state. It can be to another forward state or even some backward state from where the application have already passed  
-_\( generally such actions are named SENDBACK\)_
+In action object whatever nextState is defined, the application will be sent to that state. It can be to another forward state or even some backward state from where the application has already passed  
+_\(generally, such actions are named SENDBACK\)_
 
-SENDBACKTOCITIZEN is a special keyword for action name. This action sends back the application to citizen’s inbox for him to take action. A new State should be created on which Citizen can take action and should be the nextState of this action. While calling this action from module _assignes_ should be enriched by the module with the uuids of the owners of the application
+SENDBACKTOCITIZEN is a special keyword for action name. This action sends back the application to the citizen’s inbox for him to take action. A new State should be created on which Citizen can take action and should be the nextState of this action. While calling this action from module _assignees_ should be enriched by the module with the uuids of the owners of the application
 
 ### Integration
 
-For integration related steps please refer to the document _' Setting Up Workflows'_ in the Reference Docs
+For integration-related steps please refer to the document _' Setting Up Workflows'_ in the Reference Docs
 
 ### Reference Docs
 
