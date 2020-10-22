@@ -2,7 +2,7 @@
 description: DIGIT 2.0 Changes to the Property Tax
 ---
 
-# Property Tax
+# Property Tax Release Notes
 
 ### Overview
 

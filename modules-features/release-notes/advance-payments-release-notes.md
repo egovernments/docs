@@ -2,7 +2,7 @@
 description: DIGIT 2.0 changes to the Advance Payments
 ---
 
-# Advance Payments
+# Advance Payments Release Notes
 
 ### Overview
 

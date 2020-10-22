@@ -2,7 +2,7 @@
 description: DIGIT 2.0 Changes to the Public Grievance and Redressal
 ---
 
-# PGR
+# PGR Release Notes
 
 ### Overview
 

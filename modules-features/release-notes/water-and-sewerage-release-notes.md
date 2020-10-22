@@ -2,7 +2,7 @@
 description: DIGIT 2.0 Changes to the Water & Sewerage
 ---
 
-# Water & Sewerage
+# Water & Sewerage Release Notes
 
 ### Overview
 

@@ -2,7 +2,7 @@
 description: DIGIT 2.0 Changes to the Trade License
 ---
 
-# Trade License
+# Trade License Release Notes
 
 ### Overview
 
