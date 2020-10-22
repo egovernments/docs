@@ -5,6 +5,7 @@ Learn how to configure the DIGIT platform. Partner with us to enhance and integr
 * [Git Repos](open-source-git-repos.md)
 * [Setting Up DIGIT](setting-up-digit/)
 * [Setting Up Master Data](setting-up-master-data/)
+* [Master Data Collection Templates](configuring-master-data-templates/)
 * [Configuring Services](configuring-digit-services/)
 * [Configuring Workflows](configuring-workflows/)
 * [Configuring Localization](configuring-workflows/)
