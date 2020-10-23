@@ -26,7 +26,7 @@ description: 'New release features, enhancements, and fixes'
     <tr>
       <td style="text-align:left">Advance Payments</td>
       <td style="text-align:left">
-        <p>Ability to handle <a href="https://digit-discuss.atlassian.net/wiki/spaces/ED/pages/604307457/Release+Notes+for+Advance+Payment+implementation+in+W+S">advanced payments</a> -
+        <p>Ability to handle <a href="advance-payments-release-notes.md">advanced payments </a>-
           platform and Reference implementation in W&amp;S.</p>
         <p>Advance Collection integration with W&amp;S</p>
       </td>
@@ -139,28 +139,25 @@ DIGIT 2.0 is a baselined release - considering simplification and standardizatio
     <tr>
       <td style="text-align:left">
         <ul>
-          <li><a href="https://digit-discuss.atlassian.net/l/c/U01pjZQ1">PGR</a>
+          <li><a href="../user-guides/guide-pgr/">PGR</a>
           </li>
-          <li><a href="https://digit-discuss.atlassian.net/wiki/spaces/EGR/pages/53542929/Property+Tax+-+UI?atlOrigin=eyJpIjoiNzkwMGY4ZWYyYjJhNDVhOWEzMTg4ZWExNTg0MGU0YjgiLCJwIjoiYyJ9">Property Tax</a>
+          <li><a href="../user-guides/guide-pt/">Property Tax</a>
           </li>
-          <li><a href="https://digit-discuss.atlassian.net/l/c/57TggeCL">Trade License</a>
+          <li><a href="../user-guides/guide-tl/">Trade License</a>
           </li>
-          <li><a href="https://digit-discuss.atlassian.net/l/c/fcwPm0NC">Fire NOC</a>
-          </li>
+          <li>Fire NOC</li>
           <li><a href="https://digit-discuss.atlassian.net/wiki/spaces/EGR/pages/436502610/BillGenie?atlOrigin=eyJpIjoiN2EzZmY2ZjFlYzIxNDc2Zjk4YzIwM2FmOGI1NmM1MDAiLCJwIjoiYyJ9">Bill Genie</a>
           </li>
           <li><a href="https://digit-discuss.atlassian.net/wiki/spaces/EGR/pages/438894719/Universal+Collection?atlOrigin=eyJpIjoiNjAzNzBiMTAwMzNlNDk2NDk0ZTQxNjdlMzMwYzE5N2IiLCJwIjoiYyJ9">MCS</a>
           </li>
           <li><a href="https://digit-discuss.atlassian.net/l/c/NjoYpKzK">Common Pay</a>
           </li>
-          <li><a href="https://digit-discuss.atlassian.net/l/c/i7T9cbxf">Advance Payment</a>
+          <li><a href="advance-payments-release-notes.md">Advance Payment</a>
           </li>
           <li><a href="https://digit-discuss.atlassian.net/l/c/QX3zRcjW">mSeva 2.0</a>
           </li>
-          <li><a href="https://digit-discuss.atlassian.net/l/c/Eg1iS0ba">Water &amp; Sewerage</a>
-          </li>
-          <li><a href="https://digit-discuss.atlassian.net/l/c/AfRS5iZw">MDMS UI Configurations</a>
-          </li>
+          <li>Water &amp; Sewerage</li>
+          <li>MDMS UI Configurations</li>
           <li><a href="https://digit-discuss.atlassian.net/wiki/spaces/EGR/pages/449085476/Required+documents+dialog+implementation?atlOrigin=eyJpIjoiNDEwZDdkNWYzY2EwNDRkZWE0Nzg2NTcwOTM5NDg1YzMiLCJwIjoiYyJ9">Required documents dialogue implementation</a>
           </li>
           <li><a href="https://digit-discuss.atlassian.net/l/c/dVxJH2B5">Generation of Acknowledgement PDF</a>

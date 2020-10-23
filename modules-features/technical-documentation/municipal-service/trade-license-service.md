@@ -47,9 +47,9 @@ Following application properties in the Trade License service are configurable.
 | egov.tl.max.limit | 100 | Max number of records to be returned |
 | citizen.allowed.search.params | tenantId, applicationNumber, limit, offset, licenseNumbers | The search parameters on which citizen can search |
 | employee.allowed.search.params | tenantId, applicationNumber, applicationType, status, mobileNumber, fromDate, toDate, licenseNumbers, oldLicenseNumber, limit, offset | The search parameters on which employee can search |
-| persister.save.tradelicense.topic | save-tl-tradelicense | The name of kafka topic on which create request are published |
-| persister.update.tradelicense.topic | update-tl-tradelicense | The name of kafka topic on which update request are published |
-| persister.update.tradelicense.workflow.topic | update-tl-workflow | The name of kafka topic on which update request are published |
+| persister.save.tradelicense.topic | save-tl-tradelicense | The name of kafka topic on which create request is published |
+| persister.update.tradelicense.topic | update-tl-tradelicense | The name of kafka topic on which update request is published |
+| persister.update.tradelicense.workflow.topic | update-tl-workflow | The name of kafka topic on which update request is published |
 
 ## Integration <a id="Integration"></a>
 
@@ -86,7 +86,7 @@ The trade-license service is currently used to issue trade licenses, perform sta
 
 ### API List <a id="API-List"></a>
 
-In all below endpoints if the service name is BPAREG it is treated as stakeholder registration application and if it is TL or if it is absent then the application is treated as trade license application.
+In all below endpoints if the service name is BPAREG it is treated as a stakeholder registration application and if it is TL or if it is absent then the application is treated as trade license application.
 
 Stakeholder registration APIs:- [https://www.getpostman.com/collections/d18b79ccfb69ee8bb526](https://www.getpostman.com/collections/d18b79ccfb69ee8bb526)
 

@@ -32,7 +32,7 @@ One of the applications in the Digit core group of services aims to reduce the t
 
 #### Integration Scope <a id="Integration-Scope"></a>
 
-The Mdms service provides ease of access to master data for any service.
+The MDMS service provides ease of access to master data for any service.
 
 #### Integration Benefits <a id="Integration-Benefits"></a>
 
@@ -41,7 +41,7 @@ The Mdms service provides ease of access to master data for any service.
 #### Steps to Integration <a id="Steps-to-Integration"></a>
 
 1. To integrate, host of egov-mdms-service should be overwritten in helm chart
-2. _egov-mdms-service/v1/\_search_ should be added as the search endpoint for searching master data .
+2. _egov-mdms-service/v1/\_search_ should be added as the search endpoint for searching master data.
 3. Mdms client from eGov snapshots should be added as mvn entity in pom.xml for ease of access since it provides mdms request pojos.
 
 ### Reference Docs

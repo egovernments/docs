@@ -96,7 +96,7 @@ Any new microservice that is to be added in the platform won’t have to worry a
 | **Title** | **Link** |
 | :--- | :--- |
 | API Contract | [https://raw.githubusercontent.com/egovernments/egov-services/master/docs/egov-accesscontrol/contracts/v1-0-1.yml](https://raw.githubusercontent.com/egovernments/egov-services/master/docs/egov-accesscontrol/contracts/v1-0-1.yml) |
-| MDMS Service | [Core Services](https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/647299090/Core+Services)  \[MDMS LINK HAS TO BE UPDATED\] |
+| MDMS Service | [Core Services](https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/647299090/Core+Services)   |
 
 #### API List
 

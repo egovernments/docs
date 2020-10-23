@@ -66,7 +66,7 @@ The PDF configuration can be used by any module which needs to show particular i
 
 #### Steps to Integration <a id="Steps-to-Integration"></a>
 
-1. To download and print the required PDF \_create API has to be called with required key \(For Integration with UI, please refer to the links in Reference Docs\)
+1. To download and print the required PDF \_create API has to be called with the required key \(For Integration with UI, please refer to the links in Reference Docs\)
 
 ### Reference Docs <a id="Reference-Docs"></a>
 
@@ -74,8 +74,8 @@ The PDF configuration can be used by any module which needs to show particular i
 
 | **Title**  | **Link** |
 | :--- | :--- |
-| Customizing PDF Receipts & Certificates |  [Customizing PDF Receipts & Certificates](https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/720306189) |
-|  Steps for Integration of PDF in UI for download and print PDF |  [Integration of PDF in UI for download and print PDF](https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/720470017/Integration+of+PDF+in+UI+for+download+and+print+PDF) |
+| Customizing PDF Receipts & Certificates | [Customizing PDF Receipts & Certificates](https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/720306189) |
+| Steps for Integration of PDF in UI for download and print PDF | [Integration of PDF in UI for download and print PDF](https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/720470017/Integration+of+PDF+in+UI+for+download+and+print+PDF) |
 | API Swagger Documentation | [Swagger Documentation](https://app.swaggerhub.com/apis/eGovernment/pdf-service_ap_is/1.1.0) |
 
 #### API List <a id="API-List"></a>

@@ -29,7 +29,7 @@ Before you proceed with the configuration, make sure the following pre-requisite
 
 * A citizen can file, track and rate the complaint
 * A citizen can add image and comments related to the complaint
-* A citizen can re-open the complaint in certain given period of time after resolution
+* A citizen can re-open the complaint in a certain given period of time after resolution
 * ULB can setup the complaint workflow according to their requirements and staff capacity
 * ULB can track the SLA for resolving each complaint and can use it as a metric to streamline the process for resolving complaints
 * Department wise assignment of the complaint to the LME
@@ -387,8 +387,8 @@ PGR service can be integrated with any organisation or system which wants to tra
 
 | **Title** | **Link** |
 | :--- | :--- |
-| Workflow Technical Document | [Workflow Service](https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/664174657/Workflow+Service) |
-| User Technical Document | [User Service](https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/669450371/User+Service) |
+| Workflow Technical Document | [Workflow Service](../core-service/workflow-service.md) |
+| User Technical Document | [User Service](../core-service/user-service.md) |
 | MDMS Technical Document | NEEDS TO BE UPDATED |
 | IDGen Technical Document | NEEDS TO BE UPDATED |
 | Localization Technical Document | NEEDS TO BE UPDATED |

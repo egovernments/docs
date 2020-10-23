@@ -94,5 +94,5 @@ The egov-pg-service acts as communication/contact between eGov apps and external
 | /pg-service/transaction/v1/\_search | [https://www.getpostman.com/collections/a0dfce4274235164c520](https://www.getpostman.com/collections/a0dfce4274235164c520) |
 | /pg-service/gateway/v1/\_search | [https://www.getpostman.com/collections/a0dfce4274235164c520](https://www.getpostman.com/collections/a0dfce4274235164c520) |
 
-\(Note: All the API’s are in the same postman collection therefore the same link is added in each row\)
+\(Note: All the API’s are in the same postman collection, therefore, the same link is added in each row\)
 
