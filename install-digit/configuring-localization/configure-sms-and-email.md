@@ -2,7 +2,7 @@
 
 ### Overview <a id="Overview"></a>
 
-* Notification service can notify the user through SMS and email for there action on DIGIT as an acknowledgment that their action has been successfully completed.
+* Notification service can notify the user through SMS and email for there action on DIGIT as an acknowledgement that their action has been successfully completed.
 * ex: actions like property create, TL create, etc.
 * To send SMS we need the help of 2 services, one on which the user is taking action and the second SMS service.
 * To send an email we need the help of 2 services, one on which the user is taking action and second email service.
