@@ -24,11 +24,11 @@ Once the Localization is done, the user can view the Digit Screens in their own 
 
 * Select a label which is needed to be localized from the Product code. Here is the example code for a header before setting-up Localization.
 
-![](blob:https://digit-discuss.atlassian.net/a79c0455-8868-4551-85a1-ebc4ba400b8b#media-blob-url=true&id=505af4f1-3630-4033-afd8-ad479079187d&collection=contentId-729219132&contextId=729219132&mimeType=image%2Fpng&name=example-2.png&size=11060&width=347&height=192)
+![](../../.gitbook/assets/example-2.png)
 
 * As we see the above which supports only the English language, To setup Localization to that header we need to the code in the following manner.
 
-![](blob:https://digit-discuss.atlassian.net/04efecf1-6543-4716-a7a5-2293d204442b#media-blob-url=true&id=03fd4bc0-276a-42aa-936d-fcbd1f43254a&collection=contentId-729219132&contextId=729219132&mimeType=image%2Fpng&name=example-1.png&size=17012&width=504&height=216)
+![](../../.gitbook/assets/example-1.png)
 
 * we can see below code is added when we compare with code before Localization setup.
 
@@ -40,7 +40,7 @@ labelKey: "TL\_NEW\_TRADE\_DETAILS\_TRADE\_UNIT\_HEADER"
 
 },
 
-* Here the Values to the Key can be added by two methods either by using the localization Screen which is Developed Recently or by updating the values to the keys in create api using the postman application. 
+* Here the Values to the Key can be added by two methods either by using the localization Screen which is Developed Recently or by updating the values to the keys to create API using the postman application. 
 
 ### Reference Docs <a id="Reference-Docs"></a>
 
@@ -48,5 +48,5 @@ labelKey: "TL\_NEW\_TRADE\_DETAILS\_TRADE\_UNIT\_HEADER"
 
 | **Title**  | **Link** |
 | :--- | :--- |
-| **Adding New Language to Digit System. You can refer the link provided for how languages are added in Digit** |  [Adding New Language](https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/644382799/Adding+New+Language) |
+| Adding New Language to Digit System. You can refer the link provided for how languages are added in DIGIT |  [Adding New Language](../setting-up-a-language/adding-a-language.md) |
 
