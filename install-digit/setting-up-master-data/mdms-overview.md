@@ -73,8 +73,8 @@ Example Config JSON for “Billing Service”
 
 | **Title** | **Link** |
 | :--- | :--- |
-| Reference Doc Link 1 | [MDMS-Service](https://digit-discuss.atlassian.net/wiki/spaces/EPE/pages/37224465/MDMS-Service) |
-| Reference Doc Link 2 | [MDMS-Rewritten](https://digit-discuss.atlassian.net/wiki/spaces/EPE/pages/82313281/MDMS-Rewritten) |
+| Reference Doc Link 1 | MDMS-Service |
+| Reference Doc Link 2 | MDMS-Rewritten |
 
 ### API List <a id="API-List"></a>
 
