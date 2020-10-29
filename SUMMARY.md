@@ -46,6 +46,8 @@
   * [Product FAQs](modules-features/product-faqs.md)
   * [Quality Assurance](modules-features/testcases.md)
 * [Configure DIGIT](install-digit/README.md)
+  * [Setting Up SMS Gateway](install-digit/setting-up-sms-gateway/README.md)
+    * [Using The Generic GET & POST SMS Gateway Interface](install-digit/setting-up-sms-gateway/using-the-generic-get-and-post-sms-gateway-interface.md)
   * [Git Repos](install-digit/open-source-git-repos.md)
   * [Setting up DIGIT](install-digit/setting-up-digit/README.md)
     * [Configuring InfraOps](install-digit/setting-up-digit/configuring-infraops.md)
