@@ -1,14 +1,16 @@
----
-description: Urban Governance Transformation at Scale and Speed
----
+# DIGIT
 
-# Welcome to DIGIT
+description: &gt;- Welcome to DIGIT documentation space that illustrates various sections of DIGIT as a platform to help the ecosystem learn, know how, extend and setup DIGIT.
 
-![](.gitbook/assets/image%20%285%29.png)
+![](.gitbook/assets/egov-docs-01.png)
 
-![](.gitbook/assets/image%20%282%29.png)
+DIGIT is an open-source and open API powered platform for developers, enterprises and citizens to build new applications and solutions. The platform facilitates local governments to achieve quicker implementation time-frames, process improvements, accountability and transparency at various levels of administration.
 
-![](.gitbook/assets/image%20%281%29.png)
+{% page-ref page="install-digit/" %}
 
-![](.gitbook/assets/image%20%287%29.png)
+{% page-ref page="modules-features/product-brochures.md" %}
+
+{% page-ref page="modules-features/user-guides/" %}
+
+{% page-ref page="training-and-demo/" %}
 
