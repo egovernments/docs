@@ -12,10 +12,9 @@ Learn how to configure the DIGIT platform. Partner with us to enhance and integr
 
 {% page-ref page="configuring-workflows/" %}
 
-{% page-ref page="configuring-localization.md" %}
-
 {% page-ref page="setting-up-edcr-service.md" %}
 
 {% page-ref page="configuration-faqs.md" %}
 
 {% page-ref page="setting-up-a-language/" %}
+
