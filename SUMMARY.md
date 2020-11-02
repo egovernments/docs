@@ -46,8 +46,6 @@
   * [Product FAQs](modules-features/product-faqs.md)
   * [Quality Assurance](modules-features/testcases.md)
 * [Configure DIGIT](install-digit/README.md)
-  * [DSS Configuration And Setup](install-digit/dss-configuration-and-setup/README.md)
-    * [Building New Dashboards](install-digit/dss-configuration-and-setup/building-new-dashboards.md)
   * [Git Repos](install-digit/open-source-git-repos.md)
   * [Setting up DIGIT](install-digit/setting-up-digit/README.md)
     * [Configuring InfraOps](install-digit/setting-up-digit/configuring-infraops.md)
