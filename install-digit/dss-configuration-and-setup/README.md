@@ -28,7 +28,7 @@ Before you proceed with the configuration, make sure the following pre-requisite
 
 When we are going to start indexing the DSS collection v2 index. We should create the schema in the ES using the Kibana query as there in the below file.
 
-{% file src="../.gitbook/assets/dss-collection\_v2-schema.txt" caption="DSS Collection v2 Schema" %}
+{% file src="../../.gitbook/assets/dss-collection\_v2-schema.txt" caption="DSS Collection v2 Schema" %}
 
  **2. DSS ingest service API**
 
@@ -74,7 +74,7 @@ http://dashboard-ingest.egov:8080/dashboard-ingest/ingest/migrate/paymentsindex-
 * Transform collection schema for V2
   * This transform collection v1 configuration file is used to map with the incoming data. This mapped data will go inside the data object in the DSS collection v2 index.
 
-![](../.gitbook/assets/image-20201010-143543.png)
+![](../../.gitbook/assets/image-20201010-143543.png)
 
 [Click here for an example configuration](https://github.com/egovernments/punjab-rainmaker-customization/blob/UAT_V2/configs/egov-dss-dashboards/dashboard-ingest/DomainConfig.json)
 
@@ -87,7 +87,7 @@ http://dashboard-ingest.egov:8080/dashboard-ingest/ingest/migrate/paymentsindex-
   * For example, if the Data which is incoming is belonging to a Collection Module data, then the Collection Domain Config is picked. And based on the Business Type specified in the data, the right config is picked. 
   * In order to enhance the data of Collection, the domain index specified in the configuration is queried with the right arguments and the response data is obtained, transformed and set. 
 
-![](../.gitbook/assets/image-20201010-145024.png)
+![](../../.gitbook/assets/image-20201010-145024.png)
 
 [Click here for an example configuration](https://github.com/egovernments/punjab-rainmaker-customization/blob/UAT_V2/configs/egov-dss-dashboards/dashboard-ingest/DomainConfig.json)
 
@@ -95,7 +95,7 @@ http://dashboard-ingest.egov:8080/dashboard-ingest/ingest/migrate/paymentsindex-
   * Topic Context Configuration is an outline to define which data is received on which Kafka Topic. 
   * Indexer Service and many other services are sending out data on different Kafka Topics. If the Ingest Service is asked to receive those data and pass it through the pipeline, the context and the version of the data being received has to be set. This configuration is used to identify as in which Kafka topic consumed the data and what is the mapping for that.
 
-![](../.gitbook/assets/image-20201011-062132.png)
+![](../../.gitbook/assets/image-20201011-062132.png)
 
 [Click here for an example configuration](https://github.com/egovernments/punjab-rainmaker-customization/blob/UAT_V2/configs/egov-dss-dashboards/dashboard-ingest/TopicContextConfiguration.json)
 
@@ -104,14 +104,14 @@ http://dashboard-ingest.egov:8080/dashboard-ingest/ingest/migrate/paymentsindex-
   * While the transformation schemas are written for each Data Context, the data is transformed against the schema to obtain transformed data. 
   * [Follow the slide deck for JOLT Transformations](https://docs.google.com/presentation/d/1sAiuiFC4Lzz4-064sg1p8EQt2ev0o442MfEbvrpD1ls/edit#slide=id.p) 
 
-![](../.gitbook/assets/dss-configuration-and-setup2.png)
+![](../../.gitbook/assets/dss-configuration-and-setup2.png)
 
 [Click here for an example configuration](https://github.com/egovernments/punjab-rainmaker-customization/blob/UAT_V2/configs/egov-dss-dashboards/dashboard-ingest/transform_tl_v1.json)
 
 * Validator Schema
   * Validator Schema is a configuration Schema Library from **Everit** Bypassing the data against this schema, it ensures whether the data abides by the rules and requirements of the schema which has been defined. 
 
-![](../.gitbook/assets/image%20%2891%29.png)
+![](../../.gitbook/assets/image%20%2891%29.png)
 
 [Click here for an example configuration](https://github.com/egovernments/punjab-rainmaker-customization/blob/UAT_V2/configs/egov-dss-dashboards/dashboard-ingest/validator_transaction_v1.json)
 
@@ -120,7 +120,7 @@ http://dashboard-ingest.egov:8080/dashboard-ingest/ingest/migrate/paymentsindex-
   * For example, if the Data which is incoming is belonging to a Collection Module data, then the Collection Domain Config is picked. And based on the Business Type specified in the data, the right config is picked and the final data is placed inside the domain object. 
   * In order to enhance the data of Collection, the domain index specified in the configuration is queried with the right arguments and the response data is obtained, transformed and set. 
 
-![](../.gitbook/assets/image-20201011-064156.png)
+![](../../.gitbook/assets/image-20201011-064156.png)
 
 [Click here for an example configuration](https://github.com/egovernments/punjab-rainmaker-customization/blob/UAT_V2/configs/egov-dss-dashboards/dashboard-ingest/EnhanceDomainConfig.json)
 
@@ -140,7 +140,7 @@ es.push.direct=true
 
 * Configure the Kafka topics in the environments or Ingest pipeline application properties as shown below.
 
-![](../.gitbook/assets/image-20201011-055814.png)
+![](../../.gitbook/assets/image-20201011-055814.png)
 
 * To Start the indexing we will create a connecter that will take data from the topic and push it to the index we have mentioned in the "transforms.TopicNameRouter.replacement" and mention the ES host in the Kafka connection we have to mention the host URL in “connection.url”.
 * To create the Kafka connector run the below curl command inside the playground pod:
