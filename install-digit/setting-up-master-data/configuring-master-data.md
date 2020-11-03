@@ -1,24 +1,24 @@
 # Configuring Master Data
 
-### Overview
+## Overview <a id="Overview"></a>
 
 Configuring Master Data for a new module requires creating a new module in the master config file and adding masters data. For better organizing, create all the master data files belongs to the module in the same folder. Organizing in the same folder is not mandatory it is based on the moduleName in the Master data file.
 
-### Pre-requisites
+## Pre-requisites <a id="Pre-requisites"></a>
 
 Before you proceed with the configuration, make sure the following pre-requisites are met -
 
 * User with permissions to edit the git repository where MDMS data is configured.
 
-### Key Functionalities
+## Key Functionalities <a id="Key-Functionalities"></a>
 
 These data can be used to validate the incoming data.
 
-### Deployment Details
+## Deployment Details <a id="Deployment-Details"></a>
 
 After adding the new module data, the MDMS service needs to be restarted to read the newly added data.
 
-### Configuration Details
+## Configuration Details <a id="Configuration-Details"></a>
 
 **Adding new module**
 
@@ -46,9 +46,9 @@ The new module can be added below the existing modules in the master config file
 
 Please check the link to create new master[ Adding New Master](https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/644874241/Adding+New+Master)
 
-### Reference Docs
+## Reference Docs <a id="Reference-Docs"></a>
 
-#### Doc Links
+### Doc Links <a id="Doc-Links"></a>
 
 | **Title** | **Link** |
 | :--- | :--- |
