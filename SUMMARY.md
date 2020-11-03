@@ -207,6 +207,8 @@
     * [Setup Base Product Localization](install-digit/configuring-localization/setup-base-product-localization.md)
     * [Configure SMS and Email](install-digit/configuring-localization/configure-sms-and-email.md)
   * [Configuration FAQs](install-digit/configuration-faqs.md)
+  * [Setting Up SMS Gateway](install-digit/setting-up-sms-gateway/README.md)
+    * [Using The Generic GET & POST SMS Gateway Interface](install-digit/setting-up-sms-gateway/using-the-generic-get-and-post-sms-gateway-interface.md)
   * [Setting Up eDCR Service](install-digit/setting-up-edcr-service.md)
   * [Adding Roles To System](install-digit/adding-roles-to-system.md)
   * [Mapping Roles With APIs](install-digit/mapping-roles-with-apis.md)
