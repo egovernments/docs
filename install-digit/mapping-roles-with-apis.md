@@ -24,30 +24,88 @@ Before proceeding with the configuration, make sure the following pre-requisites
 
 ### Configuration Details <a id="Configuration-Details"></a>
 
-1. APIs are added in **actions-test.json** and called as action. In MDMS, file **actions-test.json**, under **ACCESSCONTROL-ACTIONS-TEST** folder APIs are added. **API Sample:**`1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30` `{ "tenantId": "uk", "moduleName": "ACCESSCONTROL-ACTIONS-TEST", "actions-test": [ { "id": 1685, //<Unique identifier> "name": "Create TradeLicense", "url": "/tl-services/v1/_create", //<url of the feature> "parentModule": "", "displayName": "Create TradeLicense", "orderNumber": 0, "enabled": false, "serviceCode": "tl-services", "code": "null", "path": "" }, { "id": 1686, "name": "Update TradeLicense", "url": "/tl-services/v1/_update", "parentModule": "", "displayName": "Update TradeLicense", "orderNumber": 0, "enabled": false, "serviceCode": "tl-services", "code": "null", "path": "" } ] }`
-2. APIs are added as action array element with the request url and other required details for the array "actions-test"
-3. Each action is defined as key-value pair:
+APIs are added in **actions-test.json** and called as action.  
+In MDMS, file **actions-test.json**, under **ACCESSCONTROL-ACTIONS-TEST** folder APIs are added.  
+**API Sample:**
+
+```text
+{
+  "tenantId": "uk",
+  "moduleName": "ACCESSCONTROL-ACTIONS-TEST",
+  "actions-test": [
+    {
+      "id": 1685,  //<Unique identifier>
+      "name": "Create TradeLicense",
+      "url": "/tl-services/v1/_create", //<url of the feature>
+      "parentModule": "",
+      "displayName": "Create TradeLicense",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "tl-services",
+      "code": "null",
+      "path": ""
+     },
+     {
+      "id": 1686,
+      "name": "Update TradeLicense",
+      "url": "/tl-services/v1/_update",
+      "parentModule": "",
+      "displayName": "Update TradeLicense",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "tl-services",
+      "code": "null",
+      "path": ""
+    }
+   ]
+  }   
+```
+
+APIs are added as action array element with the request url and other required details for the array "actions-test"
+
+Each action is defined as a key-value pair:
 
 | Sr. No. | key | Data Type | Is Mandatory? | Definition/ Description |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | id | Numeric | Yes | A unique id that identifies action. |
+| 1 | id | Numeric | Yes | A unique id that identifies an action. |
 | 2 | name | Text | No | A short narration provided to the action. |
-| 3 | url | Text | Yes | It is the request url of API call. |
+| 3 | url | Text | Yes | It is the request URL of API call. |
 | 4 | displayName | Text | No | It is the display name. |
 | 5 | enabled | boolean | Yes | To enable or disable display in UI. |
 | 6 | servicecode | Text | No | Code of the service to which API belongs. |
 
-4. Roles are added in **roles.json**  
+Roles are added in **roles.json**  
 In MDMS, file **roles.json**, under **ACCESSCONTROL-ROLES** folder roles are added.  
  More about roles can be checked in the below link:  
 [Adding roles to System](https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/717946899/Adding+roles+to+System)
 
-5. Mapping of Roles and APIs/action is added in **roleactions.json**, under the folder  
+Mapping of Roles and APIs/action is added in **roleactions.json**, under the folder  
 **ACCESSCONTROL-ROLEACTIONS**.  
-**Sample mapping:**`1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18` `{ "tenantId": "uk", "moduleName": "ACCESSCONTROL-ROLEACTIONS", "roleactions": [ { "rolecode": "TL_CEMP", "actionid": 1685, "actioncode": "", "tenantId": "uk" }, { "rolecode": "CITIZEN", "actionid": 1685, "actioncode": "", "tenantId": "uk" } ] }`
+**Sample mapping:**
 
-6. Role and API/action mapping is added as an array element under array roleactions.  
- 7. Each mapping is defined with key-value pairs. keys are rolecode, actionid, actioncode and tenantId.
+```text
+{
+  "tenantId": "uk",
+  "moduleName": "ACCESSCONTROL-ROLEACTIONS",
+  "roleactions": [
+    {
+      "rolecode": "TL_CEMP",
+      "actionid": 1685,
+      "actioncode": "",
+      "tenantId": "uk"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 1685,
+      "actioncode": "",
+      "tenantId": "uk"
+    }
+  ]
+}
+```
+
+Role and API/action mapping is added as an array element under array roleactions.  
+Each mapping is defined with key-value pairs. keys are rolecode, actionid, actioncode and tenantId.
 
 | Sr. No. | key | Is Mandatory? | Definition/ Description |
 | :--- | :--- | :--- | :--- |

@@ -33,9 +33,39 @@ Before proceeding with the configuration, make sure the following pre-requisites
 
 ### Configuration Details <a id="Configuration-Details"></a>
 
-1. APIs are added in **actions-test.json** and called as action. In MDMS, file **actions-test.json**, under **ACCESSCONTROL-ACTIONS-TEST** folder APIs are added. **API Sample:**`1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22` `{ "tenantId": "uk", "moduleName": "ACCESSCONTROL-ACTIONS-TEST", "actions-test": [ { "id": <unique and sequential to previous id>, "name": "rainmaker-common-propertytax", "url": "card", "displayName": "Property Tax", "orderNumber": 2, "parentModule": "", "enabled": true, "serviceCode": "", "code": "", "path": "", "navigationURL": "property-tax", "leftIcon": "action:store", "rightIcon": "", "queryParams": "" }, ] }`
-2. APIs are added as action array element with the request url and other required details for the array "actions-test"
-3. Each action is defined as key-value pair:
+APIs are added in **actions-test.json** and called as action.  
+In MDMS, file **actions-test.json**, under **ACCESSCONTROL-ACTIONS-TEST** folder APIs are added.
+
+API Sample -
+
+```text
+{
+  "tenantId": "uk",
+  "moduleName": "ACCESSCONTROL-ACTIONS-TEST",
+  "actions-test": [
+    {
+      "id": <unique and sequential to previous id>,
+      "name": "rainmaker-common-propertytax",
+      "url": "card",
+      "displayName": "Property Tax",
+      "orderNumber": 2,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "property-tax",
+      "leftIcon": "action:store",
+      "rightIcon": "",
+      "queryParams": ""
+    },
+   ]
+  }   
+```
+
+APIs are added as action array element with the request url and other required details for the array "actions-test"
+
+Each action is defined as a key-value pair:
 
 | Sr. No. | key | Data Type | Is Mandatory? | Definition/ Description |
 | :--- | :--- | :--- | :--- | :--- |
@@ -53,17 +83,32 @@ Before proceeding with the configuration, make sure the following pre-requisites
 | 12 | leftIcon | Icon | No |  |
 | 13 | rightIcon | Icon | No |  |
 
-4. Roles are added in **roles.json**  
+Roles are added in **roles.json**  
 In MDMS, file **roles.json**, under **ACCESSCONTROL-ROLES** folder roles are added.  
  More about roles can be checked in the below link:  
 [Adding roles to System](https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/717946899/Adding+roles+to+System)
 
-5. Mapping of Roles and APIs/action is added in **roleactions.json**, under the folder  
+Mapping of Roles and APIs/action is added in **roleactions.json**, under the folder  
 **ACCESSCONTROL-ROLEACTIONS**.  
-**Sample mapping:**`1 2 3 4 5 6 7 8 9 10 11 12` `{ "tenantId": "uk", "moduleName": "ACCESSCONTROL-ROLEACTIONS", "roleactions": [ { "rolecode": <specific code defined in roles.json>, "actionid": <id of an action>, "actioncode": "", "tenantId": <state notation of tenantId>(like uk,pb etc) } ] }`
+**Sample mapping:**
 
-6. Role and API/action mapping is added as an array element under array roleactions.  
- 7. Each mapping is defined with key-value pairs. keys are rolecode, actionid, actioncode and tenantId.
+```text
+{
+  "tenantId": "uk",
+  "moduleName": "ACCESSCONTROL-ROLEACTIONS",
+  "roleactions": [
+    {
+      "rolecode": <specific code defined in roles.json>,
+      "actionid": <id of an action>,
+      "actioncode": "",
+      "tenantId": <state notation of tenantId>(like uk,pb etc)
+    }
+  ]
+}
+```
+
+Role and API/action mapping is added as an array element under array roleactions.  
+Each mapping is defined with key-value pairs. keys are rolecode, actionid, actioncode and tenantId.
 
 | Sr. No. | key | Is Mandatory? | Definition/ Description |
 | :--- | :--- | :--- | :--- |

@@ -214,6 +214,7 @@
   * [Mapping Roles With APIs](install-digit/mapping-roles-with-apis.md)
   * [Setting Up Finance Service](install-digit/setting-up-finance-service.md)
   * [Adding New APIs For Access](install-digit/adding-new-apis-for-access.md)
+  * [Deployment Of App on Play Store](install-digit/deployment-of-app-on-play-store.md)
 * [Customize DIGIT](customizing-digit/README.md)
   * [Frontend/UI](customizing-digit/customizing-frontend.md)
   * [DIGIT Customization](customizing-digit/digit-customization/README.md)
