@@ -118,7 +118,7 @@ SENDBACKTOCITIZEN is a special keyword for action name. This action sends back t
 
 ### Integration
 
-For integration-related steps please refer to the document _' Setting Up Workflows'_ in the Reference Docs
+For integration-related steps please refer to the document [**Setting Up Workflows**](setting-up-workflow.md). 
 
 ### Reference Docs
 
@@ -127,7 +127,7 @@ For integration-related steps please refer to the document _' Setting Up Workflo
 | **Title** | **Link** |
 | :--- | :--- |
 | Workflow Service Documentation | [https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/664174657/Workflow+Service](https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/664174657/Workflow+Service) |
-| Setting Up Workflows | [https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/644546619/Setting+Up+Workflows](https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/644546619/Setting+Up+Workflows) |
+| Setting Up Workflows | [ttps://digit-discuss.atlassian.net/wiki/spaces/DD/pages/644546619/Setting+Up+Workflows](https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/644546619/Setting+Up+Workflows) |
 
 #### API List
 
