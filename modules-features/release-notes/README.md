@@ -2,14 +2,14 @@
 description: 'New release features, enhancements, and fixes'
 ---
 
-# Release Notes DIGIT 2.0
+# Release Notes DIGIT 2.1
 
 ### Release Summary
 
-‌DIGIT 2.0 is a baselined release that has got few functional changes, but more of non-functional standardisation changes.
+DIGIT 2.1 is a release that has got a few functional changes and few non-functional standardization changes.
 
-* Functional: Introducing advance payment feature and Advance collection integration with W/S.
-* Non-functional: Upgrading spring boot and tracer version of all the backend services to enhance the range of non-functional benefits like performance, metrics, and security. Also, all digit services/configs are baselined to follow the Semantic Versioning. These would enable the partner eco-system, system Integrators and state teams for easy on-going upgrades and integrations.
+* Functional: Introducing Water and Sewerage edit connection and Connection holder feature, DSS enhancements, Edit \(send back to Citizen\) property enhancements, and PGR APIs redesign along with workflow integration and reports.
+* Non-functional: Baselining Actions, Role action mapping, and English Localization data.
 
 ### New ‌Feature Additions
 
@@ -24,36 +24,31 @@ description: 'New release features, enhancements, and fixes'
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">Advance Payments</td>
-      <td style="text-align:left">
-        <p>Ability to handle <a href="advance-payments-release-notes.md">advanced payments </a>-
-          platform and Reference implementation in W&amp;S.</p>
-        <p>Advance Collection integration with W&amp;S</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">API Contracts</td>
-      <td style="text-align:left">Advance Collection integration with W&amp;S</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Infra/Ops Simplification &amp; Enablement</td>
-      <td style="text-align:left">
-        <p>Infra &amp; Service monitoring v1.0.0 (Prometheus, Alertmanager &amp;
-          Grafana)</p>
+      <td style="text-align:left">Water and Sewerage edit connection and Connection holder feature</td>
+      <td
+      style="text-align:left">
+        <p></p>
         <ul>
-          <li>Cluster Resource monitoring</li>
-          <li>Request Traffic monitoring</li>
-          <li>DIGIT Service monitoring</li>
-          <li>All Java-based services SpringBoot upgraded from 1.5.X to 2.2.6 for better
-            security, performance and metrics.</li>
-          <li>Backbone Services migrated to Helm templates to ease deployment on Kubernetes.</li>
-          <li>Introduced Minio as a digit platform service for SDCs to leverage S3 like
-            object storage feature.</li>
-          <li>DIGIT on Spot Instances for AWS users saves 60% of the cloud cost.</li>
-          <li>Configurable SSO with GitHub or Google SSO OAuth for all the Infra apps
-            like Jaeger, Grafana, Kibana.</li>
-          <li><a href="https://github.com/egovernments/CIOps">Jenkins CI/CD as a servic</a>e
-            with the pipelines</li>
+          <li>Edit existing water or sewerage connection information using a workflow
+            approval process.</li>
+          <li>Associate a non-owner (connection holder) of the property to any connection.</li>
+        </ul>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">PGR API Contracts and APIs redesign</td>
+      <td style="text-align:left">
+        <p></p>
+        <ul>
+          <li>PGR APIs redesign along with workflow integration.</li>
+          <li>New reports
+            <ul>
+              <li>ULB Report</li>
+              <li>Description Report</li>
+              <li>LME Performance Report</li>
+              <li>GRO Performance Report</li>
+            </ul>
+          </li>
         </ul>
       </td>
     </tr>
@@ -73,32 +68,42 @@ description: 'New release features, enhancements, and fixes'
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">Baseline version upgrades</td>
+      <td style="text-align:left">DSS v1.2 Enhancements</td>
       <td style="text-align:left">
         <ul>
-          <li>Bulk persister changes to support bulk persisting for migration in Persister
-            Service.</li>
-          <li>Localization URL params to be changed to request params in Localization
-            service</li>
-          <li>Receipt download link in SMS and email notifications.</li>
-          <li>Rainwater Harvesting attribute in Property Service</li>
-          <li>Filestore service enhancement - Support for SDC and S3 implementation.</li>
-          <li>Maven dependencies upgrade and merging the backend services to the master
-            branch (Upgraded Tracer to 2.0.0, spring boot to 2.2.6, flyway-core to
-            6.4.3, etc along with code cleanup) for all the services across the services.
-            The Changelog has been added.</li>
-          <li>Baseline versioning of all the services as per the streaming strategy.</li>
+          <li>Graphs</li>
+          <li>Pie Charts</li>
+          <li>Typography</li>
+          <li>Time Filter</li>
+          <li>Comparison Indicators in Tables</li>
+          <li>Breadcrumbs</li>
+          <li>Event Duration Graphs</li>
+          <li>Drilldown and Drillthroughs</li>
         </ul>
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">UI enhancements</td>
+      <td style="text-align:left">Property Enhancements</td>
       <td style="text-align:left">
         <ul>
-          <li>Generalized Client-side PDF generation component and integration with
-            Property, Fire NOC, Trade License, and W&amp;S applications).</li>
-          <li>Generalize acknowledgement screens component</li>
-          <li>MDMS namespace common component and integration with PT and TL modules.</li>
+          <li>Edit (Send Back to citizen) in Property Create, Update, and Mutation workflow</li>
+          <li>Workflow configuration to support Data Entry and Data migration in Property
+            Service</li>
+          <li>Payer information on citizen side in open payments</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">UI and backend Enhancements</td>
+      <td style="text-align:left">
+        <ul>
+          <li>Searcher Ignore case for user input fields</li>
+          <li>DOB range Validation in HRMS and Trade License</li>
+          <li>Create a user for an unregistered mobile number as part of the Billing
+            service</li>
+          <li>Added Deserialization Error Handler in Persister</li>
+          <li>Localization caching in the application (module wise - within the module)</li>
+          <li>Addition of spinner in all PT, TL, and Common pay screens</li>
         </ul>
       </td>
     </tr>
@@ -106,21 +111,15 @@ description: 'New release features, enhancements, and fixes'
       <td style="text-align:left">Non-functional enhancements</td>
       <td style="text-align:left">
         <ul>
-          <li>Versioned Git Tags for all the services</li>
-          <li>Versioned MDMS and Config data.</li>
+          <li>Actions and Roleaction mapping - Product baseline</li>
+          <li>Baseline English Localisation data</li>
+          <li>Readme and Localsetup documentations for all the services</li>
+          <li>Technical Enablement and other Tech documentations</li>
         </ul>
       </td>
     </tr>
   </tbody>
 </table>
-
-**Upgrade Notes**
-
-DIGIT 2.0 is a baselined release - considering simplification and standardization as a theme. It is strongly recommended all-state teams upgrade to leverage benefits.
-
-* All services versioning will follow [**SemVer 2.0**](https://medium.com/@pmuens/understanding-semver-3f75d11b4d)**,** naming conventions and Git Tagging are improved for better tracing.
-* Next release might have a few more enhancements to the services naming conventions and handling MDMS and Configs better.
-* **Impact**: Functionally, the upgrade to DIGIT 2.0 will not impact the existing environments.
 
 ### Document Resources and Links
 
@@ -139,88 +138,91 @@ DIGIT 2.0 is a baselined release - considering simplification and standardizatio
     <tr>
       <td style="text-align:left">
         <ul>
-          <li><a href="../user-guides/guide-pgr/">PGR</a>
+          <li><a href="https://digit-discuss.atlassian.net/wiki/spaces/EPE/pages/772178266/DSS++Features+Enhancements+V2+Technical+Document+for+UI">DSS Features Enhancements V2 Technical Document for UI</a>
           </li>
-          <li><a href="../user-guides/guide-pt/">Property Tax</a>
+          <li><a href="https://digit-discuss.atlassian.net/wiki/spaces/EGR/pages/408485900/Search+Property+Tax">Search Property Tax</a>
           </li>
-          <li><a href="../user-guides/guide-tl/">Trade License</a>
+          <li><a href="https://digit-discuss.atlassian.net/wiki/spaces/EGR/pages/408945038/View+Property+Details%2C+Transfer+Ownership+and+View+History">View Property Details, Transfer Ownership and View History</a>
           </li>
-          <li>Fire NOC</li>
-          <li><a href="https://digit-discuss.atlassian.net/wiki/spaces/EGR/pages/436502610/BillGenie?atlOrigin=eyJpIjoiN2EzZmY2ZjFlYzIxNDc2Zjk4YzIwM2FmOGI1NmM1MDAiLCJwIjoiYyJ9">Bill Genie</a>
+          <li><a href="https://digit-discuss.atlassian.net/wiki/spaces/EGR/pages/408945299/Property+and+Mutation+Workflow">Property and Mutation Workflow</a>
           </li>
-          <li><a href="https://digit-discuss.atlassian.net/wiki/spaces/EGR/pages/438894719/Universal+Collection?atlOrigin=eyJpIjoiNjAzNzBiMTAwMzNlNDk2NDk0ZTQxNjdlMzMwYzE5N2IiLCJwIjoiYyJ9">MCS</a>
+          <li><a href="https://digit-discuss.atlassian.net/wiki/spaces/EGR/pages/441450614/Property+Tax+-+Add+New+Property">Property Tax - Add New Property</a>
           </li>
-          <li><a href="https://digit-discuss.atlassian.net/l/c/NjoYpKzK">Common Pay</a>
+          <li><a href="https://digit-discuss.atlassian.net/wiki/spaces/EGR/pages/443351062/Property+-+Update+Existing+Property">Property - Update Existing Property</a>
           </li>
-          <li><a href="advance-payments-release-notes.md">Advance Payment</a>
+          <li><a href="https://digit-discuss.atlassian.net/wiki/spaces/EGR/pages/443744285/Property+-+Transfer+of+Ownership">Property - Transfer of Ownership</a>
           </li>
-          <li><a href="https://digit-discuss.atlassian.net/l/c/QX3zRcjW">mSeva 2.0</a>
+          <li><a href="https://digit-discuss.atlassian.net/wiki/spaces/EGR/pages/554992509/Connection+Holder+Details">Connection Holder Details</a>
           </li>
-          <li>Water &amp; Sewerage</li>
-          <li>MDMS UI Configurations</li>
-          <li><a href="https://digit-discuss.atlassian.net/wiki/spaces/EGR/pages/449085476/Required+documents+dialog+implementation?atlOrigin=eyJpIjoiNDEwZDdkNWYzY2EwNDRkZWE0Nzg2NTcwOTM5NDg1YzMiLCJwIjoiYyJ9">Required documents dialogue implementation</a>
-          </li>
-          <li><a href="https://digit-discuss.atlassian.net/l/c/dVxJH2B5">Generation of Acknowledgement PDF</a>
-          </li>
-          <li><a href="https://digit-discuss.atlassian.net/wiki/spaces/EGR/pages/450789466/How+to+add+dynamic+drop+down+for+mdms+data?atlOrigin=eyJpIjoiNDY0ZGQxY2RhNTBkNDExOWE4ZTc1MTUxOTk4MTZmOTAiLCJwIjoiYyJ9">How to add dynamic dropdown for MDMS data</a>
-          </li>
-          <li><a href="https://digit-discuss.atlassian.net/wiki/spaces/EGR/pages/572522501/Acknowledgment+screens?atlOrigin=eyJpIjoiNWI5YzdmZDkyNThmNGI4MGFlMjI2MDg0NzRkMWQ4ZTgiLCJwIjoiYyJ9">Common Acknowledgment screens</a>
+          <li><a href="https://digit-discuss.atlassian.net/wiki/spaces/EGR/pages/561348711/Edit+Connection+Flow">Edit Connection Flow</a>
           </li>
         </ul>
       </td>
       <td style="text-align:left">
         <ul>
-          <li><a href="https://digit-discuss.atlassian.net/l/c/1P512Vzx">Advance Payment</a>
+          <li><a href="https://digit-discuss.atlassian.net/wiki/spaces/EPE/pages/328925216/Water+Service+-+Technical+Document?atlOrigin=eyJpIjoiNDM4Yjc3MmJmNDBiNDViZGEwZjJmYTg2MzVhNDdkOTgiLCJwIjoiYyJ9">Water Service - Technical Document</a>
           </li>
-          <li><a href="https://digit-discuss.atlassian.net/l/c/41XVUCh6">Kafka Connect for reindex</a>
+          <li><a href="https://digit-discuss.atlassian.net/l/c/PM2Ho3A1">Sewerage Service - Technical Document</a>
           </li>
-          <li><a href="https://digit-discuss.atlassian.net/l/c/cRAR1xcf">TL Service Renewal Upgradation</a>
+          <li><a href="https://digit-discuss.atlassian.net/l/c/p3MGjvPw">Water Calculator Service - Technical Document</a>
           </li>
-          <li><a href="https://digit-discuss.atlassian.net/wiki/spaces/EPE/pages/37060620/File-Store-Service?atlOrigin=eyJpIjoiOWQwYWZmYjNkNTU0NDFlMzk4YjdiNTk1YTI3ZDY3NTciLCJwIjoiYyJ9">Filestore service</a>
+          <li><a href="https://digit-discuss.atlassian.net/l/c/o0gRiR1n">Sewerage Calculator Service - Technical Document</a>
           </li>
-          <li><a href="https://digit-discuss.atlassian.net/l/c/hydmp2YA">Persister Service</a>
+          <li><a href="https://digit-discuss.atlassian.net/wiki/spaces/EPE/pages/566984722/W+S+Promotion+Document+v2.2?atlOrigin=eyJpIjoiZThlMzRkNDUxNjcyNGJhZmEyMmMxODhkYzJjMGU4YTMiLCJwIjoiYyJ9">W&amp;S Promotion Document v2.2</a>
           </li>
-          <li><a href="https://digit-discuss.atlassian.net/wiki/spaces/EPE/pages/152567827/Collection+Migration+V1+to+V2?atlOrigin=eyJpIjoiNjEwNjQ1MWE5ZDNmNGU5Nzk0MWI5YWJlNjU0N2E1YWQiLCJwIjoiYyJ9">Collection Migration v1 to v2</a>
+          <li><a href="https://digit-discuss.atlassian.net/wiki/spaces/EPE/pages/117244081/DSS+Backend+Configuration+Manual">DSS Backend Configuration Manual</a>
           </li>
-          <li><a href="https://digit-discuss.atlassian.net/wiki/spaces/EPE/pages/155910170/Consumer+Code+Uniqueness+Migration?atlOrigin=eyJpIjoiMTc5Y2Q1OWQ0NDBmNDA2MmJhNjRjZGY5NjY3ZTJjYWQiLCJwIjoiYyJ9">Consumer Code Uniqueness Migration</a>
+          <li><a href="https://digit-discuss.atlassian.net/wiki/spaces/EPE/pages/222494721/Property+Registry+Migration">Property Registry Migration</a>
           </li>
-          <li><a href="https://digit-discuss.atlassian.net/l/c/dgM6oHg1">Property Registry Migration</a>
+          <li><a href="https://digit-discuss.atlassian.net/wiki/spaces/EPE/pages/313360447/Chatbot-service">Chatbot-service</a>
           </li>
-          <li><a href="https://digit-discuss.atlassian.net/l/c/0y774J0V">Notification SMS service</a>
+          <li><a href="https://digit-discuss.atlassian.net/wiki/spaces/EPE/pages/579436651/Promotion+Doc+whatsapp-PGR+chatbot">Promotion Doc whatsapp-PGR chatbot</a>
           </li>
-          <li><a href="https://digit-discuss.atlassian.net/wiki/spaces/EPE/pages/328925216/Water+Service+-+Technical+Document?atlOrigin=eyJpIjoiNDM4Yjc3MmJmNDBiNDViZGEwZjJmYTg2MzVhNDdkOTgiLCJwIjoiYyJ9">Water Service</a>
+          <li><a href="https://digit-discuss.atlassian.net/wiki/spaces/EPE/pages/638550096/Kafka-connect+commands+for+DSS+and+Collection+live+indexing">Kafka-connect commands for DSS and Collection live indexing</a>
           </li>
-          <li><a href="https://digit-discuss.atlassian.net/l/c/PM2Ho3A1">Sewerage Service</a>
-          </li>
-          <li><a href="https://digit-discuss.atlassian.net/l/c/p3MGjvPw">Water Calculator Service</a>
-          </li>
-          <li><a href="https://digit-discuss.atlassian.net/l/c/o0gRiR1n">Sewerage Calculator Service</a>
-          </li>
-          <li><a href="https://digit-discuss.atlassian.net/l/c/Z2yYBY2b">W&amp;S Promotion document</a>
+          <li><a href="https://digit-discuss.atlassian.net/l/c/XEWFAfnS">NOC Promotion Document</a>
           </li>
         </ul>
       </td>
       <td style="text-align:left">
         <ul>
-          <li><a href="https://github.com/egovernments/eGov-infraOps/commit/274aab0e90a10673972ddc769f2fc89015f0fe8d">Monitoring &amp; Alerting</a>
+          <li><a href="https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/723189807">MDMS (Master Data Management Service)</a>
           </li>
-          <li><a href="https://github.com/egovernments/eGov-infraOps/commit/4aae58e8560c726a44c9347795fd9db80aaed6c8">SSO OAuth (GitHub)</a> for
-            Kibana, Jaeger, etc</li>
-          <li><a href="https://github.com/egovernments/eGov-infraOps/commit/c7a4c3d5eb8b188e5083f3e0f33a9405bb995895">Grafana</a> dashboard
-            for Infra and Service monitoring</li>
-          <li><a href="https://github.com/egovernments/eGov-infraOps/commit/274aab0e90a10673972ddc769f2fc89015f0fe8d">Jenkins as a service</a> for
-            CI/CD</li>
-          <li>Minio <a href="https://github.com/egovernments/eGov-infraOps/pull/764/files">Helm templates</a>
+          <li><a href="https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/644546619/Setting+Up+Workflows">Setting Up Workflows</a>
+          </li>
+          <li><a href="https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/644481051">Configuring Workflows For New Product/Entity</a>
+          </li>
+          <li><a href="https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/717979679/PDF+Generation+Service">PDF Generation Service</a>
+          </li>
+          <li><a href="https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/720306189">Customizing PDF Receipts &amp; Certificates</a>
+          </li>
+          <li><a href="https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/720470017/Integration+of+PDF+in+UI+for+download+and+print+PDF">Integration of PDF in UI for download and print PDF</a>
+          </li>
+          <li><a href="https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/686719019/API+Do+s+and+Don+ts">API Do&apos;s and Don&apos;ts</a>
+          </li>
+          <li><a href="https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/751140901/Writing+a+new+Consumer">Writing a new Consumer</a>
+          </li>
+          <li><a href="https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/664174657/Workflow+Service">Workflow Service</a>
+          </li>
+          <li><a href="https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/669450371/User+Service">User Service</a>
+          </li>
+          <li><a href="https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/695664711/Access+Control+Service">Access Control Service</a>
+          </li>
+          <li><a href="https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/745701377/Payment+Gateway+Service">Payment Gateway Service</a>
+          </li>
+          <li><a href="https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/664338482/Location+Service">Location Service</a>
+          </li>
+          <li><a href="https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/669614102/Trade-License+Service">Trade License Service</a>
+          </li>
+          <li><a href="https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/684392464/pgr-services">PGR Services v2.0</a>
+          </li>
+          <li><a href="https://digit-discuss.atlassian.net/l/c/stF7suXA">BPA Service</a>
+          </li>
+          <li><a href="https://digit-discuss.atlassian.net/l/c/Mj6mhaXL">Noc Services</a>
           </li>
         </ul>
       </td>
     </tr>
   </tbody>
 </table>
-
-### Upcoming Release Highlights
-
-* Renaming of the backend services with a naming convention in place.
-* Config \(MDMS, Configs\) Baseline versioning.
-* Readme.md and Localsetup.md documentations for Core, Business, Municipal, and Other services.
 
