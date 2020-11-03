@@ -1,37 +1,70 @@
 ---
-description: DIGIT 2.0 Changes to the Property Tax
+description: DIGIT 2.1 Changes to the Property Tax Module
 ---
 
-# Property Tax Release Notes
+# Property Tax 2.1 Release Notes
 
-### Overview
+### Overview <a id="Overview"></a>
 
-The Property Tax System in DIGIT provides a digital interface to make property assessments, pay property tax, generate payment receipts or monitor and generate tax collection reports. It can be used by citizens, Urban Local Body \(ULB\) counter employees, field employees, and ULB Administrators to accomplish their specific tasks.
+This latest release version offers the capability to edit applications in workflow by the citizen and the counter employee.
 
-### Release Highlights
+### Release Highlights <a id="Release-Highlights"></a>
 
-1. Ability to search Property in public domain
-2. Ability to make Property tax payments without login in DIGIT
-3. Payment link in the SMS and email notification
-4. Enable email notification for property tax
-5. Payment QR code on bills
-6. Enlisting documents required to apply for property registration and transfer of ownership
+1. Send back to the citizen and Edit Application - New Property application, edit property application & Mutation/transfer of ownership application
+2. Capture payer details on the citizen common pay page
 
-### Release Features
+### Release Features <a id="Release-Features"></a>
 
-| **Key Feature** | **Description** |
-| :--- | :--- |
-| Ability to search Property in public domain | This feature provides the ability to search properties registered in our system in the public domain. Users do not have to log in to our platform to see the property owners and due details. |
-| Ability to make property tax payments without login in DIGIT | Citizens can pay their property tax dues without having to login into the system. Citizens can access this feature from open search, SMS/email notification, or any physical artefact having a payment link. |
-| Payment link in the SMS and email notification | At the time of bill generation, SMS and an email notification will be triggered to the citizen’s registered IDs. The notification will have a payment link that will direct the citizen to the DIGIT common payment page. User does not have to log in. |
-| Enable email notification for property tax | Email notification is configured for the property tax module. An email notification will also be triggered to the registered ID along with the SMS. The trigger for SMS and email notification can be configured. |
-| Payment QR code on bills | Property tax bills will have a payment QR code printed. Each bill will have a unique QR code which will be a link to the common pay page. |
-| Enlisting documents required to apply for property registration and transfer of ownership | Before initiating property registration and transfer of ownership application, the citizen will be informed about the documents required to complete the application. The list of documents can be configured based on the state’s requirements. |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left"><b>Key Feature</b>
+      </th>
+      <th style="text-align:left"><b>Description</b>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">Send back to the citizen and Edit Application - New Property application,
+        edit property application &amp; Mutation/transfer of ownership application</td>
+      <td
+      style="text-align:left">
+        <p>On submitting an application by citizen or counter employee, it goes through
+          the approval process. If the employee (Document verifier or field inspector)
+          sees any discrepancy in the application they can send it back to the citizen
+          for edits. Once reviewed and edited by the citizen the application will
+          go through the complete approval flow as usual.</p>
+        <p>Fields that can be edited -</p>
+        <p><a href="https://digit-discuss.atlassian.net/browse/P20P-11"><img src="https://digit-discuss.atlassian.net/secure/viewavatar?size=medium&amp;avatarId=10318&amp;avatarType=issuetype" alt/>P20P-11: Edit Application during workflowTO DO</a>
+        </p>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Capture payer details on the citizen common pay page</td>
+      <td style="text-align:left">
+        <p>Similar to the employee common pay page, we&#x2019;ll capture payer information
+          on citizen common pay page. This will help the team with financial record
+          sanitization and audits.</p>
+        <p>User story -<a href="https://digit-discuss.atlassian.net/jira/software/projects/RAIN/boards/30/backlog?selectedIssue=RAIN-1136">https://digit-discuss.atlassian.net/jira/software/projects/RAIN/boards/30/backlog?selectedIssue=RAIN-1136</a>
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-### Reference Doc Links
+### Known Issues <a id="Known-Issues"></a>
+
+None
+
+### Upcoming Release Features <a id="Upcoming-Release-Features"></a>
+
+Not Planned
+
+### Reference Doc Links <a id="Reference-Doc-Links"></a>
 
 | **Doc Links** | **Description** |
 | :--- | :--- |
-|  | Property Tax User Manual |
-|  | Property Tax Configuration |
+|   |  |
+|  |  |
 
