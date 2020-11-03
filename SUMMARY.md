@@ -6,6 +6,7 @@
 * [Product & Modules](modules-features/README.md)
   * [Brochures](modules-features/product-brochures.md)
   * [User Manuals](modules-features/user-guides/README.md)
+    * [Water & Sewerage](modules-features/user-guides/water-and-sewerage.md)
     * [Logging Into DIGIT](modules-features/user-guides/guide-login.md)
     * [mCollect](modules-features/user-guides/guide-mcollect/README.md)
       * [Citizen User Manual](modules-features/user-guides/guide-mcollect/citizen-user-manual.md)

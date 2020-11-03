@@ -1,48 +1,68 @@
 ---
-description: DIGIT 2.1 Changes to the Public Grievance and Redressal Module
+description: DIGIT 2.0 Changes to the Public Grievance and Redressal
 ---
 
-# PGR 2.1 Release Notes
+# PGR Release Notes
 
-### Overview <a id="Overview"></a>
+### Overview
 
-As part of the PGR products, we have added out of the box reports which will go live with product release to monitor basic KPIs and help administrators track adoption and employee performance with ease.
+PGR is a standardized solution offering on DIGIT platform to register and redress citizen grievances. It provides a transparent and trackable mechanism to solve public grievances by inducing responsive administration. PGR enables the citizens to file the complaints using various channels and helps the municipal employees to resolve them in a timebound manner.
 
-### Release Highlights <a id="Release-Highlights"></a>
+### Release Highlights
 
-The following reports are created as part of the product offering in PGR with necessary filters in every report to get deeper insights from data.
+1. Additional user role added - Provision for the additional role of state CSR for addressing Public Grievances
+2. Display the exact count of assigned or unassigned complaints in GRO/LME inbox
 
-1. ULB Report 
-2. GRO  Performance Report 
-3. FME Performance Report
-4. Description Report
+### Release Features
 
-### Release Features <a id="Release-Features"></a>
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left"><b>Key Feature</b>
+      </th>
+      <th style="text-align:left"><b>Description</b>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">Additional user role added - Provision for the additional role of state
+        CSR for addressing Public Grievances</td>
+      <td style="text-align:left">
+        <ol>
+          <li>An employee having role State CSR will be able to file a complaint in
+            any city (which is live on the system) on behalf of the citizen</li>
+          <li>The state CSR will be able to able to search complaints in all ULB and
+            track the status of complaint if enquired by a citizen on the basis of
+            complaint number or mobile number</li>
+          <li>The state CSR will have access to state-level reports to review the performance
+            across ULBs</li>
+        </ol>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Display the exact count of assigned or unassigned complaints in GRO/LME
+        inbox</td>
+      <td style="text-align:left">
+        <ol>
+          <li>GRO will see the total count of complaints that are unassigned and assigned
+            in his/her inbox and complaint displayed to him</li>
+          <li>LME will see the count of open complaints in his inbox and complaints
+            which are displayed</li>
+          <li>GRO/LME will be able to see complaints and take action on the complaints
+            in the queue (past 200 records) when he/she takes action on displayed records</li>
+        </ol>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-| **Key Feature** | **Description** |  |  |
-| :--- | :--- | :--- | :--- |
-| PGR | ULB Report | This report will show Department wise information on complaints that are logged into the system and statistics around the performance of the overall system. |  |
-| PGR | GRO Performance Report | This report will provide information on Grievance Routing Officer performance. |  |
-| PGR | FME Performance Report | This report will provide information on first-mile employee performance. |  |
-| PGR | Description Report | This report will worklist for FME in which complaints assigned to him will be visible. The FME can take the printout and go on the ground with the necessary information and resolve the complaint, also if there are contractors or contract labourers this printout will solve the problem to handover list of complaints to them. |  |
+* **Support for New Role- State CSR** - The Grievance Counter is one of the channels through which citizens can file a complaint in person or through a telephone. There could be different types of counters both at ULB level or at State level, for example, CM helpline, local government-related helplines, etc. The first version of PGR has provision for ULB level counter where the employee \(ULB CSR\) can file complaints on behalf of the citizen. The current enhancement has provision for the additional role of state-level CSR who can file complaints or track status on behalf of citizens in any city in the state. This is irrespective of ULB where the CSR is registered. This provides a central monitoring capability to the State level CSR as well as improves the responsiveness by cutting down the time to redress a complaint.
+* **Display the exact count of complaints assigned** - This feature focuses on showing the exact count of complaints the GRO \(Grievance Redressal Officer\) or LME \(Last-Mile Employee\) has in their Inbox. The GRO will have the visibility to all unassigned and assigned complaints. The LME will know the exact count of open complaints against his name. The initial version has only a count of complaints in GRO/LME Inbox which are displayed to that employee. Also, it had a restriction on the number of complaint records displayed, which was fixed at 200. This enhancement helps the GRO/LME to have a correct estimate of the work.
 
-### Known Issues <a id="Known-Issues"></a>
+![](blob:https://digit-discuss.atlassian.net/7f949e40-3ee2-4eef-98f0-30ece30f0e73#media-blob-url=true&id=4d067959-7f98-4bee-932d-f6af66848a1f&collection=contentId-700809219&contextId=700809219&mimeType=image%2Fpng&name=PGR-enhancement1.png&size=162912&width=613&height=373)
 
-[RAIN-1643](https://digit-discuss.atlassian.net/jira/software/projects/RAIN/boards/30/backlog?selectedIssue=RAIN-1643&text=PGR%20repo)
-
-[RAIN-1644](https://digit-discuss.atlassian.net/jira/software/projects/RAIN/boards/30/backlog?selectedIssue=RAIN-1644&text=PGR%20repo)
-
-[RAIN-1645](https://digit-discuss.atlassian.net/jira/software/projects/RAIN/boards/30/backlog?selectedIssue=RAIN-1645&text=PGR%20repo)
-
-[RAIN-1646](https://digit-discuss.atlassian.net/jira/software/projects/RAIN/boards/30/backlog?selectedIssue=RAIN-1646&text=PGR%20repo)
-
-[RAIN-1647](https://digit-discuss.atlassian.net/jira/software/projects/RAIN/boards/30/backlog?selectedIssue=RAIN-1647&text=PGR%20repo)
-
-### Upcoming Release Features <a id="Upcoming-Release-Features"></a>
-
- Not planned.
-
-### Reference Doc Links <a id="Reference-Doc-Links"></a>
+### Reference Doc Links
 
 | **Doc Links** | **Description** |
 | :--- | :--- |
