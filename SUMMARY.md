@@ -196,6 +196,7 @@
     * [Setting Up Service Locally](install-digit/configuring-digit-services/setting-up-service-locally.md)
     * [Configuring New Reports](install-digit/configuring-digit-services/configuring-reports/README.md)
       * [Types Of Reports Used In Report Service](install-digit/configuring-digit-services/configuring-reports/types-of-reports-used-in-report-service.md)
+      * [Impact Of Heavy Reports On Platform](install-digit/configuring-digit-services/configuring-reports/impact-of-heavy-reports-on-platform.md)
     * [Customizing PDF Notices And Certificates](install-digit/configuring-digit-services/customizing-pdf-notices-and-certificates.md)
   * [Setting up a Language](install-digit/setting-up-a-language/README.md)
     * [Adding New Language](install-digit/setting-up-a-language/adding-a-language.md)
