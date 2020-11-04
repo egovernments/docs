@@ -19,12 +19,12 @@ The following reports are created as part of the product offering in PGR with ne
 
 ### Release Features <a id="Release-Features"></a>
 
-| **Key Feature** | **Description** | Details |
-| :--- | :--- | :--- |
-| PGR | ULB Report | This report shows Department wise information on complaints that are logged into the system and statistics around the performance of the overall system. |
-| PGR | GRO Performance Report | This report provides information on Grievance Routing Officer performance. |
-| PGR | FME Performance Report | This report provides information on first-mile employee performance. |
-| PGR | Description Report | This report provides a list of complaints assigned to the FME. The FME can take the printout and go on the ground with the necessary information and resolve the complaint, also if there are contractors or contract labourers this printout will solve the problem to handover list of complaints to them. |
+| **Key Feature** | **Description** |  |  |
+| :--- | :--- | :--- | :--- |
+| PGR | ULB Report | This report will show Department wise information on complaints that are logged into the system and statistics around the performance of the overall system. |  |
+| PGR | GRO Performance Report | This report will provide information on Grievance Routing Officer performance. |  |
+| PGR | FME Performance Report | This report will provide information on first-mile employee performance. |  |
+| PGR | Description Report | This report will worklist for FME in which complaints assigned to him will be visible. The FME can take the printout and go on the ground with the necessary information and resolve the complaint, also if there are contractors or contract labourers this printout will solve the problem to handover list of complaints to them. |  |
 
 ### Known Issues <a id="Known-Issues"></a>
 
