@@ -1,6 +1,6 @@
 # DIGIT
 
-description: &gt;- Welcome to DIGIT documentation space that illustrates various sections of DIGIT as a platform to help the ecosystem learn, know how, extend and setup DIGIT.
+W_elcome to DIGIT documentation space that illustrates various sections of DIGIT as a platform to help the ecosystem learn, know how, extend and setup DIGIT._
 
 ![](.gitbook/assets/egov-docs-01.png)
 

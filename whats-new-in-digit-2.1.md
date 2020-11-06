@@ -14,26 +14,19 @@ We have added new reports in PGR module to facilitate accurate performance insig
 
 Users can now edit property applications and apply for mutation or transfer of ownership. We have added the provision to capture payer information on Citizen common pay page to ensure effective audits.
 
+{% page-ref page="modules-features/release-notes/property-tax-release-notes.md" %}
+
+The BPA module is now integrated with the NOC module to facilitate employees to update NOC details on behalf of the NOC Verifier. Multiple departments now have a common application form. 
+
+{% page-ref page="modules-features/release-notes/bpa-release-notes.md" %}
+
+Our dashboards offer rich insights with extended chart libraries, breadcrumbs for better navigation, comparison indicators, drill through options in tables and charts.
+
+{% page-ref page="modules-features/release-notes/advance-payments-release-notes.md" %}
+
+### Quick Links to 2.1 docs
 
 
-
-
-
-
-
-
-
-
-### [Building Plan Approval](modules-features/release-notes/bpa-release-notes.md)
-
-* The BPA module is now integrated with the NOC module to facilitate employees to update NOC details on behalf of the NOC Verifier.
-* Multiple departments now have a common application form. 
-
-### [Decision Support System](modules-features/release-notes/advance-payments-release-notes.md) 
-
-Our dashboards offer rich insights with extended chart libraries, breadcrumbs for better navigation, comparison indicato r  s, drill through options in tables and charts.
-
-> [Click here ](modules-features/release-notes/)for 2.1 release details...
 
   
 
