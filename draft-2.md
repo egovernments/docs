@@ -2,8 +2,6 @@
 
 ![](.gitbook/assets/digit-website_-01.png)
 
-![](.gitbook/assets/digit-website_-02.png)
-
 * **Open Source** - DIGIT is Open Source and has been built using the best in class Open Source technology stacks powering the most advanced companies in the world. DIGIT is able to provide the lowest total cost of ownership and helps ensure that governments retain strategic control of their systems and data. 
 
 ![](.gitbook/assets/mseva-app.png)
