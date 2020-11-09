@@ -1,16 +1,16 @@
-# DIGIT
+# What Is DIGIT?
 
-Welcome to DIGIT documentation space that illustrates various sections of DIGIT as a platform to help the ecosystem learn, know how, extend and setup DIGIT.
+![](.gitbook/assets/digit-website_-01.png)
 
-![](.gitbook/assets/egov-docs-01.png)
+![](.gitbook/assets/digit-website_-02.png)
 
-DIGIT is an open-source and open API powered platform for developers, enterprises and citizens to build new applications and solutions. The platform facilitates local governments to achieve quicker implementation time-frames, process improvements, accountability and transparency at various levels of administration.
+![](.gitbook/assets/digit-website_-03.png)
 
-{% page-ref page="install-digit/" %}
+![](.gitbook/assets/digit-website_-04.png)
 
-{% page-ref page="modules-features/product-brochures.md" %}
+![](.gitbook/assets/digit-website_-05.png)
 
-{% page-ref page="modules-features/user-guides/" %}
+![](.gitbook/assets/digit-website_-06.png)
 
-{% page-ref page="training-and-demo/" %}
+
 
