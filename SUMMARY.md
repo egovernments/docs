@@ -2,8 +2,7 @@
 
 * [What Is DIGIT?](README.md)
 * [Draft 2](draft-2.md)
-* [DIGIT Concepts](digit-overview/README.md)
-  * [DIGIT Architecture](digit-overview/architecture.md)
+* [DIGIT Architecture](architecture.md)
 * [Product & Modules](modules-features/README.md)
   * [Brochures](modules-features/product-brochures.md)
   * [User Manuals](modules-features/user-guides/README.md)
