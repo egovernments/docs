@@ -262,6 +262,7 @@
 * [DIGIT Support](digit-support/README.md)
   * [Support Process](digit-support/support-process.md)
   * [eGov Support Strategy for DIGIT](digit-support/egov-support-strategy-for-digit.md)
+  * [eGov Enablement Support for DIGIT](digit-support/egov-enablement-support-for-digit.md)
   * [Standard Operating Procedure](digit-support/standard-operating-procedure.md)
   * [Troubleshooting Guides](digit-support/troubleshooting-guides.md)
 
