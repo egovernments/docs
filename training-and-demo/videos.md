@@ -1,5 +1,9 @@
 # Training Videos
 
+{% hint style="info" %}
+Watch out for this space as we are constantly adding on to our video library.
+{% endhint %}
+
 DIGIT video tutorials provide a step-by-step guide to using the DIGIT modules. Refer to these videos for clarity and ease of understanding the different functions of the modules. Our product video library covers a wide range of functions, right from configuring DIGIT environment components to using the modules.
 
 Navigate to the relevant category to view the list of videos available.
@@ -113,8 +117,4 @@ Navigate to the relevant category to view the list of videos available.
     </tr>
   </tbody>
 </table>
-
-{% hint style="info" %}
-Watch out for this space as we are constantly adding on to our video library.
-{% endhint %}
 
