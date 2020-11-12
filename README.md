@@ -4,7 +4,7 @@ description: >-
   through digital governance capabilities
 ---
 
-# DIGIT
+# What Is DIGIT?
 
 ![](.gitbook/assets/digit-website-03.png)
 
