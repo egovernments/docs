@@ -2,8 +2,7 @@
 
 * [DIGIT](README.md)
 * [What’s New in DIGIT 2.1?](whats-new-in-digit-2.1.md)
-* [DIGIT Concepts](digit-overview/README.md)
-  * [DIGIT Architecture](digit-overview/architecture.md)
+* [DIGIT Architecture](architecture.md)
 * [Product & Modules](modules-features/README.md)
   * [Brochures](modules-features/product-brochures.md)
   * [User Manuals](modules-features/user-guides/README.md)
@@ -262,6 +261,7 @@
   * [Training Videos](training-and-demo/videos.md)
 * [DIGIT Support](digit-support/README.md)
   * [Support Process](digit-support/support-process.md)
+  * [eGov Support Strategy for DIGIT](digit-support/egov-support-strategy-for-digit.md)
   * [Standard Operating Procedure](digit-support/standard-operating-procedure.md)
   * [Troubleshooting Guides](digit-support/troubleshooting-guides.md)
 
