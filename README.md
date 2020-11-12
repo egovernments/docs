@@ -16,13 +16,17 @@ description: >-
 
 ![DIGIT - Enabling &amp; Empowering Citizens ](.gitbook/assets/220-sm769252.jpg)
 
+#### **Citizens**
+
 * Access governments easily using your mobile phones
 * Your requests automatically reach the appropriate person
 * Stay up-to-date with inbuilt notifications
 
+#### **Local Governments**
 
-
-
+* Realize the benefits of data driven governance
+* Reduced paperwork for employees
+* Efficient and prioritized use of resources
 
 
 
