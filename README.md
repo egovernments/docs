@@ -1,16 +1,28 @@
+---
+description: >-
+  DIGIT - an open-source platform empowering governments, partners, and citizens
+  through digital governance capabilities
+---
+
 # DIGIT
 
-W_elcome to DIGIT documentation space that illustrates various sections of DIGIT as a platform to help the ecosystem learn, know how, extend and setup DIGIT._
+![](.gitbook/assets/digit-website-03.png)
 
-![](.gitbook/assets/egov-docs-01.png)
+* **Open Source** - DIGIT is Open Source and has been built using the best in class Open Source technology stacks powering the most advanced companies in the world. DIGIT is able to provide the lowest total cost of ownership and helps ensure that governments retain strategic control of their systems and data. 
+* **Mobile-Enabled** - DIGIT has adopted a mobile-first approach, with robust mobile applications enabling citizens to easily access government services through their phones. Government officials and field workers are also empowered with mobile applications that enable them to deliver 24×7 governance with ease.
+* **Real-time Dashboards** - DIGIT’s real-time dashboards provide governments with actionable insights on demand. Administrators and department heads are empowered with verified data that enables them to manage their work and budgets better. Field level employee reports enable effective performance management and ensure efficient usage of government resources.
 
-DIGIT is an open-source and open API powered platform for developers, enterprises and citizens to build new applications and solutions. The platform facilitates local governments to achieve quicker implementation time-frames, process improvements, accountability and transparency at various levels of administration.
+![](.gitbook/assets/digit-website_-05.png)
 
-{% page-ref page="install-digit/" %}
+![DIGIT - Enabling &amp; Empowering Citizens ](.gitbook/assets/220-sm769252.jpg)
 
-{% page-ref page="modules-features/product-brochures.md" %}
+* Access governments easily using your mobile phones
+* Your requests automatically reach the appropriate person
+* Stay up-to-date with inbuilt notifications
 
-{% page-ref page="modules-features/user-guides/" %}
 
-{% page-ref page="training-and-demo/" %}
+
+
+
+
 
