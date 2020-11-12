@@ -12,7 +12,7 @@ DIGIT 2.1 release offers several feature enhancements, innovations in applicatio
 
 * [x] Check out the [DIGIT 2.1 Release Notes](modules-features/release-notes/) for more details.
 * [x] Explore our upgraded and illustrative [User Manuals](modules-features/user-guides/) to learn operational details.
-* [x] We have added more videos to our Training repository.
+* [x] We have added more videos to our [Training ](training-and-demo/)repository.
 
 ### Quick Links to 2.1 docs
 
@@ -32,7 +32,7 @@ DIGIT 2.1 release offers several feature enhancements, innovations in applicatio
 * [Trade License Service](modules-features/technical-documentation/municipal-service/trade-license-service.md)
 * [PGR Services ](modules-features/technical-documentation/municipal-service/pgr-services.md)
 
-Visit our [Support](digit-support/) pages for a comprehensive idea on our support strategy.
+Visit our [Support](digit-support/) pages for details on our partner support strategy.
 
 
 
