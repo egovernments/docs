@@ -45,7 +45,7 @@ Partner is responsible for providing primary support for the DIGIT hosting for t
   * Plan for patch release, if issue is found to be in the code of the DIGIT platform
 * Provide patch release to the partner to close out the issue.
 
-Hours of support: 9 am to 6 pm IST Mon to Fri.
+**Hours of support:** 9 am to 6 pm IST Mon to Fri.
 
 | Severity | Description | Response SLA |
 | :--- | :--- | :--- |
