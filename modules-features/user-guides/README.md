@@ -14,7 +14,5 @@ DIGIT modules follow structured workflows to allow easy tracking of applications
 
 {% page-ref page="guide-pt/" %}
 
-{% page-ref page="water-and-sewerage/" %}
-
 {% page-ref page="guide-mcollect/" %}
 
