@@ -1,12 +1,6 @@
----
-description: >-
-  DIGIT - an open-source platform empowering governments, partners, and citizens
-  through digital governance capabilities
----
-
 # What Is DIGIT?
 
-![](.gitbook/assets/digit-website-03.png)
+![](.gitbook/assets/digit-website_updated-03.png)
 
 * **Open Source** - DIGIT is Open Source and has been built using the best in class Open Source technology stacks powering the most advanced companies in the world. DIGIT is able to provide the lowest total cost of ownership and helps ensure that governments retain strategic control of their systems and data. 
 * **Mobile-Enabled** - DIGIT has adopted a mobile-first approach, with robust mobile applications enabling citizens to easily access government services through their phones. Government officials and field workers are also empowered with mobile applications that enable them to deliver 24×7 governance with ease.
