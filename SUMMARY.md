@@ -260,8 +260,6 @@
   * [Training Calendar](training-and-demo/training-calendar.md)
   * [Training Videos](training-and-demo/videos.md)
 * [DIGIT Support](digit-support/README.md)
-  * [Support Process](digit-support/support-process.md)
   * [eGov Enablement Support for DIGIT](digit-support/egov-enablement-support-for-digit.md)
-  * [Standard Operating Procedure](digit-support/standard-operating-procedure.md)
   * [Troubleshooting Guides](digit-support/troubleshooting-guides.md)
 
