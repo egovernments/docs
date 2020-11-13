@@ -261,5 +261,5 @@
   * [Training Videos](training-and-demo/videos.md)
 * [DIGIT Support](digit-support/README.md)
   * [eGov Enablement Support for DIGIT](digit-support/egov-enablement-support-for-digit.md)
-  * [Troubleshooting Guides](digit-support/troubleshooting-guides.md)
+  * [Troubleshooting Guide](digit-support/troubleshooting-guides.md)
 

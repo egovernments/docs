@@ -1,4 +1,4 @@
-# Troubleshooting Guides
+# Troubleshooting Guide
 
 Details coming soon...
 
