@@ -72,8 +72,6 @@ You can use Kubernetes network policies that work as firewalls within your clust
 
 You can create Ingress and Egress rules to allow traffic from the desired source to the desired target and deny everything else.
 
-![Image for post](https://miro.medium.com/max/60/1*eaBvA3uzY-P0XKbGIoV0ng.png?q=20)
-
 Kubernetes Network Policy
 
 ### Create Separate User Accounts
@@ -85,8 +83,6 @@ Do not share this file within your team, instead, create a separate user account
 Once you create the user, you can generate a private key and a certificate signing request for the user, and Kubernetes would sign and generate a CA cert for the user.
 
 You can then securely share the CA certificate with the user. The user can then use the certificate within kubectl to authenticate with the API server securely.
-
-![Image for post](https://miro.medium.com/max/60/1*r0OatB4UN-z5u6Jjp2PKLw.png?q=20)
 
 Configuring User Accounts
 
@@ -117,8 +113,6 @@ Imagine a scenario where an externally exposed web application is compromised, a
 The way to protect from this kind of attack is to have a sidecar container that stores the private key and responds to signing requests from the main container.
 
 In case someone gets access to your login microservice, they would not be able to gain access to your private key, and therefore, it would not be a straightforward attack, giving you valuable time to protect yourself.
-
-![Image for post](https://miro.medium.com/max/60/1*w2w3OLDwc-AatwANsN1sRg.png?q=20)
 
 Partitioned Approach
 
@@ -159,8 +153,6 @@ Audit loggers are now a beta feature in Kubernetes, and I recommend you make use
 As a cluster-admin dealing with a security incident, the last thing you would want is that you are unaware of what exactly happened with your cluster and who has done what.
 
 ### Conclusion
-
-Thank you for reading. I hope you enjoyed the story.
 
 Remember that the above are just some general best practices and they are not exhaustive. You are free to adjust and make changes based on your use case and ways of working for your team.
 
