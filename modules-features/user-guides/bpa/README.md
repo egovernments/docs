@@ -1,9 +1,8 @@
-# BPA
+# Building Plan Approval \(BPA\)
 
 ### **Introduction to BPA**
 
-The Building Plan Approval or BPA module allows stakeholders to submit building plans for approval by the concerned ULB departments. Construction or renovation of buildings is regulated by the Municipal Body in India. One must get permission from ULB prior to construction. This process involves submitting the building plan to ULB along with other documents. The ULB verifies the plan with other documents and approves the construction. The document which authorizes the construction is called Permit Order. One must have this permit order with him till the completion of construction. ULB officials  will inspect various stages of construction and make sure it is compliant to the plan. Once the construction is complete, the Inspection Secretary inspects the building and releases a Completion certificate and finally an Occupancy Certificate.  This completes the Building Plan Approval process.  
-
+The Building Plan Approval or BPA module allows stakeholders to submit building plans for approval by the concerned ULB departments. Construction or renovation of buildings is regulated by the Municipal Body in India. One must get permission from ULB prior to construction. This process involves submitting the building plan to ULB along with other documents. The ULB verifies the plan with other documents and approves the construction. The document which authorizes the construction is called Permit Order. One must have this permit order with him till the completion of construction. ULB officials will inspect various stages of construction and make sure it is compliant to the plan. Once the construction is complete, the Inspection Secretary inspects the building and releases a Completion certificate and finally an Occupancy Certificate.  This completes the Building Plan Approval process.
 
 ### Key Features
 

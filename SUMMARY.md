@@ -7,7 +7,7 @@
   * [Brochures](modules-features/product-brochures.md)
   * [User Manuals](modules-features/user-guides/README.md)
     * [Logging Into DIGIT](modules-features/user-guides/guide-login.md)
-    * [BPA](modules-features/user-guides/bpa/README.md)
+    * [Building Plan Approval \(BPA\)](modules-features/user-guides/bpa/README.md)
       * [Citizen User Manual](modules-features/user-guides/bpa/citizen-user-manual.md)
       * [Employee User Manual](modules-features/user-guides/bpa/untitled-1.md)
     * [Trade License](modules-features/user-guides/guide-tl/README.md)
