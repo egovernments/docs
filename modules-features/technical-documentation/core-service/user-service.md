@@ -89,11 +89,9 @@ Providing following functionality to citizen and employee type users
 
 #### Doc Links
 
-| **Title** | **Link** |
-| :--- | :--- |
-| User service Product requirement | [User Service](https://digit-discuss.atlassian.net/l/c/9ih2SBox) |
-| User Data encryption promotion details | [User data encryption promotion](https://digit-discuss.atlassian.net/l/c/xSSnmk12) |
-| Encryption Service | [Encryption Service](https://digit-discuss.atlassian.net/l/c/HJwxmms6) |
+{% file src="../../../.gitbook/assets/promotionsteps.pdf" caption="User Data Encryption Promotion Details" %}
+
+{% file src="../../../.gitbook/assets/encryption-service \(1\).pdf" caption="Encryption Service" %}
 
 #### API List
 
@@ -110,4 +108,6 @@ Providing following functionality to citizen and employee type users
 | /password/nologin/\_update | [https://www.getpostman.com/collections/15443fcb25c8aacd8897](https://www.getpostman.com/collections/15443fcb25c8aacd8897) |
 | /\_logout | [https://www.getpostman.com/collections/15443fcb25c8aacd8897](https://www.getpostman.com/collections/15443fcb25c8aacd8897) |
 | /user/oauth/token | [https://www.getpostman.com/collections/15443fcb25c8aacd8897](https://www.getpostman.com/collections/15443fcb25c8aacd8897) |
+
+
 

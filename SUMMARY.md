@@ -1,12 +1,15 @@
 # Table of contents
 
-* [What Is DIGIT?](README.md)
+* [DIGIT](README.md)
 * [What’s New in DIGIT 2.1?](whats-new-in-digit-2.1.md)
 * [DIGIT Architecture](architecture.md)
 * [Product & Modules](modules-features/README.md)
   * [Brochures](modules-features/product-brochures.md)
   * [User Manuals](modules-features/user-guides/README.md)
     * [Logging Into DIGIT](modules-features/user-guides/guide-login.md)
+    * [BPA](modules-features/user-guides/bpa/README.md)
+      * [Citizen User Manual](modules-features/user-guides/bpa/citizen-user-manual.md)
+      * [Employee User Manual](modules-features/user-guides/bpa/untitled-1.md)
     * [Trade License](modules-features/user-guides/guide-tl/README.md)
       * [Citizen User Manual](modules-features/user-guides/guide-tl/citizen-user-manual.md)
       * [Employee User Manual](modules-features/user-guides/guide-tl/employee-user-manual.md)

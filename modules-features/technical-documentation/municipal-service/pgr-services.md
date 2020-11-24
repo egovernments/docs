@@ -389,12 +389,6 @@ PGR service can be integrated with any organisation or system which wants to tra
 | :--- | :--- |
 | Workflow Technical Document | [Workflow Service](../core-service/workflow-service.md) |
 | User Technical Document | [User Service](../core-service/user-service.md) |
-| MDMS Technical Document | NEEDS TO BE UPDATED |
-| IDGen Technical Document | NEEDS TO BE UPDATED |
-| Localization Technical Document | NEEDS TO BE UPDATED |
-| Persister Technical Document | NEEDS TO BE UPDATED |
-| SMS Notification Technical Document | NEEDS TO BE UPDATED |
-| HRMS Technical Document | NEEDS TO BE UPDATED |
 
 ### API List <a id="API-List"></a>
 

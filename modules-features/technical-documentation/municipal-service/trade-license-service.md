@@ -76,13 +76,18 @@ The trade-license service is currently used to issue trade licenses, perform sta
 
 ### Doc Links <a id="Doc-Links"></a>
 
+{% file src="../../../.gitbook/assets/billing-slabs.pdf" caption="Billing Slabs" %}
+
+{% file src="../../../.gitbook/assets/encryption-service.pdf" caption="Encryption Service" %}
+
+{% file src="../../../.gitbook/assets/bpa\_stakeholder\_registration-3-1-.yaml" caption="API Swagger Documentation \(Stakeholder registration\)" %}
+
+{% file src="../../../.gitbook/assets/bpa-stakeholder-registration-release-doc.pdf" caption="BPA Stakeholder Registration Release Doc" %}
+
 | **Title** | **Link** |
 | :--- | :--- |
-| Billing Slabs | [Billing Slabs](https://digit-discuss.atlassian.net/l/c/Z7U7p0Q8) |
 | Local Setup | [LOCALSETUP.md](https://github.com/egovernments/core-services/blob/4a74fd3be04ab0a2fe0641f10b57b7e9b9f82aff/egov-user/LOCALSETUP.md) |
 | API Swagger Documentation \(Trade License\) | [Swagger Documentation TL](https://raw.githubusercontent.com/egovernments/egov-services/master/docs/common/contracts/v1-0-0.yml) |
-| API Swagger Documentation \(Stakeholder registration\) | bpa\_stakeholder\_registration \(3\) \(1\).yaml23 KB |
-| BPA StakeHolder Registration release Doc | [BPA StakeHolder Registration release Doc](https://digit-discuss.atlassian.net/l/c/rPiHmMP7) |
 
 ### API List <a id="API-List"></a>
 

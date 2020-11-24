@@ -37,7 +37,7 @@ Before you proceed with the documentation, make sure the following pre-requisite
 
 ### Interaction Diagram <a id="Interaction-Diagram"></a>
 
-![](blob:https://digit-discuss.atlassian.net/e4e7b670-be98-43a7-9214-4766be54f6df#media-blob-url=true&id=f2141cb8-6f4a-477e-8ef5-dc156221fc8b&collection=contentId-717979679&contextId=717979679&mimeType=image%2Fjpeg&name=pdf.jpg&size=83488&width=1191&height=661)
+![](../../../.gitbook/assets/pdf.jpg)
 
 ### Deployment Details <a id="Deployment-Details"></a>
 
@@ -48,7 +48,7 @@ Before you proceed with the documentation, make sure the following pre-requisite
 
 ### Configuration Details <a id="Configuration-Details"></a>
 
-For Configuration details please refer to the **Customizing PDF Receipts & Certificates** document in Reference Docs
+For Configuration details please refer to [**Customizing PDF Receipts & Certificates.** ](../../../install-digit/configuring-digit-services/customizing-pdf-notices-and-certificates/customizing-pdf-receipts-and-certificates.md)
 
 ### Integration  <a id="Integration"></a>
 
@@ -74,8 +74,8 @@ The PDF configuration can be used by any module which needs to show particular i
 
 | **Title**  | **Link** |
 | :--- | :--- |
-| Customizing PDF Receipts & Certificates | [Customizing PDF Receipts & Certificates](https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/720306189) |
-| Steps for Integration of PDF in UI for download and print PDF | [Integration of PDF in UI for download and print PDF](https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/720470017/Integration+of+PDF+in+UI+for+download+and+print+PDF) |
+| Customizing PDF Receipts & Certificates | [Customizing PDF Receipts & Certificates](../../../install-digit/configuring-digit-services/customizing-pdf-notices-and-certificates/customizing-pdf-receipts-and-certificates.md) |
+| Steps for Integration of PDF in UI for download and print PDF | [Integration of PDF in UI for download and print PDF](../../../install-digit/configuring-digit-services/customizing-pdf-notices-and-certificates/integration-of-pdf-in-ui-for-download-and-print-pdf.md) |
 | API Swagger Documentation | [Swagger Documentation](https://app.swaggerhub.com/apis/eGovernment/pdf-service_ap_is/1.1.0) |
 
 #### API List <a id="API-List"></a>
@@ -86,5 +86,5 @@ The PDF configuration can be used by any module which needs to show particular i
 |  _pdf-service/v1/\_createnosave_ |  [https://www.getpostman.com/collections/5a9bfd6fd03f9f2a6fad](https://www.getpostman.com/collections/5a9bfd6fd03f9f2a6fad) |
 | _pdf-service/v1/\_search_ | [https://www.getpostman.com/collections/5a9bfd6fd03f9f2a6fad](https://www.getpostman.com/collections/5a9bfd6fd03f9f2a6fad) |
 
-_\(Note: All the API’s are in the same postman collection therefore the same link is added in each row\)_
+_\(Note: All the API’s are in the same postman collection, therefore, the same link is added in each row\)_
 
