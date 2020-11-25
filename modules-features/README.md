@@ -1,5 +1,5 @@
 ---
-description: An overview of the product and it's various modules.
+description: An overview of the product and it's various modules
 ---
 
 # Product & Modules
