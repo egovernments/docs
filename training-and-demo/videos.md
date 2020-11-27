@@ -115,6 +115,103 @@ Navigate to the relevant category to view the list of videos available.
         </ul>
       </td>
     </tr>
+    <tr>
+      <td style="text-align:left">Property Tax Configuration Videos</td>
+      <td style="text-align:left">
+        <p></p>
+        <ul>
+          <li><a href="https://youtu.be/XLfhJD2X_gY">Road Type</a>
+          </li>
+          <li><a href="https://youtu.be/fu-0KAKu2Pg">Construction Type</a>
+          </li>
+          <li><a href="https://youtu.be/AcUFoYqX4D8">Property Type</a>
+          </li>
+          <li><a href="https://youtu.be/Tm-oqkUVAjA">Property Sub Type</a>
+          </li>
+          <li><a href="https://youtu.be/mQL4Xp0mRtc">Usage Category Major</a>
+          </li>
+          <li><a href="https://youtu.be/0z3bPGrTYtw">Usage Category Minor</a>
+          </li>
+          <li><a href="https://youtu.be/2mYIgbCyrVo">Usage Category Sub Minor</a>
+          </li>
+          <li><a href="https://youtu.be/Q9RAG1mVNT8">Usage Category Detail</a>
+          </li>
+          <li><a href="https://youtu.be/T7QdmW9El6A">Ownership Category</a>
+          </li>
+          <li><a href="https://youtu.be/A0ZnYuhUUnY">Ownership Sub Category</a>
+          </li>
+          <li><a href="https://youtu.be/0zelFky9MrA">Owner Special Category</a>
+          </li>
+          <li><a href="https://youtu.be/fopcxByL-h8">Unit Rates</a>
+          </li>
+          <li><a href="https://youtu.be/uKvCoJsULZw">Tax Rate</a>
+          </li>
+          <li><a href="https://youtu.be/ifMuRJo4BDg">Interest Rates</a>
+          </li>
+          <li><a href="https://youtu.be/kex5fVuIgqw">Penalty Rates</a>
+          </li>
+          <li><a href="https://youtu.be/cqgWmuhI-4M">Property Tax Rebate Rates</a>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">HRMS Configuration Videos</td>
+      <td style="text-align:left">
+        <ul>
+          <li><a href="https://youtu.be/CROJMfChrpk">System Users</a>
+          </li>
+          <li><a href="https://youtu.be/Lh1jvHx6dzM">User Roles</a>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Workflow Configuration Videos</td>
+      <td style="text-align:left">
+        <ul>
+          <li><a href="https://youtu.be/QP5IR7w8wIE">Workflow Levels</a>
+          </li>
+          <li><a href="https://youtu.be/PaCniA2fC7s">Workflow Process</a>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">DIGIT Environment Setup Videos</td>
+      <td style="text-align:left">
+        <ul>
+          <li><a href="https://youtu.be/sHBtwd7eC4s">Boundary Data</a>
+          </li>
+          <li><a href="https://youtu.be/Ge0uuFRTbs0">Boundary Hierarchy</a>
+          </li>
+          <li><a href="https://youtu.be/8kwwL-8CjE0">Cross Hierarchy Mapping</a>
+          </li>
+          <li><a href="https://youtu.be/2Itms5_W9oQ">Domain Name Configuration</a>
+          </li>
+          <li><a href="https://youtu.be/CtER8s8eUlA">Email Account Configuration</a>
+          </li>
+          <li><a href="https://youtu.be/Jht956XvZ7s">Google Map Configuration</a>
+          </li>
+          <li><a href="https://youtu.be/y5naiTXX5Sk">Google Playstore Account Configuration</a>
+          </li>
+          <li><a href="https://youtu.be/ZrQxEhQfQdU">Localization Setup</a>
+          </li>
+          <li><a href="https://youtu.be/x5tCc2ITJGo">Payment Gateway</a>
+          </li>
+          <li><a href="https://youtu.be/YlwwzAmEKrc">SMS Configuration</a>
+          </li>
+          <li><a href="https://youtu.be/9cHsKdBPtyQ">Tenant Information</a>
+          </li>
+          <li><a href="https://youtu.be/i1YT72aHOvE">ULB Departments</a>
+          </li>
+          <li><a href="https://youtu.be/ZQbl_F38MUo">ULB Bank Accounts</a>
+          </li>
+          <li><a href="https://youtu.be/GF01Hdbo3UU">ULB Designations</a>
+          </li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 
