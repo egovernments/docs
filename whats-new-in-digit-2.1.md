@@ -8,7 +8,7 @@ DIGIT 2.1 release offers several feature enhancements, innovations in applicatio
 
 **For Citizens** - The upgraded DIGIT platform provides citizens with a simplified user interface and improved capabilities in terms of submitting applications, requests, or bill pay.
 
-**For States & ULBs** - DIGIT 2.1 is equipped to deliver accurate insights into department and ULB performance, customize the view of vital analytical data, and integrate modules for optimized results.
+**For States & ULBs** - DIGIT 2.1 delivers accurate insights into department and ULB performance, customizations to configure the view of key analytics, and integrated module features that enable streamlined workflows.
 
 * [x] Check out the [DIGIT 2.1 Release Notes](modules-features/release-notes/) for more details.
 * [x] Explore our upgraded and illustrative [User Manuals](modules-features/user-guides/) to learn operational details.
