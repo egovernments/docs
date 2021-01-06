@@ -37,6 +37,7 @@
       * [Payment Gateway Service](modules-features/technical-documentation/core-service/payment-gateway-service.md)
       * [User Session Management In DIGIT](modules-features/technical-documentation/core-service/user-session-management-in-digit.md)
       * [Indexer Service](modules-features/technical-documentation/core-service/indexer-service.md)
+      * [URL Shortening Service](modules-features/technical-documentation/core-service/url-shortening-service.md)
     * [Business Service](modules-features/technical-documentation/business-service.md)
     * [Municipal Service](modules-features/technical-documentation/municipal-service/README.md)
       * [PGR Services](modules-features/technical-documentation/municipal-service/pgr-services.md)
