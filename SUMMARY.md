@@ -35,6 +35,7 @@
       * [PDF Generation Service](modules-features/technical-documentation/core-service/pdf-generation-service.md)
       * [MDMS \(Master Data Management Service\)](modules-features/technical-documentation/core-service/mdms-master-data-management-service.md)
       * [Payment Gateway Service](modules-features/technical-documentation/core-service/payment-gateway-service.md)
+      * [User Session Management In DIGIT](modules-features/technical-documentation/core-service/user-session-management-in-digit.md)
     * [Business Service](modules-features/technical-documentation/business-service.md)
     * [Municipal Service](modules-features/technical-documentation/municipal-service/README.md)
       * [PGR Services](modules-features/technical-documentation/municipal-service/pgr-services.md)
