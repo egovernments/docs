@@ -2,7 +2,7 @@
 
 ## Overview <a id="Overview"></a>
 
-Public Grievances & Redressal \(PGR\) is a system that enables citizens to raise a complaint with there ULB’s. A citizen can track the complaint, upload image related to the complaint, re-open the complaint if he/she is not satisfied and rate the service. This document contains the details about how to setup PGR service and describes the functionalities it provides
+Public Grievances & Redressal \(PGR\) is a system that enables citizens to raise a complaint with the ULBs. A citizen can track the complaint, upload image related to the complaint, re-open the complaint if he/she is not satisfied and rate the service. This document contains the details about how to setup PGR service and describes the functionalities it provides
 
 ## Pre-requisites <a id="Pre-requisites"></a>
 
