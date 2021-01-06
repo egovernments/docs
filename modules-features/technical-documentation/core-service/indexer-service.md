@@ -67,3 +67,7 @@ In legacy indexing and for collection-service record LiveIndex kafka-connect is 
 
 {% file src="../../../.gitbook/assets/using-kafka-connect.pdf" caption="Using kafka-connect in egov-indexer reindexing jobs to push records to elastic search" %}
 
+{% file src="../../../.gitbook/assets/indexer-configuration.pdf" caption="Indexer Configuration" %}
+
+[Swagger Documentation](https://editor.swagger.io/?url=https://raw.githubusercontent.com/egovernments/core-services/master/docs/indexer-contract.yml#!/)
+
