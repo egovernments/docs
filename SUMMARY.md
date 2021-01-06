@@ -40,7 +40,7 @@
       * [URL Shortening Service](modules-features/technical-documentation/core-service/url-shortening-service.md)
     * [Business Service](modules-features/technical-documentation/business-service.md)
     * [Municipal Service](modules-features/technical-documentation/municipal-service/README.md)
-      * [PGR Services](modules-features/technical-documentation/municipal-service/pgr-services.md)
+      * [PGR Services 2.0](modules-features/technical-documentation/municipal-service/pgr-services.md)
       * [Trade-License Service](modules-features/technical-documentation/municipal-service/trade-license-service.md)
     * [Utilities](modules-features/technical-documentation/utilities.md)
   * [Release Notes DIGIT 2.1](modules-features/release-notes/README.md)
