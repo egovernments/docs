@@ -30,7 +30,7 @@ DIGIT 2.1 release offers several feature enhancements, innovations in applicatio
 * [Payment Gateway Service](modules-features/technical-documentation/core-service/payment-gateway-service.md)
 * [Location Service](modules-features/technical-documentation/core-service/location-service.md)
 * [Trade License Service](modules-features/technical-documentation/municipal-service/trade-license-service.md)
-* [PGR Services ](modules-features/technical-documentation/municipal-service/pgr-services.md)
+* [PGR Services ](modules-features/technical-documentation/municipal-service/pgr-services/)
 
 Visit our [Support](digit-support/) pages for details on our partner support strategy.
 

@@ -379,7 +379,7 @@ PGR service can be integrated with any organisation or system which wants to tra
 
 ## Interaction Diagram <a id="Interaction-Diagram"></a>
 
-![](../../../.gitbook/assets/image%20%2877%29.png)
+![](../../../../.gitbook/assets/image%20%2877%29.png)
 
 ## Reference Docs <a id="Interaction-Diagram"></a>
 
@@ -387,8 +387,8 @@ PGR service can be integrated with any organisation or system which wants to tra
 
 | **Title** | **Link** |
 | :--- | :--- |
-| Workflow Technical Document | [Workflow Service](../core-service/workflow-service.md) |
-| User Technical Document | [User Service](../core-service/user-service.md) |
+| Workflow Technical Document | [Workflow Service](../../core-service/workflow-service.md) |
+| User Technical Document | [User Service](../../core-service/user-service.md) |
 
 ### API List <a id="API-List"></a>
 
