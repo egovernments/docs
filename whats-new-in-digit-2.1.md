@@ -1,4 +1,4 @@
-# What’s New in DIGIT 2.1?
+# What’s New in DIGIT 2.2?
 
 The new features additions and enhancements in [DIGIT 2.1](modules-features/release-notes/) simplify the user experience. The updates serve to fulfil the overall goal of integrating various services in an effort to simplify citizen interaction with government agencies while improving the service delivery capabilities of individual departments. 
 
