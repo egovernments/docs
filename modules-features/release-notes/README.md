@@ -2,14 +2,14 @@
 description: 'New release features, enhancements, and fixes'
 ---
 
-# Release Notes DIGIT 2.1
+# Release Notes DIGIT 2.2
 
 ### Release Summary
 
-DIGIT 2.1 is a release that has got a few functional changes and few non-functional standardization changes.
+DIGIT 2.2 is a release that has got a few functional changes and few non-functional standardization changes.
 
-* Functional: Introducing Water and Sewerage edit connection and Connection holder feature, DSS enhancements, Edit \(send back to Citizen\) property enhancements, and PGR APIs redesign along with workflow integration and reports.
-* Non-functional: Baselining Actions, Role action mapping, and English Localization data.
+* Functional: PGR v2 \(Revamped UI/UX, Revamped APIs, and Workflow integration\), Water & Sewerage Enhancements \(Public Domain Search, Open Payments, and PT Workflow Config Changes\), Property Enhancements, Search/Cancel Receipts Screen, and Enhancements in HRMS.
+* Non-functional: Config Repo baselining \(Indexer and Persister configs sem version and baselining\).
 
 ### New ‌Feature Additions
 
@@ -24,31 +24,64 @@ DIGIT 2.1 is a release that has got a few functional changes and few non-functio
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">Water and Sewerage edit connection and Connection holder feature</td>
-      <td
-      style="text-align:left">
-        <p></p>
+      <td style="text-align:left">PGR v2 (UI/UX/API revamp and Workflow integration)</td>
+      <td style="text-align:left">
+        <p><b>Citizen</b>
+        </p>
         <ul>
-          <li>Edit existing water or sewerage connection information using a workflow
-            approval process.</li>
-          <li>Associate a non-owner (connection holder) of the property to any connection.</li>
+          <li>Create a Complaint</li>
+          <li>My Complaints and View Complaints</li>
+          <li>Rating and Reopening of the Complaint</li>
         </ul>
-        </td>
+        <p><b>CSR</b>
+        </p>
+        <ul>
+          <li>Create a Complaint</li>
+          <li>View Complaints</li>
+          <li>Reopen Complaints</li>
+          <li>Inbox</li>
+        </ul>
+        <p><b>Grievance Routing Officer</b>
+        </p>
+        <ul>
+          <li>View Complaints</li>
+          <li>Assign Complaints</li>
+          <li>Reject Complaints</li>
+          <li>Inbox</li>
+        </ul>
+        <p><b>Last Mile Employee</b>
+        </p>
+        <ul>
+          <li>View Complaints</li>
+          <li>Assign Complaints</li>
+          <li>ReAssign Complaints</li>
+          <li>Inbox</li>
+        </ul>
+      </td>
     </tr>
     <tr>
-      <td style="text-align:left">PGR API Contracts and APIs redesign</td>
+      <td style="text-align:left">Water and Sewerage</td>
       <td style="text-align:left">
-        <p></p>
         <ul>
-          <li>PGR APIs redesign along with workflow integration.</li>
-          <li>New reports
-            <ul>
-              <li>ULB Report</li>
-              <li>Description Report</li>
-              <li>LME Performance Report</li>
-              <li>GRO Performance Report</li>
-            </ul>
-          </li>
+          <li>Public domain search for Water and Sewerage</li>
+          <li>Open payment for Water and Sewerage</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Collection</td>
+      <td style="text-align:left">
+        <ul>
+          <li>Search Receipt</li>
+          <li>Receipt cancellation and its impact</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">HRMS</td>
+      <td style="text-align:left">
+        <ul>
+          <li>Deactivate and activate employee</li>
         </ul>
       </td>
     </tr>
@@ -68,28 +101,42 @@ DIGIT 2.1 is a release that has got a few functional changes and few non-functio
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">DSS v1.2 Enhancements</td>
+      <td style="text-align:left">Property Tax</td>
       <td style="text-align:left">
         <ul>
-          <li>Graphs</li>
-          <li>Pie Charts</li>
-          <li>Typography</li>
-          <li>Time Filter</li>
-          <li>Comparison Indicators in Tables</li>
-          <li>Breadcrumbs</li>
-          <li>Event Duration Graphs</li>
-          <li>Drilldown and Drillthroughs</li>
+          <li>Payment Notification</li>
+          <li>Payment Failure Scenario for Open payment</li>
+          <li>Capturing data for better reporting and analysis</li>
+          <li>Show the status of the receipt if the receipt is cancelled</li>
+          <li>Mutation - Allow Guardian name to change</li>
+          <li>Mutation - Multiple owners to single owner change and vice versa</li>
+          <li>Tenant and date range wise re-indexing Utility</li>
         </ul>
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Property Enhancements</td>
+      <td style="text-align:left">Water and Sewerage Enhancements</td>
       <td style="text-align:left">
         <ul>
-          <li>Edit (Send Back to citizen) in Property Create, Update, and Mutation workflow</li>
-          <li>Workflow configuration to support Data Entry and Data migration in Property
-            Service</li>
-          <li>Payer information on citizen side in open payments</li>
+          <li>Property Workflow Config Changes for Water and Sewerage</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Collection Enhancements</td>
+      <td style="text-align:left">
+        <ul>
+          <li>Tenant and date range wise re-indexing Utility</li>
+          <li>Zero payment changes</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">HRMS Enhancements</td>
+      <td style="text-align:left">
+        <ul>
+          <li>Employee Create and Search Enhancements</li>
+          <li>Other minor enhancements and validations</li>
         </ul>
       </td>
     </tr>
@@ -97,13 +144,15 @@ DIGIT 2.1 is a release that has got a few functional changes and few non-functio
       <td style="text-align:left">UI and backend Enhancements</td>
       <td style="text-align:left">
         <ul>
-          <li>Searcher Ignore case for user input fields</li>
-          <li>DOB range Validation in HRMS and Trade License</li>
-          <li>Create a user for an unregistered mobile number as part of the Billing
-            service</li>
-          <li>Added Deserialization Error Handler in Persister</li>
-          <li>Localization caching in the application (module wise - within the module)</li>
-          <li>Addition of spinner in all PT, TL, and Common pay screens</li>
+          <li>Pagination on process instance search API</li>
+          <li>Pagination in Employee Inbox</li>
+          <li>Addition of spinners in all the UI screens</li>
+          <li>DSS improvements to enable/disable module configs in MDMS and table headings
+            Localization</li>
+          <li>PGR migration from v1 to v2 including the workflow data and reindexing</li>
+          <li>DSS config changes to support PGR v2</li>
+          <li>SENDBACKTOCITIZEN send&#x2019;s application back to the user&#x2019;s
+            with a registered Mobile Number</li>
         </ul>
       </td>
     </tr>
@@ -111,10 +160,25 @@ DIGIT 2.1 is a release that has got a few functional changes and few non-functio
       <td style="text-align:left">Non-functional enhancements</td>
       <td style="text-align:left">
         <ul>
-          <li>Actions and Roleaction mapping - Product baseline</li>
-          <li>Baseline English Localisation data</li>
-          <li>Readme and Localsetup documentations for all the services</li>
-          <li>Technical Enablement and other Tech documentations</li>
+          <li>Config Repo baselining (Indexer and Persister configs sem version and
+            baselining)
+            <ul>
+              <li>Improvement in Loading localization data in UI - module wise localization
+                caching</li>
+            </ul>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">eDCR Enhancements</td>
+      <td style="text-align:left">
+        <ul>
+          <li>Road Reserve area captured</li>
+          <li>Height of Room - The colour codes are used to identify the type of room</li>
+          <li>Vehicle Ramp captured and slope auto calculated</li>
+          <li>Floor Unit - Colour codes used to differentiate the different type of
+            dwelling unit</li>
         </ul>
       </td>
     </tr>

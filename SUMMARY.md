@@ -44,7 +44,7 @@
         * [PGR Migration](modules-features/technical-documentation/municipal-service/pgr-services/pgr-migration.md)
       * [Trade-License Service](modules-features/technical-documentation/municipal-service/trade-license-service.md)
     * [Utilities](modules-features/technical-documentation/utilities.md)
-  * [Release Notes DIGIT 2.1](modules-features/release-notes/README.md)
+  * [Release Notes DIGIT 2.2](modules-features/release-notes/README.md)
     * [BPA 2.1 Release Notes](modules-features/release-notes/bpa-release-notes.md)
     * [Property Tax 2.1 Release Notes](modules-features/release-notes/property-tax-release-notes.md)
     * [PGR 2.1 Release Notes](modules-features/release-notes/public-grievance-and-redressal-release-notes.md)
