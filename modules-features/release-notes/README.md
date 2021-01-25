@@ -189,47 +189,45 @@ DIGIT 2.2 is a release that has got a few functional changes and few non-functio
 
 #### UI Technical Documents
 
-{% file src="../../.gitbook/assets/dss-features-enhancements-v2-technical-document-for-ui.pdf" caption="DSS Feature Enhancements" %}
+{% file src="../../.gitbook/assets/employee-inbox.pdf" caption="Employee Inbox" %}
 
-{% file src="../../.gitbook/assets/search-property-tax.pdf" caption="Search Property Tax" %}
+{% file src="../../.gitbook/assets/receipt-search.pdf" caption="Receipt Search & Cancellation" %}
 
-{% file src="../../.gitbook/assets/view-property-details.pdf" caption="View Property Details" %}
+{% file src="../../.gitbook/assets/hrms.pdf" caption="HRMS" %}
 
-{% file src="../../.gitbook/assets/property-and-mutation-workflow.pdf" caption="Property & Mutation Workflow" %}
+{% file src="../../.gitbook/assets/water-sewerage-public-domain-search.pdf" caption="W&S Public Domain Search and Open Payment" %}
 
-{% file src="../../.gitbook/assets/property-tax.pdf" caption="Property Tax - Add New Property" %}
+{% file src="../../.gitbook/assets/search-create-property.pdf" caption="Search-Create Property" %}
 
-{% file src="../../.gitbook/assets/update-existing-property.pdf" caption="Update Existing Property" %}
+{% file src="../../.gitbook/assets/universal-collection.pdf" caption="Universal Collection" %}
 
-{% file src="../../.gitbook/assets/transfer-ownership.pdf" caption="Transfer Of Ownership" %}
+{% file src="../../.gitbook/assets/common-pay-config.pdf" caption="Common Pay Config" %}
 
-{% file src="../../.gitbook/assets/connection-holder-details.pdf" caption="Connection Holder" %}
+{% file src="../../.gitbook/assets/view-property-details \(1\).pdf" caption="View Property Details" %}
 
-{% file src="../../.gitbook/assets/edit-connection-flow.pdf" caption="Edit Connection Flow" %}
+{% file src="../../.gitbook/assets/digit-ui-frontend-design.pdf" caption="DIGIT UI - Frontend Architecture Design" %}
+
+{% file src="../../.gitbook/assets/digit-ui-manual.pdf" caption="DIGIT UI Manual" %}
+
+{% file src="../../.gitbook/assets/digit-ui-faq.pdf" caption="DIGIT UI: Implementation - Development Guidelines & FAQs" %}
+
+{% file src="../../.gitbook/assets/digit-ui-internals-faq.pdf" caption="DIGIT UI Internals - Development Guidelines & FAQs" %}
 
 #### Backend Service Documents
 
-{% file src="../../.gitbook/assets/water-service-technical-doc.pdf" caption="Water Service Technical Document" %}
+{% file src="../../.gitbook/assets/pgr-v2.pdf" caption="PGR V2.0" %}
 
-{% file src="../../.gitbook/assets/sewerage-service.pdf" caption="Sewerage Service Technical Document" %}
+{% file src="../../.gitbook/assets/pgr-migration.pdf" caption="PGR Migration" %}
 
-{% file src="../../.gitbook/assets/water-calculator-service.pdf" caption="Water Calculator Service Technical Document" %}
+{% file src="../../.gitbook/assets/steps-live-indexing.pdf" caption="Steps For Collection Live Indexing" %}
 
-{% file src="../../.gitbook/assets/sewerage-calculator-service.pdf" caption="Sewerage Calculator Service Technical Document" %}
+{% file src="../../.gitbook/assets/pgr-live-indexing-steps.pdf" caption="Steps For PGR Live Indexing" %}
 
-{% file src="../../.gitbook/assets/w-and-s-promotion.pdf" caption="W&S Promotion Doc v2.2" %}
+{% file src="../../.gitbook/assets/indexer-persister-config.pdf" caption="Indexer And Persister Config Versioning and Baselining" %}
 
-{% file src="../../.gitbook/assets/dss-backend-configuration-manual.pdf" caption="DSS Backend Configuration Manual" %}
+{% file src="../../.gitbook/assets/path-param-search-workflow.pdf" caption="Path Param Based Payment Search/Workflow \(Update\)" %}
 
-{% file src="../../.gitbook/assets/property-registry-migration.pdf" caption="Property Registry Migration" %}
-
-{% file src="../../.gitbook/assets/chatbot-service.pdf" caption="Chatbot Service" %}
-
-{% file src="../../.gitbook/assets/promotion-doc-whatsapp.pdf" caption="Promotion Doc Whatsapp PGR Chatbot" %}
-
-{% file src="../../.gitbook/assets/kafka.pdf" caption="Kafka-Connect Commands for DSS and Collection Live Indexing" %}
-
-{% file src="../../.gitbook/assets/noc-promotion-document.pdf" caption="NOC Promotion Document" %}
+{% file src="../../.gitbook/assets/property-service-reindexing.pdf" caption="Property Service Reindexing" %}
 
 #### Infra/Deployment Documents
 
