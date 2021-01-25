@@ -229,6 +229,7 @@
   * [DIGIT Customization](customizing-digit/digit-customization/README.md)
     * [API Do's & Don'ts](customizing-digit/digit-customization/api-dos-and-donts.md)
     * [Writing A New Customer](customizing-digit/digit-customization/writing-a-new-customer.md)
+    * [Enhancing Existing Service](customizing-digit/digit-customization/enhancing-existing-service.md)
   * [Services](customizing-digit/customizing-services/README.md)
     * [Core Services](customizing-digit/customizing-services/core-services.md)
     * [Business Services](customizing-digit/customizing-services/business-services.md)
