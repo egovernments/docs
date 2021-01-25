@@ -1,5 +1,5 @@
 ---
-description: DIGIT 2.2 Changes to the Public Grievance and Redressal Module
+description: DIGIT 2.2 technical changes to the Public Grievance and Redressal Module
 ---
 
 # PGR 2.2 Technical Release Notes

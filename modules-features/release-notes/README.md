@@ -229,25 +229,45 @@ DIGIT 2.2 is a release that has got a few functional changes and few non-functio
 
 {% file src="../../.gitbook/assets/property-service-reindexing.pdf" caption="Property Service Reindexing" %}
 
-#### Infra/Deployment Documents
+{% page-ref page="public-grievance-and-redressal-release-notes.md" %}
 
-* [MDMS \(Master Data Management Service\)](https://docs.digit.org/modules-features/technical-documentation/core-service/mdms-master-data-management-service)
-* [Setting Up Workflows](https://app.gitbook.com/@egov-digit/s/home/install-digit/configuring-workflows/setting-up-workflow)
-* [Configuring Workflows For New Product/Entity](https://app.gitbook.com/@egov-digit/s/home/v/v2.1/install-digit/configuring-workflows/configuring-workflow-for-an-entity)
-* [PDF Generation Service](https://app.gitbook.com/@egov-digit/s/home/v/v2.1/modules-features/technical-documentation/core-service/pdf-generation-service)
-* [Customizing PDF Receipts & Certificates](https://app.gitbook.com/@egov-digit/s/home/v/v2.1/install-digit/configuring-digit-services/customizing-pdf-notices-and-certificates/customizing-pdf-receipts-and-certificates)
-* [Integration of PDF in UI for download and print PDF](https://app.gitbook.com/@egov-digit/s/home/v/v2.1/install-digit/configuring-digit-services/customizing-pdf-notices-and-certificates/integration-of-pdf-in-ui-for-download-and-print-pdf)
-* [API Do's and Don'ts](https://app.gitbook.com/@egov-digit/s/home/v/v2.1/install-digit/configuring-digit-services/api-dos-and-donts)
-* [Writing a new Consumer](https://app.gitbook.com/@egov-digit/s/home/v/v2.1/customizing-digit/digit-customization/writing-a-new-customer)
-* [Workflow Service](https://app.gitbook.com/@egov-digit/s/home/v/v2.1/modules-features/technical-documentation/core-service/workflow-service)
-* [User Service](../technical-documentation/core-service/user-service.md)
-* [Access Control Service](https://app.gitbook.com/@egov-digit/s/home/v/v2.1/modules-features/technical-documentation/core-service/access-control-service)
-* [Payment Gateway Service](https://app.gitbook.com/@egov-digit/s/home/v/v2.1/modules-features/technical-documentation/core-service/payment-gateway-service)
-* [Location Service](https://app.gitbook.com/@egov-digit/s/home/v/v2.1/modules-features/technical-documentation/core-service/location-service)
-* [Trade License Service](https://app.gitbook.com/@egov-digit/s/home/v/v2.1/modules-features/technical-documentation/municipal-service/trade-license-service)
-* [PGR Services v2.0](https://app.gitbook.com/@egov-digit/s/home/v/v2.1/modules-features/technical-documentation/municipal-service/pgr-services)
+#### Tech Enablement Documents
 
-{% file src="../../.gitbook/assets/bpa-service.pdf" caption="BPA Service" %}
+{% page-ref page="../technical-documentation/core-service/user-session-management-in-digit.md" %}
 
-{% file src="../../.gitbook/assets/noc-services.pdf" caption="NOC Services" %}
+{% page-ref page="../../install-digit/persister-configuration.md" %}
+
+{% page-ref page="../../install-digit/indexer-configuration.md" %}
+
+{% page-ref page="../../customizing-digit/digit-customization/enhancing-existing-service.md" %}
+
+{% page-ref page="../technical-documentation/core-service/indexer-service.md" %}
+
+{% page-ref page="../technical-documentation/core-service/pdf-generation-service.md" %}
+
+{% page-ref page="../technical-documentation/core-service/url-shortening-service.md" %}
+
+{% page-ref page="../technical-documentation/core-service/user-service.md" %}
+
+{% page-ref page="../technical-documentation/core-service/workflow-service.md" %}
+
+{% page-ref page="../../install-digit/setting-up-edcr-service.md" %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
