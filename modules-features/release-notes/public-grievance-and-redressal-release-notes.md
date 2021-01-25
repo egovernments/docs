@@ -1,51 +1,41 @@
 ---
-description: DIGIT 2.1 Changes to the Public Grievance and Redressal Module
+description: DIGIT 2.2 Changes to the Public Grievance and Redressal Module
 ---
 
-# PGR 2.1 Release Notes
+# PGR 2.2 Technical Release Notes
 
 ### Overview <a id="Overview"></a>
 
-As part of the PGR products, we have added out of the box reports which will go live with product release to monitor basic KPIs and help administrators track adoption and employee performance with ease.
+The API contract for PGR module is revamped based on the new contract. The module is now integrated with workflows, which provides flexibility in managing workflow configuration. The API is integrated with the new Digit-UI.
 
 ### Release Highlights <a id="Release-Highlights"></a>
 
-The following reports are created as part of the product offering in PGR with necessary filters in every report to get deeper insights from data.
-
-1. ULB Report 
-2. GRO  Performance Report 
-3. FME Performance Report
-4. Description Report
+* Integration with workflow
+* Clean and straightforward API structure compared to previous Rainmaker-pgr module
+* Functionality to migrate from old rainmaker-pgr module to the new version
 
 ### Release Features <a id="Release-Features"></a>
 
-| **Key Feature** | **Description** | Details |
-| :--- | :--- | :--- |
-| PGR | ULB Report | This report shows Department wise information on complaints that are logged into the system and statistics around the performance of the overall system. |
-| PGR | GRO Performance Report | This report provides information on Grievance Routing Officer performance. |
-| PGR | FME Performance Report | This report provides information on first-mile employee performance. |
-| PGR | Description Report | This report provides a list of complaints assigned to the FME. The FME can take the printout and go on the ground with the necessary information and resolve the complaint, also if there are contractors or contract labourers this printout will solve the problem to handover list of complaints to them. |
+| **Key Feature** | **Description** |
+| :--- | :--- |
+| Complaint Filing and Tracking  | The citizen can file the grievances and track the complaint status easily |
+| Workflow Integration |  PGR is now integrated with workflow service, the workflow for PGR now can be easily configurable |
+| Migration | API to migrate data from old PGRmodule to the new format |
 
 ### Known Issues <a id="Known-Issues"></a>
 
-[RAIN-1643](https://digit-discuss.atlassian.net/jira/software/projects/RAIN/boards/30/backlog?selectedIssue=RAIN-1643&text=PGR%20repo)
-
-[RAIN-1644](https://digit-discuss.atlassian.net/jira/software/projects/RAIN/boards/30/backlog?selectedIssue=RAIN-1644&text=PGR%20repo)
-
-[RAIN-1645](https://digit-discuss.atlassian.net/jira/software/projects/RAIN/boards/30/backlog?selectedIssue=RAIN-1645&text=PGR%20repo)
-
-[RAIN-1646](https://digit-discuss.atlassian.net/jira/software/projects/RAIN/boards/30/backlog?selectedIssue=RAIN-1646&text=PGR%20repo)
-
-[RAIN-1647](https://digit-discuss.atlassian.net/jira/software/projects/RAIN/boards/30/backlog?selectedIssue=RAIN-1647&text=PGR%20repo)
+* None
 
 ### Upcoming Release Features <a id="Upcoming-Release-Features"></a>
 
- Not planned.
+* None
 
 ### Reference Doc Links <a id="Reference-Doc-Links"></a>
 
 | **Doc Links** | **Description** |
 | :--- | :--- |
-|  |  |
-|  |  |
+|  PGR Service Technical Doc |  [PGR Services v2.0](../technical-documentation/municipal-service/pgr-services/) |
+| PGR migration Doc  |  [PGR Migration](../technical-documentation/municipal-service/pgr-services/pgr-migration.md) |
+
+
 
