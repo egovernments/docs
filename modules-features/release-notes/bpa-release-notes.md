@@ -1,69 +1,25 @@
 ---
-description: DIGIT 2.1 Changes to the Property Tax Module
+description: DIGIT 2.2 Changes to the eDCR Module
 ---
 
-# BPA 2.1 Release Notes
-
-### Overview <a id="Overview"></a>
-
-The version supports the integration of the NOC module with the BPA module.
+# EDCR DIGIT 2.2 Release Notes
 
 ### Release Highlights <a id="Release-Highlights"></a>
 
-* Common application form for multiple departments
-* Integration with NOC Department
+eDCR Service 1.0.2 is a baselined release that has got few enhancements to the existing features.
 
 ### Release Features <a id="Release-Features"></a>
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left"><b>Key Feature</b>
-      </th>
-      <th style="text-align:left"><b>Description</b>
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">Common Application form</td>
-      <td style="text-align:left">
-        <p>The common application form gives the capability to fork one application
-          into multiple applications for submission to different departments.</p>
-        <p>Citizen will enter details in one application form, whereas the application
-          is forwarded to multiple departments like the ULB, Fire department or the
-          Airport Authority of India.</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Login for NOC user</td>
-      <td style="text-align:left">This feature allows the NOC department user to login to DIGIT system and
-        view the NOC application and view the source application for which the
-        NOC is applied. The department user updates the status of the application
-        with an approval or rejection certificate.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Provision for the ULB official to update the NOC information</td>
-      <td style="text-align:left">This feature allows the ULB official to manually discuss the application
-        with the NOC department and update the approval or rejection certificate
-        for a building permit or OC application on behalf of the NOC verifier.</td>
-    </tr>
-  </tbody>
-</table>
+| **S.No.** | **Feature** | **Description** |
+| :--- | :--- | :--- |
+| 1. | Road Reserve |  A **road reserve** is an area of land within which facilities such as **roads**, footpaths, and associated features may be constructed for public travel. Earlier extracting the area of the road reserve. In this release, we are extracting the distances from the concerned layer. The distance should have declared as the dimension in the corresponding layer. |
+| 2. | Height of Room | Extract the room type dynamically based on colour code config. The colour codes are used to identify the type of room. |
+| 3. | Vehicle Ramp | In the plan, the vehicle ramp will be drawn using polyline and we were capturing the floor height as a dimension from vehicle ramp layer. The system was calculating the slope based on floor height and length of the vehicle ramp. Along with this, we added a new provision to define slope manually. The slope should be defined as MTEXT in the vehicle ramp layer, ex: SLOPE=1IN12. |
+| 4. | Floor Unit | Currently, in the floor unit, the occupancy type and area values are the system is extracting and providing. From this release, the colour code value also will be available in the floor unit. Different colour codes needed to differentiate EWS, LIG, MIG1 & MIG2 Dwelling Units. |
 
-### Known Issues <a id="Known-Issues"></a>
+### Upgrade Instructions <a id="Upgrade-Instructions"></a>
 
-* Workflow inbox issue - instead of displaying the application in the assigned to me section, it is displayed in the common inbox
-* Document upload issue - when uploading any document, the document gets attached to the particular document header and before getting attached if the user clicks on add button to the next document header, both the documents are added to the new document header.
-
-### Upcoming Release Features <a id="Upcoming-Release-Features"></a>
-
-Not planned
-
-### Reference Doc Links <a id="Reference-Doc-Links"></a>
-
-| **Doc Links** | **Description** |
-| :--- | :--- |
-|  |  |
-|  |  |
+* eDCR 1.0.2: The above feature is useful and required in other states.
+  * The above features are configurable. Users can enable the features if required for the selected state.
+* **Impact**: Functionally, the upgrade to eDCR 1.0.2 will not impact the existing environments.
 
