@@ -1,18 +1,27 @@
 # What’s New in DIGIT 2.2?
 
-The new features additions and enhancements in [DIGIT 2.2 ](modules-features/release-notes/)simplify the overall user experience. A revamped user interface, workflow integrations for streamlined module performance, custom-search capabilities, and rich analytics view are the key highlights of this release version. 
-
-The updates serve to fulfil the overall goal of integrating various services in an effort to simplify citizen interaction with government agencies while improving the service delivery capabilities of individual departments. 
+The new features additions and enhancements in [DIGIT 2.2 ](modules-features/release-notes/)simplify the overall user experience. The updates serve to fulfil the overall goal of integrating various services in an effort to simplify citizen interaction with government agencies while improving the service delivery capabilities of individual departments. 
 
 ### A brief overview of What's New in DIGIT 2.2👇 
 
-DIGIT 2.2 release offers several feature enhancements, innovations in application design, and integrations. The upgraded release version helps you achieve more in lesser time.
+DIGIT 2.2 release offers a revamped user interface, workflow integrations for streamlined module performance, custom-search capabilities, and rich analytics view are the key highlights of this release version. 
 
 **For Citizens** - The upgraded DIGIT platform provides citizens with additional capabilities in terms of integrated module workflows, and convenient bill payment options. 
 
 **For States & ULBs** - DIGIT 2.2 offers enhanced features in Property Tax, Water & Sewerage, HRMS, and Collections modules. User interface and backend enhancements allow streamlined performance across modules.  
 
-* [x] Check out the [DIGIT 2.2 Release Notes](modules-features/release-notes/) for more details.
+Key features include -
+
+* pay water & sewerage bills without registration or login
+* advanced search options for payment receipts across modules
+* file complaints easily through PGR module
+* cancel payment receipts in Collections module
+* activate or deactivate employees in HRMS module
+* extended options for property mutation in PT module
+* user interface enhancements
+
+Check out the [DIGIT 2.2 Release Notes](modules-features/release-notes/) for more details.
+
 * [x] Explore our upgraded and illustrative [User Manuals](modules-features/user-guides/) to learn operational details.
 * [x] We have added more videos to our [Training ](training-and-demo/)repository.
 
