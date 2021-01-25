@@ -48,7 +48,7 @@
     * [EDCR DIGIT 2.2 Release Notes](modules-features/release-notes/bpa-release-notes.md)
     * [Property Tax 2.1 Release Notes](modules-features/release-notes/property-tax-release-notes.md)
     * [PGR 2.2 Technical Release Notes](modules-features/release-notes/public-grievance-and-redressal-release-notes.md)
-    * [Water & Sewerage 2.1 Release Notes](modules-features/release-notes/water-and-sewerage-release-notes.md)
+    * [Water & Sewerage 2.2 Release Notes](modules-features/release-notes/water-and-sewerage-release-notes.md)
     * [DSS 2.1 Release Notes](modules-features/release-notes/dss-release-notes.md)
     * [Configuration Changes](modules-features/release-notes/configuration-changes.md)
   * [DIGIT Roadmap](modules-features/roadmap.md)
