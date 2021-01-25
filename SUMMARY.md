@@ -205,6 +205,7 @@
     * [Customizing PDF Notices And Certificates](install-digit/configuring-digit-services/customizing-pdf-notices-and-certificates/README.md)
       * [Integration Of PDF In UI For Download And Print PDF](install-digit/configuring-digit-services/customizing-pdf-notices-and-certificates/integration-of-pdf-in-ui-for-download-and-print-pdf.md)
       * [Customizing PDF Receipts & Certificates](install-digit/configuring-digit-services/customizing-pdf-notices-and-certificates/customizing-pdf-receipts-and-certificates.md)
+  * [Persister Configuration](install-digit/persister-configuration.md)
   * [Setting up a Language](install-digit/setting-up-a-language/README.md)
     * [Adding New Language](install-digit/setting-up-a-language/adding-a-language.md)
     * [Setting Up Default Language For SMS & Emails](install-digit/setting-up-a-language/setting-a-default-language-for-sms-and-email.md)
