@@ -2,46 +2,70 @@
 description: DIGIT 2.1 changes to the DSS
 ---
 
-# DSS 2.1 Release Notes
+# HRMS 2.2 Release Notes
 
 ### Overview <a id="Overview"></a>
 
-This release for DSS focuses on improving user experience with feature enhancements that support rich dashboard insights using drill through and comparison indicators in tables.
+This release offers capabilities to re-activate and deactivate employees from the UI to the ULB administrators. Also, we’ve standardized the input field validation as in other products on the DIGIT platform.
 
 ### Release Highlights <a id="Release-Highlights"></a>
 
-The release includes the following features:
+ 1. Deactivate employee
 
-1. Breadcrumbs for better navigation
-2. Drill through options in tables and charts
-3. Comparison indicators in Table
-4. New Chart Library
-5. Typography enhancements
-6. Time filter
+2. Re-activate employee
+
+3. Usability enhancements like input validations, searchable dropdowns, etc.
 
 ### Release Features <a id="Release-Features"></a>
 
-| **Key Feature** | **Description** |
-| :--- | :--- |
-|  Breadcrumbs for Navigation | In addition to the left navigation panel, the addition of breadcrumbs is also useful to provide a better sense of the current page insight. It is also very much helpful for mobile navigation. The user can navigate using the breadcrumbs by clicking on the required parent menu. |
-| Drill through options in tables and charts | The ability provided in DSS to configure the drill through for required options in tables as well as charts. The drill through options is useful in configuring the required hierarchy of data set. This helps users to go up to 'N' levels to get deeper insights. |
-|  Comparison Indicators in Tables | Providing better insights about the metric performances of different dimensions, a comparison indicator is required inside data tables comparing usually with a different time range \(last year/last month\) and what is percentage change with time. |
-| Chart Library | New Chart library was added to provide better support on mobile. |
-| Typography | Typography enhancements for better readability. |
-| Time Filter | Time filter enhanced for better user experience. |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left"><b>Key Feature</b>
+      </th>
+      <th style="text-align:left"><b>Description</b>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">Re-activate employee</td>
+      <td style="text-align:left">
+        <p>Once an employee is de-activated the ULB admin can re-activate the employee
+          in the system. It will automatically map the roles and responsibilities
+          assigned earlier to the employee. UI provides the input field to capture
+          the reason for re-activation and the supporting information for the same.</p>
+        <p>User Story -<a href="https://digit-discuss.atlassian.net/browse/RAIN-1905"> <img src="https://digit-discuss.atlassian.net/secure/viewavatar?size=medium&amp;avatarId=10318&amp;avatarType=issuetype" alt/>RAIN-1905: Deactivate and activate employeeQA SIGNOFF</a>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Employee search</td>
+      <td style="text-align:left">
+        <p>Standardized input validations for all the employee information fields.
+          The dropdowns are turned to &apos;searchable dropdown&apos; for better
+          UX. Employee search parameters and the results are standardized as per
+          DIGIT standards.</p>
+        <p>User Story -<a href="https://digit-discuss.atlassian.net/browse/RAIN-1904"> <img src="https://digit-discuss.atlassian.net/secure/viewavatar?size=medium&amp;avatarId=10318&amp;avatarType=issuetype" alt/>RAIN-1904: Employee search EnhancementsQA SIGNOFF</a>
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### Known Issues <a id="Known-Issues"></a>
 
- None.
+ None
 
 ### Upcoming Release Features <a id="Upcoming-Release-Features"></a>
 
- Not planned.
+ 1. Multi-tenancy support in the product
+
+2. Reports
 
 ### Reference Doc Links <a id="Reference-Doc-Links"></a>
 
 | **Doc Links** | **Description** |
 | :--- | :--- |
-|  |  |
 |  |  |
 
