@@ -1,7 +1,7 @@
 # Table of contents
 
 * [DIGIT](README.md)
-* [What’s New in DIGIT 2.2?](whats-new-in-digit-2.1.md)
+* [What’s New in DIGIT 2.2?](whats-new-in-digit.md)
 * [DIGIT Architecture](architecture.md)
 * [Product & Modules](modules-features/README.md)
   * [Brochures](modules-features/product-brochures.md)
