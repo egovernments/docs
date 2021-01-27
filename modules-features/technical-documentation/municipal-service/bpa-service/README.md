@@ -912,7 +912,7 @@ Setup the locality Search query in the [localitySearcher.yml](https://github.com
 
 #### Database Schema <a id="Database-Schema"></a>
 
-![](../../../.gitbook/assets/image-20200729-065812.png)
+![](../../../../.gitbook/assets/image-20200729-065812.png)
 
 ### Postman Links <a id="Postman-Links"></a>
 
@@ -934,7 +934,7 @@ BPA OC workflow configuration is for Building Plan Approval Occupancy Certificat
 
 Both the workflow flows as depicted below
 
-![](../../../.gitbook/assets/bpa-bpa_oc-wf-4-.png)
+![](../../../../.gitbook/assets/bpa-bpa_oc-wf-4-.png)
 
 In the above Flow Chart
 
@@ -1017,7 +1017,7 @@ In the above Flow Chart
 
 BPA with riskType low has a separate workflow, which is almost same as the BPA workflow as depicted below
 
-![](../../../.gitbook/assets/bpa_low_wf.png)
+![](../../../../.gitbook/assets/bpa_low_wf.png)
 
 In the above Flow Chart
 
