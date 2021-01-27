@@ -47,7 +47,7 @@
     * [Utilities](modules-features/technical-documentation/utilities.md)
   * [Release Notes DIGIT 2.2](modules-features/release-notes/README.md)
     * [Configuration Changes](modules-features/release-notes/configuration-changes.md)
-    * [Trade License 2.2 Technical Release Notes](modules-features/release-notes/trade-license-2.2-technical-release-notes.md)
+    * [Trade License 2.2 Technical Release Notes](modules-features/release-notes/trade-license-technical-release-notes.md)
     * [EDCR DIGIT 2.2 Release Notes](modules-features/release-notes/bpa-release-notes.md)
     * [Property Tax 2.2 Release Notes](modules-features/release-notes/property-tax-release-notes.md)
     * [PGR 2.2 Technical Release Notes](modules-features/release-notes/public-grievance-and-redressal-release-notes.md)
