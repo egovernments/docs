@@ -43,6 +43,7 @@
       * [PGR Services 2.0](modules-features/technical-documentation/municipal-service/pgr-services/README.md)
         * [PGR Migration](modules-features/technical-documentation/municipal-service/pgr-services/pgr-migration.md)
       * [Trade-License Service](modules-features/technical-documentation/municipal-service/trade-license-service.md)
+      * [BPA Service](modules-features/technical-documentation/municipal-service/bpa-service.md)
     * [Utilities](modules-features/technical-documentation/utilities.md)
   * [Release Notes DIGIT 2.2](modules-features/release-notes/README.md)
     * [Configuration Changes](modules-features/release-notes/configuration-changes.md)
