@@ -45,6 +45,7 @@
       * [Trade-License Service](modules-features/technical-documentation/municipal-service/trade-license-service.md)
       * [BPA Service](modules-features/technical-documentation/municipal-service/bpa-service/README.md)
         * [BPA Service Setup and Configuration](modules-features/technical-documentation/municipal-service/bpa-service/bpa-service-setup-and-configuration.md)
+        * [BPA Calculator Service](modules-features/technical-documentation/municipal-service/bpa-service/bpa-calculator-service.md)
     * [Utilities](modules-features/technical-documentation/utilities.md)
   * [Release Notes DIGIT 2.2](modules-features/release-notes/README.md)
     * [Configuration Changes](modules-features/release-notes/configuration-changes.md)
