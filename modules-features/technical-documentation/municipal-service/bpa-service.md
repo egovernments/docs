@@ -46,12 +46,12 @@ The [**Application**](https://github.com/egovernments/municipal-services/tree/ma
 Here we are listing the configs apart from dependent service host, URLs, DB and Flyway configs.
 
 * kafka topics persister configs for eGov persister to save and update BPA Data
-  * persister.save.buildingplan.topic=save-bpa-buildingplan
-  * persister.update.buildingplan.topic=update-bpa-buildingplan
-  * persister.update.buildingplan.workflow.topic=update-bpa-workflow
-  * persister.update.buildingplan.adhoc.topic=update-bpa-adhoc-buildingplan
+  * `persister.save.buildingplan.topic=save-bpa-buildingplan`
+  * `persister.update.buildingplan.topic=update-bpa-buildingplan`
+  * `persister.update.buildingplan.workflow.topic=update-bpa-workflow`
+  * `persister.update.buildingplan.adhoc.topic=update-bpa-adhoc-buildingplan`
 * Receipt kafka topics where BPA application listens to move the application Status after payment completion
-  * kafka.topics.receipt.create=egov.collection.payment-create
+  * `kafka.topics.receipt.create=egov.collection.payment-create`
 * Config for Demand Business service codes for different fees to be paid for BPA
   * **egov.receipt.businessservice**=
     * BPA.NC\_APP\_FEE := Building Plan Approval Application Fee
@@ -60,61 +60,61 @@ Here we are listing the configs apart from dependent service host, URLs, DB and 
     * BPA.NC\_OC\_APP\_FEE := Building Plan Approval Occupancy Certificate Application Fee
     * BPA.NC\_OC\_SAN\_FEE := Building Plan Approval Occupancy Certificate Sanction Fee
 * Application and Permit Number Formats
-  * egov.idgen.bpa.applicationNum.format=PB-BP-\[cy:yyyy-MM-dd\]-\[SEQ\_EG\_BP\_APN\]
-  * egov.idgen.bpa.permitNum.format=PB-BP-\[cy:yyyy-MM-dd\]-\[SEQ\_EG\_BP\_PN\]
+  * `egov.idgen.bpa.applicationNum.format=PB-BP-[cy:yyyy-MM-dd]-[SEQ_EG_BP_APN]`
+  * `egov.idgen.bpa.permitNum.format=PB-BP-[cy:yyyy-MM-dd]-[SEQ_EG_BP_PN]`
 * SMS Notification Topic to push the SMS and Notification’s to be sent by BPA module
-  * kafka.topics.notification.sms=egov.core.notification.sms
+  * `kafka.topics.notification.sms=egov.core.notification.sms`
 * Payment Notification Config
-  * egov.ui.app.host=https://egov-micro-dev.egovernments.org
-  * egov.usr.events.create.topic=persist-user-events-async
-  * egov.usr.events.pay.link=citizen/otpLogin?mobileNo=$mobile&redirectTo=egov-common/pay?consumerCode=$applicationNo&tenantId=$tenantId&businessService=$businessService
-  * egov.usr.events.pay.code=PAY
+  * `egov.ui.app.host=https://egov-micro-dev.egovernments.org`
+  * `egov.usr.events.create.topic=persist-user-events-async`
+  * `egov.usr.events.pay.link=citizen/otpLogin?mobileNo=$mobile&redirectTo=egov-common/pay?consumerCode=$applicationNo&tenantId=$tenantId&businessService=$businessService`
+  * `egov.usr.events.pay.code=PAY`
 * List of Application Statuses on which payment notification to be sent
-  * egov.usr.events.pay.triggers=PENDING\_SANC\_FEE\_PAYMENT,PENDING\_APPL\_FEE,PENDING\_FEE
+  * `egov.usr.events.pay.triggers=PENDING_SANC_FEE_PAYMENT,PENDING_APPL_FEE,PENDING_FEE`
 * Validity of the permit order generated in no of months
-  * egov.bpa.validity.date.in.months=36
+  * `egov.bpa.validity.date.in.months=36`
 * Workflow code for the combination of applicationType , ServiceType
-  * appSrvTypeBussSrvCode={"BUILDING\_PLAN\_SCRUTINY":{"NEW\_CONSTRUCTION":"BPA,BPA\_LOW"},"BUILDING\_OC\_PLAN\_SCRUTINY":{"NEW\_CONSTRUCTION":"BPA\_OC"}}
+  * `appSrvTypeBussSrvCode={"BUILDING_PLAN_SCRUTINY":{"NEW_CONSTRUCTION":"BPA,BPA_LOW"},"BUILDING_OC_PLAN_SCRUTINY":{"NEW_CONSTRUCTION":"BPA_OC"}}`
 * Application Status on which SKIP\_PAYMENT action to be considered
-  * egov.bpa.skippayment.status=PENDING\_APPL\_FEE,PENDING\_SANC\_FEE\_PAYMENT,PENDING\_FEE
+  * `egov.bpa.skippayment.status=PENDING_APPL_FEE,PENDING_SANC_FEE_PAYMENT,PENDING_FEE`
 * Business Service Code for WorkflowCode and Application Status
-  * workflowStatusFeeBusinessSrvMap={"BPA":{"PENDING\_APPL\_FEE":"BPA.NC\_APP\_FEE","PENDING\_SANC\_FEE\_PAYMENT":"BPA.NC\_SAN\_FEE"},"BPA\_LOW":{"PENDING\_FEE":"BPA.LOW\_RISK\_PERMIT\_FEE"},"BPA\_OC":{"PENDING\_APPL\_FEE":"BPA.NC\_OC\_APP\_FEE","PENDING\_SANC\_FEE\_PAYMENT":"BPA.NC\_OC\_SAN\_FEE"}}
+  * `workflowStatusFeeBusinessSrvMap={"BPA":{"PENDING_APPL_FEE":"BPA.NC_APP_FEE","PENDING_SANC_FEE_PAYMENT":"BPA.NC_SAN_FEE"},"BPA_LOW":{"PENDING_FEE":"BPA.LOW_RISK_PERMIT_FEE"},"BPA_OC":{"PENDING_APPL_FEE":"BPA.NC_OC_APP_FEE","PENDING_SANC_FEE_PAYMENT":"BPA.NC_OC_SAN_FEE"}}`
 * NOC application Integration configs
   * Config to validate the status of applicable noc’s status to allow application to move forward from NOC\_VERIFICATION\_PENDING Workflow State
-    * validate.required.nocs.statuses=APPROVED,AUTO\_APPROVED,REJECTED,VOIDED
+    * `validate.required.nocs.statuses=APPROVED,AUTO_APPROVED,REJECTED,VOIDED`
   * NOC workflow initiate action code to initiate the workflow of the NOC when appliation reachers the respective nocTrigerState
-    * egov.noc.initiate.action=INITIATE
+    * `egov.noc.initiate.action=INITIATE`
   * NOC workflow void action code to void the applicable NOC’s, when the application moved to REJECTED State
-    * egov.noc.void.action=VOID
-  * NOC workflow action coes for AutoAprove to auto approve offline NOC , while moving from NOC\_VERIFICATION\_PENDING to next state
-    * egov.noc.autoapprove.action=AUTO\_APPROVE  
+    * `egov.noc.void.action=VOID`
+  * NOC workflow action goes for AutoAprove to auto-approve offline NOC , while moving from NOC\_VERIFICATION\_PENDING to next state
+    * `egov.noc.autoapprove.action=AUTO_APPROVE`
 
-### _**external API references:**_ <a id="external-API-references:"></a>
+### **External API References**
 
-* **egov-user** - \( Manage user \)
-* **tl-services** - Stakeholder Registration \( Registration process of Stakeholder is handled by this service \)
-* **egov-user-event** \( What’s New and Events \)
-* **egov-filestore** \( To store the documents uploaded by the user \)
-* **egov-idgen** \( To generate the application No, Permit No \)
-* **egov-indexer** \( To index the bpa data \)
-* **egov-localization** \( To use the localized messages \)
-* **egov-location** \( To store the address locality \)
-* **egov-mdms** \( Configurations/master data used in the application is served by MDMS \)
-* **egov-notification-sms** \( Service to send SMS to the users involved in the application \)
-* **egov-persister** \( Helps to persist the data \)
-* **egov-searcher** \( Search query used to simply the search \)
-* **egov-workflow-v2** \( Workflow configuration for different BPA application is configured \)
-* **pdf-service** \( Receipt’s, permitorder etc.. and prepared \)
-* **billing-service** \( Create demands and bills for the fees to be collected \)
-* **collection-services** \( Create receipt for the payment received for the bills \)
-* **bpa-calculator** \( Calculates the fees to be collected at different stages\)
-* **land-services** \( land information related to BPA application is stored \)
-* **dcr-services** \( get and validate Edcr data \)
-* **noc-services** \( NOC application \)
+* **egov-user** - \(Manage user\)
+* **tl-services** - Stakeholder Registration \(Registration process of Stakeholder is handled by this service\)
+* **egov-user-event** \(What’s New and Events\)
+* **egov-filestore** \(To store the documents uploaded by the user\)
+* **egov-idgen** \(To generate the application No, Permit No\)
+* **egov-indexer** \(To index the BPA data\)
+* **egov-localization** \(To use the localized messages\)
+* **egov-location** \(To store the address locality\)
+* **egov-mdms** \(Configurations/master data used in the application is served by MDMS\)
+* **egov-notification-sms** \(Service to send SMS to the users involved in the application\)
+* **egov-persister** \(Helps to persist the data\)
+* **egov-searcher** \(Search query used to simplify the search\)
+* **egov-workflow-v2** \(Workflow configuration for different BPA application is configured\)
+* **pdf-service** \(Receipt’s, permit order etc.. and prepared\)
+* **billing-service** \(Create demands and bills for the fees to be collected\)
+* **collection-services** \(Create a receipt for the payment received for the bills\)
+* **bpa-calculator** \(Calculates the fees to be collected at different stages\)
+* **land-services** \(land information related to BPA application is stored\)
+* **dcr-services** \(get and validate EDCR data\)
+* **noc-services** \(NOC application\)
 
-### **Configuration:** <a id="Configuration:"></a>
+### **Configuration** <a id="Configuration:"></a>
 
-#### _**BPA Specific Mdms configuration**_**:** <a id="BPA-Specific-Mdms-configuration:"></a>
+#### _**BPA Specific Mdms configuration**_ <a id="BPA-Specific-Mdms-configuration:"></a>
 
 [MDMS Github Repo](https://github.com/egovernments/egov-mdms-data/tree/master)
 
@@ -122,7 +122,62 @@ Under the data/&lt;state code&gt; folder you can find the **BPA** which has all 
 
 master-config.json for BPA
 
- `1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54` `"BPA": { "ServiceType": { "masterName": "ServiceType", "isStateLevel": true, "uniqueKeys": [ "$.code" ] }, "ApplicationType": { "masterName": "ApplicationType", "isStateLevel": true, "uniqueKeys": [ "$.code" ] }, "DocTypeMapping": { "masterName": "DocTypeMapping", "isStateLevel": true, "uniqueKeys": [ "$.code" ] }, "CalculationType": { "masterName": "CalculationType", "isStateLevel": true, "uniqueKeys": [] }, "RiskTypeComputation": { "masterName": "RiskTypeComputation", "isStateLevel": true, "uniqueKeys": [] }, "OccupancyType": { "masterName": "OccupancyType", "isStateLevel": true, "uniqueKeys": [ "$.code" ] }, "SubOccupancyType": { "masterName": "SubOccupancyType", "isStateLevel": true, "uniqueKeys": [ "$.code" ] }, "CheckList": { "masterName": "CheckList", "isStateLevel": true, "uniqueKeys": [ "$.question" ] } }`
+```text
+"BPA": {
+    "ServiceType": {
+      "masterName": "ServiceType",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "ApplicationType": {
+      "masterName": "ApplicationType",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "DocTypeMapping": {
+      "masterName": "DocTypeMapping",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "CalculationType": {
+      "masterName": "CalculationType",
+      "isStateLevel": true,
+      "uniqueKeys": []
+    },
+    "RiskTypeComputation": {
+      "masterName": "RiskTypeComputation",
+      "isStateLevel": true,
+      "uniqueKeys": []
+    },
+    "OccupancyType": {
+      "masterName": "OccupancyType",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "SubOccupancyType": {
+      "masterName": "SubOccupancyType",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "CheckList": {
+      "masterName": "CheckList",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.question"
+      ]
+    }
+  }
+```
 
 ####  MDMS Details <a id="MDMS-Details"></a>
 
@@ -190,7 +245,7 @@ master-config.json for BPA
         </ul>
       </td>
       <td style="text-align:left">
-        <p> <code>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19</code>  <code>{ &quot;applicationType&quot;: &quot;BUILDING_PLAN_SCRUTINY&quot;, &quot;ServiceType&quot;: &quot;NEW_CONSTRUCTION&quot;, &quot;RiskType&quot;: &quot;LOW&quot;, &quot;WFState&quot;: &quot;INPROGRESS&quot;, &quot;docTypes&quot;: [ { &quot;code&quot;: &quot;APPL.IDENTITYPROOF&quot;, &quot;required&quot;: false, &quot;allow&quot;: &quot;false&quot;, &quot;order&quot;: 1 }, { &quot;code&quot;: &quot;APPL.ADDRESSPROOF&quot;, &quot;required&quot;: true, &quot;allow&quot;: &quot;true&quot;, &quot;order&quot;: 2 } ]}</code>
+        <p> <code>{ &quot;applicationType&quot;: &quot;BUILDING_PLAN_SCRUTINY&quot;, &quot;ServiceType&quot;: &quot;NEW_CONSTRUCTION&quot;, &quot;RiskType&quot;: &quot;LOW&quot;, &quot;WFState&quot;: &quot;INPROGRESS&quot;, &quot;docTypes&quot;: [ { &quot;code&quot;: &quot;APPL.IDENTITYPROOF&quot;, &quot;required&quot;: false, &quot;allow&quot;: &quot;false&quot;, &quot;order&quot;: 1 }, { &quot;code&quot;: &quot;APPL.ADDRESSPROOF&quot;, &quot;required&quot;: true, &quot;allow&quot;: &quot;true&quot;, &quot;order&quot;: 2 } ]}</code>
         </p>
         <p>Above example indicates Documents from the common-master documentTypes
           starting with code(s) in the above example should be displayed in BPA Application
@@ -215,7 +270,7 @@ master-config.json for BPA
       <td style="text-align:left">Used by bpa-calculator Service which Defines the Fee to be collected for
         Given ApplicationType, ServiceType, RiskType and feeType</td>
       <td style="text-align:left">
-        <p> <code>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19</code>  <code>{ &quot;applicationType&quot;: &quot;BUILDING_PLAN_SCRUTINY&quot;, &quot;serviceType&quot;: &quot;ALL&quot;, &quot;riskType&quot;: &quot;LOW&quot;, &quot;feeType&quot;: &quot;SanctionFee&quot;, &quot;amount&quot;: 500 }, { &quot;applicationType&quot;: &quot;BUILDING_PLAN_SCRUTINY&quot;, &quot;serviceType&quot;: &quot;NEW_CONSTRUCTION&quot;, &quot;riskType&quot;: &quot;ALL&quot;, &quot;feeType&quot;: &quot;ApplicationFee&quot;, &quot;amount&quot;: 120 }, { &quot;applicationType&quot;: &quot;BUILDING_PLAN_SCRUTINY&quot;, &quot;serviceType&quot;: &quot;NEW_CONSTRUCTION&quot;, &quot;riskType&quot;: &quot;LOW&quot;, &quot;feeType&quot;: &quot;Low_ApplicationFee&quot;, &quot;amount&quot;: 100 },</code>
+        <p> <code>{ &quot;applicationType&quot;: &quot;BUILDING_PLAN_SCRUTINY&quot;, &quot;serviceType&quot;: &quot;ALL&quot;, &quot;riskType&quot;: &quot;LOW&quot;, &quot;feeType&quot;: &quot;SanctionFee&quot;, &quot;amount&quot;: 500 }, { &quot;applicationType&quot;: &quot;BUILDING_PLAN_SCRUTINY&quot;, &quot;serviceType&quot;: &quot;NEW_CONSTRUCTION&quot;, &quot;riskType&quot;: &quot;ALL&quot;, &quot;feeType&quot;: &quot;ApplicationFee&quot;, &quot;amount&quot;: 120 }, { &quot;applicationType&quot;: &quot;BUILDING_PLAN_SCRUTINY&quot;, &quot;serviceType&quot;: &quot;NEW_CONSTRUCTION&quot;, &quot;riskType&quot;: &quot;LOW&quot;, &quot;feeType&quot;: &quot;Low_ApplicationFee&quot;, &quot;amount&quot;: 100 },</code>
         </p>
         <p>From the above example
           <br />
@@ -241,7 +296,7 @@ master-config.json for BPA
       </td>
       <td style="text-align:left">Helps to Defines the RiskType of the Application based on the building
         Height and plotArea received from the EDCR System</td>
-      <td style="text-align:left"> <code>1 2 3 4 5 6 7 8</code>  <code>{&quot;fromPlotArea&quot;: 500, &quot;toPlotArea&quot;: 9999999999, &quot;fromBuildingHeight&quot;: 15, &quot;toBuildingHeight&quot;:9999999999, &quot;riskType&quot;: &quot;HIGH&quot;, &quot;note&quot;: &quot;(Heigh 15 Mt or More) or ( Plot area &gt;=800 sq.Mt)&quot; }</code>
+      <td style="text-align:left"> <code>{&quot;fromPlotArea&quot;: 500, &quot;toPlotArea&quot;: 9999999999, &quot;fromBuildingHeight&quot;: 15, &quot;toBuildingHeight&quot;:9999999999, &quot;riskType&quot;: &quot;HIGH&quot;, &quot;note&quot;: &quot;(Heigh 15 Mt or More) or ( Plot area &gt;=800 sq.Mt)&quot; }</code>
       </td>
     </tr>
     <tr>
@@ -264,11 +319,10 @@ master-config.json for BPA
       </td>
       <td style="text-align:left">
         <ol>
-          <li>Field Inspection Questions &amp; Documents</li>
+          <li>Field Inspection Questions &amp; Documents <code>{ &quot;applicationType&quot;: &quot;BUILDING_PLAN_SCRUTINY&quot;, &quot;ServiceType&quot;: &quot;NEW_CONSTRUCTION&quot;, &quot;RiskType&quot;: &quot;LOW&quot;, &quot;WFState&quot;: &quot;FIELDINSPECTION_PENDING&quot;, &quot;questions&quot;: [ { &quot;question&quot;: &quot;RIVER_EXISTS_ON_SITE&quot;, &quot;fieldType&quot;: &quot;YES/NO/NA&quot;, &quot;active&quot;: true }, { &quot;question&quot;: &quot;TREE_EXISTS_ON_SITE&quot;, &quot;fieldType&quot;: &quot;YES/NO/NA&quot;, &quot;active&quot;: true }, { &quot;question&quot;: &quot;PLAN_AS_PER_THE_SITE&quot;, &quot;fieldType&quot;: &quot;YES/NO/NA&quot;, &quot;active&quot;: true }, { &quot;question&quot;: &quot;ROADWIDTH_AS_PER_THE_PLAN&quot;, &quot;fieldType&quot;: &quot;YES/NO/NA&quot;, &quot;active&quot;: true } ], &quot;docTypes&quot;: [ { &quot;code&quot;: &quot;FI.FIR&quot;, &quot;required&quot;: true }, { &quot;code&quot;: &quot;FI.SINS&quot;, &quot;required&quot;: true }, { &quot;code&quot;: &quot;FI.SISS&quot;, &quot;required&quot;: true }, { &quot;code&quot;: &quot;FI.SIES&quot;, &quot;required&quot;: true }, { &quot;code&quot;: &quot;FI.SIWS&quot;, &quot;required&quot;: true } ] }</code>
+          </li>
         </ol>
-        <p><code>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50</code>  <code>{ &quot;applicationType&quot;: &quot;BUILDING_PLAN_SCRUTINY&quot;, &quot;ServiceType&quot;: &quot;NEW_CONSTRUCTION&quot;, &quot;RiskType&quot;: &quot;LOW&quot;, &quot;WFState&quot;: &quot;FIELDINSPECTION_PENDING&quot;, &quot;questions&quot;: [ { &quot;question&quot;: &quot;RIVER_EXISTS_ON_SITE&quot;, &quot;fieldType&quot;: &quot;YES/NO/NA&quot;, &quot;active&quot;: true }, { &quot;question&quot;: &quot;TREE_EXISTS_ON_SITE&quot;, &quot;fieldType&quot;: &quot;YES/NO/NA&quot;, &quot;active&quot;: true }, { &quot;question&quot;: &quot;PLAN_AS_PER_THE_SITE&quot;, &quot;fieldType&quot;: &quot;YES/NO/NA&quot;, &quot;active&quot;: true }, { &quot;question&quot;: &quot;ROADWIDTH_AS_PER_THE_PLAN&quot;, &quot;fieldType&quot;: &quot;YES/NO/NA&quot;, &quot;active&quot;: true } ], &quot;docTypes&quot;: [ { &quot;code&quot;: &quot;FI.FIR&quot;, &quot;required&quot;: true }, { &quot;code&quot;: &quot;FI.SINS&quot;, &quot;required&quot;: true }, { &quot;code&quot;: &quot;FI.SISS&quot;, &quot;required&quot;: true }, { &quot;code&quot;: &quot;FI.SIES&quot;, &quot;required&quot;: true }, { &quot;code&quot;: &quot;FI.SIWS&quot;, &quot;required&quot;: true } ] }</code>
-        </p>
-        <p>2. Conditions for Approval Stage<code>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17</code>  <code>{ &quot;applicationType&quot;: &quot;BUILDING_PLAN_SCRUTINY&quot;, &quot;ServiceType&quot;: &quot;NEW_CONSTRUCTION&quot;, &quot;RiskType&quot;: &quot;HIGH&quot;, &quot;WFState&quot;: &quot;PENDINGAPPROVAL&quot;, &quot;conditions&quot;: [ &quot;The development shall be undertaken strictly according to plans enclosed with necessary permission endorsement.&quot;, &quot;The land in question must be in lawful ownership and peaceful possession of the applicant.&quot;, &quot;The permission is valid for period of X(this is the validity period in years) years with effect from the date of issue.&quot;, &quot;Permission accorded under the provision cannot be construed as evidence in respect of right title interest of the plot over which the plan is approved.&quot;, &quot;Any dispute arising out of land record or in respect of right/ title/ interest after this approval the plan shall be treated automatically cancelled during the period of dispute.&quot;, &quot;Adequate safety precaution shall be provided at all stages of construction for safe guarding the life of workers and any public hazard.&quot;, &quot;The land/ Building shall be used exclusively for the above occupancy for which you applied and the uses shall not be changed to any other use without prior approval of this Authority.&quot;, &quot;Adequate space mentioned in the approved plan shall be kept open for parking and no part of it will be built upon.&quot;, &quot;The land over which construction is proposed is accessible by an approved means of access with sufficient road width.&quot; ] }</code>
+        <p>2. Conditions for Approval Stage <code>{ &quot;applicationType&quot;: &quot;BUILDING_PLAN_SCRUTINY&quot;, &quot;ServiceType&quot;: &quot;NEW_CONSTRUCTION&quot;, &quot;RiskType&quot;: &quot;HIGH&quot;, &quot;WFState&quot;: &quot;PENDINGAPPROVAL&quot;, &quot;conditions&quot;: [ &quot;The development shall be undertaken strictly according to plans enclosed with necessary permission endorsement.&quot;, &quot;The land in question must be in lawful ownership and peaceful possession of the applicant.&quot;, &quot;The permission is valid for period of X(this is the validity period in years) years with effect from the date of issue.&quot;, &quot;Permission accorded under the provision cannot be construed as evidence in respect of right title interest of the plot over which the plan is approved.&quot;, &quot;Any dispute arising out of land record or in respect of right/ title/ interest after this approval the plan shall be treated automatically cancelled during the period of dispute.&quot;, &quot;Adequate safety precaution shall be provided at all stages of construction for safe guarding the life of workers and any public hazard.&quot;, &quot;The land/ Building shall be used exclusively for the above occupancy for which you applied and the uses shall not be changed to any other use without prior approval of this Authority.&quot;, &quot;Adequate space mentioned in the approved plan shall be kept open for parking and no part of it will be built upon.&quot;, &quot;The land over which construction is proposed is accessible by an approved means of access with sufficient road width.&quot; ] }</code>
         </p>
       </td>
     </tr>
@@ -291,7 +345,7 @@ master-config.json for BPA
           status changes to Citizen Approval Pending, all the NOc&#x2019;s workflow
           would be initiated)</p>
       </td>
-      <td style="text-align:left"> <code>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16</code>  <code>{ &quot;applicationType&quot;: &quot;BUILDING_PLAN_SCRUTINY&quot;, &quot;serviceType&quot;: &quot;NEW_CONSTRUCTION&quot;, &quot;riskType&quot;: &quot;ALL&quot;, &quot;nocTriggerState&quot;: &quot;CITIZEN_APPROVAL_INPROCESS&quot;, &quot;nocTypes&quot;: [ { &quot;type&quot;: &quot;AIRPORT_AUTHORITY&quot;, &quot;required&quot;: true }, { &quot;type&quot;: &quot;FIRE_NOC&quot;, &quot;required&quot;: false } ] }</code>
+      <td style="text-align:left"> <code>{ &quot;applicationType&quot;: &quot;BUILDING_PLAN_SCRUTINY&quot;, &quot;serviceType&quot;: &quot;NEW_CONSTRUCTION&quot;, &quot;riskType&quot;: &quot;ALL&quot;, &quot;nocTriggerState&quot;: &quot;CITIZEN_APPROVAL_INPROCESS&quot;, &quot;nocTypes&quot;: [ { &quot;type&quot;: &quot;AIRPORT_AUTHORITY&quot;, &quot;required&quot;: true }, { &quot;type&quot;: &quot;FIRE_NOC&quot;, &quot;required&quot;: false } ] }</code>
       </td>
     </tr>
   </tbody>
@@ -301,11 +355,259 @@ master-config.json for BPA
 
 **Action Test : URL Actions adding**
 
-[action-test.json](https://github.com/egovernments/egov-mdms-data/blob/master/data/pb/ACCESSCONTROL-ACTIONS-TEST/actions-test.json)`1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51` `{ "id": 1971, "name": "BPA-PermitOrderEDCR Report", "url": "/bpa-services/v1/bpa/_permitorderedcr", "displayName": "Apply", "orderNumber": 0, "enabled": false, "serviceCode": "BPA", "code": "null", "path": "" }, { "id": 1975, "name": "Locality searcher endpoint for BPA", "url": "/egov-searcher/locality/bpa-services/_get", "displayName": "BPA locality searcher", "orderNumber": 0, "enabled": false, "serviceCode": "egov-searcher", "code": "null", "path": "" },{ "id": 1924, "name": "BPA-Applyforservice", "url": "/bpa-services/v1/bpa/_create", "displayName": "Apply", "orderNumber": 0, "enabled": false, "serviceCode": "BPA", "code": "null", "path": "" }, { "id": 1930, "name": "BPA-applicationsearch", "url": "/bpa-services/v1/bpa/_search", "displayName": "Search", "orderNumber": 0, "enabled": false, "serviceCode": "BPA", "code": "null", "path": "" },{ "id": 1931, "name": "BPA-updateapplicationservice", "url": "/bpa-services/v1/bpa/_update", "displayName": "Apply", "orderNumber": 0, "enabled": false, "serviceCode": "BPA", "code": "null", "path": "" },`
+[action-test.json](https://github.com/egovernments/egov-mdms-data/blob/master/data/pb/ACCESSCONTROL-ACTIONS-TEST/actions-test.json)\`\`
+
+```text
+  {
+      "id": 1971,
+      "name": "BPA-PermitOrderEDCR Report",
+      "url": "/bpa-services/v1/bpa/_permitorderedcr",
+      "displayName": "Apply",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "BPA",
+      "code": "null",
+      "path": ""
+    }, {
+      "id": 1975,
+      "name": "Locality searcher endpoint for BPA",
+      "url": "/egov-searcher/locality/bpa-services/_get",
+      "displayName": "BPA locality searcher",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "egov-searcher",
+      "code": "null",
+      "path": ""
+    },{
+      "id": 1924,
+      "name": "BPA-Applyforservice",
+      "url": "/bpa-services/v1/bpa/_create",
+      "displayName": "Apply",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "BPA",
+      "code": "null",
+      "path": ""
+    }, {
+      "id": 1930,
+      "name": "BPA-applicationsearch",
+      "url": "/bpa-services/v1/bpa/_search",
+      "displayName": "Search",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "BPA",
+      "code": "null",
+      "path": ""
+    },{
+      "id": 1931,
+      "name": "BPA-updateapplicationservice",
+      "url": "/bpa-services/v1/bpa/_update",
+      "displayName": "Apply",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "BPA",
+      "code": "null",
+      "path": ""
+    },
+```
 
 **Access to the Roles for the above Actions**
 
-[roleacton.json](https://github.com/egovernments/egov-mdms-data/blob/master/data/pb/ACCESSCONTROL-ROLEACTIONS/roleactions.json)`1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190 191` `{ "rolecode": "CEMP", "actionid": 1971, "actioncode": "", "tenantId": "pb" }, { "rolecode": "BPA_TOWNPLANNER", "actionid": 1971, "actioncode": "", "tenantId": "pb" }, { "rolecode": "BPA_BUILDER", "actionid": 1971, "actioncode": "", "tenantId": "pb" }, { "rolecode": "BPA_STRUCTURALENGINEER", "actionid": 1971, "actioncode": "", "tenantId": "pb" }, { "rolecode": "BPA_SUPERVISOR", "actionid": 1971, "actioncode": "", "tenantId": "pb" }, { "rolecode": "BPA_VERIFIER", "actionid": 1971, "actioncode": "", "tenantId": "pb" }, { "rolecode": "BPA_FIELD_INSPECTOR", "actionid": 1971, "actioncode": "", "tenantId": "pb" }, { "rolecode": "BPA_NOC_VERIFIER", "actionid": 1971, "actioncode": "", "tenantId": "pb" }, { "rolecode": "BPA_APPROVER", "actionid": 1971, "actioncode": "", "tenantId": "pb" }, { "rolecode": "BPA_ARCHITECT", "actionid": 1971, "actioncode": "", "tenantId": "pb" }, { "rolecode": "CITIZEN", "actionid": 1971, "actioncode": "", "tenantId": "pb" }, { "rolecode": "BPA_ENGINEER", "actionid": 1971, "actioncode": "", "tenantId": "pb" }, { "rolecode": "BPA_VERIFIER", "actionid": 1975, "actioncode": "", "tenantId": "pb" }, { "rolecode": "BPA_FIELD_INSPECTOR", "actionid": 1975, "actioncode": "", "tenantId": "pb" }, { "rolecode": "BPA_NOC_VERIFIER", "actionid": 1975, "actioncode": "", "tenantId": "pb" }, { "rolecode": "BPA_APPROVER", "actionid": 1975, "actioncode": "", "tenantId": "pb" }, { "rolecode": "BPA_ARCHITECT", "actionid": 1924, "actioncode": "", "tenantId": "pb" }, { "rolecode": "BPA_ARCHITECT", "actionid": 1931, "actioncode": "", "tenantId": "pb" }, { "rolecode": "CITIZEN", "actionid": 1931, "actioncode": "", "tenantId": "pb" }, { "rolecode": "BPA_VERIFIER", "actionid": 1931, "actioncode": "", "tenantId": "pb" }, { "rolecode": "BPA_APPROVER", "actionid": 1931, "actioncode": "", "tenantId": "pb" }, { "rolecode": "BPA_FIELD_INSPECTOR", "actionid": 1931, "actioncode": "", "tenantId": "pb" }, { "rolecode": "BPA_NOC_VERIFIER", "actionid": 1931, "actioncode": "", "tenantId": "pb" },{ "rolecode": "BPA_ARCHITECT", "actionid": 1930, "actioncode": "", "tenantId": "pb" },{ "rolecode": "BPA_VERIFIER", "actionid": 1930, "actioncode": "", "tenantId": "pb" }, { "rolecode": "CEMP", "actionid": 1930, "actioncode": "", "tenantId": "pb" }, { "rolecode": "BPA_APPROVER", "actionid": 1930, "actioncode": "", "tenantId": "pb" }, { "rolecode": "CITIZEN", "actionid": 1930, "actioncode": "", "tenantId": "pb" }, { "rolecode": "BPA_FIELD_INSPECTOR", "actionid": 1930, "actioncode": "", "tenantId": "pb" }, { "rolecode": "BPA_NOC_VERIFIER", "actionid": 1930, "actioncode": "", "tenantId": "pb" },{ "rolecode": "AIRPORT_AUTHORITY_APPROVER", "actionid": 1930, "actioncode": "", "tenantId": "pb" }, { "rolecode": "FIRE_NOC_APPROVER", "actionid": 1930, "actioncode": "", "tenantId": "pb" }, { "rolecode": "NOC_DEPT_APPROVER", "actionid": 1930, "actioncode": "", "tenantId": "pb" }`
+[roleacton.json](https://github.com/egovernments/egov-mdms-data/blob/master/data/pb/ACCESSCONTROL-ROLEACTIONS/roleactions.json)\`\`
+
+```text
+{
+      "rolecode": "CEMP",
+      "actionid": 1971,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_TOWNPLANNER",
+      "actionid": 1971,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_BUILDER",
+      "actionid": 1971,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_STRUCTURALENGINEER",
+      "actionid": 1971,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_SUPERVISOR",
+      "actionid": 1971,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_VERIFIER",
+      "actionid": 1971,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_FIELD_INSPECTOR",
+      "actionid": 1971,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_NOC_VERIFIER",
+      "actionid": 1971,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_APPROVER",
+      "actionid": 1971,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_ARCHITECT",
+      "actionid": 1971,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 1971,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_ENGINEER",
+      "actionid": 1971,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+     {
+      "rolecode": "BPA_VERIFIER",
+      "actionid": 1975,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_FIELD_INSPECTOR",
+      "actionid": 1975,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_NOC_VERIFIER",
+      "actionid": 1975,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_APPROVER",
+      "actionid": 1975,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+     {
+      "rolecode": "BPA_ARCHITECT",
+      "actionid": 1924,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_ARCHITECT",
+      "actionid": 1931,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 1931,
+      "actioncode": "",
+      "tenantId": "pb"
+    }, {
+      "rolecode": "BPA_VERIFIER",
+      "actionid": 1931,
+      "actioncode": "",
+      "tenantId": "pb"
+    }, {
+      "rolecode": "BPA_APPROVER",
+      "actionid": 1931,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+     {
+      "rolecode": "BPA_FIELD_INSPECTOR",
+      "actionid": 1931,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_NOC_VERIFIER",
+      "actionid": 1931,
+      "actioncode": "",
+      "tenantId": "pb"
+    },{
+      "rolecode": "BPA_ARCHITECT",
+      "actionid": 1930,
+      "actioncode": "",
+      "tenantId": "pb"
+    },{
+      "rolecode": "BPA_VERIFIER",
+      "actionid": 1930,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "CEMP",
+      "actionid": 1930,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_APPROVER",
+      "actionid": 1930,
+      "actioncode": "",
+      "tenantId": "pb"
+    },  {
+      "rolecode": "CITIZEN",
+      "actionid": 1930,
+      "actioncode": "",
+      "tenantId": "pb"
+    }, {
+      "rolecode": "BPA_FIELD_INSPECTOR",
+      "actionid": 1930,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_NOC_VERIFIER",
+      "actionid": 1930,
+      "actioncode": "",
+      "tenantId": "pb"
+    },{
+      "rolecode": "AIRPORT_AUTHORITY_APPROVER",
+      "actionid": 1930,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FIRE_NOC_APPROVER",
+      "actionid": 1930,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "NOC_DEPT_APPROVER",
+      "actionid": 1930,
+      "actioncode": "",
+      "tenantId": "pb"
+    }
+```
 
 #### Billing Service MDMS Config <a id="Billing-Service-MDMS-Config"></a>
 
@@ -313,15 +615,76 @@ master-config.json for BPA
 
 BusinessService Config for Fee’s to be collected
 
-Application Fee, Sanction Fee BPA High/Medium Risk`1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23` `{ "businessService": "BPA.NEWCONSTRUCTION_APP_FEE", "code": "BPA.NC_APP_FEE", "collectionModesNotAllowed": [ "DD" ], "partPaymentAllowed": false, "isAdvanceAllowed": false, "isVoucherCreationEnabled": true, "isActive": true }, { "businessService": "BPA.NEWCONSTRUCTION_SANC_FEE", "code": "BPA.NC_SAN_FEE", "collectionModesNotAllowed": [ "DD" ], "partPaymentAllowed": false, "isAdvanceAllowed": false, "isVoucherCreationEnabled": true, "isActive": true },`
+Application Fee, Sanction Fee BPA High/Medium Risk
+
+```text
+ {
+      "businessService": "BPA.NEWCONSTRUCTION_APP_FEE",
+      "code": "BPA.NC_APP_FEE",
+      "collectionModesNotAllowed": [
+        "DD"
+      ],
+      "partPaymentAllowed": false,
+      "isAdvanceAllowed": false,
+      "isVoucherCreationEnabled": true,
+      "isActive": true
+    },
+    {
+      "businessService": "BPA.NEWCONSTRUCTION_SANC_FEE",
+      "code": "BPA.NC_SAN_FEE",
+      "collectionModesNotAllowed": [
+        "DD"
+      ],
+      "partPaymentAllowed": false,
+      "isAdvanceAllowed": false,
+      "isVoucherCreationEnabled": true,
+      "isActive": true
+    },
+    
+```
 
 Application Fee, Sanction Fee for BPA Low Risk
 
- `1 2 3 4 5 6 7 8 9 10 11` `{ "businessService": "BPA.NEWCONSTRUCTION_LOW_RISK_PERMIT_FEE", "code": "BPA.LOW_RISK_PERMIT_FEE", "collectionModesNotAllowed": [ "DD" ], "partPaymentAllowed": false, "isAdvanceAllowed": false, "isVoucherCreationEnabled": true, "isActive": true },`
+```text
+{
+      "businessService": "BPA.NEWCONSTRUCTION_LOW_RISK_PERMIT_FEE",
+      "code": "BPA.LOW_RISK_PERMIT_FEE",
+      "collectionModesNotAllowed": [
+        "DD"
+      ],
+      "partPaymentAllowed": false,
+      "isAdvanceAllowed": false,
+      "isVoucherCreationEnabled": true,
+      "isActive": true
+    },
+```
 
 Application Fee, Sanction Fee for BPA OC
 
- `1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22` `{ "businessService": "BPA.NEWCONSTRUCTION_OC_APP_FEE", "code": "BPA.NC_OC_APP_FEE", "collectionModesNotAllowed": [ "DD" ], "partPaymentAllowed": false, "isAdvanceAllowed": false, "isVoucherCreationEnabled": true, "isActive": true }, { "businessService": "BPA.NEWCONSTRUCTION_OC_SANC_FEE", "code": "BPA.NC_OC_SAN_FEE", "collectionModesNotAllowed": [ "DD" ], "partPaymentAllowed": false, "isAdvanceAllowed": false, "isVoucherCreationEnabled": true, "isActive": true }`
+```text
+{
+      "businessService": "BPA.NEWCONSTRUCTION_OC_APP_FEE",
+      "code": "BPA.NC_OC_APP_FEE",
+      "collectionModesNotAllowed": [
+        "DD"
+      ],
+      "partPaymentAllowed": false,
+      "isAdvanceAllowed": false,
+      "isVoucherCreationEnabled": true,
+      "isActive": true
+    },
+    {
+      "businessService": "BPA.NEWCONSTRUCTION_OC_SANC_FEE",
+      "code": "BPA.NC_OC_SAN_FEE",
+      "collectionModesNotAllowed": [
+        "DD"
+      ],
+      "partPaymentAllowed": false,
+      "isAdvanceAllowed": false,
+      "isVoucherCreationEnabled": true,
+      "isActive": true
+    }
+```
 
 #### TaxHead MDMS  <a id="TaxHead-MDMS"></a>
 
@@ -329,59 +692,227 @@ Application Fee, Sanction Fee for BPA OC
 
 Tax Head for BPA High/Medium Risk
 
- `1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21` `{ "category": "FEE", "service": "BPA.NC_APP_FEE", "name": "BPA Application fees", "code": "BPA_APPL_FEES", "isDebit": false, "isActualDemand": true, "order": "1", "isRequired": false }, { "category": "FEE", "service": "BPA.NC_SAN_FEE", "name": "BPA Sanction fees", "code": "BPA_SANC_FEES", "isDebit": false, "isActualDemand": true, "order": "2", "isRequired": false },`
+```text
+{
+      "category": "FEE",
+      "service": "BPA.NC_APP_FEE",
+      "name": "BPA Application fees",
+      "code": "BPA_APPL_FEES",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "BPA.NC_SAN_FEE",
+      "name": "BPA Sanction fees",
+      "code": "BPA_SANC_FEES",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "2",
+      "isRequired": false
+    },
+   
+```
 
 TaxHead config for BPA Low Risk
 
- `1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20` `{ "category": "FEE", "service": "BPA.LOW_RISK_PERMIT_FEE", "name": "BPA Low Risk Appllication Fees", "code": "BPA_LOW_APPL_FEES", "isDebit": false, "isActualDemand": true, "order": "1", "isRequired": false }, { "category": "FEE", "service": "BPA.LOW_RISK_PERMIT_FEE", "name": "BPA Low Risk Permit Fees", "code": "BPA_LOW_SANC_FEES", "isDebit": false, "isActualDemand": true, "order": "1", "isRequired": false },`
+```text
+ {
+      "category": "FEE",
+      "service": "BPA.LOW_RISK_PERMIT_FEE",
+      "name": "BPA Low Risk Appllication Fees",
+      "code": "BPA_LOW_APPL_FEES",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "BPA.LOW_RISK_PERMIT_FEE",
+      "name": "BPA Low Risk Permit Fees",
+      "code": "BPA_LOW_SANC_FEES",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": false
+    },
+```
 
 TaxHead config for BPA OC
 
- `1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20` `{ "category": "FEE", "service": "BPA.NC_OC_APP_FEE", "name": "BPA Application fees", "code": "BPA_OC_APPL_FEES", "isDebit": false, "isActualDemand": true, "order": "1", "isRequired": false }, { "category": "FEE", "service": "BPA.NC_OC_SAN_FEE", "name": "BPA Sanction fees", "code": "BPA_OC_SANC_FEES", "isDebit": false, "isActualDemand": true, "order": "2", "isRequired": false },`
+```text
+ {
+      "category": "FEE",
+      "service": "BPA.NC_OC_APP_FEE",
+      "name": "BPA Application fees",
+      "code": "BPA_OC_APPL_FEES",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "BPA.NC_OC_SAN_FEE",
+      "name": "BPA Sanction fees",
+      "code": "BPA_OC_SANC_FEES",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "2",
+      "isRequired": false
+    },
+```
 
 #### TaxPeriod MDMS Config <a id="TaxPeriod-MDMS-Config"></a>
 
 [TaxPeriod.json](https://github.com/egovernments/egov-mdms-data/blob/master/data/pb/BillingService/TaxPeriod.json)
 
-TaxPeriod MDMS for BPA High/Medium Risk`1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16` `{ "fromDate": 1522540801000, "toDate": 1838159999000, "periodCycle": "FORTENYEARS", "service": "BPA.NC_APP_FEE", "code": "BPA10YRS2018", "financialYear": "2018-28" }, { "fromDate": 1522540801000, "toDate": 1838159999000, "periodCycle": "FORTENYEARS", "service": "BPA.NC_SAN_FEE", "code": "BPA10YRS2018", "financialYear": "2018-28" },`
+TaxPeriod MDMS for BPA High/Medium Risk
+
+```text
+{
+      "fromDate": 1522540801000,
+      "toDate": 1838159999000,
+      "periodCycle": "FORTENYEARS",
+      "service": "BPA.NC_APP_FEE",
+      "code": "BPA10YRS2018",
+      "financialYear": "2018-28"
+    },
+    {
+      "fromDate": 1522540801000,
+      "toDate": 1838159999000,
+      "periodCycle": "FORTENYEARS",
+      "service": "BPA.NC_SAN_FEE",
+      "code": "BPA10YRS2018",
+      "financialYear": "2018-28"
+    },
+```
 
 TaxPeriod MDMS for BPA Low Risk
 
- `1 2 3 4 5 6 7 8` `{ "fromDate": 1522540801000, "toDate": 1838159999000, "periodCycle": "FORTENYEARS", "service": "BPA.LOW_RISK_PERMIT_FEE", "code": "BPA10YRS2018", "financialYear": "2018-28" },`
+```text
+{
+      "fromDate": 1522540801000,
+      "toDate": 1838159999000,
+      "periodCycle": "FORTENYEARS",
+      "service": "BPA.LOW_RISK_PERMIT_FEE",
+      "code": "BPA10YRS2018",
+      "financialYear": "2018-28"
+    },
+```
 
 TaxPeriod Config for BPA OC
 
- `1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16` `{ "fromDate": 1522540801000, "toDate": 1838159999000, "periodCycle": "FORTENYEARS", "service": "BPA.NC_OC_APP_FEE", "code": "BPAOCAPP10YRS2018", "financialYear": "2018-28" }, { "fromDate": 1522540801000, "toDate": 1838159999000, "periodCycle": "FORTENYEARS", "service": "BPA.NC_OC_SAN_FEE", "code": "BPAOCSAN10YRS2018", "financialYear": "2018-28" }`
+```text
+{
+      "fromDate": 1522540801000,
+      "toDate": 1838159999000,
+      "periodCycle": "FORTENYEARS",
+      "service": "BPA.NC_OC_APP_FEE",
+      "code": "BPAOCAPP10YRS2018",
+      "financialYear": "2018-28"
+    },
+    {
+      "fromDate": 1522540801000,
+      "toDate": 1838159999000,
+      "periodCycle": "FORTENYEARS",
+      "service": "BPA.NC_OC_SAN_FEE",
+      "code": "BPAOCSAN10YRS2018",
+      "financialYear": "2018-28"
+    }
+```
 
 #### ID Gen Config for BPA Numbers <a id="ID-Gen-Config-for-BPA-Numbers"></a>
 
 [idFormats.json](https://github.com/egovernments/egov-mdms-data/blob/master/data/pb/common-masters/IdFormat.json)
 
-BPA Application Number format Config`1 2 3 4` `{ "idname":"egov.idgen.bpa.applicationNum", "format":"PB-BP-[cy:yyyy-MM-dd]-[SEQ_EG_BP_APN]" },`
+BPA Application Number format Config
 
-BPA Permit Number format Config`1 2 3 4` `{ "idname":"egov.idgen.bpa.applicationNum", "format":"PB-BP-[cy:yyyy-MM-dd]-[SEQ_EG_BP_PN]" },`
+```text
+{
+      "idname":"egov.idgen.bpa.applicationNum",
+      "format":"PB-BP-[cy:yyyy-MM-dd]-[SEQ_EG_BP_APN]"
+    },
+```
 
-BPA Receipt Number format config`1 2 3 4 5 6 7 8` `{ "format": "BPA/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]", "idname": "bpa.nc_app_fee.receipt.id" }, { "format": "BPA/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]", "idname": "bpa.nc_san_fee.receipt.id" },`
+BPA Permit Number format Config
+
+```text
+{
+      "idname":"egov.idgen.bpa.applicationNum",
+      "format":"PB-BP-[cy:yyyy-MM-dd]-[SEQ_EG_BP_PN]"
+    },
+```
+
+BPA Receipt Number format config
+
+```text
+ {
+      "format": "BPA/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
+      "idname": "bpa.nc_app_fee.receipt.id"
+    },
+    {
+      "format": "BPA/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
+      "idname": "bpa.nc_san_fee.receipt.id"
+    },
+```
 
 BPA OC Receipt Number format config
 
- `1 2 3 4 5 6 7 8` `{ "format": "BPA/OC/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]", "idname": "bpa.nc_oc_app_fee.receipt.id" }, { "format": "BPA/OC/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]", "idname": "bpa.nc_oc_san_fee.receipt.id" },`
+```text
+  {
+      "format": "BPA/OC/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
+      "idname": "bpa.nc_oc_app_fee.receipt.id"
+    },
+    {
+      "format": "BPA/OC/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
+      "idname": "bpa.nc_oc_san_fee.receipt.id"
+    },
+```
 
-#### _**Persister configuration**_**:** <a id="Persister-configuration:"></a>
+#### _**Persister configuration**_ <a id="Persister-configuration:"></a>
 
 [BPA Persister YAML](https://github.com/egovernments/configs/blob/master/egov-persister/bpa-persist.yml)
 
-#### Indexer Configuration: <a id="Indexer-Configuration:"></a>
+#### Indexer Configuration <a id="Indexer-Configuration:"></a>
 
 [BPA Indexer YAML](https://github.com/egovernments/configs/blob/master/egov-indexer/egov-bpa-indexer.yml)
 
-#### Locality Search Configuration: <a id="Locality-Search-Configuration:"></a>
+#### Locality Search Configuration <a id="Locality-Search-Configuration:"></a>
 
-Setup the locality Search query in the [localitySearcher.yml](https://github.com/egovernments/configs/blob/master/egov-searcher/localitySearcher.yml) as new entry. Add RoleAction Test and Role Action for the URL **“**/egov-searcher/locality/bpa-services/\_get**“**`1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22` `- name: bpa-services query: baseQuery: | Select row_to_json(result) from ( select applicationNo as referenceNumber,locality from eg_bpa_buildingplan bpa INNER JOIN eg_land_Address ad ON ad.landInfoId = bpa.landid ) result $where groupBy: orderBy: searchParams: condition: AND params: - name: result.referenceNumber isMandatory: true jsonPath: $.searchCriteria.referenceNumber operator: output: jsonFormat: {"ResponseInfo": {}} outJsonPath: $.Localities responseInfoPath: $.ResponseInfo`
+Setup the locality Search query in the [localitySearcher.yml](https://github.com/egovernments/configs/blob/master/egov-searcher/localitySearcher.yml) as ****a ****new entry. Add RoleAction Test and Role Action for the URL **`“`**`/egov-searcher/locality/bpa-services/_get`**`“`**
+
+```text
+  - name: bpa-services
+    query:
+      baseQuery: |
+        Select row_to_json(result) from
+        (
+          select applicationNo as referenceNumber,locality from eg_bpa_buildingplan bpa
+          INNER JOIN eg_land_Address ad ON ad.landInfoId = bpa.landid
+        ) result  $where
+      groupBy:
+      orderBy:
+    searchParams:
+      condition: AND
+      params:
+      - name: result.referenceNumber
+        isMandatory: true
+        jsonPath: $.searchCriteria.referenceNumber
+        operator: 
+
+    output:
+      jsonFormat: {"ResponseInfo": {}}
+      outJsonPath: $.Localities
+      responseInfoPath: $.ResponseInfo
+```
 
 #### Database Schema <a id="Database-Schema"></a>
 
-![](blob:https://digit-discuss.atlassian.net/72afb3ad-2df0-4700-b462-60b97a3e3c5f#media-blob-url=true&id=46269f44-fdff-4205-a286-d62787d4095c&collection=contentId-520388684&contextId=520388684&mimeType=image%2Fpng&name=image-20200729-065812.png&size=90503&width=806&height=442)
+![](../../../.gitbook/assets/image-20200729-065812.png)
 
 ### Postman Links <a id="Postman-Links"></a>
 
@@ -401,36 +932,38 @@ BPA workflow configuration is for Building Plan Approval Apply High and Medium R
 
 BPA OC workflow configuration is for Building Plan Approval Occupancy Certificate irrespective of RiskTypes
 
-Both the workflow flows as depicted below![](blob:https://digit-discuss.atlassian.net/95bafb6e-c339-4552-bfa0-6f5c754ac8b1#media-blob-url=true&id=b07aba47-012b-47c7-b93e-1ce6444da672&collection=contentId-520388684&contextId=520388684&mimeType=image%2Fpng&name=BPA-BPA_OC%20WF%20%284%29.png&size=177678&width=1613&height=717)
+Both the workflow flows as depicted below
+
+![](../../../.gitbook/assets/bpa-bpa_oc-wf-4-.png)
 
 In the above Flow Chart
 
 * Rectangle Indicates the Workflow State
 * Line connecting two states indicates the action
-  * Action name is in black color text
-  * User Role who can take action is in Blue color Text
+  * Action name is in black colour text
+  * User Role who can take action is in Blue colour Text
 
 **Specific Configurations and How To’s**
 
-* System allows to configure the Documents that can be visible, allowed to upload and Mandatory to move from the current state in **DocumentTypeMapping** **MDMS** as described in MDMS Details Table DocumentTypeMapping Row
+* System allows configuring the Documents that can be visible, allowed to upload and Mandatory to move from the current state in **DocumentTypeMapping** **MDMS** as described in MDMS Details Table DocumentTypeMapping Row
 * **Application Creation Sage**
   * Process
     * DCR system is integrated to get the applicationType, serviceType and riskType based on the EDCR Number populated by the architect.
     * DCR system is integrated to validate the status of the EDCRNumber populated
-    * New BPA or BPAOC application cannot be created if there is existing **un ended**\( application status other than approved or rejected is considered as un ended\) application with the same EDCR
+    * New BPA or BPAOC application cannot be created if there is existing **un ended**\( application status other than approved or rejected is considered as unended\) application with the same EDCR
   * How To add new Document
-    * Should add new documentType group in **DocumentTypeMapping** MDMS with the applicable applicationType, serviceType, riskType, wfState \(refere existing sample for understanding\)
-    * Can configure allow, required as well as order for each documentType
+    * Should add new documentType group in **DocumentTypeMapping** MDMS with the applicable applicationType, serviceType, riskType, wfState \(refer existing sample for understanding\)
+    * Can configure allow, required as well as the order for each documentType
     * Make sure the new documentType added exists in documentType of [common-masters](https://github.com/egovernments/egov-mdms-data/blob/master/data/pb/common-masters/DocumentType.json)
 * **Initiated Stage**
   * Process
     * NOC’s from the **NocTypeMapping** MDMS matching to the application data will get created
   * How To add new NocType
     * Should add new NOCType in **NocTypeMapping** MDMS
-    * New NocType should add in noc-services applicatin as well
+    * New NocType should add in noc-services application as well
 * **Citizen Approval Pending Stage**
   * Process
-    * According the example in the **NocTypeMapping** Data in the **MDMS Details** Table, Once BPA or BPA OC reaches this Staus all the Applicable Noc’s workflow would be initiated.
+    * According to the example in the **NocTypeMapping** Data in the **MDMS Details** Table, Once BPA or BPA OC reaches this Staus all the Applicable Noc’s workflow would be initiated.
   * How to change NOC workflow initiation step
     * Should change the nocTriggerState in **NocTypeMapping** to the desired application status.
 * **InProgress Stage**
@@ -446,7 +979,7 @@ In the above Flow Chart
     * NA
 * **FieldInspection Pending Stage**
   * Process
-    * At this stage FieldInspector should answers the checklist questions and attached the documents which will be configured in **checklist** MDMS, as described in MDMS Details Table CheckList Row
+    * At this stage, FieldInspector should answer the checklist questions and attached the documents which will be configured in **checklist** MDMS, as described in MDMS Details Table CheckList Row
     * Field Inspector can create multiple FieldInspection Reports
   * How to add new questions and documents
     * Should add/modify the questions for the desired combination of applicationType, serviceType, risktype
@@ -456,7 +989,7 @@ In the above Flow Chart
 * **Noc Verification Pending State**
   * Process
     * NOC verifier can upload the Documents to the NOC application’s if available.
-    * Offline Noc’s would get autoapproved while NOC verifier is forwarding the BPA or BPAOC application from the current state
+    * Offline Noc’s would get auto-approved while NOC verifier is forwarding the BPA or BPAOC application from the current state
     * BPA or BPAOC application cannot be forwarded if any NOC is not in matching the status configured for validate.required.nocs.statuses in application.properties
   * How to change the NOC application status to be verified to move forward
     * should update the validate.required.nocs.statuses property in value in application.properties with the list of status to be considered to move forward
@@ -472,30 +1005,32 @@ In the above Flow Chart
   * Process
     * System generates PermitOrder for the application
     * System Stamps the validate date for the permit Order by adding the no of months configured for the property egov.bpa.validity.date.in.months in application.properties
-  * How to change the valdity period of the permit order which will generate from now
+  * How to change the validity period of the permit order which will generate from now
     * Change the value of the property egov.bpa.validity.date.in.months in application.properties file to the desired no of months
   * How to change Permit Order
-    * Can be changed by changing the data and format configs of the permit order , please refer PDF’s section of Permit Order
+    * Can be changed by changing the data and format configs of the permit order, please refer PDF’s section of Permit Order
 * **Rejected Stage**
   * Process
     * NA
 
 **BPA LOW Workflow**
 
-BPA with riskType low has separate workflow, which is almost same with the BPA workflow as depicted below![](blob:https://digit-discuss.atlassian.net/e3b33da2-ee2e-4531-9845-c3e53590503a#media-blob-url=true&id=2f3e8976-7f5a-4c2a-9fac-fb6aa27186a1&collection=contentId-520388684&contextId=520388684&mimeType=image%2Fpng&name=BPA_LOW_WF.png&size=121004&width=1536&height=717)
+BPA with riskType low has a separate workflow, which is almost same as the BPA workflow as depicted below
+
+![](../../../.gitbook/assets/bpa_low_wf.png)
 
 In the above Flow Chart
 
 * Rectangle Indicates the Workflow State
 * Line connecting two states indicates the action
-  * Action name is in black color text
-  * User Role who can take action is in Blue color Text
+  * Action name is in black colour text
+  * User Role who can take action is in Blue colour Text
 
 **Specific Configurations and How To’s which are not common to BPA Workflow**
 
 * **InProgress Stage**
   * Process
-    * Application and Sanction Fee together gets calcualted and Demand gets generated by the bpa-calculator
+    * Application and Sanction Fee together gets calculated and Demand gets generated by the bpa-calculator
     * Notification to the Stakeholder and owner will be sent regarding the fee payment
   * How To change the Fee Amount
     * Will be discussed in bpa-calculator service
@@ -503,7 +1038,7 @@ In the above Flow Chart
   * Process
     * System generates PermitOrder for the application
     * System Stamps the validate date for the permit Order by adding the no of months configured for the property egov.bpa.validity.date.in.months in application.properties
-  * How to change the valdity period of the permit order which will generate from now
+  * How to change the validity period of the permit order which will generate from now
     * Change the value of the property egov.bpa.validity.date.in.months in application.properties file to the desired no of months
 * **Approved Stage**
   * Process
@@ -512,12 +1047,12 @@ In the above Flow Chart
   * Process
     * System generates Revocation letter
   * How to change Revocation Letter format
-    * Can be changed by changing the data and format configs of the revocation letter , please refer PDF’s section of Revocation letter
+    * Can be changed by changing the data and format configs of the revocation letter, please refer PDF’s section of Revocation letter
 
 ### Validations included <a id="Validations-included"></a>
 
 * On Workflow action of Every Stage, System verifies the Documents Configured for the given stage of the workflow from the **DocumentTypeMapping** MDMS and validates the required Documents attached to move forward
-* DropDown values to be validate against the MDMS values, Value in those field should be one of the MDMS value.
+* DropDown values to be validated against the MDMS values, Value in those fields should be one of the MDMS value.
 
 ### Notifications <a id="Notifications"></a>
 
@@ -532,10 +1067,6 @@ The message text for the above code is sent through SMS and Notification filling
 ### PDFS used <a id="PDFS-used"></a>
 
 BPA supports below PDF’s
-
-| **PDF Name** | **Description** |  **Config’s** |
-| :--- | :--- | :--- |
-
 
 <table>
   <thead>
