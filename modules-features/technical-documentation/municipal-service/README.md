@@ -4,4 +4,5 @@ DIGIT offers key municipal services such as Public Grievance & Redressal, Trade 
 
 * [PGR Services](pgr-services/)
 * [Trade License Services](trade-license-service.md)
+* [BPA Service](bpa-service/)
 
