@@ -229,7 +229,7 @@ DIGIT 2.2 is a release that has got a few functional changes and few non-functio
 
 {% file src="../../.gitbook/assets/property-service-reindexing.pdf" caption="Property Service Reindexing" %}
 
-{% page-ref page="public-grievance-and-redressal-release-notes.md" %}
+{% page-ref page="pgr-release-notes.md" %}
 
 #### Tech Enablement Documents
 
