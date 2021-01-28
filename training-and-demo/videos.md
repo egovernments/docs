@@ -6,14 +6,14 @@ Watch out for this space as we are constantly adding on to our video library.
 
 DIGIT video tutorials provide a step-by-step guide to using the DIGIT modules. Refer to these videos for clarity and ease of understanding the different functions of the modules. Our product video library covers a wide range of functions, right from configuring DIGIT environment components to using the modules.
 
-Navigate to the relevant category to view the list of videos available.
+### Module Data Templates Configuration Videos
 
 <table>
   <thead>
     <tr>
-      <th style="text-align:left"><b>Category</b>
+      <th style="text-align:left"><b>Video Category</b>
       </th>
-      <th style="text-align:left"><b>Topic</b>
+      <th style="text-align:left"><b>Title</b>
       </th>
     </tr>
   </thead>
@@ -212,6 +212,91 @@ Navigate to the relevant category to view the list of videos available.
         </ul>
       </td>
     </tr>
+    <tr>
+      <td style="text-align:left">mCollect Configuration Videos</td>
+      <td style="text-align:left">
+        <p></p>
+        <ul>
+          <li><a href="https://youtu.be/N-exC_4Zz-A">Service Category</a>
+          </li>
+          <li><a href="https://youtu.be/LsZQWtoeS-M">Service Sub-category</a>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Finance</td>
+      <td style="text-align:left">
+        <p></p>
+        <ul>
+          <li><a href="https://youtu.be/9QOeBLrGZAI">Schemes</a>
+          </li>
+          <li><a href="https://youtu.be/kKIib5kJEr0">Sub Schemes</a>
+          </li>
+          <li><a href="https://youtu.be/HoPksEjZiWs">Contractors</a>
+          </li>
+          <li><a href="https://youtu.be/NQXnVEq8e84">Suppliers</a>
+          </li>
+          <li><a href="https://youtu.be/LbZkTpYbxFA">Opening Balances</a>
+          </li>
+          <li><a href="https://youtu.be/tmNtOgdL4lE">Sub Ledger Master</a>
+          </li>
+          <li><a href="https://youtu.be/t6zYzhabjZg">Sub Ledger Category</a>
+          </li>
+          <li><a href="https://youtu.be/Q6IpDbyrdjw">Bank Branch</a>
+          </li>
+          <li><a href="https://youtu.be/ueXg-943IdA">Bank Account</a>
+          </li>
+          <li><a href="https://youtu.be/wwS1W_9yEGU">Funds</a>
+          </li>
+          <li><a href="https://youtu.be/SlsF21UORn0">Deductions</a>
+          </li>
+          <li><a href="https://youtu.be/fSMaZydCsmA">Chart of Accounts</a>
+          </li>
+          <li><a href="https://youtu.be/ljBbzVcEQjU">Functions</a>
+          </li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
+
+### Module Workflow Videos
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Video Category</th>
+      <th style="text-align:left">Title</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">Trade License Workflow</td>
+      <td style="text-align:left">
+        <p></p>
+        <ul>
+          <li><a href="https://youtu.be/aTJf5GFIQ_M">Filling and submitting TL application forms</a>
+          </li>
+          <li><a href="https://youtu.be/vVkhrDr9ZAM">Apply for TL renewal</a>
+          </li>
+          <li><a href="https://youtu.be/lE8qyJSKoqg">TL fee payment -citizen</a>
+          </li>
+          <li><a href="https://youtu.be/OhLnRYE4e_0">TL fee payment - counter employees</a>
+          </li>
+          <li><a href="https://youtu.be/Sm4pjAUyHoY">TL document verification process</a>
+          </li>
+          <li><a href="https://youtu.be/QHjUbe7iOvw">TL field inspection process</a>
+          </li>
+          <li><a href="https://youtu.be/jRhSkdRQbt8">TL approval</a>
+          </li>
+          <li><a href="https://youtu.be/F076abqOuow">Download TL certificate</a>
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
 
