@@ -52,7 +52,7 @@
   * [Release Notes DIGIT 2.2](modules-features/release-notes/README.md)
     * [Configuration Changes](modules-features/release-notes/configuration-changes.md)
     * [Trade License 2.2 Technical Release Notes](modules-features/release-notes/trade-license-technical-release-notes.md)
-    * [EDCR DIGIT 2.2 Release Notes](modules-features/release-notes/bpa-release-notes.md)
+    * [EDCR DIGIT 2.2 Release Notes](modules-features/release-notes/edcr-release-notes.md)
     * [Property Tax 2.2 Release Notes](modules-features/release-notes/property-tax-release-notes.md)
     * [PGR 2.2 Technical Release Notes](modules-features/release-notes/pgr-release-notes.md)
     * [Water & Sewerage 2.2 Release Notes](modules-features/release-notes/water-and-sewerage-release-notes.md)
