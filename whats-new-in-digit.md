@@ -4,7 +4,7 @@ The new features additions and enhancements in [DIGIT 2.2 ](modules-features/rel
 
 ### Key highlights in DIGIT 2.2👇 
 
-DIGIT 2.2 release offers a revamped user interface, workflow integrations for streamlined module performance, custom-search capabilities, and rich analytics view are the key highlights of this release version. 
+DIGIT 2.2 release offers a revamped user interface, workflow integrations for streamlined module performance, custom-search capabilities, and rich analytics view.  
 
 **For Citizens** - The upgraded DIGIT platform provides citizens with additional capabilities in terms of integrated module workflows, and convenient bill payment options. 
 
