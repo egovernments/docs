@@ -56,7 +56,7 @@
     * [Property Tax 2.2 Release Notes](modules-features/release-notes/property-tax-release-notes.md)
     * [PGR 2.2 Technical Release Notes](modules-features/release-notes/public-grievance-and-redressal-release-notes.md)
     * [Water & Sewerage 2.2 Release Notes](modules-features/release-notes/water-and-sewerage-release-notes.md)
-    * [HRMS 2.2 Release Notes](modules-features/release-notes/dss-release-notes.md)
+    * [HRMS 2.2 Release Notes](modules-features/release-notes/hrms-release-notes.md)
     * [PGR 2.2 Release Notes](modules-features/release-notes/pgr-2.2-release-notes.md)
   * [DIGIT Roadmap](modules-features/roadmap.md)
   * [Product FAQs](modules-features/product-faqs.md)
