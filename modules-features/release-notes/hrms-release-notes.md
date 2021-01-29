@@ -1,5 +1,5 @@
 ---
-description: DIGIT 2.1 changes to the DSS
+description: DIGIT 2.2 changes in HRMS module
 ---
 
 # HRMS 2.2 Release Notes
