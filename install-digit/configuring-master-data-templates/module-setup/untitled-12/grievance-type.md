@@ -35,7 +35,7 @@ A grievance is a formal complaint submitted to a ULB. Something wrong or somethi
 5. Start filling the data starting from serial no. and complete a record at once. repeat this exercise until the entire data is filled into a template.
 6. Verify the data once again by going through the checklist and taking care of each and every point mentioned in the checklist.
 
-### [https://youtu.be/7ggAkezdly4](https://youtu.be/7ggAkezdly4)
+ 
 
 ### Checklist
 
