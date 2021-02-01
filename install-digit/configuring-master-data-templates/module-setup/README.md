@@ -4,7 +4,7 @@ Master data templates allow users to configure the key parameters and details re
 
 {% page-ref page="configuring-trade-licenses-data/" %}
 
-{% page-ref page="untitled-13/" %}
+{% page-ref page="prop-tax-data/" %}
 
 {% page-ref page="pgr-data-templates/" %}
 

@@ -21,7 +21,7 @@ Data given in the table is sample data for reference.
 
 | Sr. No. | Column Name | Data Type | Data Size | Mandatory | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | Property usage type | Alphanumeric |  64 | Yes | Refer [Usage Category Major](../untitled-13/usage-category-major.md) |
+| 1 | Property usage type | Alphanumeric |  64 | Yes | Refer [Usage Category Major](../prop-tax-data/usage-category-major.md) |
 | 2 | Water consumed value from | Decimal |  \(5,3\) | Yes | From value for water consumed |
 | 3 | Water consumed value to | Decimal |  \(5,3\) | Yes | To value for water consumed |
 | 4 | Rate | Decimal |  \(3,3\) | Yes | Consumption charges per unit corresponding to the usage type |
