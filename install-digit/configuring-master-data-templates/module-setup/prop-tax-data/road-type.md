@@ -18,6 +18,8 @@ Given below is the sample data table from the template in which the data has to 
 
 Please note that the values mentioned in the data table are sample values and the states are free to add/update according to their specific requirements.
 
+{% embed url="https://www.youtube.com/watch?v=XLfhJD2X\_gY&list=PLIwmxedvnvrjcak5wAK0N8GNJ4aOEy46K" %}
+
 ### Procedure
 
 #### Data Definition
@@ -48,7 +50,7 @@ This checklist covers all the activities which are common across the entities.
 
 | Sr. No. | Checklist Parameter | Example |
 | :--- | :--- | :--- |
-| 1 | Make sure that each and every point in this reference list has been taken care of | [Checklist](../untitled-1/checklist.md) |
+| 1 | Make sure that each and every point in this reference list has been taken care of | [Checklist](../common-config/checklist.md) |
 
 #### Entity Specific Checklist
 

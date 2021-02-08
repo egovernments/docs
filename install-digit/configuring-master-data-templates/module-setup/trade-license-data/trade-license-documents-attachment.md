@@ -28,8 +28,8 @@ The table above contains sample data.
 | 1 | Trade Sub Type Code | Reference | 64 | Yes | The Code assigned to the[ Trade Sub Type](trade-sub-type.md). Eg: TRADE\_SMALL\_BAKERY is assigned to Bakery |
 | 2 | Trade Sub Type Name \(English\) | Text | 256  | Yes | Name of the Trade Sub Type in English Eg: Clinic |
 | 3 | Application Type | Text | 256  | Yes | Type of application for which the documents related to trade are configured. It can either be new or renewal |
-| 4 | Document 1 | Reference | 256 | Yes | The primary document required as a verification parameter. Refer to the [Standard Document List](../untitled-1/standard-document-list.md) |
-| 5 | Document 2 | Reference | 256 | Yes | The Secondary Document required as a verification parameter. Refer to the [Standard Document List](../untitled-1/standard-document-list.md) |
+| 4 | Document 1 | Reference | 256 | Yes | The primary document required as a verification parameter. Refer to the [Standard Document List](../common-config/standard-document-list.md) |
+| 5 | Document 2 | Reference | 256 | Yes | The Secondary Document required as a verification parameter. Refer to the [Standard Document List](../common-config/standard-document-list.md) |
 
 #### How to fill data
 
@@ -51,7 +51,7 @@ This checklist covers all the activities which are common across the entities.
 
 | Sr. No. | Checklist Parameter | Example |
 | :--- | :--- | :--- |
-| 1 | Make sure that each and every point in this reference list has been taken care of | [Checklist](../untitled-1/checklist.md) |
+| 1 | Make sure that each and every point in this reference list has been taken care of | [Checklist](../common-config/checklist.md) |
 
 #### Entity Specific Checklist
 

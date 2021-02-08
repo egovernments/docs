@@ -6,29 +6,29 @@ Master data templates allow users to configure the key parameters and details re
 
 {% page-ref page="prop-tax-data/" %}
 
-{% page-ref page="pgr-data-templates/" %}
+{% page-ref page="pgr-data/" %}
 
-{% page-ref page="untitled-11/" %}
+{% page-ref page="fire-noc-data/" %}
 
-{% page-ref page="untitled-10/" %}
+{% page-ref page="mcollect-data/" %}
 
-{% page-ref page="untitled-9/" %}
+{% page-ref page="web-portal-data/" %}
 
-{% page-ref page="untitled-8/" %}
+{% page-ref page="obpas-data/" %}
 
-{% page-ref page="configuring-hrms-data/" %}
+{% page-ref page="hrms-data/" %}
 
-{% page-ref page="untitled-6/" %}
+{% page-ref page="finance-data/" %}
 
-{% page-ref page="untitled-5/" %}
+{% page-ref page="water-data/" %}
 
-{% page-ref page="untitled-4/" %}
+{% page-ref page="sewerage-data/" %}
 
-{% page-ref page="untitled-3/" %}
+{% page-ref page="billing-payment-data/" %}
 
-{% page-ref page="untitled-2/" %}
+{% page-ref page="dss-data/" %}
 
-{% page-ref page="untitled/" %}
+{% page-ref page="workflow-data/" %}
 
 
 

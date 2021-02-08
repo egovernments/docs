@@ -48,7 +48,7 @@ The checklist is a set of activities to be performed after the data is filled in
 
 This checklist covers all the activities which are common across the entities.
 
-To see the common checklist refer to the page [Checklist](../../module-setup/untitled-1/checklist.md) consisting of all the activities which are to be followed to ensure complete and quality data.
+To see the common checklist refer to the page [Checklist](../../module-setup/common-config/checklist.md) consisting of all the activities which are to be followed to ensure complete and quality data.
 
 #### Entity Specific Checklist
 
