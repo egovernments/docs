@@ -22,7 +22,7 @@ DIGIT Property Tax system has certain pre-defined categories namely :
 The data described in the above table is a sample.
 {% endhint %}
 
-### [https://www.youtube.com/watch?v=fu-0KAKu2Pg&list=PLIwmxedvnvrjcak5wAK0N8GNJ4aOEy46K&index=2](https://www.youtube.com/watch?v=fu-0KAKu2Pg&list=PLIwmxedvnvrjcak5wAK0N8GNJ4aOEy46K&index=2)
+{% embed url="https://www.youtube.com/watch?v=fu-0KAKu2Pg&list=PLIwmxedvnvrjcak5wAK0N8GNJ4aOEy46K&index=2" %}
 
 ### Procedure
 
