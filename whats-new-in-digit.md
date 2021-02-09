@@ -40,12 +40,3 @@ Check out the [DIGIT 2.2 Release Notes](modules-features/release-notes/) for mor
 
 Visit our [Support](digit-support/) pages for details on our partner support strategy.
 
-
-
-
-
-
-
-  
-
-
