@@ -233,25 +233,25 @@ DIGIT 2.2 is a release that has got a few functional changes and few non-functio
 
 #### Tech Enablement Documents
 
-{% page-ref page="../technical-documentation/core-service/user-session-management-in-digit.md" %}
+{% page-ref page="../services-overview/core-services/user-session-management.md" %}
 
-{% page-ref page="../../install-digit/persister-configuration.md" %}
+{% page-ref page="../../configure-digit/persister-configuration.md" %}
 
-{% page-ref page="../../install-digit/indexer-configuration.md" %}
+{% page-ref page="../../configure-digit/indexer-configuration.md" %}
 
 {% page-ref page="../../customizing-digit/digit-customization/enhancing-existing-service.md" %}
 
-{% page-ref page="../technical-documentation/core-service/indexer-service.md" %}
+{% page-ref page="../services-overview/core-services/indexer-service.md" %}
 
-{% page-ref page="../technical-documentation/core-service/pdf-generation-service.md" %}
+{% page-ref page="../services-overview/core-services/pdf-generation-services.md" %}
 
-{% page-ref page="../technical-documentation/core-service/url-shortening-service.md" %}
+{% page-ref page="../services-overview/core-services/url-shortening-service.md" %}
 
-{% page-ref page="../technical-documentation/core-service/user-service.md" %}
+{% page-ref page="../services-overview/core-services/user-services.md" %}
 
-{% page-ref page="../technical-documentation/core-service/workflow-service.md" %}
+{% page-ref page="../services-overview/core-services/workflow-services.md" %}
 
-{% page-ref page="../../install-digit/setting-up-edcr-service.md" %}
+{% page-ref page="../../configure-digit/setting-up-edcr-service.md" %}
 
 
 

@@ -34,8 +34,8 @@ The API contract for PGR module is revamped based on the new contract. The modul
 
 | **Doc Links** | **Description** |
 | :--- | :--- |
-|  PGR Service Technical Doc |  [PGR Services v2.0](../technical-documentation/municipal-service/pgr-services/) |
-| PGR migration Doc  |  [PGR Migration](../technical-documentation/municipal-service/pgr-services/pgr-migration.md) |
+|  PGR Service Technical Doc |  [PGR Services v2.0](../services-overview/municipal-services/pgr-services/) |
+| PGR migration Doc  |  [PGR Migration](../services-overview/municipal-services/pgr-services/pgr-migration.md) |
 
 
 

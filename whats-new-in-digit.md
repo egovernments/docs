@@ -27,16 +27,16 @@ Check out the [DIGIT 2.2 Release Notes](modules/release-notes/) for more details
 
 ### Quick Links to 2.2 docs
 
-* [User Session Management in DIGIT](modules/technical-documentation/core-service/user-session-management-in-digit.md)
-* [Persister Configuration](install-digit/persister-configuration.md)
-* [Indexer Configuration](install-digit/indexer-configuration.md)
+* [User Session Management in DIGIT](modules/services-overview/core-services/user-session-management.md)
+* [Persister Configuration](configure-digit/persister-configuration.md)
+* [Indexer Configuration](configure-digit/indexer-configuration.md)
 * [Enhancing Existing Service](customizing-digit/digit-customization/enhancing-existing-service.md)
-* [Indexer Service](modules/technical-documentation/core-service/indexer-service.md)
-* [PDF Generation Service](modules/technical-documentation/core-service/pdf-generation-service.md)
-* [URL Shortening Service](modules/technical-documentation/core-service/url-shortening-service.md)
-* [User Service](modules/technical-documentation/core-service/user-service.md)
-* [Workflow Service](modules/technical-documentation/core-service/workflow-service.md)
-* [Setting Up eDCR Service](install-digit/setting-up-edcr-service.md)
+* [Indexer Service](modules/services-overview/core-services/indexer-service.md)
+* [PDF Generation Service](modules/services-overview/core-services/pdf-generation-services.md)
+* [URL Shortening Service](modules/services-overview/core-services/url-shortening-service.md)
+* [User Service](modules/services-overview/core-services/user-services.md)
+* [Workflow Service](modules/services-overview/core-services/workflow-services.md)
+* [Setting Up eDCR Service](configure-digit/setting-up-edcr-service.md)
 
 Visit our [Support](digit-support/) pages for details on our partner support strategy.
 
