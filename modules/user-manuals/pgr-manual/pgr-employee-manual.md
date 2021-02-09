@@ -12,9 +12,9 @@ Complaints can also be registered by ULB counter employees on behalf of the citi
 
 The CSR or counter employees can perform the following actions on PGR -
 
-1. [File Complaints](employee-guide.md#file-complaints)
-2. [Search or Track Complaints](employee-guide.md#search-complaints)
-3. [Reopen Complaints](employee-guide.md#reopen-complaints)
+1. [File Complaints](pgr-employee-manual.md#file-complaints)
+2. [Search or Track Complaints](pgr-employee-manual.md#search-complaints)
+3. [Reopen Complaints](pgr-employee-manual.md#reopen-complaints)
 
 ![](https://docs.google.com/drawings/u/0/d/sU6rjcwIb9fCKVVn6TmBleg/image?w=425&h=156&rev=18&ac=1&parent=1pR9OLsrbm5UDtHSuq-Iv2BM78gUTwagbwGpCMGdeqrg)
 
@@ -68,10 +68,10 @@ The Grievance Routing Officer or GRO manages the complaints queue. The role ensu
 
 GROs can
 
-1. [Assign complaints](employee-guide.md#assign-complaints)
-2. [Re-Assign complaints](employee-guide.md#re-assign-complaints)
-3. [Share complaints](employee-guide.md#share-complaints)
-4. [Reject complaints](employee-guide.md#reject-complaints)
+1. [Assign complaints](pgr-employee-manual.md#assign-complaints)
+2. [Re-Assign complaints](pgr-employee-manual.md#re-assign-complaints)
+3. [Share complaints](pgr-employee-manual.md#share-complaints)
+4. [Reject complaints](pgr-employee-manual.md#reject-complaints)
 5. Call citizens
 6. Comment on complaints
 
@@ -137,12 +137,12 @@ First Mile Employees or FMEs are responsible for acting on citizen complaints.
 
 FMEs can -
 
-1. [Request Re-Assign](employee-guide.md#request-re-assign)
-2. [Mark Resolved](employee-guide.md#resolve-complaints)
+1. [Request Re-Assign](pgr-employee-manual.md#request-re-assign)
+2. [Mark Resolved](pgr-employee-manual.md#resolve-complaints)
 3. Call citizens
 4. Comment on complaints
-5. [Search complaints](employee-guide.md#search-complaints)
-6. [Share complaints](employee-guide.md#share-complaints)
+5. [Search complaints](pgr-employee-manual.md#search-complaints)
+6. [Share complaints](pgr-employee-manual.md#share-complaints)
 
 ![](https://docs.google.com/drawings/u/0/d/szovKDR3VG6ANH92_TvpdDQ/image?w=511&h=201&rev=61&ac=1&parent=1pR9OLsrbm5UDtHSuq-Iv2BM78gUTwagbwGpCMGdeqrg)
 

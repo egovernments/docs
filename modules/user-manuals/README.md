@@ -6,15 +6,15 @@ description: Illustrative help docs
 
 DIGIT modules follow structured workflows to allow easy tracking of applications and processes. This section walks you through the various workflows and features supported by each module.
 
-{% page-ref page="guide-login.md" %}
+{% page-ref page="digit-login.md" %}
 
-{% page-ref page="guide-tl/" %}
+{% page-ref page="tl-manual/" %}
 
-{% page-ref page="guide-pgr/" %}
+{% page-ref page="pgr-manual/" %}
 
-{% page-ref page="guide-pt/" %}
+{% page-ref page="pt-manual/" %}
 
-{% page-ref page="water-and-sewerage/" %}
+{% page-ref page="ws-user-manual/" %}
 
-{% page-ref page="guide-mcollect/" %}
+{% page-ref page="mcollect-user-manual/" %}
 

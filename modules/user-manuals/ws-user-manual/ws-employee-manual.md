@@ -6,13 +6,13 @@ The Counter Employee \(CE\) represents the ULB employee responsible for assistin
 
 The CE can -
 
-1. [Apply for new connections](employee-user-manual.md#apply-for-new-connections)
-2. [Search applications/connections](employee-user-manual.md#search-applications-or-connections)
-3. [Add meter readings](employee-user-manual.md#add-meter-readings)
-4. [Activate new connections](employee-user-manual.md#activate-new-connections)
-5. [Pay water or sewerage bills](employee-user-manual.md#collect-bill-payments)
-6. [Add rebate or penalty to bills](employee-user-manual.md#collect-bill-payments)
-7. [Modify connection details](employee-user-manual.md#modify-connection-details)
+1. [Apply for new connections](ws-employee-manual.md#apply-for-new-connections)
+2. [Search applications/connections](ws-employee-manual.md#search-applications-or-connections)
+3. [Add meter readings](ws-employee-manual.md#add-meter-readings)
+4. [Activate new connections](ws-employee-manual.md#activate-new-connections)
+5. [Pay water or sewerage bills](ws-employee-manual.md#collect-bill-payments)
+6. [Add rebate or penalty to bills](ws-employee-manual.md#collect-bill-payments)
+7. [Modify connection details](ws-employee-manual.md#modify-connection-details)
 
 ### Apply for new connections
 
@@ -24,7 +24,7 @@ Click on the **Water & Sewerage** menu option in the sidebar or the **Water & Se
 
 ![](https://lh5.googleusercontent.com/8NG-fVkCGaJTlbYLqu08su1Xse8Y7H8yB7HH7DaweuYsydG-4gAnbC7xf9BTykohXZGwGfItK57ZF2M5j9NwD4suEyGmTeOryAZ0_Xql2330sxE3MzsiFzZ7n5Z2g0BjJLZ-eGKT)
 
-Click on the **New Application** button available on the top right corner of the page. Follow the steps iterated in the [**Citizens Apply**](citizen-user-manual.md#apply-for-new-connections) for new connections section to apply for new connections. 
+Click on the **New Application** button available on the top right corner of the page. Follow the steps iterated in the [**Citizens Apply**](ws-citizen-manual.md#apply-for-new-connections) for new connections section to apply for new connections. 
 
 ### Search applications or connections
 
@@ -197,10 +197,10 @@ The Document Verifier \(DV\) is responsible for verifying the required and suppo
 
 DV can
 
-* [Edit applications](employee-user-manual.md#edit-applications)
-* [Send applications back to citizen](employee-user-manual.md#send-applications-back-to-citizen)
-* [Reject applications](employee-user-manual.md#reject-applications)
-* [Verify and forward applications](employee-user-manual.md#verify-and-forward-applications)
+* [Edit applications](ws-employee-manual.md#edit-applications)
+* [Send applications back to citizen](ws-employee-manual.md#send-applications-back-to-citizen)
+* [Reject applications](ws-employee-manual.md#reject-applications)
+* [Verify and forward applications](ws-employee-manual.md#verify-and-forward-applications)
 
 ### Edit applications
 
@@ -286,10 +286,10 @@ The field inspector or FI is responsible for conducting the field inspection of 
 
 The FI can
 
-* [Edit applications](employee-user-manual.md#edit-applications-1)
-* [Send applications back](employee-user-manual.md#send-applications-back) 
-* [Reject applications](employee-user-manual.md#reject-applications-1)
-* [Verify and forward applications](employee-user-manual.md#verify-and-forward-applications-1)
+* [Edit applications](ws-employee-manual.md#edit-applications-1)
+* [Send applications back](ws-employee-manual.md#send-applications-back) 
+* [Reject applications](ws-employee-manual.md#reject-applications-1)
+* [Verify and forward applications](ws-employee-manual.md#verify-and-forward-applications-1)
 
 ### Edit applications
 
@@ -376,10 +376,10 @@ The W&S Approver is responsible for approving or rejecting the application for n
 
 The  Approver can
 
-* [Edit applications](employee-user-manual.md#edit-applications-2)
-* [Send back applications](employee-user-manual.md#send-back-applications-to-fi)
-* [Reject applications](employee-user-manual.md#reject-applications-2)
-* [Approve connections](employee-user-manual.md#approve-connections)
+* [Edit applications](ws-employee-manual.md#edit-applications-2)
+* [Send back applications](ws-employee-manual.md#send-back-applications-to-fi)
+* [Reject applications](ws-employee-manual.md#reject-applications-2)
+* [Approve connections](ws-employee-manual.md#approve-connections)
 
 ### Edit applications
 

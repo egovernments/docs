@@ -89,9 +89,9 @@ The TL module enables citizens to apply for trade licenses or renew existing lic
 
 This section guides you through the details of using the TL module for each role. Click on the relevant role below to learn more about how to use the TL system.
 
-1. [Citizens](citizen-user-manual.md)
-2. [Counter Employee \(CE\)](citizen-user-manual.md)
-3. [Document Verifier \(DV\)](employee-user-manual.md#document-verifier-dv)
-4. [Field Inspector \(FI\)](employee-user-manual.md#field-inspector-fi)
-5. [Approver](employee-user-manual.md#approver)
+1. [Citizens](tl-citizen-manual.md)
+2. [Counter Employee \(CE\)](tl-citizen-manual.md)
+3. [Document Verifier \(DV\)](tl-employee-manual.md#document-verifier-dv)
+4. [Field Inspector \(FI\)](tl-employee-manual.md#field-inspector-fi)
+5. [Approver](tl-employee-manual.md#approver)
 

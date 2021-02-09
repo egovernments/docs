@@ -12,9 +12,9 @@ The Document Verifier \(DV\) is responsible for verifying the required and suppo
 
 DV can
 
-* [Send applications back to citizen](untitled-1.md#send-application-back-to-citizen)
-* [Reject applications or Revoke applications](untitled-1.md#reject-application-or-revoke-applications)
-* [Verify and forward applications](untitled-1.md#verify-and-forward-application)
+* [Send applications back to citizen](bpa-employee-manual.md#send-application-back-to-citizen)
+* [Reject applications or Revoke applications](bpa-employee-manual.md#reject-application-or-revoke-applications)
+* [Verify and forward applications](bpa-employee-manual.md#verify-and-forward-application)
 
 ### Send application back to citizen
 
@@ -130,10 +130,10 @@ The field inspector or FI is responsible for conducting the field inspection of 
 
 The FI can
 
-* [Prepare Inspection Report](untitled-1.md#prepare-inspection-report)
-* [Send applications back to citizen](untitled-1.md#prepare-inspection-report)
-* [Reject applications](untitled-1.md#reject-application)
-* [Verify and forward applications](untitled-1.md#forward-applications)
+* [Prepare Inspection Report](bpa-employee-manual.md#prepare-inspection-report)
+* [Send applications back to citizen](bpa-employee-manual.md#prepare-inspection-report)
+* [Reject applications](bpa-employee-manual.md#reject-application)
+* [Verify and forward applications](bpa-employee-manual.md#forward-applications)
 
 ### **Prepare Inspection Report**
 
@@ -213,9 +213,9 @@ The NOC Verifier is responsible for checking the no-objection permissions obtain
 
 **NOC Verifier can**
 
-* [Send applications back to the citizens](untitled-1.md#send-back-to-citizen)
-* [Reject applications](untitled-1.md#reject-applications)
-* [Forward applications](untitled-1.md#verify-and-forward-applications)
+* [Send applications back to the citizens](bpa-employee-manual.md#send-back-to-citizen)
+* [Reject applications](bpa-employee-manual.md#reject-applications)
+* [Forward applications](bpa-employee-manual.md#verify-and-forward-applications)
 
 ### **Send back to citizen**
 
@@ -287,8 +287,8 @@ The BPA Approver is responsible for approving or rejecting the application for b
 
 The BPA Approver can
 
-* [Reject applications](untitled-1.md#reject-applications-1)
-* [Approve applications](untitled-1.md#approve-applications)
+* [Reject applications](bpa-employee-manual.md#reject-applications-1)
+* [Approve applications](bpa-employee-manual.md#approve-applications)
 
 ### **Reject applications**
 

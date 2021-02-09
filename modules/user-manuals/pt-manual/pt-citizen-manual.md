@@ -16,14 +16,14 @@ The citizen can also approach the Counter Employee \(CE\) to register new proper
 
 **The Citizen or CE role can -**
 
-* [Add new property](citizen-user-manual.md#add-new-property)
-* [Edit property](citizen-user-manual.md#edit-property)
-* [Search property](citizen-user-manual.md#search-property)
-* [Assess property](citizen-user-manual.md#assess-property)
-* [Re-assess property](citizen-user-manual.md#assess-property)
-* [Transfer property](citizen-user-manual.md#transfer-property-ownership)
-* [Pay property tax](citizen-user-manual.md#pay-property-tax)
-* [Download payment receipts](citizen-user-manual.md#pay-property-tax)
+* [Add new property](pt-citizen-manual.md#add-new-property)
+* [Edit property](pt-citizen-manual.md#edit-property)
+* [Search property](pt-citizen-manual.md#search-property)
+* [Assess property](pt-citizen-manual.md#assess-property)
+* [Re-assess property](pt-citizen-manual.md#assess-property)
+* [Transfer property](pt-citizen-manual.md#transfer-property-ownership)
+* [Pay property tax](pt-citizen-manual.md#pay-property-tax)
+* [Download payment receipts](pt-citizen-manual.md#pay-property-tax)
 
 ### **Add New Property**
 

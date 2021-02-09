@@ -30,7 +30,7 @@ In SENDBACKTOCITIZEN, the assignment is done only to user’s who has registered
 
 | **Doc Links** | **Description** |
 | :--- | :--- |
-|   [Trade License](../user-guides/guide-tl/) |  TL Technical Doc |
+|   [Trade License](../user-manuals/tl-manual/) |  TL Technical Doc |
 
 {% file src="../../.gitbook/assets/workflow-config-2.0-doc.pdf" caption="Workflow 2.0 Configuration Doc" %}
 

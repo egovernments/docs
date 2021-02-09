@@ -101,9 +101,9 @@ Refer to the table below to understand the different user roles and the scope of
 
 This section guides you through the details of using the \[module name\] module for each role. Click on the relevant role below to learn more about how to use the module.
 
-1. [Citizens](citizen-user-manual.md)
-2. [Counter Employee \(CE\)](employee-user-manual.md#counter-employee-ce)
-3. [Document Verifier \(DV\)](employee-user-manual.md#document-verifier-dv)
-4. [Field Inspector \(FI\)](employee-user-manual.md#field-inspectors-fi)
-5. [Approver](employee-user-manual.md#approver)
+1. [Citizens](ws-citizen-manual.md)
+2. [Counter Employee \(CE\)](ws-employee-manual.md#counter-employee-ce)
+3. [Document Verifier \(DV\)](ws-employee-manual.md#document-verifier-dv)
+4. [Field Inspector \(FI\)](ws-employee-manual.md#field-inspectors-fi)
+5. [Approver](ws-employee-manual.md#approver)
 

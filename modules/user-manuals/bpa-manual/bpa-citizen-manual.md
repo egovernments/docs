@@ -7,11 +7,11 @@ Citizens represent individuals, groups, and communities who are the building own
 
 **The citizen can -**
 
-1. [Register stakeholders](citizen-user-manual.md#register-stakeholders)
-2. [View application status](citizen-user-manual.md#view-application-status)
-3. [Request edits](citizen-user-manual.md#request-edits-and-approve-applications)
-4. [Approve application](citizen-user-manual.md#request-edits-and-approve-applications)
-5. [Make payment](citizen-user-manual.md#make-payment)
+1. [Register stakeholders](bpa-citizen-manual.md#register-stakeholders)
+2. [View application status](bpa-citizen-manual.md#view-application-status)
+3. [Request edits](bpa-citizen-manual.md#request-edits-and-approve-applications)
+4. [Approve application](bpa-citizen-manual.md#request-edits-and-approve-applications)
+5. [Make payment](bpa-citizen-manual.md#make-payment)
 
 ### **Register Stakeholders**
 
@@ -155,14 +155,14 @@ Stakeholders represent the registered builders, architects, town planners, engin
 
 **Stakeholders can** 
 
-* [Register other stakeholders](citizen-user-manual.md#register-other-stakeholders)
-* [Submit for  DIGIT DCR scrutiny](citizen-user-manual.md#submit-for-digit-dcr-scrutiny)
-* [Apply for Building Permits for New Construction](citizen-user-manual.md#apply-for-building-permits-for-new-construction)
-* [Apply for Occupancy Certificates for New Building Construction](citizen-user-manual.md#apply-for-occupancy-certificates-for-new-building-construction)
+* [Register other stakeholders](bpa-citizen-manual.md#register-other-stakeholders)
+* [Submit for  DIGIT DCR scrutiny](bpa-citizen-manual.md#submit-for-digit-dcr-scrutiny)
+* [Apply for Building Permits for New Construction](bpa-citizen-manual.md#apply-for-building-permits-for-new-construction)
+* [Apply for Occupancy Certificates for New Building Construction](bpa-citizen-manual.md#apply-for-occupancy-certificates-for-new-building-construction)
 
 ### **Register other stakeholders**
 
-Follow the steps outlined for [Register Stakeholders](citizen-user-manual.md#register-stakeholders) in the Citizens section.
+Follow the steps outlined for [Register Stakeholders](bpa-citizen-manual.md#register-stakeholders) in the Citizens section.
 
 ### Submit for DIGIT-DCR Scrutiny
 

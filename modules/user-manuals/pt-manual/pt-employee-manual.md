@@ -14,9 +14,9 @@ DV is responsible for verifying the supporting documents uploaded by the propert
 
 **The DV can**
 
-* [Reject applications](employee-user-manual.md#reject-applications)
-* [Verify and forward applications](employee-user-manual.md#verify-and-forward)
-* [Edit applications](employee-user-manual.md#edit-application)
+* [Reject applications](pt-employee-manual.md#reject-applications)
+* [Verify and forward applications](pt-employee-manual.md#verify-and-forward)
+* [Edit applications](pt-employee-manual.md#edit-application)
 
 ### **Reject Applications**
 
@@ -66,11 +66,11 @@ FI is responsible for inspecting and verifying the field details of the property
 
 **The FI can**
 
-* [Send applications back to citizens](employee-user-manual.md#send-back-to-citizen)
-* [Send back](employee-user-manual.md#send-back)
-* [Reject applications](employee-user-manual.md#reject-applications-1)
-* [Verify and forward applications](employee-user-manual.md#verify-and-forward-1)
-* [Edit applications](employee-user-manual.md#edit-application)
+* [Send applications back to citizens](pt-employee-manual.md#send-back-to-citizen)
+* [Send back](pt-employee-manual.md#send-back)
+* [Reject applications](pt-employee-manual.md#reject-applications-1)
+* [Verify and forward applications](pt-employee-manual.md#verify-and-forward-1)
+* [Edit applications](pt-employee-manual.md#edit-application)
 
 ### **Send Back To Citizen**
 
@@ -144,9 +144,9 @@ The Approver is responsible for the final approval of the PT application.
 
 **The Approver can**
 
-* [Send applications back to field inspectors](employee-user-manual.md#send-back-1)
-* [Reject applications](employee-user-manual.md#reject-applications-2)
-* [Approve applications](employee-user-manual.md#approve-applications)
+* [Send applications back to field inspectors](pt-employee-manual.md#send-back-1)
+* [Reject applications](pt-employee-manual.md#reject-applications-2)
+* [Approve applications](pt-employee-manual.md#approve-applications)
 
 ### **Send Back**
 

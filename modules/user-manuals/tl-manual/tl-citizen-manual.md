@@ -14,10 +14,10 @@ The citizen can also approach the Counter Employee \(CE\) to submit new TL appli
 
 **The Citizen or CE role can -**
 
-* [Apply for new TL](citizen-user-manual.md#apply-for-new-tl)
-* [Renew trade license](citizen-user-manual.md#renew-trade-license)
-* [Search application](citizen-user-manual.md#renew-trade-license)
-* [Pay license fee](citizen-user-manual.md#pay-trade-license-fee)
+* [Apply for new TL](tl-citizen-manual.md#apply-for-new-tl)
+* [Renew trade license](tl-citizen-manual.md#renew-trade-license)
+* [Search application](tl-citizen-manual.md#renew-trade-license)
+* [Pay license fee](tl-citizen-manual.md#pay-trade-license-fee)
 * Download payment receipts, license certificates, or applications
 
 ### **Apply For New TL**

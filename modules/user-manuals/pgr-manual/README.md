@@ -76,8 +76,8 @@ Refer to the table below to understand the different user roles and the scope of
 
 This section guides you through the details of using the PGR module for each role. Click on the relevant role below to learn more about how to use the PGR system.
 
-* [Citizens](citizen-guide.md)
-* [CSR](employee-guide.md#csr)
-* [GRO](employee-guide.md#gro)
-* [FME](employee-guide.md#fme)
+* [Citizens](pgr-citizen-manual.md)
+* [CSR](pgr-employee-manual.md#csr)
+* [GRO](pgr-employee-manual.md#gro)
+* [FME](pgr-employee-manual.md#fme)
 

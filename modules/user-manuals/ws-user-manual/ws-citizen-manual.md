@@ -8,12 +8,12 @@ Citizens represent individuals, groups or communities that are using the W&S mod
 
 The citizens can -
 
-1. [Apply for new connections](citizen-user-manual.md#apply-for-new-connections)
-2. [View applications and pay application charges](citizen-user-manual.md#view-applications-and-pay-application-fees)
-3. [Check meter readings for metered connections](citizen-user-manual.md#check-meter-readings)
-4. [View connection details](citizen-user-manual.md#view-applications-and-pay-application-fees)
-5. [Make bill payments](citizen-user-manual.md#pay-bills)
-6. [View past payment details](citizen-user-manual.md#view-past-payment-details)
+1. [Apply for new connections](ws-citizen-manual.md#apply-for-new-connections)
+2. [View applications and pay application charges](ws-citizen-manual.md#view-applications-and-pay-application-fees)
+3. [Check meter readings for metered connections](ws-citizen-manual.md#check-meter-readings)
+4. [View connection details](ws-citizen-manual.md#view-applications-and-pay-application-fees)
+5. [Make bill payments](ws-citizen-manual.md#pay-bills)
+6. [View past payment details](ws-citizen-manual.md#view-past-payment-details)
 7. Download bills, receipts and approval letters
 
 ### Apply for new connections

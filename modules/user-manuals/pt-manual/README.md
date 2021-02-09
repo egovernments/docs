@@ -93,9 +93,9 @@ Refer to the table below to understand the different user roles and the scope of
 
 This section guides you through the details of using the PT module for each role. Click on the relevant role below to learn more about how to use the PT system.
 
-1. [Citizens](citizen-user-manual.md)
-2. [Counter Employee \(CE\)](citizen-user-manual.md)
-3. [Document Verifier \(DV\)](employee-user-manual.md#document-verifier-dv)
-4. [Field Inspector \(FI\)](employee-user-manual.md#field-inspector-fi)
-5. [Approver](employee-user-manual.md#approver)
+1. [Citizens](pt-citizen-manual.md)
+2. [Counter Employee \(CE\)](pt-citizen-manual.md)
+3. [Document Verifier \(DV\)](pt-employee-manual.md#document-verifier-dv)
+4. [Field Inspector \(FI\)](pt-employee-manual.md#field-inspector-fi)
+5. [Approver](pt-employee-manual.md#approver)
 

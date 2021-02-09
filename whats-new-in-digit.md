@@ -1,6 +1,6 @@
 # What’s New in DIGIT 2.2?
 
-The new features additions and enhancements in [DIGIT 2.2 ](modules-features/release-notes/)simplify the overall user experience. The updates serve to fulfil the overall goal of integrating various services in an effort to simplify citizen interaction with government agencies while improving the service delivery capabilities of individual departments. 
+The new features additions and enhancements in [DIGIT 2.2 ](modules/release-notes/)simplify the overall user experience. The updates serve to fulfil the overall goal of integrating various services in an effort to simplify citizen interaction with government agencies while improving the service delivery capabilities of individual departments. 
 
 ### Key highlights in DIGIT 2.2👇 
 
@@ -20,22 +20,22 @@ Notable enhancements include -
 * extended options for property mutation in PT module
 * user interface enhancements
 
-Check out the [DIGIT 2.2 Release Notes](modules-features/release-notes/) for more details.
+Check out the [DIGIT 2.2 Release Notes](modules/release-notes/) for more details.
 
-* [x] Explore our upgraded and illustrative [User Manuals](modules-features/user-guides/) to learn operational details.
+* [x] Explore our upgraded and illustrative [User Manuals](modules/user-manuals/) to learn operational details.
 * [x] We have added more videos to our [Training ](training-and-demo/)repository.
 
 ### Quick Links to 2.2 docs
 
-* [User Session Management in DIGIT](modules-features/technical-documentation/core-service/user-session-management-in-digit.md)
+* [User Session Management in DIGIT](modules/technical-documentation/core-service/user-session-management-in-digit.md)
 * [Persister Configuration](install-digit/persister-configuration.md)
 * [Indexer Configuration](install-digit/indexer-configuration.md)
 * [Enhancing Existing Service](customizing-digit/digit-customization/enhancing-existing-service.md)
-* [Indexer Service](modules-features/technical-documentation/core-service/indexer-service.md)
-* [PDF Generation Service](modules-features/technical-documentation/core-service/pdf-generation-service.md)
-* [URL Shortening Service](modules-features/technical-documentation/core-service/url-shortening-service.md)
-* [User Service](modules-features/technical-documentation/core-service/user-service.md)
-* [Workflow Service](modules-features/technical-documentation/core-service/workflow-service.md)
+* [Indexer Service](modules/technical-documentation/core-service/indexer-service.md)
+* [PDF Generation Service](modules/technical-documentation/core-service/pdf-generation-service.md)
+* [URL Shortening Service](modules/technical-documentation/core-service/url-shortening-service.md)
+* [User Service](modules/technical-documentation/core-service/user-service.md)
+* [Workflow Service](modules/technical-documentation/core-service/workflow-service.md)
 * [Setting Up eDCR Service](install-digit/setting-up-edcr-service.md)
 
 Visit our [Support](digit-support/) pages for details on our partner support strategy.
