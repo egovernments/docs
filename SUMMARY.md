@@ -139,7 +139,7 @@
       * [mCollect Data Templates](configure-digit/configuring-master-data-templates/module-setup/mcollect-data/README.md)
         * [Service Category](configure-digit/configuring-master-data-templates/module-setup/mcollect-data/service-category.md)
         * [Service Sub Category](configure-digit/configuring-master-data-templates/module-setup/mcollect-data/service-sub-category.md)
-        * [Service Sub Category GL Code Mapping](configure-digit/configuring-master-data-templates/module-setup/mcollect-data/service-sub-category-gl-code-mapping.md)
+        * [Service Sub Category GL Code Mapping](configure-digit/configuring-master-data-templates/module-setup/mcollect-data/gl-code-mapping.md)
       * [Web Portals Templates](configure-digit/configuring-master-data-templates/module-setup/web-portal-data/README.md)
         * [State Portal](configure-digit/configuring-master-data-templates/module-setup/web-portal-data/state-portal.md)
         * [ULB Portal](configure-digit/configuring-master-data-templates/module-setup/web-portal-data/ulb-portal.md)

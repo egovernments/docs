@@ -17,7 +17,7 @@ The mCollect module is designed to facilitate the ULBs process miscellaneous typ
 
 1. [Service Category](service-category.md)
 2. [Service Sub category](service-sub-category.md)
-3. [Service Sub-Category GL Code Mapping](service-sub-category-gl-code-mapping.md)
+3. [Service Sub-Category GL Code Mapping](gl-code-mapping.md)
 
 #### ULB Level
 
