@@ -18,7 +18,7 @@ This section contains all docs and information required to understand the PGR mo
 * Product Brochure
 * PGR Workflows 
 * Master Data Configuration Template
-* PGR Services
+* PGR Service Configuration
 * Implementation Handbook
 * Demo Script
 
