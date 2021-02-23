@@ -6,6 +6,8 @@
 * [Product & Modules](modules/README.md)
   * [Public Grievances & Redressal](modules/public-grievances-and-redressal/README.md)
     * [PGR Module Functional Specifications](modules/public-grievances-and-redressal/pgr-module-functional-specifications.md)
+    * [PGR Roadmap](modules/public-grievances-and-redressal/pgr-roadmap.md)
+    * [PGR User Manual](modules/public-grievances-and-redressal/pgr-user-manual.md)
   * [Brochures](modules/product-brochures.md)
   * [User Manuals](modules/user-manuals/README.md)
     * [Logging Into DIGIT](modules/user-manuals/digit-login.md)
