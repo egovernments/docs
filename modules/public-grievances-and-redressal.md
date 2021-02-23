@@ -10,7 +10,7 @@ DIGIT-Public Grievance Redressal \(PGR\) is a self-serve web and mobile-based, e
 
 ### Section Overview
 
-This section contains all docs and information required to understand the PGR module, its key features, functional scope, and configuration details. Click on the links below to find more about deploying, configuring, customizing, and using the PGR module.
+This section contains all docs and information required to understand the PGR module, its key features, functional scope, and configuration details. Click on the links below to learn more about deploying, configuring, customizing, and using the PGR module.
 
 * Functional Specifications
 * PGR Roadmap
