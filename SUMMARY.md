@@ -4,6 +4,7 @@
 * [What’s New in DIGIT 2.2?](whats-new-in-digit.md)
 * [DIGIT Architecture](architecture.md)
 * [Product & Modules](modules/README.md)
+  * [Public Grievances & Redressal](modules/public-grievances-and-redressal.md)
   * [Brochures](modules/product-brochures.md)
   * [User Manuals](modules/user-manuals/README.md)
     * [Logging Into DIGIT](modules/user-manuals/digit-login.md)
