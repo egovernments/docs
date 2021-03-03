@@ -4,6 +4,7 @@
 * [What’s New in DIGIT 2.2?](whats-new-in-digit.md)
 * [DIGIT Architecture](architecture.md)
 * [Product & Modules](modules/README.md)
+  * [Property Tax](modules/property-tax.md)
   * [Public Grievances & Redressal](modules/public-grievances-and-redressal/README.md)
     * [PGR Module Functional Specifications](modules/public-grievances-and-redressal/pgr-module-functional-specifications.md)
     * [PGR Brochure](modules/public-grievances-and-redressal/pgr-brochure.md)
