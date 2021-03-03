@@ -65,7 +65,7 @@ curl --location --request POST 'http://localhost:8083/rainmaker-pgr/v2/_migrate?
 
 ## WSD <a id="WSD:"></a>
 
-![](../../../.gitbook/assets/image%20%2895%29.png)
+![](../../../.gitbook/assets/image%20%2896%29.png)
 
 ## Validation Queries <a id="Validation-Queries:"></a>
 
