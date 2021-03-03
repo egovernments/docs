@@ -81,3 +81,5 @@ This section guides you through the details of using the PGR module for each rol
 * [GRO]()
 * [FME]()
 
+This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+
