@@ -16,6 +16,8 @@
       * [PGR Migration](modules/public-grievances-and-redressal/pgr-service-configuration/pgr-migration.md)
     * [PGR Implementation Guide](modules/public-grievances-and-redressal/pgr-implementation-guide.md)
     * [PGR User Manual](modules/public-grievances-and-redressal/pgr-user-manual/README.md)
+      * [Complaint Types List](modules/public-grievances-and-redressal/pgr-user-manual/complaint-types-list.md)
+      * [Employee User Manual](modules/public-grievances-and-redressal/pgr-user-manual/employee-user-manual.md)
       * [Citizen User Manual](modules/public-grievances-and-redressal/pgr-user-manual/citizen-user-manual.md)
     * [PGR Demo Script](modules/public-grievances-and-redressal/pgr-demo-script.md)
   * [Brochures](modules/product-brochures.md)
