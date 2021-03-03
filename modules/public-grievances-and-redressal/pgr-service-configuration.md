@@ -1,2 +1,0 @@
-# PGR Service Configuration
-
