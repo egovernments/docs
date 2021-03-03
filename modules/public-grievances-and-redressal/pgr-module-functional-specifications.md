@@ -115,13 +115,16 @@ Key capabilities offered by this functional component -
 
 PGR Reports provide an operational bird’s eye view of the PGR system in the city. It enables city managers - commissioners, department heads, administrators at various levels to keep a track of the volume of complaints being received and the performance of the ULB and its employees in addressing them. Reports can be filtered based on date and also can be downloaded in pdf and xls formats.
 
-* State Dashboard: View Reports for Grievance filed, pending, completed and overdue- ULB wise, location wise
-* State Dashboard: View Reports for SLA performance and time taken for resolution
-* State Dashboard: Drilldown by Various Levels
-* Reports: View Reports by State, ULB, Complaint Types, Department
+{% hint style="warning" %}
+* **Grievance key statistics:** View dashboards & reports to find Grievance filed, pending, completed and overdue- ULB wise, location wise details
+* **SLA performance:** View dashboards & reports to get SLA performance and time taken for resolution details
+* **State Dashboard:** Drilldown by Various Levels
+* **Reports:** View Reports by State, ULB, Complaint Types, Department
+{% endhint %}
 
 ### General Features
 
+{% hint style="warning" %}
 **Auto routing** - The system has the capability for Auto routing to assigning officer \(city/department level\) followed by assigning to the last mile employee.
 
 **Auto escalation** - The system has the capability for escalation of non-resolved cases with a defined timeline to the ULB/Concerned head.
@@ -134,12 +137,5 @@ PGR Reports provide an operational bird’s eye view of the PGR system in the ci
 * Assigning Officer: Department wise employee list 
 * Last Mile Employee: Employee Directory
 * Configure assigning officer: Assigning officer can be at ULB / department level
-
-  
-****
-
-  
-****
-
- ****
+{% endhint %}
 
