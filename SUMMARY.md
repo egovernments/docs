@@ -10,6 +10,7 @@
     * [PGR Workflows](modules/public-grievances-and-redressal/pgr-workflows.md)
     * [PGR Roadmap](modules/public-grievances-and-redressal/pgr-roadmap.md)
     * [PGR Master Data Templates](modules/public-grievances-and-redressal/pgr-master-data-templates/README.md)
+      * [Grievance Sub Type](modules/public-grievances-and-redressal/pgr-master-data-templates/grievance-sub-type.md)
       * [Grievance Type](modules/public-grievances-and-redressal/pgr-master-data-templates/grievance-type.md)
     * [PGR Service Configuration](modules/public-grievances-and-redressal/pgr-service-configuration.md)
     * [PGR Implementation Guide](modules/public-grievances-and-redressal/pgr-implementation-guide.md)
