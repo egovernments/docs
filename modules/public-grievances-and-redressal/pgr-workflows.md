@@ -1,3 +1,7 @@
+---
+description: Learn more about PGR workflows and its configuration
+---
+
 # PGR Workflows
 
 ### Workflow Overview

@@ -1,5 +1,5 @@
 ---
-description: Assist stakeholders to give effective product demos
+description: A comprehensive guide to an effective module demo
 ---
 
 # PGR Demo Script
