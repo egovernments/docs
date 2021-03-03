@@ -6,7 +6,7 @@ description: Functional overview for stakeholders
 
 ## Introduction
 
-The PGR module is an application that allows citizens to lodge complaints and track them. Employees track and address the grievances registered in the system to ensure a speedy resolution. The platform is available for use in both mediums as a web and mobile app.
+The PGR module is an application that allows citizens to lodge complaints and track them. Employees track and address the grievances registered in the system to ensure speedy resolution. The platform is available for use in both mediums as a web and mobile app.
 
 ## Functional Scope
 
