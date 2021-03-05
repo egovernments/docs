@@ -1,7 +1,7 @@
 # Table of contents
 
 * [DIGIT](README.md)
-* [Training Event](training-event.md)
+* [Training Event](digit-training-event.md)
 * [What’s New in DIGIT 2.2?](whats-new-in-digit.md)
 * [DIGIT Architecture](architecture.md)
 * [Product & Modules](modules/README.md)

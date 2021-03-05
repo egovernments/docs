@@ -1,7 +1,7 @@
 ---
 description: >-
-  Functional training of DIGIT Municipal Finance and Online Building Permission
-  System
+  Functional training events for DIGIT Municipal Finance and Online Building
+  Permission System
 ---
 
 # Training Event
