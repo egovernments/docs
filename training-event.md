@@ -1,8 +1,12 @@
 ---
-description: Functional training of DIGIT Municipal Finance
+description: >-
+  Functional training of DIGIT Municipal Finance and Online Building Permission
+  System
 ---
 
 # Training Event
+
+
 
 ![](.gitbook/assets/digit_municipal_finance_creatives-09-1-.jpg)
 
