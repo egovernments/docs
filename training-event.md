@@ -6,11 +6,22 @@ description: >-
 
 # Training Event
 
-
-
 ![](.gitbook/assets/digit_municipal_finance_creatives-09-1-.jpg)
 
-Click [here](	%20https://us02web.zoom.us/webinar/register/WN_RS-SYWJfSHGjcquS_iCxZw) to register for the event. 
+Click on the Register link provided below to enrol for these events.
+
+| **Session** | **Date** | **Time** | **Link** |
+| :--- | :--- | :--- | :--- |
+| Finance 1 | 9 March 2021 | 2 - 4 pm | [Register](https://us02web.zoom.us/webinar/register/WN_RS-SYWJfSHGjcquS_iCxZw) |
+| Finance 2 | 10 March 2021 | 11 - 12 pm | [Register](https://us02web.zoom.us/webinar/register/WN_Htwrm_TaTvesjkhMRkgkdQ) |
+| Finance 3 | 10 March 2021 | 4 - 5.30 pm | [Register](https://us02web.zoom.us/webinar/register/WN_YA8S-8zoSxOiwc_Xjf5A7Q) |
+| OBPS 1 | 16 March 2021 | 3 - 5 pm | [Register](https://us02web.zoom.us/webinar/register/WN_KgbbqmZRRBeJlD6ylNlx-A) |
+| OBPS 2 | 17 March 2021 | 11 - 12 pm | [Register](https://us02web.zoom.us/webinar/register/WN_J7hvrS2gSNugkVkdljLZBQ) |
+| OBPS 3 | 17 March 2021 | 4 - 5 pm | [Register](https://us02web.zoom.us/webinar/register/WN_AQ-eoHJ6RZ2pVQjYRP3pOw) |
+
+ 
+
+
 
 ## Training Session Plan
 
