@@ -32,7 +32,7 @@ _**Training Session Plan - OBPAS \(March 16 - 17, 2021\)**_
 * Session 3 - Clarification session \(1.5 hr\)
 {% endhint %}
 
-**Individual event registration links** are provided below. Enrol for the sessions now.
+**Individual event registration links** are provided below. Click on the Register button to enrol for the sessions now.
 
 | **Session** | **Date** | **Time** | **Link** |
 | :--- | :--- | :--- | :--- |
@@ -44,8 +44,8 @@ _**Training Session Plan - OBPAS \(March 16 - 17, 2021\)**_
 | OBPS Session 3 | 17 March 2021 | 4 - 5 pm | [Register](https://us02web.zoom.us/webinar/register/WN_AQ-eoHJ6RZ2pVQjYRP3pOw) |
 
 {% hint style="danger" %}
-_**Disclaimer**_ 
+**Disclaimer** 
 
-_**Registration for Session 1 is an essential pre-requisite for attending session 2 and session 3.**_
+**Registration for Session 1 is an essential pre-requisite for attending session 2 and session 3.**
 {% endhint %}
 
