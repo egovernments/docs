@@ -3,6 +3,7 @@
 * [DIGIT](README.md)
 * [DIGIT Architecture](architecture.md)
 * [DIGIT Roadmap](digit-roadmap.md)
+* [DIGIT 2.3 Release Notes](digit-2.3-release-notes.md)
 * [What’s New in DIGIT 2.3?](whats-new-in-digit.md)
 * [Product & Modules](modules/README.md)
   * [Property Tax](modules/property-tax/README.md)
