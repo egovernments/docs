@@ -23,18 +23,18 @@ The PT product features can be broadly classified as the following modules:
 
 ### Registration, Login and Creation of User Profile
 
-{% hint style="warning" %}
+    This module feature enables the following capabilities
+
 * OTP Based Login for Citizen via Web/Mobile App
 * OTP Based Login for Employee via Web/Mobile App
 * Provision for language selection during first time registration for both  Employee and citizens
 * Provision of creating a personalized Profile for Citizens and employees on Web App
-* Login Credentials for the various hierarchy of employees
-* Role-based access for performing different actions relating to property tax modules
-{% endhint %}
+* Login Credentials for various hierarchy of employees
+* Role based access for performing different actions relating to property tax modules
 
-### Filing For Property Assessment
+Module 2:   Filing an Assessment for a Property
 
-With this feature, a citizen and employee can perform a self-assessment of a new property for a financial year. This feature helps in registering the property in the system. The details of the property can be entered online and can be assessed for the calculation of the taxes. The PT Product is designed in a user friendly manner and reduces chances of error. System calculates the tax automatically and creates the demand. If a user wants to reassess his property due to any reason \(for eg, incorrect data, change in property etc\), it can be done by editing details of the last assessment. An employee can edit the details of the last assessment, on behalf of the citizen-based on the owner’s input. Citizen can track down the status of his incomplete assessment. Any incomplete assessment can be searched and completed.  
+With this feature, a citizen and employee can perform self assessment of a new property for a financial year. This feature helps in registering the property in the system. The details of the property can be entered online and can be assessed for calculation of the taxes. The PT Product is designed in a user friendly manner and reduces chances of error. System calculates the tax automatically and creates the demand. If a user wants to reassess his property due to any reason \(for eg, incorrect data, change in property etc\), it can be done by editing details of last assessment. Employee can edit the details of the last assessment, on behalf of the citizen based on owner’s input. Citizen can track down the status of his incomplete assessment. Any incomplete assessment can be searched and completed.  
 
  This module provides enables the following capabilities:
 

@@ -1,8 +1,9 @@
 # Table of contents
 
 * [DIGIT](README.md)
-* [What’s New in DIGIT 2.3?](whats-new-in-digit.md)
 * [DIGIT Architecture](architecture.md)
+* [DIGIT Roadmap](digit-roadmap.md)
+* [What’s New in DIGIT 2.3?](whats-new-in-digit.md)
 * [Product & Modules](modules/README.md)
   * [Property Tax](modules/property-tax/README.md)
     * [PT Module Functional Specifications](modules/property-tax/pt-module-functional-specifications.md)
