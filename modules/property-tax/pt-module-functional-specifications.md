@@ -4,9 +4,13 @@ description: Functional overview for stakeholders
 
 # PT Module Functional Specifications
 
+## Introduction
 
+The Property Tax System\(PT\) provides a digital interface to make property assessments, pay property tax, generate payment receipts and monitor tax collection. It can be used by the citizens, Urban Local Body \(ULB\) counter and field employees and ULB Administrators to accomplish their specific tasks. It is available as a mobile and web-based application. 
 
-The Property Tax System\(PT\) provides a digital interface to make property assessments, pay property tax, generate payment receipts and monitor tax collection. It can be used by the citizens, Urban Local Body \(ULB\) counter and field employees, and ULB Administrators to accomplish their specific tasks. It is available as a mobile and web-based application. The PT product features can be broadly classified as the following modules:
+## Functional Scope
+
+The PT product features can be broadly classified as the following modules:
 
 1. Registration, Login and Creation of User Profile
 2. Filling an Assessment for a Property
@@ -17,9 +21,9 @@ The Property Tax System\(PT\) provides a digital interface to make property asse
 7. Dashboards and Reports
 8. General Features
 
-Module 1:  Registration, Login and Creation of User Profile
+### Registration, Login and Creation of User Profile
 
-    This module provides enables the following capabilities
+    This module feature enables the following capabilities
 
 * OTP Based Login for Citizen via Web/Mobile App
 * OTP Based Login for Employee via Web/Mobile App
