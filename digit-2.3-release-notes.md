@@ -133,6 +133,22 @@ DIGIT 2.3 is a release that has got new modules, a few functional changes, and n
 
 {% page-ref page="modules/services-overview/business-services/bill-amendment.md" %}
 
+{% page-ref page="modules/faecal-sludge-management-fsm/fsm-service-configuration.md" %}
+
+{% page-ref page="modules/faecal-sludge-management-fsm/fsm-calculator-v1.0.md" %}
+
+{% page-ref page="modules/faecal-sludge-management-fsm/fsm-vendor-registry-v1.0.md" %}
+
+{% page-ref page="modules/faecal-sludge-management-fsm/fsm-vehicle-registry-v1.0.md" %}
+
+
+
+
+
+
+
+
+
 
 
 
