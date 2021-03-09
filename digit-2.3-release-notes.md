@@ -111,5 +111,25 @@ DIGIT 2.3 is a release that has got new modules, a few functional changes, and n
 
 ### ‌Document Resources and Links <a id="&#x200C;Document-Resources-and-Links"></a>
 
+#### UI Technical Documents
+
+{% file src=".gitbook/assets/bill-amendment.pdf" caption="Bill Amendment" %}
+
+{% file src=".gitbook/assets/bill-amendment-apply.pdf" caption="Bill Amendment Apply" %}
+
+{% file src=".gitbook/assets/create-employee.pdf" caption="Create Employee" %}
+
+{% file src=".gitbook/assets/apply-water-sewerage.pdf" caption="Apply Water & Sewerage" %}
+
+{% file src=".gitbook/assets/digit-ui-manual-r2.pdf" caption="DIGIT UI Manual" %}
+
+{% file src=".gitbook/assets/digit-ui-implementation.pdf" caption="DIGIT UI Implementation" %}
+
+{% file src=".gitbook/assets/fsm-ui-implementation.pdf" caption="FSM UI Implementation" %}
+
+{% file src=".gitbook/assets/pgr-ui-implementation.pdf" caption="PGR UI Implementation" %}
+
+#### Backend Service Documents
+
 
 
