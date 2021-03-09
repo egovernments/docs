@@ -7,6 +7,7 @@
 * [Product & Modules](modules/README.md)
   * [Property Tax](modules/property-tax/README.md)
     * [PT Module Functional Specifications](modules/property-tax/pt-module-functional-specifications.md)
+    * [PT Brochure](modules/property-tax/pt-brochure.md)
   * [Public Grievances & Redressal](modules/public-grievances-and-redressal/README.md)
     * [PGR Module Functional Specifications](modules/public-grievances-and-redressal/pgr-functional-specifications.md)
     * [PGR Brochure](modules/public-grievances-and-redressal/pgr-brochure.md)
