@@ -1,4 +1,4 @@
-# Services Overview
+# DIGIT Service Configuration
 
 This section contains all technical documents related to DIGIT stack.
 
