@@ -12,9 +12,9 @@ Complaints can also be registered by ULB counter employees on behalf of the citi
 
 The CSR or counter employees can perform the following actions on PGR -
 
-1. [File Complaints]()
-2. [Search or Track Complaints]()
-3. [Reopen Complaints]()
+1. File Complaints
+2. Search or Track Complaints
+3. Reopen Complaints
 
 ![](https://docs.google.com/drawings/u/0/d/sU6rjcwIb9fCKVVn6TmBleg/image?w=425&h=156&rev=18&ac=1&parent=1pR9OLsrbm5UDtHSuq-Iv2BM78gUTwagbwGpCMGdeqrg)
 
