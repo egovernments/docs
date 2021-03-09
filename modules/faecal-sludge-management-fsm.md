@@ -10,7 +10,14 @@ The Faecal Sludge Management system or FSM is designed to improve citizen servic
 
 ## Key Features
 
-
+* Role-based configurable workflows for approval and rejection process.
+* Masters configurations for the employees, desludging operators, city boundary details, users, user role, department designations and city details.
+* Notification component
+* Online application submission by Citizen, ULB Official
+* Payment of fee
+* Schedule the desludging operation
+* Updating the vehicle entry in the FSTP/STP plant
+* Reporting and Dashboards
 
 ## Section Overview
 
