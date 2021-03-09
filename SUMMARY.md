@@ -27,6 +27,7 @@
     * [PT Workflows](modules/property-tax/pt-workflows.md)
     * [PT Master Data Templates](modules/property-tax/pt-master-data-templates.md)
   * [Faecal Sludge Management \(FSM\)](modules/faecal-sludge-management-fsm.md)
+  * [FSM User Manual](modules/fsm-user-manual.md)
   * [User Manuals](modules/user-manuals/README.md)
     * [Logging Into DIGIT](modules/user-manuals/digit-login.md)
     * [Building Plan Approval \(BPA\)](modules/user-manuals/bpa-manual/README.md)
