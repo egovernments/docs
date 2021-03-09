@@ -4,6 +4,7 @@
 * [DIGIT Architecture](architecture.md)
 * [DIGIT Roadmap](digit-roadmap.md)
 * [DIGIT 2.3 Release Notes](digit-2.3-release-notes.md)
+* [HRMS Release Notes](hrms-release-notes.md)
 * [DIGIT Products & Modules](modules/README.md)
   * [Public Grievances & Redressal](modules/public-grievances-and-redressal/README.md)
     * [PGR Module Functional Specifications](modules/public-grievances-and-redressal/pgr-functional-specifications.md)
