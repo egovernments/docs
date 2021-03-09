@@ -43,7 +43,7 @@ This section contains all docs and information required to understand the FSM mo
 
 ## Contact Us
 
-Reach out to us through any of the below-mentioned contact channels for any assistance or additional information on PT module deployment.
+Reach out to us through any of the below-mentioned contact channels for any assistance or additional information on FSM module deployment.
 
   
 
