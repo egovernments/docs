@@ -27,6 +27,7 @@
     * [PT Workflows](modules/property-tax/pt-workflows.md)
     * [PT Master Data Templates](modules/property-tax/pt-master-data-templates.md)
   * [Faecal Sludge Management \(FSM\)](modules/faecal-sludge-management-fsm/README.md)
+    * [FSM Service Configuration](modules/faecal-sludge-management-fsm/fsm-service-configuration.md)
     * [FSM User Manual](modules/faecal-sludge-management-fsm/fsm-user-manual/README.md)
       * [Citizen User Manual](modules/faecal-sludge-management-fsm/fsm-user-manual/citizen-user-manual.md)
       * [DSO User Manual](modules/faecal-sludge-management-fsm/fsm-user-manual/dso-user-manual.md)
