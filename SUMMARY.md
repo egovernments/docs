@@ -29,6 +29,7 @@
   * [Faecal Sludge Management \(FSM\)](modules/faecal-sludge-management-fsm.md)
   * [FSM User Manual](modules/fsm-user-manual.md)
   * [Citizen User Manual](modules/citizen-user-manual.md)
+  * [DSO User Manual](modules/dso-user-manual.md)
   * [User Manuals](modules/user-manuals/README.md)
     * [Logging Into DIGIT](modules/user-manuals/digit-login.md)
     * [Building Plan Approval \(BPA\)](modules/user-manuals/bpa-manual/README.md)
