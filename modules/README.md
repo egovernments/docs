@@ -1,8 +1,8 @@
 ---
-description: An overview of the product and it's various modules
+description: This section contains DIGIT product and module related documents
 ---
 
-# Product & Modules
+# DIGIT Products & Modules
 
 DIGIT offers several modules. Each module is designed to automate the manual workflows for various governance units.
 
