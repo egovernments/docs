@@ -18,11 +18,11 @@ DSOs can -
 
 ![Step 2 - View list of service requests and review requests to initiate necessary action](../.gitbook/assets/dso-1.png)
 
-![Step 3 - Assign vehicle to deliver service](../.gitbook/assets/dso-assign-vehicle.png)
+![Step 3 - Assign vehicle to deliver desludging services](../.gitbook/assets/dso-assign-vehicle.png)
 
 ![Step 4 - Complete request once service is delivered](../.gitbook/assets/dso-complete-request.png)
 
-![Step 5 - Reject or decline request ](../.gitbook/assets/dso-decline-request.png)
+![Step 5 - Decline service request](../.gitbook/assets/dso-decline-request.png)
 
 
 
