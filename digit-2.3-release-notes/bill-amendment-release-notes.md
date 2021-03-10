@@ -1,3 +1,7 @@
+---
+description: Bill amendment release details
+---
+
 # Bill Amendment Release Notes
 
 ### Overview <a id="Overview"></a>

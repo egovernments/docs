@@ -1,3 +1,7 @@
+---
+description: HRMS module release details
+---
+
 # HRMS Release Notes
 
 ### Overview <a id="Overview"></a>

@@ -1,3 +1,7 @@
+---
+description: EDCR module release details
+---
+
 # EDCR Release Notes
 
 ### Release Highlights <a id="Release-Highlights"></a>
