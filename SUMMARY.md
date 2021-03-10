@@ -4,6 +4,7 @@
 * [DIGIT Architecture](architecture.md)
 * [DIGIT Roadmap](digit-roadmap.md)
 * [DIGIT 2.3 Release Notes](digit-2.3-release-notes/README.md)
+  * [MDMS Configuration & Service Build Updates](digit-2.3-release-notes/mdms-configuration-and-service-build-updates.md)
   * [FSM Release Notes](digit-2.3-release-notes/fsm-release-notes.md)
   * [HRMS Release Notes](digit-2.3-release-notes/hrms-release-notes.md)
   * [EDCR Release Notes](digit-2.3-release-notes/edcr-release-notes.md)
