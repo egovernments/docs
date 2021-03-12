@@ -2,11 +2,11 @@
 description: 'New release features, enhancements, and fixes'
 ---
 
-# DIGIT 2.3 Release Notes
+# Release Notes
 
 ### Release Summary <a id="Release-Summary"></a>
 
-DIGIT 2.3 is a release that has got new modules, a few functional changes, and non-functional changes.
+DIGIT 2.3 release offers new modules, few functional changes, and non-functional changes.
 
 * Functional: Faecal Sludge Management module, Bill Amendment module, and Enhancements in HRMS.
 * Non-functional: Security fixes.

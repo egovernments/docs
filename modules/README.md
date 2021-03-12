@@ -2,7 +2,7 @@
 description: This section contains DIGIT product and module related documents
 ---
 
-# DIGIT Products & Modules
+# Products & Modules
 
 DIGIT offers several modules. Each module is designed to automate the manual workflows for various governance units.
 

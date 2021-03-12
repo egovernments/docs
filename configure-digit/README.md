@@ -4,7 +4,7 @@ description: >-
   DIGIT platform
 ---
 
-# Configure DIGIT
+# Configuration Guide
 
 Learn how to configure the DIGIT platform. Partner with us to enhance and integrate more into the platform.
 

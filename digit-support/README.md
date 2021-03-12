@@ -2,7 +2,7 @@
 description: eGov Support Strategy for DIGIT
 ---
 
-# DIGIT Support
+# Partner Support
 
 ### Objectives
 
