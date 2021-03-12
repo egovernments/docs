@@ -31,6 +31,7 @@
     * [PT Brochure](modules/property-tax/pt-brochure.md)
     * [PT Workflows](modules/property-tax/pt-workflows.md)
     * [PT Master Data Templates](modules/property-tax/pt-master-data-templates.md)
+    * [PT Data Migration](modules/property-tax/pt-data-migration.md)
   * [Faecal Sludge Management \(FSM\)](modules/faecal-sludge-management-fsm/README.md)
     * [FSM Service Configuration](modules/faecal-sludge-management-fsm/fsm-service-configuration.md)
     * [FSM Calculator v1.0](modules/faecal-sludge-management-fsm/fsm-calculator-v1.0.md)
