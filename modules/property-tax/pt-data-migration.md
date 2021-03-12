@@ -132,3 +132,24 @@ There will be a SPOC from the State team who is the data owner who will share da
 4. When a citizen is coming for making his payment, the counter operator can check if their property exists in the system using propertyid or mobile number. If it is found to be missing, it can be captured afresh in the system using the data entry option. All required information can be obtained from the citizen, either from previous year receipts that they carry or directly asking them.
 5. With this approach, a ULB can go live with 90% of property data within a short time.
 
+{% file src="../../.gitbook/assets/propertytaxdata-masters-mapping.xlsx" caption="Property Tax Master Data Mapping Template" %}
+
+{% hint style="warning" %}
+**Data Migration Checklist**
+
+1. Data provided in the standard template attached only will be accepted for further analysis and process.
+2. Data provided into the template is loaded into staging tables and then validation and data clean-up is done.
+   1. Properties with current Tax 0. \(2020-21\)
+   2. Properties with advance collection
+   3. Properties with current tax partially payment
+   4. Properties with Mohalla not configured in master
+   5. Masters mapping with the configured masters data in the system.
+3. All the findings of data are reported to the onsite team and sought clarification.
+4. Once all the queries/ findings are cleared/addressed data is moved into UAT.
+5. Data is verified into UAT with sampling by the state team. Go ahead.
+6. Preparing some basic checkpoints before moving into production.
+7. Move the data into production and verify the checkpoints. 
+{% endhint %}
+
+
+
