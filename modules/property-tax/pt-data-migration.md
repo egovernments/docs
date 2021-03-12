@@ -132,6 +132,8 @@ There will be a SPOC from the State team who is the data owner who will share da
 4. When a citizen is coming for making his payment, the counter operator can check if their property exists in the system using propertyid or mobile number. If it is found to be missing, it can be captured afresh in the system using the data entry option. All required information can be obtained from the citizen, either from previous year receipts that they carry or directly asking them.
 5. With this approach, a ULB can go live with 90% of property data within a short time.
 
+## Data Mapping Template
+
 {% file src="../../.gitbook/assets/propertytaxdata-masters-mapping.xlsx" caption="Property Tax Master Data Mapping Template" %}
 
 {% hint style="warning" %}
