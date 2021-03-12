@@ -2,7 +2,7 @@
 description: PGR module simplifies the public grievance management process
 ---
 
-# Public Grievances & Redressal
+# Public Grievances & Redressal \(PGR\)
 
 ## About PGR
 

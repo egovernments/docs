@@ -1,8 +1,8 @@
 # Table of contents
 
 * [DIGIT](README.md)
-* [DIGIT Architecture](architecture.md)
-* [DIGIT Roadmap](digit-roadmap.md)
+* [Architecture](architecture.md)
+* [Roadmap](digit-roadmap.md)
 * [DIGIT 2.3 Release Notes](digit-2.3-release-notes/README.md)
   * [MDMS Configuration & Service Build Updates](digit-2.3-release-notes/mdms-configuration-and-service-build-updates.md)
   * [FSM Release Notes](digit-2.3-release-notes/fsm-release-notes.md)
@@ -10,7 +10,7 @@
   * [EDCR Release Notes](digit-2.3-release-notes/edcr-release-notes.md)
   * [Bill Amendment Release Notes](digit-2.3-release-notes/bill-amendment-release-notes.md)
 * [DIGIT Products & Modules](modules/README.md)
-  * [Public Grievances & Redressal](modules/public-grievances-and-redressal/README.md)
+  * [Public Grievances & Redressal \(PGR\)](modules/public-grievances-and-redressal/README.md)
     * [PGR Module Functional Specifications](modules/public-grievances-and-redressal/pgr-functional-specifications.md)
     * [PGR Brochure](modules/public-grievances-and-redressal/pgr-brochure.md)
     * [PGR Workflows](modules/public-grievances-and-redressal/pgr-workflows.md)
