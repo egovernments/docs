@@ -72,5 +72,3 @@ ReactJs was developed by facebook in 2011 and made it open source in 2013. It is
 This document by [eGovernments Foundation](https://egov.org.in/) is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 {% endhint %}
 
-
-
