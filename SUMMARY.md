@@ -2,7 +2,8 @@
 
 * [DIGIT](README.md)
 * [Training Event](digit-training-event.md)
-* [Architecture](architecture.md)
+* [Architecture](architecture/README.md)
+  * [Stack Overview](architecture/stack-overview.md)
 * [Roadmap](roadmap.md)
 * [Release Notes](digit-2.3-release-notes/README.md)
   * [MDMS Configuration & Service Build Updates](digit-2.3-release-notes/mdms-configuration-and-service-build-updates.md)
