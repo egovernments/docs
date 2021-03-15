@@ -1,6 +1,7 @@
 # Table of contents
 
 * [DIGIT](README.md)
+* [Training Event](training-event.md)
 * [Architecture](architecture.md)
 * [Roadmap](roadmap.md)
 * [Release Notes](digit-2.3-release-notes/README.md)
@@ -42,6 +43,7 @@
       * [DSO User Manual](modules/faecal-sludge-management-fsm/fsm-user-manual/dso-user-manual.md)
       * [Septage Treatment Plant Operator User Manual](modules/faecal-sludge-management-fsm/fsm-user-manual/septage-treatment-plant-operator-user-manual.md)
       * [Employee User Manual](modules/faecal-sludge-management-fsm/fsm-user-manual/employee-user-manual.md)
+  * [Finance](modules/finance.md)
   * [DIGIT Service Configuration](modules/services-overview/README.md)
     * [Core Services](modules/services-overview/core-services/README.md)
       * [Workflow Services](modules/services-overview/core-services/workflow-services.md)
