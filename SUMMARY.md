@@ -1,7 +1,7 @@
 # Table of contents
 
 * [DIGIT](README.md)
-* [Training Event](training-event.md)
+* [Training Event](digit-training-event.md)
 * [Architecture](architecture.md)
 * [Roadmap](roadmap.md)
 * [Release Notes](digit-2.3-release-notes/README.md)
