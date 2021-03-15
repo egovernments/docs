@@ -68,3 +68,9 @@ ReactJs was developed by facebook in 2011 and made it open source in 2013. It is
 
 **Jenkins & spinnaker**: Spinnaker is an open-source cloud-agnostic multi-cloud deployment tool, which automates the deployments with built-in deployment strategies/pipelines with ACL as well as Manual approvals. It integrates with various DevOps echo systems like Git, CI \(Jenkins\),  Docker Repos and bakes the docker/container that can be deployed across clusters and infrastructure with efficiency canary analysis or Red/Black strategies.
 
+{% hint style="danger" %}
+This document by [eGovernments Foundation](https://egov.org.in/) is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+{% endhint %}
+
+
+
