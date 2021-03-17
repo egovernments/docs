@@ -169,7 +169,11 @@ Refer to the table below to understand the different user roles and the scope of
 
 ## Using Finance
 
-This section guides you through the details of using the Finance module for each role. Click on the relevant role below to learn more about how to use the module.  
+This section guides you through the details of using the Finance module for each role. Click on the relevant role below to learn more about how to use the module.
+
+
+
+  
   
 
 
