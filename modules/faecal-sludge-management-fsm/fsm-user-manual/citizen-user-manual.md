@@ -18,6 +18,16 @@ The citizens can -
 
 ## Apply for Desludging Services
 
+![Step 1 - Enter your registered mobile number to login](../../../.gitbook/assets/rcl1.png)
+
+Click on Continue with Whatsapp button to register your service request using the whatsapp channel.
+
+In case you have not registered your mobile number click on the register button 
+
+
+
+
+
 ![Step 1 - Login ](../../../.gitbook/assets/citizen-login.png)
 
 ![Step 2 - Navigate to Apply  ](../../../.gitbook/assets/citizen-apply.png)
