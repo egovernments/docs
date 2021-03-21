@@ -18,35 +18,105 @@ The citizens can -
 
 ## Apply for Desludging Services
 
-![Step 1 - Enter your registered mobile number to login](../../../.gitbook/assets/rcl1.png)
+![](../../../.gitbook/assets/rcr1.png)
 
-Click on Continue with Whatsapp button to register your service request using the whatsapp channel.
+Enter Mobile Number, Name, and City details. Click on Continue button.
 
-In case you have not registered your mobile number click on the register button 
+![](../../../.gitbook/assets/rcr2.png)
+
+Enter the OTP received on the given mobile number. Click on Continue. The system validates the details and allows the user to log in to the system with the registered mobile number.
+
+![](../../../.gitbook/assets/rcl1.png)
+
+Enter your registered mobile number and the OTP received on the mobile to log in. Click on Continue with Whatsapp button to register your service request using the whatsapp channel.
+
+![](../../../.gitbook/assets/rcl2.png)
+
+Click on Continue button.
+
+![](../../../.gitbook/assets/cit1.png)
+
+Click on Apply for Emptying of Septic Tank/Pit option in the home page.
+
+![](../../../.gitbook/assets/cit2.png)
+
+Select the relevant Property Type. 
+
+![](../../../.gitbook/assets/cit3.png)
+
+The system provides a cost estimate details based on the selected property type. Click on the Next button.
+
+![](../../../.gitbook/assets/cit4.png)
+
+Select the applicable Property Sub Type.
+
+![](../../../.gitbook/assets/cit5.png)
+
+Enable the Location Finder to allow GPS to track current location. Or, move the pin to the location manually. Alternatively, you can also enter the location in the Search bar. 
+
+![](../../../.gitbook/assets/cit6.png)
+
+Click on Skip and Continue button in case you are unable to provide GPS location.
+
+![](../../../.gitbook/assets/cit7.png)
+
+The Pincode field gets auto populated if the location is selected in the map. Else, enter the Pincode of the location details manually. Click on Skip and Continue in case you are unable to provide the pincode details.
+
+![](../../../.gitbook/assets/cit8.png)
+
+City and Locality fields are auto-populated once the Pincode is entered. Else, select the City and applicable Locality/Mohalla from the drop down list.
+
+![](../../../.gitbook/assets/cit9.png)
+
+Select Yes if your property is located in a notified slum area. Else, select No. Click on Next button to move to the next screen.
+
+![](../../../.gitbook/assets/cit10.png)
+
+Select and enter the Slum Name from the available drop down list. 
+
+![](../../../.gitbook/assets/cit11.png)
+
+Enter the Street Name and Door No. details.
+
+![](../../../.gitbook/assets/cit12.png)
+
+Provide a Landmark to enable the service providers to find the location easily.
+
+![](../../../.gitbook/assets/cit13.png)
+
+Select the applicable Sanitation Type from the listed options. Click on Skip and Continue button if you are not sure about the sanitation type.
+
+![](../../../.gitbook/assets/cit14.png)
+
+Enter the dimensions of length, breadth, and depth in meters to indicate the Pit/Septic Tank Size. Enter the diameter and depth in meters in case the sanitation type is a soak pit.
+
+Click on Next button to move to the Summary page.
+
+![](../../../.gitbook/assets/cit15.png)
+
+Cross verify the filled in details in the Summary page. Click on the Change button available for the field that requires any edits. Scroll down the page to review the application details.
+
+![](../../../.gitbook/assets/cit16.png)
+
+Click on the Submit button once the review is complete and details are satisfactory.
+
+![](../../../.gitbook/assets/cit20.png)
+
+The system displays the Application Submitted message. The Application No. is generated.
+
+Click on the Download button on the screen to generate a pdf copy of the application.
+
+![](../../../.gitbook/assets/cit21.png)
+
+The system triggers a notification along with the Application No. and details to the registered mobile number. Any subsequent updates and action on the application also triggers a notification to the applicant.
 
 
 
 
 
-![Step 1 - Login ](../../../.gitbook/assets/citizen-login.png)
 
-![Step 2 - Navigate to Apply  ](../../../.gitbook/assets/citizen-apply.png)
 
-![Step 3 - Enter Property Details](../../../.gitbook/assets/citizen-apply2.png)
 
-![Step 4 - Provide Location Details](../../../.gitbook/assets/citizen-apply3.png)
-
-![Step 5 - Provide additional location details](../../../.gitbook/assets/citizen-apply4.png)
-
-![Step 6 - Provide slum details if property indicated is located in notified slum area](../../../.gitbook/assets/citizen-apply5.png)
-
-![Step 7 - Provide landmark and pit type details](../../../.gitbook/assets/citizen-apply6.png)
-
-![Step 8 - Enter pit/septic tank size details](../../../.gitbook/assets/citizen-apply7.png)
-
-![Step 9 - Review application and submit ](../../../.gitbook/assets/citizen-apply8.png)
-
-![Step 10 - Download application](../../../.gitbook/assets/citizen-apply9.png)
 
 ## Check Application Status & Make Payment
 
