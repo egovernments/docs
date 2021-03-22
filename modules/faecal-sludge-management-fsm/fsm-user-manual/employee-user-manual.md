@@ -20,41 +20,43 @@ Log in as employee FSM Creator role.
 
 ![](../../../.gitbook/assets/cemp1.png)
 
-Click on the Inbox to view the list of applications created by the signed in user.
+Click on the **Inbox** to view the list of applications created by the signed in user.
 
-Click on New Emptying of Septic Tank / Pit Application option.
+Click on **New Emptying of Septic Tank / Pit Application** option.
 
 ![](../../../.gitbook/assets/cemp2.png)
 
-Select the relevant Application Channel to indicate the channel that the employee is using to create a new service request.
+Select the relevant **Application Channel** to indicate the channel that the employee is using to create a new service request. The applicant may use the telephone to raise requests or the local office counter. 
 
-Enter the Applicant Name and Applicant Mobile No.
+Enter the **Applicant Name** and **Applicant Mobile No.**
 
 ![](../../../.gitbook/assets/cemp3.png)
 
-Select the relevant Property Type and Property Sub Type.
+Select the relevant **Property Type** and **Property Sub Type**.
 
 ![](../../../.gitbook/assets/cemp4.png)
 
-Enter the Pincode, City, Locality/Mohalla, Slum Name, Street Name, Door No. and Landmark details in the Location panel.
+Enter the **Pincode**, **City**, **Locality/Mohalla**, **Slum Name**, **Street Name**, **Door No.** and **Landmark** details in the **Location** panel.
 
 ![](../../../.gitbook/assets/cemp5.png)
 
-Select the applicable Onsite Sanitation Type from the drop down list. Enter the Pit Dimension or dimensions in meters for the selected sanitation type.
+Select the applicable **Onsite Sanitation Type** from the drop down list. Enter the **Pit Dimension** or dimensions in meters for the selected sanitation type.
 
 ![](../../../.gitbook/assets/cemp6.png)
 
-Select the Vehicle Type that will be required to fulfill this request. Enter the required No. of Trips and Amount per Trip details to calculate the Total Amount. 
+Select the **Vehicle Type** that will be required to fulfill this request. Enter the required **No. of Trips** and **Amount per Trip** details to calculate the **Total Amount** payable for the service request.
 
-Click on the Submit Application button.
+Click on the **Submit Application** button.
 
 ![](../../../.gitbook/assets/cemp7.png)
 
-The application is submitted and a Application No. is generated. Click on the Download button on the screen to generate a pdf copy of the application for future reference.
+The application is submitted and a **Application No.** is generated. Click on the **Download** button on the screen to generate a pdf copy of the application for future reference.
 
 The system will trigger notifications to the applicant mobile number with application number and status updates.
 
 ### Make Payment
+
+
 
 ![Step 1 - Click on Inbox to fetch application](../../../.gitbook/assets/emp5.png)
 
