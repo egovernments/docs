@@ -110,15 +110,9 @@ Click on the Download button on the screen to generate a pdf copy of the applica
 
 The system triggers a notification along with the Application No. and details to the registered mobile number. Any subsequent updates and action on the application also triggers a notification to the applicant.
 
-
-
-
-
-
-
-
-
 ## Check Application Status & Make Payment
+
+
 
 ![Step 1 - Navigate to My Applications from home page](../../../.gitbook/assets/citizen-stauts1.png)
 
