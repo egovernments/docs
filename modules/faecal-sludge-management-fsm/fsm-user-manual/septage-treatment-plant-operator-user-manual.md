@@ -12,13 +12,29 @@ SeTPO can
 
 ### Update Vehicle Log
 
-![Step 1 - Login as SETPO user](../../../.gitbook/assets/setpo-login.png)
+![](../../../.gitbook/assets/fstpo-l.png)
 
-![Step 2 - Access vehicle log details](../../../.gitbook/assets/setpo1.png)
+Log in to the system with the FSTPO credentials.
 
-![Step 3 - Update vehicle log](../../../.gitbook/assets/setpo2.png)
+![](../../../.gitbook/assets/fstpo1.png)
 
+Click on Faecal Sludge Management card on the page.
 
+![](../../../.gitbook/assets/fstpo2.png)
 
+The user Inbox provides a summary log of vehicles and total waste collection capacity available for disposal. Click on the arrow icon to enter the Inbox. 
 
+![](../../../.gitbook/assets/fstpo3.png)
+
+The inbox displays the Vehicle Log details. Click on the Vehicle Log to view the waste volume collected details at the plant.
+
+![](../../../.gitbook/assets/fstpo5.png)
+
+Edit the Waste Received \(Ltrs\) value to indicate the volume of waste collected by the selected vehicle. Edit the Time of Dumping of the waste as required. 
+
+The Vehicle Log screen displays the waste collection and the waste generator details. Scroll down to view the details.
+
+![](../../../.gitbook/assets/fstpo6.png)
+
+Click on the Submit button to update the vehicle log details. 
 
