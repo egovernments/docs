@@ -16,15 +16,15 @@ DSOs can -
 
 ![](../../../.gitbook/assets/dso-l1%20%281%29.png)
 
-Click on DSO Login.
+Click on **DSO Login**.
 
 ![](../../../.gitbook/assets/dso-l2.png)
 
-Enter the registered Mobile Number.
+Enter the registered **Mobile Number**.
 
 ![](../../../.gitbook/assets/dso-l3.png)
 
-Enter the OTP received on the registered mobile number.
+Enter the **OTP** received on the registered mobile number.
 
 ![](../../../.gitbook/assets/dso7.png)
 
@@ -32,31 +32,31 @@ The DSO Inbox displays the list of applications pending for action. Click on the
 
 ![](../../../.gitbook/assets/dso9%20%281%29.png)
 
-Applications with Status as Pending DSO Approval requires the DSO to initiate action. DSOs can either Assign Vehicle to complete the service request or Decline Request in case the service request cannot be fulfilled for some reason.
+Applications with **Status as Pending DSO Approval** requires the DSO to initiate action. DSOs can either **Assign Vehicle** to complete the service request or **Decline Request** in case the service request cannot be fulfilled for some reason.
 
 ![](../../../.gitbook/assets/dso11.png)
 
-Scroll down the application page and click on Take Action button. Click on Assign Vehicle.
+Scroll down the application page and click on **Take Action** button. Click on **Assign Vehicle**.
 
 ![](../../../.gitbook/assets/dso-assign.png)
 
-Select and enter the Vehicle Registration No. The Vehicle Capacity \(Ltrs\) field is auto populated depending on the selected vehicle. Click on Assign Vehicle. The vehicle is assigned successfully to the  listed service request.
+Select and enter the **Vehicle Registration No.** The **Vehicle Capacity \(Ltrs\)** field is auto populated depending on the selected vehicle. Click on **Assign Vehicle.** The vehicle is assigned successfully to the  listed service request.
 
 ![](../../../.gitbook/assets/dso-assign1.png)
 
-The application status changes to DSO InProgress. 
+The application status changes to **DSO InProgress**. 
 
 ### Complete Request
 
 ![](../../../.gitbook/assets/dso-completer1%20%281%29.png)
 
-Click on the Take Action button to either Complete Request.
+Click on the **Take Action** button and click on **Complete Request**.
 
 ![](../../../.gitbook/assets/dso14.png)
 
-The Septic Tank / Pit emptied On field assumes the current date by default. Change the date if required.
+The **Septic Tank / Pit emptied On** field assumes the current date by default. Change the date if required.
 
-The Volume of Waste Collected \(Ltrs\) field displays the vehicle capacity value by default. Change if required.
+The **Volume of Waste Collected \(Ltrs\)** field displays the vehicle capacity value by default. Change if required.
 
 ![](../../../.gitbook/assets/dso-req1%20%281%29.png)
 
@@ -66,11 +66,11 @@ The request is completed successfully.
 
 ![](../../../.gitbook/assets/image%20%28102%29.png)
 
-Click on the Take Action button and then click on Decline Request.
+Click on the **Take Action** button and then click on **Decline Request**.
 
 ![](../../../.gitbook/assets/dso12%20%281%29.png)
 
-Select and enter the applicable Reason for Declining. Enter any Comments to validate the request decline. Click on Decline Request button.
+Select and enter the applicable **Reason for Declining.** Enter any **Comments** to validate the request decline. Click on **Decline Request** button.
 
 ![](../../../.gitbook/assets/dso15.png)
 
