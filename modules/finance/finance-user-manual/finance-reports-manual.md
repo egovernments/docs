@@ -1,294 +1,319 @@
 # Finance Reports Manual
 
-#### Finance Report View
+## Finance Report View
 
-Reconciliation Summary Report
+### Reconciliation Summary Report
 
-This is a summary report of how much amount is pending for reconciliation for the selected bank account.  
-
+This is a summary report of how much amount is pending for reconciliation for the selected bank account.
 
 To generate reconciliation summary report
 
-1. Navigate to Finance &gt; Transactions &gt; Bank Reconciliation &gt; Reconciliation Summary Report option in the sidebar. 
-2. Select the applicable Bank, Branch, Bank Account, and Bank Statement Balance details. 
-3. Enter the relevant Bank Statement Date.
-4. Click on the View Summary button.
+Navigate to Finance &gt; Transactions &gt; Bank Reconciliation &gt; Reconciliation Summary Report option in the sidebar. Select the applicable Bank, Branch, Bank Account, and Bank Statement Balance details. 
+
+Enter the relevant Bank Statement Date. Click on the View Summary button.
 
 ![](https://lh6.googleusercontent.com/UUAsu5ykVT5txzhlFDIVcJmAm1MGiHrje3JCs3Cqt86DdLYwUNNk8eJStyppXzL_Yp4LkQb1tIUYIv0oM7EApOcejA_cjyEERRytTGFsyxoTNkL3G4BiGHNve_wztu7ZWEAH70mrllFVYDMqOQ)
 
 Drill downs are provided from the amount fields to see the details of the summary amount.![](https://lh5.googleusercontent.com/5H7zwutyr8EVZGWUE-kwJSPv309kwvitL2F0SwN7wQaPW9cCo-3J2xRjLMLSrPMQVzQjlHtJYiYLNBMt5sa_7B1CYtj_8E4kcJkeKHgOXiDhLvPIil70HoW0v4wTVj2wWRclU2aCxjUDRNxozw)  
 
 
-Income Expenditures Statement
+### Income Expenditures Statement
 
 To generate Income Expenditure Statement
 
-1. Navigate to Finance &gt; Reports &gt; Financial Statements &gt; Income Expenditure Statement option in the sidebar. ![](https://lh3.googleusercontent.com/4BICeKJLKMMNz09TcNUY2mk-bx37p9hphcLKg8A3gEZ8eA3hVXPLO4ly0EpExCY_BXKhRFRCVXvghk8P001K0hqL-O14t_mpNoaN8Fbr0YgecJYFQK9Uphf35zn1Eum9M1ghCbstNVzeUuko3Q)
-2. Select the relevant Period, Year, Rupees format, Department, Fund and Function details. 
-3. Select As On Date detail to generate the statement till a specified date.
-4. Click on the Submit button to view the statement. ![](https://lh6.googleusercontent.com/gZiIOuUqlSm6F39SDPq6GMYgHCh7r-VqbccPtYpA2ohCPzStNcIgdBAwJVx0bhyfeU-72BUk1f1OUvq6Lv3DPqgbkUYtfNFZ7iPPo01K4p2pTbCIRjZsUy4YmVnKBIqeShUBiAY0oS5EXCMAaQ)
-5. Click on the Schedule Number hyperlink to open the individual schedule report.
-6. Click on the Amount to drill down to the ledger report for the selected account code.
-7. Click on View All Minor Schedules button to see the schedule report at minor code level.![](https://lh6.googleusercontent.com/lNxVfe0X059bKww8ZJ2Wi4NGGEjbOwob721U7x3hOEKrenk2cBFjAOmPCpXBQpIDkIjpcH3_3bXNcfwiHxUHSppICI5s5o5yyASnrCSvqlTgXPN4NyovuePQMa7i5RW5h22P4gDWBBTvHxgptw)
-8. Click on the View All Schedules button to see the schedule report. 
-9. Click on the Amount to get the further details of the transaction.
+Navigate to Finance &gt; Reports &gt; Financial Statements &gt; Income Expenditure Statement option in the sidebar. 
+
+![](https://lh3.googleusercontent.com/4BICeKJLKMMNz09TcNUY2mk-bx37p9hphcLKg8A3gEZ8eA3hVXPLO4ly0EpExCY_BXKhRFRCVXvghk8P001K0hqL-O14t_mpNoaN8Fbr0YgecJYFQK9Uphf35zn1Eum9M1ghCbstNVzeUuko3Q)
+
+Select the relevant Period, Year, Rupees format, Department, Fund and Function details. Select As On Date detail to generate the statement till a specified date.
+
+Click on the Submit button to view the statement. 
+
+![](https://lh6.googleusercontent.com/gZiIOuUqlSm6F39SDPq6GMYgHCh7r-VqbccPtYpA2ohCPzStNcIgdBAwJVx0bhyfeU-72BUk1f1OUvq6Lv3DPqgbkUYtfNFZ7iPPo01K4p2pTbCIRjZsUy4YmVnKBIqeShUBiAY0oS5EXCMAaQ)
+
+Click on the Schedule Number hyperlink to open the individual schedule report. Click on the Amount to drill down to the ledger report for the selected account code. Click on View All Minor Schedules button to see the schedule report at minor code level.
+
+![](https://lh6.googleusercontent.com/lNxVfe0X059bKww8ZJ2Wi4NGGEjbOwob721U7x3hOEKrenk2cBFjAOmPCpXBQpIDkIjpcH3_3bXNcfwiHxUHSppICI5s5o5yyASnrCSvqlTgXPN4NyovuePQMa7i5RW5h22P4gDWBBTvHxgptw)
+
+Click on the View All Schedules button to see the schedule report. Click on the Amount to get the further details of the transaction.
 
 ![](https://lh3.googleusercontent.com/j3ZpNZnvrZdGaCIlMIkStr7Kib2N0VgMYxuCBE3INX87WsB2HqK5oExv1JowOqxYvS8hWLBeMgzeVNAD9QiaWC2l2O_Tatp3AFqGdherajCyQTExJeiIYSKZmreyrvVUQSJQk-tKzvFlYt02Bw)
 
-Balance Sheet
+### Balance Sheet
 
 To generate the Balance Sheet
 
-1. Navigate to Finance &gt; Reports &gt; Financial Statement &gt; Balance Sheet option in the sidebar.
-2. Select the relevant Period, Year, Rupees format, Department, Fund and Function details.![](https://lh5.googleusercontent.com/qocpBOGNBrvfw2OHVAxamjd8FRpHPzGuVLbF6HKoxpJ6ZR6QPiqK1dmcQU6hCw2EA4PmRx_5oam1xBU9nC5GmhYtcMKHvN8szc1kSeuWA8v7gOHXilKrlDVDKaypNCOZ-Ri0D4eWTaxk6aCxjA)
-3. Select As On Date detail to generate the statement till a specified date.
-4. Click on the Submit button to view the statement. 
-5. Click on the Schedule Number hyperlink to open the individual schedule report.
-6. Click on the Amount to drill down to the ledger report for the selected account code.![](https://lh3.googleusercontent.com/LLSbuIZHrmQO_It8A3-WC5Ap5Dip8Cky5GxsqyCGRInfqYewozByF7WQNuP41H6N5zpObwWwuOB72cdgBnCrQo0zD-UcY5LZrpssc4cCDj3_RvA5DcFL4-bNCU4dJBIaYdO7IT6eLxjWHPfQPw)
-7. Click on View All Minor Schedules button to see the schedule report at minor code level.
+Navigate to Finance &gt; Reports &gt; Financial Statement &gt; Balance Sheet option in the sidebar. Select the relevant Period, Year, Rupees format, Department, Fund and Function details.
+
+![](https://lh5.googleusercontent.com/qocpBOGNBrvfw2OHVAxamjd8FRpHPzGuVLbF6HKoxpJ6ZR6QPiqK1dmcQU6hCw2EA4PmRx_5oam1xBU9nC5GmhYtcMKHvN8szc1kSeuWA8v7gOHXilKrlDVDKaypNCOZ-Ri0D4eWTaxk6aCxjA)
+
+Select As On Date detail to generate the statement till a specified date. Click on the Submit button to view the statement. 
+
+Click on the Schedule Number hyperlink to open the individual schedule report. Click on the Amount to drill down to the ledger report for the selected account code.
+
+![](https://lh3.googleusercontent.com/LLSbuIZHrmQO_It8A3-WC5Ap5Dip8Cky5GxsqyCGRInfqYewozByF7WQNuP41H6N5zpObwWwuOB72cdgBnCrQo0zD-UcY5LZrpssc4cCDj3_RvA5DcFL4-bNCU4dJBIaYdO7IT6eLxjWHPfQPw)
+
+Click on View All Minor Schedules button to see the schedule report at minor code level.
 
 ![](https://lh5.googleusercontent.com/WcDLB4CyVSXSlpZ1cyFKiz8xQroCQj3G_4ArvqCRl7s62aWSOlxSjvy4YR8g-RuDYKZjvXMiaICUkwG2t1TT7CNEdxAo5xEknn_xs_IjJ5DdAjESA2PGmU86n-KGU1FJ-aP6y-g6ENOy79Fr3A)
 
-1. Click on the View All Schedules button to see the schedule report. ![](https://lh5.googleusercontent.com/vUfrLaZ_cSnsDPD32AqFKuP9zobflyYV4N6MTn19Aj4Y72eYoRtNZLgm0V6JkksmEQlHpk80gizRlD3KL9-dQH2nj5wJW61_H6UY812c-v-2owCBy_y0gx3kahSpy9xxqidAd0MoBDCbauDPng)
-2. Click on the Amount to get the further details of the transaction.
+Click on the View All Schedules button to see the schedule report. 
+
+![](https://lh5.googleusercontent.com/vUfrLaZ_cSnsDPD32AqFKuP9zobflyYV4N6MTn19Aj4Y72eYoRtNZLgm0V6JkksmEQlHpk80gizRlD3KL9-dQH2nj5wJW61_H6UY812c-v-2owCBy_y0gx3kahSpy9xxqidAd0MoBDCbauDPng)
+
+Click on the Amount to get the further details of the transaction.
 
 ![](https://lh5.googleusercontent.com/vlNBrKZmxw4JdGVGBwd8xWeguTs7L1Koahe83rT-TR6k0P-pseEsn6vM7hYoc2SrmbEutJtRR_hNfI86FAIbDUPOg_f7_rNWcOgNPeodwdNfZOoEKk7fUqCgtPxirvV4ssnFD4PTxahEfFRNoA)
 
-Departmentwise Budget
+### Departmentwise Budget
 
 To generate the budget information department wise
 
-1. Navigate to Finance &gt; Reports &gt; Budget Reports &gt; Departmentwise Budget menu option in the sidebar.
-2. Select the applicable Financial Year, Department, and Type.![](https://lh6.googleusercontent.com/JZHsSce_wHt1HmeK-9vwFreaTEhKMIJ9Nl4MgUInb0VAuuNCoT0Gdx29IiCH3PEkKqsyxmSYFXDWIZsZ-myGafReD1EOWGCJyNYBeQOuTTsnDzJ-ZKydv5Fhkn4btGptXboe75P4b074bB8cqQ)
-3. Click on the Search button to get the report.![](https://lh5.googleusercontent.com/2aVLXHPcAPliOaB5qRPv-FPi8gspNN-nt5vLbTT93hsRxYGqBojBw8vPzke5QQBj7IB24NNAqLTz3D4YFns4hk36Ap4DF3-nk8ubTKU6CVe2gURJhn0wq6SGuPg24gaisYNTyyuC9I02LDKq-A)
-4. Click on the Save as PDF or Save as Excel option to download the reports in PDF or Excel format.
+Navigate to Finance &gt; Reports &gt; Budget Reports &gt; Departmentwise Budget menu option in the sidebar. Select the applicable Financial Year, Department, and Type.
 
-Functionwise Budget
+![](https://lh6.googleusercontent.com/JZHsSce_wHt1HmeK-9vwFreaTEhKMIJ9Nl4MgUInb0VAuuNCoT0Gdx29IiCH3PEkKqsyxmSYFXDWIZsZ-myGafReD1EOWGCJyNYBeQOuTTsnDzJ-ZKydv5Fhkn4btGptXboe75P4b074bB8cqQ)
+
+Click on the Search button to get the report.
+
+![](https://lh5.googleusercontent.com/2aVLXHPcAPliOaB5qRPv-FPi8gspNN-nt5vLbTT93hsRxYGqBojBw8vPzke5QQBj7IB24NNAqLTz3D4YFns4hk36Ap4DF3-nk8ubTKU6CVe2gURJhn0wq6SGuPg24gaisYNTyyuC9I02LDKq-A)
+
+Click on the Save as PDF or Save as Excel option to download the reports in PDF or Excel format.
+
+### Functionwise Budget
 
 To generate budget information function wise
 
-1. Navigate to Finance &gt; Reports &gt; Budget Reports &gt; Departmentwise Budget menu option in the sidebar. ![](https://lh3.googleusercontent.com/cL1GJ8Zvy4084m9BfitsutLSfW0ZUDExKIaYgzMNMS3i2tQihJSn8VVIGvu_P8RhrKRtCmpg_QD3NrX78Fa5aLP1AA435aQrlRR9ByH8ojQjAb5eDGEqFGERkuMYDZzeALiIPcu5JDRsnB5YlA)
-2. Select the applicable Financial Year, Department, Type and Function.
-3. Click on the Search button to get the report.
-4. Click on the Print button to print the report. Click on the Save as PDF or Save as Excel option to download the reports in PDF or Excel format.
+Navigate to Finance &gt; Reports &gt; Budget Reports &gt; Departmentwise Budget menu option in the sidebar. 
+
+![](https://lh3.googleusercontent.com/cL1GJ8Zvy4084m9BfitsutLSfW0ZUDExKIaYgzMNMS3i2tQihJSn8VVIGvu_P8RhrKRtCmpg_QD3NrX78Fa5aLP1AA435aQrlRR9ByH8ojQjAb5eDGEqFGERkuMYDZzeALiIPcu5JDRsnB5YlA)
+
+Select the applicable Financial Year, Department, Type and Function. Click on the Search button to get the report.
+
+Click on the Print button to print the report. Click on the Save as PDF or Save as Excel option to download the reports in PDF or Excel format.
 
 ![](https://lh6.googleusercontent.com/t76IJeEc3R2WKL9EwnalY52UUrnGCE814F2bUCQfTxzZrcSXURZo-xK2BhUQiz-ec2x57vgLIjZX0_yYd_eKpzZN8l6cCYDctzof8siUMlvrOnjHDS-TKjLTWGsNDtgOcRr2VSdB0IYFliVykQ)
 
-Budget Watch Register
+### Budget Watch Register
 
 To fetch the budget utilization details for any specific budget item
 
-1. Navigate to Finance &gt; Reports &gt; Budget Reports &gt; Budget Watch Register menu option in the sidebar.![](https://lh4.googleusercontent.com/YNcQghNzRsQC5siEZA-5O8onlJFIiHfq98KD5bU7XQ0b95tuuoXBfUr1quUpI_tjBbPnGS4tj6DZlU8gIlrAyZ8kyitkF3j_7tD8yhYU9D7mPr8djJa7ho8L_zSTrmujFdZGsnBvM5TeciYLQw)
-2. Select the applicable Fund, Department, Function, Type, Budget Head, and As On Date details.
-3. Click on the Search button to get the report.
-4. Click on the Print button to print the report. Click on the Save as PDF or Save as Excel option to download the reports in PDF or Excel format.![](https://lh4.googleusercontent.com/4-a5AJRsTw9r6gloSe4KPqCm_XT060JGmbTHHz9fbvgfLjyhKzCR42f09NA_W7LcheI46SgmzPNK_GFWHMdWAiHtDZRpu2kaDkzt_erhoQC5NoaaUDyc-hrasBTtioc3OcN3z8ffGNONC_Fdeg)
+Navigate to Finance &gt; Reports &gt; Budget Reports &gt; Budget Watch Register menu option in the sidebar.
 
-Budget Variance Report
+![](https://lh4.googleusercontent.com/YNcQghNzRsQC5siEZA-5O8onlJFIiHfq98KD5bU7XQ0b95tuuoXBfUr1quUpI_tjBbPnGS4tj6DZlU8gIlrAyZ8kyitkF3j_7tD8yhYU9D7mPr8djJa7ho8L_zSTrmujFdZGsnBvM5TeciYLQw)
 
-The Budget Variance report provides the comparison on what was planned in the budget and how it is being utilized.  
+Select the applicable Fund, Department, Function, Type, Budget Head, and As On Date details. Click on the Search button to get the report. Click on the Print button to print the report. Click on the Save as PDF or Save as Excel option to download the reports in PDF or Excel format.
 
+![](https://lh4.googleusercontent.com/4-a5AJRsTw9r6gloSe4KPqCm_XT060JGmbTHHz9fbvgfLjyhKzCR42f09NA_W7LcheI46SgmzPNK_GFWHMdWAiHtDZRpu2kaDkzt_erhoQC5NoaaUDyc-hrasBTtioc3OcN3z8ffGNONC_Fdeg)
+
+### Budget Variance Report
+
+The Budget Variance report provides the comparison on what was planned in the budget and how it is being utilized.
 
 To generate the budget variance report
 
-1. Navigate to Finance &gt; Reports &gt; Budget Reports &gt; Budget Variance Report menu option in the sidebar.
-2. Select the applicable Department, Function, Fund, Account Type, Budget Head, and As On Date details.![](https://lh5.googleusercontent.com/jcCvFPLF1c0KGuHfpbu6NMfwx8KhjeZ6lSuejdEeH-hLuXR_6DqEnIUiuofh-cNp-gQCKdrueQSGSUOXkC57rIz4IfV6AnO5p-r9J-sagbSNxvtECzFMIld0NWQPc5rgHJLeonxjTas-RN6aEQ)
-3. Click on the Search button to get the report.![](https://lh3.googleusercontent.com/cFURFvp7kVLOT3xYRtDGr_8xMdiaMyF9pxCB21RUzsnI2s4T3d2gwwhK-HLRAxXvAFxW7hyyoxC9ZZk7MlQwKCFj4VnuYjufxu3tOr7ej-8vN2BpgSZEFiGCemC0oME9n3v6qRlv906iuluPoA)
-4. Click on the Print button to print the report. Click on the Save as PDF or Save as Excel option to download the reports in PDF or Excel format.
+Navigate to Finance &gt; Reports &gt; Budget Reports &gt; Budget Variance Report menu option in the sidebar. Select the applicable Department, Function, Fund, Account Type, Budget Head, and As On Date details.
 
-Budget Upload Report
+![](https://lh5.googleusercontent.com/jcCvFPLF1c0KGuHfpbu6NMfwx8KhjeZ6lSuejdEeH-hLuXR_6DqEnIUiuofh-cNp-gQCKdrueQSGSUOXkC57rIz4IfV6AnO5p-r9J-sagbSNxvtECzFMIld0NWQPc5rgHJLeonxjTas-RN6aEQ)
 
-The budget upload report provides information that is uploaded in the system using the upload facility and is currently not approved.  
+Click on the Search button to get the report.
 
+![](https://lh3.googleusercontent.com/cFURFvp7kVLOT3xYRtDGr_8xMdiaMyF9pxCB21RUzsnI2s4T3d2gwwhK-HLRAxXvAFxW7hyyoxC9ZZk7MlQwKCFj4VnuYjufxu3tOr7ej-8vN2BpgSZEFiGCemC0oME9n3v6qRlv906iuluPoA)
+
+Click on the Print button to print the report. Click on the Save as PDF or Save as Excel option to download the reports in PDF or Excel format.
+
+### Budget Upload Report
+
+The budget upload report provides information that is uploaded in the system using the upload facility and is currently not approved.
 
 To generate the budget upload report
 
-1. Navigate to Finance &gt; Reports &gt; Budget Reports &gt; Budget Upload Report menu option in the sidebar.
+Navigate to Finance &gt; Reports &gt; Budget Reports &gt; Budget Upload Report menu option in the sidebar.
 
 ![](https://lh5.googleusercontent.com/-_kBmsyut5tBmZ6AJGRgQXLEM08aVrfJ9AcbLsLMZjco2ZqsNOqR1XzAvq0B5uztAYYLWbXl7wwOYcUKHeLZbYSu96lLAlhsO-ZFTpWFQPRyZFWWFPYV9yjYvE8DmoMV3Mz_43zc4L9kuFQpwQ)
 
-1. Select the applicable Budget, Reference Budget, Fund, Department, and Function details.
-2. Click on the Search button to get the report.
+Select the applicable Budget, Reference Budget, Fund, Department, and Function details. Click on the Search button to get the report.
 
 ![](https://lh6.googleusercontent.com/u-HBv8hA2tnVCk5jkc5LIccaKR_wOukHpWJhVXcmgtn__Vx-q_yFvkNtfyoi8g5yNbOeuG7PpJSXkd0tgUijEqRFVrA1ftn7QSKwGM_ueI82DrpFp8kAOIy8SbC6RMYe-VoSpg1tQ8tS4rVXPQ)
 
-1. Click on the Print button to print the report. Click on the Save as PDF or Save as Excel option to download the reports in PDF or Excel format.
+Click on the Print button to print the report. Click on the Save as PDF or Save as Excel option to download the reports in PDF or Excel format.
 
-General Ledger Report
+### General Ledger Report
 
 To generate the general ledger report
 
-1. Navigate to Finance &gt; Reports &gt; Accounting Records &gt; General Ledger Report option in the sidebar.![](https://lh3.googleusercontent.com/PgZ_dyS7Tpk0qqNNyWT4btp6g20W2Qq_2YSrDDHHd4pG11agxPVuDr4A5l1nnWkCsyEWuKx7GyosGhBkuUyia_ih5M8w8sqJvcGs6RZuHgUZ1szslRgukIl0APmOIBgEamwc_6imJrlJbhA2MA)
-2. Enter the applicable Account Code, Fund, Department, Starting Date, Ending Date, and Function details.![](https://lh3.googleusercontent.com/aanpYuGhPomB3t-Y4dR7ayyG6d3YYrcd1qclchqRR9NdCNz0QJW48MDwv3TrFgn0pKKD7-ZvlKIY7r2QRPnUMph2bTIuGLla-BMHLBPWJI0XHzPI1SUSCq85tpj15-VDVjAQbQOJJvUD-i6rgA)
-3. Click on the Search button to view the report.
-4. These reports can be downloaded in PDF as well as in Excel format. Also drilldown is available from the Voucher Number field.
+Navigate to Finance &gt; Reports &gt; Accounting Records &gt; General Ledger Report option in the sidebar.
 
-Trial Balance
+![](https://lh3.googleusercontent.com/PgZ_dyS7Tpk0qqNNyWT4btp6g20W2Qq_2YSrDDHHd4pG11agxPVuDr4A5l1nnWkCsyEWuKx7GyosGhBkuUyia_ih5M8w8sqJvcGs6RZuHgUZ1szslRgukIl0APmOIBgEamwc_6imJrlJbhA2MA)
+
+Enter the applicable Account Code, Fund, Department, Starting Date, Ending Date, and Function details.
+
+![](https://lh3.googleusercontent.com/aanpYuGhPomB3t-Y4dR7ayyG6d3YYrcd1qclchqRR9NdCNz0QJW48MDwv3TrFgn0pKKD7-ZvlKIY7r2QRPnUMph2bTIuGLla-BMHLBPWJI0XHzPI1SUSCq85tpj15-VDVjAQbQOJJvUD-i6rgA)
+
+Click on the Search button to view the report. These reports can be downloaded in PDF as well as in Excel format. Also drilldown is available from the Voucher Number field.
+
+### Trial Balance
 
 To generate the Trial Balance
 
-1. Navigate to Finance &gt; Reports &gt; Accounting Records &gt; Trial Balance option in the sidebar.
+Navigate to Finance &gt; Reports &gt; Accounting Records &gt; Trial Balance option in the sidebar.
 
 ![](https://lh4.googleusercontent.com/uIYZmYutRrCbxvJAnoVq3xml-BLWnBGR-Yoo2fUd98d6o3Tett_XOOb7iDKP04QdIKTCSWxsTWA0tiM7ijWMxsooA8spmm9xbw_YOB6sXNKxlIr6LYW_XqqqHJlieZsmORDha-1Z-UfuN9Qubw)
 
-1. Select the relevant Report Type.
-2. Select the period using the From Date and To Date fields.
-3. Select the applicable Fund, Department, Function, Functionary, and Field details.
+Select the relevant Report Type. Select the period using the From Date and To Date fields. Select the applicable Fund, Department, Function, Functionary, and Field details.
 
 ![](https://lh4.googleusercontent.com/BHvHBZH9UprXGIdQmJmp0xNdO3Xz5FMt8Al-pAXn0n63GPMSOTYzj4iZDudKjTnfP573oqRCXhpT8BaOGEccms86GiZvZbckxc8dKeMXiBeGKsmRtueBslqdxykPum8sHW_xPWmap4c3FNyGUg)
 
-1. Click on View HTML button to generate the report. These reports can be downloaded in PDF as well as Excel format.
+Click on View HTML button to generate the report. These reports can be downloaded in PDF as well as Excel format.
 
-Bank Book
+### Bank Book
 
 To generate the Bank Book report
 
-1. Navigate to Finance &gt; Reports &gt; Accounting Records &gt; Bank Book option in the sidebar.
+Navigate to Finance &gt; Reports &gt; Accounting Records &gt; Bank Book option in the sidebar.
 
 ![](https://lh6.googleusercontent.com/RetkHp8QOU6nejwG1ayARGgZFUhwFktDuzsOmkYbcbYJfmU4oKwvLEy-AonkW-sfr4VIwspmS5YdovpRklLnXC3eL4pDANzYtpmGvhvK1vFCnvhz3FYNKsWTKZTHbeea1Y2Nxbwjl-CMU4hO4w)
 
-1. Select the relevant Fund, Department, Function, Bank Name, Account Number, Start Date and End Date details.
-2. Click on the Search button to generate the report. These reports can be downloaded in PDF as well as Excel format.
+Select the relevant Fund, Department, Function, Bank Name, Account Number, Start Date and End Date details. Click on the Search button to generate the report. These reports can be downloaded in PDF as well as Excel format.
 
-Sub Ledger Schedule Report
+### Sub Ledger Schedule Report
 
 To generate the Subledger Schedule report
 
-1. Navigate to Finance &gt; Reports &gt; Accounting Records &gt; Sub Ledger Schedule Report option in the sidebar.
+Navigate to Finance &gt; Reports &gt; Accounting Records &gt; Sub Ledger Schedule Report option in the sidebar.
 
 ![](https://lh3.googleusercontent.com/FtbJTjklS3ssM6X1lZxhELVszdsAcmXRzVNCX0LuhAgOcNt7bXGXJGMnngiHRrwuFEdsvSJgevD37n7lvQnuhKVjbW_HsPTF33YiUCnodB5J20cKerM6BKQmw8737SSMedRmacEVclJrjHfEYQ)
 
-1. Enter the relevant Account Code, Fund, Starting Date , End Date, Sub Ledger Type, and Department details.
-2. Click on the Search button to generate the report. These reports can be downloaded in PDF as well as Excel format.
-3. Click on the Name field to see the transactions made by any particular entity.![](https://lh5.googleusercontent.com/mXOlKbDPeJyBBgrVyL4V-G86c7XukDx_8yLTaO6KdaJklcnPBQgyTmq04pQRkhOXufOu5RuXCGcAGEDLDhu9LkQJAKAuHdVLx5WETnO0p7PbX-jde-rxitxsOPj1n9mrRB9PnRbBS0x3sy7kQw)
+Enter the relevant Account Code, Fund, Starting Date , End Date, Sub Ledger Type, and Department details. Click on the Search button to generate the report. These reports can be downloaded in PDF as well as Excel format.
 
-Sub Ledger Report
+Click on the Name field to see the transactions made by any particular entity.
+
+![](https://lh5.googleusercontent.com/mXOlKbDPeJyBBgrVyL4V-G86c7XukDx_8yLTaO6KdaJklcnPBQgyTmq04pQRkhOXufOu5RuXCGcAGEDLDhu9LkQJAKAuHdVLx5WETnO0p7PbX-jde-rxitxsOPj1n9mrRB9PnRbBS0x3sy7kQw)
+
+### Sub Ledger Report
 
 To generate the Subledger Report
 
-1. Navigate to Finance &gt; Reports &gt; Accounting Records &gt; Sub Ledger Report option in the sidebar.
+Navigate to Finance &gt; Reports &gt; Accounting Records &gt; Sub Ledger Report option in the sidebar.
 
 ![](https://lh6.googleusercontent.com/yt9ArrTTEYOlq-PpYkRlVYDA0Yr5sSBsRWRw4Wccmjz4O1kmVxUEyOfNRpxbQzZQJlbgA-hlqpm2Xo2VTAJXRImdo_3BMC8nkzzAOEsIbaBuWrQpo90XW5ewYsh20vtsIIQ-EtsMZa0Wr-BvHQ)
 
-1. Enter the relevant Account Code, Fund, Starting Date , End Date, Sub Ledger Type, Entity Details and Department details.
-2. Click on the Search button to generate the report. These reports can be downloaded in PDF as well as Excel format.
+Enter the relevant Account Code, Fund, Starting Date , End Date, Sub Ledger Type, Entity Details and Department details. Click on the Search button to generate the report. These reports can be downloaded in PDF as well as Excel format.
 
 ![](https://lh6.googleusercontent.com/AxFXTBVvGuK5Y12RqVxUxa8CRyyPJ1oaebSOkGOAcG29VpxrD4oT00XD811ResGP58d3T7oO_Z8MtYL7Tysy7PvOmNan_p6GZaoKsE5CYKhkQaAlMwHPsxsOeMOjJLxLB62H_Ga3W2VGxtuC9Q)
 
-1. Click on the Voucher Number field to see the details of the voucher.
+Click on the Voucher Number field to see the details of the voucher.
 
-Day Book Report
+### Day Book Report
 
 To generate the Day book report
 
-1. Navigate to Finance &gt; Reports &gt; Accounting Records &gt; Day Book Report option in the sidebar.
-2. Enter the relevant Start Date , End Date, and Fund details.
+Navigate to Finance &gt; Reports &gt; Accounting Records &gt; Day Book Report option in the sidebar. Enter the relevant Start Date , End Date, and Fund details.
 
 ![](https://lh4.googleusercontent.com/y4yT_xrtIhDbnneQVLEJwDbxJZ7ixRIv-_H82THwcxG-G7uCYSj16Zce7IT8JFvh9aFPX4jI9nwaRPekywGpzqlaIYHmTe1OJ0BHC8MRi34-4Jl4_TGPMEI60X8ZuSyhvPQAs6TS7C5iTyxisQ)
 
-1. Click on the Search button to generate the report. These reports can be downloaded in PDF as well as Excel format.
+Click on the Search button to generate the report. These reports can be downloaded in PDF as well as Excel format.
 
-Journal Book Report
+### Journal Book Report
 
 To generate the Journal book report
 
-1. Navigate to Finance &gt; Reports &gt; Accounting Records &gt; Day Book Report option in the sidebar.
+Navigate to Finance &gt; Reports &gt; Accounting Records &gt; Day Book Report option in the sidebar.
 
 ![](https://lh6.googleusercontent.com/4B8UCr0u_hHgdVtvAVxrqmU7mOEzZFgRACjivSNct9bh3dzgVtNL4RIOxGjUOBO02MCaOnAKGfh_P_H6mmqluLROs6_Wga7nnsWHNVfbN9ZhE4t4xHoR3eOi5eMd0FoEskh4bemfBWetQsXOSQ)
 
-1. Enter the relevant Starting Date , End Date, Fund, Voucher Name, Function and Department details.
-2. Click on the Search button to generate the report. These reports can be downloaded in PDF as well as Excel format.
+Enter the relevant Starting Date , End Date, Fund, Voucher Name, Function and Department details. Click on the Search button to generate the report. These reports can be downloaded in PDF as well as Excel format.
 
-Opening Balance Report
+### Opening Balance Report
 
 To generate the Opening Balance report
 
-1. Navigate to Finance &gt; Reports &gt; Accounting Records &gt; Opening Balance Report option in the sidebar.
+Navigate to Finance &gt; Reports &gt; Accounting Records &gt; Opening Balance Report option in the sidebar.
 
 ![](https://lh5.googleusercontent.com/VG9eKk4B_PinZ32O8qBLp-H7hum_sjcaCCOhqMEixAqIyLZl5v3Z-5BsJv3y6ZNLT3I2jNg1Xy-m1cuHmfP1DCaVwtomANPVCraI8-cippZm8WpX_QFoX-35LOaWCw2-Es0xA2_GTmqKtyh-EA)
 
-1. Enter the relevant Financial Year, Fund, and Department details.
-2. Click on the Search button to generate the report. These reports can be downloaded in PDF as well as Excel format.
+Enter the relevant Financial Year, Fund, and Department details. Click on the Search button to generate the report. These reports can be downloaded in PDF as well as Excel format.
 
-Complete Bill Register Report
+### Complete Bill Register Report
 
 To generate the Complete Bill Register Report
 
-1. Navigate to Finance &gt; Reports &gt; MIS Reports &gt; Complete Bill Register Report option in the sidebar.
+Navigate to Finance &gt; Reports &gt; MIS Reports &gt; Complete Bill Register Report option in the sidebar.
 
 ![](https://lh3.googleusercontent.com/xOJmBxnLcX3veFWnmm5cnjirWezpAFv4ZatLzhO53S2zZnxoCkSD-RgtJ_BFS_05qvq7GxRxrVAp43YuAQwjh_N6PpJneXe0fdY46IjUApNsybsOLMyQoszVojN5d1KS3KSdOtZQtKvWyUNjRg)
 
-1. Enter the relevant Fund, Department, From Date, To Date, Expenditure Type, Bill Type, Voucher Number, and Bill Number details.
+Enter the relevant Fund, Department, From Date, To Date, Expenditure Type, Bill Type, Voucher Number, and Bill Number details.
 
 ![](https://lh3.googleusercontent.com/nq-TRBo_ASbH4EMS55ZWr1QJTpx5ZjEce9JWkxSPlu07qBVauYAfroq29ITpYQEMPwNGwo_SgSrKM5vdFH9tMR7c6rrsc9eKMsnD9_Pr--Qf_aU1hm6T5EYnCY9hbKFLnzjcGlrjDVZftcMYPg)
 
-1. Click on the Search button to generate the report. These reports can be downloaded in PDF as well as Excel format.
+Click on the Search button to generate the report. These reports can be downloaded in PDF as well as Excel format.
 
-Bank Advice Report for RTGS 
+### Bank Advice Report for RTGS 
 
 To generate the Bank Advice for RTGS
 
-1. Navigate to Finance &gt; Reports &gt; MIS Reports &gt; Bank Advice Report for RTGS option in the sidebar.![](https://lh5.googleusercontent.com/1FiTCFiPXSRPnpl4hDQWxvDMEXqbayGjNpfbm0JhjatCtQsyAnT0bMKkuoxBV47haubkAZGcUDWzDbky0dZpTOqomQcjNYok5GGWqwEccP_VvuTbTYkYKqzKkjX-YNbCjg-41kkWwS0_-yH4tw)
-2. Enter the relevant Bank Name, Bank Branch, Account Number, and RTGS Number details.
-3. Click on the Search button to generate the report. These reports can be downloaded in PDF as well as Excel format.
+Navigate to Finance &gt; Reports &gt; MIS Reports &gt; Bank Advice Report for RTGS option in the sidebar.
 
-RTGS Register Report
+![](https://lh5.googleusercontent.com/1FiTCFiPXSRPnpl4hDQWxvDMEXqbayGjNpfbm0JhjatCtQsyAnT0bMKkuoxBV47haubkAZGcUDWzDbky0dZpTOqomQcjNYok5GGWqwEccP_VvuTbTYkYKqzKkjX-YNbCjg-41kkWwS0_-yH4tw)
+
+Enter the relevant Bank Name, Bank Branch, Account Number, and RTGS Number details. Click on the Search button to generate the report. These reports can be downloaded in PDF as well as Excel format.
+
+### RTGS Register Report
 
 To generate RTGS Register Report
 
-1. Navigate to Finance &gt; Reports &gt; MIS Reports &gt; RTGS Register Report option in the sidebar.
+Navigate to Finance &gt; Reports &gt; MIS Reports &gt; RTGS Register Report option in the sidebar.
 
 ![](https://lh6.googleusercontent.com/l6GfymmACIUDSo6g_te69A0pvH9Dd-pB3JsEfUDj4au7e5jTdPbrvrHg3FoxvD4vaE5ZJ-YTwMm2aNrM0P1TNra8C6h4YbjP0K0Qbqxsw42J_OimhIFr_Nb5xZsodYjKUrsWsNEsq5ja7u_hFQ)
 
-1. Enter the relevant Fund, Department, RTGS Assigned From Date, RTGS Assigned To Date, Bank, Bank Branch, Account Number, and RTGS Number details.
+Enter the relevant Fund, Department, RTGS Assigned From Date, RTGS Assigned To Date, Bank, Bank Branch, Account Number, and RTGS Number details.
 
 ![](https://lh4.googleusercontent.com/hpHHuFQqdaV883TweWlSEQBRQmjWR8-O2-3srrxWj-ck_UqM7QJ1Ct7aUHAyICdxZFq3BH0fwfnORjtk6aN0GylA1T4JDmkZurVRLqvlEEBn_ZiHh1nQMUHoEC6AZY2ErylyCNrZddtDAGerfA)
 
-1. Click on the Search button to generate the report. These reports can be downloaded in PDF as well as Excel format.
+Click on the Search button to generate the report. These reports can be downloaded in PDF as well as Excel format.
 
-Voucher Status Report
+### Voucher Status Report
 
 To generate Voucher Status Report
 
-1. Navigate to Finance &gt; Reports &gt; MIS Reports &gt; Voucher Status Report option in the sidebar.
+Navigate to Finance &gt; Reports &gt; MIS Reports &gt; Voucher Status Report option in the sidebar.
 
 ![](https://lh4.googleusercontent.com/fSLXfPzHyaUG2xBx67GUzshPsm822mLbkdVoWxxi5vVfaTrQcmp-pS6NyxLXCxIxZ9zhfYWAGvDpgY1rJq1yugvfA81tFcEaW4jrloFfhuocJmPreWM6J6LtVAN_7fyI5UeZZTETJWKZlLtBVA)
 
-1. Enter the relevant Fund, Department, Voucher Type, Voucher Name, From Date, To Date, and Status details.
-2. Click on the Search button to generate the report. These reports can be downloaded in PDF as well as Excel format.
+Enter the relevant Fund, Department, Voucher Type, Voucher Name, From Date, To Date, and Status details. Click on the Search button to generate the report. These reports can be downloaded in PDF as well as Excel format.
 
-Cheque Issue Register
+### Cheque Issue Register
 
 To generate Cheque Issue Register
 
-1. Navigate to Finance &gt; Reports &gt; MIS Reports &gt; Cheque Issue Register option in the sidebar.
-2. Enter the relevant Fund, Department, Voucher Type, Voucher Name, From Date, To Date, and Status details.
-3. Click on the Search button to generate the report. These reports can be downloaded in PDF as well as Excel format. ![](https://lh3.googleusercontent.com/Z2Q_LbJ3yX2a_S7utadfDJRBr7EGEEHcAyffeCKHf18To-UbFGV2y_PCOHTegeCgnjpu-uPzRQV3p7cHc850WGbpu46ndCmeA5m1axjndcF6PfMKsfxirKbjEviCmozWpYzweeMr6Ov4Jy8ieA)
-4. Click on the Multiple link in the Bank Payment Voucher & Date columns to see the vouchers associated.
+Navigate to Finance &gt; Reports &gt; MIS Reports &gt; Cheque Issue Register option in the sidebar. Enter the relevant Fund, Department, Voucher Type, Voucher Name, From Date, To Date, and Status details.
+
+Click on the Search button to generate the report. These reports can be downloaded in PDF as well as Excel format. 
+
+![](https://lh3.googleusercontent.com/Z2Q_LbJ3yX2a_S7utadfDJRBr7EGEEHcAyffeCKHf18To-UbFGV2y_PCOHTegeCgnjpu-uPzRQV3p7cHc850WGbpu46ndCmeA5m1axjndcF6PfMKsfxirKbjEviCmozWpYzweeMr6Ov4Jy8ieA)
+
+Click on the Multiple link in the Bank Payment Voucher & Date columns to see the vouchers associated.
 
 ![](https://lh6.googleusercontent.com/uIpDjF_Nj5j6CUoCMVInndrjbR4zozJ77Dv79HPjejJ18fljmViqj5hsKP0C_Gi335hRhKRQmWXjbA4fTVjziEd6qmuI_It9NSIA7jppxj1Mw3LHtKevJErHKc_BMnQMvp33d_ong5Z_ZZc9KA)
 
-1. Click on View Voucher to see the details of the selected voucher.
-2. Surrender Cheque Report
+Click on View Voucher to see the details of the selected voucher.
+
+### Surrender Cheque Report
 
 To generate the report on the surrendered cheques
 
-1. Navigate to Finance &gt; Reports &gt; MIS Reports &gt; Surrendered Cheque option in the sidebar.
-2. Enter any or a combination of the listed parameters - Fund, Bank Branch, Bank Account, Reason for Surrender, From Date and To Date details. The report view will be filtered based on the selected parameters. The fields marked in red star are mandatory. 
+Navigate to Finance &gt; Reports &gt; MIS Reports &gt; Surrendered Cheque option in the sidebar. Enter any or a combination of the listed parameters - Fund, Bank Branch, Bank Account, Reason for Surrender, From Date and To Date details. The report view will be filtered based on the selected parameters. The fields marked in red star are mandatory. 
 
 ![](https://lh6.googleusercontent.com/INqU0WxBQl3MvgtfPsa27V7s3vUA8Odv5kpY-DdF-ei2NkVhfjogwHBvg5KOUjZR7opRVE5BUsQDb6VBI3x6ZTC32DzXzDdBycHWq_tg7ZqDGeu5Orcqz4So88F9UH7_ii1sOFXVszGXOqEyPQ)
 
-1.  Click on the Search button to generate the report. 
-2. Once the Report is generated, the user can see all the relevant information why the cheque is surrendered and the voucher attached to the cheque and so on.
+Click on the Search button to generate the report. Once the Report is generated, the user can see all the relevant information why the cheque is surrendered and the voucher attached to the cheque and so on.
 
 ![](https://lh3.googleusercontent.com/gbVaQFP9YOTZ3hKBmxYeTknaTIvNDVFfLYcbejv3InNdut2Ao2b0MUrzC6boAl2cKI1R43Nuf2w9T9sWopERDNJRaj40BZ7D1uIRQtIBUyUWyPYYT02ymgYHDcbHlEG2-uPg3EbSoZ_ROVZCdA)
 
-1. Click on the PDF or Excel button to download the report in pdf or excel format.
-2. Click the Print button to print the report.
-3. Users can drill down from the Voucher Number to see more details about the voucher that is associated with the surrendered cheque.
+Click on the PDF or Excel button to download the report in pdf or excel format. Click the Print button to print the report. Users can drill down from the Voucher Number to see more details about the voucher that is associated with the surrendered cheque.
 
 Note: Users have a feature to click on the search tab on the right top and easily navigate to the desired cheque.
 
-Remittance Pending
+### Remittance Pending
 
 To generate the Remittance Pending Report
 
