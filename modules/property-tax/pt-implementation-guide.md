@@ -1105,7 +1105,7 @@ Note:
   </tbody>
 </table>
 
-## Glossary 
+## Glossary
 
 | **PROGRAM** |
 | :--- |
