@@ -32,6 +32,8 @@
     * [PT Module Functional Specifications](modules/property-tax/pt-module-functional-specifications.md)
     * [PT Brochure](modules/property-tax/pt-brochure.md)
     * [PT Workflows](modules/property-tax/pt-workflows.md)
+    * [PT Roadmap](modules/property-tax/pt-roadmap.md)
+    * [PT Implementation Guide](modules/property-tax/pt-implementation-guide.md)
     * [PT Master Data Templates](modules/property-tax/pt-master-data-templates.md)
     * [PT Data Migration](modules/property-tax/pt-data-migration.md)
   * [Faecal Sludge Management \(FSM\)](modules/faecal-sludge-management-fsm/README.md)

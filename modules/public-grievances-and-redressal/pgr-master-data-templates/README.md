@@ -19,8 +19,8 @@ DIGIT PGR offers a variety of features to make complaint lodging and redressal e
 
 ### State Level <a id="state-level"></a>
 
-1. ​[Grievance Type](https://docs.digit.org/install-digit/configuring-master-data-templates/module-setup/pgr-data-templates/grievance-type)​
-2. ​[Grievance Subtype](https://docs.digit.org/install-digit/configuring-master-data-templates/module-setup/pgr-data-templates/grievance-sub-type)​
+1. ​[Grievance Type​](grievance-type.md)
+2. ​[Grievance Subtype​](grievance-sub-type.md)
 
 ### ULB Level <a id="ulb-level"></a>
 
