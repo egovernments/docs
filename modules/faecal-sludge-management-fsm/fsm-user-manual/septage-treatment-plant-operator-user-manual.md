@@ -14,7 +14,7 @@ SeTPO can
 
 ![](../../../.gitbook/assets/fstpo-l.png)
 
-Log in to the system with the FSTPO credentials.
+Log in to the system with the SeTPO credentials.
 
 ![](../../../.gitbook/assets/fstpo1.png)
 

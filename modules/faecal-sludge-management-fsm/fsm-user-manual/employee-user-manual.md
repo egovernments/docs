@@ -44,15 +44,15 @@ Select the applicable **Onsite Sanitation Type** from the drop down list. Enter 
 
 ![](../../../.gitbook/assets/cemp6.png)
 
-Select the **Vehicle Type** that will be required to fulfill this request. Enter the required **No. of Trips** and **Amount per Trip** details to calculate the **Total Amount** payable for the service request.
+Select the **Vehicle Type** that will be required to fulfil this request. Enter the required **No. of Trips** and **Amount per Trip** details to calculate the **Total Amount** payable for the service request.
 
 Click on the **Submit Application** button.
 
 ![](../../../.gitbook/assets/cemp7.png)
 
-The application is submitted and a **Application No.** is generated. Click on the **Download** button on the screen to generate a pdf copy of the application for future reference.
+The application is submitted and an **Application No.** is generated. Click on the **Download** button on the screen to generate a pdf copy of the application for future reference.
 
-The system will trigger notifications to the applicant mobile number with application number and status updates.
+The system will trigger notifications to the applicant mobile number with the application number and status updates.
 
 ### Make Payment
 
