@@ -14,15 +14,45 @@ Employees can -
 
 ### Create Desludging Application
 
-![Step 1 - Login as FSM Creator](../../../.gitbook/assets/employee-login.png)
+![](../../../.gitbook/assets/emp-l1.png)
 
-![Step 2 - Click on FSM card](../../../.gitbook/assets/emp-landing-pg.png)
+Log in as employee FSM Creator role.
 
-![Step 3 - Create new service request](../../../.gitbook/assets/emp-2.png)
+![](../../../.gitbook/assets/cemp1.png)
 
-![Step 4 - Enter required information in the application ](../../../.gitbook/assets/emp3.png)
+Click on the Inbox to view the list of applications created by the signed in user.
 
-![Step 5 - Note application number](../../../.gitbook/assets/emp4.png)
+Click on New Emptying of Septic Tank / Pit Application option.
+
+![](../../../.gitbook/assets/cemp2.png)
+
+Select the relevant Application Channel to indicate the channel that the employee is using to create a new service request.
+
+Enter the Applicant Name and Applicant Mobile No.
+
+![](../../../.gitbook/assets/cemp3.png)
+
+Select the relevant Property Type and Property Sub Type.
+
+![](../../../.gitbook/assets/cemp4.png)
+
+Enter the Pincode, City, Locality/Mohalla, Slum Name, Street Name, Door No. and Landmark details in the Location panel.
+
+![](../../../.gitbook/assets/cemp5.png)
+
+Select the applicable Onsite Sanitation Type from the drop down list. Enter the Pit Dimension or dimensions in meters for the selected sanitation type.
+
+![](../../../.gitbook/assets/cemp6.png)
+
+Select the Vehicle Type that will be required to fulfill this request. Enter the required No. of Trips and Amount per Trip details to calculate the Total Amount. 
+
+Click on the Submit Application button.
+
+![](../../../.gitbook/assets/cemp7.png)
+
+The application is submitted and a Application No. is generated. Click on the Download button on the screen to generate a pdf copy of the application for future reference.
+
+The system will trigger notifications to the applicant mobile number with application number and status updates.
 
 ### Make Payment
 
