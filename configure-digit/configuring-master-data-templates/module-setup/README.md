@@ -2,12 +2,6 @@
 
 Master data templates allow users to configure the key parameters and details required for the effective functioning of the modules. This section offers comprehensive information on how to configure the master data templates for each module. 
 
-{% page-ref page="trade-license-data/" %}
-
-{% page-ref page="prop-tax-data/" %}
-
-{% page-ref page="pgr-data/" %}
-
 {% page-ref page="fire-noc-data/" %}
 
 {% page-ref page="mcollect-data/" %}

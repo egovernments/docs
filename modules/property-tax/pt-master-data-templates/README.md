@@ -26,27 +26,27 @@ The main features of the product are as given below.
 
 #### State Level
 
-1. [Property Type](../../../configure-digit/configuring-master-data-templates/module-setup/prop-tax-data/property-type.md)
-2. [Property Sub Type](../../../configure-digit/configuring-master-data-templates/module-setup/prop-tax-data/property-sub-type.md)
-3. [Property Usage Major](../../../configure-digit/configuring-master-data-templates/module-setup/prop-tax-data/usage-category-major.md)
-4. [Property Usage Minor](../../../configure-digit/configuring-master-data-templates/module-setup/prop-tax-data/usage-category-minor.md)
-5. [Property Usage Sub Minor](../../../configure-digit/configuring-master-data-templates/module-setup/prop-tax-data/usage-category-sub-minor.md)
-6. [Property Usage Detail](../../../configure-digit/configuring-master-data-templates/module-setup/prop-tax-data/usage-category-detail.md)
-7. [Construction Type](../../../configure-digit/configuring-master-data-templates/module-setup/prop-tax-data/construction-type.md)
-8. [Ownership Category](../../../configure-digit/configuring-master-data-templates/module-setup/prop-tax-data/ownership-category.md)
-9. [Ownership Sub Category](../../../configure-digit/configuring-master-data-templates/module-setup/prop-tax-data/ownership-sub-category.md)
-10. [Owner’s Special Category](../../../configure-digit/configuring-master-data-templates/module-setup/prop-tax-data/owner-special-category.md)
-11. [Special Category Documents](../../../configure-digit/configuring-master-data-templates/module-setup/prop-tax-data/special-category-documents.md)
-12. [Road Type](../../../configure-digit/configuring-master-data-templates/module-setup/prop-tax-data/road-type.md)
+1. [Property Type]()
+2. [Property Sub Type]()
+3. [Property Usage Major]()
+4. [Property Usage Minor]()
+5. [Property Usage Sub Minor]()
+6. [Property Usage Detail]()
+7. [Construction Type]()
+8. [Ownership Category]()
+9. [Ownership Sub Category]()
+10. [Owner’s Special Category]()
+11. [Special Category Documents]()
+12. [Road Type]()
 
 #### ULB Level
 
-1. [Unit Rate](../../../configure-digit/configuring-master-data-templates/module-setup/prop-tax-data/unit-rates.md)
-2. [Tax Rate](../../../configure-digit/configuring-master-data-templates/module-setup/prop-tax-data/tax-rates.md)
-3. [Interest Rate](../../../configure-digit/configuring-master-data-templates/module-setup/prop-tax-data/interest-rates.md)
-4. [Penalty Rate](../../../configure-digit/configuring-master-data-templates/module-setup/prop-tax-data/penalty-rates.md)
-5. [Rebate Rate](../../../configure-digit/configuring-master-data-templates/module-setup/prop-tax-data/rebate-rates.md)
-6. [Mutation Fee](../../../configure-digit/configuring-master-data-templates/module-setup/prop-tax-data/mutation-fee.md)
+1. [Unit Rate]()
+2. [Tax Rate]()
+3. [Interest Rate]()
+4. [Penalty Rate]()
+5. [Rebate Rate]()
+6. [Mutation Fee]()
 
 ### Module Reports
 
