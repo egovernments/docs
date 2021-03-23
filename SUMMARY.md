@@ -299,6 +299,7 @@
   * [CI/CD](devops/cicd.md)
   * [Security Practices](devops/security-practices.md)
 * [Training Resources](training-and-demo/README.md)
+  * [Tech Enablement Training - Essential Skills and Pre-requisites](training-and-demo/tech-enablement-training-essential-skills-and-pre-requisites.md)
   * [Training Calendar](training-and-demo/training-calendar.md)
   * [Training Videos](training-and-demo/videos.md)
 * [Partner Support](digit-support/README.md)
