@@ -317,222 +317,224 @@ Note: Users have a feature to click on the search tab on the right top and easil
 
 To generate the Remittance Pending Report
 
-1. Navigate to Finance &gt; Reports &gt; Deduction Reports &gt; Remittance Pending option in the sidebar.
+Navigate to Finance &gt; Reports &gt; Deduction Reports &gt; Remittance Pending option in the sidebar.
 
 ![](https://lh4.googleusercontent.com/y49SRXNr6qhdCTnoi9pfXjrplYPUfpNpMxCy50lc1Pg-wvdzWyZHUu-VfHiEcdmQ2VGd_aJjiHNQBdRt67A-RAQgAV64-aCB44DrH-q9SY_-a27E_s2fjcRK7on1UINPhEvev6Z88SVbN0xcRA)
 
-1. Enter the relevant Fund, Department, Voucher Type, Voucher Name, From Date, To Date, and Status details.
+Enter the relevant Fund, Department, Voucher Type, Voucher Name, From Date, To Date, and Status details.
 
 ![](https://lh4.googleusercontent.com/ggs4K51wJUK0HTqn9XUlBEHeJHuEhavz_tEykTfShWus0tNpFAf-nO7MWPEndqXjDdP1S8ejnGFusfQ4LEKEIA3kYRXbYYAhO-tgEbjmMoEtidx_f1xCTeIyxweEAR6Ypfnnml8EyaUL424aHQ)
 
-1. Click on the Search button to generate the report. These reports can be downloaded in PDF as well as Excel format. 
+Click on the Search button to generate the report. These reports can be downloaded in PDF as well as Excel format. 
 
 Deductions Summary
 
 To generate Deduction Summary
 
-1. Navigate to Finance &gt; Reports &gt; Deduction Reports &gt; Deduction Summary option in the sidebar.
-2. Enter the relevant Recovery Code, Fund, From Date, As On Date, Department, and Party Name details.![](https://lh3.googleusercontent.com/QjHNWhaVJSF9i85pbBY4FZrC0GFz4-ifSW_3vKK5IXQgh1_hbHWmBSYKo_lxu1DVWzBVs88jHMZ9HZSrO_5jR5o0chAkaH-wHvW4V-JsTFYQpTJwgCjwT760B7f6qWwFUWs6wFZBOI_B7r3jaQ)
-3. Click on the Search button to generate the report. These reports can be downloaded in PDF as well as Excel format.![](https://lh6.googleusercontent.com/SWtG1ISzSBHxgD2ZWayq9gPqHZfNfhAHFGjscyqi8FgpkdRjcPyzC2KiJss71YZ5KYRo3ZQSx7hKVxD-qRBFf3Sm_F1emFFUOZUhxMmaO7OHIqm28e9Yq9HZ6aXWlfliaa8xZx6HG0vmgrEnjg)
+Navigate to Finance &gt; Reports &gt; Deduction Reports &gt; Deduction Summary option in the sidebar. Enter the relevant Recovery Code, Fund, From Date, As On Date, Department, and Party Name details.
 
-#### Collection Remitter
+![](https://lh3.googleusercontent.com/QjHNWhaVJSF9i85pbBY4FZrC0GFz4-ifSW_3vKK5IXQgh1_hbHWmBSYKo_lxu1DVWzBVs88jHMZ9HZSrO_5jR5o0chAkaH-wHvW4V-JsTFYQpTJwgCjwT760B7f6qWwFUWs6wFZBOI_B7r3jaQ)
+
+Click on the Search button to generate the report. These reports can be downloaded in PDF as well as Excel format.
+
+![](https://lh6.googleusercontent.com/SWtG1ISzSBHxgD2ZWayq9gPqHZfNfhAHFGjscyqi8FgpkdRjcPyzC2KiJss71YZ5KYRo3ZQSx7hKVxD-qRBFf3Sm_F1emFFUOZUhxMmaO7OHIqm28e9Yq9HZ6aXWlfliaa8xZx6HG0vmgrEnjg)
+
+## Collection Remitter
 
 The cash and cheque remittance feature is used to remit the amount into the bank account after the collection is made through the Revenu/Collection - Misc Receipt.
 
-Cash Remittance
+### Cash Remittance
 
-The cash remittance feature is used to remit the amount into the bank account after the collection is processed through Misc Receipt.  
-
+The cash remittance feature is used to remit the amount into the bank account after the collection is processed through Misc Receipt.
 
 To do the cash remittance
 
-1. Navigate to Finance &gt; Revenue/Collections &gt; Cash Remittance option in the sidebar. 
+Navigate to Finance &gt; Revenue/Collections &gt; Cash Remittance option in the sidebar. 
 
 ![](https://lh5.googleusercontent.com/fK4Zr-loVUHVoEn58R7XFE1TfC6Iatdk2-lffx0YiPTmna3sae30X9ANvHCHZG18vyDzg53tW2dIhliAejKK3e8VFNYTCauZ55M5uRenKW8NsmlBA0cxUB9ZKMO-Ea8f98IrDLkb)
 
-1. Select the Bank account number and Financial Year from the drop down. The  cash remittance search can be either done by selecting the Financial year or by the Date Range as well.
-2. Once the search parameter is selected the list of total cash collected which need to be remitted is displayed on the screen
+Select the Bank account number and Financial Year from the drop down. The  cash remittance search can be either done by selecting the Financial year or by the Date Range as well. Once the search parameter is selected the list of total cash collected which need to be remitted is displayed on the screen
 
 ![](https://lh6.googleusercontent.com/QMu1GC65D6y2YllpsMKyo0iR963ROCCYhlJG-6aSCDIT8sGCaYIDjrGmQu6RanJ2zkVL5HXZ7OoZvxD5xm9g8dqjtQA36KKZy_6dE4MScCKXHWqCRGVzntYLPEcLDb-bJiJLCHC_)
 
-1. Now the user can select a particular amount which needs to be remitted or select multiple amounts which need to be remitted into the bank account.
-2. Once the user selects the amount which needs to be remitted a pop message appears for the confirmation of receipt remittance.
+Now the user can select a particular amount which needs to be remitted or select multiple amounts which need to be remitted into the bank account. Once the user selects the amount which needs to be remitted a pop message appears for the confirmation of receipt remittance.
 
 ![](https://lh5.googleusercontent.com/JZT73_M7p0yj9yOPqcYvRTM0pL4AfJmgzMYW5CEf_eTS-r3d6JcA3H3jN2SVYphVl1FcJBMZjr6mAf4PPHKaW_6wLTReAK34x0-FBFt1AhLRz6Sf4tB9ESn9EsdMz8Ua6u-K-Fd6)
 
-1. Once the user clicks on the ok the cash remittance will be processed and the receipt number will be generated.
+Once the user clicks on the ok the cash remittance will be processed and the receipt number will be generated.
 
 ![](https://lh3.googleusercontent.com/684WD2XNah4K7ufckTqLyLzCnHlxO8xA35WEWaS4LhVyzbGGgxhZuZm7rw5i-kMXq_AvhGFTfHXQjNx7QqTYOCwdiGduUgfoinJCathw1KrtT8Uh2lxhWJpXsj6XRJwoJ4e1d6SR)
 
-1. Users can also print the bank challan as well.
+Users can also print the bank challan as well.
 
 ![](https://lh4.googleusercontent.com/mxtpedq4_MWqPUbE0HMrHqei8TYBR1bgadEmh4zDeTVtQz1tmoSIkZ3-Z2V-kFQImNwnSUq-ZrSXnvQNZF6DcG90PNHi6kP9rzr-RmHno1hwkETxql-UYjbV09OYaB8BUtdRmt1Z)
 
-Cheque Remittance
+### Cheque Remittance
 
-To do the cheque remittance  
+To do the cheque remittance
 
-
-1. Navigate to Finance &gt; Revenue/Collections &gt; Cheque Remittance option in the sidebar. 
+Navigate to Finance &gt; Revenue/Collections &gt; Cheque Remittance option in the sidebar. 
 
 ![](https://lh6.googleusercontent.com/MmzWXSJZ8tybMLpU0KUTBzixr23XwBDZMEg6iPGuHEOakH3wBEJKgIvOLlpH2cxOq2WO-PZ_F4nNQ_PWmf3URJsoKgo4fNLWqqwhGeaCq5v8I-tToxekqnzOtRWmln3sOkzcqZNT)
 
-1. Select the Bank account number and Financial Year from the drop down. The  cash remittance search can be either done by selecting the Financial year or by the Date Range as well.
-2. Once the search parameter is selected the list of total cheque collected which need to be remitted is displayed on the screen
+Select the Bank account number and Financial Year from the drop down. The  cash remittance search can be either done by selecting the Financial year or by the Date Range as well. Once the search parameter is selected the list of total cheque collected which need to be remitted is displayed on the screen
 
 ![](https://lh5.googleusercontent.com/oPuO0dutmmcO6hhNelWG1VHFhfHqQDfh5XZzMOf5ukKOVvIONAVpxP9w2CiMF50d81e_xfvQyQRmlwXL-pK060nOHOtBs1owx1jGcUZcS7sUdNn3qS_BpgmIJuIi_Kzt7rmL1DCV)
 
-1. Now the user can select a particular amount which needs to be remitted or select multiple amounts which need to be remitted into the bank account.
-2. Once the user selects the amount which needs to be remitted a pop message appears for the confirmation of receipt remittance.
+Now the user can select a particular amount which needs to be remitted or select multiple amounts which need to be remitted into the bank account. Once the user selects the amount which needs to be remitted a pop message appears for the confirmation of receipt remittance.
 
 ![](https://lh4.googleusercontent.com/TST1Q1azzWBqW62wt5b1fBHj9hJ7tXgntY246GN_APxMTJDHEVTJ4a9g_XI-yoHUAzwYGeBrpO6sRHwTTuGwJzKBcSsj3u4rat6OO3-CZPiwh30LEv_c9b2ZXhq_aexS0wz9oIvO)
 
-1. Once the user clicks on the ok the cheque remittance will be processed and the receipt number will be generated.
+Once the user clicks on the ok the cheque remittance will be processed and the receipt number will be generated.
 
 ![](https://lh4.googleusercontent.com/sOxKucKQ6sqSgJYRyuooiDfQYyaaigkQTqswn-sdW0XVFxLnIMXPBbVscsQet-ZZnpXw-TXSnDpWjma9LnRFSbYA_KfETB6Jui4O0sbI2eksob2uRsCsOTFjhpGLsoS31SzG-caC)
 
-1. Users can also print the bank challan as well.
+Users can also print the bank challan as well.
 
 ![](https://lh4.googleusercontent.com/yY7CK_sPawQ1zF00Y2YVt9UjDhmi2joT_w9HTGaWBaVAyaqMcX49ag0IB5nwko0Z_cSKbnrLmy6JHKvnGMCkuArsWR0pf4r8N3kSOc9WiH3TzoKmS10_R4FbaeBMDEbDYMufYHcC)
 
-Bank Reconciliation
+## Bank Reconciliation
 
 The Bank Reconciliation feature is used to reconcile the books of accounts with the bank statement report received from a bank. There are multiple options available under the bank reconciliations module. 
 
-Reconcile with Bank Manual 
+### Reconcile with Bank Manual 
 
-This feature is used to manually reconcile all the instruments that are currently not reconciled.  
-
+This feature is used to manually reconcile all the instruments that are currently not reconciled.
 
 To reconcile with bank manually
 
-1. Navigate to Finance &gt; Transactions &gt; Bank Reconciliation &gt; Reconcile With Bank Manual option in the sidebar. 
-2. Select the relevant Bank, Bank Account, Branch, Reconciliation Date and the Bank Statement From and To Date for which the reconciliation needs to be done. Refer to the bank statement provided by the bank to input bank statement dates.
-3. Click on the Search option to list all the instruments that are not reconciled.
+Navigate to Finance &gt; Transactions &gt; Bank Reconciliation &gt; Reconcile With Bank Manual option in the sidebar. Select the relevant Bank, Bank Account, Branch, Reconciliation Date and the Bank Statement From and To Date for which the reconciliation needs to be done. Refer to the bank statement provided by the bank to input bank statement dates.
+
+Click on the Search option to list all the instruments that are not reconciled.
 
 ![](https://lh6.googleusercontent.com/472eEGKu2yVWBNU-rhvpW6oGNFNEIeN2p9XqZ2In4wjXai_qO_A8h_IhAbZTRWCkSDeIsrATZxmf3fo1olhvNkBiN_FgyXKE5ueTp4FDxmxbCZj7HSXMhgnpc6Aw-jLL3UVeop5ERFF-rC1m3w)
 
-1. Click on the Show Pendings button to view unreconciled totals for each instrument.
+Click on the Show Pendings button to view unreconciled totals for each instrument.
 
 ![](https://lh6.googleusercontent.com/GKZI9lUTOAt4LNddZPXBSZS917vYHlCDEssDE5jWbtzUP2ltvgRfWmJTO2J7LuqTNA21IY_nRGL7eHwLDbIVqzBM8Ah_-JuO7wO8P0p7JsrNFHF3G8KY0bbJz7m26izhPXYSjppP)
 
-1. Provide the Reconciliation Date and click on the Reconcile button.![](https://lh6.googleusercontent.com/W7T-vCG9RKhQnMlBe08QbMwqeQrhm1ME8br4CSjXaHCAChGgkb5gF2bO6GapdLzimvi0PaYTviYOr09TlRI7VakWnVABAphaUt7Hnu5aZjJxhDhUsivB66yecaxbQ1cdG6ZBFe1uIpXYTe072g)
+Provide the Reconciliation Date and click on the Reconcile button.
 
-At this point the bank statements and instruments are marked as Reconciled.  
+![](https://lh6.googleusercontent.com/W7T-vCG9RKhQnMlBe08QbMwqeQrhm1ME8br4CSjXaHCAChGgkb5gF2bO6GapdLzimvi0PaYTviYOr09TlRI7VakWnVABAphaUt7Hnu5aZjJxhDhUsivB66yecaxbQ1cdG6ZBFe1uIpXYTe072g)
 
+At this point the bank statements and instruments are marked as Reconciled.
 
-Bank Statement Entries - Not in Bank Book
+### Bank Statement Entries - Not in Bank Book
 
-This feature provides the facility to capture the entries that are missing in the books of the organization when compared with the Bank statement received from Bank.  
-
+This feature provides the facility to capture the entries that are missing in the books of the organization when compared with the Bank statement received from Bank.
 
 To capture bank statement entries not in bank book
 
-1. Navigate to Finance &gt; Transactions &gt; Bank Reconciliation &gt; Bank Statement Entries - Not in Bank Book option in the sidebar. 
-2. Select the applicable Fund, Scheme, Sub Scheme, Department, Function, Bank, Bank Branch, and Account Number details. Input the mandatory details \(fields marked in red star\). ![](https://lh6.googleusercontent.com/2qCVX4p34egc_hCOJxXNNqhmoMuB0X2EwmWzD1ZOgip_iT_6DBdSsu9kW7724lxKU3ydT5UWzq-egBNgUUFsXZMNGECFYsZR_-wsfg226HqLVGKIVOMsEUGkpp3TcUNQdZDDXHv6NzLjvCvQqw)
-3. Click on the Search button to fetch entries based on the selected parameters. 
-4. Select Type as Receipts or Payments for the listed entries.
-5. Input the Account Code details and check the Create Voucher option. 
-6. Click on the Save button.
+Navigate to Finance &gt; Transactions &gt; Bank Reconciliation &gt; Bank Statement Entries - Not in Bank Book option in the sidebar. Select the applicable Fund, Scheme, Sub Scheme, Department, Function, Bank, Bank Branch, and Account Number details. Input the mandatory details \(fields marked in red star\). 
 
-System will make a voucher for the corresponding entry. If the Create Voucher option is not selected, a voucher will not be created, but an entry is made in the organization’s book which is reflected in the Reconciliation Summary Report.  
+![](https://lh6.googleusercontent.com/2qCVX4p34egc_hCOJxXNNqhmoMuB0X2EwmWzD1ZOgip_iT_6DBdSsu9kW7724lxKU3ydT5UWzq-egBNgUUFsXZMNGECFYsZR_-wsfg226HqLVGKIVOMsEUGkpp3TcUNQdZDDXHv6NzLjvCvQqw)
 
+Click on the Search button to fetch entries based on the selected parameters. Select Type as Receipts or Payments for the listed entries. Input the Account Code details and check the Create Voucher option. 
 
-Reconciliation Summary Report
+Click on the Save button.
 
-This is a summary report of how much amount is pending for reconciliation for the selected bank account.  
+System will make a voucher for the corresponding entry. If the Create Voucher option is not selected, a voucher will not be created, but an entry is made in the organization’s book which is reflected in the Reconciliation Summary Report.
 
+### Reconciliation Summary Report
+
+This is a summary report of how much amount is pending for reconciliation for the selected bank account.
 
 To generate reconciliation summary report
 
-1. Navigate to Finance &gt; Transactions &gt; Bank Reconciliation &gt; Reconciliation Summary Report option in the sidebar. 
-2. Select the applicable Bank, Branch, Bank Account, and Bank Statement Balance details. 
-3. Enter the relevant Bank Statement Date.
-4. Click on the View Summary button.
+Navigate to Finance &gt; Transactions &gt; Bank Reconciliation &gt; Reconciliation Summary Report option in the sidebar. Select the applicable Bank, Branch, Bank Account, and Bank Statement Balance details. 
+
+Enter the relevant Bank Statement Date. Click on the View Summary button.
 
 ![](https://lh6.googleusercontent.com/UUAsu5ykVT5txzhlFDIVcJmAm1MGiHrje3JCs3Cqt86DdLYwUNNk8eJStyppXzL_Yp4LkQb1tIUYIv0oM7EApOcejA_cjyEERRytTGFsyxoTNkL3G4BiGHNve_wztu7ZWEAH70mrllFVYDMqOQ)
 
 Drill downs are provided from the amount fields to see the details of the summary amount.![](https://lh5.googleusercontent.com/5H7zwutyr8EVZGWUE-kwJSPv309kwvitL2F0SwN7wQaPW9cCo-3J2xRjLMLSrPMQVzQjlHtJYiYLNBMt5sa_7B1CYtj_8E4kcJkeKHgOXiDhLvPIil70HoW0v4wTVj2wWRclU2aCxjUDRNxozw)
 
-Auto Reconcile Uploaded Statement
+### Auto Reconcile Uploaded Statement
 
-This feature provides the facility to process the reconciliation books of accounts with the Bank statement automatically by filling in the excel template with all the relevant information and uploading into the system.  
-
+This feature provides the facility to process the reconciliation books of accounts with the Bank statement automatically by filling in the excel template with all the relevant information and uploading into the system. 
 
 To auto reconcile uploaded bank statements
 
-1. Navigate to Finance &gt; Transactions &gt; Bank Reconciliation &gt; Auto Reconcile Uploaded Statement option in the sidebar. 
-2. Click on the Download Template link in blue.
-3. Once the template is downloaded the user can go through on how to update the template using the information available in the Details tab.
-4. Users must have the bank statement ready. Update the relevant information into the excel by converting the bank statement into excel format. 
-5. Select the Bank, Branch, and the Bank Account details. 
+Navigate to Finance &gt; Transactions &gt; Bank Reconciliation &gt; Auto Reconcile Uploaded Statement option in the sidebar. Click on the Download Template link in blue.
+
+Once the template is downloaded the user can go through on how to update the template using the information available in the Details tab. Users must have the bank statement ready. Update the relevant information into the excel by converting the bank statement into excel format. 
+
+Select the Bank, Branch, and the Bank Account details. 
 
 ![](https://lh4.googleusercontent.com/B6dmTnjPPpCv21awU1WRzZjnSGFs7xdG7L8fldsSWhq1YN7OdSDi1IcUrZAMsqFK78DjVDFXjuq9E2NhOtbTwSWOBb4g6Xh5yf0qlpY2bRh3nh1ZHft2qeYBLjl0iw8StrG2eM-iGuAwZIES0w)
 
-1. Click on the Choose File button to select the updated bank statement file. 
-2. Click on the Upload button to upload the bank statement.
-3. If the data provided in the file are as per the standard the records get uploaded which can be used for further processing. If there are mistakes in the data, the same will be notified in the acknowledgement page.
+Click on the Choose File button to select the updated bank statement file. Click on the Upload button to upload the bank statement.
 
-Reconcile Uploaded Statement
+If the data provided in the file are as per the standard the records get uploaded which can be used for further processing. If there are mistakes in the data, the same will be notified in the acknowledgement page.
 
-This feature provides the facility to process the bank statement uploaded in the auto-reconcile statement upload screen. The system reconciles the bank statements.   
+### Reconcile Uploaded Statement
 
+This feature provides the facility to process the bank statement uploaded in the auto-reconcile statement upload screen. The system reconciles the bank statements.  
 
 To reconcile uploaded statements
 
-1. Navigate to Finance &gt; Transactions &gt; Bank Reconciliation &gt; Reconcile Uploaded Statement option in the sidebar.
+Navigate to Finance &gt; Transactions &gt; Bank Reconciliation &gt; Reconcile Uploaded Statement option in the sidebar.
 
 ![](https://lh5.googleusercontent.com/AsmGLeAM13ziDgLorwO2FFdyvoGmveHyhgl3o8V3K0HLKrR-mCbL1NzrfVygiwZWAo1pNS3BH5gIw83Sm2gZj_Ob3_BMFfVJE9tXRPGzfRo6mwPDq4_lwSYdpT5sRiB-csROjLcd)
 
-1. Select the applicable Bank, Bank Account, Branch, Reconciliation Date, Bank Statement From Date and Bank Statement To Date to process reconciliation.
-2. Click on the Process button to trigger the auto reconciliation. System will pick all the files associated with the bank account selected and try to reconcile the instruments mentioned in the files. All instruments that system can match properly will be marked as reconciled and the remaining will come as failed. ![](https://lh5.googleusercontent.com/W-O8-gyjWt4V4GqlF-Oay14wnaaIjIQ8DhisbSID4mOGQ9msg8YL-HEScwRfYIYcqfQWqSQ_CbDuhALPBBYxq2Spzr5cJqXsHsHLMdCU6009HTfHaCuf0Bv0q9NgrP1_5Xkzs2WeK4RjVzBrFg)
-3. Click on Generate Report to see the details of entries that are not reconciled.
+Select the applicable Bank, Bank Account, Branch, Reconciliation Date, Bank Statement From Date and Bank Statement To Date to process reconciliation. Click on the Process button to trigger the auto reconciliation. System will pick all the files associated with the bank account selected and try to reconcile the instruments mentioned in the files. All instruments that system can match properly will be marked as reconciled and the remaining will come as failed. 
+
+![](https://lh5.googleusercontent.com/W-O8-gyjWt4V4GqlF-Oay14wnaaIjIQ8DhisbSID4mOGQ9msg8YL-HEScwRfYIYcqfQWqSQ_CbDuhALPBBYxq2Spzr5cJqXsHsHLMdCU6009HTfHaCuf0Bv0q9NgrP1_5Xkzs2WeK4RjVzBrFg)
+
+Click on Generate Report to see the details of entries that are not reconciled.
 
 ![](https://lh4.googleusercontent.com/Hveoe7lE0AUcExqgCUe3UgBRe24QhDxUOtusHhbcOGwkhEjsu0rP0s7aCGgNzVjt4ZInFSHs6zMeXga4BZt7AaytuqtqeKAa8vfuZJf-4eeBhm-O_GmoSAZqO-rFdR2-q3zIVFhN5QwXv_iOeQ)
 
 Failed transactions need to be assessed why the reconciliation was not processed and to amend the transaction accordingly and process again or to do manual reconciliation.  
 
 
-View Bank Statement Uploaded
+### View Bank Statement Uploaded
 
-This option is used to see all the files that are uploaded for reconciliation along with its processing status.  
-
+This option is used to see all the files that are uploaded for reconciliation along with its processing status. 
 
 To view uploaded bank statements
 
-1. Navigate to Finance &gt; Transactions &gt; Bank Reconciliation &gt; View Bank Statement Uploaded option in the sidebar.
-2. Select applicable Bank, Bank Branch, and Account Number.![](https://lh5.googleusercontent.com/naFUtkmg1wiRq64oks-cS_SSAhAxdx-Rhd97gX2s-yh-v0eouMeTza_oGsV2SB1ZmcJ3lzs-ezPrcrSMRPFjODHTGxwDSCgGrCYDO3k7o2sPn429hgQNDfpmjkfqHN7hZfUpVdehpKtnRpf09g)
-3. Select the relevant AsOnDate to specify the date till which you want to view the bank statement upload details.
-4. Click on the Search button to view the list of uploaded files.
-5. Click on the file name link to directly open the file or download and save the file into the system. 
+Navigate to Finance &gt; Transactions &gt; Bank Reconciliation &gt; View Bank Statement Uploaded option in the sidebar. Select applicable Bank, Bank Branch, and Account Number.
+
+![](https://lh5.googleusercontent.com/naFUtkmg1wiRq64oks-cS_SSAhAxdx-Rhd97gX2s-yh-v0eouMeTza_oGsV2SB1ZmcJ3lzs-ezPrcrSMRPFjODHTGxwDSCgGrCYDO3k7o2sPn429hgQNDfpmjkfqHN7hZfUpVdehpKtnRpf09g)
+
+Select the relevant AsOnDate to specify the date till which you want to view the bank statement upload details. Click on the Search button to view the list of uploaded files.
+
+Click on the file name link to directly open the file or download and save the file into the system. 
 
 ![](https://lh4.googleusercontent.com/Z04P11wNSJMKnhdYbQipFIeg7vgITmeYUXOtejq7uhjE-vwOXGIWGsLr-3n9rKCa9rHOPcFZAxhbbrSrBpIrCij2-TUyU2wWao0qElFFupgSMqdXBRKtbmKEnoHJoxUAe1p2wqqWQk_jZWwn6w)
 
-1. Open the file to view the details of all the transactions which were updated in the excel template and uploaded into the system. 
-2. The status of individual transactions  indicates whether it was uploaded successfully or was there any error in the transaction. 
-3. With the status of individual transactions updated in the file, users can take necessary action if there are any errors in updating the information in the excel file. 
-4. User can amend the error transaction and re-upload the file into the system for auto reconciliation.
+Open the file to view the details of all the transactions which were updated in the excel template and uploaded into the system. The status of individual transactions  indicates whether it was uploaded successfully or was there any error in the transaction. 
 
-View Voucher
+With the status of individual transactions updated in the file, users can take necessary action if there are any errors in updating the information in the excel file. User can amend the error transaction and re-upload the file into the system for auto reconciliation.
+
+### View Voucher
 
 To view vouchers
 
-1. Navigate to Finance &gt; Transactions &gt; View Voucher option in the sidebar.
-2. Enter the required filters to narrow down the search for specific vouchers. Enter the Voucher Number directly to fetch a specific voucher. ![](https://lh5.googleusercontent.com/_3XE3A0z_9QVpf1texSzAz510AkfJhKHMQdRedYpyqRST5T1TNWMNuF2v4LLd5zsuliyFFX135fJLU_IaZN2bzwvLuCwve7zmRUvEVoOgT4ke0oOzjoECeEoPhVke6vi91xbs1ZygZJFUI37hw)![](https://lh5.googleusercontent.com/wFXwz2PBOVR-829RVN_U8u-JSQH62guz0a0LiGNsUpF7ZqnLyhTquSElpECOnN8_xKLJtL4wOn9azMrcdwNKVMjwhlHVDJHoRJFMN-PBvgXQi5fZ2tr-wQds8BljyEP7ML2kFxiDqZm7q0qKkw)
-3. Select the applicable Voucher Type, Voucher Name, Voucher Date From, Voucher Date To, Fund, and Department details to fetch vouchers matching the given criteria. 
-4. Click on the Voucher Number link to view the details. A pop-up window opens with the basic details of the selected voucher.![](https://lh4.googleusercontent.com/nYOl0EWl8FGtZi8oLsROwXM3u1oNJtJCUtvwP42kn3_m-6Q8Q9jZxA78Yrv8DQ0KWwUxfLcPwyYR2itleEViUBcjX6yBStR5FBfFIbO1-x-NgtgCQhBXUlr9SK0GIn5uCX7oAGSdpefirprzzw)
-5. Click on the Source link in blue to open the source of the voucher.
-6. Click on the Print button to print the voucher.
+Navigate to Finance &gt; Transactions &gt; View Voucher option in the sidebar. Enter the required filters to narrow down the search for specific vouchers. Enter the Voucher Number directly to fetch a specific voucher. 
 
-Opening Balance Report
+![](https://lh5.googleusercontent.com/wFXwz2PBOVR-829RVN_U8u-JSQH62guz0a0LiGNsUpF7ZqnLyhTquSElpECOnN8_xKLJtL4wOn9azMrcdwNKVMjwhlHVDJHoRJFMN-PBvgXQi5fZ2tr-wQds8BljyEP7ML2kFxiDqZm7q0qKkw)
+
+![](https://lh5.googleusercontent.com/_3XE3A0z_9QVpf1texSzAz510AkfJhKHMQdRedYpyqRST5T1TNWMNuF2v4LLd5zsuliyFFX135fJLU_IaZN2bzwvLuCwve7zmRUvEVoOgT4ke0oOzjoECeEoPhVke6vi91xbs1ZygZJFUI37hw)
+
+Select the applicable Voucher Type, Voucher Name, Voucher Date From, Voucher Date To, Fund, and Department details to fetch vouchers matching the given criteria. 
+
+Click on the Voucher Number link to view the details. A pop-up window opens with the basic details of the selected voucher. Click on the Source link in blue to open the source of the voucher.
+
+Click on the Print button to print the voucher.
+
+![](https://lh4.googleusercontent.com/nYOl0EWl8FGtZi8oLsROwXM3u1oNJtJCUtvwP42kn3_m-6Q8Q9jZxA78Yrv8DQ0KWwUxfLcPwyYR2itleEViUBcjX6yBStR5FBfFIbO1-x-NgtgCQhBXUlr9SK0GIn5uCX7oAGSdpefirprzzw)
+
+### Opening Balance Report
 
 To generate the Opening Balance report
 
-1. Navigate to Finance &gt; Reports &gt; Accounting Records &gt; Opening Balance Report option in the sidebar.
+Navigate to Finance &gt; Reports &gt; Accounting Records &gt; Opening Balance Report option in the sidebar.
 
 ![](https://lh5.googleusercontent.com/VG9eKk4B_PinZ32O8qBLp-H7hum_sjcaCCOhqMEixAqIyLZl5v3Z-5BsJv3y6ZNLT3I2jNg1Xy-m1cuHmfP1DCaVwtomANPVCraI8-cippZm8WpX_QFoX-35LOaWCw2-Es0xA2_GTmqKtyh-EA)
 
-1. Select the applicable Financial Year, Fund and Department details. 
-2. Click on the Search button to generate the report.
-3. The report is generated. Click on the relevant Export Option to download the report in PDF or Excel format.
+Select the applicable Financial Year, Fund and Department details. Click on the Search button to generate the report.
+
+The report is generated. Click on the relevant Export Option to download the report in PDF or Excel format.
 

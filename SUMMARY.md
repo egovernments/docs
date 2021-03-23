@@ -12,6 +12,7 @@
   * [EDCR Release Notes](digit-2.3-release-notes/edcr-release-notes.md)
   * [Bill Amendment Release Notes](digit-2.3-release-notes/bill-amendment-release-notes.md)
 * [Products & Modules](modules/README.md)
+  * [Trade License \(TL\)](modules/trade-license-tl.md)
   * [Public Grievances & Redressal \(PGR\)](modules/public-grievances-and-redressal/README.md)
     * [PGR Module Functional Specifications](modules/public-grievances-and-redressal/pgr-functional-specifications.md)
     * [PGR Brochure](modules/public-grievances-and-redressal/pgr-brochure.md)
