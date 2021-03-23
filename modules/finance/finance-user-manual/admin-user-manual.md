@@ -918,7 +918,7 @@ To cancel bills
 
 Navigate to Finance &gt; Administration &gt; Cancel Bills menu option in the sidebar. Enter the specific Bill Number, From Date and To Date details. Select the applicable Fund, Department, and Expenditure Type.
 
-![](../../../.gitbook/assets/image%20%28101%29.png)
+![](../../../.gitbook/assets/image%20%28102%29.png)
 
 Click on the Search button to search for specific bills based on the selected criterion. Mark the checkbox to select the specific bill\(s\) you want to cancel. Click on the Cancel Bill button to cancel the selected bill\(s\).
 

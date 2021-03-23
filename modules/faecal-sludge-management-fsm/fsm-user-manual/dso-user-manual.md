@@ -64,7 +64,7 @@ The request is completed successfully.
 
 ### Decline Request
 
-![](../../../.gitbook/assets/image%20%28102%29.png)
+![](../../../.gitbook/assets/image%20%28103%29.png)
 
 Click on the **Take Action** button and then click on **Decline Request**.
 
