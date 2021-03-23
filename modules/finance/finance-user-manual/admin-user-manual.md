@@ -941,5 +941,5 @@ The system will show an acknowledgement message on successful cancellation.
 There are various master data that needs to be set up so that the same can be used for various purposes. This also decreases the chances of error.
 
   
-
+ [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)All content on this page by [eGov Foundation ](https://egov.org.in/)is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 

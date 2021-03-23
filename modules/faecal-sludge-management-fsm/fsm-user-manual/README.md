@@ -62,10 +62,11 @@ Refer to the table below to understand the different user roles and the scope of
 This section guides you through the details of using the FSM module for each role. Click on the relevant role below to learn more about how to use the FSM system.
 
 * Citizens
+* Employees
 * DSO
 * SeTPO
 
-This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+ [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)All content on this page by [eGov Foundation ](https://egov.org.in/)is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 
   
 
