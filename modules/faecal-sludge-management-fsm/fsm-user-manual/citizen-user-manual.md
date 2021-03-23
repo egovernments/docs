@@ -130,3 +130,29 @@ The system displays a payment acknowledgement message along with the **Payment R
 
 ![Payment Receipt View](../../../.gitbook/assets/citi-pay4.png)
 
+## Rate Services
+
+Applicants can rate the services given and provide their detailed feedback on their applications. 
+
+![](../../../.gitbook/assets/cit-feedback.png)
+
+Go to **My Applications** and click on the **View** button for the application having the status **Pending for Citizen Feedback**.
+
+![](../../../.gitbook/assets/cit-feedback1.png)
+
+Scroll down the application to the **Application Timeline** section. Click on the **Rate Us** button.
+
+![](../../../.gitbook/assets/cit-feedback2.png)
+
+Enter your ratings by clicking on the number of stars. Answer the questions on the feedback form. 
+
+![](../../../.gitbook/assets/cit-feedback3.png)
+
+Enter any additional insights in the **Comments** box. Click on the **Submit** button.
+
+![](../../../.gitbook/assets/cit-feedback4.png)
+
+The feedback is submitted.
+
+
+
