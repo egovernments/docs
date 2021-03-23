@@ -138,5 +138,15 @@ Select the applicable **Reason for Re-assign**. Select the relevant **DSO Name**
 
 The DSO is reassigned successfully.
 
+### Complete or Decline Request
 
+Employees can complete or decline service requests on behalf of the DSO.
+
+![](../../../.gitbook/assets/emp-compl-req1.png)
+
+Search for application with the status as **DSO InProgress**. Click on the **Application No.** to open it.
+
+![](../../../.gitbook/assets/image%20%28104%29.png)
+
+Scroll down the application and click on the **Take Action** button. Click on **Complete Request** or **Decline Request**. Fill in the request details on behalf of the DSO to complete or reject the request.
 
