@@ -132,7 +132,7 @@ The system displays a payment acknowledgement message along with the **Payment R
 
 ## Rate Services
 
-Applicants can rate the services given and provide their detailed feedback on their applications. 
+Applicants can rate the services given and provide detailed feedback on their applications. 
 
 ![](../../../.gitbook/assets/cit-feedback.png)
 
