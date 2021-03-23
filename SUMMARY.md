@@ -13,6 +13,7 @@
   * [Bill Amendment Release Notes](digit-2.3-release-notes/bill-amendment-release-notes.md)
 * [Products & Modules](modules/README.md)
   * [Trade License \(TL\)](modules/trade-license-tl/README.md)
+    * [TL Workflows](modules/trade-license-tl/tl-workflows.md)
     * [TL Brochure](modules/trade-license-tl/tl-brochure.md)
     * [TL Module Functional Specifications](modules/trade-license-tl/tl-module-functional-specifications.md)
   * [Public Grievances & Redressal \(PGR\)](modules/public-grievances-and-redressal/README.md)
