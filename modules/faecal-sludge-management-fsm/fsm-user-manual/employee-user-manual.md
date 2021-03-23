@@ -54,43 +54,89 @@ The application is submitted and an **Application No.** is generated. Click on t
 
 The system will trigger notifications to the applicant mobile number with the application number and status updates.
 
+### Update Application
+
+Employees can update application details on behalf of the applicant.
+
+![](../../../.gitbook/assets/emp-update-app.png)
+
+Search for the application by the application number or any other search filter. Scroll down the application and click on the **Take Action** button. Click on **Update Application**. Make the required changes and resubmit it.
+
 ### Make Payment
 
+Employees can collect the payment for the service requested at the counter. Payments can also be collected for applications raised by citizens online.
 
+![](../../../.gitbook/assets/emp-coll1.png)
 
-![Step 1 - Click on Inbox to fetch application](../../../.gitbook/assets/emp5.png)
+Navigate to the employee **Inbox**.
 
-![Step 2 - Click on the relevant application number](../../../.gitbook/assets/emp6.png)
+![](../../../.gitbook/assets/emp-coll2.png)
 
-![Step 3 - Click on Take Action button and then Collect Payment option](../../../.gitbook/assets/emp7.png)
+Search for the application in the inbox using the search filters provided. Fetch applications that has the status as **Pending for Payment.** Click on the relevant application to open it.
 
-![Step 4 - Select option to make payment ](../../../.gitbook/assets/emp8.png)
+![](../../../.gitbook/assets/emp-coll3.png)
 
-![Step 5 - Download or print receipt](../../../.gitbook/assets/emp9.png)
+Scroll down the application and click on the **Take Action** button. Click on **Collect Payment.**
+
+![](../../../.gitbook/assets/emp-coll4.png)
+
+The payment details are available on the screen. 
+
+![](../../../.gitbook/assets/emp-coll5.png)
+
+Enter the **Payer Details** to proceed with the payment. Select the **Paid By** option as **Other** in case the payment is not made by the applicant. Enter the **Payer Name** and **Payer Mobile No.** details. Else, select **Owner**. The applicant or **Payer Name** and **Payer Mobile No.** are auto-populated  from the application. 
+
+Select the relevant **Payment Mode** and proceed with the payment details. Click on **Generate Receipt** once the payment is done.
+
+![](../../../.gitbook/assets/emp-coll6.png)
+
+The **Payment Collected** acknowledgement provides the payment **Receipt No.** Click on the **Print Receipt** button to print the receipt.
 
 ![Payment receipt screen](../../../.gitbook/assets/emp10.png)
 
 ### Assign Requests to DSO
 
-![Step 1 - Click on application number in inbox to assign requests](../../../.gitbook/assets/emp11.png)
+Employees assign the received service requests to relevant DSOs for action.
 
-![](../../../.gitbook/assets/emp12.png)
+![](../../../.gitbook/assets/emp-dso-assign.png)
 
-![Step 3 - Update details](../../../.gitbook/assets/emp13.png)
+Search for applicants **Pending for DSO Assignment**. Click on the **Application No.** to open it.
 
-![Step 4 - Service amount calculation based on selected vehicle](../../../.gitbook/assets/emp14.png)
+![](../../../.gitbook/assets/emp-dso-assign1.png)
 
-![Step 5 - Application updated](../../../.gitbook/assets/emp15.png)
+Scroll down the application and click on the **Take Action** button. Click on **Assign DSO**.
 
-![Step 6 - Click on DSO rejected application](../../../.gitbook/assets/emp16.png)
+![](../../../.gitbook/assets/emp-dso-assign2.png)
 
-![Step 7 - Click on reassign DSO option](../../../.gitbook/assets/emp17.png)
+The selected **Vehicle Type** and **Vehicle Capacity \(Ltrs\)** are auto-populated from the details entered in the application. Select the relevant DSO Name from the drop-down list. The list of DSOs is populated on the basis of the selected vehicle type. 
 
-![Step 8 - Select the reason for reassigning](../../../.gitbook/assets/emp18.png)
+![](../../../.gitbook/assets/emp-dso-assign3.png)
 
-![Application reassigned](../../../.gitbook/assets/emp19.png)
+The **Expected date of completion** shows the current date by default. Change this if required. Click on the **Assign** button.
 
+![](../../../.gitbook/assets/emp-dso-assign4.png)
 
+The request is assigned to the selected DSO.
+
+### Re-assign DSO
+
+Employees can reassign to other DSOs in case the request has been rejected or declined by the DSO for some reason.
+
+![](../../../.gitbook/assets/emp-dso-reassign.png)
+
+Search for applications **Pending for DSO Approval** status. Click on the relevant **Application No.** to open it.
+
+![](../../../.gitbook/assets/emp-dso-reassign1.png)
+
+Scroll down the application and click on **Take Action** button. Click on **Re-assign DSO**.
+
+![](../../../.gitbook/assets/emp-dso-reassign2.png)
+
+Select the applicable **Reason for Re-assign**. Select the relevant **DSO Name**. Update the **Expected date of completion** if required. Click on the **Reassign** button. 
+
+![](../../../.gitbook/assets/emp-dso-reassign3.png)
+
+The DSO is reassigned successfully.
 
 
 
