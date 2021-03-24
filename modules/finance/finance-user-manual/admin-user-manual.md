@@ -940,6 +940,44 @@ The system will show an acknowledgement message on successful cancellation.
 
 There are various master data that needs to be set up so that the same can be used for various purposes. This also decreases the chances of error.
 
+### Chart of Accounts
+
+This is standard data which needs to be set up. Chart of Accounts \(COA\) are as per the National Municipal Accounting Manual or Respective State wise manual. 
+
+As per the instruction Users cannot add any codes to the list. Addition can happen only at the detailed level.
+
+To configure the Chart of Accounts
+
+Navigate to Finance &gt; Masters &gt; Chartofaccounts &gt; Chart of Accounts menu option in the sidebar. The screen displays the existing chart of account detail.
+
+![](https://lh3.googleusercontent.com/VudpUQ7CeKfgCPGnM-eroJBkFK6k-3VqPZFzs2qdobL6ZhX6hexRK1xhjSYfq2DpojJ85P0jSCgwGzMg7VU-78Cs_Riv35thLcf3L2c77uMSA1K4UaT8CT5fX6CWueLdUNt5h00_n-sYzraUJg)
+
+### Detailed Codes
+
+#### Create Detailed Codes
+
+To create detailed codes
+
+Navigate to Finance &gt; Masters &gt; Chartofaccounts &gt; Detailed Codes &gt; Create Detailed Code option in the sidebar.
+
+![](https://lh6.googleusercontent.com/0i515jVOsjxRgrsDeSwlBNYiCCH_oPQXsyLumAZ0p0uxeWvly8Sc-Gb51KPwz5DTt51lV2umxitOZ35j33S_SnHCPKoQ1v7-ixHa_mUKSixGb5SN6LM8cjHZRzoH_Us98Cdb6Bcz6aMWrTTIxg)
+
+Enter the Parent Account Code, Account Code, Name, and Description of the code. Select the Purpose and the relevant Account Detail Type for the code.
+
+Check the options Function Required, Active For Posting, and Budget Required to activate these features. Click on the Save button to save the account code details.
+
+The detailed codes will help the user add detailed heads to the Chart of Accounts.
+
+#### **View Detailed Codes**
+
+To view detailed codes
+
+Navigate to Finance &gt; Masters &gt; Chartofaccounts &gt; Detailed Codes &gt; View Detailed Code option in the sidebar.
+
+
+
+####  
+
   
  [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)All content on this page by [eGov Foundation ](https://egov.org.in/)is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 
