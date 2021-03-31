@@ -1,6 +1,6 @@
 # Training Videos
 
-{% hint style="info" %}
+{% hint style="warning" %}
 Watch out for this space as we are constantly adding on to our video library.
 {% endhint %}
 
@@ -295,8 +295,28 @@ DIGIT video tutorials provide a step-by-step guide to using the DIGIT modules. R
         </ul>
       </td>
     </tr>
+    <tr>
+      <td style="text-align:left">OBPAS Workflow</td>
+      <td style="text-align:left">
+        <p></p>
+        <ul>
+          <li><a href="https://youtu.be/UVGa46oBSE0">Architect Registration in DIGIT OBPAS Module</a>
+          </li>
+          <li><a href="https://youtu.be/cC2GRxu9BYQ">Create New Permit Order Application</a>
+          </li>
+          <li><a href="https://youtu.be/48gALXQICoY">Document Verification in the OBPAS Module</a>
+          </li>
+          <li><a href="https://youtu.be/gWcJmsaUUBw">Field Inspection for Permit Order Application Processing in OBPAS Module</a>
+          </li>
+          <li><a href="https://youtu.be/Ga0ChZ3SWpA">Fire NOC Approval for Building Permit Application Processing</a>
+          </li>
+          <li><a href="https://youtu.be/PFCYSmfHBAo">BPA Approval for Online Building Permit Order Application Processing</a>
+          </li>
+          <li><a href="https://youtu.be/eZJpIRrwwOc">Generate Permit Order</a>
+          </li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
-
-
 
