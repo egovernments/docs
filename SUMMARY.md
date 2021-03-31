@@ -301,7 +301,7 @@
 * [Training Resources](training-and-demo/README.md)
   * [Tech Enablement Training - Essential Skills and Pre-requisites](training-and-demo/tech-enablement-training-essential-skills.md)
   * [Training Calendar](training-and-demo/training-calendar.md)
-  * [Training Videos](training-and-demo/videos.md)
+  * [Training Videos](training-and-demo/training-videos.md)
 * [Partner Support](digit-support/README.md)
   * [eGov Enablement Support for DIGIT](digit-support/egov-enablement-support-for-digit.md)
   * [Troubleshooting Guide](digit-support/troubleshooting-guides.md)
