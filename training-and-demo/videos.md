@@ -317,6 +317,40 @@ DIGIT video tutorials provide a step-by-step guide to using the DIGIT modules. R
         </ul>
       </td>
     </tr>
+    <tr>
+      <td style="text-align:left">Finance Workflow</td>
+      <td style="text-align:left">
+        <p></p>
+        <ul>
+          <li><a href="https://youtu.be/ZAVVDHxYt8U">Chart of Accounts</a>
+          </li>
+          <li><a href="https://youtu.be/VbyohwHvQ2o">Deductions </a>
+          </li>
+          <li><a href="https://youtu.be/Pk0Uat4wi5s">Contractors-Suppliers </a>
+          </li>
+          <li><a href="https://youtu.be/x_ol6KurLSA">Funds</a>
+          </li>
+          <li><a href="https://youtu.be/B430Wcmy6bs">Schemes and Sub Schemes</a>
+          </li>
+          <li><a href="https://youtu.be/NVaYuTnRBPE">Function</a>
+          </li>
+          <li><a href="https://youtu.be/iCeEXrpyxjM">Sub Ledgers</a>
+          </li>
+          <li><a href="https://youtu.be/cNgbQygOJUE">Bank</a>
+          </li>
+          <li><a href="https://youtu.be/sq4jmKG0kWo">Work Order</a>
+          </li>
+          <li><a href="https://youtu.be/daJCNKJWS5A">Expense Bill</a>
+          </li>
+          <li><a href="https://youtu.be/yPRkXHYpIfA">Voucher</a>
+          </li>
+          <li><a href="https://youtu.be/xwhOhTMYTRc">Payment or Cheque Assignment</a>
+          </li>
+          <li><a href="https://youtu.be/fWeTz8I9bRs">Contractor Bill</a>
+          </li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 
