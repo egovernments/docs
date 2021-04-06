@@ -8,7 +8,7 @@ description: DIGIT New-Partner-Training-Plan (Apr-2021)
 
 Join the virtual DIGIT Technical Training sessions to learn in-depth about the platform architecture, key capabilities, and contextual applications. The insights from these sessions will help in clarifying any questions you might have in context to DIGIT products, platform configurations, customizations and integration possibilities. 
 
-{% hint style="warning" %}
+{% hint style="info" %}
 **Training Plan**  
 
 * **21st April 2021: Overview of DIGIT Implementation** 
@@ -207,5 +207,5 @@ Join the virtual DIGIT Technical Training sessions to learn in-depth about the p
   </tbody>
 </table>
 
-
+ 
 
