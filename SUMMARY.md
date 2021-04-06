@@ -76,6 +76,7 @@
       * [Citizen User Manual](modules/property-tax/pt-user-manual/citizen-user-manual.md)
       * [Employee User Manual](modules/property-tax/pt-user-manual/employee-user-manual.md)
   * [Online Building Plan Approval System \(OBPAS\)](modules/online-building-plan-approval-system-obpas/README.md)
+    * [OBPAS Brochure](modules/online-building-plan-approval-system-obpas/obpas-brochure.md)
     * [OBPAS User Manual](modules/online-building-plan-approval-system-obpas/obpas-user-manual/README.md)
       * [OBPAS Citizen User Manual](modules/online-building-plan-approval-system-obpas/obpas-user-manual/obpas-citizen-user-manual.md)
       * [OBPAS Employee User Manual](modules/online-building-plan-approval-system-obpas/obpas-user-manual/obpas-employee-user-manual.md)
