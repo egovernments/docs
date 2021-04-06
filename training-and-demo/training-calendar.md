@@ -77,9 +77,12 @@ Join the virtual DIGIT Technical Training sessions to learn in-depth about the p
       <td style="text-align:left">
         <p></p>
         <ul>
-          <li>eGov &amp; DIGIT Overview</li>
-          <li>Program Governance</li>
-          <li>People Pre-requisites</li>
+          <li><a href="../">eGov &amp; DIGIT Overview </a>
+          </li>
+          <li><a href="../">Program Governance </a>
+          </li>
+          <li><a href="tech-enablement-training-essential-skills.md">People Pre-requisites</a> 
+          </li>
           <li>Infra Pre-requisites</li>
         </ul>
       </td>

@@ -6,7 +6,7 @@ This page discusses the infrastructure requirements for DIGIT services. It also 
 
 ### Requirements
 
-DIGIT Infra is abstracted to **Kubernetes** which is an open-source containers orchestration platform that helps in abstracting variety of infra types that are being available across each state, like Physical, VMs, on-premises clouds\(**VMware, OpenStack, Nutanix**, etc.\), commercial clouds \(**Google, AWS, Azure, etc**.\), SDC and NIC into a standard infra type. Essentially it unifies various infra types into a standard and single type of infrastructure and thus DIGIT becomes **multi-cloud supported, portable, extensible, high-performant and scalable** containerized workloads and services. This facilitates both declarative configuration and automation. Kubernetes services, eco-system, support and tools are widely available.
+DIGIT Infra is abstracted to **Kubernetes** which is an open-source containers orchestration platform that helps in abstracting a variety of infra types that are being available across each state, like Physical, VMs, on-premises clouds\(**VMware, OpenStack, Nutanix**, etc.\), commercial clouds \(**Google, AWS, Azure, etc**.\), SDC and NIC into a standard infra type. Essentially it unifies various infra types into a standard and single type of infrastructure and thus DIGIT becomes **multi-cloud supported, portable, extensible, high-performant and scalable** containerized workloads and services. This facilitates both declarative configuration and automation. Kubernetes services, eco-system, support and tools are widely available.
 
 ### The basic need to provision Kubernetes Cluster
 
@@ -74,9 +74,7 @@ If you have more than one network adapter, and your Kubernetes components are no
 
 Any port numbers marked with \* are overridable, so you will need to ensure any custom ports you provide are also open.
 
-
-
-### **Complete Infra Specifications:**
+### **Complete Infra Specifications**
 
 <table>
   <thead>
@@ -93,241 +91,168 @@ Any port numbers marked with \* are overridable, so you will need to ensure any 
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left"><b>User Accounts/VPN</b>
-      </td>
-      <td style="text-align:left"><b>Dev, UAT and Prod Envs</b>
-      </td>
-      <td style="text-align:left"><b>3</b>
-      </td>
+      <td style="text-align:left">User Accounts/VPN</td>
+      <td style="text-align:left">Dev, UAT and Prod Envs</td>
+      <td style="text-align:left">3</td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>User Roles</b>
-      </td>
-      <td style="text-align:left"><b>Admin, Deploy, ReadOnly</b>
-      </td>
-      <td style="text-align:left"><b>3</b>
-      </td>
+      <td style="text-align:left">User Roles</td>
+      <td style="text-align:left">Admin, Deploy, ReadOnly</td>
+      <td style="text-align:left">3</td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>OS</b>
-      </td>
-      <td style="text-align:left"><b>Any Linux (preferably Ubuntu/RHEL)</b>
-      </td>
-      <td style="text-align:left"><b>All</b>
-      </td>
+      <td style="text-align:left">OS</td>
+      <td style="text-align:left">Any Linux (preferably Ubuntu/RHEL)</td>
+      <td style="text-align:left">All</td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>Kubernetes as a managed service or VMs to provision Kubernetes</b>
-      </td>
+      <td style="text-align:left">Kubernetes as a managed service or VMs to provision Kubernetes</td>
+      <td
+      style="text-align:left">
+        <p>Managed Kubernetes service with HA/DRS</p>
+        <p>(Or) VMs with 2 vCore, 4 GB RAM, 20 GB Disk</p>
+        </td>
+        <td style="text-align:left">
+          <p>If no managed k8s</p>
+          <p>3 VMs/env</p>
+        </td>
+        <td style="text-align:left">
+          <p>Dev - 3 VMs</p>
+          <p>UAT - 3VMs</p>
+          <p>Prod - 3VMs
+            <br />
+          </p>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Kubernetes worker nodes or VMs to provision Kube worker nodes.</td>
+      <td
+      style="text-align:left">VMs with 4 vCore, 16 GB RAM, 20 GB Disk / per env</td>
+        <td style="text-align:left">3-5 VMs/env</td>
+        <td style="text-align:left">
+          <p>DEV - 3VMs</p>
+          <p>UAT - 4VMs</p>
+          <p>PROD - 5VMs</p>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Storage (NFS/iSCSI)</td>
+      <td style="text-align:left">Storage with backup, snapshot, dynamic inc/dec</td>
+      <td style="text-align:left">1 TB/env</td>
       <td style="text-align:left">
-        <p><b>Managed Kubernetes service with HA/DRS</b>
-        </p>
-        <p><b>(Or) VMs with 2 vCore, 4 GB RAM, 20 GB Disk</b>
-        </p>
-      </td>
-      <td style="text-align:left">
-        <p><b>If no managed k8s</b>
-        </p>
-        <p><b>3 VMs/env</b>
-        </p>
-      </td>
-      <td style="text-align:left">
-        <p><b>Dev - 3 VMs</b>
-        </p>
-        <p><b>UAT - 3VMs</b>
-        </p>
-        <p><b>Prod - 3VMs<br /></b>
-        </p>
+        <p>Dev - 1000 GB</p>
+        <p>UAT - 800 GB</p>
+        <p>PROD - 1.5 TB</p>
       </td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>Kubernetes worker nodes or VMs to provision Kube worker nodes.</b>
-      </td>
-      <td style="text-align:left"><b>VMs with 4 vCore, 16 GB RAM, 20 GB Disk / per env</b>
-      </td>
-      <td style="text-align:left"><b>3-5 VMs/env </b>
-      </td>
-      <td style="text-align:left">
-        <p><b>DEV - 3VMs</b>
-        </p>
-        <p><b>UAT - 4VMs</b>
-        </p>
-        <p><b>PROD - 5VMs</b>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>Storage (NFS/iSCSI) </b>
-      </td>
-      <td style="text-align:left"><b>Storage with backup, snapshot, dynamic inc/dec</b>
-      </td>
-      <td style="text-align:left"><b>1 TB/env</b>
-      </td>
-      <td style="text-align:left">
-        <p><b>Dev - 1000 GB</b>
-        </p>
-        <p><b>UAT - 800 GB</b>
-        </p>
-        <p><b>PROD - 1.5 TB</b>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>VM Instance IOPS</b>
-      </td>
-      <td style="text-align:left"><b>Max throughput 1750 MB/s</b>
-      </td>
-      <td style="text-align:left"><b>1750 MS/s</b>
-      </td>
+      <td style="text-align:left">VM Instance IOPS</td>
+      <td style="text-align:left">Max throughput 1750 MB/s</td>
+      <td style="text-align:left">1750 MS/s</td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>Storage IOPS</b>
-      </td>
-      <td style="text-align:left"><b>Max throughput 1000 MB/s</b>
-      </td>
-      <td style="text-align:left"><b>1000 MB/s</b>
-      </td>
+      <td style="text-align:left">Storage IOPS</td>
+      <td style="text-align:left">Max throughput 1000 MB/s</td>
+      <td style="text-align:left">1000 MB/s</td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>Internet Speed</b>
-      </td>
-      <td style="text-align:left"><b>Min 100 MB - 1000MB/Sec (dedicated bandwidth)</b>
-      </td>
+      <td style="text-align:left">Internet Speed</td>
+      <td style="text-align:left">Min 100 MB - 1000MB/Sec (dedicated bandwidth)</td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>Public IP/NAT or LB</b>
-      </td>
-      <td style="text-align:left"><b>Internet-facing 1 public ip per env</b>
-      </td>
-      <td style="text-align:left"><b>3</b>
-      </td>
-      <td style="text-align:left"><b>3 Ips</b>
-      </td>
+      <td style="text-align:left">Public IP/NAT or LB</td>
+      <td style="text-align:left">Internet-facing 1 public ip per env</td>
+      <td style="text-align:left">3</td>
+      <td style="text-align:left">3 Ips</td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>Availability Region</b>
-      </td>
-      <td style="text-align:left"><b>VMs from the different region is preferable for the DRS/HA</b>
-      </td>
-      <td style="text-align:left"><b>at least 2 Regions</b>
-      </td>
+      <td style="text-align:left">Availability Region</td>
+      <td style="text-align:left">VMs from the different region is preferable for the DRS/HA</td>
+      <td style="text-align:left">at least 2 Regions</td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>Private vLan</b>
-      </td>
-      <td style="text-align:left"><b>Per env all VMs should within private vLan</b>
-      </td>
-      <td style="text-align:left"><b>3</b>
-      </td>
+      <td style="text-align:left">Private vLan</td>
+      <td style="text-align:left">Per env all VMs should within private vLan</td>
+      <td style="text-align:left">3</td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>Gateways</b>
-      </td>
-      <td style="text-align:left"><b>NAT Gateway, Internet Gateway, Payment and SMS gateway,etc</b>
-      </td>
-      <td style="text-align:left"><b>1 per env</b>
-      </td>
+      <td style="text-align:left">Gateways</td>
+      <td style="text-align:left">NAT Gateway, Internet Gateway, Payment and SMS gateway, etc</td>
+      <td style="text-align:left">1 per env</td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>Firewall</b>
-      </td>
-      <td style="text-align:left"><b>Ability to configure Inbound, Outbound ports/rules </b>
-      </td>
+      <td style="text-align:left">Firewall</td>
+      <td style="text-align:left">Ability to configure Inbound, Outbound ports/rules</td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left">
-        <p><b>Managed DataBase </b>
-        </p>
-        <p><b>(or) VM Instance</b>
-        </p>
+        <p>Managed DataBase</p>
+        <p>(or) VM Instance</p>
       </td>
       <td style="text-align:left">
-        <p><b>Postgres 12 above Managed DB with backup, snapshot, logging. </b>
-        </p>
-        <p><b>(Or) 1 VM with 4 vCore, 16 GB RAM, 100 GB Disk per env.</b>
-        </p>
+        <p>Postgres 12 above Managed DB with backup, snapshot, logging.</p>
+        <p>(Or) 1 VM with 4 vCore, 16 GB RAM, 100 GB Disk per env.</p>
       </td>
-      <td style="text-align:left"><b>per env</b>
-      </td>
+      <td style="text-align:left">per env</td>
       <td style="text-align:left">
-        <p><b>DEV - 1VMs</b>
-        </p>
-        <p><b>UAT - 1VMs</b>
-        </p>
-        <p><b>PROD - 2VMs</b>
-        </p>
+        <p>DEV - 1VMs</p>
+        <p>UAT - 1VMs</p>
+        <p>PROD - 2VMs</p>
       </td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>CI/CD server self hosted (or) Managed DevOps</b>
-      </td>
+      <td style="text-align:left">CI/CD server self-hosted (or) Managed DevOps</td>
       <td style="text-align:left">
-        <p><b>Self Hosted Jenkins : Master, Slave (VM 4vCore, 8 GB each) </b>
-        </p>
-        <p><b>(Or) Managed CI/CD:  NIC DevOps or AWS  CodeDeploy or Azure DevOps </b>
-        </p>
+        <p>Self Hosted Jenkins: Master, Slave (VM 4vCore, 8 GB each)</p>
+        <p>(Or) Managed CI/CD: NIC DevOps or AWS CodeDeploy or Azure DevOps</p>
       </td>
-      <td style="text-align:left"><b>2 VMs (Master, Slave)</b>
-      </td>
+      <td style="text-align:left">2 VMs (Master, Slave)</td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>Nexus Repo</b>
-      </td>
-      <td style="text-align:left"><b>Self hosted Artifactory Repo (Or) NIC Nexus Artifactory</b>
-      </td>
-      <td style="text-align:left"><b>1</b>
-      </td>
+      <td style="text-align:left">Nexus Repo</td>
+      <td style="text-align:left">Self-hosted Artifactory Repo (Or) NIC Nexus Artifactory</td>
+      <td style="text-align:left">1</td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>DockerRegistry</b>
-      </td>
-      <td style="text-align:left"><b>DockerHub (Or) SelfHosted private docker reg</b>
-      </td>
-      <td style="text-align:left"><b>1</b>
-      </td>
+      <td style="text-align:left">DockerRegistry</td>
+      <td style="text-align:left">DockerHub (Or) SelfHosted private docker reg</td>
+      <td style="text-align:left">1</td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>Git/SCM</b>
-      </td>
-      <td style="text-align:left"><b>GitHub (Or) Any Source Control tool</b>
-      </td>
-      <td style="text-align:left"><b>1</b>
-      </td>
+      <td style="text-align:left">Git/SCM</td>
+      <td style="text-align:left">GitHub (Or) Any Source Control tool</td>
+      <td style="text-align:left">1</td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>DNS </b>
-      </td>
-      <td style="text-align:left"><b>main domain &amp; ability to add more sub-domain</b>
-      </td>
-      <td style="text-align:left"><b>1</b>
-      </td>
+      <td style="text-align:left">DNS</td>
+      <td style="text-align:left">main domain &amp; ability to add more sub-domain</td>
+      <td style="text-align:left">1</td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>SSL Certificate</b>
-      </td>
-      <td style="text-align:left"><b>NIC managed (Or) SDC managed SSL certificate per URL</b>
-      </td>
-      <td style="text-align:left"><b>2 urls per env</b>
-      </td>
+      <td style="text-align:left">SSL Certificate</td>
+      <td style="text-align:left">NIC managed (Or) SDC managed SSL certificate per URL</td>
+      <td style="text-align:left">2 URLs per env</td>
       <td style="text-align:left"></td>
     </tr>
   </tbody>
 </table>
+
+
 

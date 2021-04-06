@@ -4,18 +4,18 @@ description: >-
   capabilities to understand before provisioning the infra and deploy DIGIT.
 ---
 
-# Setup DIGIT
+# Setup Requirements
 
 ## Overview
 
-DIGIT is the largest urban governance platform built for billions-and-billions of transactions between citizens and the state govt through various municipal services/integration. The platform is built with key capabilities like scale, speed, integration, configurable, customizable, extendable, multi-tenanted, security, etc. Here, we shall discuss the key requirements and capabilities.
+DIGIT is the largest urban governance platform built for billions and billions of transactions between citizens and the state govt through various municipal services/integration. The platform is built with key capabilities like scale, speed, integration, configurable, customizable, extendable, multi-tenanted, security, etc. Here, we shall discuss the key requirements and capabilities.
 
 ### Prerequisites
 
 Before proceeding to set up DIGIT, it is essential to know some of the key technical details about DIGIT, like architecture, tech stack, how it is packaged and deployed on various infrastructure. Some of these details are explained in the previous sections. Below are some of the key capabilities to know about DIGIT as a platform.
 
-1. DIGIT is a collection of various services built as a RESTFul APIs with OpenAPI standard
-2. DIGIT is built as a MSA \(Microservices Architecture\)
+1. DIGIT is a collection of various services built as RESTFul APIs with OpenAPI standard
+2. DIGIT is built as MSA \(Microservices Architecture\)
 3. DIGIT Services are Packaged as containers and Deployed as Docker Images.
 4. DIGIT is deployed on Kubernetes which abstracts any Cloud/Infra suitable and standardised for DIGIT deployment.
 5. DIGIT Deployment configuration, customization is done through Helm Charts.
@@ -35,7 +35,7 @@ Comparatively the best infra choice for running a microservices application arch
 
 ### Why [Kubernetes](why-kubernetes-for-digit.md)
 
-As most modern software developers can attest, containers have provided us with dramatically more flexibility for running cloud-native applications on physical and virtual infrastructure. Kubernetes allows you to deploy cloud-native applications anywhere and manage them exactly as you like everywhere. For more details refer the above link that explains various advantages of kubernetes. 
+As most modern software developers can attest, containers have provided us with dramatically more flexibility for running cloud-native applications on physical and virtual infrastructure. Kubernetes allows you to deploy cloud-native applications anywhere and manage them exactly as you like everywhere. For more details refer to the above link that explains various advantages of Kubernetes. 
 
 ### Why [Helm Charts](https://medium.com/@technospace/an-introduction-to-helm-charts-41be1544370c)
 
@@ -66,9 +66,9 @@ For being successful in the DIGIT Setup, here are certain requirements that need
     * Clouds like VMware, OpenStack, Nutanix and more, may or may not have Kubernetes as a managed service. If yes we may have to estimate only the worker nodes depending on the number of ULBs and DIGIT's municipal services that you opt.
     * In the absence of the above, you have to provision Kubernetes cluster from the plain VMs as per the general Kubernetes setup instruction and add worker nodes. 
 * Operations Skills
-  * Understanding of  Linux,  containers, VM Instances,  Load Balancers, Security Groups/Firewalls, nginx, DB Instance, Data Volumes
+  * Understanding of  Linux,  containers, VM Instances,  Load Balancers, Security Groups/Firewalls, Nginx, DB Instance, Data Volumes
   * Experience of Kubernetes, Docker, Jenkins, Helm, Infra-as-code, Terraform
-  * Experience on DevOps/SRE practice on a Microservices and modern infrastructure
+  * Experience in DevOps/SRE practice on Microservices and modern infrastructure
 
 ### High-level Action To Deploy DIGIT
 
