@@ -321,7 +321,6 @@
     * [Logging](devops/troubleshooting/logging.md)
     * [Monitoring & Alerts](devops/troubleshooting/monitoring.md)
 * [Training Resources](training-and-demo/README.md)
-  * [Training Calendar](training-and-demo/training-calendar.md)
   * [Training Videos](training-and-demo/training-videos.md)
 * [Partner Support](digit-support/README.md)
   * [eGov Enablement Support for DIGIT](digit-support/egov-enablement-support-for-digit.md)
