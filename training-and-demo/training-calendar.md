@@ -81,9 +81,10 @@ Join the virtual DIGIT Technical Training sessions to learn in-depth about the p
           </li>
           <li><a href="../">Program Governance </a>
           </li>
-          <li><a href="tech-enablement-training-essential-skills.md">People Pre-requisites</a> 
+          <li><a href="../devops/setup-digit/tech-enablement-training-essential-skills-and-pre-requisites.md">People Pre-requisites</a> 
           </li>
-          <li>Infra Pre-requisites</li>
+          <li><a href="../devops/setup-digit/cluster-requirements.md">Infra Pre-requisites </a>
+          </li>
         </ul>
       </td>
       <td style="text-align:left">Partnerships / Delivery / Tech Delivery</td>
@@ -100,9 +101,12 @@ Join the virtual DIGIT Technical Training sessions to learn in-depth about the p
       <td style="text-align:left">
         <p></p>
         <ul>
-          <li>DIGIT Architecture</li>
-          <li>Microservices</li>
-          <li>Coexistence</li>
+          <li><a href="../architecture.md">DIGIT Architecture</a>
+          </li>
+          <li><a href="../architecture.md">Microservices</a>
+          </li>
+          <li><a href="../devops/understanding-erp-stack/erp-coexistence-architecture.md">Coexistence</a>
+          </li>
         </ul>
       </td>
       <td style="text-align:left">Platform</td>
@@ -119,10 +123,14 @@ Join the virtual DIGIT Technical Training sessions to learn in-depth about the p
       <td style="text-align:left">
         <p></p>
         <ul>
-          <li>Overview</li>
-          <li>Deployment</li>
-          <li>Infra Sizing</li>
-          <li>Monitoring</li>
+          <li><a href="../configure-digit/setting-up-digit/">Overview</a>
+          </li>
+          <li><a href="../devops/digit-deployment-on-aws/deployment-architecture.md">Deployment</a>
+          </li>
+          <li><a href="../devops/setup-digit/estimating-infra.md">Infra Sizing</a>
+          </li>
+          <li><a href="https://devops.digit.org/digit-devops/14.-observability">Monitoring</a>
+          </li>
         </ul>
       </td>
       <td style="text-align:left">DevOps</td>
@@ -140,7 +148,8 @@ Join the virtual DIGIT Technical Training sessions to learn in-depth about the p
         <p></p>
         <ul>
           <li>MCS + eChallans</li>
-          <li>Finance</li>
+          <li><a href="../modules/finance/finance-user-manual/">Finance</a>
+          </li>
         </ul>
       </td>
       <td style="text-align:left">Product</td>
@@ -158,7 +167,8 @@ Join the virtual DIGIT Technical Training sessions to learn in-depth about the p
         <p></p>
         <ul>
           <li>OBPAS</li>
-          <li>PT</li>
+          <li><a href="../modules/property-tax/pt-user-manual/">PT</a>
+          </li>
         </ul>
       </td>
       <td style="text-align:left">Product</td>
@@ -174,7 +184,8 @@ Join the virtual DIGIT Technical Training sessions to learn in-depth about the p
       <td style="text-align:left">
         <p></p>
         <ul>
-          <li>Customization &amp; Configuration</li>
+          <li><a href="../customizing-digit/">Customization</a> &amp; <a href="../configure-digit/">Configuration</a>
+          </li>
         </ul>
       </td>
       <td style="text-align:left">Tech Delivery</td>
