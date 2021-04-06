@@ -4,7 +4,7 @@ description: >-
   one should have a variety of skills to manage DIGIT DevOps.
 ---
 
-# Skills Needed
+# DevOps Skills Requirements
 
 ## Hiring DevOps Resources
 
