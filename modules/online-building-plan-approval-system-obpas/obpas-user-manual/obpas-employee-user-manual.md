@@ -12,9 +12,9 @@ The Document Verifier \(DV\) is responsible for verifying the required and suppo
 
 DV can
 
-* [Send applications back to citizen]()
-* [Reject applications or Revoke applications]()
-* [Verify and forward applications]()
+* [Send applications back to citizen](obpas-employee-user-manual.md#send-application-back-to-citizen)
+* [Reject applications or Revoke applications](obpas-employee-user-manual.md#reject-application-or-revoke-applications)
+* [Verify and forward applications](obpas-employee-user-manual.md#verify-and-forward-application)
 
 ### Send application back to citizen
 
@@ -130,10 +130,10 @@ The field inspector or FI is responsible for conducting the field inspection of 
 
 The FI can
 
-* [Prepare Inspection Report]()
-* [Send applications back to citizen]()
-* [Reject applications]()
-* [Verify and forward applications]()
+* [Prepare Inspection Report](obpas-employee-user-manual.md#prepare-inspection-report)
+* [Send applications back to citizen](obpas-employee-user-manual.md#send-application-back-to-the-citizen)
+* [Reject applications](obpas-employee-user-manual.md#reject-application)
+* [Verify and forward applications](obpas-employee-user-manual.md#forward-applications)
 
 ### **Prepare Inspection Report**
 
@@ -213,9 +213,9 @@ The NOC Verifier is responsible for checking the no-objection permissions obtain
 
 **NOC Verifier can**
 
-* [Send applications back to the citizens]()
-* [Reject applications]()
-* [Forward applications]()
+* [Send applications back to the citizens](obpas-employee-user-manual.md#send-back-to-citizen)
+* [Reject applications](obpas-employee-user-manual.md#reject-applications)
+* [Forward applications](obpas-employee-user-manual.md#verify-and-forward-applications)
 
 ### **Send back to citizen**
 
@@ -287,8 +287,8 @@ The BPA Approver is responsible for approving or rejecting the application for b
 
 The BPA Approver can
 
-* [Reject applications]()
-* [Approve applications]()
+* [Reject applications](obpas-employee-user-manual.md#reject-applications-1)
+* [Approve applications](obpas-employee-user-manual.md#approve-applications)
 
 ### **Reject applications**
 

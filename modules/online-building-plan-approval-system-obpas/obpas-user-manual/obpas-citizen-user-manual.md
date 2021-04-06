@@ -12,11 +12,11 @@ Citizens represent individuals, groups, and communities who are the building own
 
 **The citizen can -**
 
-1. ​[Register stakeholders](https://docs.digit.org/v/v2.2/modules/user-manuals/bpa-manual/bpa-citizen-manual#register-stakeholders)​
-2. ​[View application status](https://docs.digit.org/v/v2.2/modules/user-manuals/bpa-manual/bpa-citizen-manual#view-application-status)​
-3. ​[Request edits](https://docs.digit.org/v/v2.2/modules/user-manuals/bpa-manual/bpa-citizen-manual#request-edits-and-approve-applications)​
-4. ​[Approve application](https://docs.digit.org/v/v2.2/modules/user-manuals/bpa-manual/bpa-citizen-manual#request-edits-and-approve-applications)​
-5. ​[Make payment](https://docs.digit.org/v/v2.2/modules/user-manuals/bpa-manual/bpa-citizen-manual#make-payment)​
+1. [​Register stakeholders](obpas-citizen-user-manual.md#register-stakeholders)​
+2. [​View application status](obpas-citizen-user-manual.md#view-application-status)​
+3. [​Request edits](obpas-citizen-user-manual.md#request-edits-and-approve-applications)​
+4. [​Approve application](obpas-citizen-user-manual.md#request-edits-and-approve-applications)​
+5. ​[Make payment](obpas-citizen-user-manual.md#make-payment)​
 
 ### **Register Stakeholders** <a id="register-stakeholders"></a>
 
@@ -154,14 +154,14 @@ Stakeholders represent the registered builders, architects, town planners, engin
 
 **Stakeholders can**
 
-* ​[Register other stakeholders](https://docs.digit.org/v/v2.2/modules/user-manuals/bpa-manual/bpa-citizen-manual#register-other-stakeholders)​
-* ​[Submit for DIGIT DCR scrutiny](https://docs.digit.org/v/v2.2/modules/user-manuals/bpa-manual/bpa-citizen-manual#submit-for-digit-dcr-scrutiny)​
-* ​[Apply for Building Permits for New Construction](https://docs.digit.org/v/v2.2/modules/user-manuals/bpa-manual/bpa-citizen-manual#apply-for-building-permits-for-new-construction)​
-* ​[Apply for Occupancy Certificates for New Building Construction](https://docs.digit.org/v/v2.2/modules/user-manuals/bpa-manual/bpa-citizen-manual#apply-for-occupancy-certificates-for-new-building-construction)​
+* [​Register other stakeholders](obpas-citizen-user-manual.md#register-other-stakeholders)​
+* [​Submit for DIGIT DCR scrutiny](obpas-citizen-user-manual.md#submit-for-digit-dcr-scrutiny)​
+* ​[Apply for Building Permits for New Construction](obpas-citizen-user-manual.md#apply-for-building-permits-for-new-construction)​
+* [​Apply for Occupancy Certificates for New Building Construction](obpas-citizen-user-manual.md#apply-for-occupancy-certificates-for-new-building-construction)​
 
 ### **Register other stakeholders** <a id="register-other-stakeholders"></a>
 
-Follow the steps outlined for [Register Stakeholders](https://docs.digit.org/v/v2.2/modules/user-manuals/bpa-manual/bpa-citizen-manual#register-stakeholders) in the Citizens section.
+Follow the steps outlined for [Register Stakeholders](obpas-citizen-user-manual.md#register-stakeholders) in the Citizens section.
 
 ### Submit for DIGIT-DCR Scrutiny <a id="submit-for-digit-dcr-scrutiny"></a>
 

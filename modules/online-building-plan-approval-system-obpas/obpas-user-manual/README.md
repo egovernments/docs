@@ -123,16 +123,16 @@ Refer to the table below to understand the different user roles and the scope of
 
 This section of the user manual guides you through the user login process. Citizens can sign up to use the module through the online web portal or the mobile application login interface.
 
-Refer to [Logging Into DIGIT]() page to learn more about DIGIT user registration, logging in, editing user profile, and logging out.
+Refer to the Logging Into DIGIT page to learn more about DIGIT user registration, logging in, editing user profile, and logging out.
 
 ## **Using BPA**
 
 This section guides you through the details of using the BPA module for each role. Click on the relevant role below to learn more about how to use the module.
 
-1. [Citizens]()
-2. [Stakeholder/Architect]()
-3. [DV]()
-4. [FI]()
-5. [NOC Verifier]()
-6. [BPA Approver]()
+1. [Citizens](obpas-citizen-user-manual.md#citizens)
+2. [Stakeholder/Architect](obpas-citizen-user-manual.md#stakeholders)
+3. [DV](obpas-employee-user-manual.md#document-verifier-dv)
+4. [FI](obpas-employee-user-manual.md#field-inspector-fi)
+5. [NOC Verifier](obpas-employee-user-manual.md#noc-verifier)
+6. [BPA Approver](obpas-employee-user-manual.md#bpa-approver)
 

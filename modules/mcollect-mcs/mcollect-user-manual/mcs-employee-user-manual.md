@@ -8,7 +8,9 @@ description: >-
 
 ## **CE And FE** <a id="ce-and-fe"></a>
 
-The counter employees or field employees collect and process the miscellaneous payments on behalf of the citizens.![](https://docs.google.com/drawings/u/0/d/sdqYT5-oQRjT_c5OP_fcsbA/image?w=303&h=297&rev=128&ac=1&parent=1GZKzf7O_6WDB5ba1gb6QUT6CqipoQzuRuWT44fTAgGo)
+The counter employees or field employees collect and process the miscellaneous payments on behalf of the citizens.
+
+![](https://docs.google.com/drawings/u/0/d/sdqYT5-oQRjT_c5OP_fcsbA/image?w=303&h=297&rev=128&ac=1&parent=1GZKzf7O_6WDB5ba1gb6QUT6CqipoQzuRuWT44fTAgGo)
 
 **The CE or FE role can -**
 
