@@ -1,117 +1,197 @@
 ---
-description: DIGIT_New-Partner-Training-Plan (Apr-2021)
+description: DIGIT New-Partner-Training-Plan (Apr-2021)
 ---
 
 # Training Calendar
 
 ![](../.gitbook/assets/digit_banner_march-02.png)
 
+Join the virtual DIGIT Technical Training sessions to learn in-depth about the platform architecture, key capabilities, and contextual applications. The insights from these sessions will help in clarifying any questions you might have in context to DIGIT products, platform configurations, customizations and integration possibilities. 
+
 {% hint style="warning" %}
-_**Training Session Plan \(April 21st, 2021\)**_
+**Training Plan**  
 
-### Session 1 - Overview of DIGIT Implementation
+* **21st April 2021: Overview of DIGIT Implementation** 
+  * **Time - 11.45 pm to 1.30 pm**
 
-Intended Audience - Leadership / Program and Tech Management
+    _Target Audience - Leadership/ Program and Tech Management_
 
-Date - 21st Apr 2021
+    Topic - Overview of DIGIT Implementation
+* **21st April 2021: DIGIT Platform Overview**  
+  * _**Session 1: Time - 2.30 pm to 3.30 pm**_ 
 
-Time - 11.45 pm - 1.30 pm
+    _Target Audience - Architects / Tech Leads_
 
-Registration Link - 
+    Topic - Session 1: DIGIT Architecture / Microservices / Coexistence
+
+  * _**Session 2: Time - 4.00 pm to 5.30 pm**_ 
+
+    _Target Audience - DevOps / Architects / Tech Leads_
+
+    Topic - Overview / Deployment / Infra Sizing / Monitoring
+* **22nd April 2021: Product Demos**  
+  * _**Session 1: Time - 11.00 am to 1.00 pm**_ 
+
+    _Target Audience - Leadership / Business Analysts / Domain Experts_
+
+    Topic - Session 1: MCS + eChallans & Finance 
+
+  * _**Session 2: Time - 2.00 pm to 4.00 pm**_ 
+
+    _Target Audience - Leadership / Business Analysts / Domain Experts_
+
+    Topic - OBPAS & PT
+* **23 rd April 2021: DIGIT Extension / Customisation possibilities**  
+  * _**Session 1: Time - 11.00 am to 1.00 pm**_ 
+
+    _Target Audience - Tech Leads / Senior Developers_
+
+    Topic - Session 1: DIGIT Customization & Configuration possibilities 
+
+  * _**Session 2: Time - 2.00 pm to 4.00 pm**_ 
+
+    _Target Audience - Architects / Tech Leads / Senior Developers_
+
+    Topic - Extension \(eChallan case study\)
 {% endhint %}
+
+**Individual event registration links** and session details are provided below. Click on the Register button to enrol for the sessions now.
 
 <table>
   <thead>
     <tr>
-      <th style="text-align:left"><em><b>Date/Time</b></em>
-      </th>
+      <th style="text-align:left">Session Plan</th>
       <th style="text-align:left"><em><b>Topics Covered</b></em>
-      </th>
-      <th style="text-align:left"><em><b>Reference</b></em>
       </th>
       <th style="text-align:left"><em><b>Owner (Team)</b></em>
       </th>
       <th style="text-align:left"><em><b>Trainers</b></em>
       </th>
-      <th style="text-align:left"><em><b>Duration</b></em>
-      </th>
+      <th style="text-align:left">Registration Link</th>
     </tr>
   </thead>
   <tbody>
     <tr>
+      <td style="text-align:left"><b>Overview of DIGIT Implementation</b>
+      </td>
       <td style="text-align:left">
-        <p>21Apr /</p>
-        <p>11.45 pm - 1.30 pm</p>
+        <p></p>
+        <ul>
+          <li>eGov &amp; DIGIT Overview</li>
+          <li>Program Governance</li>
+          <li>People Pre-requisites</li>
+          <li>Infra Pre-requisites</li>
+        </ul>
       </td>
-      <td style="text-align:left">eGov &amp; DIGIT Overview</td>
-      <td style="text-align:left"><a href="../">DIGIT</a>
-      </td>
-      <td style="text-align:left">Partnerships</td>
-      <td style="text-align:left">Ajay</td>
-      <td style="text-align:left">20 mins</td>
+      <td style="text-align:left">Partnerships / Delivery / Tech Delivery</td>
+      <td style="text-align:left">Ajay / Aayush / Omkar / Elzan / Sravan</td>
+      <td style="text-align:left">Register</td>
     </tr>
     <tr>
       <td style="text-align:left">
-        <p>21Apr /</p>
-        <p>11.45 pm - 1.30 pm</p>
+        <p><b>DIGIT Platform Overview</b>
+        </p>
+        <p><b>Session 1 </b>
+        </p>
       </td>
-      <td style="text-align:left">Program Governance</td>
-      <td style="text-align:left">Program Governance</td>
-      <td style="text-align:left">Delivery</td>
-      <td style="text-align:left">Omkar/Aayush</td>
-      <td style="text-align:left">20 mins</td>
+      <td style="text-align:left">
+        <p></p>
+        <ul>
+          <li>DIGIT Architecture</li>
+          <li>Microservices</li>
+          <li>Coexistence</li>
+        </ul>
+      </td>
+      <td style="text-align:left">Platform</td>
+      <td style="text-align:left">Tarun / Ghanshyam</td>
+      <td style="text-align:left">Register</td>
     </tr>
     <tr>
       <td style="text-align:left">
-        <p>21Apr /</p>
-        <p>11.45 pm - 1.30 pm</p>
+        <p><b>DIGIT Platform Overview</b>
+        </p>
+        <p><b>Session 2</b>
+        </p>
       </td>
-      <td style="text-align:left">People prerequisites</td>
-      <td style="text-align:left"><a href="tech-enablement-training-essential-skills.md">Skills &amp; Pre-requisites</a>/Team
-        Composition</td>
-      <td style="text-align:left">Delivery</td>
-      <td style="text-align:left">Elzan</td>
-      <td style="text-align:left">30 mins</td>
+      <td style="text-align:left">
+        <p></p>
+        <ul>
+          <li>Overview</li>
+          <li>Deployment</li>
+          <li>Infra Sizing</li>
+          <li>Monitoring</li>
+        </ul>
+      </td>
+      <td style="text-align:left">DevOps</td>
+      <td style="text-align:left">Gajendran</td>
+      <td style="text-align:left">Register</td>
     </tr>
     <tr>
       <td style="text-align:left">
-        <p>21Apr /</p>
-        <p>11.45 pm - 1.30 pm</p>
+        <p><b>Product Demos</b>
+        </p>
+        <p><b>Session 1</b>
+        </p>
       </td>
-      <td style="text-align:left">Infra prerequisites</td>
-      <td style="text-align:left">Infra Provisioning</td>
-      <td style="text-align:left">Tech-delivery</td>
-      <td style="text-align:left">Elzan/Sravan</td>
-      <td style="text-align:left">30 mins</td>
+      <td style="text-align:left">
+        <p></p>
+        <ul>
+          <li>MCS + eChallans</li>
+          <li>Finance</li>
+        </ul>
+      </td>
+      <td style="text-align:left">Product</td>
+      <td style="text-align:left">Ajit / Satish N</td>
+      <td style="text-align:left">Register</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p><b>Product Demos</b>
+        </p>
+        <p><b>Session 2</b>
+        </p>
+      </td>
+      <td style="text-align:left">
+        <p></p>
+        <ul>
+          <li>OBPAS</li>
+          <li>PT</li>
+        </ul>
+      </td>
+      <td style="text-align:left">Product</td>
+      <td style="text-align:left">Sankar / Ajit</td>
+      <td style="text-align:left">Register</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p></p>
+        <p><b>DIGIT Extension / Customisation possibilities Session 1</b>
+        </p>
+      </td>
+      <td style="text-align:left">
+        <p></p>
+        <ul>
+          <li>Customization &amp; Configuration</li>
+        </ul>
+      </td>
+      <td style="text-align:left">Tech Delivery</td>
+      <td style="text-align:left">Pradeep / Ramki</td>
+      <td style="text-align:left">Register</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>DIGIT Extension / Customisation possibilities Session 2</b>
+      </td>
+      <td style="text-align:left">
+        <ul>
+          <li>Extension (eChallan case study)</li>
+        </ul>
+      </td>
+      <td style="text-align:left">Engineering</td>
+      <td style="text-align:left">Satish P/ Ghanshyam</td>
+      <td style="text-align:left">Register</td>
     </tr>
   </tbody>
 </table>
-
-### DIGIT Platform Overview
-
-{% hint style="warning" %}
-_**Session 1 - DIGIT Architecture/Microservices/ Coexistence**_
-
-_Intended Audience - Architects / Tech Leads_
-
-_Date - 21st Apr 2021_
-
-_Time - 2.30 pm - 3.30 pm_
-
-_Registration Link -_ 
-
-_**Session 2 - Deployment/Infra Sizing/ Monitoring**_
-
-_**I**ntended Audience - DevOps / Architects / Tech Leads_
-
-_Date - 21st Apr 2021_
-
-_Time - 4 pm - 5.30 pm_
-
-_Registration Link -_ 
-{% endhint %}
-
-
 
 
 
