@@ -4,7 +4,7 @@ description: DIGIT New-Partner-Training-Plan (Apr-2021)
 
 # Training Event
 
-![](.gitbook/assets/digit_banner_march-03.png)
+![](.gitbook/assets/digit_banner_march-03-1-.png)
 
 Join the virtual DIGIT Technical Training sessions to learn in-depth about the DIGIT platform architecture, key capabilities, and applications. These sessions will help understand DIGIT products, platform configurations, customizations and extension possibilities.
 
@@ -177,7 +177,7 @@ Join the virtual DIGIT Technical Training sessions to learn in-depth about the D
       </td>
       <td style="text-align:left">
         <p></p>
-        <p><b>DIGIT Extension / Customisation possibilities Session 1</b>
+        <p><b>DIGIT Extension / Customisation Session 1</b>
         </p>
       </td>
       <td style="text-align:left">
@@ -200,7 +200,7 @@ Join the virtual DIGIT Technical Training sessions to learn in-depth about the D
         <p>23rd April 2021</p>
         <p>(2.00 pm to 4.00 pm)</p>
       </td>
-      <td style="text-align:left"><b>DIGIT Extension / Customisation possibilities Session 2</b>
+      <td style="text-align:left"><b>DIGIT Extension / Customisation Session 2</b>
       </td>
       <td style="text-align:left">
         <ul>
