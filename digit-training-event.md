@@ -19,8 +19,6 @@ Join the virtual DIGIT Technical Training sessions to learn in-depth about the D
       </th>
       <th style="text-align:left"><b>Topics Covered</b>
       </th>
-      <th style="text-align:left"><b>Trainers</b>
-      </th>
       <th style="text-align:left"><b>Target Audience</b>
       </th>
       <th style="text-align:left"><b>Registration Link</b>
@@ -49,7 +47,6 @@ Join the virtual DIGIT Technical Training sessions to learn in-depth about the D
           </li>
         </ul>
       </td>
-      <td style="text-align:left">Ajay / Aayush / Omkar / Elzan / Sravan</td>
       <td style="text-align:left">
         <p></p>
         <p>Leadership/ Program and Tech Management</p>
@@ -79,7 +76,6 @@ Join the virtual DIGIT Technical Training sessions to learn in-depth about the D
           </li>
         </ul>
       </td>
-      <td style="text-align:left">Tarun / Ghanshyam</td>
       <td style="text-align:left">
         <p></p>
         <p>Architects / Tech Leads</p>
@@ -111,7 +107,6 @@ Join the virtual DIGIT Technical Training sessions to learn in-depth about the D
           </li>
         </ul>
       </td>
-      <td style="text-align:left">Gajendran</td>
       <td style="text-align:left">
         <p></p>
         <p>DevOps / Architects / Tech Leads</p>
@@ -140,7 +135,6 @@ Join the virtual DIGIT Technical Training sessions to learn in-depth about the D
           </li>
         </ul>
       </td>
-      <td style="text-align:left">Ajit / Satish N</td>
       <td style="text-align:left">Leadership / Business Analysts / Domain Experts</td>
       <td style="text-align:left"><a href="https://us02web.zoom.us/webinar/register/WN_tbT7LrNsSFG4GQ2xd02rQA">Register</a>
       </td>
@@ -165,7 +159,6 @@ Join the virtual DIGIT Technical Training sessions to learn in-depth about the D
           </li>
         </ul>
       </td>
-      <td style="text-align:left">Sankar / Ajit</td>
       <td style="text-align:left">Leadership / Business Analysts / Domain Experts</td>
       <td style="text-align:left"><a href="https://us02web.zoom.us/webinar/register/WN_TS-kdS8wT8Cm0v6f4OYgmw">Register</a>
       </td>
@@ -187,7 +180,6 @@ Join the virtual DIGIT Technical Training sessions to learn in-depth about the D
           </li>
         </ul>
       </td>
-      <td style="text-align:left">Pradeep / Ramki</td>
       <td style="text-align:left">
         <p></p>
         <p>Tech Leads / Senior Developers</p>
@@ -207,7 +199,6 @@ Join the virtual DIGIT Technical Training sessions to learn in-depth about the D
           <li>Extension case study</li>
         </ul>
       </td>
-      <td style="text-align:left">Satish P/ Ghanshyam</td>
       <td style="text-align:left">
         <p></p>
         <p>Architects / Tech Leads / Senior Developers</p>
