@@ -177,7 +177,7 @@ Join the virtual DIGIT Technical Training sessions to learn in-depth about the D
       </td>
       <td style="text-align:left">
         <p></p>
-        <p><b>DIGIT Extension / Customisation Session 1</b>
+        <p><b>DIGIT Extension / Customisation possibilities Session 1</b>
         </p>
       </td>
       <td style="text-align:left">
@@ -200,7 +200,7 @@ Join the virtual DIGIT Technical Training sessions to learn in-depth about the D
         <p>23rd April 2021</p>
         <p>(2.00 pm to 4.00 pm)</p>
       </td>
-      <td style="text-align:left"><b>DIGIT Extension / Customisation Session 2</b>
+      <td style="text-align:left"><b>DIGIT Extension / Customisation possibilities Session 2</b>
       </td>
       <td style="text-align:left">
         <ul>
