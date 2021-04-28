@@ -6,7 +6,7 @@ description: Browse details on configuring master data template
 
 ## Introduction <a id="introduction"></a>
 
-Grievance sub-type defines the second level of classification of grievances which are related to ULB’s functions and adds detail to a grievance type.
+The grievance sub-type defines the second level of classification of grievances which are related to ULB’s functions and adds detail to a grievance type.
 
 ## Data Table <a id="data-table"></a>
 
@@ -18,7 +18,7 @@ The data table below represents the structure of the template and given here to 
 | 2 | SLS02 | Street Light Not Working | स्ट्रीट लाइट काम नहीं कर रही है | SLS | TP | 48 |
 | 3 | WNS01 | Illegal Discharge of Sewage | सीवेज का अवैध निपटान | WNS | PHS | 48 |
 
-Data given in the table is a sample data.
+The data given in the table is sample data.
 
 ## Procedure <a id="procedure"></a>
 
@@ -29,7 +29,7 @@ Data given in the table is a sample data.
 | 1 | Grievance Subtype Code | Alphanumeric | 64 | Yes | Unique code is given to the grievance subtype and is used to uniquely identify the complaint subtype. E.g. SLS01 given above in data table to identify Street Lights complaint subtype |
 | 2 | Grievance Subtype \(In English\) | Text | 256 | Yes | This is the text or string stating grievance subtype in English |
 | 3 | Grievance Subtype \(In Local Language\) | Text | 256 | Yes | This the text or string stating the grievance subtype in local language like Hindi, Telugu etc. whatever is applicable |
-| 4 | Grievance Type Code | Reference | 64 | Yes | Reference to parent grievance type code from the [Grievance Type](https://docs.digit.org/install-digit/configuring-master-data-templates/module-setup/pgr-data-templates/grievance-type) entity |
+| 4 | Grievance Type Code | Reference | 64 | Yes | Reference to parent grievance type code from the[ Grievance Type](grievance-type.md) entity |
 | 5 | Department Code | Reference | 64 | Yes | Unique department code from the [ULB's Departments](https://docs.digit.org/install-digit/configuring-master-data-templates/environment-setup/state-level-setup/ulb-departments) entity |
 | 6 | SLA \(In Hours\) | Decimal | \(5,2\) | Yes | This field defined the service level agreements in hours. This the time within which a complaint raised to be resolved |
 

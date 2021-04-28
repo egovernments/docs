@@ -19,8 +19,8 @@ The data given in the table above is sample data.
 
 | Sr. No. | Column Name | Data Type | Data Size | Is Mandatory? | Definition/ Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | Service Category | Text | 250 | Yes | The type of category which is to be mapped with the relevant service subcategory. Click [here](https://docs.digit.org/configure-digit/configuring-master-data-templates/module-setup/mcollect-data/service-category) for Service category reference |
-| 2 | Service Subcategory \(English\) | Text | 250 | Yes | Name of “Service Sub-category” in English. This will help the user to select the Subcategory name while doing the collection. Click [here](https://docs.digit.org/configure-digit/configuring-master-data-templates/module-setup/mcollect-data/service-sub-category) for Service Subcategory reference |
+| 1 | Service Category | Text | 250 | Yes | The type of category which is to be mapped with the relevant service subcategory. Click[ here](service-category.md) for Service category reference |
+| 2 | Service Subcategory \(English\) | Text | 250 | Yes | Name of “Service Sub-category” in English. This will help the user to select the Subcategory name while doing the collection. Click[ here](service-sub-category.md) for Service Subcategory reference |
 | 3 | Service Subcategory \(local Language\) | Text | 250 | Yes | Name of “Service Sub-category” in Local Language. This will help the user to select the Subcategory name while doing the collection |
 | 4 | GLCODE | Alphanumeric | 50 | Yes | General Ledger Code \(GL Code\) is a string of alphanumeric characters assigned to each Service. Click [here](https://docs.digit.org/configure-digit/configuring-master-data-templates/module-setup/finance-data/sub-ledger-category) for the General Ledger Code Reference |
 | 5 | ULB CODE | Alphanumeric | 50 | No | The CODE which is specified and assigned to each ULB. It refers to the [department](https://docs.digit.org/configure-digit/configuring-master-data-templates/environment-setup/state-level-setup/ulb-departments)​ |

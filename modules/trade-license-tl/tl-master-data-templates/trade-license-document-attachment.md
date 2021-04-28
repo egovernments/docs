@@ -2,7 +2,7 @@
 
 ## Introduction <a id="Introduction"></a>
 
-Along with the [rates](https://docs.digit.org/configure-digit/configuring-master-data-templates/module-setup/trade-license-data/trade-license-fee), the Trade License application process does require certain documents as an attachment of proof. The proof can be defined by a set of documents ranging from
+Along with the [rates](trade-license-fee.md), the Trade License application process does require certain documents as an attachment of proof. The proof can be defined by a set of documents ranging from
 
 * Identification Proof \(Drivers License/ Voter Card/ Adhaar/ Pan etc.\)
 * Trade Premises Proof \(Lease Agreement, Electricity Bills, etc\).
@@ -23,7 +23,7 @@ The table above contains sample data.
 
 | Sr. No. | Column Name | Data Type | Data Size | Is Mandatory? | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | Trade Sub Type Code | Reference | 64 | Yes | The Code assigned to the [Trade Sub Type](https://docs.digit.org/configure-digit/configuring-master-data-templates/module-setup/trade-license-data/trade-sub-type). Eg: TRADE\_SMALL\_BAKERY is assigned to Bakery |
+| 1 | Trade Sub Type Code | Reference | 64 | Yes | The Code assigned to the[ Trade Sub Type](trade-sub-type.md). Eg: TRADE\_SMALL\_BAKERY is assigned to Bakery |
 | 2 | Trade Sub Type Name \(English\) | Text | 256 | Yes | Name of the Trade Sub Type in English Eg: Clinic |
 | 3 | Application Type | Text | 256 | Yes | Type of application for which the documents related to trade are configured. It can either be new or renewal |
 | 4 | Document 1 | Reference | 256 | Yes | The primary document required as a verification parameter. Refer to the [Standard Document List](https://docs.digit.org/configure-digit/configuring-master-data-templates/module-setup/common-config/standard-document-list)​ |
@@ -34,14 +34,14 @@ The table above contains sample data.
 1. Download the data template attached to this page.
 2. Get a good understanding of all the headers in the template sheet, their data type, size, and definitions by referring to the ‘Data Definition’ section of this document.
 3. In case of any doubt, please reach out to the person who has shared this template with you to discuss and clear your doubts.
-4. Identify the “[Trade Sub Types](https://docs.digit.org/configure-digit/configuring-master-data-templates/module-setup/trade-license-data/trade-sub-type)” that exists at a ULB/ State level.
+4. Identify the “[Trade Sub Types](trade-sub-type.md)” that exists at a ULB/ State level.
 5. Collect the above information and feed it below the “Trade Sub Type Name” column accordingly. The Description of Trade Sub Type Name must be provided as per the language specified in the respective column.
 6. Add the “Trade Sub Type Code” respectively against the identified trade type\(s\).
 7. Fill in the \*Document 1 & \*Document 2 columns respectively.
 
 ## Checklist <a id="checklist"></a>
 
-The checklist is a set of activities to be performed one the data is filled into a template to ensure data type, size, and format of data is as per the expectation. These activities have been divided into 2 groups as given below.
+The checklist is a set of activities to be performed once the data is filled into a template to ensure data type, size, and format of data is as per the expectation. These activities have been divided into 2 groups as given below.
 
 ### Common Checklist <a id="common-checklist"></a>
 

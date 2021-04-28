@@ -15,7 +15,7 @@ The Service Category masters list allows States/ULBs to identify the miscellaneo
 | 1 | OFF00034 | Other Fee and Fines | अन्य शुल्क और जुर्माना |
 | 2 | SAC00456 | Service and Administration Charges | सेवा और प्रशासन प्रभार |
 
-Data given in the table is a sample data.
+The data given in the table is sample data.
 
 ## Procedure <a id="procedure"></a>
 

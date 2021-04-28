@@ -4,7 +4,7 @@
 
 Once the Trade Ontology is defined, the next step is to allocate the license fee associated with the Trades.
 
-Dependent on the Trade Classification Level \([Types](trade-type.md)/ [Subtypes](trade-sub-type.md)\), the fee allocated might be the same across the Sate or could vary from ULB to ULB. There could be a distinct fee\(s\) for two different types of applications \(new and renewal\).
+Dependent on the Trade Classification Level \([Types](https://docs.digit.org/configure-digit/configuring-master-data-templates/module-setup/trade-license-data/trade-type)/ [Subtypes](https://docs.digit.org/configure-digit/configuring-master-data-templates/module-setup/trade-license-data/trade-sub-type)\), the fee allocated might be the same across the Sate or could vary from ULB to ULB. There could be a distinct fee\(s\) for two different types of applications \(new and renewal\).
 
 Following are the key tasks to be executed :
 
@@ -25,10 +25,10 @@ The table above contains sample data.
 
 | Sr. No. | Column Name | Data Type | Data Size | Is Mandatory? | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | Trade Sub Type Code | Reference | 64 | Yes | The Code assigned to the [Trade Sub Type](trade-sub-type.md). Eg: TRADE\_SMALL\_BAKERY is assigned to Bakery |
+| 1 | Trade Sub Type Code | Reference | 64 | Yes | The Code assigned to the [Trade Sub Type](https://docs.digit.org/configure-digit/configuring-master-data-templates/module-setup/trade-license-data/trade-sub-type). Eg: TRADE\_SMALL\_BAKERY is assigned to Bakery |
 | 2 | Trade Sub Type Name \(In English\) | Text | 256 | Yes | Name of the Trade Sub Type in English. Eg: Small Bakery |
-| 3 | New License Fee | Decimal | \(6,2\) | Yes | The fee charged when the license applied for the respective trade for the first time. |
-| 4 | Renewal License Fee | Decimal | \(6,2\) | Yes | The fee charged when the license applied for the respective trade for the renewal. |
+| 3 | New License Fee | Decimal | \(6,2\) | Yes | The fee charged as when the license applied for the respective trade for the first time. |
+| 4 | Renewal License Fee | Decimal | \(6,2\) | Yes | The fee charged as when the license applied for the respective trade for the renewal. |
 | 5 | UOM | Text | 64 | No | The Units of Measurement” associated with the Trade. Eg: Workers is the UOM associated with the trade “Bakery” |
 | 6 | UOM From | Integer | 6 | No | Initial Range from which the “Units of Measurement” is applicable for a Trade |
 | 7 | UOM To | Integer | 6 | No | Final Range to which the “Units of Measurement” is applicable to a Trade |
@@ -37,7 +37,7 @@ The table above contains sample data.
 
 1. Download the data template attached to this page.
 2. Get a good understanding of all the headers in the template sheet, their data type, size, and definitions by referring to the ‘Data Definition’ section of this document.
-3. Identify the “[Trade Sub Types](trade-sub-type.md)” that exists at a ULB/ State level.
+3. Identify the “[Trade Sub Types](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/edit-v2/451346455)” that exists at a ULB/ State level.
 4. Collect the above information and feed it below the “Trade Sub Type Name” column accordingly. The Description of Trade Sub Type Name must be provided as per the language specified in the respective column.
 5. Add the “Trade Sub Type Code” respectively against the identified trade type\(s\).
 6. Fill in the New License Fee & New Renewal Fee accordingly. The New License Fee & Renewal Fee can be the same as well as distinct, depending on the by-laws/ mandate followed by the State/ULB.

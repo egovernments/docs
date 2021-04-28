@@ -4,7 +4,7 @@
 
 Trade Type can be further sub-classified into Trade Sub Type depending on the trade ontology existing in the ULBs or States. Hence, Hotels can be further classified into Dhabas in North India or Udupis in South India.
 
-Once the[ Trade Type\(s\)](trade-type.md) are defined, the next task is to -
+Once the [Trade Type\(s\)](https://docs.digit.org/configure-digit/configuring-master-data-templates/module-setup/trade-license-data/trade-type) are defined, the next task is to -
 
 * Define Trade Sub Types
 * Map Trade Types to corresponding Trade Sub Types
@@ -27,7 +27,7 @@ The table above contains sample data.
 | 1 | Trade Sub Type Code | Alphanumeric | 64 | Yes | The Code assigned to the Trade Sub Type. Eg: TRADE\_TYPE\_Dhaba is assigned to Hotels |
 | 2 | Trade Sub Type Name \(In English\) | Text | 256 | Yes | Name of the Trade Sub Type in English. Eg: Clinic |
 | 3 | Trade Sub Type Name \(In Local Language\) | Text | 256 | Yes | Name of the Trade Sub Type in Local Language \(as decided\). Eg: Dhaba is described as “ढाबा” in Hindi |
-| 4 | Trade Type Code | Reference | 64 | Yes | The Code assigned to the [Trade Type.](trade-type.md) Eg: TRADE\_TYPE\_MEDICAL is assigned to Hospitals |
+| 4 | Trade Type Code | Reference | 64 | Yes | The Code assigned to the [Trade Type](https://docs.digit.org/configure-digit/configuring-master-data-templates/module-setup/trade-license-data/trade-type). Eg: TRADE\_TYPE\_MEDICAL is assigned to Hospitals |
 
 ### Steps to fill data <a id="steps-to-fill-data"></a>
 

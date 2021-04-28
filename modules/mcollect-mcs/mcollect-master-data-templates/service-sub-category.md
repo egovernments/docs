@@ -4,7 +4,7 @@
 
 The Service Subcategory refers to the secondary level of services. For instance, the Sanitation Tax service describes the specific tax collection service existing at the ULB level.
 
-Before creating the Service Subcategory make sure you have created the [Service Category](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/409207301/Service+Category) list. Map the Service Subcategory to the corresponding Service Category.
+Before creating the Service Subcategory make sure you have created the [Service Category](service-category.md) list. Map the Service Subcategory to the corresponding Service Category.
 
 ## Data Table <a id="data-table"></a>
 
@@ -13,7 +13,7 @@ Before creating the Service Subcategory make sure you have created the [Service 
 | 1 | SANT0045 | Sanitation Tax | स्वच्छता कर | TAX00147 | Taxes |
 | 2 | PEF0478 | Parks Entry Fee | पार्क प्रवेश शुल्क | EFEE0785 | Entry Fee |
 
-Data given in the table is a sample data.
+The data given in the table is sample data.
 
 ## Procedure <a id="procedure"></a>
 

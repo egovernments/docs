@@ -6,7 +6,7 @@ description: Browse details on configuring master data template
 
 ## Introduction <a id="introduction"></a>
 
-A grievance is a formal complaint submitted to a ULB. Something wrong or something believed to cause distress in services provided by the ULB is considered as grounds for complaint. Grievances which are closely associated with ULB’s functions classified into different buckets, that different sections of ULB deal with are known as grievance types.
+A grievance is a formal complaint submitted to a ULB. Something wrong or something believed to cause distress in services provided by the ULB is considered as grounds for complaint. Grievances that are closely associated with ULB’s functions classified into different buckets, that different sections of ULB deal with are known as grievance types.
 
 ## Data Table <a id="data-table"></a>
 
@@ -16,7 +16,7 @@ A grievance is a formal complaint submitted to a ULB. Something wrong or somethi
 | 2 | GBG | Garbage | कचरा |
 | 3 | DRN | Drains | नाली |
 
-Data given in the table is a sample data.
+The data given in the table is sample data.
 
 ## Procedure <a id="procedure"></a>
 
@@ -45,7 +45,7 @@ The checklist is a set of activities to be performed once the data is filled int
 
 This checklist covers all the activities which are common across the entities.
 
-To see common checklist refer to the page [Checklist](https://docs.digit.org/install-digit/configuring-master-data-templates/module-setup/untitled-1/checklist) consisting of all the activities which are to be followed to ensure completeness and quality of data.
+To see a common checklist refer to the page [Checklist](https://docs.digit.org/install-digit/configuring-master-data-templates/module-setup/untitled-1/checklist) consisting of all the activities which are to be followed to ensure completeness and quality of data.
 
 ### Entity Specific Checklist <a id="entity-specific-checklist"></a>
 

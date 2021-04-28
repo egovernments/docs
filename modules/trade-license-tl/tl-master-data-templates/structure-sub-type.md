@@ -24,7 +24,7 @@ The table above contains sample data.
 | 1 | Code | Alphanumeric | 64 | Yes | Unique code to identify each and every record uniquely |
 | 2 | Structure Sub Type\* \(In English\) | Text | 256 | Yes | Structure sub type in English |
 | 3 | Structure Sub Type\* \(In Local Language\) | Text | 256 | Yes | Structure sub type in local language e.g. in Hindi, Telugu etc. |
-| 4 | Structure Type Code\* | Reference | 64 | Yes | Unique code of structure type to establish the mapping with [Structure Type](https://docs.digit.org/configure-digit/configuring-master-data-templates/module-setup/trade-license-data/structure-type)​ |
+| 4 | Structure Type Code\* | Reference | 64 | Yes | Unique code of structure type to establish the mapping with [Structure Type](structure-type.md)​ |
 
 ### Steps to fill data <a id="steps-to-fill-data"></a>
 
@@ -48,7 +48,7 @@ This checklist covers all the activities which are common across the entities.
 
 ### Entity Specific Checklist <a id="entity-specific-checklist"></a>
 
-The separate entity-specific checklist is not needed for this entity data template.
+A separate entity-specific checklist is not needed for this entity data template.
 
 ## Attachments <a id="attachments"></a>
 
