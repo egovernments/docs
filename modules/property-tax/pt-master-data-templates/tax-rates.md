@@ -15,7 +15,7 @@ The tax could be a general property tax or a new type of tax introduced.
 | 1 | General Tax \(Residential\) | 2019-20 | 10 |
 | 2 | General Tax \(Non-residential\) | 2019-20 | 9 |
 
-The data given in the table is sample data.
+Data given in the table is a sample data.
 
 ## Procedure <a id="procedure"></a>
 
@@ -38,7 +38,7 @@ The data given in the table is sample data.
 
 ## Checklist <a id="checklist"></a>
 
-The checklist is a set of activities to be performed once the data is filled into a template to ensure data type, size, and format of data is as per the expectation. These activities have been divided into 2 groups as given below.
+The checklist is a set of activities to be performed one the data is filled into a template to ensure data type, size, and format of data is as per the expectation. These activities have been divided into 2 groups as given below.
 
 ### Common Checklist <a id="common-checklist"></a>
 

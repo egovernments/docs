@@ -2,7 +2,7 @@
 
 ## Introduction <a id="introduction"></a>
 
-Usage Category Minor is nothing but a further classification of [Usage Category Major](usage-category-major.md), which can be explained as a broad diversification of the usage of your property.
+Usage Category Minor is nothing but a further classification of “ Usage Category Major’s ”, which can be explained as a broad diversification of the usage of your property.
 
 This broad diversification is ideally used to classify the tax amount to which a property could be exempted from.
 
@@ -30,7 +30,7 @@ Please note that the data mentioned in the table is sample data, however, the st
 | 4 | Exemption Rate \(in % \) | Decimal | \(12,2\) | No | This column defines the % to which the property could be exempted. |
 | 5 | Max Exemption Amount | Decimal | \(12,2\) | No | This is the maximum amount which the property can be exempted from. |
 | 6 | Flat Exemption Amount | Decimal | \(12,2\) | No | The amount that should be exempted for a particular category from the property tax. |
-| 7 | Usage Category Major Code | Reference | 256 | Yes | This is the mapping between the minor’s and major’s of the usage category which can be found in [Usage Category Major](usage-category-major.md)​ |
+| 7 | Usage Category Major Code | Reference | 256 | Yes | This is the mapping between the minor’s and major’s of the usage category which can be found [Usage Category Major](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/413958414/Usage+Category+Major)​ |
 
 ### Steps to fill Data <a id="steps-to-fill-data"></a>
 
@@ -46,7 +46,7 @@ Please note that the data mentioned in the table is sample data, however, the st
 
 ## Checklist <a id="checklist"></a>
 
-The checklist is a set of activities to be performed once the data is filled into a template to ensure data type, size, and format of data is as per the expectation. These activities have been divided into 2 groups as given below.
+The checklist is a set of activities to be performed one the data is filled into a template to ensure data type, size, and format of data is as per the expectation. These activities have been divided into 2 groups as given below.
 
 ### Common Checklist <a id="common-checklist"></a>
 

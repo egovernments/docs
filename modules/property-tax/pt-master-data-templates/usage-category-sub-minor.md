@@ -2,7 +2,7 @@
 
 ## Introduction <a id="introduction"></a>
 
-This is a further or third level sub-classification of the property usage types into sub minor category. Here the properties can be further classified such as commercial food joints etc.
+This is a further sub-classification of the usage types into sub minor category. Here the properties can be further classified such as commercial food joints etc.
 
 ## Data Table <a id="data-table"></a>
 
@@ -14,7 +14,7 @@ Below mentioned is the data table from the template used to collect the data:
 | 2 | RETAIL | COMMERCIAL | Retail | खुदरा | 3 | 300 | 200 | 01-04-2020 |
 | 3 | HOTELS | COMMERCIAL | Hotels | होटल | 5.1 | 200 | 300 | 01-04-2020 |
 
-The data given in the table is sample data.
+Data given in the table is a sample data.
 
 ## Procedure <a id="procedure"></a>
 
@@ -23,7 +23,7 @@ The data given in the table is sample data.
 | Sr. No. | Column Name | Data Type | Data Size | Is Mandatory? | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | Usage Category Sub Minor Code | Alphanumeric | 64 | Yes | This is the unique code given to every category |
-| 2 | Usage Category Minor Code | Alphanumeric | 64 | Yes | This is the relationship between sub minor and [minor usage categories.](usage-category-minor.md)​ |
+| 2 | Usage Category Minor Code | Alphanumeric | 64 | Yes | This is the relationship between sub minor and [minor usage categories.](https://docs.digit.org/configure-digit/configuring-master-data-templates/module-setup/prop-tax-data/usage-category-minor)​ |
 | 3 | Usage Category Sub Minor \(In English\) | Text | 256 | Yes | This is the description of the sub minor category in English |
 | 4 | Usage Category Sub Minor \(In Local Language\) | Text | 256 | Yes | This is the description of the sub minor category in Local Language |
 | 5 | Exemption Rate \(in % \) | Decimal | \(5,2\) | No | This column defines the % to which the property could be exempted |
@@ -46,7 +46,7 @@ The data given in the table is sample data.
 
 ## Checklist <a id="checklist"></a>
 
-The checklist is a set of activities to be performed on the data that is filled into a template to ensure data type, size, and format of data is as per the expectation. These activities have been divided into 2 groups as given below.
+The checklist is a set of activities to be performed on the data is filled into a template to ensure data type, size, and format of data is as per the expectation. These activities have been divided into 2 groups as given below.
 
 ### Common Checklist <a id="common-checklist"></a>
 

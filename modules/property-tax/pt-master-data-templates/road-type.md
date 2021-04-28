@@ -4,7 +4,7 @@
 
 Roads are constructed in order to facilitate the locomotion of people from a place to another.
 
-The roads constructed in a state are classified into certain categories which could be on the basis of the width of the road, construction material or the function and location. Road type is one of the primary factor defining the unit rates and hence configuration is needed for the DIGIT module in order to describe the property and what are the taxes it could attract.
+The roads constructed in a state are classified into certain categories which could be on the basis of the width of the road, construction material or the function and location. Road type is one of factor defining the unit rates and hence configuration is needed for DIGIT module in order to describe the property and what are the taxes it could attract.
 
 ## Data Table <a id="data-table"></a>
 

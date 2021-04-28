@@ -12,7 +12,7 @@ The Owner’s Special Category represents those property owners whose property b
 | 2 | WIDOW | Widow | विधवा |
 | 3 | HANDICAPPED | Handicapped Persons | विकलांग व्यक्ति |
 
-The data given in the table is sample data.
+Data given in the table is a sample data.
 
 ## Procedure <a id="procedure"></a>
 
@@ -27,8 +27,8 @@ The data given in the table is sample data.
 1. Download the data template attached to this page.
 2. Get a good understanding of all the headers in the template sheet, their data type, size, and definitions by referring to the ‘Data Definition’ section of this document.
 3. In case of any doubt, please reach out to the person who has shared this template with you to discuss and clear your doubts.
-4. Identify the “[Owner Categories](ownership-category.md)” that exists at a ULB/ State level.
-5. Add the “[Owner Type Code](ownership-category.md)” respectively.
+4. Identify the “Owner Categories” that exists at a ULB/ State level.
+5. Add the “Owner Type Code” respectively.
 6. Add a description to the Owner Type Name, as per the required language.
 
 ## Checklist <a id="checklist"></a>

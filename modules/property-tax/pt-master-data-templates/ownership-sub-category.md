@@ -33,13 +33,13 @@ The data has to be collected for all the subcategories of ownership type present
 5. Get a good understanding of all the headers in the template sheet, their data type, size, and definitions by referring to the ‘Data Definition’ section of this document.
 6. In case of any doubt, please reach out to the person who has shared this template with you to discuss and clear your doubts. First, get all the sub classifications for the listed category.
 7. Get the codes and start filling the template.
-8. Fill in the codes for the sub category in the 2nd column with the proper mapping of Ownership Type category \(Parent level\).
-9. Repeat the steps for all the ownership type categories\(Parent Level\).
+8. Fill in the codes for the sub category in the 2nd column with there proper mapping of Ownership Type category\(Parent level\).
+9. Repeat the steps for all the ownership type categories\(Parent Level\) .
 10. Verify the data once again by going through the checklist and making sure that each and every point mentioned in the checklist is covered.
 
 ## Checklist <a id="checklist"></a>
 
-The checklist is a set of activities to be performed once the data is filled into a template to ensure data type, size, and format of data is as per the expectation. These activities have been divided into 2 groups as given below.
+The checklist is a set of activities to be performed one the data is filled into a template to ensure data type, size, and format of data is as per the expectation. These activities have been divided into 2 groups as given below.
 
 ### Common Checklist <a id="common-checklist"></a>
 

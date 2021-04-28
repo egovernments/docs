@@ -16,7 +16,7 @@ Mostly these property types are fixed and commonly used in all the ULBs across t
 | 1 | BUILTUP | Built-Up | निर्माण |
 | 2 | VACANT | Vacant Land | खाली जमीन |
 
-The data provided in the above table is sample.
+The data described in the above table is a sample.
 
 ## Procedure <a id="procedure"></a>
 

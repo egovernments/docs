@@ -2,7 +2,7 @@
 
 ## Introduction <a id="introduction"></a>
 
-Ownership is the state or fact of exclusive rights and control over property, which may be an asset, including an object, land or real estate, or intellectual property. Ownership involves multiple rights, collectively referred to as title, which may be separated and held by different parties. Further, the ownership can be categorised based on the nature and type of the parties property is owned by e.g Property owned by an individual who is the resident of the city, by an institution etc.
+Ownership is the state or fact of exclusive rights and control over property, which may be an asset, including an object, land or real estate, or intellectual property. Ownership involves multiple rights, collectively referred to as title, which may be separated and held by different parties. Further, the ownership can be categories based on the nature and type of the parties property is owned by e.g Property owned by an individual who is the resident of the city, by an institution etc.
 
 ## Data Table <a id="data-table"></a>
 
@@ -36,7 +36,7 @@ Given below is the sample data table from the template in which the data has to 
 
 ## Checklist <a id="checklist"></a>
 
-The checklist is a set of activities to be performed once the data is filled into a template to ensure data type, size, and format of data is as per the expectation. These activities have been divided into 2 groups as given below.
+The checklist is a set of activities to be performed one the data is filled into a template to ensure data type, size, and format of data is as per the expectation. These activities have been divided into 2 groups as given below.
 
 ### Common Checklist <a id="common-checklist"></a>
 
