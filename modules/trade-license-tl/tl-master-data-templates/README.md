@@ -29,16 +29,16 @@ DIGIT Trade License module enables employees to -
 
 ### State Level <a id="State-Level"></a>
 
-1. [Trade Category]()
-2. [Trade Type]()
-3. [Trade Sub Type]()
-4. [Trade License Documents Attachment]()
-5. [Structure Type]()
-6. [Structure Subtype]()
+1. [Trade Category](trade-category.md)
+2. [Trade Type](trade-type.md)
+3. [Trade Sub Type](trade-sub-type.md)
+4. [Trade License Documents Attachment](trade-license-document-attachment.md)
+5. [Structure Type](structure-type.md)
+6. [Structure Subtype](structure-sub-type.md)
 
 ### ULB Level <a id="ULB-Level"></a>
 
-1. [Trade License Fee]()
+1. [Trade License Fee](trade-license-fee.md)
 
 ## Module Reports
 
