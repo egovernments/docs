@@ -10,21 +10,21 @@ The individual master data templates for specific modules are availed in the Pro
 
 [PGR Master Data Templates](../../../modules/public-grievances-and-redressal/pgr-master-data-templates/)
 
+[Water Charges Master Data Templates](../../../modules/water-and-sewerage-w-and-s/water-charges-master-data-templates/)
+
+[Sewerage Charges Master Data Templates](../../../modules/water-and-sewerage-w-and-s/sewerage-charges-master-data-templates/)
+
 [mCollect Master Data Templates](../../../modules/mcollect-mcs/mcollect-master-data-templates/)
 
 [OBPAS Master Data Templates](../../../modules/online-building-plan-approval-system-obpas/obpas-master-data-templates/)
 
 [Finance Master Data Templates](../../../modules/finance/finance-master-data-templates/)
 
-{% page-ref page="fire-noc-data/" %}
+[Fire NOC Master Data Templates](../../../modules/fire-noc/fire-noc-master-data-templates/)
 
 {% page-ref page="web-portal-data/" %}
 
 {% page-ref page="hrms-data/" %}
-
-{% page-ref page="water-data/" %}
-
-{% page-ref page="sewerage-data/" %}
 
 {% page-ref page="billing-payment-data/" %}
 
