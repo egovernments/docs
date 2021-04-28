@@ -132,6 +132,7 @@
       * [Opening Balances](modules/finance/finance-master-data-templates/opening-balances.md)
       * [Sub Ledger Category](modules/finance/finance-master-data-templates/sub-ledger-category.md)
       * [Sub Ledger Master](modules/finance/finance-master-data-templates/sub-ledger-master.md)
+  * [Fire NOC](modules/fire-noc.md)
   * [DIGIT Service Configuration](modules/services-overview/README.md)
     * [Core Services](modules/services-overview/core-services/README.md)
       * [Workflow Services](modules/services-overview/core-services/workflow-services.md)
