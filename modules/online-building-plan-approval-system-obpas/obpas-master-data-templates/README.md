@@ -24,19 +24,19 @@ Manual processes related to scrutiny, approval, or rejection of building constru
 
 ### State Level
 
-1. [List of services]()
-2. [Occupancy]()
-3. [Sub Occupancy]()
-4. [Usage]()
-5. [List of documents for each service]()
-6. [Inspection checklist]()
-7. [List of stakeholder types]()
-8. [Town planning schemes]()
-9. [List of NOC departments]()
+1. [List of services](list-of-services.md)
+2. [Occupancy](building-occupancy.md)
+3. [Sub Occupancy](building-sub-occupancy.md)
+4. [Usage](building-usage.md)
+5. [List of documents for each service](service-wise-documents.md)
+6. [Inspection checklist](inspection-checklist.md)
+7. [List of stakeholder types](stakeholders-type.md)
+8. [Town planning schemes](town-planning-schemes.md)
+9. [List of NOC departments](noc-departments.md)
 
 ### ULB Level
 
-1. [Fee structure]()
+1. [Fee structure](fee-structure.md)
 
 ## Module Reports
 

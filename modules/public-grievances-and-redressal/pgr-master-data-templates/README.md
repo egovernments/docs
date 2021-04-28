@@ -10,7 +10,7 @@ DIGIT Public Grievance Redressal system abbreviated as PGR is a mechanism common
 
 ## Module Features <a id="module-features"></a>
 
-DIGIT PGR offers a variety of features to make complaint lodging and redressal easy for residents and employees of a ULB. List of standard features is given below.
+DIGIT PGR offers a variety of features to make complaint lodging and redressal easy for residents and employees of a ULB. A list of standard features is given below.
 
 1. Web and mobile interface to lodge, track, reopen, and update feedback on the complaint made by the citizen.
 2. Web and mobile interface to comment, forward, and close the complaint by the ULB employees.

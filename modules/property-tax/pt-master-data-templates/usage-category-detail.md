@@ -13,7 +13,7 @@ Below mentioned is the definition of the template which is used in data gatherin
 | 1. | RED | RESIDENTIAL | ​ | आवासीय | 2019-20 |
 | 2. | NONRED | HOTELS | ​ | होटल पेईग गेस्ट हाउस 10 कमरों तक\(बेगैर वातानुकूलित\) | 2018-19 |
 
-Data given in the table is a sample data.
+The data given in the table is sample data.
 
 ## Procedure <a id="procedure"></a>
 
@@ -22,7 +22,7 @@ Data given in the table is a sample data.
 | Sr. No. | Column Name | Data Type | Data Size | Mandatory | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | Usage Category Detail Code | Alphanumeric | 64 | Yes | This column ideally contains the code for which the Usage Category Detail is being categorized |
-| 2 | Usage Category Sub Minor Code | Alphanumeric | 64 | Yes | This is the mapping between detail and Sub Minor Code. Refer [Sub Minor](https://docs.digit.org/configure-digit/configuring-master-data-templates/module-setup/prop-tax-data/usage-category-sub-minor) entity for more detail |
+| 2 | Usage Category Sub Minor Code | Alphanumeric | 64 | Yes | This is the mapping between detail and Sub Minor Code. Refer [Sub Minor](usage-category-sub-minor.md) entity for more detail |
 | 3 | Usage Category Detail Description \(English\) | Text | 256 | Yes | Description/ Detail of the detail code in which the category is being classified in the English Language |
 | 4 | Usage Category Detail Description \(Local Language\) | Text | 256 | No | Description/ Detail of the detail code in which the category is being classified in Local Language. e.g. Hindi, Telugu etc. |
 | 5 | Effective From Financial Year | Numeric | \(12,2\) | Yes | This is the year from which the category detail has come into effect for property tax |
@@ -36,12 +36,12 @@ Data given in the table is a sample data.
 5. Figure out the codes, if not present abbreviate the description so that it creates relevancy between code and description.
 6. Get the relations to the sub minor, minor and major.
 7. Start filling the template with the codes and description of the usage Category detail and then followed by relative sub minor codes.
-8. In the active column fill up weather the category is still active or not.
+8. In the active column fill up whether the category is still active or not.
 9. Verify the data once again by going through the checklist and making sure that each and every point mentioned in the checklist is covered.
 
 ## Checklist <a id="checklist"></a>
 
-The checklist is a set of activities to be performed on the data is filled into a template to ensure data type, size, and format of data is as per the expectation. These activities have been divided into 2 groups as given below.
+The checklist is a set of activities to be performed on the data that is filled into a template to ensure data type, size, and format of data is as per the expectation. These activities have been divided into 2 groups as given below.
 
 ### Common Checklist <a id="common-checklist"></a>
 

@@ -29,23 +29,23 @@ The financial module enables users to -
 
 ### State Level <a id="state-level"></a>
 
-1. ​[Chart of Accounts](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/424214577/Chart+of+Accounts)​
-2. ​[Funds](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/424738850/Funds)​
-3. ​[Functions](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/424575016/Functions)​
-4. ​[Bank](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/424673315/Bank)​
-5. ​[Deduction](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/424575032/Deduction)​
-6. ​[SubLedger Category](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/515473513/SubLedger+Category)​
+1. [​Chart of Accounts](chart-of-accounts.md)​
+2. ​[Funds](funds.md)​
+3. [​Functions](function.md)​
+4. ​[Bank](banks.md)​
+5. [​Deduction](deduction.md)​
+6. [​SubLedger Category](sub-ledger-category.md)​
 
 ### ULB Level <a id="ulb-level"></a>
 
-1. ​[Contractors](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/424607790/Contractors)​
-2. ​[Suppliers](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/424345645/Suppliers)​
-3. ​[Schemes](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/424214587/Schemes)​
-4. ​[Sub Schemes](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/424476705/Sub+Schemes)​
-5. ​[Bank Branch](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/424280095/Bank+Branch)​
-6. ​[Bank Account](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/424575043/Bank+Account)​
-7. ​[Opening Balances](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/424345692/Opening+Balances)​
-8. ​[SubLedger Master](https://digit-discuss.atlassian.net/wiki/spaces/DO/pages/424738870/SubLedger+Master)​
+1. [​Contractors](contractors.md)​
+2. [​Suppliers](suppliers.md)​
+3. ​[Schemes](schemes.md)​
+4. [​Sub Schemes](sub-schemes.md)​
+5. [​Bank Branch](bank-branch.md)​
+6. [​Bank Account](bank-account.md)​
+7. ​[Opening Balances](opening-balances.md)​
+8. [​SubLedger Master](sub-ledger-master.md)​
 
 ## Module Reports <a id="module-reports"></a>
 

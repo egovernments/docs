@@ -2,7 +2,7 @@
 
 ## Introduction <a id="introduction"></a>
 
-A property can be used for a variety of things such as to live or to do some trading/selling etc activity or for any other purpose. Properties can be classified into various categories on the basis of there usage. Ideally, property usage is categorized as residential, non-residential or a mix of both.
+A property can be used for a variety of things such as to live or to do some trading/selling etc activity or for any other purpose. Properties can be classified into various categories on the basis of its usage. Ideally, property usage is categorized as residential, non-residential or a mix of both.
 
 ## Data Table <a id="data-table"></a>
 
@@ -12,7 +12,7 @@ A property can be used for a variety of things such as to live or to do some tra
 | 2 | NONRESIDENTIAL | Non-residential | गैर आवासीय |
 | 3 | MIXED | Mixed | मिश्रित |
 
-The data described in the above table is a sample.
+The data described in the above table is sample.
 
 ## Procedure <a id="procedure"></a>
 
@@ -28,13 +28,13 @@ The data described in the above table is a sample.
 
 1. Download the data template attached to this page.
 2. Refer to the ‘Data Definition’ section of this document to understand the headers in the template sheet, their data type, size, and definitions.
-3. Reach out the person who shared the template for further details or to clear your doubts. Identify if the State/ULB has a provision for capturing pipe size for connections.
-4. Identify all the property usages categorized at first level and fill into the given template.
+3. Reach out to the person who shared the template for further details or to clear your doubts. Identify if the State/ULB has a provision for capturing pipe size for connections.
+4. Identify all the property usages categorized at the first level and fill into the given template.
 5. Go through the checklist to verify the data. Make sure that each and every point mentioned in the checklist is covered.
 
 ## Checklist <a id="checklist"></a>
 
-The checklist is a set of activities to be performed one the data is filled into a template to ensure data type, size, and format of data is as per the expectation. These activities have been divided into 2 groups as given below.
+The checklist is a set of activities to be performed once the data is filled into a template to ensure data type, size, and format of data is as per the expectation. These activities have been divided into 2 groups as given below.
 
 ### Common Checklist <a id="common-checklist"></a>
 

@@ -2,7 +2,7 @@
 
 ## Introduction <a id="introduction"></a>
 
-Once the [Trade Categories](https://docs.digit.org/configure-digit/configuring-master-data-templates/module-setup/trade-license-data/trade-category) are defined, the next task is to -
+Once the [Trade Categories](trade-category.md) are defined, the next task is to -
 
 * Define Trade Types
 * Map Trade Category to listed Trade Types
@@ -27,7 +27,7 @@ The table above contains sample Trade Type data.
 | 1 | Trade Type Code | Alphanumeric | 64 | Yes | The Code assigned to the Trade Type. Eg: TRADE\_TYPE\_MEDICAL is assigned to Hospitals |
 | 3 | Trade Type Name \(In English\) | Text | 256 | Yes | Name of the Trade Type in English. Eg: Goods, Services etc. |
 | 3 | Trade Type Name \(In Local Language\) | Text | 256 | Yes | Name of the Trade Type in Local Language \(as decided\). Eg: Service is described as “सर्विस” in Hindi |
-| 4 | Trade Category Code | Reference | 64 | Yes | The Code assigned to the [Trade Category](https://docs.digit.org/configure-digit/configuring-master-data-templates/module-setup/trade-license-data/trade-category). Eg: TC1 For Goods, TC2 for Services |
+| 4 | Trade Category Code | Reference | 64 | Yes | The Code assigned to the [Trade Category](trade-category.md). Eg: TC1 For Goods, TC2 for Services |
 
 ### Steps to fill data <a id="steps-to-fill-data"></a>
 

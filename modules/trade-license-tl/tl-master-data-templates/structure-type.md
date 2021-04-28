@@ -45,7 +45,7 @@ This checklist covers all the activities which are common across the entities.
 
 ### Entity Specific Checklist <a id="entity-specific-checklist"></a>
 
-The separate entity-specific checklist is not needed for this entity data template.
+A separate entity-specific checklist is not needed for this entity data template.
 
 ## Attachments <a id="attachments"></a>
 

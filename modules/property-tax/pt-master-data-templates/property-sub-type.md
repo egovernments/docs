@@ -2,7 +2,7 @@
 
 ## Introduction <a id="introduction"></a>
 
-The Property Sub Type represents 2nd level classification to the [Property Type](https://docs.digit.org/configure-digit/configuring-master-data-templates/module-setup/prop-tax-data/property-type) and provides the option to further classify the property type in sub types. For example property type ‘Built-up’ is further classified into Independent House, A Flat In Apartment and Half Constructed Half Open and considered differently on tax calculation procedure.
+The Property Sub Type represents 2nd level classification to the [Property Type ](property-type.md)and provides the option to further classify the property type in sub types. For example property type ‘Built-up’ is further classified into Independent House, A Flat In Apartment and Half Constructed Half Open and considered differently on tax calculation procedure.
 
 ## Data Table <a id="data-table"></a>
 
@@ -11,7 +11,7 @@ The Property Sub Type represents 2nd level classification to the [Property Type]
 | 1 | SHAREDPROPERTY | Flat / Part of the building | फ्लैट / भवन का हिस्सा | BUILTUP |
 | 2 | INDEPENDENTPROPERTY | Independent House / Whole Building | स्वतंत्र घर / पूरी इमारत | BUILTUP |
 
-The data described in the above table is a sample.
+The data described in the above table is sample.
 
 ## Procedure <a id="procedure"></a>
 
@@ -26,13 +26,13 @@ The data described in the above table is a sample.
 
 1. Download the data template attached to this page.
 2. Refer to the ‘Data Definition’ section of this document to understand the headers in the template sheet, their data type, size, and definitions.
-3. Reach out the person who shared the template for further details or to clear your doubts. Identify if the State/ULB has a provision for capturing pipe size for connections.
+3. Reach out to the person who shared the template for further details or to clear your doubts. Identify if the State/ULB has a provision for capturing pipe size for connections.
 4. Identify all the property sub types applicable and fill into the given template.
 5. Go through the checklist to verify the data. Make sure that each and every point mentioned in the checklist is covered.
 
 ## Checklist <a id="checklist"></a>
 
-The checklist is a set of activities to be performed one the data is filled into a template to ensure data type, size, and format of data is as per the expectation. These activities have been divided into 2 groups as given below.
+The checklist is a set of activities to be performed once the data is filled into a template to ensure data type, size, and format of data is as per the expectation. These activities have been divided into 2 groups as given below.
 
 ### Common Checklist <a id="common-checklist"></a>
 

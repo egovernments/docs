@@ -25,7 +25,7 @@ The data given in the table above is sample data.
 | 4 | GLCODE | Alphanumeric | 50 | Yes | General Ledger Code \(GL Code\) is a string of alphanumeric characters assigned to each Service. Click [here](https://docs.digit.org/configure-digit/configuring-master-data-templates/module-setup/finance-data/sub-ledger-category) for the General Ledger Code Reference |
 | 5 | ULB CODE | Alphanumeric | 50 | No | The CODE which is specified and assigned to each ULB. It refers to the [department](https://docs.digit.org/configure-digit/configuring-master-data-templates/environment-setup/state-level-setup/ulb-departments)​ |
 | 6 | DEPT CODE | Alphanumeric | 50 | No | The Master Department Code linked to the“Service Category” at the State Level. The Department Code can be ascertained from the ULB Departments master. Click [here](https://docs.digit.org/configure-digit/configuring-master-data-templates/environment-setup/state-level-setup/ulb-departments) to learn more about ULB Departments |
-| 7 | FUND Code | Text | 250 | No | The type of fund allocated/associated with the respective service subcategory. Click [here](https://docs.digit.org/configure-digit/configuring-master-data-templates/module-setup/finance-data/funds) for Fund reference |
+| 7 | FUND Code | Text | 250 | No | The type of fund allocated/associated with the respective service subcategory. Click[ here](../../finance/finance-master-data-templates/funds.md) for Fund reference |
 
 ### Steps to Fill Data <a id="steps-to-fill-data"></a>
 
