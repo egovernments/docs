@@ -101,6 +101,7 @@
       * [W&S Citizen User Manual](modules/water-and-sewerage/w-and-s-user-manual/w-and-s-citizen-user-manual.md)
       * [W&S Employee User Manual](modules/water-and-sewerage/w-and-s-user-manual/w-and-s-employee-user-manual.md)
   * [Online Building Plan Approval System \(OBPAS\)](modules/online-building-plan-approval-system-obpas/README.md)
+    * [OBPAS Module Functional Specifications](modules/online-building-plan-approval-system-obpas/obpas-module-functional-specifications.md)
     * [OBPAS Master Data Templates](modules/online-building-plan-approval-system-obpas/obpas-master-data-templates/README.md)
       * [Fee Structure](modules/online-building-plan-approval-system-obpas/obpas-master-data-templates/fee-structure.md)
       * [NOC Departments](modules/online-building-plan-approval-system-obpas/obpas-master-data-templates/noc-departments.md)
