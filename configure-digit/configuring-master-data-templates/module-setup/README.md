@@ -10,9 +10,9 @@ The individual master data templates for specific modules are availed in the Pro
 
 [PGR Master Data Templates](../../../modules/public-grievances-and-redressal/pgr-master-data-templates/)
 
-[Water Charges Master Data Templates](../../../modules/water-and-sewerage-w-and-s/water-charges-master-data-templates/)
+[Water Charges Master Data Templates](../../../modules/water-and-sewerage/water-charges-master-data-templates/)
 
-[Sewerage Charges Master Data Templates](../../../modules/water-and-sewerage-w-and-s/sewerage-charges-master-data-templates/)
+[Sewerage Charges Master Data Templates](../../../modules/water-and-sewerage/sewerage-charges-master-data-templates/)
 
 [mCollect Master Data Templates](../../../modules/mcollect-mcs/mcollect-master-data-templates/)
 
