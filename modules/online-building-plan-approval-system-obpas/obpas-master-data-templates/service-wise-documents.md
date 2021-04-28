@@ -19,8 +19,8 @@ The data given in the table is sample data for reference.
 
 | Sr. No. | Column Name | Data Type | Data Size | Is Mandatory? | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | Service Code | Alphanumeric | 64 | Yes | Code of service - Refer to the [service list](https://docs.digit.org/configure-digit/configuring-master-data-templates/module-setup/obpas-data/list-of-services) to understand in detail |
-| 2 | Service Name | Text | 64 | No | Name of service - Refer to the [service list](https://docs.digit.org/configure-digit/configuring-master-data-templates/module-setup/obpas-data/list-of-services) to understand in detail |
+| 1 | Service Code | Alphanumeric | 64 | Yes | Code of service - Refer to the [service list ](list-of-services.md)to understand in detail |
+| 2 | Service Name | Text | 64 | No | Name of service - Refer to the [service list](list-of-services.md) to understand in detail |
 | ​ | Document Name\* | Text | 256 | Yes | Name of documents which are needed to avail the service |
 | 3 | Is Mandatory? | Text | 3 | Yes | It indicates if the provided document is mandatory or not to avail the service |
 
