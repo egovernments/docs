@@ -136,6 +136,7 @@
     * [Fire NOC Master Data Templates](modules/fire-noc/fire-noc-master-data-templates.md)
     * [Fire NOC User Manual](modules/fire-noc/fire-noc-user-manual/README.md)
       * [Fire NOC Citizen User Manual](modules/fire-noc/fire-noc-user-manual/fire-noc-citizen-user-manual.md)
+      * [Fire NOC Employee User Manual](modules/fire-noc/fire-noc-user-manual/fire-noc-employee-user-manual.md)
   * [DIGIT Service Configuration](modules/services-overview/README.md)
     * [Core Services](modules/services-overview/core-services/README.md)
       * [Workflow Services](modules/services-overview/core-services/workflow-services.md)

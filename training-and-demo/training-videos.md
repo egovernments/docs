@@ -351,18 +351,8 @@ DIGIT video tutorials provide a step-by-step guide to using the DIGIT modules. R
         </ul>
       </td>
     </tr>
-    <tr>
-      <td style="text-align:left">PGR Workflow</td>
-      <td style="text-align:left">
-        <p></p>
-        <ul>
-          <li><a href="https://youtu.be/uAPdghG-dH4">PGR Whatsapp Bill Payment</a>
-          </li>
-        </ul>
-      </td>
-    </tr>
   </tbody>
 </table>
 
- [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)All content on this page by [eGov Foundation ](https://egov.org.in/)is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+
 
