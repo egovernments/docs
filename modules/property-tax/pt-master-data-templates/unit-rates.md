@@ -2,7 +2,7 @@
 
 ## Introduction <a id="introduction"></a>
 
-Unit rates are also an important part of property tax. The property tax for a property is counted on the are that the property is covering. These unit rates could differ from ULB to ULB, Ward to Ward, Mohalla to Mohalla and then can be based on different parameters such as Road Type, Property Construction Type etc.
+Unit rates are also an important part of property tax. The property tax for a property is calculated on the area covered by the property. These unit rates could differ from ULB to ULB, Ward to Ward, Mohalla to Mohalla and then can be based on different parameters such as Road Type, Property Construction Type etc.
 
 ## Data Table <a id="data-table"></a>
 
@@ -15,7 +15,7 @@ Unit rates are also an important part of property tax. The property tax for a pr
 | 5 | M002 | Kali Mata Mandir Road | SEMIPUCCA | &gt;= 12 m and &lt;= 24 m | 10.00 |
 | 6 | M002 | Kali Mata Mandir Road | SEMIPUCCA | &gt; 24 m | 20.00 |
 
-Data given in the table is a sample data.
+The data given in the table is sample data.
 
 ## Procedure <a id="procedure"></a>
 
@@ -42,7 +42,7 @@ Data given in the table is a sample data.
 
 ## Checklist <a id="checklist"></a>
 
-The checklist is a set of activities to be performed one the data is filled into a template to ensure data type, size, and format of data is as per the expectation. These activities have been divided into 2 groups as given below.
+The checklist is a set of activities to be performed once the data is filled into a template to ensure data type, size, and format of data is as per the expectation. These activities have been divided into 2 groups as given below.
 
 ### Common Checklist <a id="common-checklist"></a>
 
