@@ -12,3 +12,7 @@ The first property sets the deserializer for value while the second one sets it 
 
 Then we can write our consumer function expecting HashMap as an argument like below:`1` `public void listen(final HashMap<String, Object> record){...}`
 
+\`\`
+
+ [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)​](http://creativecommons.org/licenses/by/4.0/)All content on this page by [eGov Foundation](https://egov.org.in/) is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+

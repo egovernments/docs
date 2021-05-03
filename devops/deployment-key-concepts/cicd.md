@@ -137,3 +137,7 @@ Enter a caption for this image \(optional\)
 * Generates the Kubernetes manifests files from the chart using helm template engine.
 * Execute the deployment manifest with the specified docker image\(s\) to the Kubernetes cluster.
 
+
+
+ [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)​](http://creativecommons.org/licenses/by/4.0/)All content on this page by [eGov Foundation](https://egov.org.in/) is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+

@@ -24,7 +24,7 @@ Click on the **Water & Sewerage** menu option in the sidebar or the **Water & Se
 
 ![](https://lh5.googleusercontent.com/8NG-fVkCGaJTlbYLqu08su1Xse8Y7H8yB7HH7DaweuYsydG-4gAnbC7xf9BTykohXZGwGfItK57ZF2M5j9NwD4suEyGmTeOryAZ0_Xql2330sxE3MzsiFzZ7n5Z2g0BjJLZ-eGKT)
 
-Click on the **New Application** button available on the top right corner of the page. Follow the steps iterated in the [**Citizens Apply**]() for new connections section to apply for new connections.
+Click on the **New Application** button available on the top right corner of the page. Follow the steps iterated in the [**Citizens Apply** ](w-and-s-citizen-user-manual.md#apply-for-new-connections)for new connections section to apply for new connections.
 
 ### Search applications or connections
 
@@ -437,4 +437,8 @@ Click on the **Take Action** button at the bottom of the application page once t
 Provide any additional information for the applicant in the **Comments** section. Click on the **Upload Files** button to upload any supporting documents. Click on the **Approve Connection** button.
 
 The application for new water or sewerage connection is approved. The applicant is allotted a unique **Consumer Number**. The application is now routed back to the citizen to make the payment towards connection charges. Once the payment is done the connection is activated.
+
+
+
+ [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)All content on this page by [eGov Foundation ](https://egov.org.in/)is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 

@@ -139,3 +139,7 @@ For integration-related steps please refer to the document [**Setting Up Workflo
 
 _\(Note: All the API’s are in the same postman collection therefore same link is added in each row\)_
 
+\_\_
+
+ [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)​](http://creativecommons.org/licenses/by/4.0/)All content on this page by [eGov Foundation](https://egov.org.in/) is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+

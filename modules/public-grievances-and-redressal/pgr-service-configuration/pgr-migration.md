@@ -12,7 +12,7 @@ description: Learn more about module migration details
 | pgr-services | pgr-services-db:pgr-migration-2475ec38-56 |
 | rainmaker-pgr | rainmaker-pgr-db:pgr-migration-c046a264-20 |
 
-The above build’s has to be deployed to perform migration. The batch persister config has to be added in config Repo. After adding the file in repo, update the persister path in environment yml file. Make sure the persister.bulk.enabled is set to true. Once done restart the persister pod.
+The above build has to be deployed to perform the migration. The batch persister config has to be added in config Repo. After adding the file in the repo, update the persister path in environment yml file. Make sure the persister.bulk.enabled is set to true. Once done restart the persister pod.
 
 To start the migration call the following API with tenantId as param it will migrate data belonging to that tenantId. The API does not have role action mapping and should be used by port forwarding rainmaker-pgr pod.
 
@@ -97,15 +97,17 @@ _\*\(Last query related to document might need little modification as values in 
 
 ## Prod Data Insights <a id="Prod-Data-Insights:"></a>
 
-1. null value is stored in action for adding comments in old system it’s mapped to COMMENT in new system.
-2. Locality attribute in new eg\_pgr\_address\_v2 table does not allow NULL values whereas the locality attribute in old eg\_pgr\_address in Punjab prod data has NULL values. Those values are filled in migration with dummy value NOT\_AVAILABLE.
+1. null value is stored in action for adding comments in the old system it’s mapped to COMMENT in new system.
+2. The Locality attribute in new eg\_pgr\_address\_v2 table does not allow NULL values whereas the locality attribute in the old eg\_pgr\_address in Punjab prod data has NULL values. Those values are filled in migration with dummy value NOT\_AVAILABLE.
 3. For 128 records accountId is NULL and so they won’t be associated with any citizen login.
-4. For some records in media column corrupt data is present. For example on one case instead of fileStore uuid some normal text describing the complaint is present. While some other records have values like no . For data with such text having length greater than 64 are set to null, else DB validation’s are violated.
-5. In old system id is stored for referencing user data. In new systems we use uuid to refer user, therefore all id are mapped to respective uuid which are then migrated to new system. If some user has uuid as NULL default value NOT\_SPECIFIED will be used.
-6. Some 1104 complaints has value in column named feedback which seems to be from some set pf predefined values like "Resolution Time","Quality of work",”others” etc. New structure don’t have any such column so we will be storing this in additionalDetails.
+4. For some records in the media column corrupt data is present. For example, in one case instead of fileStore uuid some normal text describing the complaint is present. While some other records have values like no. For data with such text having a length greater than 64 are set to null, else DB validations are violated.
+5. In the old system-id is stored for referencing user data. In new systems we use uuid to refer user, therefore all id is mapped to respective uuid which are then migrated to the new system. If some user has uuid as NULL default value NOT\_SPECIFIED will be used.
+6. Some 1104 complaints has value in the column named feedback which seems to be from some set of predefined values like "Resolution Time", "Quality of work", ”others” etc. The new structure does not have any such column so we will be storing this in additionalDetails.
 7. Address and landmark column in eg\_pgr\_service has values in some column they are also stored in additionalDetails.
 8. Phone column contains phone numbers, we are not migrating that column as it has PII data and will be already present in user service as well.
-9. If sla is not found in old config \(will only happen if some complaint category is removed from MDMS and complaints are present in system of that category\) default SLA value will be used.
+9. If sla is not found in the old config \(will only happen if some complaint category is removed from MDMS and complaints are present in the system of that category\) default SLA value will be used.
+
+
 
  [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)All content on this page by [eGov Foundation ](https://egov.org.in/)is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 

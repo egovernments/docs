@@ -6,8 +6,9 @@ description: This section contains documents and information required to customi
 
 This section contains details on how to customize the DIGIT user interface and services to meet the local government or user requirements effectively.
 
-* [Frontend/UI](customizing-frontend.md)
-* [Services](customizing-services/)
-* [Master & Configuration Data Load Kit](master-and-configuration-data-load-kit.md)
-* [Data Migration](data-migration/)
+
+
+
+
+ [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)​](http://creativecommons.org/licenses/by/4.0/)All content on this page by [eGov Foundation](https://egov.org.in/) is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 

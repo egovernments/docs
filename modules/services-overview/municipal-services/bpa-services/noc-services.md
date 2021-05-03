@@ -2,7 +2,7 @@
 
 ### Description
 
-For every building plan application, there is a need to get the No objection certificate from concerned departments. Based on the configuration we have for the NOCs, for every application, there will be a set of NOCs required. There should be a provision to allow the NOC department user to login to our system and upload the required NOC. We are providing a user to one NOC department. Based on the workflow mode\(online/offline\) of each NOC type, the NOC department user can perform the action. 
+For every building plan application, there is a need to get the No objection certificate from the concerned departments. Based on the configuration we have for the NOCs, for every application, there will be a set of NOCs required. There should be a provision to allow the NOC department user to login to our system and upload the required NOC. We are providing a user to one NOC department. Based on the workflow mode\(online/offline\) of each NOC type, the NOC department user can perform the action. 
 
 Online mode – NOC department user can log in to the system and approve/reject the application.
 
@@ -503,4 +503,8 @@ NA
 ### PDF’s Used
 
 NA
+
+
+
+ [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)All content on this page by [eGov Foundation ](https://egov.org.in/)is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 

@@ -156,3 +156,7 @@ As a cluster-admin dealing with a security incident, the last thing you would wa
 
 Remember that the above are just some general best practices and they are not exhaustive. You are free to adjust and make changes based on your use case and ways of working for your team.
 
+
+
+ [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)​](http://creativecommons.org/licenses/by/4.0/)All content on this page by [eGov Foundation](https://egov.org.in/) is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+

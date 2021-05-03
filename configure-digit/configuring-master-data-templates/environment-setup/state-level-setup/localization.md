@@ -2,7 +2,7 @@
 
 ### Introduction
 
-Localization is a practice to localize various UI visible data into the local wordings according to the client's requirements. This practice of localization is enforced to various clients so that it becomes easier for the people using the service to understand the common terminology and make the best use of the available system.
+Localization is a practice to localize various UI visible data into the local wordings according to the client's requirements. This practice of localization is enforced on various clients so that it becomes easier for the people using the service to understand the common terminology and make the best use of the available system.
 
 The following texts \(but not limited to\) on the web page can be localized:
 
@@ -63,4 +63,8 @@ Not Applicable
 {% file src="../../../../.gitbook/assets/configurable-data-template-localization-v1.xlsx" caption="Configuration Data Template" %}
 
 {% file src="../../../../.gitbook/assets/configurable-sample-data-localization-v1.xlsx" caption="Sample Data Template" %}
+
+
+
+ [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)​](http://creativecommons.org/licenses/by/4.0/)All content on this page by [eGov Foundation](https://egov.org.in/) is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 

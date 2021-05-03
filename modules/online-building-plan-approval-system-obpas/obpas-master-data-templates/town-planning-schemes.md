@@ -54,6 +54,10 @@ There is no separate entity-specific checklist for this entity.
 
 [Configuration Data Templateconfigurable-data-template-scheme\_v1.xlsx - 10KB](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-MERG_iQW5oN4ukgXP8K%2Fsync%2F52f5dfcdf2d48a9f5b3c0fce56f92af19ca8c5ae.xlsx?generation=1602050610715450&alt=media)
 
-[Sample Datatown-planning-scheme-sample.xlsx - 10KB](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-MERG_iQW5oN4ukgXP8K%2Fsync%2Fb7469bfbad85893f52fdd1a96d36fa06d2dc9ef6.xlsx?generation=1602050610908677&alt=media)[  
+[Sample Datatown-planning-scheme-sample.xlsx - 10KB](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-MERG_iQW5oN4ukgXP8K%2Fsync%2Fb7469bfbad85893f52fdd1a96d36fa06d2dc9ef6.xlsx?generation=1602050610908677&alt=media)
+
+
+
+ [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)All content on this page by [eGov Foundation ](https://egov.org.in/)is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).[  
 ](https://docs.digit.org/configure-digit/configuring-master-data-templates/module-setup/obpas-data/stakeholders-type)
 

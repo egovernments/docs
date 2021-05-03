@@ -63,3 +63,7 @@ sms.blacklist.numbers=5\*,9999999999,88888888XX will blacklist any phone number 
 
 Few 3rd parties require a prefix of 0 or 91 or +91 with the mobile number. In such a case you can use sms.mobile.prefix to automatically add the prefix to the mobile number coming in the message queue.
 
+
+
+ [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)​](http://creativecommons.org/licenses/by/4.0/)All content on this page by [eGov Foundation](https://egov.org.in/) is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+

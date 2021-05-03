@@ -33,14 +33,18 @@ None
 
 ### ULB Level
 
-1. [Pipe Size Types]()
-2. [Water Source Types]()
-3. [Water Rates \(metered\)]()
-4. [Water Rates \(non-metered\)]()
-5. [Water Penalty Rates]()
-6. [Water Interest Rates]()
+1. [Pipe Size Types](pipe-size-types.md)
+2. [Water Source Types](water-source-types.md)
+3. [Water Rates \(metered\)](water-rates-metered.md)
+4. [Water Rates \(non-metered\)](water-rates-non-metered.md)
+5. [Water Penalty Rates](water-penalty-rates.md)
+6. [Water Interest Rates](water-interest-rates.md)
 
 ## Module Reports
 
 None
+
+
+
+ [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)All content on this page by [eGov Foundation ](https://egov.org.in/)is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 

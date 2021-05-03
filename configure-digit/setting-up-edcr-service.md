@@ -104,3 +104,7 @@ Add the property and update the MDMS search URL, mdms.searchurl=/egov-mdms-servi
 | Sample client implementation repository | [https://github.com/egovernments/egov-dcr-client](https://github.com/egovernments/egov-dcr-client) |
 | Configuring MDMS | [Configuring Master Data](https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/644349987/Configuring+Master+Data) |
 
+
+
+ [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)​](http://creativecommons.org/licenses/by/4.0/)All content on this page by [eGov Foundation](https://egov.org.in/) is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+

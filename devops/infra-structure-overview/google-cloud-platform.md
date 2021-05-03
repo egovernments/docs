@@ -55,5 +55,11 @@ base64 -w 0 ./k8c-cluster-provisioner-sa-key.json
 
 ### Passing the Google Service Account
 
-The base64 encoded secret of the service account will be passed in the field `serviceAccount` of the `cloudProviderSpec` of the machine deployment. The encoded secret can be entered in the UI field `Service Account`:
+The base64 encoded secret of the service account will be passed in the field `serviceAccount` of the `cloudProviderSpec` of the machine deployment. The encoded secret can be entered in the UI field `Service Account`
+
+
+
+
+
+ [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)​](http://creativecommons.org/licenses/by/4.0/)All content on this page by [eGov Foundation](https://egov.org.in/) is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 

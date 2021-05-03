@@ -215,3 +215,7 @@ Kubernetes has been designed with over a decade of experience on running contain
 
 \[15\] Deploying Apache Zookeeper using StatefulSets: [https://github.com/kubernetes/contrib/tree/master/statefulsets/zookeeper](https://github.com/kubernetes/contrib/tree/master/statefulsets/zookeeper)
 
+
+
+ [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)​](http://creativecommons.org/licenses/by/4.0/)All content on this page by [eGov Foundation](https://egov.org.in/) is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+
