@@ -134,3 +134,7 @@ Trade-License APIs:- [https://www.getpostman.com/collections/99f98723c45f9702483
   </tbody>
 </table>
 
+
+
+ [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)All content on this page by [eGov Foundation ](https://egov.org.in/)is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+

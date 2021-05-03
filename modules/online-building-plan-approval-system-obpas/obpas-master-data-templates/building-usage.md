@@ -54,10 +54,6 @@ There is no separate entity-specific checklist for this entity.
 
 [Configuration Data Templateconfiguration-data-template-building-usage-type\_v1.xlsx - 10KB](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-MERG_iQW5oN4ukgXP8K%2Fsync%2F2cb3aef2b52df329e1108973d34a0c89d67a7d60.xlsx?generation=1602050610682994&alt=media)
 
-[Sample Datasample-configuration-data-building-usage-type.xlsx - 10KB](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-MERG_iQW5oN4ukgXP8K%2Fsync%2F9fc10e74b92d8ea4ede500f66d5006e87495c96f.xlsx?generation=1602050610861931&alt=media)
-
-
-
- [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)All content on this page by [eGov Foundation ](https://egov.org.in/)is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).[  
+[Sample Datasample-configuration-data-building-usage-type.xlsx - 10KB](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-MERG_iQW5oN4ukgXP8K%2Fsync%2F9fc10e74b92d8ea4ede500f66d5006e87495c96f.xlsx?generation=1602050610861931&alt=media)[  
 ](https://docs.digit.org/configure-digit/configuring-master-data-templates/module-setup/obpas-data/building-sub-occupancy)
 

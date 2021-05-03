@@ -8,9 +8,7 @@ description: >-
 
 ## **Document Verifier \(DV\)** <a id="document-verifier-dv"></a>
 
-DV is responsible for verifying the supporting documents uploaded by the property applicants or the counter employee on behalf of the applicants.
-
-![](https://docs.google.com/drawings/u/0/d/ssjByWbt4ZhFtc_JSzb898A/image?w=425&h=141&rev=1&ac=1&parent=1q5Qmal_ywLqWn-MBuGYWdfkTLSyN9MnVg4tEXL4D9es)
+DV is responsible for verifying the supporting documents uploaded by the property applicants or the counter employee on behalf of the applicants.![](https://docs.google.com/drawings/u/0/d/ssjByWbt4ZhFtc_JSzb898A/image?w=425&h=141&rev=1&ac=1&parent=1q5Qmal_ywLqWn-MBuGYWdfkTLSyN9MnVg4tEXL4D9es)
 
 **The DV can**
 
@@ -191,8 +189,6 @@ Click on the **Take Action** button available at the bottom of the page. Click o
 Select the relevant **Assignee Name** from the list of available employees for subsequent processing. Enter any additional information in the **Comments** field in context to the application for the assignee’s knowledge. Click on **Upload Files** to upload any supporting documents for the application. Click on the **Approve** button.
 
 The property application is approved.
-
-
 
  [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)All content on this page by [eGov Foundation ](https://egov.org.in/)is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 

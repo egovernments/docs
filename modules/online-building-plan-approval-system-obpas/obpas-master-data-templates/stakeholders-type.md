@@ -53,10 +53,6 @@ There is no separate entity-specific checklist for this entity.
 
 [Configuration Data Templateconfigurable-data-template-stakeholder-type\_v1.xlsx - 10KB](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-MERG_iQW5oN4ukgXP8K%2Fsync%2F1cbfc5e505f97452f9d3484327a6340aba271422.xlsx?generation=1602050611233833&alt=media)
 
-[Sample Datasample-configuration-data-stakeholder-type.xlsx - 10KB](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-MERG_iQW5oN4ukgXP8K%2Fsync%2F5e298bba7f01424f90a05c2d4571046db4aef74f.xlsx?generation=1602050610905431&alt=media)
-
-
-
- [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)All content on this page by [eGov Foundation ](https://egov.org.in/)is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).[  
+[Sample Datasample-configuration-data-stakeholder-type.xlsx - 10KB](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-MERG_iQW5oN4ukgXP8K%2Fsync%2F5e298bba7f01424f90a05c2d4571046db4aef74f.xlsx?generation=1602050610905431&alt=media)[  
 ](https://docs.digit.org/configure-digit/configuring-master-data-templates/module-setup/obpas-data/inspection-checklist)
 
