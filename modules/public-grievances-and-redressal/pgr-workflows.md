@@ -10,7 +10,7 @@ Workflows are a series of steps that moves a process from one state to another s
 
 ### PGR Workflow Requirement
 
-The workflow services contribute to adding a flexible and dynamic approach to using the modules in the long run. PGR workflows cater to the evolving requirements as we introduce new features in PGR like escalation and routing. These features are also useful in other modules like Trade License and Fire NoC.
+The workflow services contributes to adding a flexible and dynamic approach to using the modules in the long run. PGR workflows cater to the evolving requirements as we introduce new features in PGR like escalation and routing. These features are also useful in other modules like Trade License and Fire NoC.
 
 ### Intended Audience & Objectives
 
@@ -65,8 +65,6 @@ This document is meant for the Tech team to understand the requirement of workfl
 ### Other Features and Functionalities in PGR
 
 All other features and functionalities should remain unaffected like complaint types, uploading a photo, capturing address, UI for the citizen, search complaint, complaint history, comments etc.
-
-
 
  [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)All content on this page by [eGov Foundation ](https://egov.org.in/)is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 

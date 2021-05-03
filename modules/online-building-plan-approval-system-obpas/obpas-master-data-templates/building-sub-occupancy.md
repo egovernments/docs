@@ -53,6 +53,10 @@ There is no separate entity-specific checklist for this entity.
 
 [Configuration Data Templateconfiguration-data-template-building-sub-occupancy\_v1.xlsx - 10KB](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-MERG_iQW5oN4ukgXP8K%2Fsync%2F9623c9b39bae40ecb316f8c20624b8254f5d684f.xlsx?generation=1602050610590764&alt=media)
 
-[Sample Datasub-occupancy-sample-data.xlsx - 10KB](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-MERG_iQW5oN4ukgXP8K%2Fsync%2F982704018bd32de71795ae018366ecdd30cb7654.xlsx?generation=1602050610842385&alt=media)[  
+[Sample Datasub-occupancy-sample-data.xlsx - 10KB](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-MERG_iQW5oN4ukgXP8K%2Fsync%2F982704018bd32de71795ae018366ecdd30cb7654.xlsx?generation=1602050610842385&alt=media)
+
+
+
+ [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)All content on this page by [eGov Foundation ](https://egov.org.in/)is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).[  
 ](https://docs.digit.org/configure-digit/configuring-master-data-templates/module-setup/obpas-data/building-occupancy)
 

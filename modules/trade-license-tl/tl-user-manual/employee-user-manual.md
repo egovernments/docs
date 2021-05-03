@@ -12,9 +12,9 @@ DV is responsible for verifying the supporting documents uploaded by the applica
 
 The DV can
 
-* [Reject applications](employee-user-manual.md#reject-applications)
-* [Verify and forward applications](employee-user-manual.md#verify-and-forward)
-* [Edit applications](employee-user-manual.md#edit-application)
+* [Reject applications]()
+* [Verify and forward applications]()
+* [Edit applications]()
 
 ### **Reject Applications**
 
@@ -62,17 +62,17 @@ FI is responsible for verifying the field details provided by the applicants.
 
 The FI can
 
-* [Send applications back to citizens](employee-user-manual.md#send-back-to-citizen)
-* [Send back](employee-user-manual.md#send-back)
-* [Reject applications](employee-user-manual.md#reject-applications-1)
-* [Verify and forward applications](employee-user-manual.md#verify-and-forward-1)
-* [Edit applications](employee-user-manual.md#edit-application-1)
+* [Send applications back to citizens]()
+* [Send back]()
+* [Reject applications]()
+* [Verify and forward applications]()
+* [Edit applications]()
 
 ### **Send Back To Citizen**
 
 FI sends back the applications to the citizens if some vital information is missing in the application or there is a mistake in the information provided.
 
-To send applications back to the citizen navigate to the Home page. Search for the application you want to verify by entering any of the search parameters. Click on **Application No.** to open the application. Scroll down the form to review the filled in details.
+To send applications back to the citizen navigate to the Home page. Search for the application you want to verify by entering any of the search parameters. Click on the **Application No.** to open the application. Scroll down the form to review the filled in details.
 
 ![](https://lh3.googleusercontent.com/xH0mXNzooZVSoqU2_njKX_yJwn8pBg6N3FvBE7B4oeDDA85_8vKsjs2YMYayw4dxMJE1-MzxA5SMxZXzvDV0rXPTBrkWFjqy8QgIICDjj-zhsr37rfD4WTuv1W7QASfQ5AkUSHCj)
 
@@ -90,7 +90,7 @@ The system displays a success acknowledgement message stating that the applicati
 
 The FI can send back the TL application to the DV if there is any mistake or lapses in the document verification process.
 
-To send back applications to the DV navigate to the Home page. Search for the application you want to verify by entering any of the search parameters. Click on **Application No.** to open the application. Scroll down the form to review the filled in details.
+To send back applications to the DV navigate to the Home page. Search for the application you want to verify by entering any of the search parameters. Click on the **Application No.** to open the application. Scroll down the form to review the filled in details.
 
 ![](https://lh3.googleusercontent.com/xH0mXNzooZVSoqU2_njKX_yJwn8pBg6N3FvBE7B4oeDDA85_8vKsjs2YMYayw4dxMJE1-MzxA5SMxZXzvDV0rXPTBrkWFjqy8QgIICDjj-zhsr37rfD4WTuv1W7QASfQ5AkUSHCj)
 
@@ -106,7 +106,7 @@ The application is assigned back to the selected assignee for verification of do
 
 Trade license applications are rejected if the supporting documents uploaded by the applicant fails to comply with the license requirements or the details provided in the form are incorrect.
 
-To reject applications navigate to the Home page. Search for the application you want to verify by entering any of the search parameters. Click on **Application No**. to open the application. Scroll down the form to review the filled in details.
+To reject applications navigate to the Home page. Search for the application you want to verify by entering any of the search parameters. Click on the **Application No**. to open the application. Scroll down the form to review the filled in details.
 
 ![](https://lh3.googleusercontent.com/xH0mXNzooZVSoqU2_njKX_yJwn8pBg6N3FvBE7B4oeDDA85_8vKsjs2YMYayw4dxMJE1-MzxA5SMxZXzvDV0rXPTBrkWFjqy8QgIICDjj-zhsr37rfD4WTuv1W7QASfQ5AkUSHCj)
 
@@ -122,7 +122,7 @@ The applicant will receive a rejection notification on his mobile number or emai
 
 The FI verifies and forwards the TL application to the Approver if the information and documents provided by the applicant are correct.
 
-To verify and forward the application navigate to the Home page. Search for the application you want to verify by entering any of the search parameters. Click on **Application No.** to open the application. Scroll down the form to review the filled in details.
+To verify and forward the application navigate to the Home page. Search for the application you want to verify by entering any of the search parameters. Click on the **Application No.** to open the application. Scroll down the form to review the filled in details.
 
 ![](https://lh3.googleusercontent.com/xH0mXNzooZVSoqU2_njKX_yJwn8pBg6N3FvBE7B4oeDDA85_8vKsjs2YMYayw4dxMJE1-MzxA5SMxZXzvDV0rXPTBrkWFjqy8QgIICDjj-zhsr37rfD4WTuv1W7QASfQ5AkUSHCj)
 
@@ -136,7 +136,7 @@ The TL application is assigned to the selected Assignee for subsequent processin
 
 ### **Edit Application**
 
-To make any changes in the application navigate to the Home page. Search for the application you want to verify by entering any of the search parameters. Click on **Application No.** to open the application. Scroll down the form to review the filled in details.
+To make any changes in the application navigate to the Home page. Search for the application you want to verify by entering any of the search parameters. Click on the **Application No.** to open the application. Scroll down the form to review the filled in details.
 
 ![](https://lh3.googleusercontent.com/xH0mXNzooZVSoqU2_njKX_yJwn8pBg6N3FvBE7B4oeDDA85_8vKsjs2YMYayw4dxMJE1-MzxA5SMxZXzvDV0rXPTBrkWFjqy8QgIICDjj-zhsr37rfD4WTuv1W7QASfQ5AkUSHCj)
 
@@ -148,15 +148,15 @@ The Approver is responsible for the final approval of the TL application.
 
 The Approver can
 
-* [Send applications back to field inspectors](employee-user-manual.md#send-back-1)
-* [Reject applications](employee-user-manual.md#reject-applications-2)
-* [Approve applications](employee-user-manual.md#approve-applications)
+* [Send applications back to field inspectors]()
+* [Reject applications]()
+* [Approve applications]()
 
 ### **Send Back**
 
 The Approver can send back the TL application to the FI or DV if there is any mistake or lapses in the document verification process.
 
-To send back applications to the DV or FI navigate to the Home page. Search for the application you want to verify by entering any of the search parameters. Click on **Application No**. to open the application. Scroll down the form to review the filled in details.
+To send back applications to the DV or FI navigate to the Home page. Search for the application you want to verify by entering any of the search parameters. Click on the **Application No**. to open the application. Scroll down the form to review the filled in details.
 
 ![](https://lh3.googleusercontent.com/3XUzXFgcpqv_Dm3Rs6RkZPKXXeQak8J4FdIA6oQ4-VPO-4hgegjgfX7n_C1e4QkjP_T0Gmbz5W9bR3U116ECnJ9x_oNvQry6WZxieNUVo9AITkKQNauQH67-xOwP9utzZ4xHHDd0)
 
@@ -172,7 +172,7 @@ The application is assigned back to the selected assignee for verification of ap
 
 Trade license applications are rejected if the supporting documents uploaded by the applicant fails to comply with the license requirements or the details provided in the form are incorrect.
 
-To reject applications navigate to the Home page. Search for the application you want to verify by entering any of the search parameters. Click on **Application No.** to open the application. Scroll down the form to review the filled in details.
+To reject applications navigate to the Home page. Search for the application you want to verify by entering any of the search parameters. Click on the **Application No.** to open the application. Scroll down the form to review the filled in details.
 
 ![](https://lh3.googleusercontent.com/3XUzXFgcpqv_Dm3Rs6RkZPKXXeQak8J4FdIA6oQ4-VPO-4hgegjgfX7n_C1e4QkjP_T0Gmbz5W9bR3U116ECnJ9x_oNvQry6WZxieNUVo9AITkKQNauQH67-xOwP9utzZ4xHHDd0)
 
@@ -188,7 +188,7 @@ The applicant will receive a rejection notification on his mobile number or emai
 
 The Approver signs off the TL application once the information and documents provided by the applicant are found correct. The TL Certificate is issued once the application is approved.
 
-To approve the application navigate to the Home page. Search for the application you want to verify by entering any of the search parameters. Click on **Application No.** to open the application. Scroll down the form to review the filled in details.
+To approve the application navigate to the Home page. Search for the application you want to verify by entering any of the search parameters. Click on the **Application No.** to open the application. Scroll down the form to review the filled in details.
 
 ![](https://lh3.googleusercontent.com/3XUzXFgcpqv_Dm3Rs6RkZPKXXeQak8J4FdIA6oQ4-VPO-4hgegjgfX7n_C1e4QkjP_T0Gmbz5W9bR3U116ECnJ9x_oNvQry6WZxieNUVo9AITkKQNauQH67-xOwP9utzZ4xHHDd0)
 
@@ -199,8 +199,6 @@ Click on the **Take Action** button available at the bottom of the page. Click o
 Select the relevant **Assignee Name** from the list of available employees for subsequent processing. Enter any additional information in the **Comments** field in context to the application for the assignee’s knowledge. Click on **Upload Files** to upload any supporting documents for the application. Click on the **Approve** button.
 
 The TL application is approved and the TL Certificate is issued to the applicant. Click on the **Download** or **Print** button to download or print the TL Certificate.
-
-
 
  [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)All content on this page by [eGov Foundation ](https://egov.org.in/)is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 

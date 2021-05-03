@@ -12,15 +12,15 @@ The citizen can also approach the Counter Employee \(CE\) to submit new TL appli
 
 **The Citizen or CE role can -**
 
-* [Apply for new TL](citizen-user-manual.md#apply-for-new-tl)
-* [Renew trade license](citizen-user-manual.md#renew-trade-license)
-* [Search application](citizen-user-manual.md#search-application)
-* [Pay license fee](citizen-user-manual.md#pay-trade-license-fee)
+* [Apply for new TL]()
+* [Renew trade license]()
+* [Search application]()
+* [Pay license fee]()
 * Download payment receipts, license certificates, or applications
 
 ### **Apply For New TL**
 
-Citizens or CE can apply for a new trade license through the DIGIT web portal or the DIGIT mobile app. To apply for a new TL click on the **Trade License** card available in the **Citizen Services** section of the DIGIT home page.
+Citizens or CE can apply for a new trade license through the DIGIT web portal or the DIGIT mobile app. To apply for new TL click on the **Trade License** card available in the **Citizen Services** section of the DIGIT home page.
 
 Click on the **New Application** button on the screen. This will open the TL application form page.
 
@@ -158,8 +158,6 @@ Enter payment details as requested on the screen. Click on the **Generate Receip
 ![](https://lh4.googleusercontent.com/c70FyxfyFdtdTN_SI1sYmn8RHE918ep4SGojTM7TResyC_Qwn0qHosDTgigr1KY5_zVogW0yyS48VtZsmiYD9NsAqXyrY2T6bLRI8tjYFu7FUW8jKv8ljRziHjXVFZj3ccX5zVtB)
 
 Once the payment is complete the **Trade License Certificate** is issued. Click on the **Download** or **Print** button to download or print the Payment Receipt and Trade License Certificate.
-
-
 
  [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)All content on this page by [eGov Foundation ](https://egov.org.in/)is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 

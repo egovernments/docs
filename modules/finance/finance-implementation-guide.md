@@ -4,7 +4,7 @@
 
 ### Overview of the Product
 
-The eGov Financial Management System is an integrated fund-based double-entry accounting system that manages the financial accounting and reporting, budgeting and Asset Management for an ULB \(Urban Local Body\). The system is based on simple, easy to use screens and is fully web-enabled which will make it possible to deploy the system in multiple ULBs from a central data center. Transition to a fully online accounting system will ensure that the data is captured in the system at the point of creation and is immediately available for real time reporting and effective decision making. Perhaps most importantly, the system is fully integrated to the ULB’s various Revenue and Expenditure sources which will enable the administration to generate easy-to-understand reports summarizing the ULB’s key financial indicators on real time.
+The eGov Financial Management System is an integrated fund-based double-entry accounting system that manages the financial accounting and reporting, budgeting and Asset Management for a ULB \(Urban Local Body\). The system is based on simple, easy to use screens and is fully web-enabled which will make it possible to deploy the system in multiple ULBs from a central data center. Transition to a fully online accounting system will ensure that the data is captured in the system at the point of creation and is immediately available for real time reporting and effective decision making. Perhaps most importantly, the system is fully integrated into the ULB’s various Revenue and Expenditure sources which will enable the administration to generate easy-to-understand reports summarizing the ULB’s key financial indicators on real time.
 
 ### Implementation Methodology for Finance and Accounting System
 
@@ -1164,6 +1164,8 @@ Reviewing the transaction for compliance with policies and process.
 G/L posting:
 
 General Ledger posting is the process of posting the Payroll results to the appropriate GL accounts including the cost centres.
+
+
 
  [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)All content on this page by [eGov Foundation ](https://egov.org.in/)is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 

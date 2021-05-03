@@ -7,7 +7,5 @@
 | **Product innovation** |   | Implementing registry principle in the property tax product |   | POC - Revenue enhancement tool to plug revenue leakages using GIS, image processing, etc. |
 | **Ease of deployment & Partner Enablement** | - Centralized Demo environment with completed demo scripts and videos - Standardized reports and dashboard for PT  | - Internalizing the BBPS protocols & integration \(as done in UK\) |   |   |
 
-
-
  [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)All content on this page by [eGov Foundation ](https://egov.org.in/)is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 
