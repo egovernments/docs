@@ -56,6 +56,10 @@ This checklist covers the activities which are specific to the entity. There is 
 
 [Configuration Data Templateconfiguration-data-template-service-subcategory-gl-code-mapping.xlsx - 11KB](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-MERG_iQW5oN4ukgXP8K%2Fsync%2F903003f5e9833d0d274c3bd60c00bc4bad607b81.xlsx?generation=1602050607397274&alt=media)
 
-[Sample Datasample-confugration-data-service-subcategory-gl-code-mapping.xlsx - 11KB](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-MERG_iQW5oN4ukgXP8K%2Fsync%2F9ce715075400445059d67bddcf3c278e782485e8.xlsx?generation=1602050607472876&alt=media)  
+[Sample Datasample-confugration-data-service-subcategory-gl-code-mapping.xlsx - 11KB](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-MERG_iQW5oN4ukgXP8K%2Fsync%2F9ce715075400445059d67bddcf3c278e782485e8.xlsx?generation=1602050607472876&alt=media)
 
+  
+
+
+ [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)All content on this page by [eGov Foundation ](https://egov.org.in/)is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 

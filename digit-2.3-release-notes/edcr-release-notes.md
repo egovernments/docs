@@ -26,3 +26,7 @@ eDCR Service 1.1.0 is a baselined release that has got few enhancements to the e
   * The above features are configurable. Users can enable the features if required for the selected state.
 * **Impact**: Functionally, the upgrade to eDCR 1.1.0 will not impact the existing environments.
 
+
+
+ [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)All content on this page by [eGov Foundation ](https://egov.org.in/)is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+
