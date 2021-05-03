@@ -245,5 +245,3 @@ description: Configuration changes and service build details
 |  **MDMS** [**v2.3**](https://github.com/egovernments/egov-mdms-data/tree/v2.3) |   |   |   |   |
 |  **Localization** [**v2.3**](https://github.com/egovernments/releasekit/releases/tag/v2.3) |   |   |   |   |
 
- [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)All content on this page by [eGov Foundation ](https://egov.org.in/)is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
-

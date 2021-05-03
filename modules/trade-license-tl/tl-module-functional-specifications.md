@@ -66,7 +66,7 @@ Key capabilities offered by this functional component -
 
 ###  Trade License Issue
 
-The system has the facility to assign the application to the respective Inspector for survey and verification. After the application is submitted, it goes to the document verifier. The next step after document verification is field inspection. After the field inspector’s approval, the TL is approved by the approver.
+The system has the facility to assign the application to the respective Inspector for survey and verification. After the application is submitted, it goes to document verifier. The next step after document verification is field inspection. After field inspector’s approval, the TL is approved by the approver.
 
 {% hint style="warning" %}
 Key capabilities offered by this functional component -
@@ -79,7 +79,7 @@ Key capabilities offered by this functional component -
 * CSC, Collects Fee post verification.
 * The system allows the printing of license and sending the license through e-mail.
 * The system allows the SMS alerts to the applicant regarding the date of inspection/visit by the inspector, approval/rejection of the application.
-* The system allows the inspector to enter the field visit details and a field visit report is generated and automatically routed to the superintendent.
+* The system allows the inspector to enter the field visit details and field visit report is generated and automatically routed to the superintendent.
 {% endhint %}
 
 ### Modifications to a Trade License
@@ -163,25 +163,25 @@ System specification in compliance with the Ease of Doing Business \(EODB\) BRAP
 
 | List of Functionalities | Corresponding Features |
 | :--- | :--- |
-| Registration, Login, Creation of User Profile | Provision for Language Selection during first-time registration via Mobile/ Web App. |
+| Registration, Login, Creation of User Profile | Provision for Language Selection during first time registration via Mobile/ Web App. |
 | OTP Based Login for Citizen/ Employee via Mobile/ Web App |   |
-| Login Credentials for the various hierarchy of employees |   |
+| Login Credentials for various hierarchy of employees. |   |
 | Provision of Personalized Profile for Citizen/ Employee on Web App |   |
-| Applying for a Trade License    | Citizen/CSC: Enters Trade Details, Trade Units, Accessories, Owner Details. |
-| Citizen/CSC: Upload Documents |   |
-| Citizen/CSC: ULB Wise Trade Selection |   |
-| Citizen/CSC: Calculation Breakup Based on Selected Trade |   |
-| Citizen/CSC: Multiple Accessories Field Count |   |
-| Citizen/CSC: Multiple Trade License. |   |
-| Citizen/CSC: Download/Print Application Summary |   |
-| Citizen/CSC: Download/PRINT Trade Reference No |   |
-| Citizen/CSC: View the applied licenses. |   |
-| Citizen: Pays for the license post verification process. |   |
-| CSC: Collects Fee post verification. |   |
+| Applying for a Trade License    | Citizen/CSC : Enters Trade Details, Trade Units, Accessories, Owner Details. |
+| Citizen/CSC : Upload Documents |   |
+| Citizen/CSC : ULB Wise Trade Selection |   |
+| Citizen/CSC : Calculation Breakup Based on Selected Trade |   |
+| Citizen/CSC : Multiple Accessories Field Count |   |
+| Citizen/CSC : Multiple Trade License. |   |
+| Citizen/CSC : Download/Print Application Summary |   |
+| Citizen/CSC : Download/PRINT Trade Reference No |   |
+| Citizen/CSC : View the applied licenses. |   |
+| Citizen : Pays for the license post verification process. |   |
+| CSC : Collects Fee post verification. |   |
 | Trade Licence Issue  | Document Verifier : Verify & Forward/ Reject the application |
-| Licensing Inspector: Verify and Forward/ Send back/ Reject the Application. |   |
-| Licensing Officer: Approve/ Send back the Application |   |
-| Licensing Officer: Reject/ Cancel the Application |   |
+| Licensing Inspector : Verify and Forward/ Send back/ Reject the Application. |   |
+| Licensing Officer : Approve/ Send back the Application |   |
+| Licensing Officer : Reject/ Cancel the Application |   |
 | Modification to a Trade License | Edit/ Update the Application based on the Inspection report against the application.  |
 | Renewal of a Trade Licence | Renew trade license. |
 | Payment and Fee | Configurable Workflow Rights : Edit & Payment Collection |
@@ -198,8 +198,6 @@ System specification in compliance with the Ease of Doing Business \(EODB\) BRAP
 | Charges & Calculation : Exemptions Trade Type & Owner Type |   |
 | Configuration masters | Configurable Workflow Rights : Edit & Payment Collection |
 | Configurable Verification & Approval |   |
-
-
 
  [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)All content on this page by [eGov Foundation ](https://egov.org.in/)is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 
