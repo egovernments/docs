@@ -101,7 +101,7 @@ Join the virtual DIGIT Technical Training sessions to learn in-depth about the D
           </li>
           <li><a href="devops/digit-deployment-on-aws/deployment-architecture.md">Deployment</a>
           </li>
-          <li><a href>Infra Sizing</a>
+          <li><a href="devops/setup-digit/cluster-requirements.md">Infra Sizing</a>
           </li>
           <li><a href="https://devops.digit.org/digit-devops/14.-observability">Monitoring</a>
           </li>
