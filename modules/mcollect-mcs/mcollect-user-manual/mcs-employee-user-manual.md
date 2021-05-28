@@ -39,9 +39,7 @@ The system will prompt the input of Tax amount, CGST, SGST, Field Fee, or any ot
 
 Enter the **From Date** and **To Date** to identify the applicable payment period. **\*\*Enter any additional information in the** Comments\*\* field.
 
-Click on the **Next** button to move to the payment section. The **Payment Collection Details** page displays the fee details and capture payment form. The **Fee Details** panel displays the fee breakup and **Total Amount** details.
-
-![](https://lh6.googleusercontent.com/MvPGlTveclKajRWJnyKrRrbSyOKfDKkw1NzE0X9tCFUioKlz5NrPXU_nvVrFEuqLbpU20bJG-RoSsJlW7GCr_u0hCnRbqgiu3Kfwl-UYS3pOLB7W6YOm_ffNonFLtJrSpCR8q-nu)
+Click on the **Next** button to move to the payment section. The **Payment Collection Details** page displays the fee details and captures the payment form. The **Fee Details** panel displays the fee breakup and **Total Amount** details.
 
 The **Capture Payment** panel displays the available payment methods. Click on the preferred payment tab. The available payment tabs are **Cash, Cheque, Credit/Debit Card.**
 
@@ -57,26 +55,20 @@ Enter the **Gen/G8 Receipt No**. issued at the payment counter in case payments 
 
 Click on the **Generate Receipt** button once the payment is collected or processed. The system will display the payment success acknowledgement message.
 
-![](https://lh4.googleusercontent.com/L-wJWESDZNSQDjPpdBtWKm4j4gyzxc4v6TYDCmchZ7OuJeUfq3ipiMovnboiFj2aKsQ7AM6Vb4cwGlJiEftxc5dXNEf8tMM3I0fFpZ9pzFNaAiDS4wpcnyqTmRDlw7zPmu4bxMdJ)
-
 Click on the **Download** button to download/view the receipt. Click on the **Print** button to print the receipt.
 
 ### **Search Receipts** <a id="search-receipts"></a>
 
 To search for payment receipts navigate to the Universal Collections page in the sidebar main menu.
 
-![](https://lh3.googleusercontent.com/IEjyNR2jqJ5Lk6bRw2UC_4HG7xu8g496jqpCs4NmGRi8TXGvWt3cVFYElr_uzHvggHj3CjH4DI_r4Gs-BFd3Rfp_LoMfotgwkcArovKhvPkFGtJ2QRkKJ8r7RWfiqtrbtERcHDB7)
-
 Enter the relevant search parameter. The system enables you to search using payment **Receipt No**. or **Service Category**, or payee **Mobile No.** Click on the **Search** button.
 
 The system will display the relevant search results in the panel below. Click on the relevant record to view the payment receipt. The system will generate a pdf format of the payment receipt.
 
-Click on the download icon on the pdf page to download the receipt. Click on the print icon on the pdf page to print the receipt.
+Click on the download icon on the pdf page to download the receipt. Click on the Print icon on the pdf page to print the receipt.
 
 Click on the **Reset** button to renew your search with different parameters.[  
 ](https://docs.digit.org/v/v2.1/modules-features/user-guides/guide-mcollect/citizen-user-manual)
-
-![](https://lh3.googleusercontent.com/u3oLM8vb8NQGxqz_AK7ZvHmtMX_99oQB_VBr4qMODxiqqAjBrjesi8p--HC-58sjeczNGShKz8Jd-lCqeUO5f-AxQIaRyrWwu8xhSOF48WGAc-3KS1v8JOnIDw0tfRGKHvXtXaMy)
 
 
 
