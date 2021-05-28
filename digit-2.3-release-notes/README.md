@@ -218,13 +218,13 @@ DIGIT 2.3 release offers new modules, few functional changes, and non-functional
 
 {% page-ref page="../modules/services-overview/business-services/bill-amendment.md" %}
 
-{% page-ref page="../modules/faecal-sludge-management-fsm/fsm-service-configuration.md" %}
+{% page-ref page="../modules/faecal-sludge-management-fsm/fsm-service-configuration/" %}
 
-{% page-ref page="../modules/faecal-sludge-management-fsm/fsm-calculator-v1.0.md" %}
+{% page-ref page="../modules/faecal-sludge-management-fsm/fsm-service-configuration/fsm-calculator-v1.0.md" %}
 
-{% page-ref page="../modules/faecal-sludge-management-fsm/fsm-vendor-registry-v1.0.md" %}
+{% page-ref page="../modules/faecal-sludge-management-fsm/fsm-service-configuration/fsm-vendor-registry-v1.0.md" %}
 
-{% page-ref page="../modules/faecal-sludge-management-fsm/fsm-vehicle-registry-v1.0.md" %}
+{% page-ref page="../modules/faecal-sludge-management-fsm/fsm-service-configuration/fsm-vehicle-registry-v1.0.md" %}
 
 {% file src="../.gitbook/assets/water-service-tech-doc.pdf" caption="Water Service Technical Document" %}
 
