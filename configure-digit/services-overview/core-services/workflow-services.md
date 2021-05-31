@@ -73,8 +73,8 @@ The workflow configuration can be used by any module which performs a sequence o
 
 | **Title** | **Link** |
 | :--- | :--- |
-| Configuring Workflows For New Product/Entity | [Configuring Workflows For New Product/Entity](../../configuring-workflows/configuring-workflow-for-an-entity.md) |
-| Setting Up Workflows | [Setting Up Workflows](../../configuring-workflows/setting-up-workflow.md) |
+| Configuring Workflows For New Product/Entity | [Configuring Workflows For New Product/Entity](../../configuring-digit-services/configuring-workflows/configuring-workflow-for-an-entity.md) |
+| Setting Up Workflows | [Setting Up Workflows](../../configuring-digit-services/configuring-workflows/setting-up-workflow.md) |
 | API Swagger Documentation | [Swagger Documentation](https://raw.githubusercontent.com/egovernments/core-services/master/docs/worfklow-2.0) |
 | Migration to Workflow 2.0 | [Workflow 2.0 Configuration doc](https://digit-discuss.atlassian.net/wiki/spaces/EPE/pages/120619031/Workflow+2.0+Configuration+doc) |
 

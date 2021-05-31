@@ -16,7 +16,7 @@ Learn how to configure the DIGIT platform. Partner with us to enhance and integr
 
 {% page-ref page="configuring-digit-services/" %}
 
-{% page-ref page="configuring-workflows/" %}
+{% page-ref page="configuring-digit-services/configuring-workflows/" %}
 
 {% page-ref page="../modules/online-building-plan-approval-system-obpas/obpas-service-configuration/setting-up-edcr-service.md" %}
 

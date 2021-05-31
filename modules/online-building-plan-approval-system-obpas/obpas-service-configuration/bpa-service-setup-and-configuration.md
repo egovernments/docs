@@ -1,4 +1,4 @@
-# BPA Service Setup and Configuration
+# BPA Service Configuration
 
 ### **Software to install**
 
