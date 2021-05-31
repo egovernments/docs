@@ -69,9 +69,6 @@ Not planned
 
 | **Doc Links** | **Description** |
 | :--- | :--- |
-|   [https://docs.google.com/document/d/19ujcqmiI8PXNiYmb8jRQNsZVAGVgLNQ7Zph6Z19g8FY/edit\# - Connect to preview](https://docs.google.com/document/d/19ujcqmiI8PXNiYmb8jRQNsZVAGVgLNQ7Zph6Z19g8FY/edit#) |  PRD for the release |
-|  [https://docs.google.com/spreadsheets/d/1isgdR84LAi7f7\_38DQFhFCJlftuROwUtxdZfWV\_KoOc/edit\#gid=0 - Connect to preview](https://docs.google.com/spreadsheets/d/1isgdR84LAi7f7_38DQFhFCJlftuROwUtxdZfWV_KoOc/edit#gid=0) | Build for the release |
-|  [https://docs.google.com/spreadsheets/d/1nTUZ5SrgnDqkUhY278dVxE0sb6PeAPbi3r\_v20MzIb8/edit\#gid=0 - Connect to preview](https://docs.google.com/spreadsheets/d/1nTUZ5SrgnDqkUhY278dVxE0sb6PeAPbi3r_v20MzIb8/edit#gid=0) | Test cases |
 |    |   |
 
  [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)All content on this page by [eGov Foundation ](https://egov.org.in/)is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).

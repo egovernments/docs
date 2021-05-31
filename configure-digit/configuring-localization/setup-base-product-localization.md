@@ -48,7 +48,7 @@ labelKey: "TL\_NEW\_TRADE\_DETAILS\_TRADE\_UNIT\_HEADER"
 
 | **Title**  | **Link** |
 | :--- | :--- |
-| Adding New Language to Digit System. You can refer the link provided for how languages are added in DIGIT |  [Adding New Language](../setting-up-a-language/adding-a-language.md) |
+| Adding New Language to Digit System. You can refer the link provided for how languages are added in DIGIT |  [Adding New Language](../configuring-digit-services/setting-up-a-language/adding-a-language.md) |
 
 
 

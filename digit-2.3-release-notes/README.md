@@ -8,7 +8,7 @@ description: 'New release features, enhancements, and fixes'
 
 DIGIT 2.4 is a release that has got new modules, a few functional changes, and non-functional changes.
 
-* Functional: eChallan module, WhatsApp Bill Payment, Property Tax Citizen flow UI/UX revamp, Arrears Breakup in Property Tax Due, and Send back to Citizen feature in Fire NOC.
+* Functional: eChallan module, WhatsApp Bill Payment, Property Tax Citizen flow UI/UX revamp Arrears Breakup in Property Tax Due, and Send back to Citizen feature in Fire NOC.
 * Non-functional: Platform Security Audit fixes, Hindi Localization, QA Automaton of APIs, and Technical improvements.
 
 ### New ‌Feature Additions <a id="New-&#x200C;Feature-Additions"></a>
@@ -154,7 +154,7 @@ DIGIT 2.4 is a release that has got new modules, a few functional changes, and n
                 Water &amp; Sewerage, Fire NOC, Building Plan Approval, FSM, and PGR.</li>
             </ul>
           </li>
-          <li>Here is the <a href="https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/1652883457/QA+Automation+Release+Notes+2.4">document</a> with
+          <li>Here is the <a href="bill-amendment-release-notes.md">document </a>with
             the details of services automated and README documentation which details
             the detailed steps to execute the automation</li>
         </ul>
