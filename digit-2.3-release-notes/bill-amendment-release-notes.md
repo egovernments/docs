@@ -1,100 +1,52 @@
 ---
-description: Bill amendment release details
+description: API automatio release details
 ---
 
-# Bill Amendment Release Notes
+# QA Automation Release Notes
 
-### Overview <a id="Overview"></a>
 
-Bill Amendment is a platform-level feature that can be used to create credit/ debit notes against a consumer for a configured service. Demand revision required due to out of system calculations i.e. tax exemptions, court case settlements, one-time settlement schemes can be performed using this feature.
 
-### Release Highlights <a id="Release-Highlights"></a>
+Below is the list of services whose APIs are automated in this release.
 
-1. Workflow-based application approval system for better accountability of demand revision.
-2. Artifact generation in the form of credit/debit note for record purposes
-3. Auto application of note amount into latest or upcoming bills
+| **core-services** | **business-services** | **municipal-services** | **e2e-services** |
+| :--- | :--- | :--- | :--- |
+| localization | billing-service | bpa-calculator | bpa-services |
+| user-otp | collection-services | bpa-services | firenoc-services |
+| filestore | dashboard-analytics | egov-user-event | property-services |
+| idgen | dashboard-ingest | firenoc-calculator | rainmaker-pgr |
+| location | egf-instrument | firenoc-services | mCollect |
+| mdms | egf-master | land-services | tl-services |
+| access-control | egov-apportion-service | property-services | ws-services |
+| egov-pdf | egov-hrms | pt-calculator | sw-services |
+| egov-workflow | mCollect | pt-services | fsm-services |
+| enc-service |   | rainmaker-pgr |   |
+| egov-user |   | sw-calculator |  |
+| egov-pdf |   | sw-services |  |
+| pg-service |   | tl-calculator |  |
+| reports |   | tl-services |  |
+| searcher |   | ws-calculator |  |
+| url-shortening |   | ws-services |  |
+| zuul |   | fsm-services |  |
+| egov-indexer |   |  |  |
+| egov-notification-mail |   |   |  |
+| egov-notification-sms |   |   |  |
+| egov-persister |   |   |  |
+| telemetry |   |   |  |
+| user-otp |   |   |  |
 
-### Release Features <a id="Release-Features"></a>
+### Reference Docs <a id="Reference-Docs"></a>
 
-| **Key Feature** | **Description** |
+#### Doc Links <a id="Doc-Links"></a>
+
+| **Title**  | **Link** |
 | :--- | :--- |
+|  Manual Test Cases |  [![](https://ssl.gstatic.com/docs/spreadsheets/favicon3.ico)Egov Automation: Test Cases](https://docs.google.com/spreadsheets/d/16BdbxgE4z38atk6MZBCRcw4_D4fL0AHEvblqGPSYJ_s/edit?usp=sharing) |
+|  Automation Source Code | [![](https://github.com/fluidicon.png)egovernments/test-automation](https://github.com/egovernments/test-automation) |
+| Automation Readme | [![](https://github.githubassets.com/favicon.ico)https://github.com/egovernments/test-automation/blob/master/README.md - Connect to preview](https://github.com/egovernments/test-automation/blob/master/README.md) |
+| Kafka Approach Document | [Kafka Consumer Producer Approach](https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/1540587710/Kafka+Consumer+Producer+Approach) |
+| Sample Config File \(for passing to execution command\) | [![](https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_32dp.png)config.yaml](https://drive.google.com/file/d/19XDqJErhGrNegrmI2AxL9dsDqubxaWdo/view?usp=sharing) |
 
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left"><b>Key Feature</b>
-      </th>
-      <th style="text-align:left"><b>Description</b>
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">Application initiation</td>
-      <td style="text-align:left">
-        <ol>
-          <li>Respective modules can be configured to leverage the Bill Amendment feature
-            (By default W&amp;S is configured with Bill Amendment )</li>
-          <li>Configured module Tax Heads will be auto-populated and respective credit/
-            debit amounts can be filled against those tax heads.</li>
-          <li>Dynamic document upload and data fields captured depending on the &#x2018;demand
-            revision basis&#x2019;.</li>
-          <li>Applications for the creation of credit/ debit notes to revise citizen
-            dues can be initiated from the employee login</li>
-          <li>Search page to fetch consumer for whom the application needs to be initiated</li>
-          <li>Search page to track and process the applications</li>
-        </ol>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Workflow-based application process</td>
-      <td style="text-align:left">
-        <ol>
-          <li>Default workflow has two roles, i.e. Initiator and Approver</li>
-          <li>Different employees can be created and provided access for above roles</li>
-          <li>After the application is initiated and submitted, it goes for approval</li>
-          <li>After the application is approved credit/ debit note is generated</li>
-        </ol>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Artifacts</td>
-      <td style="text-align:left">
-        <ol>
-          <li>Credit/ Debit note PDF is generated after approval and stored as a part
-            of the application, which can always be accessed from the download section
-            of &#x2018;application summary&#x2019; page</li>
-        </ol>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Application of note amount</td>
-      <td style="text-align:left">
-        <ol>
-          <li>The note amount will be auto-applied against the same consumer in the
-            current bill, if pending dues are present. Otherwise, it will be applied
-            in the upcoming bill.</li>
-        </ol>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-### Known Issues  <a id="Known-Issues"></a>
-
-### Upcoming Release Features <a id="Upcoming-Release-Features"></a>
-
-1. New UI for better accessibility
-2. Application initiation from the citizen side
-3. Extending this feature to deal with the current year and previous year items
-
-### Reference Doc Links <a id="Reference-Doc-Links"></a>
-
-| **Doc Links** | **Description** |
-| :--- | :--- |
-|  |  |
-|  |  |
 
 
 

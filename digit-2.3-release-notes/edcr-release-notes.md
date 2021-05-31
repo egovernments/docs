@@ -1,30 +1,78 @@
 ---
-description: EDCR module release details
+description: PT module release details
 ---
 
-# EDCR Release Notes
+# Property Tax Release Notes
+
+### Overview <a id="Release-Highlights"></a>
+
+This release provides revamped user experience to the citizens with improvements in the workflows and updates in the user interface while paying property tax and apply for property registration.
 
 ### Release Highlights <a id="Release-Highlights"></a>
 
-eDCR Service 1.1.0 is a baselined release that has got few enhancements to the existing features.
+This release has updated workflows and user interface for the following business cases -
+
+* PT - Quick Pay
+* Create Property
+* My Properties
+* My Applications
 
 ### Release Features <a id="Release-Features"></a>
 
-| **S.No.** | **Feature** | **Description** |
-| :--- | :--- | :--- |
-| 1. | Projections: Portico |  Portico is an area with a roof by the front door of a home\(Any other side also\). Validate the length, width, height and distance to the exterior wall. |
-| 2. | Glass Facade openings | The glass facade is a large smooth building front that is made entirely of glass, thus serving as a great inlet for natural light. Validate the length, width and height. |
-| 3. | Information and Communication Technology landing point \(ICT\) | Every apartment, commercial, institutional, high-rise building and all buildings with a plot size of 1 acre and more must include an ICT point. Light and ventilation, door height and room dimensions are validated. |
-| 4. | Mezzanine At Room | Captured mezzanine area at room level |
-| 5 | Amenities on Setback | Enhanced accessory block feature to accommodate units with colour code, and multiple distances with colour code support. |
-| 6 | Chimney | Enhanced chimney feature to accommodate multiple area and height |
-| 7 | Parapet | Enhanced parapet feature to accommodate multiple area and height |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left"><b>Feature</b>
+      </th>
+      <th style="text-align:left"><b>Description</b>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">PT - Quick Pay</td>
+      <td style="text-align:left">
+        <p>Citizen can make property tax payment with or without login. Citizen can
+          search property tax bills using given search parameter and makeonline payments.</p>
+        <p>Citizens will receive a payment confirmation notification and a link to
+          download receipt.</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Create Property</td>
+      <td style="text-align:left">Simplified and clear call to action with in-app help for citizens while
+        apply for a new property registration.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">My Properties</td>
+      <td style="text-align:left">Citizens can view property created by them and for them under this section
+        and take action like edit, pay, mutation, etc.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">My Applications</td>
+      <td style="text-align:left">Citizen can track application status for their properties under this section.
+        Also they take action assigned to them during the workflow.</td>
+    </tr>
+  </tbody>
+</table>
 
-### Upgrade Instructions <a id="Upgrade-Instructions"></a>
+### Known Issues <a id="Upgrade-Instructions"></a>
 
-* eDCR 1.1.0: The above feature is useful and required in other states.
-  * The above features are configurable. Users can enable the features if required for the selected state.
-* **Impact**: Functionally, the upgrade to eDCR 1.1.0 will not impact the existing environments.
+None.
+
+### Upcoming Release Features <a id="Upcoming-Release-Features"></a>
+
+ Employee UX revamps and remaining citizen use cases.
+
+### Reference Doc Links <a id="Reference-Doc-Links"></a>
+
+| **Doc Links** | **Description** |
+| :--- | :--- |
+
+
+
+
+
 
 
 

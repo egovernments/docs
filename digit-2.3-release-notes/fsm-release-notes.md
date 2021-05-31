@@ -1,62 +1,128 @@
 ---
-description: FSM module release details
+description: WhatsApp channel v2 release details
 ---
 
-# FSM Release Notes
+# Whatsapp as a Channel Release Notes
 
 ### Overview <a id="Overview"></a>
 
-Emptying of septic tank / Pit \(Desludging\) request can be created by the citizen online which will be processed by the ULB. The processed request will then be assigned to a particular desludging operator post payment of desludging charges by the citizen.
-
-The desludging operator then completes the emptying task on the ground and transports the faecal sludge to the designated septage treatment plant where a plan operator updates the vehicle log and septage dumped at the plant.
+This release leverages the capabilities of WhatsApp as an additional channel for citizens to view bills/ make payments for a particular module service. Extended capabilities include improvements in the Public Grievance Redressal module and localization support to assist ease of use.
 
 ### Release Highlights <a id="Release-Highlights"></a>
 
-1. Citizen
-   1. Create Emptying of septic tank/pit application
-   2. View status of the application
-   3. Make payment for an application
-   4. Rate the service
-2. Employee
-   1. Create Emptying of septic tank/pit application
-   2. Update application
-   3. Make payment for an application
-   4. Assign/Re-assign DSO for an application
-   5. Complete request on behalf of DSO
-3. Desludging operator
-   1. Assign vehicle to a request
-   2. Decline a request
-   3. Complete request
-4. FSTP Operator
-   1. Update vehicle log
+1. **Search and View Bill \`**
+   1. View my Bills
+   2. Search Bills Based on 
+      1. Consumer Number
+      2. Application Number
+      3. Mobile Number etc
+   3. View Bill
+      1. Amount Due
+      2. Bill copy \(PDF\) 
+2. **Payment** 
+   1. Pay bills through quick payment links
+   2. Payment confirmation/failure notification
+   3. Payment receipt \(PDF\)  on successful payment
+3. **Multi-Language Support**
+   1. Hindi Localization \(For Chats\)
+4. **Improvements in Public Grievance Redressal Module**
+   1. Two-Step Complaint List \(By Type & Subtype\)
+   2. Geo-Location Tagging
 
 ### Release Features <a id="Release-Features"></a>
 
-| **Key Feature** | **Description** |
-| :--- | :--- |
-| Create Emptying of septic tank/pit request | Feature to allow the citizen to create desludging\(emptying of septic tank/pit \) application online or at ULB counters. |
-| Make payment for a request | Allow citizen to make payment for a request either online or through ULB counters |
-| Update application and Generate demand | ULB employee can modify the application created if required and update the demand/charges that the citizen should pay for the request raised. |
-| Assign DSO to a request | ULB employee will assign the request to a particular registered DSO \(desludging operator\) based on the availability of the vehicle |
-| Re-assign DSO to a request | ULB employee can reassign a request if the assigned DSO declines the request under some unavoidable circumstances. |
-| Cancel the request | ULB employee can cancel the request for data entry mistakes |
-| Reject the request | Reject the request which is invalid or doesn’t have the proper information to process the request |
-| DSO Assign vehicle and completes the request | DSO can tag a vehicle to a request which is assigned to him, process and update the volume of septage collected at the site and complete the request. |
-| Update Vehicle log by FSTP / SeTP Operator | The septage which is collected at the site would be transported to the Septage treatment plant where the plant operator can update the vehicle entry time to the plant and the volume of septage dumped at the plant. |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left"><b>Key Feature</b>
+      </th>
+      <th style="text-align:left"><b>Description</b>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">Selection of Desired Service</td>
+      <td style="text-align:left">
+        <p></p>
+        <p>Allows Citizen to select the following via WhatsApp Chat :</p>
+        <ul>
+          <li>File Complaint</li>
+          <li>Track Complaint</li>
+          <li>Pay Bills and Fees</li>
+          <li>View Payments Receipts</li>
+          <li>Change Language</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Pay Bills &amp; Fees</td>
+      <td style="text-align:left">
+        <p></p>
+        <p>Allows Citizen to view the current outstanding bills with respect to applicable
+          the modules, where his/ her mobile number is linked. The following information
+          is displayed in the message :</p>
+        <ul>
+          <li>Module Name</li>
+          <li>Amount to be paid</li>
+          <li>Due Date</li>
+          <li>Payment Link</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">View Payment Receipts</td>
+      <td style="text-align:left">
+        <p></p>
+        <p>Allows Citizens to view past payment receipts with respect to applicable
+          modules, linked with the current mobile number. In case, the current mobile
+          number is not linked with the module, still citizen can proceed to search
+          for the receipts via the following :</p>
+        <ul>
+          <li>Registered Mobile Number</li>
+          <li>Module Specific ID (Property ID/ Water Connection ID etc)</li>
+          <li>Consumer Number</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Two-Step Complaint List (By Type &amp; Subtype)</td>
+      <td style="text-align:left">Allows Citizens to now browse complaints by Complaint Type (The Master
+        List) and select the relevant subtype</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Geo-Location Tagging</td>
+      <td style="text-align:left">Allows Citizens to add the location of the grievance site via WhatsApp
+        while lodging the complaint</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Change Language</td>
+      <td style="text-align:left">Allows Citizens to change the language of chat from English to Hindi and
+        vice versa</td>
+    </tr>
+  </tbody>
+</table>
 
 ### Known Issues <a id="Known-Issues"></a>
 
- None
+Emojis are not supported as the input for chat responses
 
 ### Upcoming Release Features <a id="Upcoming-Release-Features"></a>
 
-* Dashboard and Reports
+* Improvement in Messaging Language & Flow
+* NLP Inclusion \(For City & Locality Selection\)
+* Referral, Rating & Help Mechanism
+* Privacy Enhancements
 
 ### Reference Doc Links <a id="Reference-Doc-Links"></a>
 
 | **Doc Links** | **Description** |
 | :--- | :--- |
-|  [ Help Manual](../modules/faecal-sludge-management-fsm/fsm-user-manual/) | User manual for citizens, DSO, SeTPO, and Employee |
+|  |  |
 
- [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)All content on this page by [eGov Foundation ](https://egov.org.in/)is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+ 
+
+
+
+[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)All content on this page by [eGov Foundation ](https://egov.org.in/)is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 
