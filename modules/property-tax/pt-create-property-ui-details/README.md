@@ -6,7 +6,7 @@ This page provides detailed UI information on the Create Property feature availa
 
 The objective is to provide user facilities to add a new property, view the property details and the application currently on their number. The feature allows users to update the property or edit the application.
 
-![](../../.gitbook/assets/screenshot-from-2021-05-03-16-08-18.png)
+![](../../../.gitbook/assets/screenshot-from-2021-05-03-16-08-18.png)
 
 ## **Create Property**
 
@@ -16,23 +16,23 @@ Users can add new property using the Create Property button, and while going thr
 
 Property Tax information screen will be displayed after login, which helps the user to understand the necessary documents needed to complete the new registration for the property.
 
-![](../../.gitbook/assets/screenshot-from-2021-05-04-12-16-22.png)
+![](../../../.gitbook/assets/screenshot-from-2021-05-04-12-16-22.png)
 
 **Property Details Flow**
 
 The user needs to enter the details about the property first. Below is the flow chart for the property details flow**.**
 
-![](../../.gitbook/assets/pt1.jpg)
+![](../../../.gitbook/assets/pt1.jpg)
 
-![](../../.gitbook/assets/screenshot-from-2021-05-04-17-10-36.png)
+![](../../../.gitbook/assets/screenshot-from-2021-05-04-17-10-36.png)
 
 **Assessment Details Flow**
 
 Then the user will be asked about the assessment details, which contains information about each floor and basement.
 
-![](../../.gitbook/assets/pt2.jpg)
+![](../../../.gitbook/assets/pt2.jpg)
 
-![](../../.gitbook/assets/screenshot-from-2021-05-04-17-36-32.png)
+![](../../../.gitbook/assets/screenshot-from-2021-05-04-17-36-32.png)
 
 **Address Details Flow**
 
@@ -40,9 +40,9 @@ After entering the details of the property, the user needs to enter the address 
 
 Users can pinpoint the location in the Geo-location map, according to which pin code and city, as well as locality, is auto-populated.
 
-![](../../.gitbook/assets/screenshot-from-2021-05-04-17-42-49.png)
+![](../../../.gitbook/assets/screenshot-from-2021-05-04-17-42-49.png)
 
-![](../../.gitbook/assets/screenshot-from-2021-05-04-17-43-53.png)
+![](../../../.gitbook/assets/screenshot-from-2021-05-04-17-43-53.png)
 
 **Owner Details Flow**
 
@@ -50,13 +50,13 @@ Finally, the user needs to enter the details, about the property owner, it can b
 
 In the case of Institutional, the following data will be asked in the first screen, and the following screen will remain the same.![](blob:https://digit-discuss.atlassian.net/86c7cd50-632e-4fee-94a3-3aabe522bc44#media-blob-url=true&id=d53bc3b6-e9b8-4424-a0fc-bdd92410d936&collection=contentId-1569259539&contextId=1569259539&mimeType=image%2Fpng&name=Screenshot%20from%202021-05-04%2017-49-11.png&size=19274&width=256&height=502)
 
-![](../../.gitbook/assets/screenshot-from-2021-05-04-17-49-11.png)
+![](../../../.gitbook/assets/screenshot-from-2021-05-04-17-49-11.png)
 
 
 
 In the case of a single/Multiple Owner following screen will be displayed, rest flow will remain the same.![](blob:https://digit-discuss.atlassian.net/24d51f36-7b39-442b-8268-c52650a28172#media-blob-url=true&id=9f17770a-184e-4f09-bf6e-85a9100c5fc8&collection=contentId-1569259539&contextId=1569259539&mimeType=image%2Fpng&name=Screenshot%20from%202021-05-04%2017-48-32.png&size=19616&width=258&height=514)
 
-![](../../.gitbook/assets/screenshot-from-2021-05-04-17-48-32.png)
+![](../../../.gitbook/assets/screenshot-from-2021-05-04-17-48-32.png)
 
 **Check Page and Acknowledgement Screen**
 
@@ -66,9 +66,9 @@ For Registration of property, Create API is called. Following is the snippet of 
 
 If the API response is successful, then the Acknowledgement Screen is displayed, otherwise Failed Acknowledgement Screen is displayed.
 
-![](../../.gitbook/assets/screenshot-from-2021-05-04-18-40-58.png)
+![](../../../.gitbook/assets/screenshot-from-2021-05-04-18-40-58.png)
 
-![](../../.gitbook/assets/screenshot-from-2021-05-04-18-41-03.png)
+![](../../../.gitbook/assets/screenshot-from-2021-05-04-18-41-03.png)
 
 ## **Technical Implementation Details**
 
@@ -80,9 +80,9 @@ The link for the Create Property Main Index is given below, it can be used to un
 
 PT \(Property Tax\) Module has been segregated into a specified structure. All the screen configuration is inside PageComponent Folder, and the configuration for routing of the pages are mentioned in the config folder which is common for both Citizen as well as Employee. The snippet for folder structure and routing configuration is given below.
 
-![](../../.gitbook/assets/screenshot-from-2021-05-04-18-01-28.png)
+![](../../../.gitbook/assets/screenshot-from-2021-05-04-18-01-28.png)
 
-![](../../.gitbook/assets/screenshot-from-2021-05-04-18-01-11.png)
+![](../../../.gitbook/assets/screenshot-from-2021-05-04-18-01-11.png)
 
 Pages Folder is where the high-level configuration for controlling the whole flow is mentioned, for citizens and employees. Citizen flows include Create, Edit, My Properties, My Application and Search Property. The search property flow carries the index \(the main starting point of the whole flow\).
 
@@ -121,7 +121,7 @@ const { data: OwnerShipCategoryOb } = Digit.Hooks.pt.usePropertyMDMS(stateId, "P
 
 Localization keys are added under the ‘_rainmaker-pt_’ locale module. In future, if any new labels are implemented in the Property Tax \(Citizen\) they should also be pushed in the locale DB under _rainmaker-pt_ locale module. Below is an example of few locale labels.
 
-![](../../.gitbook/assets/screenshot-from-2021-05-04-18-22-52.png)
+![](../../../.gitbook/assets/screenshot-from-2021-05-04-18-22-52.png)
 
 ## **API Call Role Action Mapping**
 
