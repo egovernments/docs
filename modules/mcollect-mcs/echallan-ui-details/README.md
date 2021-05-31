@@ -20,7 +20,7 @@ Employees will be able to Create Challan, by selecting the service category, ent
 
 ![](../../../.gitbook/assets/image-20210514-092513.png)
 
-Creating new challan file changes are present in [https://github.com/egovernments/frontend/blob/39ffbeb4f5446bbb08729e9ce6cf0d519f2f748c/web/rainmaker/dev-packages/egov-uc-dev/src/ui-config/screens/specs/uc/newCollection.js](https://github.com/egovernments/frontend/blob/39ffbeb4f5446bbb08729e9ce6cf0d519f2f748c/web/rainmaker/dev-packages/egov-uc-dev/src/ui-config/screens/specs/uc/newCollection.js)  
+Click here to find the [create new challan file changes](https://github.com/egovernments/frontend/blob/39ffbeb4f5446bbb08729e9ce6cf0d519f2f748c/web/rainmaker/dev-packages/egov-uc-dev/src/ui-config/screens/specs/uc/newCollection.js).   
   
 Selecting City is disabled as UC Employee of City A should be able to access/create only City A related challans.
 
@@ -74,26 +74,24 @@ For eg: Refer to the response object
 }
 ```
 
-Based on that "businessService": "WaterCharges.Metered"
+Based on that `"businessService": "WaterCharges.Metered"` 
 
-The service Category will be "WaterCharges"
-
-The service Type will be "Metered"  
-The conversion of business Service utils is setServiceCategory method present in ``[https://github.com/egovernments/frontend/blob/39ffbeb4f5446bbb08729e9ce6cf0d519f2f748c/web/rainmaker/dev-packages/egov-uc-dev/src/ui-config/screens/specs/utils/index.js](https://github.com/egovernments/frontend/blob/39ffbeb4f5446bbb08729e9ce6cf0d519f2f748c/web/rainmaker/dev-packages/egov-uc-dev/src/ui-config/screens/specs/utils/index.js)
+The service Category is `"WaterCharges"` and the service Type is `"Metered"`  
+The conversion of business Service utils is `setServiceCategory` method present in ``[https://github.com/egovernments/frontend/blob/39ffbeb4f5446bbb08729e9ce6cf0d519f2f748c/web/rainmaker/dev-packages/egov-uc-dev/src/ui-config/screens/specs/utils/index.js](https://github.com/egovernments/frontend/blob/39ffbeb4f5446bbb08729e9ce6cf0d519f2f748c/web/rainmaker/dev-packages/egov-uc-dev/src/ui-config/screens/specs/utils/index.js)
 
 ### **Tax Head Dropdown Formation**
 
-Based on the MDMS response TaxHeadMaster are formed by selection service type dropdown.
+Based on the MDMS response `TaxHeadMaster` are formed by selection service type dropdown.
 
-Filter the initial Taxhead master with selected service type with service Attribute in each Taxheads.
+Filter the initial Taxhead master with selected service type with `service` attribute in each Taxheads.
 
 **Other Validations and Create challan** can be refered in [https://github.com/egovernments/frontend/blob/39ffbeb4f5446bbb08729e9ce6cf0d519f2f748c/web/rainmaker/dev-packages/egov-uc-dev/src/ui-config/screens/specs/uc/newCollectionResource/newCollectionFooter.js](https://github.com/egovernments/frontend/blob/39ffbeb4f5446bbb08729e9ce6cf0d519f2f748c/web/rainmaker/dev-packages/egov-uc-dev/src/ui-config/screens/specs/uc/newCollectionResource/newCollectionFooter.js)
 
-createChallan method is used to create challan.
+`createChallan` method is used to create challan.
 
-/echallan-services/eChallan/v1/\_create API is used to create a challan.
+`/echallan-services/eChallan/v1/_create` API is used to create a challan.
 
-Once Challan is created successfully, you will be able to see Challan Acknowledgement.
+Users will be able to see the Challan Acknowledgement once the Challan is created successfully,
 
 Actions available:
 
@@ -103,33 +101,33 @@ Actions available:
 
 ![](../../../.gitbook/assets/image-20210514-100011.png)
 
-Challan’s can be downloaded through this API egov-pdf/download/UC/mcollect-challan?challanNo= 
+Challan’s can be downloaded through this API `egov-pdf/download/UC/mcollect-challan?challanNo=` 
 
 ## **Localisation Module**
 
-rainmaker-uc
+`rainmaker-uc`
 
 **API Used** 
 
-1. egov-mdms-service/v1/\_search
-2. echallan-services/eChallan/v1/\_create
-3. egov-pdf/download/UC/mcollect-challan
+1. `egov-mdms-service/v1/_search`
+2. `echallan-services/eChallan/v1/_create`
+3. `egov-pdf/download/UC/mcollect-challan`
 
 ## **Role Action Mapping**
 
 | [**S.NO**](http://s.no/) | **API** | **ROLES** | **ACTION ID** |
 | :--- | :--- | :--- | :--- |
-| 1 | egov-mdms-service/v1/\_search |   | 954 |
-| 2 | echallan-services/eChallan/v1/\_create | UC\_EMP | 2112 |
-| 3 | egov-pdf/download/UC/mcollect-challan | UC\_EMP | 2115 |
+| 1 | `egov-mdms-service/v1/_search` |   | 954 |
+| 2 | `echallan-services/eChallan/v1/_create` | UC\_EMP | 2112 |
+| 3 | `egov-pdf/download/UC/mcollect-challan` | UC\_EMP | 2115 |
 
 ## **Document Resources and Links** 
 
 | **Related Title** | **Documentation** |
 | :--- | :--- |
-| MCollect Search Challan | [Search Challan and Pay Challan](https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/1598160959/Search+Challan+and+Pay+Challan) |
+| MCollect Search Challan | [Search Challan and Pay Challan](search-and-pay-challan.md) |
 | MCollect Pay Challan | [BillGenie](https://digit-discuss.atlassian.net/wiki/spaces/EGR/pages/436502610/BillGenie) |
-| MCollect Edit / Update Challan | [Edit/Cancel Challan](https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/1599012900) |
+| MCollect Edit / Update Challan | [Edit/Cancel Challan](edit-cancel-challan.md) |
 
 
 
