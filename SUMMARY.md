@@ -119,6 +119,7 @@
   * [mCollect \(MCS\)](modules/mcollect-mcs/README.md)
     * [eChallan UI Details](modules/mcollect-mcs/echallan-ui-details/README.md)
       * [Edit - Cancel Challan](modules/mcollect-mcs/echallan-ui-details/edit-cancel-challan.md)
+      * [Search and Pay Challan](modules/mcollect-mcs/echallan-ui-details/search-and-pay-challan.md)
     * [mCollect Roadmap](modules/mcollect-mcs/mcollect-roadmap.md)
     * [mCollect Master Data Templates](modules/mcollect-mcs/mcollect-master-data-templates/README.md)
       * [Service Category](modules/mcollect-mcs/mcollect-master-data-templates/service-category.md)
