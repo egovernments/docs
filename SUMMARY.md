@@ -59,6 +59,7 @@
       * [Edit-Update Property](modules/property-tax/pt-create-property-ui-details/edit-update-property.md)
       * [Property Tax - My Applications](modules/property-tax/pt-create-property-ui-details/property-tax-my-applications.md)
       * [Property Tax - My Properties](modules/property-tax/pt-create-property-ui-details/property-tax-my-properties.md)
+      * [Property Tax - Quick Pay for Citizen](modules/property-tax/pt-create-property-ui-details/property-tax-quick-pay-for-citizen.md)
     * [PT Data Migration](modules/property-tax/pt-data-migration.md)
     * [PT User Manual](modules/property-tax/pt-user-manual/README.md)
       * [Citizen User Manual](modules/property-tax/pt-user-manual/citizen-user-manual.md)

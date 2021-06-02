@@ -10,7 +10,7 @@ Once the user clicks on the Track Button, the Application Details Page is displa
 
 ![](../../../.gitbook/assets/screenshot-from-2021-05-04-19-16-16.png)
 
-timeline component: timeline component is present at the end of the application details which tells about the current status and history of the application passing through various workflows and actions taken. 
+**Timeline component:** The timeline component is present at the end of the application details which tells about the current status and history of the application passing through various workflows and actions taken. 
 
 ![](../../../.gitbook/assets/screenshot-from-2021-05-07-14-30-40.png)
 
@@ -32,7 +32,9 @@ const { isLoading, isError, error, data } = Digit.Hooks.pt.usePropertySearch(ten
 
 The two main util function and the objective of it are given below:
 
-Create Util Function: While going through the Create flow, all the inputs that the user has entered are stored in a different structure. Since the units are not separated in the flow but incorporated according to each ground, the storing structure is different from the request body of Create API. This function transformed the flow stored data into the request body format. [Click here](https://github.com/egovernments/digit-ui-internals/tree/development/packages/modules/pt/src/utils) to fetch the code. 
+Create Util Function: While going through the Create flow, all the inputs that the user has entered are stored in a different structure. Since the units are not separated in the flow but incorporated according to each ground, the storing structure is different from the request body of Create API. This function transforms the flow of stored data into the requested body format.
+
+[Click here](https://github.com/egovernments/digit-ui-internals/tree/development/packages/modules/pt/src/utils) to fetch the code. 
 
 [Update Util Function: ](edit-update-property.md)Click here to find detailed information about this function.
 
@@ -42,7 +44,7 @@ No MDMS data is used here, all the data is being loaded from Search API.
 
 ## **Localization**
 
-For My Applications also the Localization keys are being added in the ‘_rainmaker-pt_’ locale module same as My properties and create. To change, update or of adding any new localization key will be done in the same locale module only.
+For My Applications also the Localization keys are added in the ‘_rainmaker-pt_’ locale module same as My properties and create. To change, update or add any new localization key is done in the same locale module only.
 
 
 
