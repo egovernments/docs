@@ -57,6 +57,7 @@
       * [Usage Category Sub Minor](modules/property-tax/pt-master-data-templates/usage-category-sub-minor.md)
     * [PT - Create Property UI Details](modules/property-tax/pt-create-property-ui-details/README.md)
       * [Edit-Update Property](modules/property-tax/pt-create-property-ui-details/edit-update-property.md)
+      * [Property Tax - My Applications](modules/property-tax/pt-create-property-ui-details/property-tax-my-applications.md)
     * [PT Data Migration](modules/property-tax/pt-data-migration.md)
     * [PT User Manual](modules/property-tax/pt-user-manual/README.md)
       * [Citizen User Manual](modules/property-tax/pt-user-manual/citizen-user-manual.md)
