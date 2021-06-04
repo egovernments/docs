@@ -248,6 +248,7 @@
       * [User Session Management In DIGIT](configure-digit/services-overview/core-services/user-session-management.md)
       * [Indexer Service](configure-digit/services-overview/core-services/indexer-service.md)
       * [URL Shortening Service](configure-digit/services-overview/core-services/url-shortening-service.md)
+      * [XState Core Chatbot](configure-digit/services-overview/core-services/xstate-core-chatbot.md)
     * [Business Service](configure-digit/services-overview/business-services/README.md)
       * [Bill Amendment](configure-digit/services-overview/business-services/bill-amendment.md)
     * [Municipal Service](configure-digit/services-overview/municipal-services.md)
