@@ -263,6 +263,7 @@
       * [Billing Collection Integration](configure-digit/services-overview/business-services/billing-collection-integration.md)
       * [Dashboard Analytics - Backend](configure-digit/services-overview/business-services/dashboard-analytics-backend.md)
       * [DSS Technical Documentation](configure-digit/services-overview/business-services/dss-technical-documentation.md)
+      * [DSS Dashboard - Technical Document for UI](configure-digit/services-overview/business-services/dss-dashboard-technical-document-for-ui.md)
       * [Bill Amendment](configure-digit/services-overview/business-services/bill-amendment.md)
     * [Municipal Service](configure-digit/services-overview/municipal-services.md)
     * [Utilities](configure-digit/services-overview/utilities.md)
