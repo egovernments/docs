@@ -165,33 +165,52 @@ DIGIT 2.4 is a release that has got new modules, a few functional changes, and n
       <td style="text-align:left">Platform Security Audit fixes</td>
       <td style="text-align:left">
         <p></p>
-        <p><b>Backend Audit </b>
-        </p>
-        <ul>
+        <p>Listed below are the security vulnerabilities identified as part of the
+          security audit. Few of them are as per design and justification is provided
+          for these. Others are fixed at the code level.</p>
+        <ol>
+          <li>Privilege Escalation</li>
+          <li>Failure to restrict URL Access</li>
+          <li>Insecure direct object references (IDOR)</li>
+          <li>Malicious file upload leads to Cross Site scripting</li>
+          <li>Improper Authentication</li>
+          <li>Missing Account Lockout</li>
+          <li>Request Throttling Attack</li>
+          <li>Weak Encoding Mechanism</li>
           <li>Sensitive Information in URL</li>
+          <li>Lack of Automatic Session Expiration</li>
+          <li>Concurrent Session</li>
+          <li>Improper Error Handling</li>
+          <li>Improper Input Validation</li>
+          <li>Mail Command Injection</li>
+          <li>Use of hardcoded credentials</li>
+          <li>Use of sensitive information into configuration file</li>
+          <li>Exclude unsanitized user input from format strings</li>
+          <li>HTTP Parameter Pollution</li>
           <li>Standard pseudo-random number generators cannot withstand cryptographic
             attacks</li>
-          <li>Improper Neutralization of CRLF Sequences in HTTP Headers (&apos;HTTP
-            Response Splitting&apos;)</li>
-          <li>Avoid Exception, Runtime Exception or Throwable in the catch or Throw
-            Statements</li>
-          <li>Avoid sensitive information exposure through error messages</li>
-          <li>Size Validations</li>
-        </ul>
-        <p><b>Frontend Audit</b>
-        </p>
-        <ul>
-          <li>Insecure Direct Object References (IDOR)</li>
-          <li>Sensitive Information in URL</li>
-          <li>Clickjacking</li>
-          <li>It was observed that the application uses eval(code).</li>
-          <li>Do not use dangerouslySetInnerHTML property in React components</li>
-          <li>Do not release debuggable apps
-            <ul>
-              <li>Avoid post cross-document messages with an overly permissive target origin</li>
-            </ul>
-          </li>
-        </ul>
+          <li>Weak cryptographic hash</li>
+          <li>Insecure SSL configuration</li>
+          <li>Improper Neutralization of CRLF Sequences in HTTP Header</li>
+          <li>Avoid Capturing Java.Lang Security Exception</li>
+          <li>Always normalize system inputs</li>
+          <li>Avoid the Command Throws within Finally</li>
+          <li>Close Input and Output resources in finally block</li>
+          <li>Cross Site Request Forgery</li>
+          <li>Cross Site Scripting - Stored</li>
+          <li>Insufficient Cookie Attributes</li>
+          <li>Code Injection</li>
+          <li>Exclude unsanitized user input from format strings</li>
+          <li>Avoid data submissions to non-editable fields</li>
+          <li>Potential Infinite Loops</li>
+          <li>Avoid dangerous J2EE API, use replacements from security-focused libraries
+            (like OWASP ESAPI)</li>
+          <li>Do not allow external input to control resource identifiers</li>
+          <li>The setter method for an identifier property (id or composite-id) should
+            be private</li>
+        </ol>
+        <p>Here are the security fixes guidelines as a<a href="../digit-support/security-guidelines-handbook.md"> handbook </a>for
+          best practices and guidelines.</p>
       </td>
     </tr>
     <tr>
@@ -206,6 +225,31 @@ DIGIT 2.4 is a release that has got new modules, a few functional changes, and n
         </ul>
       </td>
     </tr>
+    <tr>
+      <td style="text-align:left">7</td>
+      <td style="text-align:left">eDCR Enhancements</td>
+      <td style="text-align:left">
+        <p></p>
+        <ol>
+          <li>Enhanced Door, to support door widths with color code. The color code
+            is used to identify the type of door</li>
+          <li>Fix of security audit issues</li>
+          <li>Cleanup unused code and database tables</li>
+        </ol>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">8</td>
+      <td style="text-align:left">Finance</td>
+      <td style="text-align:left">
+        <p></p>
+        <ol>
+          <li>Hard coded sub domain formation logic changed, preparing dynamic sub domain
+            url by reading env from the configuration</li>
+          <li>Fixed the security audit issues</li>
+        </ol>
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -213,17 +257,97 @@ DIGIT 2.4 is a release that has got new modules, a few functional changes, and n
 
 #### UI Technical Documents
 
+{% page-ref page="../modules/mcollect-mcs/echallan-ui-details/" %}
 
+{% page-ref page="../modules/mcollect-mcs/echallan-ui-details/edit-cancel-challan.md" %}
+
+{% page-ref page="../modules/mcollect-mcs/echallan-ui-details/search-and-pay-challan.md" %}
+
+{% page-ref page="../modules/property-tax/property-tax-service/" %}
+
+{% page-ref page="../modules/property-tax/pt-create-property-ui-details/edit-update-property.md" %}
+
+{% page-ref page="../modules/property-tax/pt-create-property-ui-details/property-tax-my-applications.md" %}
+
+{% page-ref page="../modules/property-tax/pt-create-property-ui-details/property-tax-my-properties.md" %}
+
+{% page-ref page="../modules/property-tax/pt-create-property-ui-details/property-tax-quick-pay-for-citizen.md" %}
+
+{% file src="../.gitbook/assets/common-pay-config \(1\).pdf" caption="Common Pay Configuration" %}
+
+{% file src="../.gitbook/assets/fire-noc-create.pdf" caption="Fire NOC Create" %}
+
+{% file src="../.gitbook/assets/digit-ui-manual \(1\).pdf" caption="DIGIT UI Manual" %}
 
 #### Backend Service Documents
 
+{% page-ref page="../configure-digit/services-overview/core-services/xstate-core-chatbot/" %}
 
+{% page-ref page="../configure-digit/services-overview/core-services/xstate-core-chatbot/xstate-chatbot-integration-document.md" %}
+
+{% page-ref page="../configure-digit/services-overview/core-services/xstate-core-chatbot/xstate-chatbot-message-localisation.md" %}
+
+{% page-ref page="../modules/e-challan-service/" %}
+
+{% page-ref page="../modules/e-challan-service/echallan-calculator-services.md" %}
+
+{% page-ref page="../modules/faecal-sludge-management-fsm/fsm-service-configuration/fsm-services.md" %}
 
 #### Tech Enablement Documents
 
+{% page-ref page="../configure-digit/services-overview/business-services/appropriation-service.md" %}
+
+{% page-ref page="../configure-digit/services-overview/business-services/billing-service/" %}
+
+{% page-ref page="../configure-digit/services-overview/business-services/billing-service/bill-amendment-service-configuration.md" %}
+
+{% page-ref page="../configure-digit/services-overview/business-services/collection-service/" %}
+
+{% page-ref page="../configure-digit/services-overview/business-services/billing-collection-integration.md" %}
+
+{% page-ref page="../configure-digit/services-overview/business-services/dashboard-analytics-backend.md" %}
+
+{% page-ref page="../configure-digit/services-overview/business-services/dss-technical-documentation.md" %}
+
+{% page-ref page="../configure-digit/services-overview/business-services/dss-dashboard-technical-document-for-ui.md" %}
+
+{% page-ref page="../configure-digit/services-overview/business-services/dss-features-enhancements.md" %}
+
+{% page-ref page="../configure-digit/services-overview/business-services/technical-script-steps-for-migration-process.md" %}
+
+{% page-ref page="../modules/property-tax/property-tax-service/" %}
+
+{% page-ref page="../modules/water-and-sewerage/water-services/" %}
+
+{% page-ref page="../modules/water-and-sewerage/water-services/water-calculator-service.md" %}
+
+{% page-ref page="../modules/water-and-sewerage/water-services/sewerage-service.md" %}
+
+{% page-ref page="../modules/water-and-sewerage/water-services/sewerage-calculator-service.md" %}
+
+{% page-ref page="../modules/fire-noc/fire-noc-service/" %}
+
+{% page-ref page="../modules/fire-noc/fire-noc-service/fire-noc-calculator-service.md" %}
+
+{% page-ref page="../modules/trade-license-tl/tl-service-configuration/" %}
+
+{% page-ref page="../modules/trade-license-tl/tl-service-configuration/trade-license-calculator.md" %}
+
+{% page-ref page="../configure-digit/qa-automation/automation-framework-knowledge-base.md" %}
+
+{% page-ref page="../configure-digit/qa-automation/jenkins-setup-for-automation.md" %}
+
+{% page-ref page="../configure-digit/qa-automation/automation-test-tags.md" %}
+
+{% page-ref page="../configure-digit/qa-automation/automation-test-reporting.md" %}
+
+{% page-ref page="../digit-support/security-guidelines-handbook.md" %}
 
 
 
 
- [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)All content on this page by [eGov Foundation ](https://egov.org.in/)is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+
+
+
+ [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)\_\_](http://creativecommons.org/licenses/by/4.0/)_All content on this page by_ [_eGov Foundation_ ](https://egov.org.in/)_is licensed under a_ [_Creative Commons Attribution 4.0 International License_](http://creativecommons.org/licenses/by/4.0/)_._
 

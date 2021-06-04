@@ -2,7 +2,7 @@
 description: WhatsApp channel v2 release details
 ---
 
-# Whatsapp as a Channel Release Notes
+# WhatsApp Channel Release Notes
 
 ### Overview <a id="Overview"></a>
 

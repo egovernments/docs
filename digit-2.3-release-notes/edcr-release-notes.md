@@ -32,16 +32,17 @@ This release has updated workflows and user interface for the following business
     <tr>
       <td style="text-align:left">PT - Quick Pay</td>
       <td style="text-align:left">
-        <p>Citizen can make property tax payment with or without login. Citizen can
-          search property tax bills using given search parameter and makeonline payments.</p>
+        <p>A Citizen can make property tax payment with or without login. Citizens
+          can search property tax bills using the given search parameter and make
+          online payments.</p>
         <p>Citizens will receive a payment confirmation notification and a link to
-          download receipt.</p>
+          download the receipt.</p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">Create Property</td>
       <td style="text-align:left">Simplified and clear call to action with in-app help for citizens while
-        apply for a new property registration.</td>
+        applying for new property registration.</td>
     </tr>
     <tr>
       <td style="text-align:left">My Properties</td>
@@ -50,8 +51,8 @@ This release has updated workflows and user interface for the following business
     </tr>
     <tr>
       <td style="text-align:left">My Applications</td>
-      <td style="text-align:left">Citizen can track application status for their properties under this section.
-        Also they take action assigned to them during the workflow.</td>
+      <td style="text-align:left">Citizens can track the application status for their properties under this
+        section. Also, they take action assigned to them during the workflow.</td>
     </tr>
   </tbody>
 </table>

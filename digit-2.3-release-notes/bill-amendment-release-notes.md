@@ -4,8 +4,6 @@ description: API automatio release details
 
 # QA Automation Release Notes
 
-
-
 Below is the list of services whose APIs are automated in this release.
 
 | **core-services** | **business-services** | **municipal-services** | **e2e-services** |
