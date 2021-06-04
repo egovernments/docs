@@ -74,6 +74,7 @@
     * [Water Services](modules/water-and-sewerage/water-services/README.md)
       * [Water Calculator Service](modules/water-and-sewerage/water-services/water-calculator-service.md)
       * [Sewerage Service](modules/water-and-sewerage/water-services/sewerage-service.md)
+      * [Sewerage Calculator Service](modules/water-and-sewerage/water-services/sewerage-calculator-service.md)
     * [Sewerage Charges Master Data Templates](modules/water-and-sewerage/sewerage-charges-master-data-templates/README.md)
       * [Sewerage Rates](modules/water-and-sewerage/sewerage-charges-master-data-templates/sewerage-rates.md)
       * [Sewerage Penalty Rates](modules/water-and-sewerage/sewerage-charges-master-data-templates/sewerage-penalty-rates.md)
