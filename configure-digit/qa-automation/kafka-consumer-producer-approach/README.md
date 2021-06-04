@@ -8,9 +8,9 @@ This document is to provide a high-level abstraction of Kafka workflow. Same doc
 
 ## **Kafka Abstraction Work Flow**
 
-![](../../.gitbook/assets/155.png)
+![](../../../.gitbook/assets/155.png)
 
-![](../../.gitbook/assets/154.jpg)
+![](../../../.gitbook/assets/154.jpg)
 
 Kafka SMS Consumers
 
