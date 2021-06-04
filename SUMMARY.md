@@ -58,6 +58,7 @@
     * [Property Tax Service](modules/property-tax/property-tax-service/README.md)
       * [Property Mutation & Mutation Calculator](modules/property-tax/property-tax-service/property-mutation-and-mutation-calculator.md)
       * [Assessment of Property](modules/property-tax/property-tax-service/assessment-of-property.md)
+      * [PT Calculator](modules/property-tax/property-tax-service/pt-calculator.md)
     * [PT - Create Property UI Details](modules/property-tax/pt-create-property-ui-details/README.md)
       * [Edit-Update Property](modules/property-tax/pt-create-property-ui-details/edit-update-property.md)
       * [Property Tax - My Applications](modules/property-tax/pt-create-property-ui-details/property-tax-my-applications.md)

@@ -20,7 +20,7 @@ Assessment shares most of the configs with Property as mentioned above, only exc
 | kafka create assessment topic | save-pt-assessment |   |
 | kafka update assesmsent topic | update-pt-assessment |   |
 | assessment.workflow.enabled | true/false | Workflow integration can be controlled by the following two properties |
-| assessment.workflow.trigger.param | usageCategory,occupancyType,occupancyDate |  |
+| assessment.workflow.trigger.param | usageCategory,occupancyType,occupancyDate |   |
 
 **PERSISTER CONFIG**: [https://raw.githubusercontent.com/egovernments/configs/master/egov-persister/assessment-persister.yml?token=AE4Z2KFWEQBDCUY6AZLGGIK6AM3QQ](https://raw.githubusercontent.com/egovernments/configs/master/egov-persister/assessment-persister.yml?token=AE4Z2KFWEQBDCUY6AZLGGIK6AM3QQ)\`\`
 
@@ -560,7 +560,7 @@ Assessment ****\(Property Calculator\) -
 
 The calculator service Prepares and property tax and files the demand in the billing service for payment. It has the ‘estimate’ API to give the estimated property tax without persisting data and a calculated API to create demand for payments.
 
-The calculator service[ PT Calculator](https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/1620574278/PT+Calculator)
+The calculator service[ PT Calculator](pt-calculator.md)
 
 ## Integration
 
