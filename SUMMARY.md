@@ -364,6 +364,7 @@
     * [Monitoring & Alerts](devops/troubleshooting/monitoring.md)
 * [Training Resources](training-and-demo/README.md)
   * [Training Videos](training-and-demo/training-videos.md)
+  * [Technical Enablement Areas](training-and-demo/technical-enablement-areas.md)
 * [Partner Support](digit-support/README.md)
   * [eGov Enablement Support for DIGIT](digit-support/egov-enablement-support-for-digit.md)
   * [Security Guidelines Handbook](digit-support/security-guidelines-handbook.md)
