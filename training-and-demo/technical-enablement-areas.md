@@ -203,8 +203,10 @@ description: Enablement artefacts and doc resources
       <td style="text-align:left"><b>Role Access Mapping</b>
       </td>
       <td style="text-align:left">Adding roles to System</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left"> <a href="https://youtu.be/GcadlCpQG-o">https://youtu.be/GcadlCpQG-o</a>
+      </td>
+      <td style="text-align:left"><a href="../configure-digit/services-overview/core-services/access-control-services.md">Access Control Services</a>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left"></td>
@@ -225,10 +227,13 @@ description: Enablement artefacts and doc resources
       <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left"></td>
+      <td style="text-align:left"><b> Localization</b>
+      </td>
       <td style="text-align:left">How to setup base product localization</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left"> <a href="https://youtu.be/lTvWb-eeOdw">https://youtu.be/lTvWb-eeOdw</a>
+      </td>
+      <td style="text-align:left"><a href="../configure-digit/configuring-digit-services/configuring-localization/setup-base-product-localization.md">Setup Base Product Localization</a> 
+      </td>
     </tr>
     <tr>
       <td style="text-align:left"></td>
@@ -258,7 +263,8 @@ description: Enablement artefacts and doc resources
       <td style="text-align:left"><b>SMS Gateway</b>
       </td>
       <td style="text-align:left">Using the generic GET &amp; POST Gateway interface</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left"> <a href="https://youtu.be/ZR14wM642E4">https://youtu.be/ZR14wM642E4</a>
+      </td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
@@ -277,8 +283,10 @@ description: Enablement artefacts and doc resources
       <td style="text-align:left"><b>Workflow</b>
       </td>
       <td style="text-align:left">Workflow configuration documentation</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left"> <a href="https://youtu.be/kH_c8YvaDyw">https://youtu.be/kH_c8YvaDyw</a>
+      </td>
+      <td style="text-align:left"> <a href="../configure-digit/services-overview/core-services/workflow-services.md">Workflow Services</a>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left"></td>
@@ -302,7 +310,8 @@ description: Enablement artefacts and doc resources
       <td style="text-align:left"><b>Payment Gateway Integration</b>
       </td>
       <td style="text-align:left">Existing gateway integration documentation</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left"> <a href="https://youtu.be/VfbQuC7IS10">https://youtu.be/VfbQuC7IS10</a>
+      </td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
@@ -358,7 +367,8 @@ description: Enablement artefacts and doc resources
       <td style="text-align:left"><b>Service Documentation</b>
       </td>
       <td style="text-align:left">Overview of each service</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left"> <a href="https://youtu.be/Lx7KrdeLz48">https://youtu.be/Lx7KrdeLz48</a>
+      </td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
@@ -383,7 +393,8 @@ description: Enablement artefacts and doc resources
       <td style="text-align:left"><b>Reporting &amp; PDF Generator</b>
       </td>
       <td style="text-align:left">How reporting service and PDF generator works</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left"> <a href="https://youtu.be/TPlnfEInwGA">https://youtu.be/TPlnfEInwGA</a>
+      </td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
@@ -408,7 +419,8 @@ description: Enablement artefacts and doc resources
       <td style="text-align:left"><b>Customizing Frontend</b>
       </td>
       <td style="text-align:left">Adding/Removing fields</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left"> <a href="https://youtu.be/S4KcOd0vqRE">https://youtu.be/S4KcOd0vqRE</a>
+      </td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
@@ -430,9 +442,11 @@ description: Enablement artefacts and doc resources
       <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left"></td>
+      <td style="text-align:left"><b>Customizing Backend Service</b>
+      </td>
       <td style="text-align:left">Writing a new Service</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left"> <a href="https://youtu.be/CvRmht7bZsY">https://youtu.be/CvRmht7bZsY</a>
+      </td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
@@ -451,7 +465,8 @@ description: Enablement artefacts and doc resources
       <td style="text-align:left"></td>
       <td style="text-align:left">Persister and Indexer changes</td>
       <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left"> <a href="../configure-digit/services-overview/core-services/indexer-service.md">Indexer Service</a>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left"></td>
@@ -469,7 +484,8 @@ description: Enablement artefacts and doc resources
       <td style="text-align:left"><b>DSS</b>
       </td>
       <td style="text-align:left">Configuration and Default Setup</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left"> <a href="https://youtu.be/ZDhpEvKy8O8">https://youtu.be/ZDhpEvKy8O8</a>
+      </td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
@@ -482,7 +498,8 @@ description: Enablement artefacts and doc resources
       <td style="text-align:left"><b>Mobile</b>
       </td>
       <td style="text-align:left">Deployment of App on Playstore</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left"> <a href="https://youtu.be/h_obyJq8onI">https://youtu.be/h_obyJq8onI</a>
+      </td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
@@ -542,4 +559,6 @@ description: Enablement artefacts and doc resources
 
 
 
+
+> [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)All content on this page by [eGov Foundation ](https://egov.org.in/)is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 
