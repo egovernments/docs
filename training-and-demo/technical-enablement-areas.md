@@ -9,15 +9,20 @@ description: Enablement artefacts and doc resources
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Activity</th>
-      <th style="text-align:left">Detailed Areas</th>
-      <th style="text-align:left">Training Videos</th>
-      <th style="text-align:left">Related Artefacts</th>
+      <th style="text-align:left"><b>Activity</b>
+      </th>
+      <th style="text-align:left"><b>Detailed Areas</b>
+      </th>
+      <th style="text-align:left"><b>Training Videos</b>
+      </th>
+      <th style="text-align:left"><b>Related Artefacts</b>
+      </th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">Setup and Deployment</td>
+      <td style="text-align:left"><b>Setup and Deployment</b>
+      </td>
       <td style="text-align:left">Setting up a Kubernetes Cluster</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">
@@ -71,7 +76,8 @@ description: Enablement artefacts and doc resources
       <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left">Troubleshooting &amp; Debugging</td>
+      <td style="text-align:left"><b>Troubleshooting &amp; Debugging</b>
+      </td>
       <td style="text-align:left">Kafka infra logging troubleshooting</td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
@@ -113,7 +119,8 @@ description: Enablement artefacts and doc resources
       <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left">Build and Deployment pipeline</td>
+      <td style="text-align:left"><b>Build and Deployment Pipeline</b>
+      </td>
       <td style="text-align:left">Adding a new service for Build</td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
@@ -155,7 +162,8 @@ description: Enablement artefacts and doc resources
       <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left">Master Data Setup</td>
+      <td style="text-align:left"><b>Master Data Setup</b>
+      </td>
       <td style="text-align:left">How MDMS works</td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
@@ -191,7 +199,8 @@ description: Enablement artefacts and doc resources
       <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left">Role Access Mapping</td>
+      <td style="text-align:left"><b>Role Access Mapping</b>
+      </td>
       <td style="text-align:left">Adding roles to System</td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
@@ -245,7 +254,8 @@ description: Enablement artefacts and doc resources
       <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left">SMS Gateway</td>
+      <td style="text-align:left"><b>SMS Gateway</b>
+      </td>
       <td style="text-align:left">Using the generic GET &amp; POST Gateway interface</td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
@@ -263,7 +273,8 @@ description: Enablement artefacts and doc resources
       <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left">Workflow</td>
+      <td style="text-align:left"><b>Workflow</b>
+      </td>
       <td style="text-align:left">Workflow configuration documentation</td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
@@ -287,7 +298,8 @@ description: Enablement artefacts and doc resources
       <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left">Payment Gateway Integration</td>
+      <td style="text-align:left"><b>Payment Gateway Integration</b>
+      </td>
       <td style="text-align:left">Existing gateway integration documentation</td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
@@ -305,7 +317,8 @@ description: Enablement artefacts and doc resources
       <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left">Misc</td>
+      <td style="text-align:left"><b>Misc</b>
+      </td>
       <td style="text-align:left">Scheduling Jobs on the platform</td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
@@ -315,10 +328,217 @@ description: Enablement artefacts and doc resources
 
 ## Customization and Extension
 
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left"><b>Activity</b>
+      </th>
+      <th style="text-align:left"><b>Detailed Areas</b>
+      </th>
+      <th style="text-align:left"><b>Training Videos</b>
+      </th>
+      <th style="text-align:left"><b>Related Artefacts</b>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left"><b>Customisation and Extension</b>
+      </td>
+      <td style="text-align:left">Repo Setup and best practices</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">
+        <p></p>
+        <p></p>
+        <p></p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>Service Documentation</b>
+      </td>
+      <td style="text-align:left">Overview of each service</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">API links for each service</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">Documentation links for each service</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">Local setup for each service</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>Reporting &amp; PDF Generator</b>
+      </td>
+      <td style="text-align:left">How reporting service and PDF generator works</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">Which types of reports should report service be used for</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">Impact of heavy reports on the platform</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">Configuring a new report</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>Customizing Frontend</b>
+      </td>
+      <td style="text-align:left">Adding/Removing fields</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">Making Mandatory/Non-mandatory</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">Writing new forms</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">Fields changes (Text to Dropdown)</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">Writing a new Service</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">Enhancing existing Service</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">Integration with third-party systems</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">Persister and Indexer changes</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">Writing a new consumer</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">Troubleshoot using Browser network Tab</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>DSS</b>
+      </td>
+      <td style="text-align:left">Configuration and Default Setup</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">Building New Dashboards</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>Mobile</b>
+      </td>
+      <td style="text-align:left">Deployment of App on Playstore</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">Customise PDF receipts and certificates</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>Web Portals</b>
+      </td>
+      <td style="text-align:left">Data Collection Prerequisites</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">Configuring Data in Web Portal</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">Testing and Validation</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>eDCR</b>
+      </td>
+      <td style="text-align:left">How to configure eDCR</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">Development Control Rules and Drawing standards</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">Configuring bye-laws into templates</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>Finance</b>
+      </td>
+      <td style="text-align:left">How to configure finance</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+  </tbody>
+</table>
 
 
-* [What is RBAC in Kubernetes?](https://danielckv.medium.com/what-is-rbac-in-kubernetes-c54457eff2dc)
-* [DIGIT - Git Repos ](https://www.youtube.com/channel/UCKNfhFNuYfHfbLmSHEb4MEg)
 
 
 
