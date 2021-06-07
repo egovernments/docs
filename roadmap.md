@@ -73,7 +73,7 @@ Commitment and transparency are deeply ingrained values defining our product dev
 
 ## Quarter 2 - July to September 2021
 
-| Release Date: 01/06/2021 | Beta date: | GA date: |
+| Release Date: 01/09/2021 | Beta date: | GA date: |
 | :--- | :--- | :--- |
 
 
@@ -188,7 +188,7 @@ Commitment and transparency are deeply ingrained values defining our product dev
 **FSM -**
 
 * Abstraction to business models - Abstracting the core components of various business models across containment/transport/treatment/reuse so that any state can use the platform
-* Marketplace - Having a market place model for emptying & transport to connect desludging operators with citizens 
+* Marketplace - Having a marketplace model that connects desludging operators with citizens and manages the entire logistics chain
 * Open dashboards/data \(for researchers\) - Creating a one-stop solution for accessing key data points in the FSM space
 {% endhint %}
 
