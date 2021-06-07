@@ -531,7 +531,8 @@ description: Enablement artefacts and doc resources
       <td style="text-align:left"><b>eDCR</b>
       </td>
       <td style="text-align:left">How to configure eDCR</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left"> <a href="https://youtu.be/JtQLorq-A9U">https://youtu.be/JtQLorq-A9U</a>
+      </td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
