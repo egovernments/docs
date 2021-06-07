@@ -24,7 +24,8 @@ description: Enablement artefacts and doc resources
       <td style="text-align:left"><b>Setup and Deployment</b>
       </td>
       <td style="text-align:left">Setting up a Kubernetes Cluster</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left"> <a href="https://youtu.be/FzckrPiyvTQ">https://youtu.be/FzckrPiyvTQ</a>
+      </td>
       <td style="text-align:left">
         <p></p>
         <ul>
