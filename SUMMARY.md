@@ -325,6 +325,7 @@
 * [Deployment Guide](devops/README.md)
   * [Setup Requirements](devops/setup-digit/README.md)
     * [Tech Enablement Training - Essential Skills and Pre-requisites](devops/setup-digit/tech-enablement-training-essential-skills-and-pre-requisites.md)
+    * [Tech Enablement Training \(eDCR\) - Essential Skills and Prerequisites](devops/setup-digit/tech-enablement-training-edcr-essential-skills-and-prerequisites.md)
     * [DIGIT Rollout Program Governance](devops/setup-digit/digit-rollout-program-governance.md)
     * [DevOps Skills Requirements](devops/setup-digit/devops-skills.md)
     * [Infra Requirements](devops/setup-digit/cluster-requirements.md)
