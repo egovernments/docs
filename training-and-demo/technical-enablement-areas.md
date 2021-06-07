@@ -6,6 +6,14 @@ description: Enablement artefacts and doc resources
 
 ## Setting Up DIGIT Environment
 
+* Setup and Deployment
+
+{% embed url="https://youtu.be/FzckrPiyvTQ" %}
+
+
+
+
+
 <table>
   <thead>
     <tr>
