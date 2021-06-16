@@ -18,7 +18,7 @@ We are excited to have you join us for this event. In the meantime, we thought t
 * ​[DIGIT 2.4 Release Notes](https://docs.digit.org/digit-release-notes)​
 * New module: [Faecal Sludge Management](https://docs.digit.org/v/v2.3/digit-2.3-release-notes/fsm-release-notes) ​
 * New module: [eChallan](https://docs.digit.org/digit-release-notes/echallan-release-notes) ​
-* ​[Security Guidelines Handbook](https://docs.digit.org/digit-support/security-guidelines-handbook)​
+* ​[Security Guidelines Handbook​](digit-support/security-guidelines-handbook.md)
 * ​[QA Automation Release Notes](https://docs.digit.org/digit-release-notes/qa-automation-release-notes)​
 
 **Click here to** [**Register**](https://us02web.zoom.us/webinar/register/WN_jFSs1OVZSKmV6JI4bZ37aA) **for the event.**
