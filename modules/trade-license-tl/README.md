@@ -33,13 +33,13 @@ DIGIT Trade License module enables employees to -
 
 This section contains all docs and information required to understand the TL module, its key features, functional scope, and configuration details. Click on the links below to learn more about deploying, configuring, customizing, and using the TL module.
 
-* Functional Specifications
-* TL Roadmap
-* TL User Manual
-* Product Brochure
-* TL Workflows 
-* Master Data Configuration Template
-* TL Service Configuration
+* [Functional Specifications](tl-module-functional-specifications.md)
+* [TL Roadmap](tl-roadmap.md)
+* [TL User Manual](tl-user-manual/)
+* [Product Brochure](tl-brochure.md)
+* [TL Workflows ](tl-workflows.md)
+* [Master Data Configuration Templates](tl-master-data-templates/)
+* [TL Service Configuration](tl-service-configuration/)
 * Implementation Handbook
 * Demo Script
 
