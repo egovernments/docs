@@ -1,10 +1,18 @@
 # Training Videos
 
 {% hint style="warning" %}
-Watch out for this space as we are constantly adding on to our video library.
+Watch out for this space as we are constantly adding to our video library.
 {% endhint %}
 
 DIGIT video tutorials provide a step-by-step guide to using the DIGIT modules. Refer to these videos for clarity and ease of understanding the different functions of the modules. Our product video library covers a wide range of functions, right from configuring DIGIT environment components to using the modules.
+
+### DIGIT Webinar Videos
+
+* [DIGIT 2.1 Release Webinar](https://youtu.be/ptG2IqHk4jw)
+* [DIGIT 2.2 Release Webinar](https://youtu.be/jb6oHctAMkE)
+* [DIGIT 2.3 & 2.4 Release Webinar](https://youtu.be/8f7cp30He4U)
+
+
 
 ### Module Data Templates Configuration Videos
 
@@ -364,5 +372,11 @@ DIGIT video tutorials provide a step-by-step guide to using the DIGIT modules. R
   </tbody>
 </table>
 
- [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)All content on this page by [eGov Foundation ](https://egov.org.in/)is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+
+
+
+
+
+
+> [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)_All content on this page by_ [_eGov Foundation_ ](https://egov.org.in/)_is licensed under a_ [_Creative Commons Attribution 4.0 International License_](http://creativecommons.org/licenses/by/4.0/)_._
 
