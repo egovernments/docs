@@ -140,12 +140,16 @@ Localization keys are added under the ‘_rainmaker-pt_’ locale module. In fut
 
 | Link | Description |
 | :--- | :--- |
-|  | My Applications |
-|  | My Properties |
-|  | Application Details |
-|  | Property Information |
-|  | Edit/Update Property |
-|  | Quick Pay and Search Property |
+| [My Applications](property-tax-my-applications.md) | Property applications |
+| [My Properties](property-tax-my-properties.md) | Registered properties  |
+| [Application Details](property-tax-my-applications.md) | Application details |
+| [Property Information](../property-tax-service/property-mutation-and-mutation-calculator.md) | Property information |
+| [Edit/Update Property](edit-update-property.md) | Edit or update property details |
+| [Quick Pay and Search Property](property-tax-quick-pay-for-citizen.md) | Make payment or search property details |
 
 
+
+
+
+> [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)_All content on this page by_ [_eGov Foundation_ ](https://egov.org.in/)_is licensed under a_ [_Creative Commons Attribution 4.0 International License_](http://creativecommons.org/licenses/by/4.0/)_._
 
