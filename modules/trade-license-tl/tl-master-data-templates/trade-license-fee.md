@@ -9,7 +9,7 @@ Dependent on the Trade Classification Level \([Types](trade-type.md)/ [Subtypes]
 Following are the key tasks to be executed :
 
 * Allocate the License Fee according to Trade Classification Level \(Types/Subtypes\).
-* Map the License fee with respective Trade Classification Level.
+* Map the License fee with the respective Trade Classification Level.
 
 ## Data Table <a id="data-table"></a>
 
@@ -45,7 +45,7 @@ The table above contains sample data.
 
 ## Checklist <a id="checklist"></a>
 
-The checklist is a set of activities to be performed one the data is filled into a template to ensure data type, size, and format of data is as per the expectation. These activities have been divided into 2 groups as given below.
+The checklist is a set of activities to be performed once the data is filled into a template to ensure data type, size, and format of data is as per the expectation. These activities have been divided into 2 groups as given below.
 
 ### Common Checklist <a id="common-checklist"></a>
 
@@ -88,5 +88,9 @@ This checklist covers the activities which are specific to the entity.
 
 
 
- [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)All content on this page by [eGov Foundation ](https://egov.org.in/)is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+
+
+
+
+> [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)_All content on this page by_ [_eGov Foundation_ ](https://egov.org.in/)_is licensed under a_ [_Creative Commons Attribution 4.0 International License_](http://creativecommons.org/licenses/by/4.0/)_._
 

@@ -8,7 +8,7 @@ description: >-
 
 ## About TL
 
-DIGIT-Trade License \(TL\) enables local government to regulate the trade and protect the interest of the public at large against the health hazard and inconvenience which a business may cause. With DIGIT-TL traders can obtain the trade certificate in a simplified manner and ensure compliance with rules and safety guidelines issued by the government. The module offers the citizens and governance bodies a convenient and transparent means of processing trade licenses.
+DIGIT-Trade License \(TL\) enables local government bodies to regulate trading establishments. It also serves to protect the interest of the public at large against possible health hazard and inconvenience that can be caused by any business operations. With DIGIT-TL traders can obtain the trade certificate in a simplified manner and ensure compliance with rules and safety guidelines issued by the government. The module offers the citizens and governance bodies a convenient and transparent means of processing trade licenses.
 
 The Trade License application makes the process of obtaining a Trade License easy, smooth, and transparent. The module, hence, removes the need for manual processing and streamlines the key trade license management functions to provide a better user experience.
 
@@ -16,7 +16,7 @@ The Trade License application makes the process of obtaining a Trade License eas
 
 DIGIT Trade License module enables citizens to -
 
-1. Apply for new trade license or renew an existing trade license.
+1. Apply for a new trade license or renew an existing trade license.
 2. Upload all the relevant documents required for the license.
 3. Make payment for the Trade License \(New/Renewal\) fee using the online payment gateway.
 4. Receive notifications and alerts by emails or SMS for new application status updates and pending renewals.

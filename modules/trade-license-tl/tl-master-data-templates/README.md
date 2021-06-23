@@ -12,7 +12,7 @@ The DIGIT-Trade License application makes the process of obtaining a Trade Licen
 
 DIGIT Trade License module enables citizens to -
 
-1. Apply for new trade license or renew an existing trade license.
+1. Apply for a new trade license or renew an existing trade license.
 2. Upload all the relevant documents required for the license.
 3. Make payment for the Trade License \(New/Renewal\) fee using the online payment gateway.
 4. Receive notifications and alerts by emails or SMS for new application status updates and pending renewals.
@@ -50,5 +50,7 @@ DIGIT Trade License module enables employees to -
 
 
 
- [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)All content on this page by [eGov Foundation ](https://egov.org.in/)is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+
+
+> [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)_All content on this page by_ [_eGov Foundation_ ](https://egov.org.in/)_is licensed under a_ [_Creative Commons Attribution 4.0 International License_](http://creativecommons.org/licenses/by/4.0/)_._
 
