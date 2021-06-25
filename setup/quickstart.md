@@ -12,13 +12,13 @@ Here in this Quickstart guide we'll create a lightweight kubernetes cluster call
 
 ## **1. Infra Setup**
 
-**To provision a lightweight kubernetes cluster, please follow this** [**instructions**](https://github.com/rancher/k3d) **with respect to your OS and install the k3d on your machine.** 
+**To provision a lightweight kubernetes cluster, please follow this instructions with respect to your OS and install the k3d on your machine.** 
 
 ### **H/W  or VM Size:**
 
-* 8 vCPUs \(recommend 8\)
-* 16GiB of RAM \(recommend 16\)
-* 30GiB of HDD \(recommend 40+\)
+* 8 vCPUs \(recommended 8\)
+* 16GiB of RAM \(recommended 16\)
+* 30GiB of HDD \(recommended 30+\)
 
 ### **Tools:** 
 
@@ -26,14 +26,14 @@ Here in this Quickstart guide we'll create a lightweight kubernetes cluster call
   * Ubuntu 18.04 or Debian 10 \(VM or bare metal\)
   * Install [Docker](https://docs.docker.com/engine/install/ubuntu/)
   * [Install kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/) on Linux
-* **OSX or MacBook**
+* **OSX or Mac**
   * [Docker Desktop](https://docs.docker.com/docker-for-mac/install/) local Kubernetes cluster enabled
   * [Install kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl-macos/) on Mac
 * **Windows 10 or above**
   * [Docker Desktop for windows](https://docs.docker.com/docker-for-windows/install/#system-requirements-for-wsl-2-backend) need to be installed
   * [Install Chocolatey](https://chocolatey.org) package manager for windows 
   * [Install kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/) on Windows
-  * Install [GitBash](https://git-scm.com/download/win) as an alternative command prompt that most of the linux commands and you can use it to run the remaining commands
+  * Install [GitBash](https://git-scm.com/download/win) as an alternative command prompt that allows most of the linux commands on windows.
 
 ### **Infra Creation:**
 
@@ -107,30 +107,30 @@ Now that we have the Infra setup to proceed with the DIGIT Deployment. Following
 
 ### **Prerequisites:**
 
-* [ ] DIGIT uses [golang](https://golang.org/doc/install#download) \(required v1.13.3\) automated scripts to deploy the builds on to kubernetes - [Linux](https://golang.org/dl/go1.13.3.linux-amd64.tar.gz) or [Windows](https://golang.org/dl/go1.13.3.windows-amd64.msi) or [Mac](https://golang.org/dl/go1.13.3.darwin-amd64.pkg)
-* [ ] All DIGIT services are packaged using helm charts[ ![](https://helm.sh/img/favicon-152.png)Installing Helm](https://helm.sh/docs/intro/install/)
-* [ ] [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/) is a cli to connect to the kubernetes cluster from your machine
-* [ ] [Install Visualstudio](https://code.visualstudio.com/download) IDE Code for better code/configuration editing capabilities
-* [ ] All the DIGIT services deployment configurations are in [GitRepo](https://github.com/egovernments/DIGIT-DevOps) which you would need to [install git](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository) and then [git clone](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository) it to you local.
+1. DIGIT uses [golang](https://golang.org/doc/install#download) \(required v1.13.3\) automated scripts to deploy the builds on to kubernetes - [Linux](https://golang.org/dl/go1.13.3.linux-amd64.tar.gz) or [Windows](https://golang.org/dl/go1.13.3.windows-amd64.msi) or [Mac](https://golang.org/dl/go1.13.3.darwin-amd64.pkg)
+2. All DIGIT services are packaged using helm charts[ ![](https://helm.sh/img/favicon-152.png)Installing Helm](https://helm.sh/docs/intro/install/)
+3. [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/) is a cli to connect to the kubernetes cluster from your machine
+4. [Install Visualstudio](https://code.visualstudio.com/download) IDE Code for better code/configuration editing capabilities
+5. All the DIGIT services deployment configurations are in [GitRepo](https://github.com/egovernments/DIGIT-DevOps) which you would need to [install git](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository) and then [git clone](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository) it to you local.
 
 ```text
 root@ip:/# git clone -b quickstart https://github.com/egovernments/DIGIT-DevOps 
 ```
 
-* [ ] After the cloning the repo CD into the folder DIGIT-DevOps and type the "code ." command that will open the visual editor and opens all the files from the repo DIGIT-DevOps
+  6. After the cloning the repo CD into the folder DIGIT-DevOps and type the "code ." command that will open the visual editor and opens all the files from the repo DIGIT-DevOps
 
 ```text
 root@ip:/# cd DIGIT-DevOps
 root@ip:DIGIT-DevOps# code .
 ```
 
-* [ ] Have look at the [sample deployment config file](https://github.com/egovernments/DIGIT-DevOps/blob/quickstart/deploy-as-code/helm/environments/quickstart-config.yaml) that needs to be configured as per any specific values according to your needs. \(For quick start you can run as it is\)
+  7. Have look at the [sample deployment config file](https://github.com/egovernments/DIGIT-DevOps/blob/quickstart/deploy-as-code/helm/environments/quickstart-config.yaml) that needs to be configured as per any specific values according to your needs. \(For quick start you can run as it is\)
 
 ```text
 https://github.com/egovernments/DIGIT-DevOps/blob/quickstart/deploy-as-code/helm/environments/quickstart-config.yaml
 ```
 
-* [ ] Add the following entries in your host file /etc/hosts depending on your OS, instructions can be found [here](https://phoenixnap.com/kb/how-to-edit-hosts-file-in-windows-mac-or-linux) 
+ 8. Add the following entries in your host file /etc/hosts depending on your OS, instructions can be found [here](https://phoenixnap.com/kb/how-to-edit-hosts-file-in-windows-mac-or-linux) 
 
 ```text
 172.18.0.2 quickstart.local.digit
@@ -138,13 +138,26 @@ https://github.com/egovernments/DIGIT-DevOps/blob/quickstart/deploy-as-code/helm
 172.18.0.4 quickstart.local.digit
 ```
 
+### 
+
 ### Deployment
 
-* [ ] Once you have all the prerequisites setup, go into the following repo and run the command and follow the instructions.
+Once you have all the prerequisites setup, go into the following repo and run the command and follow the instructions.
 
 ```text
-root@ip: cd DIGIT-DevOps/deploy-as-code/egov-deployer
-root@ip: go run digit_setup.go
+root@ip:# cd DIGIT-DevOps/deploy-as-code/egov-deployer
+
+root@ip:# go run digit_setup.go
+
+#Be prepared for the following questions
+1. Do you have the Kubernetes Setup?
+2. Provide the path of the intented env kubeconfig file
+3. Which version of the DIGIT that you want to install - Choose "Quickstart"
+4. What DIGIT Modules that you choose to install
+5. All, done, Now do you want to preview the deployment manifests 
+6. Are you good to proceed with the DIGIT Installation
+
+All Done.
 ```
 
 
