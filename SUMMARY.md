@@ -15,12 +15,12 @@
 ## Setup
 
 * [Quickstart Guide](setup/quickstart.md)
-* [Install on Cloud](setup/untitled/README.md)
-  * [On AWS](setup/untitled/on-aws.md)
-  * [On Azure](setup/untitled/on-azure.md)
-  * [On GCP](setup/untitled/on-gcp.md)
-  * [On SDC](setup/untitled/on-sdc.md)
-  * [On NIC](setup/untitled/on-nic.md)
+* [Install on Cloud](setup/install-on-cloud/README.md)
+  * [On AWS](setup/install-on-cloud/on-aws.md)
+  * [On Azure](setup/install-on-cloud/on-azure.md)
+  * [On GCP](setup/install-on-cloud/on-gcp.md)
+  * [On SDC](setup/install-on-cloud/on-sdc.md)
+  * [On NIC](setup/install-on-cloud/on-nic.md)
 * [Deployment Docs](setup/devops/README.md)
   * [Setup Requirements](setup/devops/setup-digit/README.md)
     * [Tech Enablement Training - Essential Skills and Pre-requisites](setup/devops/setup-digit/tech-enablement-training-essential-skills-and-pre-requisites.md)
