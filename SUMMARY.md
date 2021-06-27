@@ -12,7 +12,7 @@
   * [QA Automation Release Notes](digit-release-notes/qa-automation-release-notes.md)
   * [Fire NOC Release Notes](digit-release-notes/fire-noc-release-notes.md)
 
-## Setup
+## Setup DIGIT <a id="setup"></a>
 
 * [Quickstart Guide](setup/quickstart.md)
 * [Install](setup/install-on-cloud/README.md)
