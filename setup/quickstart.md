@@ -12,15 +12,15 @@ Here in this Quickstart guide we'll create a lightweight kubernetes cluster call
 
 ## **1. Infra Setup**
 
-**To provision a lightweight kubernetes cluster, please follow this instructions with respect to your OS and install the k3d on your machine.** 
+**To provision a lightweight Kubernetes cluster, please follow this instructions with respect to your OS and install the k3d on your machine.** 
 
-### **H/W  or VM Size:**
+### **H/W  or VM Size**
 
 * 8 vCPUs \(recommended 8\)
 * 16GiB of RAM \(recommended 16\)
 * 30GiB of HDD \(recommended 30+\)
 
-### **Tools:** 
+### **Tools**
 
 * **Linux distribution running in a VM or bare metal**
   * Ubuntu 18.04 or Debian 10 \(VM or bare metal\)
@@ -35,12 +35,12 @@ Here in this Quickstart guide we'll create a lightweight kubernetes cluster call
   * [Install kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/) on Windows
   * Install [GitBash](https://git-scm.com/download/win) as an alternative command prompt that allows most of the linux commands on windows.
 
-### **Infra Creation:**
+### **Infra Creation**
 
 **Once the above prerequisites are met, run the following tasks depending upon your OS.**
 
-* [ ]  ****login/ssh in to the machine, go to terminal/command prompt and run the following commands as an admin user.
-* [ ] Create /kube directory and chnage permission. To use this directory for persistent data mount. Which means all the container logs, data will be stored here.
+* [ ]  ****login/ssh into the machine, go to terminal/command prompt and run the following commands as an admin user.
+* [ ] Create /Kube directory and change permission. To use this directory for persistent data mount. This means all the container logs, data will be stored here.
 
 ```text
  mkdir /kube
@@ -53,7 +53,7 @@ Here in this Quickstart guide we'll create a lightweight kubernetes cluster call
 k3d cluster create --agents 2 -v /kube:/kube@agent[0,1] -v /kube:/kube@server[0]
 ```
 
-* [ ] When cluster creation is successful, Get the kubeconfig file, that will allow you to connect the cluster an time.
+* [ ] When cluster creation is successful, Get the kubeconfig file, which will allow you to connect the to the cluster at any time.
 
 ```text
 k3d kubeconfig get k3s-default > k3dconfig
@@ -77,7 +77,7 @@ NAME          SERVERS   AGENTS   LOADBALANCER
 k3s-default   1/1       2/2      true
 ```
 
-* [ ] You can verify the workers nodes created by using following command.
+* [ ] You can verify the workers' nodes created by using the following command.
 
 ```text
 kubectl get nodes
@@ -100,38 +100,38 @@ k3d-k3s-default-server-0   59m          0%     2286Mi          14%
  
 ```
 
-If all the above goes well you should have your Cluster is now up and running ready to proceed with the DIGIT Deployment.
+If the above steps are completed successfully, your Cluster is now up and running ready to proceed with the DIGIT Deployment.
 
 ## **2. DIGIT Setup**
 
-Now that we have the Infra setup to proceed with the DIGIT Deployment. Following are the tools that need to be installed on the machine before proceeding with the DIGIT Services deployment
+Now that we have the Infra setup to proceed with the DIGIT Deployment. Following are the tools that need to be installed on the machine before proceeding with the DIGIT Services deployment.
 
-### **Prerequisites:**
+### **Prerequisites**
 
 1. DIGIT uses [golang](https://golang.org/doc/install#download) \(required v1.13.3\) automated scripts to deploy the builds on to kubernetes - [Linux](https://golang.org/dl/go1.13.3.linux-amd64.tar.gz) or [Windows](https://golang.org/dl/go1.13.3.windows-amd64.msi) or [Mac](https://golang.org/dl/go1.13.3.darwin-amd64.pkg)
 2. All DIGIT services are packaged using helm charts[ ![](https://helm.sh/img/favicon-152.png)Installing Helm](https://helm.sh/docs/intro/install/)
-3. [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/) is a cli to connect to the kubernetes cluster from your machine
+3. [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/) is a CLI to connect to the kubernetes cluster from your machine
 4. [Install Visualstudio](https://code.visualstudio.com/download) IDE Code for better code/configuration editing capabilities
-5. All the DIGIT services deployment configurations are in [GitRepo](https://github.com/egovernments/DIGIT-DevOps) which you would need to [install git](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository) and then [git clone](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository) it to you local.
+5. All the DIGIT services deployment configurations are in [GitRepo](https://github.com/egovernments/DIGIT-DevOps) which you would need to [install git](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository) and then [git clone](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository) it to your local.
 
 ```text
 root@ip:/# git clone -b quickstart https://github.com/egovernments/DIGIT-DevOps 
 ```
 
-  6. After the cloning the repo CD into the folder DIGIT-DevOps and type the "code ." command that will open the visual editor and opens all the files from the repo DIGIT-DevOps
+  6. After cloning the repo CD into the folder DIGIT-DevOps and type the "code ." command that will open the visual editor and opens all the files from the repo DIGIT-DevOps
 
 ```text
 root@ip:/# cd DIGIT-DevOps
 root@ip:DIGIT-DevOps# code .
 ```
 
-  7. Have look at the [sample deployment config file](https://github.com/egovernments/DIGIT-DevOps/blob/quickstart/deploy-as-code/helm/environments/quickstart-config.yaml) that needs to be configured as per any specific values according to your needs. \(For quick start you can run as it is\)
+  7. Have look at the [sample deployment config file](https://github.com/egovernments/DIGIT-DevOps/blob/quickstart/deploy-as-code/helm/environments/quickstart-config.yaml) that needs to be configured as per any specific values according to your needs. \(For a quick start you can run as it is\)
 
 ```text
 https://github.com/egovernments/DIGIT-DevOps/blob/quickstart/deploy-as-code/helm/environments/quickstart-config.yaml
 ```
 
- 8. Add the following entries in your host file /etc/hosts depending on your OS, instructions can be found [here](https://phoenixnap.com/kb/how-to-edit-hosts-file-in-windows-mac-or-linux) 
+ 8. Add the following entries in your host file /etc/hosts depending on your OS, instructions can be found [here](https://phoenixnap.com/kb/how-to-edit-hosts-file-in-windows-mac-or-linux). 
 
 ```text
 172.18.0.2 quickstart.local.digit
@@ -139,11 +139,9 @@ https://github.com/egovernments/DIGIT-DevOps/blob/quickstart/deploy-as-code/helm
 172.18.0.4 quickstart.local.digit
 ```
 
-### 
-
 ### Deployment
 
-Once you have all the prerequisites setup, go into the following repo and run the command and follow the instructions.
+Once all the prerequisites set up is complete, go to the following repo, run the command and follow the instructions.
 
 ```text
 root@ip:# cd DIGIT-DevOps/deploy-as-code/egov-deployer
