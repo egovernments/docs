@@ -40,10 +40,11 @@ Here in this Quickstart guide we'll create a lightweight kubernetes cluster call
 **Once the above prerequisites are met, run the following tasks depending upon your OS.**
 
 * [ ]  ****login/ssh in to the machine, go to terminal/command prompt and run the following commands as an admin user.
-* [ ] Create /kube directory. To use this directory for persistent data mount. Which means all the container logs, data will be stored here.
+* [ ] Create /kube directory and chnage permission. To use this directory for persistent data mount. Which means all the container logs, data will be stored here.
 
 ```text
  mkdir /kube
+ chmod 777 /kube
 ```
 
 * [ ] Create a cluster with a single master node and 2 agents \(Worker Nodes\) and mount the pre**-**created directory \(for data persistence\). 
