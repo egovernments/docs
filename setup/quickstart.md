@@ -6,13 +6,13 @@ description: >-
 
 # Quickstart Guide
 
-DIGIT is a distributed microservice based platform that comprise of many services which are containerized and can be run on any container supported orchestration platform like dockers, kubernetes, etc,
+DIGIT is a distributed microservice-based platform that comprises many services which are containerized and can be run on any container supported orchestration platform like dockers, Kubernetes, etc,
 
-Here in this Quickstart guide we'll create a lightweight kubernetes cluster called [k3d](https://github.com/rancher/k3d) on either local machine or on a VM of a specific H/W requirement. Below is the H/W requirement to ensure before we proceed further.
+Here in this Quickstart guide, we'll create a lightweight Kubernetes cluster called [k3d](https://github.com/rancher/k3d) on either a local machine or on a VM of a specific H/W requirement. The H/W requirements are listed below to ensure before we proceed further.
 
 ## **1. Infra Setup**
 
-**To provision a lightweight Kubernetes cluster, please follow this instructions with respect to your OS and install the k3d on your machine.** 
+**To provision a lightweight Kubernetes cluster, please follow the instructions below in context to your OS and install the k3d on your machine.** 
 
 ### **H/W  or VM Size**
 
@@ -33,7 +33,7 @@ Here in this Quickstart guide we'll create a lightweight kubernetes cluster call
   * [Docker Desktop for windows](https://docs.docker.com/docker-for-windows/install/#system-requirements-for-wsl-2-backend) need to be installed
   * [Install Chocolatey](https://chocolatey.org) package manager for windows 
   * [Install kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/) on Windows
-  * Install [GitBash](https://git-scm.com/download/win) as an alternative command prompt that allows most of the linux commands on windows.
+  * Install [GitBash](https://git-scm.com/download/win) as an alternative command prompt that allows most of the Linux commands on windows.
 
 ### **Infra Creation**
 
@@ -108,7 +108,7 @@ Now that we have the Infra setup to proceed with the DIGIT Deployment. Following
 
 ### **Prerequisites**
 
-1. DIGIT uses [golang](https://golang.org/doc/install#download) \(required v1.13.3\) automated scripts to deploy the builds on to kubernetes - [Linux](https://golang.org/dl/go1.13.3.linux-amd64.tar.gz) or [Windows](https://golang.org/dl/go1.13.3.windows-amd64.msi) or [Mac](https://golang.org/dl/go1.13.3.darwin-amd64.pkg)
+1. DIGIT uses [golang](https://golang.org/doc/install#download) \(required v1.13.3\) automated scripts to deploy the builds on to Kubernetes - [Linux](https://golang.org/dl/go1.13.3.linux-amd64.tar.gz) or [Windows](https://golang.org/dl/go1.13.3.windows-amd64.msi) or [Mac](https://golang.org/dl/go1.13.3.darwin-amd64.pkg)
 2. All DIGIT services are packaged using helm charts[ ![](https://helm.sh/img/favicon-152.png)Installing Helm](https://helm.sh/docs/intro/install/)
 3. [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/) is a CLI to connect to the kubernetes cluster from your machine
 4. [Install Visualstudio](https://code.visualstudio.com/download) IDE Code for better code/configuration editing capabilities
