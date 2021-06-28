@@ -1,6 +1,6 @@
 ---
 description: >-
-  Quickstart solutions gives you the ability to try DIGIT out quickly. These are
+  Quickstart solutions give you the ability to try DIGIT out quickly. These are
   not meant for production use as is.
 ---
 

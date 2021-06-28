@@ -4,7 +4,7 @@ description: Provision infra for DIGIT on AWS using Terraform
 
 # On AWS
 
-The [**Amazon Elastic Kubernetes Service \(EKS\)**](https://docs.aws.amazon.com/eks/latest/userguide/what-is-eks.html) is one of the AWS service for deploying, managing, and scaling any distributed and containerized workloads, here we can provision the EKS cluster on AWS from ground up and using an automated way \(infra-as-code\) using [**terraform**](https://www.terraform.io/intro/index.html) and then deploy the DIGIT Services config-as-code using [**Helm**](https://helm.sh/docs/).
+The [**Amazon Elastic Kubernetes Service \(EKS\)**](https://docs.aws.amazon.com/eks/latest/userguide/what-is-eks.html) is one of the AWS services for deploying, managing, and scaling any distributed and containerized workloads, here we can provision the EKS cluster on AWS from ground up and using an automated way \(infra-as-code\) using [**terraform**](https://www.terraform.io/intro/index.html) and then deploy the DIGIT Services config-as-code using [**Helm**](https://helm.sh/docs/).
 
 ## Prerequisites <a id="Prerequisites"></a>
 
@@ -20,7 +20,7 @@ The [**Amazon Elastic Kubernetes Service \(EKS\)**](https://docs.aws.amazon.com/
       * AdministratorAccess
       * AmazonEKSClusterPolicy
    3. After these steps, you'll get a **Secret Access Key** and **Access Key ID**. **Save them safely** because this will be displayed only one time.
-   4. Open terminal and Run the following command. you have already installed the aws cli and you have the credentials saved. \(Prive the credentials and you can leave the region and output format as blank\)
+   4. Open the terminal and Run the following command you have already installed the AWS CLI and you have the credentials saved. \(Provide the credentials and you can leave the region and output format as blank\)
 
    ```text
    aws configure --profile egov-test-account 
@@ -43,11 +43,11 @@ The [**Amazon Elastic Kubernetes Service \(EKS\)**](https://docs.aws.amazon.com/
 
 Terraform builds a graph of all your resources, and parallelizes the creation and modification of any non-dependent resources. Because of this, Terraform builds infrastructure as efficiently as possible, and operators get insight into dependencies in their infrastructure.
 
-Before we provision the cloud resources, we need to understand and be sure about what resources that need to be provisioned by terraform to deploy DIGIT. The following picture shows the various key components. \(EKS, Worker Nodes, PostGres DB, EBS Volumes, Load Balancer\)
+Before we provision the cloud resources, we need to understand and be sure about what resources need to be provisioned by terraform to deploy DIGIT. The following picture shows the various key components. \(EKS, Worker Nodes, PostGres DB, EBS Volumes, Load Balancer\)
 
 ![EKS Architecture for DIGIT Setup](../../.gitbook/assets/image%20%28109%29.png)
 
-Considering the above deployment architecture, following is the resource graph that we are going to provision using terraform in a standard way so that everytime and for every env, it'll have the same infra.
+Considering the above deployment architecture, the following is the resource graph that we are going to provision using terraform in a standard way so that every time and for every env, it'll have the same infra.
 
 * EKS Control Plane \(Kubernetes Master\)
 * Work node group \(VMs with the estimated number of vCPUs, Memory\)
@@ -58,8 +58,8 @@ Considering the above deployment architecture, following is the resource graph t
 
 ## Understand the Terraform script: <a id="Set-up-and-initialize-your-Terraform-workspace"></a>
 
-* Ideally one would write the terraform script from the scratch using this [doc](https://learn.hashicorp.com/collections/terraform/modules)
-* Here we have already written the terraform script that provisions the production grade DIGIT Infra and can be customized with specified configuration.
+* Ideally, one would write the terraform script from the scratch using this [doc](https://learn.hashicorp.com/collections/terraform/modules).
+* Here we have already written the terraform script that provisions the production-grade DIGIT Infra and can be customized with the specified configuration.
 * Let's Clone the [DIGIT-DevOps](https://github.com/egovernments/DIGIT-DevOps.git) GitHub repo where the terraform script to provision EKS cluster is available and below is the structure of the files.
 
 ```text
@@ -196,7 +196,7 @@ variable "db_password" {}
 
 ## Run terraform
 
-Now that we know what the terraform does, resources graph that it provisions and what values should be given with respect to type of env. 
+Now that we know what the terraform does, the resources graph that it provisions and what values should be given with respect to the type of env. 
 
 Let's being with running the script to provision infra required to Deploy DIGIT on AWS.
 

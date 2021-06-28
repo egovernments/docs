@@ -1,5 +1,5 @@
 ---
-description: DIGIT Installation step-by-step Instructions across various Infra types.
+description: DIGIT Installation step-by-step Instructions across various Infra types
 ---
 
 # Install
