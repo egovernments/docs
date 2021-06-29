@@ -120,7 +120,7 @@ k3d-k3s-default-server-0   59m          0%     2286Mi          14%
  
 ```
 
-* [ ] Once your cluster is ready delete the Traefik ingress controller Digit uses the Nginx ingress controller.
+* [ ] Once your cluster is ready delete the **Traefik** ingress controller since Digit uses the **Nginx** ingress controller.
 
 ```text
 kubectl delete deployment traefik -n kube-system
