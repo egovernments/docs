@@ -23,17 +23,37 @@ Here in this Quickstart guide, we'll create a lightweight Kubernetes cluster cal
 ### **Tools**
 
 * **Linux distribution running in a VM or bare metal**
+
   * Ubuntu 18.04 or Debian 10 \(VM or bare metal\)
   * Install [Docker](https://docs.docker.com/engine/install/ubuntu/)
   * [Install kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/) on Linux
+  * Install k3d on Linux
+
+  ```text
+  wget -q -O - https://raw.githubusercontent.com/rancher/k3d/main/install.sh | bash       
+  ```
+
 * **OSX or Mac**
+
   * [Docker Desktop](https://docs.docker.com/docker-for-mac/install/) local Kubernetes cluster enabled
   * [Install kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl-macos/) on Mac
+  * Install k3d on Mac, use [Homebrew](https://brew.sh/) \(Homebrew is available for MacOS\)
+
+  ```
+  brew install k3d  
+  ```
+
 * **Windows 10 or above**
+
   * [Docker Desktop for windows](https://docs.docker.com/docker-for-windows/install/#system-requirements-for-wsl-2-backend) need to be installed
-  * [Install Chocolatey](https://chocolatey.org) package manager for windows 
   * [Install kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/) on Windows
   * Install [GitBash](https://git-scm.com/download/win) as an alternative command prompt that allows most of the Linux commands on windows.
+  * [Install Chocolatey](https://chocolatey.org) package manager for windows 
+  * Install k3d on Windows
+
+  ```
+  choco install k3d
+  ```
 
 ### **Infra Creation**
 
