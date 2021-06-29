@@ -70,7 +70,7 @@ Here in this Quickstart guide, we'll create a lightweight Kubernetes cluster cal
 * [ ] Create a cluster with a single master node and 2 agents \(Worker Nodes\) and mount the pre**-**created directory \(for data persistence\). 
 
 ```text
-k3d cluster create --agents 2 -v /kube:/kube@agent[0,1] -v /kube:/kube@server[0]
+k3d cluster create --k3s-server-arg "--no-deploy=traefik" --agents 2 -v /kube:/kube@agent[0,1] -v /kube:/kube@server[0] --port "80:80@loadbalancer"
 ```
 
 * [ ] When cluster creation is successful, Get the kubeconfig file, which will allow you to connect the to the cluster at any time.
@@ -120,13 +120,6 @@ k3d-k3s-default-server-0   59m          0%     2286Mi          14%
  
 ```
 
-* [ ] Once your cluster is ready delete the **Traefik** ingress controller since Digit uses the **Nginx** ingress controller.
-
-```text
-kubectl delete deployment traefik -n kube-system
-kubectl delete svc traefik -n kube-system
-```
-
 If the above steps are completed successfully, your Cluster is now up and running ready to proceed with the DIGIT Deployment.
 
 ## **2. DIGIT Setup**
@@ -161,9 +154,7 @@ https://github.com/egovernments/DIGIT-DevOps/blob/quickstart/deploy-as-code/helm
  8. Add the following entries in your host file /etc/hosts depending on your OS, instructions can be found [here](https://phoenixnap.com/kb/how-to-edit-hosts-file-in-windows-mac-or-linux). 
 
 ```text
-172.18.0.2 quickstart.local.digit
-172.18.0.3 quickstart.local.digit
-172.18.0.4 quickstart.local.digit
+127.0.0.1 quickstart.local.digit
 ```
 
 ### Deployment
