@@ -120,6 +120,13 @@ k3d-k3s-default-server-0   59m          0%     2286Mi          14%
  
 ```
 
+* [ ] Once your cluster is ready delete the Traefik ingress controller Digit uses the Nginx ingress controller.
+
+```text
+kubectl delete deployment traefik -n kube-system
+kubectl delete svc traefik -n kube-system
+```
+
 If the above steps are completed successfully, your Cluster is now up and running ready to proceed with the DIGIT Deployment.
 
 ## **2. DIGIT Setup**
