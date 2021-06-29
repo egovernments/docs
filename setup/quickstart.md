@@ -27,7 +27,7 @@ Here in this Quickstart guide, we'll create a lightweight Kubernetes cluster cal
   * Ubuntu 18.04 or Debian 10 \(VM or bare metal\)
   * Install [Docker](https://docs.docker.com/engine/install/ubuntu/)
   * [Install kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/) on Linux
-  * Install k3d on Linux
+  * Open terminal and Install k3d on Linux using the below command
 
   ```text
   wget -q -O - https://raw.githubusercontent.com/rancher/k3d/main/install.sh | bash       
@@ -37,7 +37,7 @@ Here in this Quickstart guide, we'll create a lightweight Kubernetes cluster cal
 
   * [Docker Desktop](https://docs.docker.com/docker-for-mac/install/) local Kubernetes cluster enabled
   * [Install kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl-macos/) on Mac
-  * Install k3d on Mac, use [Homebrew](https://brew.sh/) \(Homebrew is available for MacOS\)
+  * Install k3d on Mac, on terminal use [Homebrew](https://brew.sh/) \(Homebrew is available for MacOS\) using the below command
 
   ```
   brew install k3d  
@@ -47,15 +47,15 @@ Here in this Quickstart guide, we'll create a lightweight Kubernetes cluster cal
 
   * [Docker Desktop for windows](https://docs.docker.com/docker-for-windows/install/#system-requirements-for-wsl-2-backend) need to be installed
   * [Install kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/) on Windows
-  * Install [GitBash](https://git-scm.com/download/win) as an alternative command prompt that allows most of the Linux commands on windows.
   * [Install Chocolatey](https://chocolatey.org) package manager for windows 
-  * Install k3d on Windows
+  * Install [GitBash](https://git-scm.com/download/win) as an alternative command prompt that allows most of the Linux commands on windows.
+  * Now open gitbash and Install k3d on Windows using the below command
 
   ```
   choco install k3d
   ```
 
-### **Infra Creation**
+### **Infra \(Kubernetes Cluster\) Creation**
 
 **Once the above prerequisites are met, run the following tasks depending upon your OS.**
 
