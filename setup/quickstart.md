@@ -16,8 +16,8 @@ Here in this Quickstart guide, we'll create a lightweight Kubernetes cluster cal
 
 ### **H/W  or VM Size**
 
-* 8 vCPUs \(recommended 8\)
-* 16GiB of RAM \(recommended 16\)
+* 4 vCPUs \(recommended 8\)
+* 12GiB of RAM \(recommended 16\)
 * 30GiB of HDD \(recommended 30+\)
 
 ### **Tools**
