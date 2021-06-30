@@ -77,7 +77,7 @@ k3d cluster create --k3s-server-arg "--no-deploy=traefik" --agents 2 -v /kube:/k
 
 ```text
 k3d kubeconfig get k3s-default > k3dconfig
-kubectl config use-context k3s-default --kubeconfig=k3dconfig
+kubectl config use-context k3d-k3s-default --kubeconfig=k3dconfig
 ```
 
 * [ ] Verify the Cluster creation by running the following commands from your local machine where the kubectl is installed. It gives you the sample output as below
