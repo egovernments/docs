@@ -177,7 +177,324 @@ root@ip:# go run digit_setup.go
 All Done.
 ```
 
+## 3. Role Action Mapping
 
+So far we hope you have completed the DIGIT Setup. Let's proceed with user role action mapping.
 
+1. To map the roles to a user, do the port-forwarding for the egov-user service. 
 
+```text
+kubectl port-forward svc/egov-user 8080:8080 -n egov
+Forwarding from 127.0.0.1:8080 -> 8080
+Forwarding from [::1]:8080 -> 8080
+
+```
+
+     2. Execute the below API to perform the role mapping.
+
+```text
+curl --location --request POST 'http://localhost:8080/user/users/_createnovalidate' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "requestInfo": {
+        "apiId": "Rainmaker",
+        "ver": ".01",
+        "ts": null,
+        "action": "_update",
+        "did": "1",
+        "key": "",
+        "msgId": "20170310130900|en_IN",
+        "authToken": "ec6a2db1-c000-4927-af21-f4ce13c1d75f",
+        "userInfo": {
+            "id": 23287,
+            "uuid": "4632c941-cb1e-4b83-b2d4-200022c1a137",
+            "userName": "PalashS",
+            "name": "Palash S",
+            "mobileNumber": "1234567890",
+            "emailId": null,
+            "type": "EMPLOYEE",
+            "roles": [
+                {
+                    "name": "superuser",
+                    "code": "SUPERUSER",
+                    "tenantId": "pg.citya"
+                },
+                {
+                    "name": "PGR Last Mile Employee",
+                    "code": "PGR_LME",
+                    "tenantId": "pg.citya"
+                },
+                {
+                    "name": "superuser",
+                    "code": "SUPERUSER",
+                    "tenantId": "pg"
+                }
+            ],
+            "tenantId": "pg.citya"
+        }
+    },
+    "user": {
+        "userName": "PGRLME1",
+        "name": "PGRLME",
+        "gender": null,
+        "mobileNumber": "1234567890",
+        "type": "EMPLOYEE",
+        "active": true,
+        "password": "eGov@4321",
+        "roles": [
+            {
+                "name": "Employee",
+                "code": "EMPLOYEE",
+                "tenantId": "pg"
+            },
+            {
+                "name": "PGR LME",
+                "code": "PGR_LME",
+                "tenantId": "pg.citya"
+            },
+            {
+                "name": "superuser",
+                "code": "SUPERUSER",
+                "tenantId": "pg"
+            }
+        ],
+        "tenantId": "pg.citya"
+    }
+}'
+```
+
+   Use above mentioned userName and password for [employee](http://quickstart.local.digit/employee) login. 
+
+![](../.gitbook/assets/image%20%28110%29.png)
+
+### Create BusinessServices Workflow 
+
+1.  To create businessService PGR module workflow, generate an authToken with the role.  
+
+```text
+curl --location --request POST 'http://quickstart.local.digit/user/oauth/token' \
+--header 'authority: quickstart.local.digit' \
+--header 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"' \
+--header 'accept: application/json, text/plain, */*' \
+--header 'authorization: Basic ZWdvdi11c2VyLWNsaWVudDo=' \
+--header 'sec-ch-ua-mobile: ?0' \
+--header 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36' \
+--header 'content-type: application/x-www-form-urlencoded' \
+--header 'origin: http://quickstart.local.digit' \
+--header 'sec-fetch-site: same-origin' \
+--header 'sec-fetch-mode: cors' \
+--header 'sec-fetch-dest: empty' \
+--header 'referer: http://quickstart.local.digit/employee/user/login' \
+--header 'accept-language: en-GB,en;q=0.9' \
+--data-urlencode 'username=PGRLME1' \
+--data-urlencode 'password=eGov@4321' \
+--data-urlencode 'grant_type=password' \
+--data-urlencode 'scope=read' \
+--data-urlencode 'tenantId=pg.citya' \
+--data-urlencode 'userType=EMPLOYEE'
+```
+
+  2. Create businessService PGR module workflow. Replace authToken with your newly generated authToken and execute the below API.
+
+```text
+curl --location --request POST 'http://quickstart.local.digit/egov-workflow-v2/egov-wf/businessservice/_create' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "RequestInfo": {
+        "apiId": "Rainmaker",
+        "action": "",
+        "did": 1,
+        "key": "",
+        "msgId": "20170310130900|en_IN",
+        "requesterId": "",
+        "ts": 1513579888683,
+        "ver": ".01",
+        "authToken": "6000e55d-d6ea-4562-b4b7-d3c946b99f0a"
+    },
+    "BusinessServices": [
+        {
+            "tenantId": "pg",
+            "businessService": "PGR",
+            "business": "pgr-services",
+            "businessServiceSla": 432000000,
+            "states": [
+                {
+                    "sla": null,
+                    "state": null,
+                    "applicationStatus": null,
+                    "docUploadRequired": false,
+                    "isStartState": true,
+                    "isTerminateState": false,
+                    "isStateUpdatable": true,
+                    "actions": [
+                        {
+                            "action": "APPLY",
+                            "nextState": "PENDINGFORASSIGNMENT",
+                            "roles": [
+                                "CITIZEN",
+                                "CSR"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "sla": null,
+                    "state": "PENDINGFORASSIGNMENT",
+                    "applicationStatus": "PENDINGFORASSIGNMENT",
+                    "docUploadRequired": false,
+                    "isStartState": false,
+                    "isTerminateState": false,
+                    "isStateUpdatable": false,
+                    "actions": [
+                        {
+                            "action": "ASSIGN",
+                            "nextState": "PENDINGATLME",
+                            "roles": [
+                                "GRO",
+                                "DGRO"
+                            ]
+                        },
+                        {
+                            "action": "REJECT",
+                            "nextState": "REJECTED",
+                            "roles": [
+                                "GRO",
+                                "DGRO"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "sla": null,
+                    "state": "PENDINGFORREASSIGNMENT",
+                    "applicationStatus": "PENDINGFORREASSIGNMENT",
+                    "docUploadRequired": false,
+                    "isStartState": false,
+                    "isTerminateState": false,
+                    "isStateUpdatable": false,
+                    "actions": [
+                        {
+                            "action": "ASSIGN",
+                            "nextState": "PENDINGATLME",
+                            "roles": [
+                                "GRO",
+                                "DGRO"
+                            ]
+                        },
+                        {
+                            "action": "REJECT",
+                            "nextState": "REJECTED",
+                            "roles": [
+                                "GRO",
+                                "DGRO"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "sla": 259200000,
+                    "state": "PENDINGATLME",
+                    "applicationStatus": "PENDINGATLME",
+                    "docUploadRequired": false,
+                    "isStartState": false,
+                    "isTerminateState": false,
+                    "isStateUpdatable": false,
+                    "actions": [
+                        {
+                            "action": "RESOLVE",
+                            "nextState": "RESOLVED",
+                            "roles": [
+                                "PGR_LME"
+                            ]
+                        },
+                        {
+                            "action": "REASSIGN",
+                            "nextState": "PENDINGFORREASSIGNMENT",
+                            "roles": [
+                                "PGR_LME"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "sla": null,
+                    "state": "REJECTED",
+                    "applicationStatus": "REJECTED",
+                    "isStateUpdatable": false,
+                    "docUploadRequired": false,
+                    "isStartState": false,
+                    "isTerminateState": true,
+                    "actions": [
+                        {
+                            "action": "REOPEN",
+                            "nextState": "PENDINGFORASSIGNMENT",
+                            "roles": [
+                                "CFC",
+                                "CSR",
+                                "CITIZEN"
+                            ]
+                        },
+                        {
+                            "action": "RATE",
+                            "nextState": "CLOSEDAFTERREJECTION",
+                            "roles": [
+                                "CFC",
+                                "CITIZEN"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "sla": null,
+                    "state": "RESOLVED",
+                    "applicationStatus": "RESOLVED",
+                    "isStateUpdatable": false,
+                    "docUploadRequired": false,
+                    "isStartState": false,
+                    "isTerminateState": true,
+                    "actions": [
+                        {
+                            "action": "REOPEN",
+                            "nextState": "PENDINGFORASSIGNMENT",
+                            "roles": [
+                                "CFC",
+                                "CSR",
+                                "CITIZEN"
+                            ]
+                        },
+                        {
+                            "action": "RATE",
+                            "nextState": "CLOSEDAFTERREJECTION",
+                            "roles": [
+                                "CFC",
+                                "CITIZEN"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "sla": null,
+                    "state": "CLOSEDAFTERREJECTION",
+                    "applicationStatus": "CLOSEDAFTERREJECTION",
+                    "isStateUpdatable": false,
+                    "docUploadRequired": false,
+                    "isStartState": false,
+                    "isTerminateState": true
+                },
+                {
+                    "sla": null,
+                    "state": "CLOSEDAFTERRESOLUTION",
+                    "applicationStatus": "CLOSEDAFTERRESOLUTION",
+                    "isStateUpdatable": false,
+                    "docUploadRequired": false,
+                    "isStartState": false,
+                    "isTerminateState": true
+                }
+            ]
+        }
+    ]
+}'
+```
+
+ 
 
