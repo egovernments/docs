@@ -179,7 +179,7 @@ All Done.
 
 ## 3. Role Action Mapping
 
-So far we hope you have completed the DIGIT Setup. Let's proceed with user role action mapping.
+So far we hope you have completed the DIGIT Setup. Now lets try accessing the application by creating a user to login to the app and user role mapping.
 
 1. To map the roles to a user, do the port-forwarding for the egov-user service. 
 
