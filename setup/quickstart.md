@@ -511,5 +511,43 @@ curl --location --request POST 'http://quickstart.local.digit/egov-workflow-v2/e
 }'
 ```
 
- 
+To make the above changes to get reflected, we need to restart the egov-workflow-v2 and pgr-services pods. To do so please execute the below commands,
+
+```bash
+#get the pods running in the cluster
+kubectl get pods -n egov
+
+Output:
+
+NAME                                                    READY   STATUS    RESTARTS   AGE
+citizen-79cf89659c-8glf4                                1/1     Running   0          14d
+egov-accesscontrol-78b78dddb9-tfbkf                     1/1     Running   0          21d
+egov-enc-service-574cd7b5b5-hmhh4                       1/1     Running   0          36d
+egov-idgen-84954b565b-xsnqj                             1/1     Running   0          45d
+egov-indexer-5f5fbb6f4b-58rtm                           1/1     Running   0          43d
+egov-localization-6cc5977bb9-gm7f9                      1/1     Running   0          27d
+egov-mdms-service-65d6d65d8c-t85d9                      1/1     Running   0          21d
+egov-user-6676968d76-8n6t6                              1/1     Running   0          29d
+egov-workflow-v2-5cdb96bcf5-dcgmf                       1/1     Running   0          36d
+employee-749464fbfb-tptlh                               1/1     Running   0          14d
+nginx-ingress-controller-b9678869c-mkslb                1/1     Running   0          49d
+pgr-services-b9f4ffdbf-5h5kd                            1/1     Running   0          38d
+zuul-788bf8cd8b-9nxfl                                   1/1     Running   0          41d
+
+
+#Delete the pods so that it gets restarted automatically
+
+kubectl delete pods egov-workflow-v2-5cdb96bcf5-dcgmf pgr-services-b9f4ffdbf-5h5kd -n egov
+
+Output:
+
+pod "egov-workflow-v2-5cdb96bcf5-dcgmf" deleted
+pod "pgr-services-b9f4ffdbf-5h5kd" deleted
+```
+
+You have successfully completed the DIGIT application setup. You can now experience the DIGIT platform - PGR module. 
+
+{% hint style="info" %}
+You can try experimenting the different DIGIT modules by installing them in your cluster with your H/W or VM complying to higher level machine configuration of increased number of vCPUs. RAM and storage size.
+{% endhint %}
 
