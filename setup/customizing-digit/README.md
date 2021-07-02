@@ -2,11 +2,13 @@
 description: This section contains documents and information required to customize DIGIT
 ---
 
-# Customization Docs
+# Customize DIGIT
 
 This section contains details on how to customize the DIGIT user interface and services to meet the local government or user requirements effectively.
 
+{% page-ref page="customizing-frontend.md" %}
 
+{% page-ref page="./" %}
 
 
 

@@ -6,7 +6,7 @@ description: 'New release features, enhancements, and fixes'
 
 ### Release Summary <a id="Release-Summary"></a>
 
-DIGIT 2.4 is a release that has got new modules, a few functional changes, and non-functional changes.
+DIGIT 2.4 is the latest release that has got new modules, a few functional changes, and non-functional changes.
 
 * Functional: eChallan module, WhatsApp Bill Payment, Property Tax Citizen flow UI/UX revamp Arrears Breakup in Property Tax Due, and Send back to Citizen feature in Fire NOC.
 * Non-functional: Platform Security Audit fixes, Hindi Localization, QA Automaton of APIs, and Technical improvements.
@@ -281,11 +281,11 @@ DIGIT 2.4 is a release that has got new modules, a few functional changes, and n
 
 #### Backend Service Documents
 
-{% page-ref page="../configuration/configure-digit/services-overview/core-services/xstate-core-chatbot/" %}
+{% page-ref page="../setup/configure-digit/services-overview/core-services/xstate-core-chatbot/" %}
 
-{% page-ref page="../configuration/configure-digit/services-overview/core-services/xstate-core-chatbot/xstate-chatbot-integration-document.md" %}
+{% page-ref page="../setup/configure-digit/services-overview/core-services/xstate-core-chatbot/xstate-chatbot-integration-document.md" %}
 
-{% page-ref page="../configuration/configure-digit/services-overview/core-services/xstate-core-chatbot/xstate-chatbot-message-localisation.md" %}
+{% page-ref page="../setup/configure-digit/services-overview/core-services/xstate-core-chatbot/xstate-chatbot-message-localisation.md" %}
 
 {% page-ref page="../modules/e-challan-service/" %}
 
@@ -295,25 +295,25 @@ DIGIT 2.4 is a release that has got new modules, a few functional changes, and n
 
 #### Tech Enablement Documents
 
-{% page-ref page="../configuration/configure-digit/services-overview/business-services/appropriation-service.md" %}
+{% page-ref page="../setup/configure-digit/services-overview/business-services/appropriation-service.md" %}
 
-{% page-ref page="../configuration/configure-digit/services-overview/business-services/billing-service/" %}
+{% page-ref page="../setup/configure-digit/services-overview/business-services/billing-service/" %}
 
-{% page-ref page="../configuration/configure-digit/services-overview/business-services/billing-service/bill-amendment-service-configuration.md" %}
+{% page-ref page="../setup/configure-digit/services-overview/business-services/billing-service/bill-amendment-service-configuration.md" %}
 
-{% page-ref page="../configuration/configure-digit/services-overview/business-services/collection-service/" %}
+{% page-ref page="../setup/configure-digit/services-overview/business-services/collection-service/" %}
 
-{% page-ref page="../configuration/configure-digit/services-overview/business-services/billing-collection-integration.md" %}
+{% page-ref page="../setup/configure-digit/services-overview/business-services/billing-collection-integration.md" %}
 
-{% page-ref page="../configuration/configure-digit/services-overview/business-services/dashboard-analytics-backend.md" %}
+{% page-ref page="../setup/configure-digit/services-overview/business-services/dashboard-analytics-backend.md" %}
 
-{% page-ref page="../configuration/configure-digit/services-overview/business-services/dss-technical-documentation.md" %}
+{% page-ref page="../setup/configure-digit/services-overview/business-services/dss-technical-documentation.md" %}
 
-{% page-ref page="../configuration/configure-digit/services-overview/business-services/dss-dashboard-technical-document-for-ui.md" %}
+{% page-ref page="../setup/configure-digit/services-overview/business-services/dss-dashboard-technical-document-for-ui.md" %}
 
-{% page-ref page="../configuration/configure-digit/services-overview/business-services/dss-features-enhancements.md" %}
+{% page-ref page="../setup/configure-digit/services-overview/business-services/dss-features-enhancements.md" %}
 
-{% page-ref page="../configuration/configure-digit/services-overview/business-services/technical-script-steps-for-migration-process.md" %}
+{% page-ref page="../setup/configure-digit/services-overview/business-services/technical-script-steps-for-migration-process.md" %}
 
 {% page-ref page="../modules/property-tax/property-tax-service/" %}
 
@@ -333,13 +333,13 @@ DIGIT 2.4 is a release that has got new modules, a few functional changes, and n
 
 {% page-ref page="../modules/trade-license-tl/tl-service-configuration/trade-license-calculator.md" %}
 
-{% page-ref page="../configuration/configure-digit/qa-automation/automation-framework-knowledge-base.md" %}
+{% page-ref page="../setup/configure-digit/qa-automation/automation-framework-knowledge-base.md" %}
 
-{% page-ref page="../configuration/configure-digit/qa-automation/jenkins-setup-for-automation.md" %}
+{% page-ref page="../setup/configure-digit/qa-automation/jenkins-setup-for-automation.md" %}
 
-{% page-ref page="../configuration/configure-digit/qa-automation/automation-test-tags.md" %}
+{% page-ref page="../setup/configure-digit/qa-automation/automation-test-tags.md" %}
 
-{% page-ref page="../configuration/configure-digit/qa-automation/automation-test-reporting.md" %}
+{% page-ref page="../setup/configure-digit/qa-automation/automation-test-reporting.md" %}
 
 {% page-ref page="../digit-support/security-guidelines-handbook.md" %}
 
