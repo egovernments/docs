@@ -183,7 +183,7 @@ root@ip:# go run digit_setup.go
 All Done.
 ```
 
-You can now test the Digit application status in command promt/terminal by using the below command.
+You can now test the Digit application status in command prompt/terminal by using the below command.
 
 ```text
 curl -Is http://quickstart.local.digit/employee/login |  head -n 1
