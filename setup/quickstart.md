@@ -8,7 +8,7 @@ description: >-
 
 DIGIT is a distributed microservice-based platform that comprises many services which are containerized, depending upon the required features we can run only those services on any container supported orchestration platform like docker compose, Kubernetes, etc.
 
-Here in this Quickstart guide we'll install basic services to get the platform up and running along with the PGR module, before we setup DIGIT, we'll create a lightweight Kubernetes cluster called [k3d](https://github.com/rancher/k3d) on either a local machine or on a VM of a specified H/W requirement. The H/W requirements are listed below to ensure before we proceed further.
+Here in this Quickstart guide we'll install basic services to get the platform up and running along with the PGR module, before we setup DIGIT, we'll create a lightweight Kubernetes cluster called [k3d](https://github.com/rancher/k3d) on a local machine with specified H/W requirement. The H/W requirements are listed below to ensure before we proceed further.
 
 ## **1. Infra Setup**
 
