@@ -183,6 +183,13 @@ root@ip:# go run digit_setup.go
 All Done.
 ```
 
+You can test the Digit application by using the below command.
+
+```text
+curl -Is http://quickstart.local.digit/employee/login |  head -n 1
+HTTP/2 200
+```
+
 ## 3. Role Action Mapping
 
 Post deployment, now the application will be accessible from the url: [http://quickstart.local.digit](http://quickstart.local.digit), you can open it either in your browser or you can use any [command line browse tools](https://www.tecmint.com/command-line-web-browser-download-file-in-linux/)  if you are on a non-ui linux vm.  
