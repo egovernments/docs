@@ -54,7 +54,7 @@ go run digit_setup.go
 1. Do you have the Kubernetes Setup?
 2. Provide the path of the intented env kubeconfig file
 3. Which version of the DIGIT that you want to install
-4. What DIGIT Modules that you choose to install
+4. What DIGIT Modules that you choose to install (Choose PGR)
 5. All, done, Now do you want to preview the deployment manifests 
 6. Are you good to proceed with the DIGIT Installation
 
@@ -69,12 +69,10 @@ Essentially, DIGIT deployment means that we need to generate Kubernetes manifest
 
 1. From local machine - whatever we tried in this sample exercise so far. 
 2. From CI/CD System like Jenkins - Depending on how you want to setup your CI/CD and the expertise the steps will vary, however [here](../more-deploy-docs/deployment-key-concepts/cicd.md) you can find how we have setup CI/CD on Jenkins and the pipelines are created automatically without any manual intervention.
-3. From local machine
-4. From CI/CD System like Jenkins
-5. From local machine
-6. From CI/CD System like Jenkins
 
-## Role Action Mapping
+## 3. Post Deployment Steps
+
+### 1. Role Action Mapping
 
 Post deployment, now the application will be accessible from the configured domain.
 
@@ -161,6 +159,26 @@ curl --location --request POST 'http://localhost:8080/user/users/_createnovalida
     }
 }'
 ```
+
+
+
+## 4. Assessment of the DIGIT Deployment
+
+By now we have successfully completed the digit setup on cloud, use the URL that you mentioned in your env.yaml Eg: https://mysetup.digit.org and create a grievance to ensure the PGR module deployed is working fine. Refer the below product documentation for the steps.
+
+{% page-ref page="../../modules/public-grievances-and-redressal/pgr-user-manual/" %}
+
+
+
+ 
+
+
+
+
+
+4. Test the PGR functionality 
+
+
 
 Now you should be able to login as an employee  and the credentials Username: **PGRLME1** and password: **eGov@4321** 
 
