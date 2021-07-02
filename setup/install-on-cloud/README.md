@@ -30,7 +30,7 @@ Post infra setup \(Kubernetes Cluster\), the deployment has got 2 stages and 2 m
 
 ### The 2 Stages
 
-**Stage 1: Prepare an &lt;**[**env.yaml&gt; master config file**](https://github.com/egovernments/DIGIT-DevOps/blob/master/deploy-as-code/helm/environments/dev.yaml) **per env like dev, qa or prod, which will have the following configurations, this env file need to be in line with your cluster name.** 
+**Stage 1: Prepare an &lt;**[**env.yaml&gt; master config file**](https://github.com/egovernments/DIGIT-DevOps/blob/master/deploy-as-code/helm/environments/dev.yaml)**, you can name this file as you wish which will have the following configurations, this env file need to be in line with your cluster name.** 
 
 * each service global, local env variables 
 * credentials, secrets \(You need to encrypt using [sops](https://github.com/mozilla/sops#updatekeys-command) and create a **&lt;env&gt;-secret.yaml** separately\)
@@ -67,7 +67,7 @@ All Done, wait and watch for 10 min, you'll have the DIGIT setup completed and t
 
 Essentially, DIGIT deployment means that we need to generate Kubernetes manifests for each individual service. We use the tool called helm, which is an easy, effective and customizable packaging and deployment solution. So depending on where and which env you initiate the deployment there are 2 modes that you can deploy.
 
-1. From local machine - whatever we tried in this sample exercise so far. 
+1. From local machine - whatever we are trying in this sample exercise so far. 
 2. From CI/CD System like Jenkins - Depending on how you want to setup your CI/CD and the expertise the steps will vary, however [here](../more-deploy-docs/deployment-key-concepts/cicd.md) you can find how we have setup CI/CD on Jenkins and the pipelines are created automatically without any manual intervention.
 
 ## 3. Post Deployment Steps
@@ -105,8 +105,8 @@ curl --location --request POST 'http://localhost:8080/user/users/_createnovalida
         "userInfo": {
             "id": 23287,
             "uuid": "4632c941-cb1e-4b83-b2d4-200022c1a137",
-            "userName": "PalashS",
-            "name": "Palash S",
+            "userName": "eGovEmp",
+            "name": "eGovTest Employee",
             "mobileNumber": "1234567890",
             "emailId": null,
             "type": "EMPLOYEE",
@@ -160,29 +160,28 @@ curl --location --request POST 'http://localhost:8080/user/users/_createnovalida
 }'
 ```
 
-
-
 ## 4. Assessment of the DIGIT Deployment
 
-By now we have successfully completed the digit setup on cloud, use the URL that you mentioned in your env.yaml Eg: https://mysetup.digit.org and create a grievance to ensure the PGR module deployed is working fine. Refer the below product documentation for the steps.
+By now we have successfully completed the digit setup on cloud, use the URL that you mentioned in your env.yaml Eg: https://mysetup.digit.org and create a grievance to ensure the PGR module deployed is working fine. Refer the below product documentation for the steps. 
+
+**Credentials:**
+
+1. Citizen: You can use your mobile number to signup using the Mobile OTP.
+2. Employee: Username: **PGRLME1** and password: **eGov@4321** 
 
 {% page-ref page="../../modules/public-grievances-and-redressal/pgr-user-manual/" %}
 
+##  5. Destroy the Cluster
 
+Post validating the PGR functionality share the API response of the following request to assess the correctness of successful DIGIT PGR Deployment. 
 
- 
+Finally, cleanup the DIGIT Setup if you wish, using the following command. This will delete the entire cluster and other cloud resources that were provisioned for the DIGIT Setup.
 
+```text
+cd DIGIT-DevOps/infra-as-code/terraform/my-digit-eks
+terraform destroy
 
-
-
-
-4. Test the PGR functionality 
-
-
-
-Now you should be able to login as an employee  and the credentials Username: **PGRLME1** and password: **eGov@4321** 
-
-![](../../.gitbook/assets/image%20%28111%29.png)
+```
 
 
 

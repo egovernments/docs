@@ -304,25 +304,19 @@ module "kafka" {
 }
 ```
 
-## Choose the environment <a id="Set-up-an-environment"></a>
+## Create the Cloud resource map for your infra <a id="Set-up-an-environment"></a>
 
 Here, you can define your env and provide the env specific cloud requirements so that using the same terraform template you can customize the configurations.
 
 ```text
-├── dev
+├── my-digit-eks
 │   ├── main.tf 
 │   ├── outputs.tf
 │   ├── providers.tf
 │   ├── remote-state
 │   │   └── main.tf
 │   └── variables.tf
-├── qa
-    ├── main.tf
-    ├── outputs.tf
-    ├── providers.tf
-    ├── remote-state
-    │   └── main.tf
-    └── variables.tf
+
 ```
 
 Following are the values that you need to mention in the following files, the blank ones will be prompted for inputs while execution.
@@ -330,7 +324,7 @@ Following are the values that you need to mention in the following files, the bl
 ```text
 ## Add Cluster Name
 variable "cluster_name" {
-  default = "<Desired Cluster name>"  #eg: digit-qa
+  default = "<Desired Cluster name>"  #eg: my-digit-eks
 }
 
 ## Add vpc_cidr_block
