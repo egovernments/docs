@@ -57,6 +57,100 @@ All Done.
 
 All Done, wait and watch for 10 min, you'll have the DIGIT setup completed and the application will be running on the given URL.
 
+## Role Action Mapping
+
+Post deployment, now the application will be accessible from the configured domain.
+
+To try out PGR employee login, Lets create a sample tenant, city, user to login and assign LME employee role.
+
+1. To map the roles to a user, we have to do the [kubectl port-forwarding](https://phoenixnap.com/kb/kubectl-port-forward) of the **egov-user** service running from kubernetes cluster to your localhost, this will now give you access to egov-user service directly and interact with the api directly.
+
+```text
+kubectl port-forward svc/egov-user 8080:8080 -n egov
+Forwarding from 127.0.0.1:8080 -> 8080
+Forwarding from [::1]:8080 -> 8080
+
+```
+
+2. Execute the below API Request either from postman or curl to perform the role mapping.
+
+```text
+curl --location --request POST 'http://localhost:8080/user/users/_createnovalidate' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "requestInfo": {
+        "apiId": "Rainmaker",
+        "ver": ".01",
+        "ts": null,
+        "action": "_update",
+        "did": "1",
+        "key": "",
+        "msgId": "20170310130900|en_IN",
+        "authToken": "ec6a2db1-c000-4927-af21-f4ce13c1d75f",
+        "userInfo": {
+            "id": 23287,
+            "uuid": "4632c941-cb1e-4b83-b2d4-200022c1a137",
+            "userName": "PalashS",
+            "name": "Palash S",
+            "mobileNumber": "1234567890",
+            "emailId": null,
+            "type": "EMPLOYEE",
+            "roles": [
+                {
+                    "name": "superuser",
+                    "code": "SUPERUSER",
+                    "tenantId": "pg.citya"
+                },
+                {
+                    "name": "PGR Last Mile Employee",
+                    "code": "PGR_LME",
+                    "tenantId": "pg.citya"
+                },
+                {
+                    "name": "superuser",
+                    "code": "SUPERUSER",
+                    "tenantId": "pg"
+                }
+            ],
+            "tenantId": "pg.citya"
+        }
+    },
+    "user": {
+        "userName": "PGRLME1",
+        "name": "PGRLME",
+        "gender": null,
+        "mobileNumber": "1234567890",
+        "type": "EMPLOYEE",
+        "active": true,
+        "password": "eGov@4321",
+        "roles": [
+            {
+                "name": "Employee",
+                "code": "EMPLOYEE",
+                "tenantId": "pg"
+            },
+            {
+                "name": "PGR LME",
+                "code": "PGR_LME",
+                "tenantId": "pg.citya"
+            },
+            {
+                "name": "superuser",
+                "code": "SUPERUSER",
+                "tenantId": "pg"
+            }
+        ],
+        "tenantId": "pg.citya"
+    }
+}'
+```
+
+Now you should be able to login as an employee  and the credentials Username: **PGRLME1** and password: **eGov@4321** 
+
+![](../../.gitbook/assets/image%20%28111%29.png)
+
+
+
 ### The 2 Modes of Deployment
 
 Essentially, DIGIT deployment means that we need to generate Kubernetes manifests for each individual service. We use the tool called helm, which is an easy, effective and customizable packaging and deployment solution. So depending on where and which env you initiate the deployment there are 2 modes that you can deploy.
