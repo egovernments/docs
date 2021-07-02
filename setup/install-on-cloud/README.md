@@ -12,19 +12,25 @@ While [Quickstart Guide](../quickstart.md) would have helped you to get your han
 
 ## 1. Choose the Cloud
 
-* \*\*\*\*[**AWS**](on-aws.md)\*\*\*\*
-* \*\*\*\*[**Azure**](on-azure.md)\*\*\*\*
-* \*\*\*\*[**GCP**](on-gcp.md)\*\*\*\*
-* \*\*\*\*[**NIC**](on-nic.md)\*\*\*\*
-* \*\*\*\*[**SDC**](on-sdc.md)\*\*\*\*
+Choose you cloud and follow the Instruction to setup a Kubernetes cluster before moving on to the Deployment.
+
+{% page-ref page="on-aws.md" %}
+
+{% page-ref page="on-azure.md" %}
+
+{% page-ref page="on-gcp.md" %}
+
+{% page-ref page="on-nic.md" %}
+
+{% page-ref page="on-sdc.md" %}
 
 ## 2. Deploy DIGIT
 
-Post infra setup \(Kubernetes Cluster\), the deployment has got 2 stages and 2 modes. We can see the stages first and then the modes.
+Post infra setup \(Kubernetes Cluster\), the deployment has got 2 stages and 2 modes. We can see the stages first and then the modes. As part of a sample exercise we can deploy PGR, however deployment steps are similar, just that the prerequisites will have to be configured accordingly.    
 
-### 2 Stages
+### The 2 Stages
 
-**Stage 1: Prepare a &lt;**[**env.yaml&gt; master config file**](https://github.com/egovernments/DIGIT-DevOps/blob/master/deploy-as-code/helm/environments/dev.yaml) **per env like dev, qa or prod, which will have the following configurations, this env file need to be in line with your cluster name.** 
+**Stage 1: Prepare an &lt;**[**env.yaml&gt; master config file**](https://github.com/egovernments/DIGIT-DevOps/blob/master/deploy-as-code/helm/environments/dev.yaml) **per env like dev, qa or prod, which will have the following configurations, this env file need to be in line with your cluster name.** 
 
 * each service global, local env variables 
 * credentials, secrets \(You need to encrypt using [sops](https://github.com/mozilla/sops#updatekeys-command) and create a **&lt;env&gt;-secret.yaml** separately\)
@@ -61,8 +67,12 @@ All Done, wait and watch for 10 min, you'll have the DIGIT setup completed and t
 
 Essentially, DIGIT deployment means that we need to generate Kubernetes manifests for each individual service. We use the tool called helm, which is an easy, effective and customizable packaging and deployment solution. So depending on where and which env you initiate the deployment there are 2 modes that you can deploy.
 
-1. From local machine
-2. From CI/CD System like Jenkins
+1. From local machine - whatever we tried in this sample exercise so far. 
+2. From CI/CD System like Jenkins - Depending on how you want to setup your CI/CD and the expertise the steps will vary, however [here](../more-deploy-docs/deployment-key-concepts/cicd.md) you can find how we have setup CI/CD on Jenkins and the pipelines are created automatically without any manual intervention.
+3. From local machine
+4. From CI/CD System like Jenkins
+5. From local machine
+6. From CI/CD System like Jenkins
 
 ## Role Action Mapping
 
