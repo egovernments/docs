@@ -57,6 +57,13 @@ All Done.
 
 All Done, wait and watch for 10 min, you'll have the DIGIT setup completed and the application will be running on the given URL.
 
+### The 2 Modes of Deployment
+
+Essentially, DIGIT deployment means that we need to generate Kubernetes manifests for each individual service. We use the tool called helm, which is an easy, effective and customizable packaging and deployment solution. So depending on where and which env you initiate the deployment there are 2 modes that you can deploy.
+
+1. From local machine
+2. From CI/CD System like Jenkins
+
 ## Role Action Mapping
 
 Post deployment, now the application will be accessible from the configured domain.
@@ -151,12 +158,7 @@ Now you should be able to login as an employee  and the credentials Username: **
 
 
 
-### The 2 Modes of Deployment
-
-Essentially, DIGIT deployment means that we need to generate Kubernetes manifests for each individual service. We use the tool called helm, which is an easy, effective and customizable packaging and deployment solution. So depending on where and which env you initiate the deployment there are 2 modes that you can deploy.
-
-1. From local machine
-2. From CI/CD System like Jenkins
+### 
 
 
 
