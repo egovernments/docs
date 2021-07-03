@@ -183,19 +183,7 @@ terraform destroy
 
 ```
 
+## Conclusion:
 
-
-### 
-
-
-
-
-
-
-
-
-
-
-
-
+All Done, we have successfully Created infra on Cloud, Deployed Digit, Bootstrapped DIGIT, Performed a Transaction on PGR and Finally Destroyed the cluster.
 
