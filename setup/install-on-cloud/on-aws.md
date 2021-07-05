@@ -428,5 +428,5 @@ ip-192-168-xx-3.ap-south-1.compute.internal   Ready  45d   v1.15.10-eks-bac369  
 ip-192-168-xx-4.ap-south-1.compute.internal   Ready  45d   v1.15.10-eks-bac369   Amazon Linux 2 
 ```
 
-Whola! All set and now you can go Deploy DIGIT...
+Whola! All set and now you can go [**Deploy DIGIT**](./#2-deploy-digit)...
 
