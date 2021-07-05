@@ -8,12 +8,13 @@ The [**Amazon Elastic Kubernetes Service \(EKS\)**](https://docs.aws.amazon.com/
 
 ## Prerequisites <a id="Prerequisites"></a>
 
-1. [**AWS account**](https://portal.aws.amazon.com/billing/signup?nc2=h_ct&src=default&redirect_url=https%3A%2F%2Faws.amazon.com%2Fregistration-confirmation#/start) with the admin access to provision EKS Service, you can always subscribe to free AWS account to learn the basics and try, but there is a limit to [**what is offered as free**](https://aws.amazon.com/free/), for this demo you need to have a commercial subscription to the EKS service, if you want to try out for a day or two, it might cost you about Rs 500 - 1000.
+1. [**AWS account**](https://portal.aws.amazon.com/billing/signup?nc2=h_ct&src=default&redirect_url=https%3A%2F%2Faws.amazon.com%2Fregistration-confirmation#/start) with the admin access to provision EKS Service, you can always subscribe to free AWS account to learn the basics and try, but there is a limit to [**what is offered as free**](https://aws.amazon.com/free/), for this demo you need to have a commercial subscription to the EKS service, if you want to try out for a day or two, it might cost you about Rs 500 - 1000. **\(Note: Post the Demo, for the internal folks, eGov will provide a 2-3 hrs time bound access to eGov's AWS based on the request and available number of slots per day\)**
 2. Install [**kubectl**](https://kubernetes.io/docs/tasks/tools/) on your local machine that helps you interact with the kubernetes cluster
 3.  Install [**Helm**](https://helm.sh/docs/intro/install/) that helps you package the services along with the configurations, envs, secrets, etc into a ****[**kubernetes manifests**](https://devspace.cloud/docs/cli/deployment/kubernetes-manifests/what-are-manifests) 
-4. \*\*\*\*[**Install AWS CLI**](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html) ****on your local machine so that you can use aws cli commands to provision and manage the cloud resources on your account.
-5. Install [**AWS IAM Authenticator**](https://docs.aws.amazon.com/eks/latest/userguide/install-aws-iam-authenticator.html) that helps you authenticate your connection from your local machine so that you should be able to deploy DIGIT services.
-6. Create an [**AWS IAM User**](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html) ****for the Terraform \([**Infra-as-code**](https://devops.digit.org/devops-general/infra-as-code)\) to connect with your AWS account and provision the cloud resources.
+4. Install [**terraform**](https://learn.hashicorp.com/tutorials/terraform/install-cli) for the Infra-as-code \(IaC\) to provision cloud resources as code and with desired resource graph and also it helps to destroy the cluster at one go.
+5. \*\*\*\*[**Install AWS CLI**](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html) ****on your local machine so that you can use aws cli commands to provision and manage the cloud resources on your account.
+6. Install [**AWS IAM Authenticator**](https://docs.aws.amazon.com/eks/latest/userguide/install-aws-iam-authenticator.html) that helps you authenticate your connection from your local machine so that you should be able to deploy DIGIT services.
+7. Create an [**AWS IAM User**](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html) ****for the Terraform \([**Infra-as-code**](https://devops.digit.org/devops-general/infra-as-code)\) to connect with your AWS account and provision the cloud resources.
 
    1. Login to AWS Console =&gt; go to the **IAM section =&gt; Create User**
    2. **Create Group** by attaching the following access and add it to the above User 
@@ -23,7 +24,7 @@ The [**Amazon Elastic Kubernetes Service \(EKS\)**](https://docs.aws.amazon.com/
    4. Open the terminal and Run the following command you have already installed the AWS CLI and you have the credentials saved. \(Provide the credentials and you can leave the region and output format as blank\)
 
    ```text
-   aws configure --profile egov-test-account 
+   aws configure --profile egov-workshop-account 
 
    AWS Access Key ID []:<Your access key>
    AWS Secret Access Key []:<Your secret key>
@@ -39,9 +40,9 @@ The [**Amazon Elastic Kubernetes Service \(EKS\)**](https://docs.aws.amazon.com/
    aws_secret_access_key=****************************
    ```
 
-## **Resource Graph** <a id="Set-up-and-initialize-your-Terraform-workspace"></a>
+## **DIGIT - Infra Resource Graph on AWS** <a id="Set-up-and-initialize-your-Terraform-workspace"></a>
 
-Terraform builds a graph of all your resources, and parallelizes the creation and modification of any non-dependent resources. Because of this, Terraform builds infrastructure as efficiently as possible, and operators get insight into dependencies in their infrastructure.
+[**Terraform**](https://www.terraform.io/intro/index.html) helps you build a graph of all your resources, and parallelizes the creation and modification of any non-dependent resources. Because of this, Terraform builds infrastructure as efficiently as possible, and operators get insight into dependencies in their infrastructure.
 
 Before we provision the cloud resources, we need to understand and be sure about what resources need to be provisioned by terraform to deploy DIGIT. The following picture shows the various key components. \(EKS, Worker Nodes, PostGres DB, EBS Volumes, Load Balancer\)
 
@@ -63,7 +64,7 @@ Considering the above deployment architecture, the following is the resource gra
 * Let's Clone the [DIGIT-DevOps](https://github.com/egovernments/DIGIT-DevOps.git) GitHub repo where the terraform script to provision EKS cluster is available and below is the structure of the files.
 
 ```text
-git clone --brnach release https://github.com/egovernments/DIGIT-DevOps.git
+git clone --branch release https://github.com/egovernments/DIGIT-DevOps.git
 cd DIGIT-DevOps/infra-as-code/terraform
 
 
@@ -115,6 +116,8 @@ In here, you will find the ****[**main.tf**](https://github.com/egovernments/DIG
   * Configuration in this directory creates set of RDS resources including DB instance, DB subnet group, and DB parameter group.
 * **Storage Module**
   * Configuration in this directory creates EBS volume and attaches it together.
+
+[**main.tf**](https://github.com/egovernments/DIGIT-DevOps/blob/release/infra-as-code/terraform/sample-aws/main.tf) 
 
 ```text
 # master configs, terraform state helps to maintain the flow of the execution
@@ -321,6 +324,8 @@ Here, you can define your env and provide the env specific cloud requirements so
 
 Following are the values that you need to mention in the following files, the blank ones will be prompted for inputs while execution.
 
+\*\*\*\*[**variables.tf** ](https://github.com/egovernments/DIGIT-DevOps/blob/release/infra-as-code/terraform/sample-aws/variables.tf)
+
 ```text
 ## Add Cluster Name
 variable "cluster_name" {
@@ -366,7 +371,7 @@ variable "ssh_key_name" {
   default = "ssh key name"
 }
 
-# terraform users ssh public key
+# terraform users ssh public key, you need to one for you
 variable "iam_keybase_user" {
   default = "keybase:egovterraform"
 }
