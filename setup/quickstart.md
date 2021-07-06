@@ -206,7 +206,6 @@ To try out PGR employee login, Lets create a sample tenant, city, user to login 
 kubectl port-forward svc/egov-user 8080:8080 -n egov
 Forwarding from 127.0.0.1:8080 -> 8080
 Forwarding from [::1]:8080 -> 8080
-
 ```
 
 
