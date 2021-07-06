@@ -142,6 +142,7 @@ Now that we have the Infra setup to proceed with the DIGIT Deployment. Following
 4. Install [CURL](https://help.ubidots.com/en/articles/2165289-learn-how-to-install-run-curl-on-windows-macosx-linux) for making api calls
 5. [Install Visualstudio](https://code.visualstudio.com/download) IDE Code for better code/configuration editing capabilities
 6. All the DIGIT services deployment configurations are in [GitRepo](https://github.com/egovernments/DIGIT-DevOps) which you would need to [install git](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository) and then [git clone](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository) it to your local.
+7. [Install Postman](https://www.postman.com/downloads/) to run some digit bootstrap scripts
 
 ```text
 root@ip:/# git clone -b quickstart https://github.com/egovernments/DIGIT-DevOps 
