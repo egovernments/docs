@@ -17,7 +17,7 @@ While [**Quickstart Guide**](../quickstart.md) ****would have helped you to get 
 * Know kubernetes manifests: [https://www.youtube.com/watch?v=ohSUtEfDefc](https://www.youtube.com/watch?v=ohSUtEfDefc)
 * Know how to manage env values, secrets of any service deployed in kubernetes [https://www.youtube.com/watch?v=OW244LxB4oI](https://www.youtube.com/watch?v=OW244LxB4oI)
 * Know how to port forward to a pod running inside k8s cluster and work locally [https://www.youtube.com/watch?v=TT3nd5n5Yus](https://www.youtube.com/watch?v=TT3nd5n5Yus)
-* Know sops to secure your keys/creds: [https://www.youtube.com/watch?v=V2PRhxphH2w](https://www.youtube.com/watch?v=V2PRhxphH2w)
+* Know sops to secure your keys/creds: [https://www.youtube.com/watch?v=DWzJ87KbwxA](https://www.youtube.com/watch?v=DWzJ87KbwxA)
 
 ## v1. Choose the Cloud
 
