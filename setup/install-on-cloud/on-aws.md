@@ -9,6 +9,7 @@ The [**Amazon Elastic Kubernetes Service \(EKS\)**](https://docs.aws.amazon.com/
 ## Pre-read:
 
 * Know about EKS: [https://www.youtube.com/watch?v=SsUnPWp5ilc](https://www.youtube.com/watch?v=SsUnPWp5ilc)
+* Know what is terraform: [https://youtu.be/h970ZBgKINg](https://youtu.be/h970ZBgKINg)
 
 ## Prerequisites <a id="Prerequisites"></a>
 
