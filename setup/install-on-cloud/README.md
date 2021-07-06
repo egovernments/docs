@@ -81,13 +81,11 @@ Essentially, DIGIT deployment means that we need to generate Kubernetes manifest
 
 ## 3. Post Deployment Steps
 
-### 1. Role Action Mapping
-
 Post deployment, now the application will be accessible from the configured domain.
 
-To try out PGR employee login, Lets create a sample tenant, city, user to login and assign LME employee role.
+To try out PGR employee login, Lets create a sample tenant, city, user to login and assign LME employee role through the seed script
 
-1. To map the roles to a user, we have to do the [kubectl port-forwarding](https://phoenixnap.com/kb/kubectl-port-forward) of the **egov-user** service running from kubernetes cluster to your localhost, this will now give you access to egov-user service directly and interact with the api directly.
+1. We have to do the [kubectl port-forwarding](https://phoenixnap.com/kb/kubectl-port-forward) of the **egov-user** service running from kubernetes cluster to your localhost, this will now give you access to egov-user service directly and interact with the api directly.
 
 ```text
 kubectl port-forward svc/egov-user 8080:8080 -n egov
@@ -96,78 +94,17 @@ Forwarding from [::1]:8080 -> 8080
 
 ```
 
-2. Execute the below API Request either from postman or curl to perform the role mapping.
 
-```text
-curl --location --request POST 'http://localhost:8080/user/users/_createnovalidate' \
---header 'Content-Type: application/json' \
---data-raw '{
-    "requestInfo": {
-        "apiId": "Rainmaker",
-        "ver": ".01",
-        "ts": null,
-        "action": "_update",
-        "did": "1",
-        "key": "",
-        "msgId": "20170310130900|en_IN",
-        "authToken": "ec6a2db1-c000-4927-af21-f4ce13c1d75f",
-        "userInfo": {
-            "id": 23287,
-            "uuid": "4632c941-cb1e-4b83-b2d4-200022c1a137",
-            "userName": "eGovEmp",
-            "name": "eGovTest Employee",
-            "mobileNumber": "1234567890",
-            "emailId": null,
-            "type": "EMPLOYEE",
-            "roles": [
-                {
-                    "name": "superuser",
-                    "code": "SUPERUSER",
-                    "tenantId": "pg.citya"
-                },
-                {
-                    "name": "PGR Last Mile Employee",
-                    "code": "PGR_LME",
-                    "tenantId": "pg.citya"
-                },
-                {
-                    "name": "superuser",
-                    "code": "SUPERUSER",
-                    "tenantId": "pg"
-                }
-            ],
-            "tenantId": "pg.citya"
-        }
-    },
-    "user": {
-        "userName": "PGRLME1",
-        "name": "PGRLME",
-        "gender": null,
-        "mobileNumber": "1234567890",
-        "type": "EMPLOYEE",
-        "active": true,
-        "password": "eGov@4321",
-        "roles": [
-            {
-                "name": "Employee",
-                "code": "EMPLOYEE",
-                "tenantId": "pg"
-            },
-            {
-                "name": "PGR LME",
-                "code": "PGR_LME",
-                "tenantId": "pg.citya"
-            },
-            {
-                "name": "superuser",
-                "code": "SUPERUSER",
-                "tenantId": "pg"
-            }
-        ],
-        "tenantId": "pg.citya"
-    }
-}'
-```
+
+2. Seed the sample data
+
+* Ensure you have the postman to run the following seed data api, if not [Install postman](https://www.postman.com/downloads/canary/) on your local
+* Import the following postman collection into the postman and run it, this will have the seed data that enable sample test users and localisation data.
+  * [DIGIT Bootstrap](https://raw.githubusercontent.com/egovernments/DIGIT-DevOps/quickstart/deploy-as-code/bootstrap_scripts/seed_data.json)
+
+![](../../.gitbook/assets/image%20%28112%29.png)
+
+![](../../.gitbook/assets/image%20%28113%29.png)
 
 ## 4. Assessment of the DIGIT Deployment
 
@@ -175,12 +112,14 @@ By now we have successfully completed the digit setup on cloud, use the URL that
 
 **Credentials:**
 
-1. Citizen: You can use your mobile number to signup using the Mobile OTP.
-2. Employee: Username: **PGRLME1** and password: **eGov@4321** 
+1. Citizen: You can use your default mobile number \(9999999999\) to signin using the default Mobile OTP 123456.
+2. Employee: Username: **GRO** and password: **eGov@4321** 
 
 {% page-ref page="../../modules/public-grievances-and-redressal/pgr-user-manual/" %}
 
-##  5. Destroy the Cluster
+Post grievance creation and assignment of the same to LME, capture the screenshot of the same and share it to ensure your setup is working fine.
+
+## 5. Destroy the Cluster
 
 Post validating the PGR functionality share the API response of the following request to assess the correctness of successful DIGIT PGR Deployment. 
 

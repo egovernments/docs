@@ -194,13 +194,13 @@ curl -Is http://quickstart.local.digit/employee/login |  head -n 1
 HTTP/2 200
 ```
 
-## 3. Role Action Mapping
+## 3. Post Deployment Steps
 
-Post deployment, now the application will be accessible from the url: [http://quickstart.local.digit](http://quickstart.local.digit), you can open it either in your browser or you can use any [command line browse tools](https://www.tecmint.com/command-line-web-browser-download-file-in-linux/)  if you are on a non-ui linux vm.  
+Post deployment, now the application will be accessible from the configured domain.
 
-To try out PGR employee login, Lets create a sample tenant, city, user to login and assign LME employee role.
+To try out PGR employee login, Lets create a sample tenant, city, user to login and assign LME employee role through the seed script
 
-1. To map the roles to a user, we have to do the [kubectl port-forwarding](https://phoenixnap.com/kb/kubectl-port-forward) of the **egov-user** service running from kubernetes cluster to your localhost, this will now give you access to egov-user service directly and interact with the api directly.
+1. We have to do the [kubectl port-forwarding](https://phoenixnap.com/kb/kubectl-port-forward) of the **egov-user** service running from kubernetes cluster to your localhost, this will now give you access to egov-user service directly and interact with the api directly.
 
 ```text
 kubectl port-forward svc/egov-user 8080:8080 -n egov
@@ -209,313 +209,21 @@ Forwarding from [::1]:8080 -> 8080
 
 ```
 
-     2. Execute the below API Request either from postman or curl to perform the role mapping.
 
-```text
-curl --location --request POST 'http://localhost:8080/user/users/_createnovalidate' \
---header 'Content-Type: application/json' \
---data-raw '{
-    "requestInfo": {
-        "apiId": "Rainmaker",
-        "ver": ".01",
-        "ts": null,
-        "action": "_update",
-        "did": "1",
-        "key": "",
-        "msgId": "20170310130900|en_IN",
-        "authToken": "ec6a2db1-c000-4927-af21-f4ce13c1d75f",
-        "userInfo": {
-            "id": 23287,
-            "uuid": "4632c941-cb1e-4b83-b2d4-200022c1a137",
-            "userName": "PalashS",
-            "name": "Palash S",
-            "mobileNumber": "1234567890",
-            "emailId": null,
-            "type": "EMPLOYEE",
-            "roles": [
-                {
-                    "name": "superuser",
-                    "code": "SUPERUSER",
-                    "tenantId": "pg.citya"
-                },
-                {
-                    "name": "PGR Last Mile Employee",
-                    "code": "PGR_LME",
-                    "tenantId": "pg.citya"
-                },
-                {
-                    "name": "superuser",
-                    "code": "SUPERUSER",
-                    "tenantId": "pg"
-                }
-            ],
-            "tenantId": "pg.citya"
-        }
-    },
-    "user": {
-        "userName": "PGRLME1",
-        "name": "PGRLME",
-        "gender": null,
-        "mobileNumber": "1234567890",
-        "type": "EMPLOYEE",
-        "active": true,
-        "password": "eGov@4321",
-        "roles": [
-            {
-                "name": "Employee",
-                "code": "EMPLOYEE",
-                "tenantId": "pg"
-            },
-            {
-                "name": "PGR LME",
-                "code": "PGR_LME",
-                "tenantId": "pg.citya"
-            },
-            {
-                "name": "superuser",
-                "code": "SUPERUSER",
-                "tenantId": "pg"
-            }
-        ],
-        "tenantId": "pg.citya"
-    }
-}'
-```
 
- Now you should be able to login as an employee using the url: [http://quickstart.local.digit/employee](http://quickstart.local.digit/employee) and the credentials Username: **PGRLME1** and password: **eGov@4321** 
+2. Seed the sample data
 
-![](../.gitbook/assets/image%20%28110%29.png)
+* Ensure you have the postman to run the following seed data api, if not [Install postman](https://www.postman.com/downloads/canary/) on your local
+* Import the following postman collection into the postman and run it, this will have the seed data that enable sample test users and localisation data.
+  * [DIGIT Bootstrap](https://raw.githubusercontent.com/egovernments/DIGIT-DevOps/quickstart/deploy-as-code/bootstrap_scripts/seed_data.json)
 
-### Create BusinessServices Workflow 
+![](../.gitbook/assets/image%20%28112%29.png)
 
-1.  To create businessService PGR module workflow, generate an authToken with the role.  
+![](../.gitbook/assets/image%20%28113%29.png)
 
-```text
-curl --location --request POST 'http://quickstart.local.digit/user/oauth/token' \
---header 'authority: quickstart.local.digit' \
---header 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"' \
---header 'accept: application/json, text/plain, */*' \
---header 'authorization: Basic ZWdvdi11c2VyLWNsaWVudDo=' \
---header 'sec-ch-ua-mobile: ?0' \
---header 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36' \
---header 'content-type: application/x-www-form-urlencoded' \
---header 'origin: http://quickstart.local.digit' \
---header 'sec-fetch-site: same-origin' \
---header 'sec-fetch-mode: cors' \
---header 'sec-fetch-dest: empty' \
---header 'referer: http://quickstart.local.digit/employee/user/login' \
---header 'accept-language: en-GB,en;q=0.9' \
---data-urlencode 'username=PGRLME1' \
---data-urlencode 'password=eGov@4321' \
---data-urlencode 'grant_type=password' \
---data-urlencode 'scope=read' \
---data-urlencode 'tenantId=pg.citya' \
---data-urlencode 'userType=EMPLOYEE'
-```
 
-  2. Create businessService PGR module workflow. Replace authToken with your newly generated authToken and execute the below API.
 
-```text
-curl --location --request POST 'http://quickstart.local.digit/egov-workflow-v2/egov-wf/businessservice/_create' \
---header 'Content-Type: application/json' \
---data-raw '{
-    "RequestInfo": {
-        "apiId": "Rainmaker",
-        "action": "",
-        "did": 1,
-        "key": "",
-        "msgId": "20170310130900|en_IN",
-        "requesterId": "",
-        "ts": 1513579888683,
-        "ver": ".01",
-        "authToken": "6000e55d-d6ea-4562-b4b7-d3c946b99f0a"
-    },
-    "BusinessServices": [
-        {
-            "tenantId": "pg",
-            "businessService": "PGR",
-            "business": "pgr-services",
-            "businessServiceSla": 432000000,
-            "states": [
-                {
-                    "sla": null,
-                    "state": null,
-                    "applicationStatus": null,
-                    "docUploadRequired": false,
-                    "isStartState": true,
-                    "isTerminateState": false,
-                    "isStateUpdatable": true,
-                    "actions": [
-                        {
-                            "action": "APPLY",
-                            "nextState": "PENDINGFORASSIGNMENT",
-                            "roles": [
-                                "CITIZEN",
-                                "CSR"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "sla": null,
-                    "state": "PENDINGFORASSIGNMENT",
-                    "applicationStatus": "PENDINGFORASSIGNMENT",
-                    "docUploadRequired": false,
-                    "isStartState": false,
-                    "isTerminateState": false,
-                    "isStateUpdatable": false,
-                    "actions": [
-                        {
-                            "action": "ASSIGN",
-                            "nextState": "PENDINGATLME",
-                            "roles": [
-                                "GRO",
-                                "DGRO"
-                            ]
-                        },
-                        {
-                            "action": "REJECT",
-                            "nextState": "REJECTED",
-                            "roles": [
-                                "GRO",
-                                "DGRO"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "sla": null,
-                    "state": "PENDINGFORREASSIGNMENT",
-                    "applicationStatus": "PENDINGFORREASSIGNMENT",
-                    "docUploadRequired": false,
-                    "isStartState": false,
-                    "isTerminateState": false,
-                    "isStateUpdatable": false,
-                    "actions": [
-                        {
-                            "action": "ASSIGN",
-                            "nextState": "PENDINGATLME",
-                            "roles": [
-                                "GRO",
-                                "DGRO"
-                            ]
-                        },
-                        {
-                            "action": "REJECT",
-                            "nextState": "REJECTED",
-                            "roles": [
-                                "GRO",
-                                "DGRO"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "sla": 259200000,
-                    "state": "PENDINGATLME",
-                    "applicationStatus": "PENDINGATLME",
-                    "docUploadRequired": false,
-                    "isStartState": false,
-                    "isTerminateState": false,
-                    "isStateUpdatable": false,
-                    "actions": [
-                        {
-                            "action": "RESOLVE",
-                            "nextState": "RESOLVED",
-                            "roles": [
-                                "PGR_LME"
-                            ]
-                        },
-                        {
-                            "action": "REASSIGN",
-                            "nextState": "PENDINGFORREASSIGNMENT",
-                            "roles": [
-                                "PGR_LME"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "sla": null,
-                    "state": "REJECTED",
-                    "applicationStatus": "REJECTED",
-                    "isStateUpdatable": false,
-                    "docUploadRequired": false,
-                    "isStartState": false,
-                    "isTerminateState": true,
-                    "actions": [
-                        {
-                            "action": "REOPEN",
-                            "nextState": "PENDINGFORASSIGNMENT",
-                            "roles": [
-                                "CFC",
-                                "CSR",
-                                "CITIZEN"
-                            ]
-                        },
-                        {
-                            "action": "RATE",
-                            "nextState": "CLOSEDAFTERREJECTION",
-                            "roles": [
-                                "CFC",
-                                "CITIZEN"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "sla": null,
-                    "state": "RESOLVED",
-                    "applicationStatus": "RESOLVED",
-                    "isStateUpdatable": false,
-                    "docUploadRequired": false,
-                    "isStartState": false,
-                    "isTerminateState": true,
-                    "actions": [
-                        {
-                            "action": "REOPEN",
-                            "nextState": "PENDINGFORASSIGNMENT",
-                            "roles": [
-                                "CFC",
-                                "CSR",
-                                "CITIZEN"
-                            ]
-                        },
-                        {
-                            "action": "RATE",
-                            "nextState": "CLOSEDAFTERREJECTION",
-                            "roles": [
-                                "CFC",
-                                "CITIZEN"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "sla": null,
-                    "state": "CLOSEDAFTERREJECTION",
-                    "applicationStatus": "CLOSEDAFTERREJECTION",
-                    "isStateUpdatable": false,
-                    "docUploadRequired": false,
-                    "isStartState": false,
-                    "isTerminateState": true
-                },
-                {
-                    "sla": null,
-                    "state": "CLOSEDAFTERRESOLUTION",
-                    "applicationStatus": "CLOSEDAFTERRESOLUTION",
-                    "isStateUpdatable": false,
-                    "docUploadRequired": false,
-                    "isStartState": false,
-                    "isTerminateState": true
-                }
-            ]
-        }
-    ]
-}'
-```
-
-To make the above changes to get reflected, we need to restart the egov-workflow-v2 and pgr-services pods. To do so please execute the below commands,
+To test the kubernetes operations through kubectl from you local machine, please execute the below commands.
 
 ```bash
 #get the pods running in the cluster
@@ -541,12 +249,12 @@ zuul-788bf8cd8b-9nxfl                                   1/1     Running   0     
 
 #Delete the pods so that it gets restarted automatically
 
-kubectl delete pods egov-workflow-v2-5cdb96bcf5-dcgmf pgr-services-b9f4ffdbf-5h5kd -n egov
+kubectl delete pods zuul-788bf8cd8b-9nxfl nginx-ingress-controller-b9678869c-mkslb -n egov
 
 Output:
 
-pod "egov-workflow-v2-5cdb96bcf5-dcgmf" deleted
-pod "pgr-services-b9f4ffdbf-5h5kd" deleted
+pod "zuul-788bf8cd8b-9nxfl" deleted
+pod "nginx-ingress-controller-b9678869c-mkslb" deleted
 ```
 
 You have successfully completed the DIGIT application setup. You can now experience the DIGIT platform - PGR module. 
