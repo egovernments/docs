@@ -65,12 +65,15 @@ Here in this Quickstart guide we'll install basic services to get the platform u
 ```text
  mkdir /kube
  chmod 777 /kube
+ 
+ #if you are unable to create the /kube folder in the root
+ # you can create it your user directory and provide the absolue path below
 ```
 
 * [ ] Create a cluster with a single master node and 2 agents \(Worker Nodes\) and mount the pre**-**created directory \(for data persistence\). 
 
 ```text
-k3d cluster create --k3s-server-arg "--no-deploy=traefik" --agents 2 -v /kube:/kube@agent[0,1] -v /kube:/kube@server[0] --port "80:80@loadbalancer"
+k3d cluster create --k3s-server-arg "--no-deploy=traefik" --agents 2 -v "/kube:/kube@agent[0,1]" -v "/kube:/kube@server[0]" --port "80:80@loadbalancer"
 ```
 
 * [ ] When cluster creation is successful, Get the kubeconfig file, which will allow you to connect the to the cluster at any time.
