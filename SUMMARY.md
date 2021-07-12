@@ -21,6 +21,7 @@
   * [On GCP](setup/install-on-cloud/on-gcp.md)
   * [On SDC](setup/install-on-cloud/on-sdc.md)
   * [On NIC](setup/install-on-cloud/on-nic.md)
+* [Open Source Tools used in DIGIT](setup/open-source-tools-used-in-digit.md)
 * [Productionize DIGIT](setup/productionize-digit/README.md)
   * [scaling](setup/productionize-digit/scaling/README.md)
     * [Horizontally Scale DIGIT Services](setup/productionize-digit/scaling/horizontally-scale-spinnaker-services.md)
