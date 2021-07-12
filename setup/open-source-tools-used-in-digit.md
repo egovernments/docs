@@ -6,7 +6,7 @@ description: Overall tool stack used in DIGIT
 
 DIGIT being an open source platform, all the tools and tech stack used to build, deploy and operate DIGIT - are also [open source](https://opensource.com/resources/what-open-source) and community edition.  All the various tools used are listed below with the specific versions used and their short description.
 
-| Tools |  Version | Description |
+| Platform Tools |  Version | Description |
 | :--- | :--- | :--- |
 | [Kafka](https://kafka.apache.org/intro) | 5.4.1 | Apache **Kafka** is a open sourced and community distributed event streaming platform capable of handling trillions of events a day. |
 | [Zookeeper](https://dattell.com/data-architecture-blog/what-is-zookeeper-how-does-it-support-kafka/) | 5.4.1 | **ZooKeeper** is an **open source** Apache project that provides a centralized service for providing configuration information, naming, synchronization and group services over large clusters in distributed systems. When working with Apache **Kafka**, **ZooKeeper** is primarily used to track the status of nodes in the **Kafka** cluster and maintain a list of **Kafka** topics and messages. |
