@@ -127,8 +127,8 @@ Trade-License APIs:- [https://www.getpostman.com/collections/99f98723c45f9702483
     </tr>
     <tr>
       <td style="text-align:left">{servicename}/{jobname}/_batch, /_batch</td>
-      <td style="text-align:left">Searches trade licenses which are expiring and send a reminder SMS to
-        owner&apos;s of the licenses</td>
+      <td style="text-align:left">Searches trade licenses that are expiring and send a reminder SMS to owner&apos;s
+        of the licenses</td>
     </tr>
   </tbody>
 </table>
