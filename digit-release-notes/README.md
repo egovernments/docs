@@ -257,21 +257,21 @@ DIGIT 2.4 is the latest release that has got new modules, a few functional chang
 
 #### UI Technical Documents
 
-{% page-ref page="../modules/mcollect-mcs/echallan-ui-details/" %}
+{% page-ref page="../product/modules/mcollect-mcs/echallan-ui-details/" %}
 
-{% page-ref page="../modules/mcollect-mcs/echallan-ui-details/edit-cancel-challan.md" %}
+{% page-ref page="../product/modules/mcollect-mcs/echallan-ui-details/edit-cancel-challan.md" %}
 
-{% page-ref page="../modules/mcollect-mcs/echallan-ui-details/search-and-pay-challan.md" %}
+{% page-ref page="../product/modules/mcollect-mcs/echallan-ui-details/search-and-pay-challan.md" %}
 
-{% page-ref page="../modules/property-tax/property-tax-service/" %}
+{% page-ref page="../product/modules/property-tax/property-tax-service/" %}
 
-{% page-ref page="../modules/property-tax/pt-create-property-ui-details/edit-update-property.md" %}
+{% page-ref page="../product/modules/property-tax/pt-create-property-ui-details/edit-update-property.md" %}
 
-{% page-ref page="../modules/property-tax/pt-create-property-ui-details/property-tax-my-applications.md" %}
+{% page-ref page="../product/modules/property-tax/pt-create-property-ui-details/property-tax-my-applications.md" %}
 
-{% page-ref page="../modules/property-tax/pt-create-property-ui-details/property-tax-my-properties.md" %}
+{% page-ref page="../product/modules/property-tax/pt-create-property-ui-details/property-tax-my-properties.md" %}
 
-{% page-ref page="../modules/property-tax/pt-create-property-ui-details/property-tax-quick-pay-for-citizen.md" %}
+{% page-ref page="../product/modules/property-tax/pt-create-property-ui-details/property-tax-quick-pay-for-citizen.md" %}
 
 {% file src="../.gitbook/assets/common-pay-config \(1\).pdf" caption="Common Pay Configuration" %}
 
@@ -281,65 +281,65 @@ DIGIT 2.4 is the latest release that has got new modules, a few functional chang
 
 #### Backend Service Documents
 
-{% page-ref page="../setup/configure-digit/services-overview/core-services/xstate-core-chatbot/" %}
+{% page-ref page="../configuration/configure-digit/services-overview/core-services/xstate-core-chatbot/" %}
 
-{% page-ref page="../setup/configure-digit/services-overview/core-services/xstate-core-chatbot/xstate-chatbot-integration-document.md" %}
+{% page-ref page="../configuration/configure-digit/services-overview/core-services/xstate-core-chatbot/xstate-chatbot-integration-document.md" %}
 
-{% page-ref page="../setup/configure-digit/services-overview/core-services/xstate-core-chatbot/xstate-chatbot-message-localisation.md" %}
+{% page-ref page="../configuration/configure-digit/services-overview/core-services/xstate-core-chatbot/xstate-chatbot-message-localisation.md" %}
 
-{% page-ref page="../modules/e-challan-service/" %}
+{% page-ref page="../product/modules/e-challan-service/" %}
 
-{% page-ref page="../modules/e-challan-service/echallan-calculator-services.md" %}
+{% page-ref page="../product/modules/e-challan-service/echallan-calculator-services.md" %}
 
-{% page-ref page="../modules/faecal-sludge-management-fsm/fsm-service-configuration/fsm-services.md" %}
+{% page-ref page="../product/modules/faecal-sludge-management-fsm/fsm-service-configuration/fsm-services.md" %}
 
 #### Tech Enablement Documents
 
-{% page-ref page="../setup/configure-digit/services-overview/business-services/appropriation-service.md" %}
+{% page-ref page="../configuration/configure-digit/services-overview/business-services/appropriation-service.md" %}
 
-{% page-ref page="../setup/configure-digit/services-overview/business-services/billing-service/" %}
+{% page-ref page="../configuration/configure-digit/services-overview/business-services/billing-service/" %}
 
-{% page-ref page="../setup/configure-digit/services-overview/business-services/billing-service/bill-amendment-service-configuration.md" %}
+{% page-ref page="../configuration/configure-digit/services-overview/business-services/billing-service/bill-amendment-service-configuration.md" %}
 
-{% page-ref page="../setup/configure-digit/services-overview/business-services/collection-service/" %}
+{% page-ref page="../configuration/configure-digit/services-overview/business-services/collection-service/" %}
 
-{% page-ref page="../setup/configure-digit/services-overview/business-services/billing-collection-integration.md" %}
+{% page-ref page="../configuration/configure-digit/services-overview/business-services/billing-collection-integration.md" %}
 
-{% page-ref page="../setup/configure-digit/services-overview/business-services/dashboard-analytics-backend.md" %}
+{% page-ref page="../configuration/configure-digit/services-overview/business-services/dashboard-analytics-backend.md" %}
 
-{% page-ref page="../setup/configure-digit/services-overview/business-services/dss-technical-documentation.md" %}
+{% page-ref page="../configuration/configure-digit/services-overview/business-services/dss-technical-documentation.md" %}
 
-{% page-ref page="../setup/configure-digit/services-overview/business-services/dss-dashboard-technical-document-for-ui.md" %}
+{% page-ref page="../configuration/configure-digit/services-overview/business-services/dss-dashboard-technical-document-for-ui.md" %}
 
-{% page-ref page="../setup/configure-digit/services-overview/business-services/dss-features-enhancements.md" %}
+{% page-ref page="../configuration/configure-digit/services-overview/business-services/dss-features-enhancements.md" %}
 
-{% page-ref page="../setup/configure-digit/services-overview/business-services/technical-script-steps-for-migration-process.md" %}
+{% page-ref page="../configuration/configure-digit/services-overview/business-services/technical-script-steps-for-migration-process.md" %}
 
-{% page-ref page="../modules/property-tax/property-tax-service/" %}
+{% page-ref page="../product/modules/property-tax/property-tax-service/" %}
 
-{% page-ref page="../modules/water-and-sewerage/water-services/" %}
+{% page-ref page="../product/modules/water-and-sewerage/water-services/" %}
 
-{% page-ref page="../modules/water-and-sewerage/water-services/water-calculator-service.md" %}
+{% page-ref page="../product/modules/water-and-sewerage/water-services/water-calculator-service.md" %}
 
-{% page-ref page="../modules/water-and-sewerage/water-services/sewerage-service.md" %}
+{% page-ref page="../product/modules/water-and-sewerage/water-services/sewerage-service.md" %}
 
-{% page-ref page="../modules/water-and-sewerage/water-services/sewerage-calculator-service.md" %}
+{% page-ref page="../product/modules/water-and-sewerage/water-services/sewerage-calculator-service.md" %}
 
-{% page-ref page="../modules/fire-noc/fire-noc-service/" %}
+{% page-ref page="../product/modules/fire-noc/fire-noc-service/" %}
 
-{% page-ref page="../modules/fire-noc/fire-noc-service/fire-noc-calculator-service.md" %}
+{% page-ref page="../product/modules/fire-noc/fire-noc-service/fire-noc-calculator-service.md" %}
 
-{% page-ref page="../modules/trade-license-tl/tl-service-configuration/" %}
+{% page-ref page="../product/modules/trade-license-tl/tl-service-configuration/" %}
 
-{% page-ref page="../modules/trade-license-tl/tl-service-configuration/trade-license-calculator.md" %}
+{% page-ref page="../product/modules/trade-license-tl/tl-service-configuration/trade-license-calculator.md" %}
 
-{% page-ref page="../setup/configure-digit/qa-automation/automation-framework-knowledge-base.md" %}
+{% page-ref page="../configuration/configure-digit/qa-automation/automation-framework-knowledge-base.md" %}
 
-{% page-ref page="../setup/configure-digit/qa-automation/jenkins-setup-for-automation.md" %}
+{% page-ref page="../configuration/configure-digit/qa-automation/jenkins-setup-for-automation.md" %}
 
-{% page-ref page="../setup/configure-digit/qa-automation/automation-test-tags.md" %}
+{% page-ref page="../configuration/configure-digit/qa-automation/automation-test-tags.md" %}
 
-{% page-ref page="../setup/configure-digit/qa-automation/automation-test-reporting.md" %}
+{% page-ref page="../configuration/configure-digit/qa-automation/automation-test-reporting.md" %}
 
 {% page-ref page="../digit-support/security-guidelines-handbook.md" %}
 

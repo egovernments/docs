@@ -115,7 +115,7 @@ By now we have successfully completed the digit setup on cloud, use the URL that
 1. Citizen: You can use your default mobile number \(9999999999\) to signin using the default Mobile OTP 123456.
 2. Employee: Username: **GRO** and password: **eGov@4321** 
 
-{% page-ref page="../../modules/public-grievances-and-redressal/pgr-user-manual/" %}
+{% page-ref page="../../product/modules/public-grievances-and-redressal/pgr-user-manual/" %}
 
 Post grievance creation and assignment of the same to LME, capture the screenshot of the same and share it to ensure your setup is working fine.
 
