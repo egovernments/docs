@@ -6,11 +6,11 @@ description: Frontend Repo
 
 Once the user login with `WS_CEMP` **or** `SW_CEMP` Roles, then the User will get the BillGenie tree option on the left side.
 
-![](../../../.gitbook/assets/image%20%28149%29.png)
+![](../../../.gitbook/assets/image%20%28157%29.png)
 
 on click on BillGenie will get two options like below
 
-![](../../../.gitbook/assets/image%20%28132%29.png)
+![](../../../.gitbook/assets/image%20%28136%29.png)
 
 on clicking on bill Cancellation, it will route to the search bill screen.
 
@@ -24,14 +24,14 @@ if tax head information can be wrong in a bill. So the bill needs to be cancelle
 
 Route -[ mSeva](https://qa.digit.org/employee/bills/billSearch)
 
-![](../../../.gitbook/assets/image%20%28194%29.png)
+![](../../../.gitbook/assets/image%20%28221%29.png)
 
 ### Technical Implementation Details
 
 *  Initial page - [![](https://github.com/fluidicon.png)frontend/billSearch.js at master · egovernments/frontend](https://github.com/egovernments/frontend/blob/master/web/rainmaker/dev-packages/egov-abg-dev/src/ui-config/screens/specs/bills/billSearch.js)
 * Initial MDMS call is being made on page load
 
-![](../../../.gitbook/assets/image%20%28201%29.png)
+![](../../../.gitbook/assets/image%20%28230%29.png)
 
 {% hint style="info" %}
 Note: only for the enabled service we can search, cancel the bill and serviceCategory drop downs options .it can be configured in uiCommonPay config by setting **true** to `cancelBill`  this path
@@ -79,7 +79,7 @@ example:
 
 * Any customizations at column level are by `customBodyRender` hook available in all the columns ‘option’ property.
 
-![](../../../.gitbook/assets/image%20%28119%29.png)
+![](../../../.gitbook/assets/image%20%28121%29.png)
 
 #### Data fetch, load and render <a id="Data-fetch,load-and-render-:"></a>
 
@@ -87,17 +87,17 @@ Once the data is fetched using `egov-searcher/bill-genie/billswithaddranduser/_g
 
 [![](https://github.com/fluidicon.png)frontend/function.js at master · egovernments/frontend](https://github.com/egovernments/frontend/blob/master/web/rainmaker/dev-packages/egov-abg-dev/src/ui-config/screens/specs/bills/billSearchResources/function.js)![](blob:https://digit-discuss.atlassian.net/d7d401f7-90dc-4940-8293-37c3c8fd2a08#media-blob-url=true&id=379cbc6b-f53c-43ed-8a5b-e3922078b84d&collection=contentId-1847263265&contextId=1847263265&mimeType=image%2Fpng&name=image-20210727-103850.png&size=111637&width=947&height=491)
 
-![](../../../.gitbook/assets/image%20%28184%29.png)
+![](../../../.gitbook/assets/image%20%28204%29.png)
 
 As we can see from the image above, the data is put to a specific path inside props.
 
 [![](https://github.com/fluidicon.png)frontend/searchResults.js at master · egovernments/frontend](https://github.com/egovernments/frontend/blob/master/web/rainmaker/dev-packages/egov-abg-dev/src/ui-config/screens/specs/bills/billSearchResources/searchResults.js)
 
-![](../../../.gitbook/assets/image%20%28168%29.png)
+![](../../../.gitbook/assets/image%20%28181%29.png)
 
 The table component now fetches the data from its props as shown below.
 
-![](../../../.gitbook/assets/image%20%28231%29.png)
+![](../../../.gitbook/assets/image%20%28264%29.png)
 
 For employee Action as “cancel bill “ so that employee can cancel the active bill on click of cancel bill, it will navigate to the Bill details page where we can see the bill amount and other details from there we can do the Cancel.[ ![](https://github.com/fluidicon.png)frontend/viewBill.js at master · egovernments/frontend](https://github.com/egovernments/frontend/blob/master/web/rainmaker/dev-packages/egov-abg-dev/src/ui-config/screens/specs/bills/viewBill.js)
 

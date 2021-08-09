@@ -5,7 +5,7 @@ Admin Can able see the Total Count of Employee's
 * Active Employee Count
 * Total Employee Count
 
-![](../../../.gitbook/assets/image%20%28179%29.png)
+![](../../../.gitbook/assets/image%20%28197%29.png)
 
 [https://github.com/egovernments/digit-ui-internals/blob/development/packages/modules/hrms/src/components/hrmscard.js](https://github.com/egovernments/digit-ui-internals/blob/development/packages/modules/hrms/src/components/hrmscard.js)
 

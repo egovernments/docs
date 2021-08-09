@@ -4,25 +4,25 @@
 
 Users can review the list of applications and their status registered under their mobile number in the My Applications tab. Each Application for the initial view will display Application No, Service Category, Owner Name \(Multiple with a comma\), status, SLA, Trade Name with View Details option, and if the status is pending for payment it will be View Details & Pay, through which User can look up more details about the Application.
 
-![](../../../../.gitbook/assets/image%20%28202%29.png)
+![](../../../../.gitbook/assets/image%20%28231%29.png)
 
 Once the user clicks on the View Details or View Details & Pay button, the Application Details Page will be displayed with all the necessary information about the application.
 
-![](../../../../.gitbook/assets/image%20%28227%29.png)
+![](../../../../.gitbook/assets/image%20%28260%29.png)
 
 The user can download the Application Acknowledgement Form \(status - pending for payment \) or TL Certificate or receipt if it has been paid from the Download Link button at the top right corner of the page.
 
-![](../../../../.gitbook/assets/image%20%28142%29.png)
+![](../../../../.gitbook/assets/image%20%28148%29.png)
 
-![](../../../../.gitbook/assets/image%20%28144%29.png)
+![](../../../../.gitbook/assets/image%20%28150%29.png)
 
 If the status is Pending for Payment for the application or Action required by citizen \(discussed elaborately here \), a button will be visible to pay or edit at the end of the page respectively. On clicking on the Make Payment button it will redirect to the common pay screen through which the user can make the payment.![](blob:https://digit-discuss.atlassian.net/8f85d8c7-d4dc-4930-92e8-a18a82d51836#media-blob-url=true&id=35f02c5a-b373-4b64-ac43-ef0026ae3434&collection=contentId-1847492858&contextId=1847492858&mimeType=image%2Fpng&name=Screenshot%20from%202021-07-28%2011-34-09.png&size=1542&width=246&height=30)
 
-![](../../../../.gitbook/assets/image%20%28237%29.png)
+![](../../../../.gitbook/assets/image%20%28270%29.png)
 
 **Timeline Component -** timeline component is present at the end of the application details which tells about the current status and history of the application being initiated, Applied, Pending for Document Verification, Pending for Field Inspection, Pending approval, Pending payment, Approved etc.
 
-![](../../../../.gitbook/assets/image%20%28224%29.png)
+![](../../../../.gitbook/assets/image%20%28257%29.png)
 
 ## **Technical Implementation Details**
 

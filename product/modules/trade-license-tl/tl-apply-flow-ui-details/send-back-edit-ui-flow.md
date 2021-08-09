@@ -8,11 +8,11 @@ This feature allows the user to edit the application already created under their
 
 On the Application details page, on the employee side, if the application is marked with “Send Back to Citizen”, the edit option will appear dynamically at the end of the application details page, which the user can navigate through my applications.
 
-![](../../../../.gitbook/assets/image%20%28157%29.png)
+![](../../../../.gitbook/assets/image%20%28166%29.png)
 
 After this, On clicking the button, the user can edit the trade license details by going through the create flow again. First, it will land on the Summary page, where for each section “change” button is there. Clicking on the Change button, the user will be redirected to the particular content, the only exception here will be the values will be pre-populated from the License object received from Trade License Search API, on completing the flow, Update API will be called and License application will get successfully updated.
 
-![Acknowledgement Screen](../../../../.gitbook/assets/image%20%28123%29.png)
+![Acknowledgement Screen](../../../../.gitbook/assets/image%20%28125%29.png)
 
 ## **Technical Implementation Details**
 

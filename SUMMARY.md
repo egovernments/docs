@@ -79,6 +79,12 @@
       * [Property Tax - My Applications](product/modules/property-tax/pt-create-property-ui-details/property-tax-my-applications.md)
       * [Property Tax - My Properties](product/modules/property-tax/pt-create-property-ui-details/property-tax-my-properties.md)
       * [Property Tax - Quick Pay for Citizen](product/modules/property-tax/pt-create-property-ui-details/property-tax-quick-pay-for-citizen.md)
+      * [Create Application - Employee UI/UX Revamp](product/modules/property-tax/pt-create-property-ui-details/create-application-employee-ui-ux-revamp.md)
+      * [Employee Edit Application Flow](product/modules/property-tax/pt-create-property-ui-details/employee-edit-application-flow.md)
+      * [Employee - Search Property, Property Details Page & Assessment](product/modules/property-tax/pt-create-property-ui-details/employee-search-property-property-details-page-and-assessment.md)
+      * [Employee - Inbox & Application Details](product/modules/property-tax/pt-create-property-ui-details/employee-inbox-and-application-details.md)
+      * [Citizen Mutation Flow](product/modules/property-tax/pt-create-property-ui-details/citizen-mutation-flow.md)
+      * [Employee - Mutation \(Ownership Transfer\)](product/modules/property-tax/pt-create-property-ui-details/employee-mutation-ownership-transfer.md)
     * [PT Data Migration](product/modules/property-tax/pt-data-migration.md)
     * [PT User Manual](product/modules/property-tax/pt-user-manual/README.md)
       * [Citizen User Manual](product/modules/property-tax/pt-user-manual/citizen-user-manual.md)
@@ -162,6 +168,7 @@
       * [MCS Employee User Manual](product/modules/mcollect-mcs/mcollect-user-manual/mcs-employee-user-manual.md)
   * [Faecal Sludge Management \(FSM\)](product/modules/faecal-sludge-management-fsm/README.md)
     * [FSM Service Configuration](product/modules/faecal-sludge-management-fsm/fsm-service-configuration/README.md)
+      * [FSM Implementation - Configuration](product/modules/faecal-sludge-management-fsm/fsm-service-configuration/fsm-implementation-configuration.md)
       * [FSM Calculator v1.0](product/modules/faecal-sludge-management-fsm/fsm-service-configuration/fsm-calculator-v1.0.md)
       * [FSM Services](product/modules/faecal-sludge-management-fsm/fsm-service-configuration/fsm-services.md)
       * [FSM Vendor Registry v1.0](product/modules/faecal-sludge-management-fsm/fsm-service-configuration/fsm-vendor-registry-v1.0.md)
@@ -220,6 +227,7 @@
   * [Receipt Cancellation UI Flow](product/modules/receipt-cancellation-ui-flow/README.md)
     * [View Receipt - Cancel UI Flow](product/modules/receipt-cancellation-ui-flow/view-receipt-cancel-ui-flow.md)
   * [Auto Escalation UI Flow](product/modules/auto-escalation-ui-flow.md)
+  * [DSS UI Flow](product/modules/dss-ui-flow.md)
   * [Product FAQs](product/modules/product-faqs.md)
 
 ---

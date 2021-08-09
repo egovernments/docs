@@ -14,7 +14,7 @@ After searching a Challan on a click of Challan number it navigates to viewing t
 
  and view Challan details is mentioned over[ ![](https://github.com/fluidicon.png)digit-ui-internals/EmployeeChallan.js at main · egovernments/digit-ui-internals](https://github.com/egovernments/digit-ui-internals/blob/main/packages/modules/mCollect/src/EmployeeChallan.js)
 
-![](../../../../.gitbook/assets/image%20%28153%29.png)
+![](../../../../.gitbook/assets/image%20%28162%29.png)
 
 ## **Technical Implementation Details**
 
@@ -22,7 +22,7 @@ After searching a Challan on a click of Challan number it navigates to viewing t
 
 Action modal - This comes up on the click of cancel Challan.
 
-![](../../../../.gitbook/assets/image%20%28204%29.png)
+![](../../../../.gitbook/assets/image%20%28233%29.png)
 
 Click on yes, the challan will be cancelled and users will be routed to the acknowledgement screen.
 
@@ -34,11 +34,11 @@ Update Challan screen, This comes up on the click of update Challan \([![](https
 
 File path:[ ![](https://github.com/fluidicon.png)digit-ui-internals/index.js at main · egovernments/digit-ui-internals](https://github.com/egovernments/digit-ui-internals/blob/main/packages/modules/mCollect/src/pages/employee/EditChallan/index.js)
 
-![](../../../../.gitbook/assets/image%20%28228%29.png)
+![](../../../../.gitbook/assets/image%20%28261%29.png)
 
 On click on update challan, it will update and route to the acknowledgement screen.
 
-![](../../../../.gitbook/assets/image%20%28117%29.png)
+![](../../../../.gitbook/assets/image%20%28119%29.png)
 
 File Path:[ ![](https://github.com/fluidicon.png)digit-ui-internals/EmployeeChallanAcknowledgement.js at main · egovernments/digit-ui-internals](https://github.com/egovernments/digit-ui-internals/blob/main/packages/modules/mCollect/src/pages/employee/EmployeeChallanAcknowledgement.js)
 
@@ -48,7 +48,7 @@ common pay screen, This comes up once the user clicks on the Pay Challan/Proceed
 
 This pay screen is common for all the modules.
 
-![](../../../../.gitbook/assets/image%20%28238%29.png)
+![](../../../../.gitbook/assets/image%20%28271%29.png)
 
 On Click on collect payment, payment will collect and it will route to the acknowledgement screen it is common for all modules.![](blob:https://digit-discuss.atlassian.net/913085bc-e9d1-441b-8b57-7d6794ed9437#media-blob-url=true&id=278f82dd-54f4-4a35-a253-7b56a59943fc&collection=contentId-1669955631&contextId=1669955631&mimeType=image%2Fpng&name=image-20210728-022205.png&size=48929&width=1165&height=546)
 

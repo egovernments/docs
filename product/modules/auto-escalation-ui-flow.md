@@ -10,7 +10,7 @@ Provide Employee to show escalated applications that are pending for action.
 
 Route - [https://egov-micro-uat.egovernments.org/employee/inbox](https://egov-micro-uat.egovernments.org/employee/inbox)
 
-![](../../.gitbook/assets/image%20%28130%29.png)
+![](../../.gitbook/assets/image%20%28133%29.png)
 
 ## **Technical Implementation Details**
 
@@ -21,9 +21,9 @@ Route - [https://egov-micro-uat.egovernments.org/employee/inbox](https://egov-mi
 
 Please find the Escalated API using file path:[ ![](https://github.com/fluidicon.png)frontend/actions.js at master · egovernments/frontend](https://github.com/egovernments/frontend/blob/master/web/rainmaker/dev-packages/egov-ui-kit-dev/src/redux/app/actions.js). We are calling escalated API based on the condtions.
 
-![](../../.gitbook/assets/image%20%28126%29.png)
+![](../../.gitbook/assets/image%20%28129%29.png)
 
-![](../../.gitbook/assets/image%20%28192%29.png)
+![](../../.gitbook/assets/image%20%28219%29.png)
 
 1. get all applications in `payload.ProcessInstances` using `egov-workflow-v2/egov-wf/process/_search`
 2. get the escalated applications in `escalatedPayload.ProcessInstances` using `egov-workflow-v2/egov-wf/escalate/_search`
@@ -50,7 +50,7 @@ The functionality works as it is but the only change is showing the symbol to id
 
 Functionality file path:[ ![](https://github.com/fluidicon.png)frontend/index.js at master · egovernments/frontend](https://github.com/egovernments/frontend/blob/master/web/rainmaker/packages/employee/src/modules/employee/Inbox/components/Table/index.js)
 
-![](../../.gitbook/assets/image%20%28200%29.png)
+![](../../.gitbook/assets/image%20%28227%29.png)
 
 Note: Inbox functionality will work the same as before as outlined in the Employee Inbox document attached here.
 

@@ -64,7 +64,7 @@ Actions available:
 2. Go to home
 3. Proceed to Payment
 
-![](../../../../.gitbook/assets/image%20%28233%29.png)
+![](../../../../.gitbook/assets/image%20%28266%29.png)
 
 File Path:[ ![](https://github.com/fluidicon.png)digit-ui-internals/EmployeeChallanAcknowledgement.js at main · egovernments/digit-ui-internals](https://github.com/egovernments/digit-ui-internals/blob/main/packages/modules/mCollect/src/pages/employee/EmployeeChallanAcknowledgement.js)
 

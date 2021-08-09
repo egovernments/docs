@@ -10,13 +10,13 @@ If a user enters a mobile number that already exists in the system - Then the ap
 
 The Boundary is auto-filled with current `TenantId`.  The user is able to add Multiple Jurisdictions and Assignments.
 
-![](../../../.gitbook/assets/image%20%28223%29.png)
+![](../../../.gitbook/assets/image%20%28256%29.png)
 
-![](../../../.gitbook/assets/image%20%28225%29.png)
+![](../../../.gitbook/assets/image%20%28258%29.png)
 
-![](../../../.gitbook/assets/image%20%28166%29.png)
+![](../../../.gitbook/assets/image%20%28179%29.png)
 
-![](../../../.gitbook/assets/image%20%28160%29.png)
+![](../../../.gitbook/assets/image%20%28171%29.png)
 
 | **SL No** | **API** | **ROLE** | **Access Id** |
 | :--- | :--- | :--- | :--- |

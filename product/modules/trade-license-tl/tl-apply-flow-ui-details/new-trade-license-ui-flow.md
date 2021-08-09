@@ -8,9 +8,9 @@ Every application is a part of the workflow.
 
 Once the user login with `TL_CEMP` Role, then the User will get the option for creating a New TL Application in the TL card and as well as in the inbox.
 
-![](../../../../.gitbook/assets/image%20%28121%29.png)
+![](../../../../.gitbook/assets/image%20%28123%29.png)
 
-![](../../../../.gitbook/assets/image%20%28133%29.png)
+![](../../../../.gitbook/assets/image%20%28138%29.png)
 
 File path:[ ![](https://github.com/fluidicon.png)digit-ui-internals/TLCard.js at main · egovernments/digit-ui-internals](https://github.com/egovernments/digit-ui-internals/blob/main/packages/modules/tl/src/components/TLCard.js) and[ ![](https://github.com/fluidicon.png)digit-ui-internals/DesktopInbox.js at main · egovernments/digit-ui-internals](https://github.com/egovernments/digit-ui-internals/blob/main/packages/modules/tl/src/components/inbox/DesktopInbox.js)
 
@@ -18,7 +18,7 @@ Clicking of New Application it navigates to the New Trade License Application sc
 
 Route:[ ![](https://cdn.jsdelivr.net/npm/@egovernments/digit-ui-css/img/browser-icon.png)mSeva](https://qa.digit.org/digit-ui/employee/tl/new-application)
 
-![](../../../../.gitbook/assets/image%20%28145%29.png)
+![](../../../../.gitbook/assets/image%20%28152%29.png)
 
 File Path:[ ![](https://github.com/fluidicon.png)digit-ui-internals/index.js at main · egovernments/digit-ui-internals](https://github.com/egovernments/digit-ui-internals/blob/main/packages/modules/tl/src/pages/employee/NewApplication/index.js)
 
@@ -47,7 +47,7 @@ documents:[ ![](https://github.com/fluidicon.png)egov-mdms-data/documentObj.json
 
 **Acknowledgement Screen**
 
-![](../../../../.gitbook/assets/image%20%28129%29.png)
+![](../../../../.gitbook/assets/image%20%28132%29.png)
 
 After Success of create and update calls, will route to the ****acknowledgement screen.
 

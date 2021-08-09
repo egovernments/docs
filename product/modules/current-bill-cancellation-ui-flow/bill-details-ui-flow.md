@@ -4,7 +4,7 @@
 
 To provide users with the details of the Bills and options to cancel the bill.
 
-![](../../../.gitbook/assets/image%20%28222%29.png)
+![](../../../.gitbook/assets/image%20%28255%29.png)
 
 ## **Implementation Details**
 
@@ -22,7 +22,7 @@ On click on next step, it will go to cancel bill screen, there we need to select
 
 next step button file present in the below file path: [![](https://github.com/fluidicon.png)frontend/viewBillFooter.js at master · egovernments/frontend](https://github.com/egovernments/frontend/blob/master/web/rainmaker/dev-packages/egov-abg-dev/src/ui-config/screens/specs/bills/viewBillResource/viewBillFooter.js)
 
-![](../../../.gitbook/assets/image%20%28210%29.png)
+![](../../../.gitbook/assets/image%20%28239%29.png)
 
 ## **API Call Role Action Mapping**
 

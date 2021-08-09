@@ -18,17 +18,17 @@ For workflow actions, please refer to the file below.
 
 
 
-![](../../../../.gitbook/assets/image%20%28205%29.png)
+![](../../../../.gitbook/assets/image%20%28234%29.png)
 
 File Path:[ ![](https://github.com/fluidicon.png)digit-ui-internals/ApplicationDetails.js at main · egovernments/digit-ui-internals](https://github.com/egovernments/digit-ui-internals/blob/main/packages/modules/tl/src/pages/employee/ApplicationDetails.js)
 
 ## **Trade Details**
 
-![](../../../../.gitbook/assets/image%20%28127%29.png)
+![](../../../../.gitbook/assets/image%20%28130%29.png)
 
 Timeline View
 
-![](../../../../.gitbook/assets/image%20%28163%29.png)
+![](../../../../.gitbook/assets/image%20%28176%29.png)
 
 It is common for all modules, find the path here:[ ![](https://github.com/fluidicon.png)digit-ui-internals/ApplicationDetailsContent.js at main · egovernments/digit-ui-internals](https://github.com/egovernments/digit-ui-internals/blob/main/packages/modules/templates/ApplicationDetails/components/ApplicationDetailsContent.js)
 

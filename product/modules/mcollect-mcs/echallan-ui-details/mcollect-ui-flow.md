@@ -4,13 +4,13 @@ Provide employees with the option to search challans, download receipts, check i
 
 Once the user login with **UC\_EMP** Role, then the User will get the Mcollect module card with Total challan count.
 
-![](../../../../.gitbook/assets/image%20%28188%29.png)
+![](../../../../.gitbook/assets/image%20%28209%29.png)
 
 The clicking of Search challan navigates to the Inbox/search challan screen.
 
 Route - [mSeva](https://qa.digit.org/digit-ui/employee/mcollect/inbox)
 
-![](../../../../.gitbook/assets/image%20%28155%29.png)
+![](../../../../.gitbook/assets/image%20%28164%29.png)
 
 Inbox File details,
 

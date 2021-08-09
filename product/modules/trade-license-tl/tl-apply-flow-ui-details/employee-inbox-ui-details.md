@@ -6,7 +6,7 @@ Inbox page is constituted out of 4 react components:-
 
 ApplicationLinks is a separate component that hold links to other pages of possible navigation from inbox. This component is common in both Mobile and Desktop view. Links are conditionally rendered according to the user roles
 
-![](../../../../.gitbook/assets/image%20%28124%29.png)
+![](../../../../.gitbook/assets/image%20%28127%29.png)
 
 ## SearchApplication
 
@@ -14,7 +14,7 @@ Search Application component is a form based component, that controls the Table 
 
 Validation of these fields are achieved by using controlled component rules
 
-![](../../../../.gitbook/assets/image%20%28214%29.png)
+![](../../../../.gitbook/assets/image%20%28244%29.png)
 
 Any number of search fields can be added but by convention, only mobile numbers and appilication numbers are provided
 
@@ -28,13 +28,13 @@ It contains 3 sections
 2. Locality - Filter result according to the selected locality by sending locality code in moduleSearch params in inbox api
 3. Status - Status filters are achieved by sending id received from inbox api response and mapping the name of businessService, status name and count
 
-![](../../../../.gitbook/assets/image%20%28116%29.png)
+![](../../../../.gitbook/assets/image%20%28118%29.png)
 
 ## Table
 
 Table is a react component which uses React-Table plugin, used in multiple modules
 
-![](../../../../.gitbook/assets/image%20%28114%29.png)
+![](../../../../.gitbook/assets/image%20%28116%29.png)
 
 However in Mobile view are using cards to list all the applications without pagination support
 

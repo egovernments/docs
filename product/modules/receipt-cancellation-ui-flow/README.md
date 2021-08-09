@@ -8,13 +8,13 @@ Provide Employee to search Receipt specific to a module, download receipt, check
   
 Once the user login with **CR\_PT** Role, then the User will get the Receipts module card with Total receipts count.
 
-![](../../../.gitbook/assets/image%20%28128%29.png)
+![](../../../.gitbook/assets/image%20%28131%29.png)
 
 Clicking of Search receipts it navigates to the Inbox/search receipt screen.  
   
 Route -[ ![](https://cdn.jsdelivr.net/npm/@egovernments/digit-ui-css/img/browser-icon.png)mSeva](https://qa.digit.org/digit-ui/employee/receipts/inbox)
 
-![](../../../.gitbook/assets/image%20%28172%29.png)
+![](../../../.gitbook/assets/image%20%28185%29.png)
 
 Inbox File details  
 [https://github.com/egovernments/digit-ui-internals/blob/main/packages/modules/receipts/src/pages/ReceiptInbox.js](https://github.com/egovernments/digit-ui-internals/blob/main/packages/modules/receipts/src/pages/ReceiptInbox.js)
