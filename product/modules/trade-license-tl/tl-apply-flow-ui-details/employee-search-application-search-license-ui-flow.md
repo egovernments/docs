@@ -8,13 +8,13 @@ Search Application has 2 components.
 
 Search field component is a form which takes inputs and pass it into tl-search api params. It utilizes SearchForm and SearchField component to create and arrange the form.
 
-![](../../../../.gitbook/assets/image%20%28174%29.png)
+![](../../../../.gitbook/assets/image%20%28212%29.png)
 
 ## Result Table
 
 Result Table uses Table react component and the result from api is adapted to the table config using a custom hook inside common parent wrapper and passing the response to individual components
 
-![](../../../../.gitbook/assets/image%20%28148%29.png)
+![](../../../../.gitbook/assets/image%20%28171%29.png)
 
 Search License has fixed param where the status of the application is _“APPROVED”_, other than differences in table config
 

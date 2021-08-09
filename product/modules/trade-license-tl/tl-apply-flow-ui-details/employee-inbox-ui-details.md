@@ -6,7 +6,7 @@ Inbox page is constituted out of 4 react components:-
 
 ApplicationLinks is a separate component that hold links to other pages of possible navigation from inbox. This component is common in both Mobile and Desktop view. Links are conditionally rendered according to the user roles
 
-![](../../../../.gitbook/assets/image%20%28121%29.png)
+![](../../../../.gitbook/assets/image%20%28124%29.png)
 
 ## SearchApplication
 
@@ -14,7 +14,7 @@ Search Application component is a form based component, that controls the Table 
 
 Validation of these fields are achieved by using controlled component rules
 
-![](../../../../.gitbook/assets/image%20%28176%29.png)
+![](../../../../.gitbook/assets/image%20%28214%29.png)
 
 Any number of search fields can be added but by convention, only mobile numbers and appilication numbers are provided
 
