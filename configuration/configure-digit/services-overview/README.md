@@ -6,6 +6,6 @@ Click on the respective service link below to find its configuration details and
 
 * [Core Services](core-services/)
 * [Business Services](business-services/)
-* [Municipal Services](municipal-services.md)
+* [Municipal Services](municipal-services/)
 * [Utilities](utilities.md)
 

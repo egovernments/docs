@@ -76,6 +76,7 @@ The eChallan service is used to generate **e-challans / bill** for all miscellan
 |  _echallan-services/eChallan/v1/\_create_ | [https://www.getpostman.com/collections/349413e52bf743d50b0a](https://www.getpostman.com/collections/349413e52bf743d50b0a) |
 | _echallan-services/eChallan/v1/\_update_ | [https://www.getpostman.com/collections/349413e52bf743d50b0a](https://www.getpostman.com/collections/349413e52bf743d50b0a) |
 | _echallan-services/eChallan/v1/\_search_ | [https://www.getpostman.com/collections/349413e52bf743d50b0a](https://www.getpostman.com/collections/349413e52bf743d50b0a) |
+|  _echallan-services/eChallan/v1/\_count_ | [https://www.getpostman.com/collections/773565d7b5866f0851e3](https://www.getpostman.com/collections/773565d7b5866f0851e3) |
 
 _\(Note: All the API’s are in the same postman collection therefore the same link is added in each row\)_
 
