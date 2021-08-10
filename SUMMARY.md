@@ -8,10 +8,14 @@
   * [MDMS Configuration & Service Build Updates](digit-release-notes/mdms-configuration-and-service-build-updates.md)
   * [Test Cases](digit-release-notes/test-cases.md)
   * [WhatsApp Channel Release Notes](digit-release-notes/whatsapp-release-notes.md)
-  * [eChallan Release Notes](digit-release-notes/echallan-release-notes.md)
-  * [Property Tax Release Notes](digit-release-notes/property-tax-release-notes.md)
-  * [QA Automation Release Notes](digit-release-notes/qa-automation-release-notes.md)
-  * [Fire NOC Release Notes](digit-release-notes/fire-noc-release-notes.md)
+  * [Trade License Release Notes](digit-release-notes/trade-license-release-notes.md)
+  * [FSM Release Notes](digit-release-notes/fsm-release-notes.md)
+  * [eDCR Release Notes](digit-release-notes/edcr-release-notes.md)
+  * [Workflow Auto Escalation Release Notes](digit-release-notes/workflow-auto-escalation-release-notes.md)
+  * [QA Automation Release Notes](digit-release-notes/qa-automation-release-notes-1.md)
+  * [HRMS UI/UX Revamp Release Notes](digit-release-notes/hrms-ui-ux-revamp-release-notes.md)
+  * [Bill Amendment Release Notes](digit-release-notes/bill-amendment-release-notes.md)
+  * [W&S Release Notes](digit-release-notes/w-and-s-release-notes.md)
 
 ## Product Docs <a id="product"></a>
 
@@ -222,6 +226,7 @@
     * [eChallan Calculator Services](product/modules/e-challan-service/echallan-calculator-services.md)
   * [HRMS](product/modules/hrms/README.md)
     * [HRMS Employee Create-Edit UI Flow](product/modules/hrms/hrms-employee-create-edit-ui-flow.md)
+    * [Employee Details UI Flow](product/modules/hrms/employee-details-ui-flow.md)
     * [Employee Activation-Deactivation UI Flow](product/modules/hrms/employee-activation-deactivation-ui-flow.md)
     * [Search Employee By Multiple Criteria UI Flow](product/modules/hrms/search-employee-by-multiple-criteria-ui-flow.md)
     * [Employees Count UI Flow](product/modules/hrms/employees-count-ui-flow.md)

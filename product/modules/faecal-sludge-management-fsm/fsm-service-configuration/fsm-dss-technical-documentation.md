@@ -1443,7 +1443,7 @@ This Graph contains the collection amount information in the monthly base as a c
 
 **line** - this graph/chart is data representation on date histograms or date groupings.![](blob:https://digit-discuss.atlassian.net/a94232b7-556f-44ac-8ab9-a81ba1207dd5#media-blob-url=true&id=1ea67496-c39f-4bb0-a93f-8ff914975afe&collection=contentId-1821016076&contextId=1821016076&mimeType=image%2Fpng&name=image-20210730-105012.png&size=39544&width=932&height=450)
 
-![](../../../../.gitbook/assets/image%20%28289%29.png)
+![](../../../../.gitbook/assets/image%20%28292%29.png)
 
 ## **Top ULB By Performance**
 
@@ -1451,7 +1451,7 @@ This graph represents the ULB’s based on the sla achieved in bar chart represe
   
 **drillChart :** If there is a drill down on the visualization, then the code of the Drill Down Visualization is added here. This will be used by Client Service to manage drill downs. 
 
-![](../../../../.gitbook/assets/image%20%28301%29.png)
+![](../../../../.gitbook/assets/image%20%28304%29.png)
 
 This chart consists of drill down so we gave the drill down chart key as reference in this chart as in the above picture.
 
@@ -1461,23 +1461,23 @@ Here is the drill down chart config params.
 
 table type allows aggregated fields added as available in the query keys, hence to extract the values based on the key, **aggegationPaths** needs to add along with their data type as in **pathDataTypeMapping**. 
 
-![](../../../../.gitbook/assets/image%20%28292%29.png)
+![](../../../../.gitbook/assets/image%20%28295%29.png)
 
 ### **Bottom ULB by Performance** <a id="Bottom-ULB-by-Performance:"></a>
 
 This graph represents the ULB’s based on the sla achieved in bar chart representation with the % of sla achieved in descending order. Also this chart contains the drill down to give the complete information regarding each ULB.![](blob:https://digit-discuss.atlassian.net/dd364c4c-2d03-4f43-aedf-cf4f29996ae9#media-blob-url=true&id=8e1ca71b-593e-4a91-8553-fd2dcb125bc3&collection=contentId-1821016076&contextId=1821016076&mimeType=image%2Fpng&name=image-20210730-105307.png&size=22133&width=472&height=454)
 
-![](../../../../.gitbook/assets/image%20%28284%29.png)
+![](../../../../.gitbook/assets/image%20%28286%29.png)
 
 On click of show more You will navigate to tabular chart of bottom ULB by performance.
 
-![](../../../../.gitbook/assets/image%20%28287%29.png)
+![](../../../../.gitbook/assets/image%20%28289%29.png)
 
 ### **FSM Collection by Usage Type** <a id="FSM-Collection-by-Usage-Type:"></a>
 
 This graph shows the collection amount based on the usage/property type and this amount will change as per the denomination filter change and this also shows the % of the top 4 properties, remaining properties will go under others category.
 
-![](../../../../.gitbook/assets/image%20%28291%29.png)
+![](../../../../.gitbook/assets/image%20%28294%29.png)
 
 ### **FSTP - Capacity Utilization** <a id="FSTP---Capacity-Utilization"></a>
 
@@ -1485,7 +1485,7 @@ This graph is in the line chart representation and shows the data in cumulative 
 
  ![](blob:https://digit-discuss.atlassian.net/04cde148-bed4-4019-be7b-24dad4370a9e#media-blob-url=true&id=5f0dcd41-c868-4248-96d8-2cb818bb771e&collection=contentId-1821016076&contextId=1821016076&mimeType=image%2Fpng&name=image-20210730-110151.png&size=32932&width=690&height=423)
 
-![](../../../../.gitbook/assets/image%20%28294%29.png)
+![](../../../../.gitbook/assets/image%20%28297%29.png)
 
 ### **Monthly Septage Collected** <a id="Monthly-Septage-Collected"></a>
 
@@ -1499,11 +1499,11 @@ This graph shows the data in horizontal bar representation and bars contain data
 This graph represents the DSO’s based on the no of dso requests and based on sla achievement in bar chart representation in ascending order. Also, this chart contains the drill down to give the complete information regarding each DSO.  
 ![](blob:https://digit-discuss.atlassian.net/95ba92f9-c85a-4a87-966e-296e2012d863#media-blob-url=true&id=b9e5c08c-2f3c-4471-9498-598106f1e728&collection=contentId-1821016076&contextId=1821016076&mimeType=image%2Fpng&name=image-20210730-111554.png&size=24951&width=702&height=431)
 
-![](../../../../.gitbook/assets/image%20%28298%29.png)
+![](../../../../.gitbook/assets/image%20%28301%29.png)
 
 On click of show more we can see the details of the available DSO’s under the selected ULB.![](blob:https://digit-discuss.atlassian.net/830242f7-689b-48ae-b39a-bb9c45196ef1#media-blob-url=true&id=107112c5-9b71-46cb-8c36-20b97f05f209&collection=contentId-1821016076&contextId=1821016076&mimeType=image%2Fpng&name=image-20210730-111852.png&size=52942&width=1424&height=570)
 
-![](../../../../.gitbook/assets/image%20%28285%29.png)
+![](../../../../.gitbook/assets/image%20%28287%29.png)
 
 ### **Bottom DSO By Performance** <a id="Bottom-DSO-By-Performance"></a>
 
@@ -1511,11 +1511,11 @@ This graph represents the DSO’s based on the no of dso requests and based on s
 
 This is the bottom DSO drill down chart which represents the table chart type.
 
-![](../../../../.gitbook/assets/image%20%28293%29.png)
+![](../../../../.gitbook/assets/image%20%28296%29.png)
 
 On click of show more we can see the details of the available DSO’s under the selected ULB.
 
-![](../../../../.gitbook/assets/image%20%28280%29.png)
+![](../../../../.gitbook/assets/image%20%28282%29.png)
 
 ### **Desludging Request Report** <a id="Desludging-Request-Report"></a>
 
@@ -1531,25 +1531,25 @@ To add multiple computed columns,  **computedFields** \[\]  where actionName \(I
 
 On click of any district name will enter into drill down charts, which will represents that specific District data.
 
-![](../../../../.gitbook/assets/image%20%28286%29.png)
+![](../../../../.gitbook/assets/image%20%28288%29.png)
 
 On click of the ULB will navigate to wards under that specific ULB and each ward shows the specific data regarding that ward.
 
-![](../../../../.gitbook/assets/image%20%28288%29.png)
+![](../../../../.gitbook/assets/image%20%28290%29.png)
 
 ### **Vehicle Log Report** <a id="Vehicle-Log-Report"></a>
 
 This table shows data data of vehicle trips which have no of trips, Total septage collected, total septage dumped and capacity utilization in %. This graph also contains the drills downs from district to ULB and from ULB to vehicle level, which shows the vehicle no.
 
-![](../../../../.gitbook/assets/image%20%28300%29.png)
+![](../../../../.gitbook/assets/image%20%28303%29.png)
 
 On click of any district name will enter into drill down charts, which will represents that specific District data.
 
-![](../../../../.gitbook/assets/image%20%28279%29.png)
+![](../../../../.gitbook/assets/image%20%28281%29.png)
 
 On click of any boundary/ ULB we will navigate to specific vehicle details which will be as below.
 
-![](../../../../.gitbook/assets/image%20%28277%29.png)
+![](../../../../.gitbook/assets/image%20%28278%29.png)
 
 #### **Newly Introduced Property** <a id="Newly-introduced-property:"></a>
 

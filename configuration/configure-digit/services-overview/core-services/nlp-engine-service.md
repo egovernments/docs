@@ -28,15 +28,15 @@ Before you proceed with the documentation, make sure the following pre-requisite
 
 ## Interaction Diagram
 
+![](../../../../.gitbook/assets/image%20%28302%29.png)
+
+![](../../../../.gitbook/assets/image%20%28284%29.png)
+
+![](../../../../.gitbook/assets/image%20%28298%29.png)
+
+![](../../../../.gitbook/assets/image%20%28293%29.png)
+
 ![](../../../../.gitbook/assets/image%20%28299%29.png)
-
-![](../../../../.gitbook/assets/image%20%28282%29.png)
-
-![](../../../../.gitbook/assets/image%20%28295%29.png)
-
-![](../../../../.gitbook/assets/image%20%28290%29.png)
-
-![](../../../../.gitbook/assets/image%20%28296%29.png)
 
 ## Deployment Details
 

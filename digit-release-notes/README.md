@@ -312,6 +312,8 @@ DIGIT 2.5 is a release that has got new modules, a few functional changes, and n
 
 {% page-ref page="../product/modules/hrms/employee-activation-deactivation-ui-flow.md" %}
 
+{% page-ref page="../product/modules/hrms/employee-details-ui-flow.md" %}
+
 {% page-ref page="../product/modules/hrms/search-employee-by-multiple-criteria-ui-flow.md" %}
 
 {% page-ref page="../product/modules/hrms/employees-count-ui-flow.md" %}
@@ -380,9 +382,13 @@ DIGIT 2.5 is a release that has got new modules, a few functional changes, and n
 
 #### Backend Service Documents
 
+{% file src="../.gitbook/assets/egov-hrms \(1\).pdf" caption="eGov HRMS" %}
+
 {% page-ref page="../product/modules/e-challan-service/" %}
 
+{% page-ref page="../configuration/configure-digit/configuring-digit-services/configuring-workflows/workflow-auto-escalation.md" %}
 
+{% page-ref page="../configuration/configure-digit/services-overview/core-services/nlp-engine-service.md" %}
 
 {% page-ref page="../configuration/configure-digit/services-overview/core-services/xstate-core-chatbot/" %}
 
@@ -390,61 +396,55 @@ DIGIT 2.5 is a release that has got new modules, a few functional changes, and n
 
 {% page-ref page="../configuration/configure-digit/services-overview/core-services/xstate-core-chatbot/xstate-chatbot-message-localisation.md" %}
 
-{% page-ref page="../product/modules/e-challan-service/" %}
+#### 
 
-{% page-ref page="../product/modules/e-challan-service/echallan-calculator-services.md" %}
+#### 
+
+{% page-ref page="../configuration/configure-digit/services-overview/business-services/collection-service/collection-service-v2.md" %}
 
 {% page-ref page="../product/modules/faecal-sludge-management-fsm/fsm-service-configuration/fsm-services.md" %}
 
+{% page-ref page="../product/modules/faecal-sludge-management-fsm/fsm-service-configuration/fsm-vehicle-registry-v1.0.md" %}
+
+{% page-ref page="../product/modules/faecal-sludge-management-fsm/fsm-service-configuration/fsm-vendor-registry-v1.0.md" %}
+
+{% page-ref page="../product/modules/faecal-sludge-management-fsm/fsm-service-configuration/legacy-re-indexing-the-fsm-data.md" %}
+
+{% page-ref page="../configuration/configure-digit/services-overview/municipal-services/turn-io-adapter.md" %}
+
+{% page-ref page="../product/modules/property-tax/property-tax-service/fuzzy-search/" %}
+
+{% page-ref page="../product/modules/property-tax/property-tax-service/fuzzy-search/fuzzy-search-reindexing.md" %}
+
+{% page-ref page="../product/modules/faecal-sludge-management-fsm/fsm-service-configuration/fsm-dss-technical-documentation.md" %}
+
+{% page-ref page="../configuration/configure-digit/services-overview/municipal-services/inbox-service.md" %}
+
+{% page-ref page="../configuration/configure-digit/configuring-digit-services/digit-internal-datamart-deployment-steps.md" %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #### Tech Enablement Documents
-
-{% page-ref page="../configuration/configure-digit/services-overview/business-services/appropriation-service.md" %}
-
-{% page-ref page="../configuration/configure-digit/services-overview/business-services/billing-service/" %}
-
-{% page-ref page="../configuration/configure-digit/services-overview/business-services/billing-service/bill-amendment-service-configuration.md" %}
-
-{% page-ref page="../configuration/configure-digit/services-overview/business-services/collection-service/" %}
-
-{% page-ref page="../configuration/configure-digit/services-overview/business-services/billing-collection-integration.md" %}
-
-{% page-ref page="../configuration/configure-digit/services-overview/business-services/dashboard-analytics-backend.md" %}
-
-{% page-ref page="../configuration/configure-digit/services-overview/business-services/dss-technical-documentation.md" %}
-
-{% page-ref page="../configuration/configure-digit/services-overview/business-services/dss-dashboard-technical-document-for-ui.md" %}
-
-{% page-ref page="../configuration/configure-digit/services-overview/business-services/dss-features-enhancements.md" %}
-
-{% page-ref page="../configuration/configure-digit/services-overview/business-services/technical-script-steps-for-migration-process.md" %}
-
-{% page-ref page="../product/modules/property-tax/property-tax-service/" %}
-
-{% page-ref page="../product/modules/water-and-sewerage/water-services/" %}
-
-{% page-ref page="../product/modules/water-and-sewerage/water-services/water-calculator-service.md" %}
-
-{% page-ref page="../product/modules/water-and-sewerage/water-services/sewerage-service.md" %}
-
-{% page-ref page="../product/modules/water-and-sewerage/water-services/sewerage-calculator-service.md" %}
-
-{% page-ref page="../product/modules/fire-noc/fire-noc-service/" %}
-
-{% page-ref page="../product/modules/fire-noc/fire-noc-service/fire-noc-calculator-service.md" %}
-
-{% page-ref page="../product/modules/trade-license-tl/tl-service-configuration/" %}
-
-{% page-ref page="../product/modules/trade-license-tl/tl-service-configuration/trade-license-calculator.md" %}
-
-{% page-ref page="../configuration/configure-digit/qa-automation/automation-framework-knowledge-base.md" %}
-
-{% page-ref page="../configuration/configure-digit/qa-automation/jenkins-setup-for-automation.md" %}
-
-{% page-ref page="../configuration/configure-digit/qa-automation/automation-test-tags.md" %}
-
-{% page-ref page="../configuration/configure-digit/qa-automation/automation-test-reporting.md" %}
-
-{% page-ref page="../digit-support/security-guidelines-handbook.md" %}
 
 
 

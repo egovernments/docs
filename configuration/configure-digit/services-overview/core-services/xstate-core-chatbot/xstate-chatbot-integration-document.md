@@ -151,9 +151,9 @@ Add this [telemetry file](https://github.com/egovernments/configs/pull/629/files
 
  **Information Images for PGR and Open Search**
 
-![Location Share Image](../../../../../.gitbook/assets/image%20%28278%29.png)
+![Location Share Image](../../../../../.gitbook/assets/image%20%28280%29.png)
 
-![Open Search Image](../../../../../.gitbook/assets/image%20%28297%29.png)
+![Open Search Image](../../../../../.gitbook/assets/image%20%28300%29.png)
 
 ## Reference Docs
 
