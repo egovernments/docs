@@ -273,6 +273,20 @@ DIGIT 2.5 is a release that has got new modules, a few functional changes, and n
       <td style="text-align:left">Internal Data mart for PT, TL, PGR, W&amp;S, FSM, eChallan, OBPS, and
         Fire NOC modules.</td>
     </tr>
+    <tr>
+      <td style="text-align:left">8</td>
+      <td style="text-align:left">eDCR Enhancements</td>
+      <td style="text-align:left">
+        <p></p>
+        <ul>
+          <li>River Distance: Colour code used to identify different river types.</li>
+          <li>In the basement footprint layer, captured additional dimension to define
+            the level of the basement under the ground.</li>
+          <li>In the stilt parking layer, captured height from floor to the bottom of
+            a beam of the stilt floor.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 
