@@ -17,7 +17,7 @@ Follow these 4 simple steps to Access DIGIT
 4. Download the respective module demo scripts provided below. Refer to the specific use case applications in the script to experience individual platform functions.
 {% endhint %}
 
-##  Module Demo Scripts
+## Module Demo Scripts
 
 
 
