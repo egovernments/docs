@@ -6,7 +6,7 @@ description: The Digital Governance Platform
 
 ![](.gitbook/assets/digit-website_updated-03.png)
 
-DIGIT Urban Stack is a set of Open APIs, services, and reference implementations, setup as a public good, to allow government entities, businesses, startups, and civil society to use a unique digital Infrastructure and build solutions for urban India at a large scale. It provides a set of open standards, specifications and documentation to create a level playing field and enable ecosystem players to innovate on the stack. As a public good, the platform is provided without profit or restriction to all members of society.
+DIGIT Urban Stack is a set of Open APIs, services, and reference implementations, set up as a public good, to allow government entities, businesses, startups, and civil society to use a unique digital Infrastructure and build solutions for urban India at a large scale. It provides a set of open standards, specifications and documentation to create a level playing field and enable ecosystem players to innovate on the stack. As a public good, the platform is provided without profit or restriction to all members of society.
 
 ![](.gitbook/assets/image%20%2894%29.png)
 
@@ -27,6 +27,8 @@ DIGIT focuses on inclusion and is designed on the principle of enhancing both pl
 [Know more about our Ecosystem](https://egov.org.in/innovation-ecosystem/) or [Contact Us](https://egov.org.in/contact-us/) for more details.
 
  
+
+
 
 > [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)_​_](http://creativecommons.org/licenses/by/4.0/)_All content on this page by_ [_eGov Foundation_](https://egov.org.in/) _is licensed under a_ [_Creative Commons Attribution 4.0 International License_](http://creativecommons.org/licenses/by/4.0/)_._
 
