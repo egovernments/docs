@@ -23,6 +23,8 @@ Follow these 4 simple steps to Access DIGIT
 
 
 
+## Feedback
+
 {% hint style="info" %}
 For any further queries or feedback please write to us at [**partner@egov.org.in**](mailto:partner@egov.org.in)
 
