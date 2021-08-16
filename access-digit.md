@@ -26,6 +26,10 @@ Follow these 4 simple steps to Access DIGIT
 ## Feedback
 
 {% hint style="info" %}
+We want your feedback and suggestions on how to improve DIGIT, possible issues, new feature requests.... or just about anything! 
+
+Click here to enter your feedback.
+
 For any further queries or feedback please write to us at [**partner@egov.org.in**](mailto:partner@egov.org.in)
 
 [Click here](%20https://www.digit.org/request-a-demo/) to fill in and submit your request for a personalised walkthrough demo of the platform.
