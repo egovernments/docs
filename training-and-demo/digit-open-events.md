@@ -4,7 +4,7 @@ description: DIGIT 2.5 Release Highlights Webinar - 27 Aug 2021 (3 - 4 PM)
 
 # Open Events
 
-![](https://gblobscdn.gitbook.com/assets%2F-MERG_iQW5oN4ukgXP8K%2F-MbtwiUXGBGgmWstEBLG%2F-Mc2uIUyfSUBew2-Iw2r%2FDigit_banner-01%20%284%29%20%281%29.png?alt=media&token=98b9bd45-172d-4d6b-a22a-5692a1f730e0)
+![](../.gitbook/assets/digit_banner-02.png)
 
 We have organized an interactive webinar session to walk you through the new developments on the DIGIT platform. The session will also address any queries you may have in context to the release features and platform upgrades.
 

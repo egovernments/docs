@@ -11,21 +11,14 @@ Access DIGIT tool is an Open Demo Instance to provide you with a first-hand expe
 {% hint style="info" %}
 **You can access DIGIT as a Citizen or an Employee.**
 
-* [Click here](https://staging.digit.org/citizen/) to access DIGIT as a Citizen. Follow the steps below to register as a Citizen user. 
+* \*\*\*\*[**Click here**](https://staging.digit.org/citizen/) **to access DIGIT as a Citizen.** Follow the steps below to register as a Citizen user. 
 * Enter your registered mobile number and OTP to log in to the DIGIT platform.
 
-To register as a Citizen user -
+To register as a Citizen user enter your **Mobile Number**, **Name**, and select your **City** from the drop-down list. You are now registered as a Citizen user.
 
-* Select the preferred language and click on **Continue**.
-* Enter your **Mobile Number**, **Name**, and select your **City** from the drop-down list. 
-* Click on **Continue**.
-* Enter the **OTP** received on the registered mobile number. 
-* Click on the **Resend** button on the screen in case you have not received your OTP.
-* Click on the **Get Started** button. You are now registered as a Citizen user.
+[**Click here**](https://staging.digit.org/employee) **to access DIGIT as an Employee.** 
 
-[Click here](https://staging.digit.org/employee) to access DIGIT as an Employee. 
-
-* First time users - [click here](https://www.digit.org/access-digit/) to generate your employee role-based credentials.
+* **First time users -** [**click here**](https://www.digit.org/access-digit/) **to generate your role-based credentials.**
 * Use the credentials generated and sent to your registered email ID to log in as an employee.
 * Use the role-based credentials to explore the features and functions specific to the given role.
 {% endhint %}
