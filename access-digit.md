@@ -6,12 +6,10 @@ description: Explore DIGIT platform
 
 Access DIGIT tool is an Open Demo Instance to provide you with a first-hand experience of the DIGIT platform. Use this facility to navigate all the features & workflows of DIGIT Platform Applications.
 
-
+## Steps To Access DIGIT
 
 {% hint style="info" %}
-**How to Access DIGIT?**
-
-You can access DIGIT as a Citizen or an Employee.
+**You can access DIGIT as a Citizen or an Employee.**
 
 * [Click here](https://staging.digit.org/citizen/) to access DIGIT as a Citizen. Follow the steps below to register as a Citizen user. 
 * Enter your registered mobile number and OTP to log in to the DIGIT platform.
