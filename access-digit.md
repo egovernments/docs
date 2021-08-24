@@ -4,22 +4,37 @@ description: Explore DIGIT platform
 
 # Access DIGIT
 
-Access DIGIT facility provides you with a first-hand experience of the DIGIT platform. Explore the DIGIT Platform, modules, its features and various functionalities. Our Access DIGIT facility enables you to generate individual login credentials. Use these creds to traverse user journeys across multiple roles and process workflows defined for respective module functions. 
+Access DIGIT tool is an Open Demo Instance to provide you with a first-hand experience of the DIGIT platform. Use this facility to navigate all the features & workflows of DIGIT Platform Applications.
+
+
 
 {% hint style="info" %}
 **How to Access DIGIT?**
 
-Follow these 4 simple steps to Access DIGIT
+You can access DIGIT as a Citizen or an Employee.
 
-1. Fill in [this form](https://www.digit.org/access-digit/) to generate your login credentials. Once you click on Submit button, an email with login credentials and details is triggered to the given email ID.
-2. Click on the Demo Instance link below. 
-3. Enter the login credentials to register yourself as a user and log in to the platform.
-4. Download the respective module demo scripts provided below. Refer to the specific use case applications in the script to experience individual platform functions.
+* [Click here](https://staging.digit.org/citizen/) to access DIGIT as a Citizen. Follow the steps below to register as a Citizen user. 
+* Enter your registered mobile number and OTP to log in to the DIGIT platform.
+
+To register as a Citizen user -
+
+* Select the preferred language and click on **Continue**.
+* Enter your **Mobile Number**, **Name**, and select your **City** from the drop-down list. 
+* Click on **Continue**.
+* Enter the **OTP** received on the registered mobile number. 
+* Click on the **Resend** button on the screen in case you have not received your OTP.
+* Click on the **Get Started** button. You are now registered as a Citizen user.
+
+[Click here](https://staging.digit.org/employee) to access DIGIT as an Employee. 
+
+* First time users - [click here](https://www.digit.org/access-digit/) to generate your employee role-based credentials.
+* Use the credentials generated and sent to your registered email ID to log in as an employee.
+* Use the role-based credentials to explore the features and functions specific to the given role.
 {% endhint %}
 
-{% page-ref page="access-digit.md" %}
+## Demo Scripts
 
-## Module Demo Scripts
+We have added user assistance docs below to help you learn more about DIGIT modules and the use-case scenarios supported by each.
 
 {% file src=".gitbook/assets/obpas-demo-script.pdf" caption="Online Building Plan Approval System Demo Script" %}
 
@@ -28,9 +43,9 @@ Follow these 4 simple steps to Access DIGIT
 ## Feedback
 
 {% hint style="info" %}
-We want your feedback and suggestions on how to improve DIGIT, possible issues, new feature requests.... or just about anything! 
+We would love to get your feedback and suggestions on the Access DIGIT experience to help us build on this! 
 
-**Click here to** [**enter your feedback**](https://docs.google.com/forms/d/1ZWhxbAtZFeEo-njAorFqt7cu8dbKaZShb7F-fA66lEI/edit?ts=611b8c5b)**.**
+**Click here to** [**enter your feedback.**](https://forms.gle/x7mweZrQ8SzHdQJd8)\*\*\*\*
 
  For any further queries or feedback please write to us at [**partner@egov.org.in**](mailto:partner@egov.org.in)
 {% endhint %}

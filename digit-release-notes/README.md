@@ -410,10 +410,6 @@ DIGIT 2.5 is a release that has got new modules, a few functional changes, and n
 
 {% page-ref page="../configuration/configure-digit/services-overview/core-services/xstate-core-chatbot/xstate-chatbot-message-localisation.md" %}
 
-#### 
-
-#### 
-
 {% page-ref page="../configuration/configure-digit/services-overview/business-services/collection-service/collection-service-v2.md" %}
 
 {% page-ref page="../product/modules/faecal-sludge-management-fsm/fsm-service-configuration/fsm-services.md" %}
