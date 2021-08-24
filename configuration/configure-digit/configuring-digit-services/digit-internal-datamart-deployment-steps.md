@@ -180,11 +180,11 @@ Select that notebook \(Ex: sample.pynb\)
 
 ![](../../../.gitbook/assets/image%20%28285%29.png)
 
-After being opened
+After opening
 
 ![](../../../.gitbook/assets/image%20%28283%29.png)
 
-### _Table 1.1 - File Names for each Module_ <a id="Table-1.1---File-Names-for-each-Module"></a>
+### Table 1.1 - File Names for each Module <a id="Table-1.1---File-Names-for-each-Module"></a>
 
 | **Module Name** | **Script File Name \(With Links\)** | **Datamart CSV File Name** | **Datamart CSV File Name** |
 | :--- | :--- | :--- | :--- |
@@ -196,7 +196,7 @@ After being opened
 | **Fire Noc** | [fn.py](https://github.com/egovernments/utilities/blob/Rain-3035/datamart/firenoc/fn.py) | fnDatamart.csv |  |
 | **OBPS \(Bpa\)** | [bpa.py](https://github.com/egovernments/utilities/tree/Rain-3035/datamart/obps/bpa)   | bpaDatamart.csv   |  |
 
-### _Table 1.2 - Pod Names for each Module_ <a id="Table-1.2---Pod-Names-for-each-Module"></a>
+### Table 1.2 - Pod Names for each Module <a id="Table-1.2---Pod-Names-for-each-Module"></a>
 
 | **Module Name** | **Pod Name** | **Description** |
 | :--- | :--- | :--- |
@@ -211,4 +211,8 @@ After being opened
 
 
 
+
+
+
+> [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)_​_](http://creativecommons.org/licenses/by/4.0/)_All content on this page by_ [_eGov Foundation_](https://egov.org.in/) _is licensed under a_ [_Creative Commons Attribution 4.0 International License_](http://creativecommons.org/licenses/by/4.0/)_._
 
