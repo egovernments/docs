@@ -17,11 +17,13 @@ Follow these 4 simple steps to Access DIGIT
 4. Download the respective module demo scripts provided below. Refer to the specific use case applications in the script to experience individual platform functions.
 {% endhint %}
 
+{% page-ref page="access-digit.md" %}
+
 ## Module Demo Scripts
 
+{% file src=".gitbook/assets/obpas-demo-script.pdf" caption="Online Building Plan Approval System Demo Script" %}
 
-
-
+{% file src=".gitbook/assets/trade-license-demo-script.pdf" caption="Trade License Demo Script" %}
 
 ## Feedback
 
@@ -42,4 +44,6 @@ We want your feedback and suggestions on how to improve DIGIT, possible issues, 
 
 
 
+
+> [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)_​_](http://creativecommons.org/licenses/by/4.0/)_All content on this page by_ [_eGov Foundation_](https://egov.org.in/) _is licensed under a_ [_Creative Commons Attribution 4.0 International License_](http://creativecommons.org/licenses/by/4.0/)_._
 

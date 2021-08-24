@@ -1,14 +1,14 @@
 # Bill Amendment Release Notes
 
-### Overview <a id="Overview"></a>
+## Overview
 
-Changes in Bill Amendment application to ensure ease of process for user.
+Changes in Bill Amendment application to ensure ease of process for the user.
 
-### Release Highlights <a id="Release-Highlights"></a>
+## Release Highlights
 
 * Changes in Bill Amendment screen to display current Demand
 
-### Release Features <a id="Release-Features"></a>
+## Release Features
 
 <table>
   <thead>
@@ -25,7 +25,7 @@ Changes in Bill Amendment application to ensure ease of process for user.
       <td style="text-align:left">
         <p>The changes in the application screen are as below</p>
         <ul>
-          <li>Add new column in the amount adjustment screen - &quot;Current Demand&quot;
+          <li>Add a new column in the amount adjustment screen - &quot;Current Demand&quot;
             along with Reduced Amount and Additional Amount.</li>
           <li>The New column would display the current demand (Latest) against each
             of the Tax Heads.</li>
@@ -37,16 +37,24 @@ Changes in Bill Amendment application to ensure ease of process for user.
   </tbody>
 </table>
 
-### Known Issues <a id="Known-Issues"></a>
+## Known Issues
 
 * 
-### Upcoming Release Features <a id="Upcoming-Release-Features"></a>
+## Upcoming Release Features
 
 * 
-### Reference Doc Links <a id="Reference-Doc-Links"></a>
+## Reference Doc Links
 
 | **Doc Links** | **Description** |
 | :--- | :--- |
 |  |  |
 |  |  |
+
+
+
+
+
+
+
+> [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)_​_](http://creativecommons.org/licenses/by/4.0/)_All content on this page by_ [_eGov Foundation_](https://egov.org.in/) _is licensed under a_ [_Creative Commons Attribution 4.0 International License_](http://creativecommons.org/licenses/by/4.0/)_._
 

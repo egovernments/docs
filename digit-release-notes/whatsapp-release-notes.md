@@ -4,15 +4,16 @@ description: WhatsApp channel v2 release details
 
 # WhatsApp Channel Release Notes
 
-### Overview <a id="Overview"></a>
+## Overview
 
 This release leverages the capabilities of WhatsApp as an additional channel for citizens to access/ pay bills for revenue modules like property tax and water/sewerage. With the improved user experience in terms of messaging and overall application flow, WhatsApp \(V2\) aims to strengthen the ease of service access for citizens at the last mile.
 
-### Release Highlights <a id="Release-Highlights"></a>
+## Release Highlights
 
-* **Improvements in Public Grievance Redressal Module**
-  * Enhancements in messaging language.
-  * NLP Inclusion \(For City & Boundary Selection\).
+**Improvements in Public Grievance Redressal Module**
+
+* Enhancements in messaging language.
+* NLP Inclusion \(For City & Boundary Selection\).
 
 **Improvements in Bill Payments**
 
@@ -34,7 +35,7 @@ This release leverages the capabilities of WhatsApp as an additional channel for
 * For Non-Linked Mobile Numbers
   * Access control to view payments history only.
 
-### Release Features <a id="Release-Features"></a>
+## Release Features
 
 <table>
   <thead>
@@ -50,11 +51,11 @@ This release leverages the capabilities of WhatsApp as an additional channel for
       <td style="text-align:left">Call to action (CTA) Buttons</td>
       <td style="text-align:left">
         <p>Call to action buttons (CTA) is an interactive message template that aims
-          to provide improved conversational experience. For WhatsApp V2, certain
-          end points have call to action buttons included.</p>
+          to provide an improved conversational experience. For WhatsApp V2, certain
+          endpoints have called to action buttons included.</p>
         <p>Instead of citizens typing for a reply, CTA buttons allow citizens to
-          select the option and perform an action instantly. The CTAs are applicable
-          on the following scenarios :</p>
+          select the option and perform action instantly. The CTAs are applicable
+          to the following scenarios :</p>
         <ul>
           <li>Pay Bills.</li>
           <li>Return to Main Menu.</li>
@@ -65,16 +66,16 @@ This release leverages the capabilities of WhatsApp as an additional channel for
     <tr>
       <td style="text-align:left">
         <p>Provision For Search &amp; Pay Bills.</p>
-        <p>(Non Linked Mobile Numbers)</p>
+        <p>(Non-Linked Mobile Numbers)</p>
       </td>
       <td style="text-align:left">
         <p>As part of the WhatsApp V2, citizens :</p>
         <ol>
           <li>whose mobile numbers are not linked with DIGIT.</li>
-          <li>are aware about the account details (PT ID/ Connection No).</li>
+          <li>are aware of the account details (PT ID/ Connection No).</li>
         </ol>
         <p>can now search and pay the outstanding bills.</p>
-        <p>This feature encourages citizens to have access of outstanding bills on
+        <p>This feature encourages citizens to have access to outstanding bills on
           DIGIT even if the mobile number is not registered on the platform.</p>
       </td>
     </tr>
@@ -84,11 +85,11 @@ This release leverages the capabilities of WhatsApp as an additional channel for
         <p>As part of the WhatsApp V2, citizens :</p>
         <ol>
           <li>whose mobile numbers are not linked with DIGIT</li>
-          <li>not aware about the account details (PT ID/ Connection No)</li>
+          <li>not aware of the account details (PT ID/ Connection No)</li>
         </ol>
         <p>can now use the open search and pay the outstanding bills.</p>
         <p>The open search allows citizens to fetch outstanding bills using other
-          parameters (like door no/ name etc). In this case the citizens will be
+          parameters (like door no/ name etc). In this case, the citizens will be
           redirected to the open search webpage and all the further interactions
           are exclusive of WhatsApp Chatbot.</p>
         <p>This feature encourages citizens to have an access gateway to pay outstanding
@@ -99,8 +100,8 @@ This release leverages the capabilities of WhatsApp as an additional channel for
       <td style="text-align:left">View Payment History</td>
       <td style="text-align:left">
         <p>View Payment History feature allows citizens to view the last three payments
-          made for a revenue service.</p>
-        <p>Further, inorder to comply with data privacy :</p>
+          made for revenue service.</p>
+        <p>Further, in order to comply with data privacy :</p>
         <ul>
           <li>Only linked mobile numbers are allowed to download the past payment receipts.</li>
           <li>Non-Linked Mobile numbers cannot access the receipts and only have provision
@@ -119,7 +120,7 @@ This release leverages the capabilities of WhatsApp as an additional channel for
         <p>while filing a complaint on PGR.</p>
         <p>This feature is a major enhancement to the older version as now citizens
           don&apos;t have to be redirected outside the chatbot to select details.</p>
-        <p>Instead citizens can now type and submit the information. Even when the
+        <p>Instead, citizens can now type and submit the information. Even when the
           information entered is incorrect, the NLP engine provides a suggestion
           for citizens to make corrections and proceed.</p>
       </td>
@@ -127,7 +128,7 @@ This release leverages the capabilities of WhatsApp as an additional channel for
   </tbody>
 </table>
 
-### Limitations <a id="Limitations"></a>
+## Limitations
 
 As an **external independent** environment, WhatsApp has the following limitations \(applicable for current and future initiatives\) : 
 
@@ -179,7 +180,7 @@ As an **external independent** environment, WhatsApp has the following limitatio
   </tbody>
 </table>
 
-### Upcoming Release Features <a id="Upcoming-Release-Features"></a>
+## Upcoming Release Features
 
 * Water & Sewerage Open Search Infographic \(For New UI\).
 * Integrate common pay new UI.

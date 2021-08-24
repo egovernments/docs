@@ -1,10 +1,10 @@
 # HRMS UI/UX Revamp Release Notes
 
-### Overview <a id="Overview"></a>
+## Overview
 
 This release aims at the UI/UX Revamp of the existing HRMS module primarily, with certain minor enhancements incorporated functionally.
 
-### Release Highlights <a id="Release-Highlights"></a>
+## Release Highlights
 
 1. Employee summary card \(post-login\).
 2. UI Enhancements for
@@ -14,11 +14,7 @@ This release aims at the UI/UX Revamp of the existing HRMS module primarily, wit
    * Inclusion of various filters
    * View of roles assigned in terms of count \(post search\)
 
-### Release Features <a id="Release-Features"></a>
-
-| **Key Feature** | **Description** |
-| :--- | :--- |
-
+## Release Features
 
 <table>
   <thead>
@@ -37,8 +33,8 @@ This release aims at the UI/UX Revamp of the existing HRMS module primarily, wit
       </td>
       <td style="text-align:left">
         <p>Once, State/ ULB Administrator has logged in to the master portal, they
-          will land on the homepage consisting of HRMS card.</p>
-        <p>This card provides an overall summary on :</p>
+          will land on the homepage consisting of the HRMS card.</p>
+        <p>This card provides an overall summary on:</p>
         <ul>
           <li>The Total Employees Created (Total Employees in the Database).</li>
           <li>The Total Employees that are active (at this time).</li>
@@ -59,7 +55,7 @@ This release aims at the UI/UX Revamp of the existing HRMS module primarily, wit
           <li>By ULB
             <br />(Useful when an employee is operating jurisdictions)</li>
           <li>By Designation</li>
-          <li>By Role (<b>This filter is Multi Select)</b>
+          <li>By Role (<b>This filter is Multi-Select)</b>
           </li>
           <li>By Employment Status (Active/ Inactive).</li>
         </ul>
@@ -70,21 +66,27 @@ This release aims at the UI/UX Revamp of the existing HRMS module primarily, wit
           <li>No of Roles (Describes the no of roles assigned).</li>
           <li>Designation</li>
           <li>Department</li>
-          <li>Employement Status</li>
+          <li>Employment Status</li>
         </ul>
       </td>
     </tr>
   </tbody>
 </table>
 
-### Known Issues <a id="Known-Issues"></a>
+## Known Issues
 
 * The case sensitive search
 
-### Upcoming Features <a id="Upcoming-Features"></a>
+## Upcoming Features
 
 * Reports UI Revamp.
 * Onground implication for multiple assignment dates and propose the product changes.
 * Enhance the text for Exception Handling.
 * Inclusion of Privacy Bit.
+
+
+
+
+
+> [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)_​_](http://creativecommons.org/licenses/by/4.0/)_All content on this page by_ [_eGov Foundation_](https://egov.org.in/) _is licensed under a_ [_Creative Commons Attribution 4.0 International License_](http://creativecommons.org/licenses/by/4.0/)_._
 
