@@ -42,7 +42,7 @@ We would love to get your feedback and suggestions on the Access DIGIT experienc
 {% endhint %}
 
 {% hint style="info" %}
-**To request a demo -** [Click here](%20https://www.digit.org/request-a-demo/) to fill in and submit your request for a personalised walkthrough demo of the platform.
+[Click here](%20https://www.digit.org/request-a-demo/) to fill in and submit your request for a personalised walkthrough demo of the platform.
 {% endhint %}
 
 
