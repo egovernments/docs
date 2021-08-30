@@ -11,7 +11,8 @@ Access DIGIT tool is an Open Demo Instance to provide you with a first-hand expe
 {% hint style="info" %}
 **You can access DIGIT as a Citizen or an Employee.**
 
-* \*\*\*\*[**Click here**](https://staging.digit.org/citizen/) **to access DIGIT as a Citizen.** Follow the steps below to register as a Citizen user. 
+\*\*\*\*[**Click here**](https://staging.digit.org/citizen/) **to access DIGIT as a Citizen.** Follow the steps below to register as a Citizen user. 
+
 * Enter your registered mobile number and OTP to log in to the DIGIT platform.
 
 To register as a Citizen user enter your **Mobile Number**, **Name**, and select your **City** from the drop-down list. You are now registered as a Citizen user.
