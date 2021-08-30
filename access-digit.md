@@ -15,13 +15,15 @@ Access DIGIT tool is an Open Demo Instance to provide you with a first-hand expe
 
 * Enter your registered mobile number and OTP to log in to the DIGIT platform.
 
-To register as a Citizen user enter your **Mobile Number**, **Name**, and select your **City** from the drop-down list. You are now registered as a Citizen user.
+To register as a Citizen user enter your **Mobile Number**, **Name**, and select the city as **City B** from the drop-down list. You are now registered as a Citizen user.
 
 [**Click here**](https://staging.digit.org/employee) **to access DIGIT as an Employee.** 
 
 * **First time users -** [**click here**](https://www.digit.org/access-digit/) **to generate your role-based credentials.**
-* Use the credentials generated and sent to your registered email ID to log in as an employee.
-* Use the role-based credentials to explore the features and functions specific to the given role.
+* Use the credentials generated and sent to your registered email ID to log in as an employee. 
+* Select the City as **City B**.
+
+Use the role-based credentials to explore the features and functions specific to the given role.
 {% endhint %}
 
 ## Demo Scripts
@@ -37,9 +39,9 @@ We have added user assistance docs below to help you learn more about DIGIT modu
 {% hint style="info" %}
 We would love to get your feedback and suggestions on the Access DIGIT experience to help us build on this! 
 
-**Click here to** [**enter your feedback.**](https://forms.gle/x7mweZrQ8SzHdQJd8)\*\*\*\*
+**Click here to** [**enter your feedback.**](https://forms.gle/x7mweZrQ8SzHdQJd8)
 
- For any further queries or feedback please write to us at [**partner@egov.org.in**](mailto:partner@egov.org.in)
+For any further queries or feedback please write to us at [**partner@egov.org.in**](mailto:partner@egov.org.in)
 {% endhint %}
 
 {% hint style="info" %}
