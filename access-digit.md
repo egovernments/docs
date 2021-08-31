@@ -21,7 +21,7 @@ To register as a Citizen user enter your **Mobile Number**, **Name**, and select
 
 * **First time users -** [**click here**](https://www.digit.org/access-digit/) **to generate your role-based credentials.**
 * Use the credentials generated and sent to your registered email ID to log in as an employee. 
-* Select the City as **City B**.
+* Select City as **City B**.
 
 Use the role-based credentials to explore the features and functions specific to the given role.
 {% endhint %}
