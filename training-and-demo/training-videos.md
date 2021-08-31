@@ -11,8 +11,7 @@ DIGIT video tutorials provide a step-by-step guide to using the DIGIT modules. R
 * [DIGIT 2.1 Release Webinar](https://youtu.be/ptG2IqHk4jw)
 * [DIGIT 2.2 Release Webinar](https://youtu.be/jb6oHctAMkE)
 * [DIGIT 2.3 & 2.4 Release Webinar](https://youtu.be/8f7cp30He4U)
-
-
+* [DIGIT 2.5 Release Webinar](https://youtu.be/bxOyscs-uPE)
 
 ### Module Data Templates Configuration Videos
 
@@ -365,6 +364,16 @@ DIGIT video tutorials provide a step-by-step guide to using the DIGIT modules. R
         <p></p>
         <ul>
           <li><a href="https://youtu.be/uAPdghG-dH4">PGR Whatsapp Bill Payment</a>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">FSM Demo</td>
+      <td style="text-align:left">
+        <p></p>
+        <ul>
+          <li><a href="https://youtu.be/wWqvGVjYOtM">FSM Workflow Demo</a>
           </li>
         </ul>
       </td>
