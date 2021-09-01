@@ -40,7 +40,7 @@ We have added user assistance docs below to help you learn more about DIGIT modu
 {% hint style="info" %}
 We would love to get your feedback and suggestions on the Access DIGIT experience to help us build on this! 
 
-**Click here to** [**enter your feedback.**](https://forms.gle/x7mweZrQ8SzHdQJd8)
+\*\*\*\*[**Click here**](https://docs.google.com/forms/d/e/1FAIpQLSeNxbjGmCeS6Q-_2703SV8D4s-1kYyvZrHJMa_WLpk41KmScg/viewform) **to enter your feedback.**
 
 For any further queries or feedback please write to us at [**partner@egov.org.in**](mailto:partner@egov.org.in)
 {% endhint %}
