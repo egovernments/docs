@@ -1,3 +1,7 @@
+---
+description: Learning media resources and links
+---
+
 # Training Videos
 
 {% hint style="warning" %}

@@ -14,14 +14,15 @@ Access DIGIT tool is an Open Demo Instance to provide you with a first-hand expe
 \*\*\*\*[**Click here**](https://staging.digit.org/citizen/) **to access DIGIT as a Citizen.** Follow the steps below to register as a Citizen user. 
 
 * Enter your registered mobile number and OTP to log in to the DIGIT platform.
+* Select **City** as **City B** from the drop-down list. 
 
-To register as a Citizen user enter your **Mobile Number**, **Name**, and select the city as **City B** from the drop-down list. You are now registered as a Citizen user.
+You are now registered as a Citizen user.
 
 [**Click here**](https://staging.digit.org/employee) **to access DIGIT as an Employee.** 
 
 * **First time users -** [**click here**](https://www.digit.org/access-digit/) **to generate your role-based credentials.**
 * Use the credentials generated and sent to your registered email ID to log in as an employee. 
-* Select City as **City B**.
+* Select **City** as **City B**.
 
 Use the role-based credentials to explore the features and functions specific to the given role.
 {% endhint %}
