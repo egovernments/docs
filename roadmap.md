@@ -16,61 +16,6 @@ Commitment and transparency are deeply ingrained values defining our product dev
 | **Enhance Platform Capabilities**  | Adopt improvements on the platforms that will address some key issues like privacy, security as well as adding new capabilities like GIS |
 | **Drive Product Research and Innovation** | Identify high-impact research and product innovation areas through validation, understanding the domain, and processes involved |
 
-## Quarter 1 - April to June 2021
-
-| Release Date: 01/06/2021 | Beta date: | GA date: |
-| :--- | :--- | :--- |
-
-
-{% hint style="warning" %}
-**Property Tax -**
-
-* Open dashboards for citizens - Public dashboards with tax defaulter's info, documents required to avail services, open payments and more 
-* Standardized reports - Out of box report and dashboard for the product as a partner enablement initiative
-* Receipt cancellation - Upgrade the UI and UX for the remaining use cases to provide uniform UX to the citizens and employees across all products.
-* Arrear breakup 
-* UX revamp - interface changes designed to enhance usability and performance 
-* Pending dues 
-* Historical or past data about the property
-{% endhint %}
-
-{% hint style="warning" %}
-**Online Building Plan Approval System \(OBPAS\) -**
-
-* eDCR productization to enable conversion from dxf to pdf - redrawing the required diagrams from the composite input Plan with endpoints referred for taking a measurement and displaying the actual measured value in a different color
-{% endhint %}
-
-{% hint style="warning" %}
-**Public Grievances & Redressal \(PGR\) -**
-
-* Reap benefit integration 
-{% endhint %}
-
-{% hint style="warning" %}
-**mCollect -**
-
-* Standardized reports - Out of box report and dashboard for the product
-{% endhint %}
-
-{% hint style="warning" %}
-**Finance -**
-
-* Receipt Changes. Multi-bank, SL wise recording - Allow multiple bank mapping to a business service
-{% endhint %}
-
-{% hint style="warning" %}
-**Adoption & Enhancements**
-
-* Auto escalation on breach of SLA
-* Standardization \(ontologies/localization/workflow\)
-* PII audit across all products
-* Identify gaps in privacy across roles and use cases
-* Kibana dashboards for products
-* Intuitive UI elements for added ease and convenience
-{% endhint %}
-
-
-
 ## Quarter 2 - July to September 2021
 
 | Release Date: 01/09/2021 | Beta date: | GA date: |

@@ -432,8 +432,6 @@ DIGIT 2.5 is a release that has got new modules, a few functional changes, and n
 
 {% page-ref page="../configuration/configure-digit/configuring-digit-services/digit-internal-datamart-deployment-steps.md" %}
 
-#### Tech Enablement Documents
-
 
 
 
