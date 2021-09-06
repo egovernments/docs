@@ -76,10 +76,10 @@ Possible use case scenarios for the demo -
 * Counter employee submits an application for Trade License on behalf of citizen
 * Counter employee accepts Trade License fee payment
 * Employee reviews the application and forwards it for document verification
-* Employee reviews the documents and forwards it for field inspection
+* Employee reviews the documents and forwards them for field inspection
 * Employee approves the trade license application
 
-
+Refer to the [TL User Manual](tl-user-manual/) for step-by-step instructions for each of these demo scenarios.
 
 
 
