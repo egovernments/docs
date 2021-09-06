@@ -154,6 +154,7 @@
       * [eDCR Integration](product/modules/online-building-plan-approval-system-obpas/obpas-service-configuration/edcr-integration.md)
       * [Noc Services](product/modules/online-building-plan-approval-system-obpas/obpas-service-configuration/noc-services.md)
       * [Land Services](product/modules/online-building-plan-approval-system-obpas/obpas-service-configuration/land-services.md)
+    * [OBPAS Demo Script](product/modules/online-building-plan-approval-system-obpas/obpas-demo-script.md)
     * [OBPAS User Manual](product/modules/online-building-plan-approval-system-obpas/obpas-user-manual/README.md)
       * [OBPAS Citizen User Manual](product/modules/online-building-plan-approval-system-obpas/obpas-user-manual/obpas-citizen-user-manual.md)
       * [OBPAS Employee User Manual](product/modules/online-building-plan-approval-system-obpas/obpas-user-manual/obpas-employee-user-manual.md)
