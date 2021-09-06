@@ -31,9 +31,11 @@ Use the role-based credentials to explore the features and functions specific to
 
 We have added user assistance docs below to help you learn more about DIGIT modules and the use-case scenarios supported by each.
 
-{% file src=".gitbook/assets/obpas-demo-script.pdf" caption="Online Building Plan Approval System Demo Script" %}
+{% page-ref page="product/modules/trade-license-tl/tl-demo-script.md" %}
 
-{% file src=".gitbook/assets/trade-license-demo-script.pdf" caption="Trade License Demo Script" %}
+{% page-ref page="product/modules/online-building-plan-approval-system-obpas/obpas-demo-script.md" %}
+
+{% page-ref page="product/modules/public-grievances-and-redressal/pgr-demo-script.md" %}
 
 ## Feedback
 
