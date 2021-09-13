@@ -4,11 +4,11 @@
 
 Since there are many DIGIT services and the development code is part of various git repos, you need to understand the concept of **cicd-as-service** which is open sourced. This page also guides you through the process of creating a CI/CD pipeline.
 
-**As a developer -** To integrate any new service/app to the CI/CD below is the starting point:
+To integrate any new service/app to the CI/CD below is the starting point:
 
 Once the desired service is ready for the integration: decide the service name, type of service, whether DB migration is required or not. While you commit the source code of the service to the git repository, the following file should be added with the relevant details which are mentioned as below:
 
-**Build-config.yml** –It is present under build directory in each repository
+**Build-config.yml** –It is present under the build directory in the repository
 
 ```text
 https://raw.githubusercontent.com/egovernments/DIGIT-OSS/master/build/build-config.yml
@@ -58,46 +58,55 @@ When the Jenkins Job =&gt; job builder is executed the CI Pipeline gets created 
 
 As a result of the pipeline execution, the respective app/service docker image will be built and pushed to the Docker repository.
 
+ **On repo provide read-only access to GitHub user \(created while ci/cd deployment \)**
+
+\*\*\*\*
+
 ## **Continuous Integration \(CI\)** <a id="continuous-integration-ci"></a>
 
 The Jenkins CI pipeline is configured and managed 'as code'.
 
-​[New Service Integration - Example](https://digit-discuss.atlassian.net/wiki/spaces/DOPS/pages/111673399/New+Service+Integration+-+Example) URL - [https://builds.digit.org/](%20https://builds.digit.org/​)​
+* **Job Builder** – Job Builder is a Generic Jenkins job which creates the Jenkins pipeline automatically which are then used to build the application, create the docker image of it and push the image to docker repository. The Job Builder job requires the git repository URL as a parameter. It clones the respective git repository and reaads the [**build/build-config.yml**](https://github.com/egovernments/DIGIT/blob/master/core-services/build/build-config.yml) file for each git repository and uses it to create the service build job.
 
-**Job Builder** – Job Builder is a Generic Jenkins job which creates the Jenkins pipeline automatically which are then used to build the application, create the docker image of it and push the image to docker repository. The Job Builder job requires the git repository URL as a parameter. It clones the respective git repository and reads the [**build/build-config.yml**](https://github.com/egovernments/DIGIT/blob/master/core-services/build/build-config.yml) file for each git repository and uses it to create the service build job.
-
-‌**Check git repository URL is available in** [**ci.yaml**](https://github.com/egovernments/DIGIT-DevOps/blob/master/deploy-as-code/helm/environments/ci.yaml)​[‌](https://github.com/egovernments/eGov-infraOps/blob/master/helm/environments/ci.yaml)‌
+check and ‌add your repo ssh url in [**ci.yaml**](https://github.com/egovernments/DIGIT-DevOps/blob/release/deploy-as-code/helm/environments/ci-demo.yaml)​[‌](https://github.com/egovernments/eGov-infraOps/blob/master/helm/environments/ci.yaml)‌
 
 ![](https://gblobscdn.gitbook.com/assets%2F-MERG_iQW5oN4ukgXP8K%2Fsync%2F3b7e0c5ac4c5064192777b45de690069ff11a674.png?alt=media)
 
-If git repository URL is available build the Job-Builder Job
+If git repository ssh URL is available build the Job-Builder Job
 
-![](https://gblobscdn.gitbook.com/assets%2F-MERG_iQW5oN4ukgXP8K%2Fsync%2F402d59e5650213e9bbd0631717d6201307e02e2f.png?alt=media)
+![](../../.gitbook/assets/image%20%28305%29.png)
 
-If git repository URL is not available ask the devops team to add.
+If git repository URL is not available please check and add the same  team.
 
 ## **Continuous Deployment \(CD\)**‌ <a id="continuous-deployment-cd"></a>
 
 The services deployed and managed **on a Kubernetes cluster** in cloud platforms like **AWS, Azure, GCP, OpenStack, etc.** Here, we use **helm charts** to manage and generate the **Kubernetes manifest files** and use them for further deployment to respective **Kubernetes cluster**. Each service is created as charts which will have the below-mentioned files in it.
 
 ```text
-billing-service/   # Directory – name of the service/appChart.yaml         # A YAML file containing information about the chartLICENSE            # OPTIONAL: A plain text file containing the license for the chartREADME.md          # OPTIONAL: A human-readable README filevalues.yaml        # The default configuration values for this charttemplates/         # A directory of templates that, when combined with values, will generate valid Kubernetes manifest files.
+billing-service/   
+# Directory – name of the service/appChart.yaml         
+# A YAML file containing information about the chartLICENSE            
+# OPTIONAL: A plain text file containing the license for the chartREADME.md          # OPTIONAL: A human-readable README filevalues.yaml        # The default configuration values for this charttemplates/         # A directory of templates that, when combined with values, will generate valid Kubernetes manifest files.
 ```
 
-To deploy a new service, we need to create the helm chart for it. The chart should be created under the **charts/helm** directory in **eGov-infraOps** repository.
+To deploy a new service, we need to create the helm chart for it. The chart should be created under the **charts/helm** directory in [Digit-DeOps ](https://github.com/egovernments/DIGIT-DevOps/tree/release/deploy-as-code/helm/charts) repository.
 
 ```text
-Github repository     https://github.com/egovernments/eGov-infraOps    https://github.com/egovernments/Train-InfraOps
+Github repository     
+https://github.com/egovernments/DIGIT-DevOps/tree/release/deploy-as-code/helm/charts
+We have an automatic helm chart generator utility which needs to be installed on the local machine, the utility will prompt for user inputs about the newly developed service( app specifications) for creating the helm chart. The requested chart with the configuration values (created based on the inputs provided) will be created for the user.
 ```
-
-We have an automatic helm chart generator utility which needs to be installed on the local machine, the utility will prompt for user inputs about the newly developed service\( app specifications\) for creating the helm chart. The requested chart with the configuration values \(created based on the inputs provided\) will be created for the user.
 
 ‌ _**Name of the service? test-service Application Type? NA Kubernetes health checks to be enabled? Yes Flyway DB migration container necessary? No Expose service to the internet? Yes Route through API gateway \[zuul\] No Context path? hello**_‌
 
 The generated chart will have the following files.
 
 ```text
-create Chart.yamlcreate values.yamlcreate templates/deployment.yamlcreate templates/service.yamlcreate templates/ingress.yaml
+create Chart.yaml 
+create values.yaml
+create templates/deployment.yaml
+create templates/service.yaml
+create templates/ingress.yaml
 ```
 
 This chart can also be modified further based on user requirements.
