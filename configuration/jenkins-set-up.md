@@ -434,7 +434,8 @@ Post infra setup \(Kubernetes Cluster\), We start with deploying the Jenkins and
 
 * To create Jenkins namespace mark this [flag](https://github.com/egovernments/DIGIT-DevOps/blob/release/deploy-as-code/helm/environments/ci-demo.yaml#L5) **true**
 * credentials, secrets \(You need to encrypt using [sops](https://github.com/mozilla/sops#updatekeys-command) and create a **ci-secret.yaml** separately\)
-* Add env's kubconfigs under kubConfigs like [https://github.com/egovernments/DIGIT-DevOps/blob/release/deploy-as-code/helm/environments/ci-demo-secrets.yaml\#L1](https://github.com/egovernments/DIGIT-DevOps/blob/release/deploy-as-code/helm/environments/ci-demo-secrets.yaml#L12)3
+* Check and Update [**ci-secrets.yaml**](https://github.com/egovernments/DIGIT-DevOps/blob/release/deploy-as-code/helm/environments/ci-demo-secrets.yaml) ****details
+* Add your env's kubconfigs file under kubConfigs like [https://github.com/egovernments/DIGIT-DevOps/blob/release/deploy-as-code/helm/environments/ci-demo-secrets.yaml\#L1](https://github.com/egovernments/DIGIT-DevOps/blob/release/deploy-as-code/helm/environments/ci-demo-secrets.yaml#L12)3
 * KubeConfig env's name and deploymentJobs name should be the same 
 * SSL Certificate for the sub-domain
 
