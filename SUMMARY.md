@@ -437,7 +437,8 @@
     * [Automation Test Tags](configuration/configure-digit/qa-automation/automation-test-tags.md)
     * [Automation Test Reporting](configuration/configure-digit/qa-automation/automation-test-reporting.md)
   * [Configuration FAQs](configuration/configure-digit/configuration-faqs.md)
-* [CI/CD SetUp](configuration/jenkins-set-up.md)
+* [CI/CD SetUp](configuration/jenkins-set-up/README.md)
+  * [CI/CD Build Job Pipeline Setup](configuration/jenkins-set-up/ci-cd-build-job-pipeline-setup.md)
 
 ## Customize
 
