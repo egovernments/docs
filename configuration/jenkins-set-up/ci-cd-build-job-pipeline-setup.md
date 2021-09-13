@@ -1,7 +1,5 @@
 # CI/CD Build Job Pipeline Setup
 
-
-
 ## Overview <a id="overview"></a>
 
 Since there are many DIGIT services and the development code is part of various git repos, you need to understand the concept of **cicd-as-service** which is open sourced. This page also guides you through the process of creating a CI/CD pipeline.
@@ -13,32 +11,50 @@ Once the desired service is ready for the integration: decide the service name, 
 **Build-config.yml** –It is present under build directory in each repository
 
 ```text
-https://github.com/egovernments/DIGIT/blob/master/core-services/build/build-config.yml
+https://raw.githubusercontent.com/egovernments/DIGIT-OSS/master/build/build-config.yml
 ```
 
 This file contains the below details which are used for creating the automated Jenkins pipeline job for your newly created service.
 
 ```text
-# config:#   - name: < Name of the job, foo/bar would create job named bar inside folder foo >#     build:#     - work-dir: < Working directory of the app to be built >#       dockerfile: < Path to the dockerfile, optional, assumes dockerfile in working directory if not provided>                                                #       image-name: < Docker image name >
+config:
+ -   name: < Name of the job, foo/bar would create job named bar inside folder foo >
+     build:
+     - work-dir: < Working directory of the app to be built >
+       dockerfile: < Path to the dockerfile, optional, assumes dockerfile in working directory if not provided >
+       image-name: < Docker image name  >
 ```
 
 While integrating a new service/app, the above content needs to be added in the build-config.yml file of that app repository. For example: If we are on-boarding a new service called **egov-test,** then the build-config.yml should be added as mentioned below.
 
 ```text
-config:   - name: core-services/egov-test     build:     - work-dir: egov-test       dockerfile: build/maven/Dockerfile       image-name: egov-test
+config:  
+- name: builds/DIGIT-OSS/core-services/egov-test     
+  build:     
+  - work-dir: egov-test      
+    dockerfile: build/maven/Dockerfile       
+    image-name: egov-test
 ```
 
 If a job requires multiple images to be created \(DB Migration\) then it should be added as below,
 
 ```text
-config:   - name: core-services/egov-test     build:     - work-dir: egov-test       dockerfile: build/maven/Dockerfile       image-name: egov-test     - work-dir: egov-test/src/main/resources/db       dockerfile: build/maven/Dockerfile       image-name: egov-test-db
+config:   
+- name: builds/DIGIT-OSS/core-services/egov-test     
+  build:     
+  - work-dir: egov-test       
+    dockerfile: build/maven/Dockerfile       
+    image-name: egov-test     
+  - work-dir: egov-test/src/main/resources/db       
+    dockerfile: egov-test/src/main/resources/db/Dockerfile       
+    image-name: egov-test-db
 ```
 
 **Note -** **If a new repository is created then the build-config.yml should be created under the build folder and then the config values are added to it.**
 
 **The git repository URL is then added to the Job Builder parameters**
 
-When the Jenkins Job =&gt; job builder is executed the CI Pipeline gets created automatically based on the above details in build-config.yml. Eg: **egov-test** job will be created under **core-services** folder in Jenkins because the “build-config was edited under core-services” And it should be the “master” branch only. Once the pipeline job is created, it can be executed for any feature branch with build parameters \(Specifying which branch to be built – master or any feature branch\).
+When the Jenkins Job =&gt; job builder is executed the CI Pipeline gets created automatically based on the above details in build-config.yml. Eg: **egov-test** job will be created under  **builds/DIGIT-OSS/core-services** folder in Jenkins because the “build-config was edited under core-services” And it should be the “master” branch only. Once the pipeline job is created, it can be executed for any feature branch with build parameters \(Specifying which branch to be built – master or any feature branch\).
 
 As a result of the pipeline execution, the respective app/service docker image will be built and pushed to the Docker repository.
 
