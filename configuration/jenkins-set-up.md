@@ -1,24 +1,25 @@
 ---
-description: Digit Jenkins setup
+description: CI/CD setup
 ---
 
-# Jenkins SetUp
+# CI/CD SetUp
 
 ## Prerequisites <a id="Prerequisites"></a>
 
 1. GitHub Organization account
-2. Fork the required repo's to your github Organization account \(Ex. [https://github.com/egovernments/DIGIT-DevOps](https://github.com/egovernments/DIGIT-DevOps) and [https://github.com/egovernments/CIOps](https://github.com/egovernments/CIOps)\)
+2. [Fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) the belo repo's to your GitHub Organization account  1. [https://github.com/egovernments/DIGIT-DevOps](https://github.com/egovernments/DIGIT-DevOps) and  2. [https://github.com/egovernments/CIOps](https://github.com/egovernments/CIOps)\)
 3. [AWS KMS ](https://docs.aws.amazon.com/kms/index.html)
 4. [Go lang](https://golang.org/doc/install) \(version 1.13.X\)
 5. [SOPS](https://github.com/mozilla/sops#updatekeys-command)
 6. [GitHub user ](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account)
-7. ​[**AWS account**](https://portal.aws.amazon.com/billing/signup?nc2=h_ct&src=default&redirect_url=https%3A%2F%2Faws.amazon.com%2Fregistration-confirmation#/start) with the admin access to provision EKS Service, you can always subscribe to free AWS account to learn the basics and try, but there is a limit to [**what is offered as free**](https://aws.amazon.com/free/), for this demo you need to have a commercial subscription to the EKS service, if you want to try out for a day or two, it might cost you about Rs 500 - 1000. **\(Note: Post the Demo, for the internal folks, eGov will provide a 2-3 hrs time bound access to eGov's AWS account based on the request and available number of slots per day\)**
-8. Install [**kubectl**](https://kubernetes.io/docs/tasks/tools/) on your local machine that helps you interact with the kubernetes cluster
-9.  Install [**Helm**](https://helm.sh/docs/intro/install/) that helps you package the services along with the configurations, envs, secrets, etc into a [**kubernetes manifests**](https://devspace.cloud/docs/cli/deployment/kubernetes-manifests/what-are-manifests)
-10. Install [**terraform**](https://releases.hashicorp.com/terraform/0.14.10/) version \(0.14.10\) for the Infra-as-code \(IaC\) to provision cloud resources as code and with desired resource graph and also it helps to destroy the cluster at one go.
-11. **​**[**Install AWS CLI**](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html) on your local machine so that you can use aws cli commands to provision and manage the cloud resources on your account.
-12. Install [**AWS IAM Authenticator**](https://docs.aws.amazon.com/eks/latest/userguide/install-aws-iam-authenticator.html) that helps you authenticate your connection from your local machine so that you should be able to deploy DIGIT services.
-13. Use the [**AWS IAM User**](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html) **credentials provided** for the Terraform \([**Infra-as-code**](https://devops.digit.org/devops-general/infra-as-code)\) to connect with your AWS account and provision the cloud resources.
+7. [Docker Hub account](https://hub.docker.com/signup)
+8. ​[**AWS account**](https://portal.aws.amazon.com/billing/signup?nc2=h_ct&src=default&redirect_url=https%3A%2F%2Faws.amazon.com%2Fregistration-confirmation#/start) with the admin access to provision EKS Service, you can always subscribe to free AWS account to learn the basics and try, but there is a limit to [**what is offered as free**](https://aws.amazon.com/free/), for this demo you need to have a commercial subscription to the EKS service, if you want to try out for a day or two, it might cost you about Rs 500 - 1000. **\(Note: Post the Demo, for the internal folks, eGov will provide a 2-3 hrs time bound access to eGov's AWS account based on the request and available number of slots per day\)**
+9. Install [**kubectl**](https://kubernetes.io/docs/tasks/tools/) on your local machine that helps you interact with the kubernetes cluster
+10.  Install [**Helm**](https://helm.sh/docs/intro/install/) that helps you package the services along with the configurations, envs, secrets, etc into a [**kubernetes manifests**](https://devspace.cloud/docs/cli/deployment/kubernetes-manifests/what-are-manifests)
+11. Install [**terraform**](https://releases.hashicorp.com/terraform/0.14.10/) version \(0.14.10\) for the Infra-as-code \(IaC\) to provision cloud resources as code and with desired resource graph and also it helps to destroy the cluster at one go.
+12. **​**[**Install AWS CLI**](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html) on your local machine so that you can use aws cli commands to provision and manage the cloud resources on your account.
+13. Install [**AWS IAM Authenticator**](https://docs.aws.amazon.com/eks/latest/userguide/install-aws-iam-authenticator.html) that helps you authenticate your connection from your local machine so that you should be able to deploy DIGIT services.
+14. Use the [**AWS IAM User**](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html) **credentials provided** for the Terraform \([**Infra-as-code**](https://devops.digit.org/devops-general/infra-as-code)\) to connect with your AWS account and provision the cloud resources.
 
     ​
 
@@ -414,4 +415,37 @@ kubectl get nodes
 NAME                                             STATUS AGE   VERSION               OS-Image           
 ip-192-168-xx-1.ap-south-1.compute.internal   Ready  45d   v1.18.10-eks-bac369   Amazon Linux 2   
 ```
+
+Whola! All set and now you can go **Deploy Jenkins**...
+
+## 2. Jenkins Deployment
+
+Post infra setup \(Kubernetes Cluster\), We start with deploying the Jenkins and kaniko-cache-warmer.
+
+### Prerequisites:
+
+* Sub Domain to expose ci/cd URL
+* GitHub [Oauth App](https://docs.github.com/en/developers/apps/building-oauth-apps/creating-an-oauth-app)
+* [GitHub User ssh key](https://docs.github.com/en/developers/apps/building-oauth-apps/creating-an-oauth-app)
+* With [GitHub user generate a personal read only access token](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) 
+* [Docker hub account details](https://hub.docker.com/signup)
+
+**Prepare an &lt;**[**ci.yaml&gt; master config file**](https://github.com/egovernments/DIGIT-DevOps/blob/release/deploy-as-code/helm/environments/ci-demo.yaml) **and &lt;**[**ci-secrets.yaml**](https://github.com/egovernments/DIGIT-DevOps/blob/release/deploy-as-code/helm/environments/ci-demo-secrets.yaml)**&gt;, you can name this file as you wish which will have the following configurations, this env file need to be in line with your cluster name.**
+
+* To create Jenkins namespace mark this [flag](https://github.com/egovernments/DIGIT-DevOps/blob/release/deploy-as-code/helm/environments/ci-demo.yaml#L5) **true**
+* credentials, secrets \(You need to encrypt using [sops](https://github.com/mozilla/sops#updatekeys-command) and create a **ci-secret.yaml** separately\)
+* Add env's kubconfigs under kubConfigs like [https://github.com/egovernments/DIGIT-DevOps/blob/release/deploy-as-code/helm/environments/ci-demo-secrets.yaml\#L1](https://github.com/egovernments/DIGIT-DevOps/blob/release/deploy-as-code/helm/environments/ci-demo-secrets.yaml#L12)3
+* KubeConfig env's name and deploymentJobs name should be the same 
+* SSL Certificate for the sub-domain
+
+```
+cd DIGIT-DevOps/tree/release/deploy-as-code
+```
+
+```text
+kubectl config use-context <your cluster name>
+go run main.go deploy -c -e ci 'jenkins,kaniko-cache-warmer'
+```
+
+
 
