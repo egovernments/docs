@@ -7,7 +7,7 @@ description: CI/CD setup
 ## Prerequisites <a id="Prerequisites"></a>
 
 1. GitHub Organization account
-2. [Fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) the belo repo's to your GitHub Organization account  1. [https://github.com/egovernments/DIGIT-DevOps](https://github.com/egovernments/DIGIT-DevOps) and  2. [https://github.com/egovernments/CIOps](https://github.com/egovernments/CIOps)\)
+2. [Fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) the belo repo's to your GitHub Organization account  1. [https://github.com/egovernments/DIGIT-DevOps](https://github.com/egovernments/DIGIT-DevOps) and  2. [https://github.com/egovernments/CIOps](https://github.com/egovernments/CIOps)
 3. [AWS KMS ](https://docs.aws.amazon.com/kms/index.html)
 4. [Go lang](https://golang.org/doc/install) \(version 1.13.X\)
 5. [SOPS](https://github.com/mozilla/sops#updatekeys-command)
@@ -49,7 +49,7 @@ description: CI/CD setup
 
 [**Terraform**](https://www.terraform.io/intro/index.html) helps you build a graph of all your resources, and parallelizes the creation and modification of any non-dependent resources. Because of this, Terraform builds infrastructure as efficiently as possible, and operators get insight into dependencies in their infrastructure.
 
-Before we provision the cloud resources, we need to understand and be sure about what resources need to be provisioned by terraform to deploy DIGIT. The following picture shows the various key components. \(EKS, Worker Nodes, EBS Volumes, Load Balancer\)
+Before we provision the cloud resources, we need to understand and be sure about what resources need to be provisioned by terraform to deploy CI/CD. 
 
 The following is the resource graph that we are going to provision using terraform in a standard way so that every time and for every env, it'll have the same infra.
 
@@ -434,11 +434,11 @@ Post infra setup \(Kubernetes Cluster\), We start with deploying the Jenkins and
 **Prepare an &lt;**[**ci.yaml&gt; master config file**](https://github.com/egovernments/DIGIT-DevOps/blob/release/deploy-as-code/helm/environments/ci-demo.yaml) **and &lt;**[**ci-secrets.yaml**](https://github.com/egovernments/DIGIT-DevOps/blob/release/deploy-as-code/helm/environments/ci-demo-secrets.yaml)**&gt;, you can name this file as you wish which will have the following configurations.**
 
 * credentials, secrets \(You need to encrypt using [sops](https://github.com/mozilla/sops#updatekeys-command) and create a **ci-secret.yaml** separately\)
-* Check and Update [**ci-secrets.yaml**](https://github.com/egovernments/DIGIT-DevOps/blob/release/deploy-as-code/helm/environments/ci-demo-secrets.yaml) ****details \(like githuh Oauth app clientId and clientSecret, GitHub user gitReadSshPrivateKey and gitReadAccessToken etc..\)
+* Check and Update [**ci-secrets.yaml**](https://github.com/egovernments/DIGIT-DevOps/blob/release/deploy-as-code/helm/environments/ci-demo-secrets.yaml) ****details \(like githuh Oauth app clientId and clientSecret, GitHub user details gitReadSshPrivateKey and gitReadAccessToken etc..\)
 * To create Jenkins namespace mark this [flag](https://github.com/egovernments/DIGIT-DevOps/blob/release/deploy-as-code/helm/environments/ci-demo.yaml#L5) **true**
 * Add your env's kubconfigs under kubConfigs like [https://github.com/egovernments/DIGIT-DevOps/blob/release/deploy-as-code/helm/environments/ci-demo-secrets.yaml\#L12](https://github.com/egovernments/DIGIT-DevOps/blob/release/deploy-as-code/helm/environments/ci-demo-secrets.yaml#L12)
-* KubeConfig env's name and deploymentJobs name from ci-yaml should be the same 
-* Update the [CIOps](https://github.com/egovernments/DIGIT-DevOps/blob/release/deploy-as-code/helm/charts/backbone-services/jenkins/values.yaml#L419) and [DIGIT-DevOps](https://github.com/egovernments/DIGIT-DevOps/blob/release/deploy-as-code/helm/charts/backbone-services/jenkins/values.yaml#L484) repo name with your forked repo name  
+* KubeConfig env's name and deploymentJobs name from ci.yaml should be the same 
+* Update the [CIOps](https://github.com/egovernments/DIGIT-DevOps/blob/release/deploy-as-code/helm/charts/backbone-services/jenkins/values.yaml#L419) and [DIGIT-DevOps](https://github.com/egovernments/DIGIT-DevOps/blob/release/deploy-as-code/helm/charts/backbone-services/jenkins/values.yaml#L484) repo name with your forked repo name and provide read-only access to github user to those repo's.
 * SSL Certificate for the sub-domain
 
 ```
