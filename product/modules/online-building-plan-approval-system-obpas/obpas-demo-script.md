@@ -6,7 +6,7 @@ Welcome to the OBPAS product demo script. The key objective of the demo script i
 
 ## Module Overview
 
-The Online Building Permission and Approval System or the OBPAS module offers a comprehensive platform that automates the entire building plan approval process. The OBPAS module along with the eDCR Scrutiny application streamlines the entire process right from the point of uploading plans for approval to fetching no-objection certificates from concerned authorities and final issue of approvals or permits. 
+The Online Building Permission and Approval System or the OBPAS module offers a comprehensive platform that automates the entire building plan approval process. The OBPAS module along with the eDCR scrutiny application streamlines the entire process right from the point of uploading plans for approval to fetching no-objection certificates from concerned authorities and final issue of approvals or permits. 
 
 ### Key Challenges Addressed
 

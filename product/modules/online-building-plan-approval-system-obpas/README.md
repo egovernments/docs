@@ -12,12 +12,12 @@ Manual processes related to scrutiny, approval, or rejection of building constru
 
 ## Key Features
 
-* Centralized login page for citizen, officials and stakeholders
+* Centralized login page for citizens, officials and stakeholders
 * Citizen functionalities
-* Online application submission - New construction
+* Online application submission - new construction
 * Occupancy certificate request
-* Field Inspection Report Capture
-* Pay fee online and generate permit order online
+* Field inspection report capture
+* Pay fee online and generate permit orders online
 * Inspection of applications and online status
 * Configurable workflow
 * Auto fee calculation
@@ -30,15 +30,15 @@ Manual processes related to scrutiny, approval, or rejection of building constru
 
 This section contains all docs and information required to understand the OBPAS module, its key features, functional scope, and configuration details. Click on the links below to learn more about deploying, configuring, customizing, and using the OBPAS module.
 
-* Functional Specifications
+* [Functional Specifications](obpas-module-functional-specifications.md)
 * OBPAS Roadmap
-* OBPAS User Manual
-* Product Brochure
+* [OBPAS User Manual](obpas-user-manual/)
+* [Product Brochure](obpas-brochure.md)
 * OBPAS Workflows 
-* Master Data Configuration Template
-* OBPAS Service Configuration
-* Implementation Handbook
-* Demo Script
+* [Master Data Configuration Template](obpas-master-data-templates/)
+* [OBPAS Service Configuration](obpas-service-configuration/)
+* [Implementation Handbook](obpas-implementation-guide.md)
+* [Demo Script](obpas-demo-script.md)
 
 {% hint style="warning" %}
 **Navigation Tips**
