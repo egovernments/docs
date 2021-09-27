@@ -450,5 +450,5 @@ kubectl config use-context <your cluster name>
 go run main.go deploy -c -e ci 'jenkins,kaniko-cache-warmer,nginx-ingress'
 ```
 
-
+You have launch the Jenkins, Same you can access through your sub-domain which you configured in ci.yaml
 
