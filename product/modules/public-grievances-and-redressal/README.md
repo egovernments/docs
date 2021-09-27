@@ -22,15 +22,15 @@ DIGIT-Public Grievance & Redressal \(PGR\) is a web and mobile-enabled system de
 
 This section contains all docs and information required to understand the PGR module, its key features, functional scope, and configuration details. Click on the links below to learn more about deploying, configuring, customizing, and using the PGR module.
 
-* Functional Specifications
-* PGR Roadmap
-* PGR User Manual
-* Product Brochure
-* PGR Workflows 
-* Master Data Configuration Template
-* PGR Service Configuration
-* Implementation Handbook
-* Demo Script
+* [Functional Specifications](pgr-functional-specifications.md)
+* [PGR Roadmap](pgr-roadmap.md)
+* [PGR User Manual](pgr-user-manual/)
+* [Product Brochure](pgr-brochure.md)
+* [PGR Workflows](pgr-workflows.md) 
+* [Master Data Configuration Template](pgr-master-data-templates/)
+* [PGR Service Configuration](pgr-service-configuration/)
+* [Implementation Handbook](pgr-implementation-guide.md)
+* [Demo Script](pgr-demo-script.md)
 
 {% hint style="warning" %}
 **Navigation Tips**

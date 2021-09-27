@@ -20,14 +20,14 @@ DIGIT-Property Tax \(PT\) is a self-serve web and mobile-based, easy-to-use and 
 
 This section contains all docs and information required to understand the PT module, its key features, functional scope, and configuration details. Click on the links below to learn more about deploying, configuring, customizing, and using the PT module.
 
-* Functional Specifications
-* PT Roadmap
-* PT User Manual
-* Product Brochure
-* PT Workflows 
-* Master Data Configuration Template
+* [Functional Specifications](pt-module-functional-specifications.md)
+* [PT Roadmap](pt-roadmap.md)
+* [PT User Manual](pt-user-manual/)
+* [Product Brochure](pt-brochure.md)
+* [PT Workflows ](pt-workflows.md)
+* [Master Data Configuration Template](pt-master-data-templates/)
 * PT Service Configuration
-* Implementation Handbook
+* [Implementation Handbook](pt-implementation-guide.md)
 * Demo Script
 
 {% hint style="warning" %}

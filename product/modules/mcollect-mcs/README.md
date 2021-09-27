@@ -16,11 +16,11 @@ The mCollect module is designed to facilitate the ULBs process miscellaneous typ
 This section contains all docs and information required to understand the MCS module, its key features, functional scope, and configuration details. Click on the links below to learn more about deploying, configuring, customizing, and using the MCS module.
 
 * Functional Specifications
-* MCS Roadmap
-* MCS User Manual
+* [MCS Roadmap](mcollect-roadmap.md)
+* [MCS User Manual](mcollect-user-manual/)
 * Product Brochure
 * MCS Workflows
-* Master Data Configuration Template
+* [Master Data Configuration Template](mcollect-master-data-templates/)
 * MCS Service Configuration
 * Implementation Handbook
 * Demo Script

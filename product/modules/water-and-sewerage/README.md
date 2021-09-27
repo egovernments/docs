@@ -31,14 +31,14 @@ DIGIT W&S module enables employees at ULB and State level to -
 
 This section contains all docs and information required to understand the W&S module, its key features, functional scope, and configuration details. Click on the links below to learn more about deploying, configuring, customizing, and using the W&S module.
 
-* Functional Specifications
+* [Functional Specifications](w-and-s-module-functional-specifications.md)
 * W&S Roadmap
-* W&S User Manual
+* [W&S User Manual](w-and-s-user-manual/)
 * Product Brochure
 * W&S Workflows 
-* Master Data Configuration Template
+* [Master Data Configuration Template](water-charges-master-data-templates/)
 * W&S Service Configuration
-* Implementation Handbook
+* [Implementation Handbook](w-and-s-implementation-guide.md)
 * Demo Script
 
 {% hint style="warning" %}
