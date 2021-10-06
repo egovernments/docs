@@ -4,12 +4,6 @@ description: Explore DIGIT platform
 
 # Access DIGIT
 
-{% hint style="danger" %}
-Public Instance will not be stable/ down due to Maintenance/ Upgrade from **27th Sept 9.00 AM** to **3rd Oct 9.00 PM IST**.
-{% endhint %}
-
-
-
 Access DIGIT tool is an Open Demo Instance to provide you with a first-hand experience of the DIGIT platform. Use this facility to navigate all the features & workflows of DIGIT Platform Applications.
 
 ## Steps To Access DIGIT
