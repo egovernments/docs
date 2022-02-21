@@ -30,7 +30,7 @@ Here in this Quickstart guide we'll install basic services to get the platform u
     * Open terminal and Install k3d on Linux using the below command
 
     ```
-    wget -q -O - https://raw.githubusercontent.com/rancher/k3d/main/install.sh | bash       
+    wget -q -O - https://raw.githubusercontent.com/k3d-io/k3d/main/install.sh | TAG=v4.0.0 bash      
     ```
 *   **OSX or Mac**
 
