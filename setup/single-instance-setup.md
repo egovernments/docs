@@ -47,5 +47,7 @@ Default output format []: text
 The above will create the following file In your machine as /Users/\<your username>/.aws/credentials
 
 ```
-// Some code
+[egov-test-account] 
+aws_access_key_id=*********** 
+aws_secret_access_key=****************************
 ```
