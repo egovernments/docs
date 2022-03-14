@@ -541,13 +541,13 @@ kubectl config use-context <your cluster name>
 
 kubectl get nodes
 
-NAME                                             STATUS AGE   VERSION               OS-Image           
-ip-192-168-xx-1.ap-south-1.compute.internal   Ready  45d   v1.15.10-eks-bac369   Amazon Linux 2   
-ip-192-168-xx-2.ap-south-1.compute.internal   Ready  45d   v1.15.10-eks-bac369   Amazon Linux 2   
-ip-192-168-xx-3.ap-south-1.compute.internal   Ready  45d   v1.15.10-eks-bac369   Amazon Linux 2   
-ip-192-168-xx-4.ap-south-1.compute.internal   Ready  45d   v1.15.10-eks-bac369   Amazon Linux 2 
-```
+NAME                                            STATUS   ROLES    AGE   VERSION
+ip-192-168-74-92.ap-south-1.compute.internal    Ready    <none>   20d   v1.20.11-eks-f17b81
+ip-192-168-81-18.ap-south-1.compute.internal    Ready    <none>   21d   v1.20.11-eks-f17b81
+ip-192-168-85-104.ap-south-1.compute.internal   Ready    <none>   21d   v1.20.11-eks-f17b81
+ip-192-168-89-128.ap-south-1.compute.internal   Ready    <none>   21d   v1.20.11-eks-f17b81
+ip-192-168-90-245.ap-south-1.compute.internal   Ready    <none>   20d   v1.20.11-eks-f17b81
 
-****
+```
 
 &#x20; &#x20;
