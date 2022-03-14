@@ -307,6 +307,7 @@
     * [Monitoring & Alerts](setup/more-deploy-docs/troubleshooting/monitoring.md)
 * [Single Instance Setup](setup/single-instance-setup.md)
 * [Self Provision](setup/self.md)
+* [Canary Deployment](setup/canary-deployment.md)
 
 ## Configure <a href="#configuration" id="configuration"></a>
 
