@@ -32,20 +32,4 @@ The Self Provision Jenkins Job gives the flexibility for you to select/configure
 
 ![Jenkins Self Provision Job](<../.gitbook/assets/image (309).png>)
 
-Once the above fields are filled up, we are done with our work. Now a single click on the build button will provision the whole product for you in the Kubernetes Cluster.
-
-
-
-
-
-
-
-
-
-\
-
-
-\
-
-
-\
+Once the above fields are filled up, we are done with our work. Now a single click on the build button will provision the whole product for you in the Kubernetes Cluster.\
