@@ -534,7 +534,7 @@ aws sts get-caller-identity
 aws eks --region <region-code> update-kubeconfig --name <cluster_name>
 ```
 
-1. Finally, Verify that you are able to connect to the cluster by running the following command
+1. Finally, Verify that you are able to connect to the cluster by running the following command and list taints on node group nodes.
 
 ```
 kubectl config use-context <your cluster name>
@@ -547,7 +547,39 @@ ip-192-168-81-18.ap-south-1.compute.internal    Ready    <none>   21d   v1.20.11
 ip-192-168-85-104.ap-south-1.compute.internal   Ready    <none>   21d   v1.20.11-eks-f17b81
 ip-192-168-89-128.ap-south-1.compute.internal   Ready    <none>   21d   v1.20.11-eks-f17b81
 ip-192-168-90-245.ap-south-1.compute.internal   Ready    <none>   20d   v1.20.11-eks-f17b81
-
 ```
 
-&#x20; &#x20;
+```
+kubectl get nodes -o json | jq '.items[].spec.taints'
+
+[
+  {
+    "effect": "NoSchedule",
+    "key": "dedicated",
+    "value": "staging-ng"
+  }
+]
+null
+null
+[
+  {
+    "effect": "NoSchedule",
+    "key": "dedicated",
+    "value": "dev-ng"
+  }
+]
+[
+  {
+    "effect": "NoSchedule",
+    "key": "dedicated",
+    "value": "qa-ng"
+  }
+]
+[
+  {
+    "effect": "NoSchedule",
+    "key": "dedicated",
+    "value": "uat-ng"
+  }
+]
+```
