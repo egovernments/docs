@@ -76,4 +76,29 @@ To isolate tenant workloads, We do the following configuration to each namespace
 
 ## Single Instance Setup:
 
-## &#x20;       &#x20;
+[**Terraform**](https://www.terraform.io/intro/index.html) helps you build a graph of all your resources, and parallelizes the creation and modification of any non-dependent resources. Because of this, Terraform builds infrastructure as efficiently as possible, and operators get insight into dependencies in their infrastructure.
+
+Before we provision the cloud resources, we need to understand and be sure about what resources need to be provisioned by terraform. The following picture shows the various key components. (EKS, Worker Nodes, node pool, Postgres DB, EBS Volumes, Load Balancer)     &#x20;
+
+
+
+The following is the resource graph that we are going to provision using terraform in a standard way so that every time and for every env, it'll have the same infra.
+
+* EKS Control Plane (Kubernetes Master)
+* Work node group (VMs with the estimated number of vCPUs, Memory)
+* Node pools (VMs with the estimated number of vCPUs, Memory ,and taints)
+* Auto Scaling Group
+* EBS Volumes (Persistent Volumes)
+* RDS (PostGres)
+* VPCs (Private network)
+* Users to access, deploy ,and read-only
+
+## Understand the **Resource Graph in** Terraform script: <a href="#set-up-and-initialize-your-terraform-workspace" id="set-up-and-initialize-your-terraform-workspace"></a>
+
+* Ideally, one would write the terraform script from the scratch using this [doc](https://learn.hashicorp.com/collections/terraform/modules).
+* Here we have already written the terraform script that provisions the production-grade DIGIT Infra and can be customized with the specified configuration.
+* Let's Clone the DIGIT-DevOps GitHub repo where the terraform script to provision EKS cluster is available and below is the structure of the files.
+
+```
+root@ip:/# git clone -b singleinstance https://github.com/egovernments/DIGIT-DevOps 
+```
