@@ -4,29 +4,31 @@ description: CI/CD setup
 
 # CI/CD SetUp
 
-## Prerequisites <a id="Prerequisites"></a>
+## Prerequisites <a href="#prerequisites" id="prerequisites"></a>
 
 1. GitHub Organization account
-2. [Fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) the belo repo's to your GitHub Organization account  1. [https://github.com/egovernments/DIGIT-DevOps](https://github.com/egovernments/DIGIT-DevOps) and  2. [https://github.com/egovernments/CIOps](https://github.com/egovernments/CIOps)
+2. [Fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) the belo repo's to your GitHub Organization account \
+   1\. [https://github.com/egovernments/DIGIT-DevOps](https://github.com/egovernments/DIGIT-DevOps) and \
+   2\. [https://github.com/egovernments/CIOps](https://github.com/egovernments/CIOps)
 3. [AWS KMS ](https://docs.aws.amazon.com/kms/index.html)
-4. [Go lang](https://golang.org/doc/install) \(version 1.13.X\)
+4. [Go lang](https://golang.org/doc/install) (version 1.13.X)
 5. [SOPS](https://github.com/mozilla/sops#updatekeys-command)
 6. [GitHub user ](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account)
 7. [Docker Hub account](https://hub.docker.com/signup)
-8. ​[**AWS account**](https://portal.aws.amazon.com/billing/signup?nc2=h_ct&src=default&redirect_url=https%3A%2F%2Faws.amazon.com%2Fregistration-confirmation#/start) with the admin access to provision EKS Service, you can always subscribe to free AWS account to learn the basics and try, but there is a limit to [**what is offered as free**](https://aws.amazon.com/free/), for this demo you need to have a commercial subscription to the EKS service, if you want to try out for a day or two, it might cost you about Rs 500 - 1000. **\(Note: Post the Demo, for the internal folks, eGov will provide a 2-3 hrs time bound access to eGov's AWS account based on the request and available number of slots per day\)**
+8. ​[**AWS account**](https://portal.aws.amazon.com/billing/signup?nc2=h\_ct\&src=default\&redirect\_url=https%3A%2F%2Faws.amazon.com%2Fregistration-confirmation#/start) with the admin access to provision EKS Service, you can always subscribe to free AWS account to learn the basics and try, but there is a limit to [**what is offered as free**](https://aws.amazon.com/free/), for this demo you need to have a commercial subscription to the EKS service, if you want to try out for a day or two, it might cost you about Rs 500 - 1000. **(Note: Post the Demo, for the internal folks, eGov will provide a 2-3 hrs time bound access to eGov's AWS account based on the request and available number of slots per day)**
 9. Install [**kubectl**](https://kubernetes.io/docs/tasks/tools/) on your local machine that helps you interact with the kubernetes cluster
-10.  Install [**Helm**](https://helm.sh/docs/intro/install/) that helps you package the services along with the configurations, envs, secrets, etc into a [**kubernetes manifests**](https://devspace.cloud/docs/cli/deployment/kubernetes-manifests/what-are-manifests)
-11. Install [**terraform**](https://releases.hashicorp.com/terraform/0.14.10/) version \(0.14.10\) for the Infra-as-code \(IaC\) to provision cloud resources as code and with desired resource graph and also it helps to destroy the cluster at one go.
+10. &#x20;Install [**Helm**](https://helm.sh/docs/intro/install/) that helps you package the services along with the configurations, envs, secrets, etc into a [**kubernetes manifests**](https://devspace.cloud/docs/cli/deployment/kubernetes-manifests/what-are-manifests)
+11. Install [**terraform**](https://releases.hashicorp.com/terraform/0.14.10/) version (0.14.10) for the Infra-as-code (IaC) to provision cloud resources as code and with desired resource graph and also it helps to destroy the cluster at one go.
 12. **​**[**Install AWS CLI**](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html) on your local machine so that you can use aws cli commands to provision and manage the cloud resources on your account.
 13. Install [**AWS IAM Authenticator**](https://docs.aws.amazon.com/eks/latest/userguide/install-aws-iam-authenticator.html) that helps you authenticate your connection from your local machine so that you should be able to deploy DIGIT services.
-14. Use the [**AWS IAM User**](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html) **credentials provided** for the Terraform \([**Infra-as-code**](https://devops.digit.org/devops-general/infra-as-code)\) to connect with your AWS account and provision the cloud resources.
+14. Use the [**AWS IAM User**](https://docs.aws.amazon.com/IAM/latest/UserGuide/id\_users\_create.html) **credentials provided** for the Terraform ([**Infra-as-code**](https://devops.digit.org/devops-general/infra-as-code)) to connect with your AWS account and provision the cloud resources.
 
     ​
 
     1. You'll get a **Secret Access Key** and **Access Key ID**. **Save them safely.**
-    2. Open the terminal and Run the following command you have already installed the AWS CLI and you have the credentials saved. \(Provide the credentials and you can leave the region and output format as blank\)
+    2. Open the terminal and Run the following command you have already installed the AWS CLI and you have the credentials saved. (Provide the credentials and you can leave the region and output format as blank)
 
-    ```text
+    ```
     aws configure --profile cicd-infra-account 
 
     AWS Access Key ID []:<Your access key>
@@ -35,31 +37,31 @@ description: CI/CD setup
     Default output format []: text
     ```
 
-    5. The above will create the following file In your machine as /Users/.aws/credentials
+    5\. The above will create the following file In your machine as /Users/.aws/credentials
 
-    ```text
+    ```
     [cicd-infra-account] 
     aws_access_key_id=*********** 
     aws_secret_access_key=****************************
     ```
 
- 
+&#x20;
 
 ## CI/CD Cluster Setup
 
 [**Terraform**](https://www.terraform.io/intro/index.html) helps you build a graph of all your resources, and parallelizes the creation and modification of any non-dependent resources. Because of this, Terraform builds infrastructure as efficiently as possible, and operators get insight into dependencies in their infrastructure.
 
-Before we provision the cloud resources, we need to understand and be sure about what resources need to be provisioned by terraform to deploy CI/CD. 
+Before we provision the cloud resources, we need to understand and be sure about what resources need to be provisioned by terraform to deploy CI/CD.&#x20;
 
 The following is the resource graph that we are going to provision using terraform in a standard way so that every time and for every env, it'll have the same infra.
 
-* EKS Control Plane \(Kubernetes Master\)
-* Work node group \(VMs with the estimated number of vCPUs, Memory\)
-* EBS Volumes \(Persistent Volumes\)
-* VPCs \(Private network\)
+* EKS Control Plane (Kubernetes Master)
+* Work node group (VMs with the estimated number of vCPUs, Memory)
+* EBS Volumes (Persistent Volumes)
+* VPCs (Private network)
 * Users to access, deploy and read-only
 
-## Understand the **Resource Graph in** Terraform script: <a id="Set-up-and-initialize-your-Terraform-workspace"></a>
+## Understand the **Resource Graph in** Terraform script: <a href="#set-up-and-initialize-your-terraform-workspace" id="set-up-and-initialize-your-terraform-workspace"></a>
 
 * Ideally, one would write the terraform script from the scratch using this [doc](https://learn.hashicorp.com/collections/terraform/modules).
 * Here we have already written the terraform script that provisions the production-grade DIGIT Infra and can be customized with the specified configuration.
@@ -67,7 +69,7 @@ The following is the resource graph that we are going to provision using terrafo
 
 
 
-```text
+```
 git clone --branch release https://github.com/egovernments/DIGIT-DevOps.git
 cd DIGIT-DevOps/infra-as-code/terraform
 
@@ -116,13 +118,13 @@ In here, you will find the **main.tf** under each of the modules that has the pr
 * **Storage Module**
   * Configuration in this directory creates EBS volume and attaches it together.
 * The following main.tf with create s3 bucket to store all the state of the execution to keep track
-* ```text
+* ```
   DIGIT-DevOps/Infra-as-code/terraform/egov-cicd/remote-state
 
   [**main.tf**](https://github.com/egovernments/DIGIT-DevOps/blob/release/infra-as-code/terraform/egov-cicd/remote-state/main.tf)\*\*\*\*
   ```
 
-```text
+```
 provider "aws" {
   region = "ap-south-1"
 }
@@ -156,13 +158,12 @@ resource "aws_dynamodb_table" "terraform_state_lock" {
 
 
 
-1. The following main.tf contains the detailed resource definitions that need to be provisioned, please have a look at it.
+1.  The following main.tf contains the detailed resource definitions that need to be provisioned, please have a look at it.
 
-   Dir: DIGIT-DevOps/Infra-as-code/terraform/egov-cicd
-
+    Dir: DIGIT-DevOps/Infra-as-code/terraform/egov-cicd
 2. [**main.tf**](https://raw.githubusercontent.com/egovernments/DIGIT-DevOps/release/infra-as-code/terraform/egov-cicd/main.tf)
 
-```text
+```
 terraform {
   backend "s3" {
     bucket = "try-cicd-workshop-yourname"
@@ -291,11 +292,11 @@ module "jenkins" {
 }
 ```
 
-## Custom variables/configurations: <a id="Set-up-an-environment"></a>
+## Custom variables/configurations: <a href="#set-up-an-environment" id="set-up-an-environment"></a>
 
 You can define your configurations in **variables.tf** and provide the env specific cloud requirements so that using the same terraform template you can customize the configurations.
 
-```text
+```
 ├── egov-cicd
 │   ├── main.tf 
 │   ├── outputs.tf
@@ -309,7 +310,7 @@ Following are the values that you need to mention in the following files, the bl
 
 \*\*\*\*[**variables.tf** ](https://raw.githubusercontent.com/egovernments/DIGIT-DevOps/release/infra-as-code/terraform/egov-cicd/variables.tf)
 
-```text
+```
 #
 # Variables Configuration
 #
@@ -362,8 +363,8 @@ variable "iam_keybase_user" {
 
 ### **Important: Create your own keybase key before you run the terraform**
 
-* Use this URL [https://keybase.io/](https://keybase.io/)   to [create your own PGP key](https://pgpkeygen.com/), this will create both public and private key in your machine, upload the public key into the [keybase](https://keybase.io/) account that you have just created, and give a name to it and ensure that you mention that in your terraform. This allows to encrypt all the sensitive information.
-  * Example user keybase user in eGov case is "_egovterraform_" needs to be created and has to uploaded his public key here - [https://keybase.io/egovterraform/pgp\_keys.asc](https://keybase.io/egovterraform/pgp_keys.asc)
+* Use this URL [https://keybase.io/](https://keybase.io)   to [create your own PGP key](https://pgpkeygen.com), this will create both public and private key in your machine, upload the public key into the [keybase](https://keybase.io) account that you have just created, and give a name to it and ensure that you mention that in your terraform. This allows to encrypt all the sensitive information.
+  * Example user keybase user in eGov case is "_egovterraform_" needs to be created and has to uploaded his public key here - [https://keybase.io/egovterraform/pgp\_keys.asc](https://keybase.io/egovterraform/pgp\_keys.asc)
   * you can use this [portal](https://8gwifi.org/pgpencdec.jsp) to Decrypt your secret key. To decrypt PGP Message, Upload the PGP Message, PGP Private Key and Passphrase.
 
 ## Run terraform
@@ -374,7 +375,7 @@ Let's begin to run the terraform scripts to provision infra required to Deploy D
 
 1. First CD into the following directory and run the following command 1-by-1 and watch the output closely.
 
-```text
+```
 cd DIGIT-DevOps/infra-as-code/terraform/egov-cicd/remote-state
 terraform init
 terraform plan
@@ -391,14 +392,14 @@ Upon Successful execution following resources gets created which can be verified
 
 * **s3 bucket:** to store terraform state.
 * **Network:** VPC, security groups.
-* **IAM users auth:** using keybase to create admin, deployer, the user. Use this URL [https://keybase.io/](https://keybase.io/)   to [create your own PGP key](https://pgpkeygen.com/), this will create both public and private key in your machine, upload the public key into the [keybase](https://keybase.io/) account that you have just created, and give a name to it and ensure that you mention that in your terraform. This allows to encrypt all the sensitive information.
-  * Example user keybase user in eGov case is "_egovterraform_" needs to be created and has to uploaded his public key here - [https://keybase.io/egovterraform/pgp\_keys.asc](https://keybase.io/egovterraform/pgp_keys.asc)
+* **IAM users auth:** using keybase to create admin, deployer, the user. Use this URL [https://keybase.io/](https://keybase.io)   to [create your own PGP key](https://pgpkeygen.com), this will create both public and private key in your machine, upload the public key into the [keybase](https://keybase.io) account that you have just created, and give a name to it and ensure that you mention that in your terraform. This allows to encrypt all the sensitive information.
+  * Example user keybase user in eGov case is "_egovterraform_" needs to be created and has to uploaded his public key here - [https://keybase.io/egovterraform/pgp\_keys.asc](https://keybase.io/egovterraform/pgp\_keys.asc)
   * you can use this [portal](https://8gwifi.org/pgpencdec.jsp) to Decrypt your secret key. To decrypt PGP Message, Upload the PGP Message, PGP Private Key and Passphrase.
-* **EKS cluster:** with master\(s\) & worker node\(s\).
-* **Storage\(s\):** for es-master, es-data-v1, es-master-infra, es-data-infra-v1, zookeeper, kafka, kafka-infra.
+* **EKS cluster:** with master(s) & worker node(s).
+* **Storage(s):** for es-master, es-data-v1, es-master-infra, es-data-infra-v1, zookeeper, kafka, kafka-infra.
 * Use this link to [get the kubeconfig from EKS](https://docs.aws.amazon.com/eks/latest/userguide/create-kubeconfig.html) to get the kubeconfig file and being able to connect to the cluster from your local machine so that you should be able to deploy DIGIT services to the cluster.
 
-```text
+```
 aws sts get-caller-identity
 
 # Run the below command and give the respective region-code and the cluster name
@@ -407,7 +408,7 @@ aws eks --region <region-code> update-kubeconfig --name <cluster_name>
 
 1. Finally, Verify that you are able to connect to the cluster by running the following command
 
-```text
+```
 kubectl config use-context <your cluster name>
 
 kubectl get nodes
@@ -420,24 +421,26 @@ Whola! All set and now you can go **Deploy Jenkins**...
 
 ## 2. Jenkins Deployment
 
-Post infra setup \(Kubernetes Cluster\), We start with deploying the Jenkins and kaniko-cache-warmer.
+Post infra setup (Kubernetes Cluster), We start with deploying the Jenkins and kaniko-cache-warmer.
 
 ### Prerequisites:
 
 * Sub Domain to expose CI/CD URL
 * GitHub [Oauth App](https://docs.github.com/en/developers/apps/building-oauth-apps/creating-an-oauth-app)
 * [GitHub User ssh key](https://docs.github.com/en/developers/apps/building-oauth-apps/creating-an-oauth-app)
-* With [GitHub user generate a personal read only access token](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) 
-* [Docker hub account details](https://hub.docker.com/signup) \(username and password\)
-* SSL Certificate for the sub-domain
+* With [GitHub user generate a personal read only access token](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token)&#x20;
+* [Docker hub account details](https://hub.docker.com/signup) (username and password)
+*   SSL Certificate for the sub-domain
 
-**Prepare an &lt;**[**ci.yaml&gt; master config file**](https://github.com/egovernments/DIGIT-DevOps/blob/release/deploy-as-code/helm/environments/ci-demo.yaml) **and &lt;**[**ci-secrets.yaml**](https://github.com/egovernments/DIGIT-DevOps/blob/release/deploy-as-code/helm/environments/ci-demo-secrets.yaml)**&gt;, you can name this file as you wish which will have the following configurations.**
 
-* credentials, secrets \(You need to encrypt using [sops](https://github.com/mozilla/sops#updatekeys-command) and create a **ci-secret.yaml** separately\)
-* Check and Update [**ci-secrets.yaml**](https://github.com/egovernments/DIGIT-DevOps/blob/release/deploy-as-code/helm/environments/ci-demo-secrets.yaml) ****details \(like githuh Oauth app clientId and clientSecret, GitHub user details gitReadSshPrivateKey and gitReadAccessToken etc..\)
+
+**Prepare an <**[**ci.yaml> master config file**](https://github.com/egovernments/DIGIT-DevOps/blob/release/deploy-as-code/helm/environments/ci-demo.yaml) **and <**[**ci-secrets.yaml**](https://github.com/egovernments/DIGIT-DevOps/blob/release/deploy-as-code/helm/environments/ci-demo-secrets.yaml)**>, you can name this file as you wish which will have the following configurations.**
+
+* credentials, secrets (You need to encrypt using [sops](https://github.com/mozilla/sops#updatekeys-command) and create a **ci-secret.yaml** separately)
+* Check and Update [**ci-secrets.yaml**](https://github.com/egovernments/DIGIT-DevOps/blob/release/deploy-as-code/helm/environments/ci-demo-secrets.yaml) **** details (like githuh Oauth app clientId and clientSecret, GitHub user details gitReadSshPrivateKey and gitReadAccessToken etc..)
 * To create Jenkins namespace mark this [flag](https://github.com/egovernments/DIGIT-DevOps/blob/release/deploy-as-code/helm/environments/ci-demo.yaml#L5) **true**
-* Add your env's kubconfigs under kubConfigs like [https://github.com/egovernments/DIGIT-DevOps/blob/release/deploy-as-code/helm/environments/ci-demo-secrets.yaml\#L12](https://github.com/egovernments/DIGIT-DevOps/blob/release/deploy-as-code/helm/environments/ci-demo-secrets.yaml#L12)
-* KubeConfig env's name and deploymentJobs name from ci.yaml should be the same 
+* Add your env's kubconfigs under kubConfigs like [https://github.com/egovernments/DIGIT-DevOps/blob/release/deploy-as-code/helm/environments/ci-demo-secrets.yaml#L12](https://github.com/egovernments/DIGIT-DevOps/blob/release/deploy-as-code/helm/environments/ci-demo-secrets.yaml#L12)
+* KubeConfig env's name and deploymentJobs name from ci.yaml should be the same&#x20;
 * Update the [CIOps](https://github.com/egovernments/DIGIT-DevOps/blob/release/deploy-as-code/helm/charts/backbone-services/jenkins/values.yaml#L419) and [DIGIT-DevOps](https://github.com/egovernments/DIGIT-DevOps/blob/release/deploy-as-code/helm/charts/backbone-services/jenkins/values.yaml#L484) repo name with your forked repo name and provide read-only access to github user to those repo's.
 * SSL Certificate for the sub-domain
 
@@ -445,10 +448,9 @@ Post infra setup \(Kubernetes Cluster\), We start with deploying the Jenkins and
 cd DIGIT-DevOps/tree/release/deploy-as-code
 ```
 
-```text
+```
 kubectl config use-context <your cluster name>
 go run main.go deploy -c -e ci 'jenkins,kaniko-cache-warmer,nginx-ingress'
 ```
 
 You have launch the Jenkins, Same you can access through your sub-domain which you configured in ci.yaml
-

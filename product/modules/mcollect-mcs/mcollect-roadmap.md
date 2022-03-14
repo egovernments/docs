@@ -1,13 +1,12 @@
 # mCollect Roadmap
 
-| **Theme** | **Q1** | **Q2** | **Q3** | **Q4** |
-| :--- | :--- | :--- | :--- | :--- |
-| **Enhance functional Coverage** | UX Revamp - Citizen & Employee - eChallan - CItizen payment and receipt search | mCollect as collection extension for other services like PT,TL,etc. \(as in SRTT\) |   |   |
-| **Increase adoption** |   | - Product dashboard to measure adoption on field - Deploy updated UX to the existing clients | - Completing the product dashboard documentation & Testing   | - A/B testing on features based on the usage and adoption patterns   |
-| **Product innovation** |   |   | POC - Revenue enhancement using mCollect \(Exploring GIS, automation, etc.\) |   |
-| **Ease of deployment & Partner Enablement** | - Out of box reports and DSS | Detailed document for Self Help and Training mechanism | Out of box POS integration and app |   |
+| **Theme**                                   | **Q1**                                                                                           | **Q2**                                                                                                 | **Q3**                                                                         | **Q4**                                                                            |
+| ------------------------------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ | --------------------------------------------------------------------------------- |
+| **Enhance functional Coverage**             | <p>UX Revamp - Citizen &#x26; Employee<br>- eChallan<br>- CItizen payment and receipt search</p> | mCollect as collection extension for other services like PT,TL,etc. (as in SRTT)                       |                                                                                |                                                                                   |
+| **Increase adoption**                       |                                                                                                  | <p>- Product dashboard to measure adoption on field<br>- Deploy updated UX to the existing clients</p> | <p>- Completing the product dashboard documentation &#x26; Testing<br><br></p> | <p>- A/B testing on features based on the usage and adoption patterns<br><br></p> |
+| **Product innovation**                      |                                                                                                  |                                                                                                        | POC - Revenue enhancement using mCollect (Exploring GIS, automation, etc.)     |                                                                                   |
+| **Ease of deployment & Partner Enablement** | - Out of box reports and DSS                                                                     | Detailed document for Self Help and Training mechanism                                                 | Out of box POS integration and app                                             |                                                                                   |
 
 
 
- [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)All content on this page by [eGov Foundation ](https://egov.org.in/)is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
-
+&#x20;[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)All content on this page by [eGov Foundation ](https://egov.org.in)is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).

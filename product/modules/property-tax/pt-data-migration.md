@@ -6,7 +6,7 @@ description: Migrating legacy data
 
 ## Overview
 
-This section covers the principles eGov will be following for migrating legacy property registry along with demand and collection balances to the DIGIT system \(currently in Uttarakhand but can be used for other clients in future\). eGov has been successful in implementing property tax applications in states of Andhra Pradesh, Punjab and various other Municipal Corporations like Greater Chennai, Nagpur and so on using best practices defined here.
+This section covers the principles eGov will be following for migrating legacy property registry along with demand and collection balances to the DIGIT system (currently in Uttarakhand but can be used for other clients in future). eGov has been successful in implementing property tax applications in states of Andhra Pradesh, Punjab and various other Municipal Corporations like Greater Chennai, Nagpur and so on using best practices defined here.
 
 ## Entry Criteria
 
@@ -15,7 +15,7 @@ The state team is supposed to take care of the below activities before property 
 1. State team to share all master data and its localization that are part of the property tax. For example masters like - city, boundary, usage type, property type and so on
 2. State team to do the data gathering and prepare the property tax data in the predefined template shared by eGov
 3. Data prepared needs to be scrutinised by the data owner from the State’s team. Following data validations to be considered in particular:
-   1. Validate if all sheets have accurate records \(owner details, property details and DCB details, Floor details\) in terms of what is expected
+   1. Validate if all sheets have accurate records (owner details, property details and DCB details, Floor details) in terms of what is expected
    2. DCB details can be more than the number of records in the property sheet
    3. There can be multiple owners for a single property. But there needs to be an owner and DCB for each of the properties
    4. Have a check on all mandatory data present
@@ -27,7 +27,7 @@ The state team is supposed to take care of the below activities before property 
 
 ## Principles
 
-![](../../../.gitbook/assets/image%20%2898%29.png)
+![](<../../../.gitbook/assets/image (98).png>)
 
 ### Step 1 - Data cleansing
 
@@ -36,7 +36,7 @@ The state team is supposed to take care of the below activities before property 
       1. Covered areas can be updated as 0
       2. Road type as 12 meters
       3. The number of floors can be updated as 1
-   2. Certain fields that have a financial impact can also have default values like tax amount in the absence of values specified by the State team. \(It can be updated as Rs.1\)
+   2. Certain fields that have a financial impact can also have default values like tax amount in the absence of values specified by the State team. (It can be updated as Rs.1)
    3. If the mobile number is blank, a dummy mobile number will be updated. Care will be taken to ensure that this is not an actual mobile number and this number will be removed from notifications. Dummy numbers can be something like 99999xxxxx where the first few dummy numbers in a state will be 9999900001, 9999900002, 9999900003 so on.
 2. Follow the below assumptions to do data cleaning
    1. If the mobile number and user name combinations are duplicating we will consider these properties belong to the same owner. This means one user will be created in the system which will have a link to two properties.
@@ -65,42 +65,10 @@ The state team is supposed to take care of the below activities before property 
 
 ## References
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">ULB</th>
-      <th style="text-align:left">Total Records</th>
-      <th style="text-align:left">Duplicate/Wrong data</th>
-      <th style="text-align:left">% of data loadable after imposing assumptions</th>
-      <th style="text-align:left">% of incorrect data</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">Roorkee</td>
-      <td style="text-align:left">16363</td>
-      <td style="text-align:left">500</td>
-      <td style="text-align:left">97%</td>
-      <td style="text-align:left">3%</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Rishikesh</td>
-      <td style="text-align:left">2877</td>
-      <td style="text-align:left">
-        <p>356 in the first sheet</p>
-        <p>261 in the second pass</p>
-      </td>
-      <td style="text-align:left">
-        <p>88%</p>
-        <p>91%</p>
-      </td>
-      <td style="text-align:left">
-        <p>12%</p>
-        <p>9%</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
+| ULB       | Total Records | Duplicate/Wrong data                                       | % of data loadable after imposing assumptions | % of incorrect data |
+| --------- | ------------- | ---------------------------------------------------------- | --------------------------------------------- | ------------------- |
+| Roorkee   | 16363         | 500                                                        | 97%                                           | 3%                  |
+| Rishikesh | 2877          | <p>356 in the first sheet</p><p>261 in the second pass</p> | <p>88%</p><p>91%</p>                          | <p>12%</p><p>9%</p> |
 
 ## Communication Mechanism
 
@@ -112,11 +80,11 @@ There will be a SPOC from the State team who is the data owner who will share da
    1. A demo of how PT module works - State + ULBs
    2. Product fitment discussion, configurable data finalization and sign off - State
    3. An overview of how data migration works - State + ULBs
-   4. Sharing the template \(along with checklists and FAQs\) in which we will collect data and type of data required against each field along with training - State + ULBs
+   4. Sharing the template (along with checklists and FAQs) in which we will collect data and type of data required against each field along with training - State + ULBs
    5. Sharing assumptions which will be followed while migrating data - State + ULBs
 2. During migration
    1. Data inconsistencies observed in Data cleaning stage - State
-   2. Gaps needed to complete data migration \(like mohalla mapping\) - State
+   2. Gaps needed to complete data migration (like mohalla mapping) - State
    3. List of records which will be migrated as-is and the ones which will be migrated with assumptions - State
 3. Post-migration
    1. List of properties migrated without error - State
@@ -127,21 +95,23 @@ There will be a SPOC from the State team who is the data owner who will share da
 ## Way Forward
 
 1. All failed records from the second pass will be manually entered into the system using data entry screens
-2. The state has to make a mandate to collect property tax only using DIGIT. 
+2. The state has to make a mandate to collect property tax only using DIGIT.&#x20;
 3. All records with assumption markers or incorrect data can be updated by counter employees when citizens come for payment. Maybe this option can be given to the citizen when coming for online payment.
 4. When a citizen is coming for making his payment, the counter operator can check if their property exists in the system using propertyid or mobile number. If it is found to be missing, it can be captured afresh in the system using the data entry option. All required information can be obtained from the citizen, either from previous year receipts that they carry or directly asking them.
 5. With this approach, a ULB can go live with 90% of property data within a short time.
 
 ## Data Mapping Template
 
-{% file src="../../../.gitbook/assets/propertytaxdata-masters-mapping.xlsx" caption="Property Tax Master Data Mapping Template" %}
+{% file src="../../../.gitbook/assets/propertytaxdata-masters-mapping.xlsx" %}
+Property Tax Master Data Mapping Template
+{% endfile %}
 
 {% hint style="warning" %}
 **Data Migration Checklist**
 
 1. Data provided in the standard template attached only will be accepted for further analysis and process.
 2. Data provided into the template is loaded into staging tables and then validation and data clean-up is done.
-   1. Properties with current Tax 0. \(2020-21\)
+   1. Properties with current Tax 0. (2020-21)
    2. Properties with advance collection
    3. Properties with current tax partially payment
    4. Properties with Mohalla not configured in master
@@ -150,12 +120,12 @@ There will be a SPOC from the State team who is the data owner who will share da
 4. Once all the queries/ findings are cleared/addressed data is moved into UAT.
 5. Data is verified into UAT with sampling by the state team. Go ahead.
 6. Preparing some basic checkpoints before moving into production.
-7. Move the data into production and verify the checkpoints. 
+7. Move the data into production and verify the checkpoints.\
+
 {% endhint %}
 
 
 
 
 
-> [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)_All content on this page by_ [_eGov Foundation_ ](https://egov.org.in/)_is licensed under a_ [_Creative Commons Attribution 4.0 International License_](http://creativecommons.org/licenses/by/4.0/)_._
-
+> [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)_All content on this page by_ [_eGov Foundation_ ](https://egov.org.in)_is licensed under a_ [_Creative Commons Attribution 4.0 International License_](http://creativecommons.org/licenses/by/4.0/)_._

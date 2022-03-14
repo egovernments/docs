@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is one of the major application of the egov stack which helps municipal and citizens to handle sewerage services like creating sewerage connection, searching sewerage connection, sewerage connection, also creating property if it doesn't exist and creating and updating workflow were depending on different roles of the logged-in user he/she can perform various actions like editing or perform document verification and many more specified in workflow documentation and SMS & email notification sent to the owner for various actions performed in the workflow. 
+This is one of the major application of the egov stack which helps municipal and citizens to handle sewerage services like creating sewerage connection, searching sewerage connection, sewerage connection, also creating property if it doesn't exist and creating and updating workflow were depending on different roles of the logged-in user he/she can perform various actions like editing or perform document verification and many more specified in workflow documentation and SMS & email notification sent to the owner for various actions performed in the workflow.&#x20;
 
 ## Pre-requisites
 
@@ -23,19 +23,19 @@ The sewerage service provides multiple functionalities starting from serving as 
 * Apply for Property creation.
 * Searching sewerage connection based on **a** few criteria mentioned in swagger documentation later
 * Creating property if it doesn't exist
-* Creating and updating workflow. 
+* Creating and updating workflow.&#x20;
 
-| **Environment Variables** | **Description** |
-| :--- | :--- |
-| egov.sewarageservice.createconnection | This variable contains the kafka topic name which is used to create new sewerage connection application in the system. |
-| egov.sewarageservice.updateconnection | This variable contains the kafka topic name which is used to update the existing v connection application in the system. |
+| **Environment Variables**                                    | **Description**                                                                                                                  |
+| ------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
+| egov.sewarageservice.createconnection                        | This variable contains the kafka topic name which is used to create new sewerage connection application in the system.           |
+| egov.sewarageservice.updateconnection                        | This variable contains the kafka topic name which is used to update the existing v connection application in the system.         |
 | egov.sewerageservice.updatesewerageconnection.workflow.topic | This variable contains the kafka topic name which is used to update the process instance of the sewerage connection application. |
-| egov.idgen.scapid.name | This variable contain the idgen format name for sewerage application |
-| egov.idgen.scapid.format | This variable contain the idgen format for sewerage application ex:- WS/\[CITY.CODE\]/\[fy:yyyy-yy\]/\[SEQ\_EGOV\_COMMON\] |
-| egov.idgen.scid.name | This variable contain the idgen format name for sewerage connection |
-| egov.idgen.scid.format | This variable contain the idgen format for sewerage connection ex:- WS\_AP/\[CITY.CODE\]/\[fy:yyyy-yy\]/\[SEQ\_EGOV\_COMMON\] |
+| egov.idgen.scapid.name                                       | This variable contain the idgen format name for sewerage application                                                             |
+| egov.idgen.scapid.format                                     | <p>This variable contain the idgen format for sewerage application<br>ex:- WS/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]</p>     |
+| egov.idgen.scid.name                                         | This variable contain the idgen format name for sewerage connection                                                              |
+| egov.idgen.scid.format                                       | <p>This variable contain the idgen format for sewerage connection<br>ex:- WS_AP/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]</p>   |
 
-### Interaction Diagram <a id="Interaction-Diagram:"></a>
+### Interaction Diagram <a href="#interaction-diagram" id="interaction-diagram"></a>
 
 To Do
 
@@ -43,22 +43,22 @@ _**Table UML Diagram**_
 
 ![](../../../../.gitbook/assets/153.png)
 
-_\*\*\*\*_
+_****_
 
-### Configuration Details <a id="Configuration-Details"></a>
+### Configuration Details <a href="#configuration-details" id="configuration-details"></a>
 
 _**MDMS configuration**_
 
-[![](https://github.githubassets.com/favicon.ico)https://github.com/egovernments/egov-mdms-data/tree/DEV/data - Connect to preview](https://github.com/egovernments/egov-mdms-data/tree/DEV/data)\`\`
+[![](https://github.githubassets.com/favicon.ico)https://github.com/egovernments/egov-mdms-data/tree/DEV/data - Connect to preview](https://github.com/egovernments/egov-mdms-data/tree/DEV/data)``
 
-```text
+```
 sw-services-calculation
 PropertyTax
 ```
 
 master-config.json for sewerage service
 
-```text
+```
 sw-services-calculation": {
     "Interest": {
       "masterName": "Interest",
@@ -137,17 +137,17 @@ sw-services-calculation": {
 
 ```
 
-Property creation through WNS module  
+Property creation through WNS module\
 [https://github.com/egovernments/egov-mdms-data/blob/DEV/data/pb/PropertyTax/PTWorkflow.json](https://github.com/egovernments/egov-mdms-data/blob/DEV/data/pb/PropertyTax/PTWorkflow.json)
 
-_**Persister configuration**_**:**  
+_**Persister configuration**_**:**\
 [https://github.com/egovernments/configs/blob/qa/egov-persister/sewerage-persist.yml](https://github.com/egovernments/configs/blob/qa/egov-persister/sewerage-persist.yml)
 
 **Actions & Role Action Mapping**
 
 **Actions**
 
-```text
+```
 [
   {
       "id": {{PLACEHOLDER1}},
@@ -187,7 +187,7 @@ _**Persister configuration**_**:**
 
 **Role Action Mapping**
 
-```text
+```
 [
   {
       "rolecode": "CITIZEN",
@@ -280,9 +280,9 @@ _**Persister configuration**_**:**
 
 _**Workflow business service config**_
 
-Create businessService \(workflow configuration\) using the  __/businessservice/\_create. Following is the product configuration for sewerage service
+Create businessService (workflow configuration) using the __ /businessservice/\_create. Following is the product configuration for sewerage service
 
-```text
+```
 {
   "RequestInfo": {
     "apiId": "Rainmaker",
@@ -519,7 +519,7 @@ Create businessService \(workflow configuration\) using the  __/businessservice/
 
 Workflow for property creation through Water and Sewerage Module
 
-```text
+```
 {
     "BusinessServices": [
     {
@@ -625,7 +625,7 @@ _**Indexer config for sewerage-service**_
 
 1. Write the configuration for sewerage service. [https://github.com/egovernments/configs/blob/DEV/egov-indexer/sewerage-service.yml](https://github.com/egovernments/configs/blob/DEV/egov-indexer/sewerage-service.yml)
 2. Provide the absolute path of the checked-in file to DevOps, to add it to the file-read path of egov-indexer. The file will be added to the egov-indexer's environment manifest file for it to be read at the start-up of the application.
-3. Put indexer config file to the config repo under egov-indexer folder. \([![](https://github.com/fluidicon.png)egovernments/configs](https://github.com/egovernments/configs) \)
+3. Put indexer config file to the config repo under egov-indexer folder. ([![](https://github.com/fluidicon.png)egovernments/configs](https://github.com/egovernments/configs) )
 4. Run the egov-indexer app, Since it is a consumer, it starts listening to the configured topics and indexes the data.
 
 _**Modify connection**_
@@ -634,9 +634,9 @@ After connection activation or legacy connection, we can edit the connection. Th
 
 **Workflow config for edit connection**
 
-Create businessService \(workflow configuration\) using the  __/businessservice/\_create. Following is the product configuration for editing sewerage connection.
+Create businessService (workflow configuration) using the __ /businessservice/\_create. Following is the product configuration for editing sewerage connection.
 
-```text
+```
 {
   "RequestInfo": {
     "apiId": "Rainmaker",
@@ -761,11 +761,11 @@ We can add connection holders to the sewerage connection which will be the owner
 
 The connection holder will get a notification based on a different state of the application. We are pushing the data of the connection holders in the user service too.
 
-**Multiple Road Type Support**  
-We can add road cutting details of multiple roads to the sewerage connection. For each road which goes under cutting process we have to fill their road type details and road cutting area.  
+**Multiple Road Type Support**\
+We can add road cutting details of multiple roads to the sewerage connection. For each road which goes under cutting process we have to fill their road type details and road cutting area.\
 Based on this information, application one time fee estimate is calculated.
 
-## Integration 
+## Integration&#x20;
 
 ### Integration Scope
 
@@ -781,32 +781,31 @@ This sw-service module is use to manage sewerage service connections against a p
 ### Steps to Integration
 
 1. To integrate, the host of sw-service module should be overwritten in helm chart.
-2.  /sw-services/swc/\_create should be added as the create endpoint for creating sewerage application/connection in the system
-3.  /sw-services/swc/\_search should be added as the search endpoint .This method handles all requests to search existing records depending on different search criteria
-4.  /sw-services/swc/\_update should be added as the update endpoint. This method is used to update fields in existing records or to update the status of the application based on workflow.
+2. &#x20;/sw-services/swc/\_create should be added as the create endpoint for creating sewerage application/connection in the system
+3. &#x20;/sw-services/swc/\_search should be added as the search endpoint .This method handles all requests to search existing records depending on different search criteria
+4. &#x20;/sw-services/swc/\_update should be added as the update endpoint. This method is used to update fields in existing records or to update the status of the application based on workflow.
 
 ## Reference Docs
 
-#### Doc Links <a id="Doc-Links"></a>
+#### Doc Links <a href="#doc-links" id="doc-links"></a>
 
-| **Title**  | **Link** |
-| :--- | :--- |
-| API Swagger Documentation | [Swagger Documentation](https://editor.swagger.io/?url=https://raw.githubusercontent.com/egovernments/municipal-services/master/docs/water-sewerage-services.yaml#!/) |
-| Sewerage Calculator Service | [Sewerage Calculator Service](https://digit-discuss.atlassian.net/l/c/vGpEzt2Q) |
+| **Title**                   | **Link**                                                                                                                                                              |
+| --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| API Swagger Documentation   | [Swagger Documentation](https://editor.swagger.io/?url=https://raw.githubusercontent.com/egovernments/municipal-services/master/docs/water-sewerage-services.yaml#!/) |
+| Sewerage Calculator Service | [Sewerage Calculator Service](https://digit-discuss.atlassian.net/l/c/vGpEzt2Q)                                                                                       |
 
-#### API List <a id="API-List"></a>
+#### API List <a href="#api-list" id="api-list"></a>
 
-| Title | **Link** |
-| :--- | :--- |
+| Title                        | **Link**                                                                                                                   |
+| ---------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
 |  _/sw-services/swc/\_create_ | [https://www.getpostman.com/collections/c160dd65f1d585ed855f](https://www.getpostman.com/collections/c160dd65f1d585ed855f) |
-| _/sw-services/swc/\_update_ | [https://www.getpostman.com/collections/c160dd65f1d585ed855f](https://www.getpostman.com/collections/c160dd65f1d585ed855f) |
-| _/sw-services/swc/\_search_ | [https://www.getpostman.com/collections/c160dd65f1d585ed855f](https://www.getpostman.com/collections/c160dd65f1d585ed855f) |
+| _/sw-services/swc/\_update_  | [https://www.getpostman.com/collections/c160dd65f1d585ed855f](https://www.getpostman.com/collections/c160dd65f1d585ed855f) |
+| _/sw-services/swc/\_search_  | [https://www.getpostman.com/collections/c160dd65f1d585ed855f](https://www.getpostman.com/collections/c160dd65f1d585ed855f) |
 
-_\(Note: All the API’s are in the same postman collection therefore same link is added in each row\)_
+_(Note: All the API’s are in the same postman collection therefore same link is added in each row)_
 
-\_\_
+__
 
-\_\_
+__
 
-> [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)\_\_](http://creativecommons.org/licenses/by/4.0/)_All content on this page by_ [_eGov Foundation_ ](https://egov.org.in/)_is licensed under a_ [_Creative Commons Attribution 4.0 International License_](http://creativecommons.org/licenses/by/4.0/)_._
-
+> [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)__](http://creativecommons.org/licenses/by/4.0/)_All content on this page by_ [_eGov Foundation_ ](https://egov.org.in)_is licensed under a_ [_Creative Commons Attribution 4.0 International License_](http://creativecommons.org/licenses/by/4.0/)_._

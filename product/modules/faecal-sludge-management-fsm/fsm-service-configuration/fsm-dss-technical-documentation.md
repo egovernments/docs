@@ -4,29 +4,29 @@
 
 DSS has two sides to it. One being the process in which the Data is pooled to ElasticSearch and the other being the way it is fetched, aggregated, computed, transformed and sent across.
 
-As this revolves around a variety of Data Set, there is a need for making this configurable. So that, tomorrow, given a new scenario is introduced, then it is just a configuration away from getting the newly introduced scenario involved in this flow of process. 
+As this revolves around a variety of Data Set, there is a need for making this configurable. So that, tomorrow, given a new scenario is introduced, then it is just a configuration away from getting the newly introduced scenario involved in this flow of process.&#x20;
 
 This document explains the steps on how to define the configurations for Analytics Side Of DSS for FSM.
 
 ## **What is analytics?**
 
-**Analytics :** Micro Service which is responsible for building, fetching, aggregating and computing the Data on ElasticSearch to a consumable Data Response. Which shall be later used for visualizations and graphical representations. 
+**Analytics :** Micro Service which is responsible for building, fetching, aggregating and computing the Data on ElasticSearch to a consumable Data Response. Which shall be later used for visualizations and graphical representations.&#x20;
 
 ### **Analytics Configurations**
 
-Analytics contains multiple configurations. we need to add the changes related to fsm in this dashboard-analytics.  
-Here is the location :[ ![](https://github.com/fluidicon.png)configs/egov-dss-dashboards/dashboard-analytics at qa · egovernments/configs](https://github.com/egovernments/configs/tree/qa/egov-dss-dashboards/dashboard-analytics)  
+Analytics contains multiple configurations. we need to add the changes related to fsm in this dashboard-analytics.\
+Here is the location :[ ![](https://github.com/fluidicon.png)configs/egov-dss-dashboards/dashboard-analytics at qa · egovernments/configs](https://github.com/egovernments/configs/tree/qa/egov-dss-dashboards/dashboard-analytics)\
 Below is a list of configurations that need to be changed to run fsm successfully.
 
 1. Chart API Configuration
 2. Master Dashboard Configuration
 3. Role Dashboard Mappings Configuration
 
-### **Description** 
+### **Description**&#x20;
 
-**Chart API Configuration** 
+**Chart API Configuration**&#x20;
 
-Each Visualization has its own properties. Each Visualization comes from different data sources \(Sometimes it is a combination of different data sources\) 
+Each Visualization has its own properties. Each Visualization comes from different data sources (Sometimes it is a combination of different data sources)&#x20;
 
 In order to configure each visualization and their properties, we have a Chart API Configuration Document.
 
@@ -34,7 +34,7 @@ In this, Visualization Code, which happens to be the key, will be having its pro
 
 Here is the sample ChartApiConfiguration.json data for the fsm.
 
-```text
+```
 
   "fsmTotalrequest": {
     "chartName": "DSS_FSM_TOTAL_REQUESTS",
@@ -936,11 +936,11 @@ Here is the sample ChartApiConfiguration.json data for the fsm.
 
 ### **Master Dashboard Configuration**
 
-Master Dashboard Configuration is the main configuration which defines as which are the Dashboards which are to be painted on screen. 
+Master Dashboard Configuration is the main configuration which defines as which are the Dashboards which are to be painted on screen.&#x20;
 
 It includes all the Visualizations, their groups, the charts which comes within them and even their dimensions as what should be their height and width.
 
-```text
+```
 {
       "name": "DSS_FSM_DASHBOARD",
       "id": "fsm",
@@ -1277,15 +1277,15 @@ It includes all the Visualizations, their groups, the charts which comes within 
 
 Master Dashboard Configuration which was explained earlier hold the list of Dashboards which are available.
 
-Given the instance where Role Action Mapping is not maintained in the Application Service, this configuration will act as Role - Dashboard Mapping Configuration 
+Given the instance where Role Action Mapping is not maintained in the Application Service, this configuration will act as Role - Dashboard Mapping Configuration&#x20;
 
 In this, each Role is mapped against the Dashboard which they are authorized to see
 
 This was used earlier when the Role Action Mapping of eGov was not integrated.
 
-Later, when the Role Action Mapping started controlling the Dashboards to be seen on the client side, this configuration was just used to enable the Dashboards for viewing. 
+Later, when the Role Action Mapping started controlling the Dashboards to be seen on the client side, this configuration was just used to enable the Dashboards for viewing.&#x20;
 
-```text
+```
 {
   "_comment": "Holds mapping for each role with and its associated dashboards",
   "roles" : [
@@ -1325,7 +1325,7 @@ Later, when the Role Action Mapping started controlling the Dashboards to be see
 
 _common-masters/uiCommonConstants.json_
 
-```text
+```
 "fsm":{
                  "routePath":"/dashboard/fsm",
                  "isOrigin":true
@@ -1340,7 +1340,7 @@ _common-masters/uiCommonConstants.json_
 
 roleaction.json
 
-```text
+```
  {
       "rolecode": "STADMIN",
       "actionid": {{PlaceHolder1}},
@@ -1373,7 +1373,7 @@ roleaction.json
 
 Action test.json:
 
-```text
+```
 {
       "id": {{PlaceHolder1}},
       "name": "DSS Dashboard Config Facial Sludge Management",
@@ -1401,7 +1401,7 @@ Action test.json:
     
 ```
 
-[Click here to check the complete configuration](https://github.com/egovernments/egov-mdms-data/blob/QA/data/pb/ACCESSCONTROL-ACTIONS-TEST/actions-test.json)  
+[Click here to check the complete configuration](https://github.com/egovernments/egov-mdms-data/blob/QA/data/pb/ACCESSCONTROL-ACTIONS-TEST/actions-test.json)\
 
 
 FSM-DSS Consists of multiple graphs which represent the data of FSM. Each graph has its own configuration which will describe the chart and its type.
@@ -1425,33 +1425,33 @@ DSS Consists of following charts in FSM:
 Overview graph contains multiple data information as below in the selected time period.
 
 * **Total Requests :** Which represents the no of FSM applications count.
-*  **Total Sludge Treated :** This represents the total sludge dumped at the yard in KL.
+* &#x20;**Total Sludge Treated :** This represents the total sludge dumped at the yard in KL.
 * **Average FSM Cost :** This represents the average collection amount for the FSM applications.
 * **Total Collection :** This represents the total collection amount for the FSM applications.
 * **SLA Compliance :**  This represents the total SLA achieved in percentage.
 * **Average Citizen Rating :** This represents the Citizen Average Rating value.
 
-![](../../../../.gitbook/assets/image%20%28274%29.png)
+![](<../../../../.gitbook/assets/image (274).png>)
 
-  
-  
-![](blob:https://digit-discuss.atlassian.net/3d62049a-19f1-462c-b6b5-4a2eaadfa344#media-blob-url=true&id=89036142-2f32-4b35-8e01-0ca866821419&collection=contentId-1821016076&contextId=1821016076&mimeType=image%2Fpng&name=image-20210730-103733.png&size=30411&width=457&height=546)
+\
+\
+![](blob:https://digit-discuss.atlassian.net/3d62049a-19f1-462c-b6b5-4a2eaadfa344#media-blob-url=true\&id=89036142-2f32-4b35-8e01-0ca866821419\&collection=contentId-1821016076\&contextId=1821016076\&mimeType=image%2Fpng\&name=image-20210730-103733.png\&size=30411\&width=457\&height=546)
 
 ## **Total Cumulative Collection**
 
 This Graph contains the collection amount information in the monthly base as a cumulative line graph. This will change as per the denomination amount filter selection.
 
-**line** - this graph/chart is data representation on date histograms or date groupings.![](blob:https://digit-discuss.atlassian.net/a94232b7-556f-44ac-8ab9-a81ba1207dd5#media-blob-url=true&id=1ea67496-c39f-4bb0-a93f-8ff914975afe&collection=contentId-1821016076&contextId=1821016076&mimeType=image%2Fpng&name=image-20210730-105012.png&size=39544&width=932&height=450)
+**line** - this graph/chart is data representation on date histograms or date groupings.![](blob:https://digit-discuss.atlassian.net/a94232b7-556f-44ac-8ab9-a81ba1207dd5#media-blob-url=true\&id=1ea67496-c39f-4bb0-a93f-8ff914975afe\&collection=contentId-1821016076\&contextId=1821016076\&mimeType=image%2Fpng\&name=image-20210730-105012.png\&size=39544\&width=932\&height=450)
 
-![](../../../../.gitbook/assets/image%20%28292%29.png)
+![](<../../../../.gitbook/assets/image (292).png>)
 
 ## **Top ULB By Performance**
 
-This graph represents the ULB’s based on the sla achieved in bar chart representation with the % of sla achieved in ascending order. Also this chart contains the drill down to give the complete information regarding each ULB.  
-  
-**drillChart :** If there is a drill down on the visualization, then the code of the Drill Down Visualization is added here. This will be used by Client Service to manage drill downs. 
+This graph represents the ULB’s based on the sla achieved in bar chart representation with the % of sla achieved in ascending order. Also this chart contains the drill down to give the complete information regarding each ULB.\
+\
+**drillChart :** If there is a drill down on the visualization, then the code of the Drill Down Visualization is added here. This will be used by Client Service to manage drill downs.&#x20;
 
-![](../../../../.gitbook/assets/image%20%28304%29.png)
+![](<../../../../.gitbook/assets/image (304).png>)
 
 This chart consists of drill down so we gave the drill down chart key as reference in this chart as in the above picture.
 
@@ -1459,106 +1459,106 @@ Here is the drill down chart config params.
 
 **Table  chart Sample:** This chart comes with 2 kinds, table and xtable.
 
-table type allows aggregated fields added as available in the query keys, hence to extract the values based on the key, **aggegationPaths** needs to add along with their data type as in **pathDataTypeMapping**. 
+table type allows aggregated fields added as available in the query keys, hence to extract the values based on the key, **aggegationPaths** needs to add along with their data type as in **pathDataTypeMapping**.&#x20;
 
-![](../../../../.gitbook/assets/image%20%28295%29.png)
+![](<../../../../.gitbook/assets/image (295).png>)
 
-### **Bottom ULB by Performance** <a id="Bottom-ULB-by-Performance:"></a>
+### **Bottom ULB by Performance** <a href="#bottom-ulb-by-performance" id="bottom-ulb-by-performance"></a>
 
-This graph represents the ULB’s based on the sla achieved in bar chart representation with the % of sla achieved in descending order. Also this chart contains the drill down to give the complete information regarding each ULB.![](blob:https://digit-discuss.atlassian.net/dd364c4c-2d03-4f43-aedf-cf4f29996ae9#media-blob-url=true&id=8e1ca71b-593e-4a91-8553-fd2dcb125bc3&collection=contentId-1821016076&contextId=1821016076&mimeType=image%2Fpng&name=image-20210730-105307.png&size=22133&width=472&height=454)
+This graph represents the ULB’s based on the sla achieved in bar chart representation with the % of sla achieved in descending order. Also this chart contains the drill down to give the complete information regarding each ULB.![](blob:https://digit-discuss.atlassian.net/dd364c4c-2d03-4f43-aedf-cf4f29996ae9#media-blob-url=true\&id=8e1ca71b-593e-4a91-8553-fd2dcb125bc3\&collection=contentId-1821016076\&contextId=1821016076\&mimeType=image%2Fpng\&name=image-20210730-105307.png\&size=22133\&width=472\&height=454)
 
-![](../../../../.gitbook/assets/image%20%28286%29.png)
+![](<../../../../.gitbook/assets/image (286).png>)
 
 On click of show more You will navigate to tabular chart of bottom ULB by performance.
 
-![](../../../../.gitbook/assets/image%20%28289%29.png)
+![](<../../../../.gitbook/assets/image (289).png>)
 
-### **FSM Collection by Usage Type** <a id="FSM-Collection-by-Usage-Type:"></a>
+### **FSM Collection by Usage Type** <a href="#fsm-collection-by-usage-type" id="fsm-collection-by-usage-type"></a>
 
 This graph shows the collection amount based on the usage/property type and this amount will change as per the denomination filter change and this also shows the % of the top 4 properties, remaining properties will go under others category.
 
-![](../../../../.gitbook/assets/image%20%28294%29.png)
+![](<../../../../.gitbook/assets/image (294).png>)
 
-### **FSTP - Capacity Utilization** <a id="FSTP---Capacity-Utilization"></a>
+### **FSTP - Capacity Utilization** <a href="#fstp-capacity-utilization" id="fstp-capacity-utilization"></a>
 
 This graph is in the line chart representation and shows the data in cumulative format, and it contains the information about the waste collecting plant capacity utilization in %  and also shows the total waste dumped at plant in KL at the top of the graph.
 
- ![](blob:https://digit-discuss.atlassian.net/04cde148-bed4-4019-be7b-24dad4370a9e#media-blob-url=true&id=5f0dcd41-c868-4248-96d8-2cb818bb771e&collection=contentId-1821016076&contextId=1821016076&mimeType=image%2Fpng&name=image-20210730-110151.png&size=32932&width=690&height=423)
+&#x20;![](blob:https://digit-discuss.atlassian.net/04cde148-bed4-4019-be7b-24dad4370a9e#media-blob-url=true\&id=5f0dcd41-c868-4248-96d8-2cb818bb771e\&collection=contentId-1821016076\&contextId=1821016076\&mimeType=image%2Fpng\&name=image-20210730-110151.png\&size=32932\&width=690\&height=423)
 
-![](../../../../.gitbook/assets/image%20%28297%29.png)
+![](<../../../../.gitbook/assets/image (297).png>)
 
-### **Monthly Septage Collected** <a id="Monthly-Septage-Collected"></a>
+### **Monthly Septage Collected** <a href="#monthly-septage-collected" id="monthly-septage-collected"></a>
 
-This graph shows the data in horizontal bar representation and bars contain data in monthly wide and non cumulative data. This graph contains the monthly information of septage collected and dumped at the plant in KL.  
-![](blob:https://digit-discuss.atlassian.net/110a5513-a7c4-43ed-9a4b-321ff97536c3#media-blob-url=true&id=e3468cb8-aa5e-40f4-b825-d66f9cc1e5bc&collection=contentId-1821016076&contextId=1821016076&mimeType=image%2Fpng&name=image-20210730-110226.png&size=24501&width=715&height=427)
+This graph shows the data in horizontal bar representation and bars contain data in monthly wide and non cumulative data. This graph contains the monthly information of septage collected and dumped at the plant in KL.\
+![](blob:https://digit-discuss.atlassian.net/110a5513-a7c4-43ed-9a4b-321ff97536c3#media-blob-url=true\&id=e3468cb8-aa5e-40f4-b825-d66f9cc1e5bc\&collection=contentId-1821016076\&contextId=1821016076\&mimeType=image%2Fpng\&name=image-20210730-110226.png\&size=24501\&width=715\&height=427)
 
-![](../../../../.gitbook/assets/image%20%28276%29.png)
+![](<../../../../.gitbook/assets/image (276).png>)
 
-### **Top DSO By Performance** <a id="Top-DSO-By-Performance"></a>
+### **Top DSO By Performance** <a href="#top-dso-by-performance" id="top-dso-by-performance"></a>
 
-This graph represents the DSO’s based on the no of dso requests and based on sla achievement in bar chart representation in ascending order. Also, this chart contains the drill down to give the complete information regarding each DSO.  
-![](blob:https://digit-discuss.atlassian.net/95ba92f9-c85a-4a87-966e-296e2012d863#media-blob-url=true&id=b9e5c08c-2f3c-4471-9498-598106f1e728&collection=contentId-1821016076&contextId=1821016076&mimeType=image%2Fpng&name=image-20210730-111554.png&size=24951&width=702&height=431)
+This graph represents the DSO’s based on the no of dso requests and based on sla achievement in bar chart representation in ascending order. Also, this chart contains the drill down to give the complete information regarding each DSO.\
+![](blob:https://digit-discuss.atlassian.net/95ba92f9-c85a-4a87-966e-296e2012d863#media-blob-url=true\&id=b9e5c08c-2f3c-4471-9498-598106f1e728\&collection=contentId-1821016076\&contextId=1821016076\&mimeType=image%2Fpng\&name=image-20210730-111554.png\&size=24951\&width=702\&height=431)
 
-![](../../../../.gitbook/assets/image%20%28301%29.png)
+![](<../../../../.gitbook/assets/image (301).png>)
 
-On click of show more we can see the details of the available DSO’s under the selected ULB.![](blob:https://digit-discuss.atlassian.net/830242f7-689b-48ae-b39a-bb9c45196ef1#media-blob-url=true&id=107112c5-9b71-46cb-8c36-20b97f05f209&collection=contentId-1821016076&contextId=1821016076&mimeType=image%2Fpng&name=image-20210730-111852.png&size=52942&width=1424&height=570)
+On click of show more we can see the details of the available DSO’s under the selected ULB.![](blob:https://digit-discuss.atlassian.net/830242f7-689b-48ae-b39a-bb9c45196ef1#media-blob-url=true\&id=107112c5-9b71-46cb-8c36-20b97f05f209\&collection=contentId-1821016076\&contextId=1821016076\&mimeType=image%2Fpng\&name=image-20210730-111852.png\&size=52942\&width=1424\&height=570)
 
-![](../../../../.gitbook/assets/image%20%28287%29.png)
+![](<../../../../.gitbook/assets/image (287).png>)
 
-### **Bottom DSO By Performance** <a id="Bottom-DSO-By-Performance"></a>
+### **Bottom DSO By Performance** <a href="#bottom-dso-by-performance" id="bottom-dso-by-performance"></a>
 
 This graph represents the DSO’s based on the no of dso requests and based on sla achievement in bar chart representation in descending order. Also this chart contains the drill down to give the complete information regarding each DSO.
 
 This is the bottom DSO drill down chart which represents the table chart type.
 
-![](../../../../.gitbook/assets/image%20%28296%29.png)
+![](<../../../../.gitbook/assets/image (296).png>)
 
 On click of show more we can see the details of the available DSO’s under the selected ULB.
 
-![](../../../../.gitbook/assets/image%20%28282%29.png)
+![](<../../../../.gitbook/assets/image (282).png>)
 
-### **Desludging Request Report** <a id="Desludging-Request-Report"></a>
+### **Desludging Request Report** <a href="#desludging-request-report" id="desludging-request-report"></a>
 
 This tabular chart representation graph shows multiple FSM information like no of open application requests, closed requests, total requests, completion rate in %, sla achieved in % and total collection amount. And this table shows the data in district level and also has the drill down chart for each district to ulb and from ulb to ward level data for the same.
 
 _**xtable**_ type allows to add multiple computed fields with the aggregated fields dynamically added.
 
-To add multiple computed columns,  **computedFields** \[\]  where actionName \(IComputedField&lt;T&gt; interface\), fields \[\] names as in exist in query key, newField as name to appear for computation must be defined.
+To add multiple computed columns,  **computedFields** \[]  where actionName (IComputedField\<T> interface), fields \[] names as in exist in query key, newField as name to appear for computation must be defined.
 
 **chartSpecificProperty** : This is specific to FSM-DSS, and it is used to achieve the xtable column order along with the computed fields. This property is not used in any other modules till now.
 
-![](../../../../.gitbook/assets/image%20%28275%29.png)
+![](<../../../../.gitbook/assets/image (275).png>)
 
 On click of any district name will enter into drill down charts, which will represents that specific District data.
 
-![](../../../../.gitbook/assets/image%20%28288%29.png)
+![](<../../../../.gitbook/assets/image (288).png>)
 
 On click of the ULB will navigate to wards under that specific ULB and each ward shows the specific data regarding that ward.
 
-![](../../../../.gitbook/assets/image%20%28290%29.png)
+![](<../../../../.gitbook/assets/image (290).png>)
 
-### **Vehicle Log Report** <a id="Vehicle-Log-Report"></a>
+### **Vehicle Log Report** <a href="#vehicle-log-report" id="vehicle-log-report"></a>
 
 This table shows data data of vehicle trips which have no of trips, Total septage collected, total septage dumped and capacity utilization in %. This graph also contains the drills downs from district to ULB and from ULB to vehicle level, which shows the vehicle no.
 
-![](../../../../.gitbook/assets/image%20%28303%29.png)
+![](<../../../../.gitbook/assets/image (303).png>)
 
 On click of any district name will enter into drill down charts, which will represents that specific District data.
 
-![](../../../../.gitbook/assets/image%20%28281%29.png)
+![](<../../../../.gitbook/assets/image (281).png>)
 
 On click of any boundary/ ULB we will navigate to specific vehicle details which will be as below.
 
-![](../../../../.gitbook/assets/image%20%28278%29.png)
+![](<../../../../.gitbook/assets/image (278).png>)
 
-#### **Newly Introduced Property** <a id="Newly-introduced-property:"></a>
+#### **Newly Introduced Property** <a href="#newly-introduced-property" id="newly-introduced-property"></a>
 
-**isRoundOff**: This property is introduced to round off the decimal values. Ex: if the value is 25.43 by using isRoundOff property in configuration we will get it as 25. if value is 22.56 round of value will be 23.  
- This can be used for insights configuration as well for overview graph.
+**isRoundOff**: This property is introduced to round off the decimal values. Ex: if the value is 25.43 by using isRoundOff property in configuration we will get it as 25. if value is 22.56 round of value will be 23.\
+&#x20;This can be used for insights configuration as well for overview graph.
 
-#### Common Properties available <a id="Common-Properties-available:"></a>
+#### Common Properties available <a href="#common-properties-available" id="common-properties-available"></a>
 
-**Key\(eg: fsmTotalrequest\) :** This is the Visualization Code. This key will be referred to in further visualization configurations.
+**Key(eg: fsmTotalrequest) :** This is the Visualization Code. This key will be referred to in further visualization configurations.
 
 This is the key which will be used by the client application to indicate which visualization is needed for display.
 
@@ -1580,17 +1580,17 @@ The queries of aggregation which are to be used to fetch out the right data in t
 
 In order to map the parameters of the request to the parameters of the ElasticSearch Document, this mapping is maintained.
 
-**queries.dateRefField :** Each of these modules have separate indexes. And all of them have their own date fields. 
+**queries.dateRefField :** Each of these modules have separate indexes. And all of them have their own date fields.&#x20;
 
 When there is a date filter applied against these visualizations, each of them has to apply it against their own date reference fields.
 
 In order to maintain what is the date field in which index, we have this configured in this configuration parameter.
 
-**chartType :** As there are different types of visualizations, this field defines what is the type of chart / visualization that this data should be used to represent. 
+**chartType :** As there are different types of visualizations, this field defines what is the type of chart / visualization that this data should be used to represent.&#x20;
 
 **Chart types available are**:
 
-**metric** - this represents the aggregated amount/value for records filter by the aggregate es query 
+**metric** - this represents the aggregated amount/value for records filter by the aggregate es query&#x20;
 
 **pie** - this represents the aggregated data on grouping. This is can be used to represent any line graph, bar graph, pie chart or donuts
 
@@ -1598,7 +1598,7 @@ In order to maintain what is the date field in which index, we have this configu
 
 **perform** - this chart represents groping data as performance wise.
 
-**table** - represents a form of plots and value with headers as grouped on and list of its key, values pairs. 
+**table** - represents a form of plots and value with headers as grouped on and list of its key, values pairs.&#x20;
 
 **xtable -** represents a advanced feature of table, it has addition capabilities for dynamic adding header values.
 
@@ -1608,21 +1608,19 @@ In order to represent them and differentiate the numbers from amount from percen
 
 **action :** Some of the visualizations are not just aggregation on data source. There might be some cases where we have to do a post aggregation computation.
 
-For Example, in the case of Top 3 Performing ULBs, the Target and Total Collection is obtained and then the percentage is calculated. In these kinds of cases, what is the action that has to be performed on that data obtained is defined in this parameter. 
+For Example, in the case of Top 3 Performing ULBs, the Target and Total Collection is obtained and then the percentage is calculated. In these kinds of cases, what is the action that has to be performed on that data obtained is defined in this parameter.&#x20;
 
-**documentType :** The type of document upon which the query has to be executed is defined here. 
+**documentType :** The type of document upon which the query has to be executed is defined here.&#x20;
 
 **drillChart :** If there is a drill down on the visualization, then the code of the Drill Down Visualization is added here. This will be used by Client Service to manage drill downs.
 
 **aggregationPaths :** All the queries will be having Aggregation names in it. In order to fetch the value out of each Aggregation Responses, the name of the aggregation in the query will be an easy bet. These aggregation paths will have the names of Aggregation in it.
 
-**insights :** It is to show the data with the comparison of last year with arrow symbols, it will show the data in how much % is increased or decreased. 
+**insights :** It is to show the data with the comparison of last year with arrow symbols, it will show the data in how much % is increased or decreased.&#x20;
 
-**\_comment :** In order to display information on the “i” symbol of each visualization, Visualization Information is maintained in this field. 
+**\_comment :** In order to display information on the “i” symbol of each visualization, Visualization Information is maintained in this field.&#x20;
 
 **Postman collection for fsm-dss:** [https://www.getpostman.com/collections/119ee90dd54c04617c3a](https://www.getpostman.com/collections/119ee90dd54c04617c3a)
-
-
 
 
 

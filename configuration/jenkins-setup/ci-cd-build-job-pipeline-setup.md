@@ -1,6 +1,6 @@
 # CI/CD Build Job Pipeline Setup
 
-## Overview <a id="overview"></a>
+## Overview <a href="#overview" id="overview"></a>
 
 Since there are many DIGIT services and the development code is part of various git repos, you need to understand the concept of **cicd-as-service** which is open sourced. This page also guides you through the process of creating a CI/CD pipeline.
 
@@ -10,13 +10,13 @@ Once the desired service is ready for the integration: decide the service name, 
 
 **Build-config.yml** –It is present under the build directory in the repository
 
-```text
+```
 https://raw.githubusercontent.com/egovernments/DIGIT-OSS/master/build/build-config.yml
 ```
 
 This file contains the below details which are used for creating the automated Jenkins pipeline job for your newly created service.
 
-```text
+```
 config:
  -   name: < Name of the job, foo/bar would create job named bar inside folder foo >
      build:
@@ -27,7 +27,7 @@ config:
 
 While integrating a new service/app, the above content needs to be added in the build-config.yml file of that app repository. For example: If we are on-boarding a new service called **egov-test,** then the build-config.yml should be added as mentioned below.
 
-```text
+```
 config:  
 - name: builds/DIGIT-OSS/core-services/egov-test     
   build:     
@@ -36,9 +36,9 @@ config:
     image-name: egov-test
 ```
 
-If a job requires multiple images to be created \(DB Migration\) then it should be added as below,
+If a job requires multiple images to be created (DB Migration) then it should be added as below,
 
-```text
+```
 config:   
 - name: builds/DIGIT-OSS/core-services/egov-test     
   build:     
@@ -54,15 +54,15 @@ config:
 
 **The git repository URL is then added to the Job Builder parameters**
 
-When the Jenkins Job =&gt; job builder is executed the CI Pipeline gets created automatically based on the above details in build-config.yml. Eg: **egov-test** job will be created under  **builds/DIGIT-OSS/core-services** folder in Jenkins because the “build-config was edited under core-services” And it should be the “master” branch only. Once the pipeline job is created, it can be executed for any feature branch with build parameters \(Specifying which branch to be built – master or any feature branch\).
+When the Jenkins Job => job builder is executed the CI Pipeline gets created automatically based on the above details in build-config.yml. Eg: **egov-test** job will be created under  **builds/DIGIT-OSS/core-services** folder in Jenkins because the “build-config was edited under core-services” And it should be the “master” branch only. Once the pipeline job is created, it can be executed for any feature branch with build parameters (Specifying which branch to be built – master or any feature branch).
 
 As a result of the pipeline execution, the respective app/service docker image will be built and pushed to the Docker repository.
 
- **On repo provide read-only access to GitHub user \(created while ci/cd deployment \)**
+&#x20;**On repo provide read-only access to GitHub user (created while ci/cd deployment )**
 
-\*\*\*\*
+****
 
-## **Continuous Integration \(CI\)** <a id="continuous-integration-ci"></a>
+## **Continuous Integration (CI)** <a href="#continuous-integration-ci" id="continuous-integration-ci"></a>
 
 The Jenkins CI pipeline is configured and managed 'as code'.
 
@@ -70,19 +70,19 @@ The Jenkins CI pipeline is configured and managed 'as code'.
 
 check and ‌add your repo ssh url in [**ci.yaml**](https://github.com/egovernments/DIGIT-DevOps/blob/release/deploy-as-code/helm/environments/ci-demo.yaml)​[‌](https://github.com/egovernments/eGov-infraOps/blob/master/helm/environments/ci.yaml)‌
 
-![](https://gblobscdn.gitbook.com/assets%2F-MERG_iQW5oN4ukgXP8K%2Fsync%2F3b7e0c5ac4c5064192777b45de690069ff11a674.png?alt=media)
+![](https://gblobscdn.gitbook.com/assets%2F-MERG\_iQW5oN4ukgXP8K%2Fsync%2F3b7e0c5ac4c5064192777b45de690069ff11a674.png?alt=media)
 
 If git repository ssh URL is available build the Job-Builder Job
 
-![](../../.gitbook/assets/image%20%28305%29.png)
+![](<../../.gitbook/assets/image (305).png>)
 
 If git repository URL is not available please check and add the same  team.
 
-## **Continuous Deployment \(CD\)**‌ <a id="continuous-deployment-cd"></a>
+## **Continuous Deployment (CD)**‌ <a href="#continuous-deployment-cd" id="continuous-deployment-cd"></a>
 
 The services deployed and managed **on a Kubernetes cluster** in cloud platforms like **AWS, Azure, GCP, OpenStack, etc.** Here, we use **helm charts** to manage and generate the **Kubernetes manifest files** and use them for further deployment to respective **Kubernetes cluster**. Each service is created as charts which will have the below-mentioned files in it.
 
-```text
+```
 billing-service/   
 # Directory – name of the service/appChart.yaml         
 # A YAML file containing information about the chartLICENSE            
@@ -91,17 +91,17 @@ billing-service/
 
 To deploy a new service, we need to create the helm chart for it. The chart should be created under the **charts/helm** directory in [Digit-DeOps ](https://github.com/egovernments/DIGIT-DevOps/tree/release/deploy-as-code/helm/charts) repository.
 
-```text
+```
 Github repository     
 https://github.com/egovernments/DIGIT-DevOps/tree/release/deploy-as-code/helm/charts
 We have an automatic helm chart generator utility which needs to be installed on the local machine, the utility will prompt for user inputs about the newly developed service( app specifications) for creating the helm chart. The requested chart with the configuration values (created based on the inputs provided) will be created for the user.
 ```
 
-‌ _**Name of the service? test-service Application Type? NA Kubernetes health checks to be enabled? Yes Flyway DB migration container necessary? No Expose service to the internet? Yes Route through API gateway \[zuul\] No Context path? hello**_‌
+‌ _**Name of the service? test-service Application Type? NA Kubernetes health checks to be enabled? Yes Flyway DB migration container necessary? No Expose service to the internet? Yes Route through API gateway \[zuul] No Context path? hello**_‌
 
 The generated chart will have the following files.
 
-```text
+```
 create Chart.yaml 
 create values.yaml
 create templates/deployment.yaml
@@ -113,17 +113,16 @@ This chart can also be modified further based on user requirements.
 
 The Deployment of manifests to the Kubernetes cluster is made very simple and easy. We have Jenkins Jobs for each state and environment-specific. We need to provide the image name or the service name in the respective Jenkins deployment job.
 
-![](https://gblobscdn.gitbook.com/assets%2F-MERG_iQW5oN4ukgXP8K%2Fsync%2Fe39a9063f0ae56f845ba2230786302c0d4e957e6.png?alt=media)
+![](https://gblobscdn.gitbook.com/assets%2F-MERG\_iQW5oN4ukgXP8K%2Fsync%2Fe39a9063f0ae56f845ba2230786302c0d4e957e6.png?alt=media)
 
-Enter a caption for this image \(optional\)
+Enter a caption for this image (optional)
 
-![](https://gblobscdn.gitbook.com/assets%2F-MERG_iQW5oN4ukgXP8K%2Fsync%2F5e19cdbb9eb18d76fdd2b4f28c5aed5c8bf377e2.png?alt=media)
+![](https://gblobscdn.gitbook.com/assets%2F-MERG\_iQW5oN4ukgXP8K%2Fsync%2F5e19cdbb9eb18d76fdd2b4f28c5aed5c8bf377e2.png?alt=media)
 
-Enter a caption for this image \(optional\)
+Enter a caption for this image (optional)
 
 ‌The deployment Jenkins job internally performs the following operations,‌
 
 * Reads the image name or the service name given and finds the chart that is specific to it.
 * Generates the Kubernetes manifests files from the chart using helm template engine.
-* Execute the deployment manifest with the specified docker image\(s\) to the Kubernetes cluster.
-
+* Execute the deployment manifest with the specified docker image(s) to the Kubernetes cluster.

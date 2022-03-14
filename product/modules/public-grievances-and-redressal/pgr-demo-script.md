@@ -10,7 +10,7 @@ Welcome to the PGR product demo script. The key objective of the demo script is 
 
 ## Module Overview
 
-The Public Grievances & Redressal or the PGR module offers a comprehensive platform that automates the entire grievance submission and complaints resolution process. The PGR module streamlines the entire complaint resolution process right from the point of citizens registering their complaints to municipal authorities assigning the complaints to concerned employees and resolving these within defined SLAs. 
+The Public Grievances & Redressal or the PGR module offers a comprehensive platform that automates the entire grievance submission and complaints resolution process. The PGR module streamlines the entire complaint resolution process right from the point of citizens registering their complaints to municipal authorities assigning the complaints to concerned employees and resolving these within defined SLAs.&#x20;
 
 ### Key Challenges Addressed
 
@@ -24,9 +24,9 @@ The module aims to address key challenges that include -
 
 Key benefits of using the PGR Application:
 
-Flexi-Channel - 
+Flexi-Channel -&#x20;
 
-* The Grievance redressal system can be accessed through various channels such as web portals, mobile app and WhatsApp. 
+* The Grievance redressal system can be accessed through various channels such as web portals, mobile app and WhatsApp.&#x20;
 * Citizens can easily submit requests, and attach pictures and documents, saving time and making the process flexible.
 
 Better Services -
@@ -35,12 +35,12 @@ Better Services -
 
 Improved Employee Efficiency -
 
-* Employee app allows ULB staff to access complaints on the field without having to contact their office. 
+* Employee app allows ULB staff to access complaints on the field without having to contact their office.&#x20;
 * It also allows them to update the status of the complaint from the field along with evidence of redressal.
 
-## **Functional Demo** 
+## **Functional Demo**&#x20;
 
-### **Citizen Complaint Registration** 
+### **Citizen Complaint Registration**&#x20;
 
 The PGR application digitises the complaints resolution process right from the time of registering complaints to its final resolution. Citizens can now register their complaints using the online portal or even the mobile app.
 
@@ -57,7 +57,7 @@ The PGR application digitises the complaints resolution process right from the t
 
 Complaints registered by citizens are routed to concerned employees who assign them to respective field employees for immediate action.
 
-* All complaints registered by citizens are routed to the inbox of the Grievance Redressal Officer \(GRO\). The GRO reviews these complaints and assigns them to respective Last Mile Employees \(LME\) for necessary action.
+* All complaints registered by citizens are routed to the inbox of the Grievance Redressal Officer (GRO). The GRO reviews these complaints and assigns them to respective Last Mile Employees (LME) for necessary action.
 * The GRO can also reject complaints if they are found to be inaccurate or baseless.
 * The LME can submit a request for reassigning complaints to other LMEs if required. In such cases, the complaints are routed back to the GRO inbox.
 * The LME works on the complaints and marks the complaint status as resolved once the necessary action is taken.
@@ -66,8 +66,8 @@ Complaints registered by citizens are routed to concerned employees who assign t
 
 * File complaints as a citizen
 * File complaints as an employee
-* Assign or reject complaints as a Grievance Routing Officer \(GRO\)
-* Resolve complaints as the Last Mile Employee \(LME\)
+* Assign or reject complaints as a Grievance Routing Officer (GRO)
+* Resolve complaints as the Last Mile Employee (LME)
 * Reassign complaints
 * Reopen complaints as a citizen
 * Rate complaints as a citizen
@@ -76,12 +76,11 @@ Refer to the [PGR User Manual](pgr-user-manual/) for step-by-step instructions o
 
 
 
- 
+&#x20;
 
-  
-
-
+\
 
 
- [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)All content on this page by [eGov Foundation ](https://egov.org.in/)is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 
+
+&#x20;[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)All content on this page by [eGov Foundation ](https://egov.org.in)is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).

@@ -14,10 +14,6 @@ description: >-
 * Deploy the backbone(Kafka, Zookeeper, ES, etc) services and cluster-configs (RBAC, network-policy, namespaces, etc)
 * Deploy the specific services to each environment specific namespace.
 
-
-
-&#x20;   ****   &#x20;
-
 ### Pre-read:
 
 * Know about EKS: [https://www.youtube.com/watch?v=SsUnPWp5ilc](https://www.youtube.com/watch?v=SsUnPWp5ilc)
@@ -62,3 +58,22 @@ The above will create the following file In your machine as /Users/\<your userna
 aws_access_key_id=*********** 
 aws_secret_access_key=****************************
 ```
+
+## Single Instance with  Multi-Tenancy:
+
+Kubernetes clusters are typically used by several teams. In other cases, Kubernetes can be used to deliver applications to end users requiring segmentation and isolation of resources across users from different environments. Secure sharing of Kubernetes control plane and node pools resources allows maximizing productivity and saving costs in both cases.
+
+![Multitenancy](<../.gitbook/assets/image (307).png>)
+
+### Namespaces as a Service:    <a href="#namespaces-as-a-service" id="namespaces-as-a-service"></a>
+
+With the _namespaces-as-a-service_ model, tenants share a cluster, and tenant workloads are restricted to a set of Namespaces assigned to the tenant. The cluster control plane resources like the API server and scheduler, and worker node resources like CPU, memory, etc. are available for use across all tenants.
+
+To isolate tenant workloads, We do the following configuration to each namespace:
+
+* [**role bindings**](https://kubernetes.io/docs/reference/access-authn-authz/rbac/#rolebinding-and-clusterrolebinding)**:** for controlling access to the namespace
+* [**network policies**](https://kubernetes.io/docs/concepts/services-networking/network-policies/)**:** to prevent network traffic across tenants
+
+## Single Instance Setup:
+
+## &#x20;       &#x20;

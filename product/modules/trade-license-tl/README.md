@@ -4,11 +4,11 @@ description: >-
   lots more
 ---
 
-# Trade License \(TL\)
+# Trade License (TL)
 
 ## About TL
 
-DIGIT-Trade License \(TL\) enables local government bodies to regulate trading establishments. It also serves to protect the interest of the public at large against possible health hazard and inconvenience that can be caused by any business operations. With DIGIT-TL traders can obtain the trade certificate in a simplified manner and ensure compliance with rules and safety guidelines issued by the government. The module offers the citizens and governance bodies a convenient and transparent means of processing trade licenses.
+DIGIT-Trade License (TL) enables local government bodies to regulate trading establishments. It also serves to protect the interest of the public at large against possible health hazard and inconvenience that can be caused by any business operations. With DIGIT-TL traders can obtain the trade certificate in a simplified manner and ensure compliance with rules and safety guidelines issued by the government. The module offers the citizens and governance bodies a convenient and transparent means of processing trade licenses.
 
 The Trade License application makes the process of obtaining a Trade License easy, smooth, and transparent. The module, hence, removes the need for manual processing and streamlines the key trade license management functions to provide a better user experience.
 
@@ -18,7 +18,7 @@ DIGIT Trade License module enables citizens to -
 
 1. Apply for a new trade license or renew an existing trade license.
 2. Upload all the relevant documents required for the license.
-3. Make payment for the Trade License \(New/Renewal\) fee using the online payment gateway.
+3. Make payment for the Trade License (New/Renewal) fee using the online payment gateway.
 4. Receive notifications and alerts by emails or SMS for new application status updates and pending renewals.
 5. Download Trade License, Payment & Acknowledgement Receipts online.
 
@@ -56,18 +56,17 @@ This section contains all docs and information required to understand the TL mod
 Reach out to us through any of the below-mentioned contact channels for any assistance or additional information on TL module deployment.
 
 {% hint style="danger" %}
-\#147/J, 1st floor, 10th Cross,  
-12th Main, 3rd Block,  
+\#147/J, 1st floor, 10th Cross,\
+12th Main, 3rd Block,\
 Koramangala, Bangalore 560034
 
-*      [Find us on map](https://goo.gl/maps/pYCFMhHWW7r)
-*      +91 80 4125 5708
-*      contact@digit.org
+* &#x20;    [Find us on map](https://goo.gl/maps/pYCFMhHWW7r)
+* &#x20;    \+91 80 4125 5708
+* &#x20;    contact@digit.org
 {% endhint %}
 
 
 
 
 
-> [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)_​_](http://creativecommons.org/licenses/by/4.0/)_All content on this page by_ [_eGov Foundation_](https://egov.org.in/) _is licensed under a_ [_Creative Commons Attribution 4.0 International License_](http://creativecommons.org/licenses/by/4.0/)_._
-
+> [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)_​_](http://creativecommons.org/licenses/by/4.0/)_All content on this page by_ [_eGov Foundation_](https://egov.org.in) _is licensed under a_ [_Creative Commons Attribution 4.0 International License_](http://creativecommons.org/licenses/by/4.0/)_._
