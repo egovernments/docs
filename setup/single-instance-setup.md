@@ -97,8 +97,89 @@ The following is the resource graph that we are going to provision using terrafo
 
 * Ideally, one would write the terraform script from the scratch using this [doc](https://learn.hashicorp.com/collections/terraform/modules).
 * Here we have already written the terraform script that provisions the production-grade DIGIT Infra and can be customized with the specified configuration.
-* Let's Clone the DIGIT-DevOps GitHub repo where the terraform script to provision EKS cluster is available and below is the structure of the files.
+* Let's Clone the DIGIT-DevOps GitHub repo where the terraform script to provision EKS cluster is available.
 
 ```
 root@ip:/# git clone -b singleinstance https://github.com/egovernments/DIGIT-DevOps 
 ```
+
+```
+cd /DIGIT-DevOps/infra-as-code/terraform/single-instance-tf
+
+└── modules
+    ├── db
+    │   └── aws
+    │       ├── main.tf
+    │       ├── outputs.tf
+    │       └── variables.tf
+    ├── kubernetes
+    │   └── aws
+    │       ├── eks-cluster
+    │       │   ├── main.tf
+    │       │   ├── outputs.tf
+    │       │   └── variables.tf
+    │       ├── network
+    │       │   ├── main.tf
+    │       │   ├── outputs.tf
+    │       │   └── variables.tf
+    │       └── workers
+    │           ├── main.tf
+    │           ├── outputs.tf
+    │           └── variables.tf
+    └── storage
+    |    └── aws
+    |       ├── main.tf
+    |       ├── outputs.tf
+    |       └── variables.tf
+    └── node-pool
+        └── aws
+        |    ├── main.tf
+        |    ├── outputs.tf
+        |    └── variables.tf
+        └── azure
+            ├── main.tf
+            ├── outputs.tf
+            └── variables.tf    
+               
+                    
+            
+```
+
+
+
+In here, you will find the **main.tf** under each of the modules that has the provisioning definition for resources like EKS cluster, RDS, and Storage, etc. All these are modularized and react as per the customized options provided.
+
+**Example:**
+
+* **VPC Resources:**
+  * VPC
+  * Subnets
+  * Internet Gateway
+  * Route Table
+* **EKS Cluster Resources:**
+  * IAM Role to allow EKS service to manage other AWS services
+  * EC2 Security Group to allow networking traffic with EKS cluster
+  * EKS Cluster
+* **EKS Worker Nodes Resources:**
+  * IAM role allowing Kubernetes actions to access other AWS services
+  * EC2 Security Group to allow networking traffic
+  * Data source to fetch latest EKS worker AMI
+  * AutoScaling Launch Configuration to configure worker instances
+  * AutoScaling Group to launch worker instances
+* **Database**
+  * Configuration in this directory creates set of RDS resources including DB instance, DB subnet group, and DB parameter group.
+* **Storage Module**
+  * Configuration in this directory creates EBS volume and attaches it together.
+* **Node Pool**
+
+&#x20;                &#x20;
+
+
+
+****
+
+
+
+****
+
+&#x20; &#x20;
