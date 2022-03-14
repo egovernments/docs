@@ -74,6 +74,14 @@ To isolate tenant workloads, We do the following configuration to each namespace
 * [**role bindings**](https://kubernetes.io/docs/reference/access-authn-authz/rbac/#rolebinding-and-clusterrolebinding)**:** for controlling access to the namespace
 * [**network policies**](https://kubernetes.io/docs/concepts/services-networking/network-policies/)**:** to prevent network traffic across tenants
 
+## Taints and Tolerations
+
+[_Node affinity_](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#affinity-and-anti-affinity) is a property of [Pods](https://kubernetes.io/docs/concepts/workloads/pods/) that _attracts_ them to a set of [nodes](https://kubernetes.io/docs/concepts/architecture/nodes/) (either as a preference or a hard requirement). _Taints_ are the opposite -- they allow a node to repel a set of pods.
+
+_Tolerations_ are applied to pods, and allow (but do not require) the pods to schedule onto nodes with matching taints.
+
+Taints and tolerations work together to ensure that pods are not scheduled onto inappropriate nodes. One or more taints are applied to a node; this marks that the node should not accept any pods that do not tolerate the taints.
+
 ## Single Instance Setup:
 
 [**Terraform**](https://www.terraform.io/intro/index.html) helps you build a graph of all your resources, and parallelizes the creation and modification of any non-dependent resources. Because of this, Terraform builds infrastructure as efficiently as possible, and operators get insight into dependencies in their infrastructure.
