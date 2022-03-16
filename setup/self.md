@@ -8,9 +8,18 @@ The Deployment to the Kubernetes cluster is made very simple and easy. We have a
 
 ### **Prerequisites**
 
-**Create/Update the Product Charts with the relevant version and its dependency modules in the  below directory,**
+1. **Create/Update the Product Charts with the relevant version and its dependency modules in the  below directory,**
+2. **Create/Update respective environment file**
 
-****[**https://github.com/egovernments/DIGIT-DevOps/tree/master/deploy-as-code/helm/product-release-charts**](https://github.com/egovernments/DIGIT-DevOps/tree/master/deploy-as-code/helm/product-release-charts)****
+{% embed url="https://github.com/egovernments/DIGIT-DevOps/tree/master/deploy-as-code/helm/product-release-charts" %}
+**Product release Charts**&#x20;
+{% endembed %}
+
+{% embed url="https://github.com/egovernments/DIGIT-DevOps/tree/singleinstance/deploy-as-code/helm/environments" %}
+**environment files**
+{% endembed %}
+
+###
 
 ### **Deployment**
 
