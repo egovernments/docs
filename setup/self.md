@@ -39,6 +39,6 @@ The Self Provision Jenkins Job gives the flexibility for you to select/configure
 
 **Print\_Manifest** - When checked prints the Manifest that got rendered so that you can review it before deployment.
 
-![Jenkins Self Provision Job](<../.gitbook/assets/image (309).png>)
+![Jenkins Self Provision Job](<../.gitbook/assets/Screenshot 2022-03-28 at 11.26.38 AM.png>)
 
 Once the above fields are filled up, we are done with our work. Now a single click on the build button will provision the whole product for you in the Kubernetes Cluster.\
