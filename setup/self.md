@@ -19,9 +19,29 @@ The Deployment to the Kubernetes cluster is made very simple and easy. We have a
 **environment files**
 {% endembed %}
 
-###
+## Preparation of Environment files
 
-### **Deployment**
+[Here](https://github.com/egovernments/DIGIT-DevOps/tree/singleinstance/deploy-as-code/helm/environments), We have each project wise and environments specific files like **digit** and **urban-dev, urban-qa, urban-uat, urban-staging,** etc.
+
+### Namespace structure
+
+
+
+**DIGIT**:- This namespace would contain all backbone services and core services.
+
+**QA**:- It'd contain each project wise QA environment specific services.
+
+**DEV**:- It'd contain project wise Dev environment specific services.
+
+**UAT**:- It'd contain project wise Uat environment specific services.
+
+**STAGING**:- It'd contain project wise Staging environment specific services.
+
+
+
+## **Deployment**
+
+**Deployment Job URL:** [**https://builds.digit.org/job/singledeployments/**](https://builds.digit.org/job/singledeployments/)****
 
 The Self Provision Jenkins Job gives the flexibility for you to select/configure the following fields,
 
