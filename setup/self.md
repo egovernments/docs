@@ -25,7 +25,7 @@ The Deployment to the Kubernetes cluster is made very simple and easy. We have a
 
 ### Namespace structure
 
-
+The namespace structure is quite different from the existing setup, Here we have the below mentioned namespaces and each would contain the respective services.
 
 **DIGIT**:- This namespace would contain all backbone services and core services.
 
