@@ -39,6 +39,8 @@ The namespace structure is quite different from the existing setup, Here we have
 
 
 
+![NameSpace Structure](<../.gitbook/assets/Untitled Diagram.drawio.png>)
+
 ## **Deployment**
 
 **Deployment Job URL:** [**https://builds.digit.org/job/singledeployments/**](https://builds.digit.org/job/singledeployments/)****
