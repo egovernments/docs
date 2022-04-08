@@ -8,8 +8,9 @@ The Deployment to the Kubernetes cluster is made very simple and easy. We have a
 
 ### **Prerequisites**
 
-1. **Create/Update the Product Charts with the relevant version and its dependency modules in the  below directory,**
-2. **Create/Update respective environment file**
+**Create/Update the Product Charts with the relevant version and its dependency modules in the  below directory,**
+
+**Create/Update project respective environment files**
 
 {% embed url="https://github.com/egovernments/DIGIT-DevOps/tree/master/deploy-as-code/helm/product-release-charts" %}
 **Product release Charts**&#x20;
@@ -44,8 +45,6 @@ The namespace structure is quite different from the existing setup, Here we have
 ## **Deployment**
 
 **Deployment Job's:** [**https://builds.digit.org/job/singledeployments/**](https://builds.digit.org/job/singledeployments/)****
-
-**Self Provision Job:** [**https://builds.digit.org/job/self-provision/job/deploy/**](https://builds.digit.org/job/self-provision/job/deploy/)****
 
 The Self Provision Jenkins Job gives the flexibility for you to select/configure the following fields,
 
