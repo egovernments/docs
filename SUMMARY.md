@@ -305,7 +305,8 @@
     * [Distributed Tracing](setup/more-deploy-docs/troubleshooting/distributed-tracing.md)
     * [Logging](setup/more-deploy-docs/troubleshooting/logging.md)
     * [Monitoring & Alerts](setup/more-deploy-docs/troubleshooting/monitoring.md)
-* [Single Instance Setup](setup/single-instance-setup.md)
+* [Single Instance Setup](setup/single-instance-setup/README.md)
+  * [Single Instance Deployment](setup/single-instance-setup/single-instance-deployment.md)
 * [Self Provision](setup/self.md)
 * [Canary Deployment](setup/canary-deployment.md)
 

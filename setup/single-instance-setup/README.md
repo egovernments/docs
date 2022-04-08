@@ -63,7 +63,7 @@ aws_secret_access_key=****************************
 
 Kubernetes clusters are typically used by several teams. In other cases, Kubernetes can be used to deliver applications to end users requiring segmentation and isolation of resources across users from different environments. Secure sharing of Kubernetes control plane and node pools resources allows maximizing productivity and saving costs in both cases.
 
-![Multitenancy](<../.gitbook/assets/image (307) (1).png>)
+![Multitenancy](<../../.gitbook/assets/image (307) (1).png>)
 
 ### Namespaces as a Service:    <a href="#namespaces-as-a-service" id="namespaces-as-a-service"></a>
 
