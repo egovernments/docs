@@ -44,7 +44,7 @@ The namespace structure is quite different from the existing setup, Here we have
 
 ## **Deployment**
 
-**Deployment Job's:** [**https://builds.digit.org/job/singledeployments/**](https://builds.digit.org/job/singledeployments/)****
+**Self Provision Job:** [**https://builds.digit.org/job/self-provision/job/deploy/**](https://builds.digit.org/job/self-provision/job/deploy/)****
 
 The Self Provision Jenkins Job gives the flexibility for you to select/configure the following fields,
 

@@ -34,5 +34,6 @@ The namespace structure is quite different from the existing setup, Here we have
 
 ## **Deployment**
 
-**Self Provision Job:** [**https://builds.digit.org/job/self-provision/job/deploy/**](https://builds.digit.org/job/self-provision/job/deploy/)****
+**Deployment Job's:** [**https://builds.digit.org/job/singledeployments/**](https://builds.digit.org/job/singledeployments/)****
 
+![Single Instance Deploment Jobs](<../../.gitbook/assets/Screenshot 2022-04-08 at 4.07.30 PM.png>)
