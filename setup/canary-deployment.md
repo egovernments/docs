@@ -79,5 +79,7 @@ Note: Service kind shouldn't be created for canary enabled applications, flagger
 
 ## References:
 
-
-
+[https://gist.github.com/vfarcic/215c6e3126ae9bc4c6fee363a9682dbf\
+https://linkerd.io/2.10/tasks/install-helm/\
+https://docs.flagger.app/tutorials/linkerd-progressive-delivery\
+https://docs.flagger.app/usage/how-it-works](https://gist.github.com/vfarcic/215c6e3126ae9bc4c6fee363a9682dbfhttps://linkerd.io/2.10/tasks/install-helm/https://docs.flagger.app/tutorials/linkerd-progressive-deliveryhttps://docs.flagger.app/usage/how-it-works)
