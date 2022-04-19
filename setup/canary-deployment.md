@@ -32,7 +32,52 @@ Install Flagger&#x20;
 kubectl apply -k github.com/fluxcd/flagger//kustomize/linkerd
 ```
 
-##
+## Canary Deployment
+
+For the application which you want to proceed with the Canary Deployment, follow the below steps &#x20;
+
+1\. Create a canary.yaml which will use the [common canary template](https://github.com/egovernments/DIGIT-DevOps/blob/canary\_deployment/deploy-as-code/helm/charts/common/templates/\_canary.yaml) in our common charts.&#x20;
+
+2\. In Values.yaml, mention the&#x20;
+
+```
+global:
+    canary: true  // enable canary as true for canary deployment
+
+//Use the below values to confgure the canary deployment progress
+canary:
+  progressDeadlineSeconds: 60
+  analysis:
+    interval: 30s
+    threshold: 3
+    maxWeight: 60
+    stepWeight: 20
+    metrics:
+    - name: request-success-rate
+      thresholdRange:
+        min: 99
+      interval: 1m
+    - name: request-duration
+      thresholdRange:
+        max: 250
+      interval: 30s
+```
+
+So now the canary configuration is setup. From now, when you perform any new installation of the canary built application, the flagger detects for any new version change and does the progressive canary delivery. If any issues found in the new image, flagger will rollback to the current version and won't proceed with the new version installation.&#x20;
+
+To watch the canary deployment progress
+
+```
+//use the below kubectl command
+kubectl --namespace $namespace get canaries
+
+//use the linkerd viz dashboard by giving the following command,
+linkerd viz dashboard 
+```
+
+Note: Service kind shouldn't be created for canary enabled applications, flagger will create and manages the service for them.
+
+## References:
 
 
 
