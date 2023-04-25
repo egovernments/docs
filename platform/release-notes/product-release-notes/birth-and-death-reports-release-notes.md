@@ -28,7 +28,7 @@ Death count report
 
 Birth and death certificate payment report
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-02-17 at 8.31.00 AM (1).png" alt=""><figcaption><p>Birth and death certificate payment records</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-02-17 at 8.31.00 AM.png" alt=""><figcaption><p>Birth and death certificate payment records</p></figcaption></figure>
 
 ## Known Issues
 

@@ -21,7 +21,7 @@ There are three types of dashboards -
 
 The home page contains multiple cards - each card is clickable.
 
-![](<../../../../../.gitbook/assets/image (557).png>)
+![](<../../../../../.gitbook/assets/image (214).png>)
 
 There are two types of cards, i.e, Overview cards and module-level cards.
 
@@ -73,9 +73,9 @@ State names are configured in the dashboard-config.\
 
 &#x20;
 
-![](<../../../../../.gitbook/assets/image (564).png>)
+![](<../../../../../.gitbook/assets/image (166).png>)
 
-![](<../../../../../.gitbook/assets/image (537).png>)
+![](<../../../../../.gitbook/assets/image (161).png>)
 
 ## **National DSS Chart Details**
 
@@ -83,9 +83,9 @@ Visualizations: The key contains all configurations for displaying the visualiza
 
 For Collection Chart & Module Chart **refer figure 1**
 
-![Overview dashboard](<../../../../../.gitbook/assets/image (604).png>)
+![Overview dashboard](<../../../../../.gitbook/assets/image (201).png>)
 
-![Module level dashboard](<../../../../../.gitbook/assets/image (326).png>)
+![Module level dashboard](<../../../../../.gitbook/assets/image (102).png>)
 
 **Visualizations List**
 
@@ -110,39 +110,39 @@ vizType - the type of visualization like COLLECTION, MODULE, METRIC-COLLECTION, 
 
 **List of visualizations**
 
-<img src="../../../../../.gitbook/assets/image (527).png" alt="" data-size="original">
+<img src="../../../../../.gitbook/assets/image (154).png" alt="" data-size="original">
 
 &#x20;Figure: 2.1 Collection Metric
 
-![](<../../../../../.gitbook/assets/image (316).png>)
+![](<../../../../../.gitbook/assets/image (108).png>)
 
 Figure: 2.2 Performance Metric
 
-![](<../../../../../.gitbook/assets/image (546).png>)
+![](<../../../../../.gitbook/assets/image (147).png>)
 
 Figure: 2.3 Pie Chart
 
-![](<../../../../../.gitbook/assets/image (594).png>)
+![](<../../../../../.gitbook/assets/image (163).png>)
 
 Figure: 2.4 Line Chart
 
-![](<../../../../../.gitbook/assets/image (586).png>)
+![](<../../../../../.gitbook/assets/image (299).png>)
 
 Figure: 2.5 Bar Chart&#x20;
 
-![](<../../../../../.gitbook/assets/image (554).png>)
+![](<../../../../../.gitbook/assets/image (280).png>)
 
 Figure: 2.6 Horizontal Bar Chart
 
-![](<../../../../../.gitbook/assets/image (581).png>)
+![](<../../../../../.gitbook/assets/image (155).png>)
 
 Figure: 2.7 Table Chart
 
-![](<../../../../../.gitbook/assets/image (528).png>)
+![](<../../../../../.gitbook/assets/image (269).png>)
 
 Figure: 2.8 Global Filters
 
-![](<../../../../../.gitbook/assets/image (601).png>)
+![](<../../../../../.gitbook/assets/image (297).png>)
 
 Figure: 2.9 Download & Share Button
 
@@ -174,7 +174,7 @@ Denomination filter: Denomination filter offers three options to display the amo
 
 Denomination filter is not applied on the percentage and text (**figure 2.10**). Type of data is identified by symbol in plots of charts API.
 
-![](<../../../../../.gitbook/assets/image (538).png>)
+![](<../../../../../.gitbook/assets/image (146).png>)
 
 Figure 2.10
 
@@ -195,13 +195,13 @@ Currently, the dashboard has two types of tabs -
 
 Tabs are identified by name in visualizations of config API.
 
-![](<../../../../../.gitbook/assets/image (610).png>)
+![](<../../../../../.gitbook/assets/image (217).png>)
 
 **Table chart with drill-down**
 
 Table chart visualizations have normal material UI data table features like search, sort etc.
 
-![](<../../../../../.gitbook/assets/image (598).png>)
+![](<../../../../../.gitbook/assets/image (251).png>)
 
 In the table response filter key & drillDownChartId has a value that indicates it is a drill-down table.
 
@@ -224,7 +224,7 @@ Each S3 image is shortened using the following API - [/egov-url-shortening/short
 
 Upload localization keys:
 
-&#x20;![](<../../../../../.gitbook/assets/image (579).png>)
+&#x20;![](<../../../../../.gitbook/assets/image (180).png>)
 
 **code:** pre-defined key for back-end
 

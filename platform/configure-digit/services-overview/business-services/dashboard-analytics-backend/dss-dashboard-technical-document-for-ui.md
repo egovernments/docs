@@ -59,7 +59,7 @@ Collection chart & module chart **refer figure 1**
 
 ### **3. Module Level Dashboard**
 
-![](../../../../../.gitbook/assets/138.png)
+![](<../../../../../.gitbook/assets/138 (7).png>)
 
 ## **Visualisation List**
 

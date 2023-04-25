@@ -8,7 +8,7 @@
 
 The feature provides users with tenant-specific data.&#x20;
 
-![](<../../../../.gitbook/assets/image (479).png>)
+![](<../../../../.gitbook/assets/image (328).png>)
 
 ### Technical Implementation Details <a href="#objective" id="objective"></a>
 
@@ -50,7 +50,7 @@ We can add FAQs and the How it works links in the MDMS for each service.
 
 (Replace `{module}` with moduleCode. For Ex: `"/digit-ui/citizen/pt-how-it-works"`)
 
-![](<../../../../.gitbook/assets/image (503).png>)
+![](<../../../../.gitbook/assets/image (331).png>)
 
 **Object reference:**
 
@@ -84,7 +84,7 @@ Users can check for frequently asked / common questions on this page.
 
 We are using a common screen for all module FAQs. Based on the module code, the FAQs are rendered from MDMS.
 
-![](<../../../../.gitbook/assets/image (12).png>)
+![](<../../../../.gitbook/assets/image (527).png>)
 
 ### Technical Implementation Details
 
@@ -134,7 +134,7 @@ A common screen is used for all the modules in the How it works section. Based o
 
 On Language change, the link to the videos also changes.
 
-![](<../../../../.gitbook/assets/image (34).png>)
+![](<../../../../.gitbook/assets/image (542).png>)
 
 ### Technical Implementation Details
 

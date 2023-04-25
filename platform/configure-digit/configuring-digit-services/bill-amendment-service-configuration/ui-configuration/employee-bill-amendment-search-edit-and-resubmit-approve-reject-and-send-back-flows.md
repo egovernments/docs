@@ -18,7 +18,7 @@ The first column of the result is the Bill Amendment number and every cell in th
 A download option is provided to download the application acknowledgement
 {% endhint %}
 
-<figure><img src="../../../../../.gitbook/assets/image (374).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (477).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Timelines Panel shows the status history and current status of the application
@@ -28,7 +28,7 @@ Timelines Panel shows the status history and current status of the application
 Once the application is approved the download button has the option to download coupon-pdf as well that looks as follows:
 {% endhint %}
 
-<figure><img src="../../../../../.gitbook/assets/image (308).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (585).png" alt=""><figcaption></figcaption></figure>
 
 #### **Approve, Reject & Send-Back Bill Amendment** <a href="#approve-reject-and-send-back-bill-amendment" id="approve-reject-and-send-back-bill-amendment"></a>
 
@@ -40,11 +40,11 @@ The Application Details page of the bill amendment contains the Take Action butt
 * Reject → Approver can Reject the application by giving a reason in the comments section displayed in the action modal.
 * Send-Back → Approver can send back the application to the counter employee after giving the reason in the action modal. This option is used when there is an error in the application or something needs to be changed by the counter employee.
 
-<figure><img src="../../../../../.gitbook/assets/image (294).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (560).png" alt=""><figcaption></figcaption></figure>
 
 For Counter Employees, the action bar is not visible until the approver sends the application back to the counter employee. It is visible when the approver sends back the application and it shows an option to resubmit using which the counter employee can submit the application again.
 
-<figure><img src="../../../../../.gitbook/assets/image (338).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (517).png" alt=""><figcaption></figcaption></figure>
 
 ## Implementation Details
 

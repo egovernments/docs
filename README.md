@@ -14,7 +14,7 @@ Building an urban governance platform to catalyze digital transformation across 
 
 DIGIT Urban Stack is a set of Open APIs, services, and reference implementations, set up as a public good, to allow government entities, businesses, startups, and civil society to use a unique digital Infrastructure and build solutions for urban India at a large scale. It provides a set of open standards, specifications and documentation to create a level playing field and enable ecosystem players to innovate on the stack. As a public good, the platform is provided without profit or restriction to all members of society.
 
-![](<.gitbook/assets/image (94) (1).png>)
+![](<.gitbook/assets/image (94).png>)
 
 ![](<.gitbook/assets/image (92) (1).png>)
 

@@ -12,7 +12,7 @@ description: >-
 
 To provide user facilities to add new W\&S connection applications and view the details of the connection and application currently on their number. It also allows the users to update the connection or edit the application.
 
-![](<../../../../../.gitbook/assets/image (48).png>)
+![](<../../../../../.gitbook/assets/image (372).png>)
 
 **Water & Sewerage Create**
 
@@ -22,13 +22,13 @@ Users can add new connections using the Apply For New Connection button. The wor
 
 WNS information screen is displayed after login, which helps the user to understand the necessary documents needed to complete the new registration for a new connection.
 
-![](<../../../../../.gitbook/assets/image (132).png>)
+![](<../../../../../.gitbook/assets/image (428).png>)
 
 **Property Details Flow:**
 
 Users can either add the property details by using the property search of commonPT or can choose to create a lightweight property using the commonPT create. Both screens lead users to the property details page, which displays a summary of the property selected or created.
 
-![](<../../../../../.gitbook/assets/image (61).png>)
+![](<../../../../../.gitbook/assets/image (339).png>)
 
 **Connection Details Flow:**
 
@@ -47,13 +47,13 @@ sewarage_create: "/sw-services/swc/_create",
 ```
 {% endcode %}
 
-<figure><img src="../../../../../.gitbook/assets/image (109).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (405).png" alt=""><figcaption></figcaption></figure>
 
 **Document Details:**
 
 Users can upload all documents related to the data entered. The list of documents is controlled by the MDMS data and hence can be modified as per requirements.
 
-![](<../../../../../.gitbook/assets/image (62).png>)
+![](<../../../../../.gitbook/assets/image (380).png>)
 
 Check Page & Acknowledgement Screens:
 
@@ -70,7 +70,7 @@ sewarage_update: "/sw-services/swc/_update"
 
 If the API response is successful, then the Acknowledgement Screen is displayed. Else, the Failed Acknowledgement Screen is displayed.
 
-![](<../../../../../.gitbook/assets/image (140).png>)![](<../../../../../.gitbook/assets/image (46).png>)
+![](<../../../../../.gitbook/assets/image (460).png>)![](<../../../../../.gitbook/assets/image (346).png>)
 
 ## **Technical Implementation Details**
 

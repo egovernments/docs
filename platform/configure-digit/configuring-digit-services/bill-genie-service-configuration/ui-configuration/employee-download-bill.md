@@ -6,17 +6,17 @@
 
 On the employee home screen, the Bill Genie module card contains the links related to Bill Genie screens.
 
-<figure><img src="../../../../../.gitbook/assets/image (307).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (577).png" alt=""><figcaption></figcaption></figure>
 
 ### **Download Bills Screen** <a href="#download-bills-screen" id="download-bills-screen"></a>
 
-<figure><img src="../../../../../.gitbook/assets/image (288).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (566).png" alt=""><figcaption></figcaption></figure>
 
 The process of downloading each bill and consolidating them in a single pdf happens at the backend(pdf-service).
 
 A snapshot of the details returned by the API is given below:
 
-<figure><img src="../../../../../.gitbook/assets/image (514).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (83).png" alt=""><figcaption></figcaption></figure>
 
 According to these details, the Status and corresponding Action details are shown in the results table.
 
@@ -34,7 +34,7 @@ When the status is complete and 24hrs have passed then the status shows expired 
 
 &#x20;A snapshot of resulting pdf is shown below:
 
-<figure><img src="../../../../../.gitbook/assets/image (523).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (85).png" alt=""><figcaption></figcaption></figure>
 
 ## **Technical Implementation Details** <a href="#technical-implementation-details" id="technical-implementation-details"></a>
 

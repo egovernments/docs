@@ -12,11 +12,11 @@ description: >-
 
 Users can review the list of connections and their status registered under their mobile number in the My Connections tab. Each connection in the initial view will display the Consumer No, Service Name, Consumer Name, status, and property Address with the View Details option, through which the User can look up more details about the connection.
 
-![](<../../../../../.gitbook/assets/image (87).png>)
+![](<../../../../../.gitbook/assets/image (370).png>)
 
 Once the user clicks on the View Details button, the Connection Details page is displayed with all the necessary information about the connection.
 
-![](<../../../../../.gitbook/assets/image (79).png>)
+![](<../../../../../.gitbook/assets/image (367).png>)
 
 The link provided in the connection details page is similar to the link provided in the applications details page, eg Consumption details, for more reference [Citizen: Water & Sewerage - My Applications](citizen-my-applications.md)
 

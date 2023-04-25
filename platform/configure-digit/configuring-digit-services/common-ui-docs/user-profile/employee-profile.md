@@ -12,7 +12,7 @@ The user profile page allows users to manage user information. Users can add the
 
 Employees can access the User Profile page by clicking on the Edit Profile icon at the top app bar.
 
-![](<../../../../../.gitbook/assets/image (486).png>)
+![](<../../../../../.gitbook/assets/image (333).png>)
 
 Below are the fields employees can edit as per the given validation.
 

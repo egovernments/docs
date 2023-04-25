@@ -14,20 +14,20 @@ The Create Bill Amendment flow starts when the user clicks on the action Bill Am
 Bill Amendment action will only be enabled when a bill is generated and an amount is due.
 {% endhint %}
 
-<figure><img src="../../../../../.gitbook/assets/image (515).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (90).png" alt=""><figcaption></figcaption></figure>
 
 Clicking on apply continues the flow and renders the bill amendment apply page.
 
-<figure><img src="../../../../../.gitbook/assets/image (262).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (568).png" alt=""><figcaption></figcaption></figure>
 
 * Here the user can enter the required details, like whether the user wants to apply for a Reduced amount(Rebate) or an additional amount(penalty). Other details can be understood from the screen itself.
 * Apart from the details users also have the option to add a Rebate/ Penalty that is not covered under the default tax heads and is shown at the bottom as an Adhoc rebate/penalty.
 
-<figure><img src="../../../../../.gitbook/assets/image (263).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (559).png" alt=""><figcaption></figcaption></figure>
 
 When a user clicks on Submit and all the validations on frontend are successful then a create post request is sent the this API endpoint “`/billing-service/amendment/_create?`“ with an Amendment Object in the body(payload) which contains all the required details to apply for the amendment and a corresponding success/failure acknowledgement screen is shown on the screen.
 
-<figure><img src="../../../../../.gitbook/assets/image (292).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (572).png" alt=""><figcaption></figcaption></figure>
 
 ## Technical Implementation Details
 

@@ -6,11 +6,11 @@
 
 On the employee home screen, the Bill Genie module card contains the links related to Bill Genie screens.
 
-<figure><img src="../../../../../.gitbook/assets/image (333).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (511).png" alt=""><figcaption></figcaption></figure>
 
 ### **Group Bills Screen** <a href="#group-bills-screen" id="group-bills-screen"></a>
 
-<figure><img src="../../../../../.gitbook/assets/image (342).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (514).png" alt=""><figcaption></figcaption></figure>
 
 #### Parameters required for searching a bill: <a href="#parameters-required-for-searching-a-bill" id="parameters-required-for-searching-a-bill"></a>
 
@@ -22,7 +22,7 @@ On the employee home screen, the Bill Genie module card contains the links relat
 
 ### **Search Results** <a href="#search-results" id="search-results"></a>
 
-<figure><img src="../../../../../.gitbook/assets/image (520).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
 
 * Search Results are shown in a Tabular format with the columns as displayed above.
 * When the user clicks on a bill number cell that bill is downloaded as a pdf
@@ -31,7 +31,7 @@ On the employee home screen, the Bill Genie module card contains the links relat
 
 There is a download button at the top right of the Group Bill screen. Clicking on this button opens a download menu.
 
-<figure><img src="../../../../../.gitbook/assets/image (524).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (73).png" alt=""><figcaption></figcaption></figure>
 
 The download options in the menu are dependent on the Service Category selected by the user
 
@@ -39,11 +39,11 @@ The download options in the menu are dependent on the Service Category selected 
 
 Clicking on these options displays an appropriate toast message and a job is started at the backend side to consolidate these bills as a single pdf. This job is done in the background. The single pdf can be downloaded from the download bill screen. Download bill screen also shows the status of these jobs such as completion percentage, success, and failure and also has the option to retry if the job fails at the backend.
 
-<figure><img src="../../../../../.gitbook/assets/image (347).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (506).png" alt=""><figcaption></figcaption></figure>
 
 If other services are selected then only one option is shown which is merge & download which consolidates and downloads all the bills as a single pdf
 
-<figure><img src="../../../../../.gitbook/assets/image (519).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (74).png" alt=""><figcaption></figcaption></figure>
 
 ## **Technical Implementation Details** <a href="#technical-implementation-details" id="technical-implementation-details"></a>
 

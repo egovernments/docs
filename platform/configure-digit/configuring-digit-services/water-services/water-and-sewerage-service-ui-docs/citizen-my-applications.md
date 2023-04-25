@@ -12,23 +12,23 @@ description: >-
 
 Users can review the list of applications and their status registered under their mobile numbers in the My Applications tab. Each application for the initial view displays Application No., Service Name, Consumer Name, Property Id, Status, SLA and Property Address with the View Details option, through which the user can look up more details about the application.
 
-![](<../../../../../.gitbook/assets/image (49).png>)
+![](<../../../../../.gitbook/assets/image (355).png>)
 
 Once the user clicks on the View Details button, the Application Details page is displayed with all the necessary information about the application.
 
-![](<../../../../../.gitbook/assets/image (126).png>)
+![](<../../../../../.gitbook/assets/image (439).png>)
 
 There are two links provided in the application details screen. One is for Property Details which allows users to see the in-depth details of the property associated with the application. The other is available on the Connection Details page to view the Additional Details of the connection for the application.
 
-![](<../../../../../.gitbook/assets/image (95).png>)
+![](<../../../../../.gitbook/assets/image (467).png>)
 
-![](<../../../../../.gitbook/assets/image (104).png>)
+![](<../../../../../.gitbook/assets/image (416).png>)
 
 **Timeline Component**
 
 The Timeline component is present at the end of the application details which tells about the current status and history of the application (open to edit, approve, reject, or closed).
 
-![](<../../../../../.gitbook/assets/image (86).png>)
+![](<../../../../../.gitbook/assets/image (358).png>)
 
 ## **Technical Implementation Details**
 

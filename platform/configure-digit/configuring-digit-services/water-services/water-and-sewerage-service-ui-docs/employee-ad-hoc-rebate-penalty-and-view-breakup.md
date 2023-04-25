@@ -14,15 +14,15 @@ description: >-
 
 The Water and Sewerage ad-hoc Rebate/Penalty is a feature in WS Module. It allows employees to add rebates or penalties for Water and Sewerage Applications.
 
-<figure><img src="../../../../../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (337).png" alt=""><figcaption></figcaption></figure>
 
 &#x20;Clicking on the Add Rebate/Penalty option opens the popup with the fields.
 
-![](<../../../../../.gitbook/assets/image (112).png>)
+![](<../../../../../.gitbook/assets/image (420).png>)
 
 Clicking on the Add button on the pop-up screen closes the pop-up window and the filled-in data is updated in the Fee Estimate card.
 
-![](<../../../../../.gitbook/assets/image (98).png>)![](<../../../../../.gitbook/assets/image (152).png>)
+![](<../../../../../.gitbook/assets/image (427).png>)![](<../../../../../.gitbook/assets/image (431).png>)
 
 {% hint style="info" %}
 **Note:** After adding add rebate/penalty, we must perform at least one action, then only it will save the data in WS/SW service. Estimated API will give the results based on the data, presently we are saving the data in the additional details of the WS/SW service.\
@@ -37,11 +37,11 @@ After logging in with `Water and sewerage employee` roles the user gets the opti
 
 WS/SW Application details: [Employee: Water and Sewerage Application Details](employee-application-details.md)
 
-<figure><img src="../../../../../.gitbook/assets/image (121).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (422).png" alt=""><figcaption></figcaption></figure>
 
 Clicking on the View Breakup option opens the popup with the updated data.
 
-![](<../../../../../.gitbook/assets/image (51).png>)
+![](<../../../../../.gitbook/assets/image (350).png>)
 
 ## **Implementation Details**
 

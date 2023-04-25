@@ -10,21 +10,21 @@ description: >-
 
 ## Connection Details
 
-<figure><img src="../../../../../.gitbook/assets/image (158).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (412).png" alt=""><figcaption></figcaption></figure>
 
 The Connection Details page provides the details about the connection, the property which is used to create the connection and the owner details of the property. The same can be downloaded as a PDF file or printed directly from the page.
 
 Employees will be able to open the “View Consumption Details” page from the “Connection Details” page for the Metered Reading Connection. The Consumption Details page will provide more options like adding details of the consumed water charges.
 
-<figure><img src="../../../../../.gitbook/assets/image (65).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (362).png" alt=""><figcaption></figcaption></figure>
 
 Users have the option to add new meter readings. Clicking on it displays a pop-up, where the user can fill in the asked details and click on submit to add a new meter reading for the connection.
 
-![](<../../../../../.gitbook/assets/image (254).png>)
+![](<../../../../../.gitbook/assets/image (567).png>)
 
 #### Downloads
 
-![](<../../../../../.gitbook/assets/image (281).png>)
+![](<../../../../../.gitbook/assets/image (562).png>)
 
 ## Technical Implementation Details
 

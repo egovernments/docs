@@ -1039,41 +1039,41 @@ National DSS contains the following charts in mCollect:
 * **Total Receipts :** This represents the total number of receipts
 * **Number of Categories :** This represents the total number of categories
 
-![](<../../../../.gitbook/assets/image (502).png>)
+![](<../../../../.gitbook/assets/image (309).png>)
 
 **Total Cumulative Collection -** This graph illustrates the mCollect collection amount information in the monthly base as a cumulative line graph. The graph changes as per the denomination amount filter selection.
 
 **line** - this graph/chart is data representation on date histograms or date groupings.
 
-![](<../../../../.gitbook/assets/image (274).png>)
+![](<../../../../.gitbook/assets/image (583).png>)
 
 **Receipts by Payment Mode -** The graph shows the number of receipts based on the payment mode.
 
-![](<../../../../.gitbook/assets/image (499).png>)
+![](<../../../../.gitbook/assets/image (322).png>)
 
 **Collection by Payment Mode -** This graph shows the collection amount based on the payment mode.
 
-![](<../../../../.gitbook/assets/image (488).png>)
+![](<../../../../.gitbook/assets/image (317).png>)
 
 **Challan Count by Status -** This graph shows the number of challans based on the status.
 
-![](<../../../../.gitbook/assets/image (260).png>)
+![](<../../../../.gitbook/assets/image (571).png>)
 
 **Receipts Count by Status -**This graph shows the number of receipts based on the status.
 
-![](<../../../../.gitbook/assets/image (32).png>)
+![](<../../../../.gitbook/assets/image (549).png>)
 
 **Collection by Status -** This graph shows the collection amount based on the status.
 
-![](<../../../../.gitbook/assets/image (18).png>)
+![](<../../../../.gitbook/assets/image (551).png>)
 
 **Top Categories Collection -** This graph shows the collection amount based on the categories, in descending order.
 
-![](<../../../../.gitbook/assets/image (496).png>)
+![](<../../../../.gitbook/assets/image (318).png>)
 
 **Monthly Collection -** This graph shows the total collection and number of receipts for each month.
 
-![](<../../../../.gitbook/assets/image (36).png>)
+![](<../../../../.gitbook/assets/image (533).png>)
 
 **Collection Report**
 
@@ -1085,19 +1085,19 @@ _**xtable**_ type allows to add multiple computed fields with the aggregated fie
 
 To add multiple computed columns,  define **computedFields** \[]  where actionName (IComputedField\<T> interface), fields \[] names as in exist in query key, and newField as the name for the computation.
 
-![](<../../../../.gitbook/assets/image (9).png>)
+![](<../../../../.gitbook/assets/image (537).png>)
 
 Clicking on any State name provides drill down charts that represent the specific ULB data.
 
-![](<../../../../.gitbook/assets/image (329).png>)
+![](<../../../../.gitbook/assets/image (524).png>)
 
 Clicking on the ULB offers a drill-down view of the data for the Wards for the specified ULB. Clicking on any ward displays the ward level data.
 
-![](<../../../../.gitbook/assets/image (508).png>)
+![](<../../../../.gitbook/assets/image (326).png>)
 
 **Category -** shows the category wise data for Total Collections, Number of Challans and Number of Receipts.
 
-![](<../../../../.gitbook/assets/image (30).png>)
+![](<../../../../.gitbook/assets/image (543).png>)
 
 #### **Index Properties of National mCollect** <a href="#index-properties-of-national-mcollect" id="index-properties-of-national-mcollect"></a>
 

@@ -383,7 +383,7 @@ PGR service can be integrated with any organisation or system which wants to tra
 
 ## Interaction Diagram <a href="#interaction-diagram" id="interaction-diagram"></a>
 
-![](<../../../../.gitbook/assets/image (95) (1).png>)
+![](<../../../../.gitbook/assets/image (95).png>)
 
 ## Reference Docs <a href="#interaction-diagram" id="interaction-diagram"></a>
 

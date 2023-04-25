@@ -55,7 +55,7 @@ Filter component in DSS consists of 4 components:-
 
 The DateRange component is a styling wrapper around DateRangePicker plugin.
 
-![](<../../../../../.gitbook/assets/image (251).png>)
+![](<../../../../../.gitbook/assets/image (251) (1).png>)
 
 ### ULB / DDR Filter
 
@@ -89,13 +89,13 @@ Sample request header -
 
 The component in itself uses `MultiSelectDropdown` component
 
-![](<../../../../../.gitbook/assets/image (154).png>)
+![](<../../../../../.gitbook/assets/image (154) (1).png>)
 
 ### Denomination
 
 React Component named Switch which uses styled radio inputs.
 
-![](<../../../../../.gitbook/assets/image (142) (1).png>)
+![](<../../../../../.gitbook/assets/image (142).png>)
 
 #### Generic Chart
 
@@ -111,7 +111,7 @@ The MetricChart component is a wrapper component around the MetricChartRow compo
 
 The CustomAreaChart component is used to render line chart types. It can format data based on denomination filter data. It uses the AreaChart component from the recharts package to draw the chart.
 
-![](<../../../../../.gitbook/assets/image (126) (1).png>)
+![](<../../../../../.gitbook/assets/image (126).png>)
 
 #### Bar Chart
 
@@ -123,7 +123,7 @@ The CustomBarChart component is used to render the performing-metric chart type.
 
 The CustomHorizontalBarChart component is used to render horizontal bar chart type. It uses the BarChart component from the recharts package to draw the chart.
 
-![](<../../../../../.gitbook/assets/image (174) (1).png>)
+![](<../../../../../.gitbook/assets/image (174).png>)
 
 #### Pie Chart
 

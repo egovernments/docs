@@ -18,7 +18,7 @@ The CE can -
 
 The home page below is displayed once the employee logs onto the system.&#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (368).png" alt=""><figcaption></figcaption></figure>
 
 **Employee Inbox**&#x20;
 
@@ -32,9 +32,9 @@ The top feature menus are displayed on the left side. The filter panel on the le
 4. **Application Type** - It filters the application based on the application type selected and then displays the result on the right side window.
 5. **Application Status** - It appears only when the application type filter is selected and filters the application based on the application status selected and then displays the result on the right side window.
 
-<figure><img src="../../../../.gitbook/assets/image (89).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (366).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (378).png" alt=""><figcaption></figcaption></figure>
 
 The search parameters are displayed on the top right. This allows users to search the application by Application Number, Consumer Number, and Consumer’s/ Applicant’s Mobile Number.
 

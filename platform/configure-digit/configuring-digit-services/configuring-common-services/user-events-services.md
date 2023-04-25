@@ -24,7 +24,7 @@ Before you proceed make sure the following pre-requisites are met -
 
 ## Interaction Diagram <a href="#interaction-diagram" id="interaction-diagram"></a>
 
-![](<../../../../.gitbook/assets/image (542).png>)
+![](<../../../../.gitbook/assets/image (219).png>)
 
 ## Deployment Details <a href="#deployment-details" id="deployment-details"></a>
 

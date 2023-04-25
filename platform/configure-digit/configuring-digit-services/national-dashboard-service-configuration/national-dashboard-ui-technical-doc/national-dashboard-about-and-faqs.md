@@ -64,7 +64,7 @@ code
 
 **OUTPUT**
 
-<figure><img src="../../../../../.gitbook/assets/image (133).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (464).png" alt=""><figcaption></figcaption></figure>
 
 ## **Add Content**
 
@@ -82,7 +82,7 @@ To add the second sub-points we need to mention `subdefinePoints`
 
 If we need to remove the content we need to delete it according `titleHeader,define,definePoints, subdefine`, `subdefinePoints`
 
-<figure><img src="../../../../../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (353).png" alt=""><figcaption></figcaption></figure>
 
 ## **Overview - FAQ Page**&#x20;
 
@@ -120,7 +120,7 @@ To enhance the dashboard and make it more user-friendly, an FAQ page is to be de
 
 **OUTPUT**
 
-<figure><img src="../../../../../.gitbook/assets/image (114).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (413).png" alt=""><figcaption></figcaption></figure>
 
 ## **Add Content**
 
@@ -138,7 +138,7 @@ To add the Second sub-points we need to mention `subAnswer, point`
 
 If we need to remove the content we need to delete it according `question, answer, subAnswer, ans, point`
 
-<figure><img src="../../../../../.gitbook/assets/image (107).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (469).png" alt=""><figcaption></figcaption></figure>
 
 #### roleactions.json:- path:- ../../pb/ACCESSCONTROL-ACTIONS-TEST/actions-test.json <a href="#roleactions.json-hardbreak-path-..-..-pb-accesscontrol-actions-test-actions-test.json-hardbreak" id="roleactions.json-hardbreak-path-..-..-pb-accesscontrol-actions-test-actions-test.json-hardbreak"></a>
 

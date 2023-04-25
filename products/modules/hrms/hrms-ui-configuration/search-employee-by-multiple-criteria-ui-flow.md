@@ -18,13 +18,13 @@ Search
 
 The search screen has a pagination feature.
 
-![](<../../../../.gitbook/assets/image (165).png>)
+![](<../../../../.gitbook/assets/image (165) (1).png>)
 
 **On Hover** **of Roles Count**
 
 Logged Users can see the detailed assigned roles
 
-![](<../../../../.gitbook/assets/image (141) (1).png>)
+![](<../../../../.gitbook/assets/image (141).png>)
 
 On clicking upon Employee Id logged-in users are routed to the Employee Detail screen.
 

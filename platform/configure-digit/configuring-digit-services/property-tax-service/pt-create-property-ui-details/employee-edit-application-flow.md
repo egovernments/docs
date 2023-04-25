@@ -6,7 +6,7 @@
 
 The Edit form can be used to update the details of an approved property, or whenever an application is in a workflow state that allows/require employees to make changes.
 
-![](<../../../../../.gitbook/assets/image (241).png>)
+![](<../../../../../.gitbook/assets/image (241) (1).png>)
 
 All the updatable Input fields are enabled, and all the fields related to owner details are disabled.
 
@@ -26,7 +26,7 @@ The Update API is supplied with updated property values from the form. All units
 
 If the Property Update is successful. then the employee is directed to the Acknowledgement screen. The screen displays the Acknowledgement Id and the option to download a pdf copy of the acknowledgement containing property details.
 
-![](<../../../../../.gitbook/assets/image (212) (1).png>)
+![](<../../../../../.gitbook/assets/image (212).png>)
 
 ## **Role Action Mapping**
 

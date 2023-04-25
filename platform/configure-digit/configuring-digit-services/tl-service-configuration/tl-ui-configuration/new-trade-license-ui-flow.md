@@ -16,7 +16,7 @@ Clicking on New Application navigates to the New Trade License Application scree
 
 Route:[ ![](https://cdn.jsdelivr.net/npm/@egovernments/digit-ui-css/img/browser-icon.png)mSeva](https://qa.digit.org/digit-ui/employee/tl/new-application)
 
-![](<../../../../../.gitbook/assets/image (152) (1).png>)
+![](<../../../../../.gitbook/assets/image (152).png>)
 
 File Path:[ <img src="https://github.com/fluidicon.png" alt="" data-size="line">digit-ui-internals/index.js at main · egovernments/digit-ui-internals](https://github.com/egovernments/digit-ui-internals/blob/main/packages/modules/tl/src/pages/employee/NewApplication/index.js)
 
@@ -45,7 +45,7 @@ documents:[ <img src="https://github.com/fluidicon.png" alt="" data-size="line">
 
 **Acknowledgement Screen**
 
-![](<../../../../../.gitbook/assets/image (132) (1).png>)
+![](<../../../../../.gitbook/assets/image (132).png>)
 
 After the success of creating and updating calls will route to the acknowledgement screen.
 

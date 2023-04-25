@@ -1442,41 +1442,41 @@ The national dashboard contains multiple graphs that represent the data of the n
 * **SLA Achievements:** Percentage of complaints resolved within SLA. This is calculated by the formula (Resolved complaints within SLA/Total Complaints) \* 100%
 *   **Completion Rate:** This represents the completion rate of raised complaints. This is calculated by the formula (Closed Complaints / Total Complaints) \* 100%
 
-    ![](<../../../../.gitbook/assets/image (351).png>)
+    ![](<../../../../.gitbook/assets/image (500).png>)
 
 **Cumulative Closed Complaints:** This graph contains the Total Complaints, Closed Complaints, and Reopened Complaints information on a monthly base in the form of cumulative line graphs. The graph changes as per the denomination amount filter selection.
 
 **line** - this graph/chart is data representation on date histograms or date groupings.
 
-![](<../../../../.gitbook/assets/image (118).png>)
+![](<../../../../.gitbook/assets/image (446).png>)
 
 **Complaint By Channel:** This graph shows the total number of complaints categorized by channel (eg Mobile, Web, etc) and it changes as per the denomination filter change.
 
-![](<../../../../.gitbook/assets/image (509).png>)
+![](<../../../../.gitbook/assets/image (315).png>)
 
 **Complaint By Department:** This graph shows the total number of complaints categorized by department and it changes as per the denomination filter change.
 
-![](<../../../../.gitbook/assets/image (483).png>)
+![](<../../../../.gitbook/assets/image (334).png>)
 
 **Complaint By Status:** This graph shows the total number of complaints categorized by status and it changes as per the denomination filter change. It shows the % of the top 4 properties, the remaining properties are reflected in the 'other' category.
 
-![](<../../../../.gitbook/assets/image (485).png>)
+![](<../../../../.gitbook/assets/image (321).png>)
 
 **Total Complaints by Status:** This graph shows the data in horizontal bar representation and bars contain complaints categorized by status (eg Mobile App, Web, etc) in monthly wide and non-cumulative data.
 
-![](<../../../../.gitbook/assets/image (33).png>)
+![](<../../../../.gitbook/assets/image (546).png>)
 
 **Average Solution Time:** This graph shows the average of (start to end) in a workflow, irrespective of status on a monthly basis as a line graph.
 
-![](<../../../../.gitbook/assets/image (171).png>)
+![](<../../../../.gitbook/assets/image (406).png>)
 
 **Unique Citizens:** This graph shows the number of Unique Citizens who have filed complaints on a monthly basis as a line graph.
 
-![](<../../../../.gitbook/assets/image (492).png>)
+![](<../../../../.gitbook/assets/image (312).png>)
 
 **Top Complaints:** This graph shows the total complaints based on category with the category having most of the registered complaints on top.
 
-![](<../../../../.gitbook/assets/image (5).png>)
+![](<../../../../.gitbook/assets/image (555).png>)
 
 **Service Report:** This tabular chart representation graph in the form of a xtable shows multiple National PGR information like Total Complaints, Closed Complaints, Opened Complaints, Reopened Complaints, Resolved Complaints, Assigned Complaints, Reassigned Complaints, Rejected Complaints, Completion Rate (in %) and SLA Achievement (in %). The table has two tabs. The first tab shows the State level data and provides the option to drill down the chart to the ULB level and from the ULB to the ward level data. The second is the Department level view which shows the data for the department categories.
 
@@ -1497,19 +1497,19 @@ _**xtable**_ type allows adding multiple computed fields with the aggregated fie
 
 To add multiple computed columns, define the **computedFields** \[]  where actionName (IComputedField\<T> interface), fields \[] names as existing in query key, newField as the name that appears on the computed field column.
 
-![](<../../../../.gitbook/assets/image (22).png>)
+![](<../../../../.gitbook/assets/image (534).png>)
 
 Clicking on any state name provides drill-down charts that represent the district-specific data:
 
-![](<../../../../.gitbook/assets/image (501).png>)
+![](<../../../../.gitbook/assets/image (311).png>)
 
 Clicking on the ULB navigates to the ward level data for the specific ULB and each ward shows the specific data for that ward.
 
-![](<../../../../.gitbook/assets/image (270).png>)
+![](<../../../../.gitbook/assets/image (580).png>)
 
 Clicking on the department tab navigates to the Departments and each department shows the specific data for that department.
 
-![](<../../../../.gitbook/assets/image (498).png>)
+![](<../../../../.gitbook/assets/image (300).png>)
 
 #### **Newly introduced property:** <a href="#newly-introduced-property" id="newly-introduced-property"></a>
 

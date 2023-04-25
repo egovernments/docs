@@ -8,7 +8,7 @@ Provide employees with the option to create Challan, by selecting the service ca
 
 ### **MCollect - Create Challan**
 
-<figure><img src="../../../../../.gitbook/assets/image (383).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (637).png" alt=""><figcaption></figcaption></figure>
 
 File Path:[ <img src="https://github.com/fluidicon.png" alt="" data-size="line">digit-ui-internals/CreateChallan.js at main · egovernments/digit-ui-internals](https://github.com/egovernments/digit-ui-internals/blob/main/packages/modules/mCollect/src/pages/employee/CreateChallan.js)
 
@@ -66,7 +66,7 @@ Actions available:
 2. Go to home
 3. Proceed to Payment
 
-![](<../../../../../.gitbook/assets/image (266).png>)
+![](<../../../../../.gitbook/assets/image (266) (1).png>)
 
 File Path:[ <img src="https://github.com/fluidicon.png" alt="" data-size="line">digit-ui-internals/EmployeeChallanAcknowledgement.js at main · egovernments/digit-ui-internals](https://github.com/egovernments/digit-ui-internals/blob/main/packages/modules/mCollect/src/pages/employee/EmployeeChallanAcknowledgement.js)
 

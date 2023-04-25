@@ -107,7 +107,7 @@ If a particular workflow is completed then, the application is said to be comple
 
 ![](<../../../../../.gitbook/assets/image (228) (1).png>)
 
-![](<../../../../../.gitbook/assets/image (213).png>)
+![](<../../../../../.gitbook/assets/image (213) (1).png>)
 
 ### **Technical Details**
 

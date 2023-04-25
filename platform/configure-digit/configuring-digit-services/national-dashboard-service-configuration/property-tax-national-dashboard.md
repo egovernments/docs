@@ -1751,27 +1751,27 @@ National DSS contains the following charts in Property Tax:
 * **Target Collection:** This represents the target collection amount.
 * **Target Achievement:** This represents the target achieved in percentage. This is calculated by formula- (Total Collection/Target Collection)\*100%
 
-![](<../../../../.gitbook/assets/image (530).png>)
+![](<../../../../.gitbook/assets/image (181).png>)
 
 **Total Cumulative Collection:** This graph contains the Property Tax collection amount information in the monthly base as a cumulative line graph. This will change as per the denomination amount filter selection.
 
 **line** - this graph/chart is data representation on date histograms or date groupings.
 
-![](<../../../../.gitbook/assets/image (591).png>)
+![](<../../../../.gitbook/assets/image (164).png>)
 
 **Top 3 Performing States By Completion -**This graph represents the States based on the target achieved in bar chart representation with the % of target achieved in descending order.
 
 &#x20;
 
-![](<../../../../.gitbook/assets/image (572).png>)
+![](<../../../../.gitbook/assets/image (129).png>)
 
 **Bottom 3 States by Performance -** This graph represents the States based on the target achieved in bar chart representation with the % of target achieved in ascending order.
 
-![](<../../../../.gitbook/assets/image (209).png>)
+![](<../../../../.gitbook/assets/image (3).png>)
 
 **Collection by Usage Type -** This graph shows the collection amount based on the usage/property type.
 
-![](<../../../../.gitbook/assets/image (540).png>)
+![](<../../../../.gitbook/assets/image (264).png>)
 
 **Key Financial Indicators**
 
@@ -1781,17 +1781,17 @@ _**xtable**_ type allows adding multiple computed fields with the aggregated fie
 
 To add multiple computed columns,  **computedFields** \[]  where actionName (IComputedField\<T> interface), fields \[] names as in existing query key, newField as name to appear for computation must be defined.
 
-![](<../../../../.gitbook/assets/image (526).png>)
+![](<../../../../.gitbook/assets/image (248).png>)
 
 Clicking on any State name provides a drill-down view of charts for the specific ULB level data.
 
-![](<../../../../.gitbook/assets/image (543).png>)
+![](<../../../../.gitbook/assets/image (291).png>)
 
 Clicking on the ULB navigates users to the wards specific data.
 
 **Usage -** shows the data in the form of connection type for the given time period. Usage Type, Total Collection, Transactions, Assessed Properties.
 
-![](<../../../../.gitbook/assets/image (580).png>)
+![](<../../../../.gitbook/assets/image (290).png>)
 
 **Tax Heads**
 
@@ -1799,17 +1799,17 @@ Clicking on the ULB navigates users to the wards specific data.
 
 _**table**_ type allows adding multiple aggregated fields.
 
-![](<../../../../.gitbook/assets/image (582).png>)
+![](<../../../../.gitbook/assets/image (298).png>)
 
 Clicking on the State name provides a drill down view of the specific ULB data in the form of charts.
 
-![](<../../../../.gitbook/assets/image (590).png>)
+![](<../../../../.gitbook/assets/image (240).png>)
 
 Clicking on the ULB navigates to the specific ward and displays the ward-level data insights.
 
 **Usage -** shows the data in form of Connection type for the given time period. Usage Type, Total Amount,Tax, Cess, Rebate, Penalty, Interest.
 
-![](<../../../../.gitbook/assets/image (605).png>)
+![](<../../../../.gitbook/assets/image (168).png>)
 
 **Service Tab**
 
@@ -1821,27 +1821,27 @@ Clicking on the ULB navigates to the specific ward and displays the ward-level d
 * **Total Assessments:** This represents the total Assessment of Properties.
 * **Completion Rate:** This represents Total Properties Assessed / Total Properties.
 
-![](<../../../../.gitbook/assets/image (578).png>)
+![](<../../../../.gitbook/assets/image (233).png>)
 
 **Total Cumulative Properties Assessed:** This Graph contains the Assessed Properties information in the monthly base as a cumulative line graph.
 
 **line** - this graph/chart is data representation on date histograms or date groupings.
 
-![](<../../../../.gitbook/assets/image (566).png>)
+![](<../../../../.gitbook/assets/image (279).png>)
 
 **Top 3 Performing States By Completion:** This graph represents the States based on the Assessed Properties of Total Properties Register in bar chart representation with the % in descending order.
 
-![](<../../../../.gitbook/assets/image (558).png>)
+![](<../../../../.gitbook/assets/image (282).png>)
 
 **Bottom 3 Performing States By Completion:** This graph represents the States based on the Assessed Properties of Total Properties Register in bar chart representation with the % in descending order.
 
 **Properties By Usage Type:** This circular chart represents the assessed properties as part of connection type like commercial, industrial, residential etc for the given time period.
 
-![](<../../../../.gitbook/assets/image (556).png>)
+![](<../../../../.gitbook/assets/image (202).png>)
 
 **Properties By Financial Year:** This table shows total number of properties which has been registered on the system for the financial years.
 
-![](<../../../../.gitbook/assets/image (575).png>)
+![](<../../../../.gitbook/assets/image (156).png>)
 
 **Index Properties of National Property Tax -** The index that contains data for National-PT is- _pt-national-dashboard._ The mapping details for this index is given below:
 

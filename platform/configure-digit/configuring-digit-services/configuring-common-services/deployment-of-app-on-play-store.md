@@ -27,7 +27,7 @@ Open the Google Play console by entering the URL ([https://play.google.com/apps/
 
 After login in the following screen can be seen.
 
-![](<../../../../.gitbook/assets/1 (2) (1).png>)
+![](<../../../../.gitbook/assets/1 (2).png>)
 
 Now on the top-right click on the Create Application button and you get a popup to enter the title of the apk. Refer to the screenshot below and click on create.
 
@@ -65,9 +65,9 @@ After that click on the “calculate Rating” then in the click “apply Rating
 
 Next will be the “Pricing and Distribution” in the “Right side Menu”. In this page we have the option to select the cost of APK to download or free, also select the countries app needs to be available and also answer the questionnaires that are asked and click on the save Drafts.
 
-![](<../../../../.gitbook/assets/9 (1).png>)
+![](<../../../../.gitbook/assets/9 (1) (1).png>)
 
-![](<../../../../.gitbook/assets/10 (1).png>)
+![](<../../../../.gitbook/assets/10 (1) (1).png>)
 
 Finally, again go the “App Release” in the right side menu and click on the “ Edit Release” button in the Production Track section and save the details and at the end click “Start role out to production” and click confirm.
 

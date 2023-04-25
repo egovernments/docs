@@ -8,7 +8,7 @@ Citizens represent individuals, groups or communities using the W\&S module onli
 
 The DIGIT citizen portal lists all citizen-centric services as well as the **Information and Updates** from the ULBs. Click on the **View All** button on the card to view the list of available citizen services.
 
-![](<../../../../.gitbook/assets/image (450).png>)![](<../../../../.gitbook/assets/image (364).png>)
+![](<../../../../.gitbook/assets/image (38).png>)![](<../../../../.gitbook/assets/image (519).png>)
 
 The citizens can -
 
@@ -39,14 +39,14 @@ To search by **Consumer Number** enter at least one of the following parameters:
 3. **Old Consumer Number**
 4. **Property ID**
 
-## ![](<../../../../.gitbook/assets/image (455).png>)![](<../../../../.gitbook/assets/image (435).png>)
+## ![](<../../../../.gitbook/assets/image (70).png>)![](<../../../../.gitbook/assets/image (64).png>)
 
 To search using connection details, enter at least one of the following parameters:&#x20;
 
 1. **Door Number**
 2. **Consumer’s Name**
 
-![](<../../../../.gitbook/assets/image (346).png>)![](<../../../../.gitbook/assets/image (464).png>)
+![](<../../../../.gitbook/assets/image (496).png>)![](<../../../../.gitbook/assets/image (65).png>)
 
 
 
@@ -54,7 +54,7 @@ The search result shows the list of connections filtered based on the entered se
 
 This button is visible only when there is any amount due for the specific connection.&#x20;
 
-![](<../../../../.gitbook/assets/image (356).png>)
+![](<../../../../.gitbook/assets/image (503).png>)
 
 ## View Application Details&#x20;
 
@@ -62,7 +62,7 @@ Citizens can view their applications to find status details, pending fees to be 
 
 To view applications - Click on the **My Applications** option in the W\&S service list. Click on the **View Details** button for the desired application to fetch the details.
 
-![](<../../../../.gitbook/assets/image (456).png>)![](<../../../../.gitbook/assets/image (441).png>)
+![](<../../../../.gitbook/assets/image (44).png>)![](<../../../../.gitbook/assets/image (39).png>)
 
 
 
@@ -72,7 +72,7 @@ The fee estimate section provides the amount details for applications where paym
 
 Click on the **Make Payment** button at the bottom of the application. The Pay option is enabled once the application is in Pending for Payment status.
 
-![](<../../../../.gitbook/assets/image (355).png>)![](<../../../../.gitbook/assets/image (360).png>)
+![](<../../../../.gitbook/assets/image (522).png>)![](<../../../../.gitbook/assets/image (490).png>)
 
 
 
@@ -82,11 +82,11 @@ The applications that are sent back to citizens for any correction or for the do
 
 Go to **My Applications** and scroll down to view the desired application. An application sent back to the citizen for correction will have the option to edit the application.
 
-![](<../../../../.gitbook/assets/image (348).png>)![](<../../../../.gitbook/assets/image (332).png>)
+![](<../../../../.gitbook/assets/image (502).png>)![](<../../../../.gitbook/assets/image (492).png>)
 
 Click on the **Submit** button once the required edits are done. This will display the success acknowledgement page. Click on the **Print Water Application** option to download and print the application.
 
-![](<../../../../.gitbook/assets/image (359).png>)![](<../../../../.gitbook/assets/image (460).png>)
+![](<../../../../.gitbook/assets/image (497).png>)![](<../../../../.gitbook/assets/image (55).png>)
 
 
 
@@ -96,11 +96,11 @@ Citizens can view their water or sewerage connection details through the portal.
 
 To view the connection details - Click on **My Connections** service from the WnS service list. The existing connections for the logged-in user are shown as the result.
 
-![](<../../../../.gitbook/assets/image (345).png>)![](<../../../../.gitbook/assets/image (432).png>)
+![](<../../../../.gitbook/assets/image (516).png>)![](<../../../../.gitbook/assets/image (66).png>)
 
 The **Connection Details** page displays the service details with the option to view consumption detail, **Property Details** with the option to **View Property** details, and **Connection Holder’s Details**. Scroll down the page to view these details.
 
-![](<../../../../.gitbook/assets/image (350).png>)![](<../../../../.gitbook/assets/image (446).png>)
+![](<../../../../.gitbook/assets/image (509).png>)![](<../../../../.gitbook/assets/image (54).png>)
 
 ## View Consumption Details
 
@@ -110,7 +110,7 @@ To check meter readings - Click on **My Connections** to view the registered con
 
 Click on the **View Consumption Details** button available in the Service Details on the **Connection Details** page. Scroll down the page to view past readings.
 
-![](<../../../../.gitbook/assets/image (465).png>)![](<../../../../.gitbook/assets/image (349).png>)
+![](<../../../../.gitbook/assets/image (53).png>)![](<../../../../.gitbook/assets/image (501).png>)
 
 
 
@@ -122,15 +122,15 @@ To apply for disconnection of a service - Click on **My Connections** service fr
 
 Click on **View Details** to view the complete details of the connection. Scroll down to find the connection for which the disconnection application is to be created and click on **View Details** to see the details and apply for disconnection.
 
-![](<../../../../.gitbook/assets/image (462).png>)![](<../../../../.gitbook/assets/image (357).png>)
+![](<../../../../.gitbook/assets/image (60).png>)![](<../../../../.gitbook/assets/image (484).png>)
 
 Click on the **Apply for Disconnection** button.
 
-![](<../../../../.gitbook/assets/image (452).png>)![](<../../../../.gitbook/assets/image (330).png>)
+![](<../../../../.gitbook/assets/image (71).png>)![](<../../../../.gitbook/assets/image (493).png>)
 
 Fill in the application detail and click on **Next** to attach the documents.
 
-![](<../../../../.gitbook/assets/image (362).png>)![](<../../../../.gitbook/assets/image (361).png>)
+![](<../../../../.gitbook/assets/image (513).png>)![](<../../../../.gitbook/assets/image (495).png>)
 
 
 
@@ -138,11 +138,11 @@ Upload the required documents and click on **Next** to proceed.&#x20;
 
 Verify the details in the **Summary** page, and edit the application if needed. Click on **Submit** to submit the application.
 
-![](<../../../../.gitbook/assets/image (372).png>)![](<../../../../.gitbook/assets/image (443).png>)
+![](<../../../../.gitbook/assets/image (521).png>)![](<../../../../.gitbook/assets/image (49).png>)
 
 The screen displays the option to **Download the Acknowledgement Form**. Click on **Go back to the home page** to navigate back to the home page.
 
-![](<../../../../.gitbook/assets/image (454).png>)![](<../../../../.gitbook/assets/image (447).png>)
+![](<../../../../.gitbook/assets/image (43).png>)![](<../../../../.gitbook/assets/image (56).png>)
 
 ## View & Pay Bills
 
@@ -150,7 +150,7 @@ The citizen portal allows users to view their existing connection details and pa
 
 To view and pay bills - Click on the **My Bills** option from the WnS service list. All the water and sewerage charges related bills are listed here which are due for payment.
 
-![](<../../../../.gitbook/assets/image (433).png>)![](<../../../../.gitbook/assets/image (160).png>)
+![](<../../../../.gitbook/assets/image (37).png>)![](<../../../../.gitbook/assets/image (470).png>)
 
 Click on **View Details and Pay** to make the payment. Follow the steps same as given in [Search and Pay](w-and-s-citizen-user-manual.md#search-and-pay).
 
@@ -162,7 +162,7 @@ To view past payment details - Click on the **My Payments** option on the W\&S s
 
 The system displays historic payment details. Scroll down to view all. Click on the **Download Receipt** button to download the payment receipt.
 
-![](<../../../../.gitbook/assets/image (106).png>)![](<../../../../.gitbook/assets/image (70).png>)
+![](<../../../../.gitbook/assets/image (471).png>)![](<../../../../.gitbook/assets/image (340).png>)
 
 ## Apply For New Connection
 
@@ -172,43 +172,43 @@ To apply click on **Apply for new connection** option in the WnS service list.
 
 Enter the required parameters in the **Search Property** page to find the property for which a new connection is to be applied.  Click on the **Select** button to select the&#x20;
 
-![](<../../../../.gitbook/assets/image (149).png>)![](<../../../../.gitbook/assets/image (82).png>)
+![](<../../../../.gitbook/assets/image (456).png>)![](<../../../../.gitbook/assets/image (354).png>)
 
 The system displays a page with the information on the documents required to apply for a new connection. Make sure these documents are available before proceeding with the application.&#x20;
 
 Click on the **Next** button to move to the application form.
 
-![](<../../../../.gitbook/assets/image (67).png>)![](<../../../../.gitbook/assets/image (162).png>)
+![](<../../../../.gitbook/assets/image (341).png>)![](<../../../../.gitbook/assets/image (437).png>)
 
 **Property Details** of the selected property are displayed. Click on **View More Details** to find additional details. Click on the **Change Property** option to apply for a different property.&#x20;
 
 Check the **Same as Owner Details** box if the connection holder is the same as the property owner. This will auto-fill the owner details in the **Connection Holder Details** section.
 
-![](<../../../../.gitbook/assets/image (139).png>)![](<../../../../.gitbook/assets/image (47).png>)
+![](<../../../../.gitbook/assets/image (409).png>)![](<../../../../.gitbook/assets/image (383).png>)
 
 In case the property owner is not the same as the applicant for the connection, enter the **Name**, **Gender**, **Mobile Number**, **Guardian Name**, **Relationship**, **Address**, and **Special Category** details for the applicant.&#x20;
 
 Click on the **Next** button to proceed.
 
-![](<../../../../.gitbook/assets/image (170).png>)![](<../../../../.gitbook/assets/image (161).png>)
+![](<../../../../.gitbook/assets/image (410).png>)![](<../../../../.gitbook/assets/image (463).png>)
 
 Select the relevant **Service Name**. Click on the **Next** button and then enter the **Water Connection Details** as applicable.&#x20;
 
 Click on the **Next** button to proceed.
 
-![](<../../../../.gitbook/assets/image (180).png>)![](<../../../../.gitbook/assets/image (38).png>)
+![](<../../../../.gitbook/assets/image (403).png>)![](<../../../../.gitbook/assets/image (376).png>)
 
 Attach the required documents. Click on the **Next** button to proceed.
 
-![](<../../../../.gitbook/assets/image (68).png>)![](<../../../../.gitbook/assets/image (129).png>)
+![](<../../../../.gitbook/assets/image (371).png>)![](<../../../../.gitbook/assets/image (462).png>)
 
 Review the application details on the **Summary** page before clicking on the **Submit** button. Click on the edit icon for the relevant section to make any changes.
 
-![](<../../../../.gitbook/assets/image (41).png>)![](<../../../../.gitbook/assets/image (50).png>)![](<../../../../.gitbook/assets/image (58).png>)![](<../../../../.gitbook/assets/image (83).png>)
+![](<../../../../.gitbook/assets/image (335).png>)![](<../../../../.gitbook/assets/image (342).png>)![](<../../../../.gitbook/assets/image (352).png>)![](<../../../../.gitbook/assets/image (360).png>)
 
 The application is submitted and the success page is displayed. Click on the **Print Water Application** option to download and print the application.
 
-![](<../../../../.gitbook/assets/image (181).png>)
+![](<../../../../.gitbook/assets/image (452).png>)
 
 {% hint style="info" %}
 **Note:** The application is processed by the ULB employees who verify the attached documents and carry out field inspections before the final approval. The citizen is allotted a unique consumer number once the application is processed and approved.

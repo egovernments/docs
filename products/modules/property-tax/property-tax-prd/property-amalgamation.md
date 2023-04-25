@@ -118,7 +118,7 @@ Approval of Application - The application is approved by the approver and the ch
 
 Payment of application fee - In the case the application fee is applicable, the changes related to amalgamation come into effect only after the payment of the application fee.
 
-<figure><img src="../../../../.gitbook/assets/image (444).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (67).png" alt=""><figcaption></figcaption></figure>
 
 ### **Application Form** <a href="#application-form" id="application-form"></a>
 
@@ -192,21 +192,21 @@ Screenshots are attached below.&#x20;
 
 Apply for amalgamation
 
-<figure><img src="../../../../.gitbook/assets/image (367).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (485).png" alt=""><figcaption></figcaption></figure>
 
 Login into the account (If not already logged in)
 
-<figure><img src="../../../../.gitbook/assets/image (438).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
 
 Select retaining the property for amalgamation&#x20;
 
 The user will be displayed all the properties currently linked with the logged-in account and allowed to select one of them as a retaining property.
 
-<figure><img src="../../../../.gitbook/assets/image (457).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
 
 The retaining property address and ownership details is displayed on apply.
 
-<figure><img src="../../../../.gitbook/assets/image (449).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
 
 Select a property to merge&#x20;
 
@@ -217,19 +217,19 @@ The user will be displayed a list of all those properties which are owned by him
 * The property should be active property, **also there should not be any application in flow for an integrated module associated with the property.**&#x20;
 * The property should belong to the same locality as the retaining property.
 
-<figure><img src="../../../../.gitbook/assets/image (442).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>
 
 Modify the assessment details of retaining property&#x20;
 
 * Property Type&#x20;
 * Plot Size
 
-<figure><img src="../../../../.gitbook/assets/image (439).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
 
 * Number of basements&#x20;
 * Number of floors
 
-<figure><img src="../../../../.gitbook/assets/image (344).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (505).png" alt=""><figcaption></figcaption></figure>
 
 Unit details&#x20;
 
@@ -239,11 +239,11 @@ Unit details&#x20;
 * Built-up Area&#x20;
 * Annual Rental
 
-<figure><img src="../../../../.gitbook/assets/image (341).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (487).png" alt=""><figcaption></figcaption></figure>
 
 In case the property type is ‘Flat’, flat details are modified.
 
-<figure><img src="../../../../.gitbook/assets/image (434).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
 
 In the case property type is vacant land, vacant land details are modified.
 
@@ -253,7 +253,7 @@ Documents attachment and summary of the application
 
 <figure><img src="https://lh6.googleusercontent.com/FzYpT4agDDCHYz6kEkSKBgNZhbr4RcEWHqOOyPUA_lnRIGjxlywNFG-vruOy72SERphC7O2ZYfWLg8-xhYSjvt5c20b4GJ62CV09Pz8a6HULDfmz1WSEOlVFVWJqgxsV6_53N02DsJW-35zkXbrFbzVNe3T7CyX1GN-0pmSzGbhRUk5msbfycY22" alt=""><figcaption></figcaption></figure>
 
-![](<../../../../.gitbook/assets/image (371).png>)![](<../../../../.gitbook/assets/image (369).png>)
+![](<../../../../.gitbook/assets/image (483).png>)![](<../../../../.gitbook/assets/image (499).png>)
 
 ### Employee
 
@@ -261,21 +261,21 @@ Documents attachment and summary of the application
 
 Property is searched and property details are viewed.​​​​
 
-<figure><img src="../../../../.gitbook/assets/image (458).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (461).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
 
 Select the action ‘Amalgamate Property’ from the action list.​​​​​​​​​​
 
-<figure><img src="../../../../.gitbook/assets/image (377).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (523).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (459).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (69).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (437).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (448).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (331).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (476).png" alt=""><figcaption></figcaption></figure>
 
 ## Use Case Scenarios
 

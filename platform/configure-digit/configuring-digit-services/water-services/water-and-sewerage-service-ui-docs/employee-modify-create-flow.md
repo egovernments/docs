@@ -16,9 +16,9 @@ Once a new application connection is activated, the system generates the consume
 \
 Clicking on the Take Action button displays multiple options based on conditions. Clicking on the Modify Connection option routes users to the modify screen.
 
-<figure><img src="../../../../../.gitbook/assets/image (69).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (338).png" alt=""><figcaption></figcaption></figure>
 
-![](<../../../../../.gitbook/assets/image (141).png>)
+![](<../../../../../.gitbook/assets/image (474).png>)
 
 #### **Validations** <a href="#validations" id="validations"></a>
 
@@ -28,7 +28,7 @@ Clicking on the Take Action button displays multiple options based on conditions
 
 #### **Acknowledgement screen**
 
-<figure><img src="../../../../../.gitbook/assets/image (311).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (589).png" alt=""><figcaption></figcaption></figure>
 
 #### W\&S-Application <a href="#w-and-s-application" id="w-and-s-application"></a>
 
@@ -38,7 +38,7 @@ Creating an application on the water and sewerage module generates an acknowledg
 
 Users can download the acknowledgement after submitting the W\&S Create application.
 
-<figure><img src="../../../../../.gitbook/assets/image (310).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (586).png" alt=""><figcaption></figcaption></figure>
 
 ## Technical Implementation Details
 

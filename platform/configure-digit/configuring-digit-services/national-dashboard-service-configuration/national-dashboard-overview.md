@@ -1612,27 +1612,27 @@ National DSS consists of the following charts on the Overview page:
 * **Target Collection:** This represents the aggregated target collection amount from the module, PropertyTax, TradeLicense, Water\&Sewerage.
 * **Target Achievement:** This represents the aggregated target achieved in percentage. This is calculated by formula- (Total Collection(PT, TL, W\&S)/Target Collection(PT, TL, W\&S))\*100%
 
-![](<../../../../.gitbook/assets/image (552).png>)
+![](<../../../../.gitbook/assets/image (296).png>)
 
 **Total Cumulative Collection -** This graph contains an aggregated amount of the modules PropertyTax, TradeLicense, Water\&Sewerage, FireNoc, OBPS, and mCollect. Collection of amount information on a monthly base as a cumulative line graph. This changes as per the denomination amount filter selection.
 
 **line** - this graph/chart is data representation on date histograms or date groupings.
 
-![](<../../../../.gitbook/assets/image (593).png>)
+![](<../../../../.gitbook/assets/image (289).png>)
 
 **Total Cumulative Collection (Service Wise) -** This graph represents the module-wise collection for the given period of time.
 
 Modules are - PropertyTax, TradeLicense, Water\&Sewerage, FireNoc, OBPS, and mCollect.
 
-![](<../../../../.gitbook/assets/image (589).png>)
+![](<../../../../.gitbook/assets/image (145).png>)
 
 **Top 3 Performing States By Performance -** This graph represents the States based on the aggregated target achieved from the modules PropertyTax, TradeLicense, Water\&Sewerage in bar chart representation with the % of target achieved in descending order.
 
-![](<../../../../.gitbook/assets/image (560).png>)
+![](<../../../../.gitbook/assets/image (157).png>)
 
 **Bottom 3 Performing States By Performance -** This graph represents the States based on the aggregated target achieved from the modules PropertyTax, TradeLicense, Water\&Sewerage in bar chart representation with the % of target achieved in ascending order.
 
-![](<../../../../.gitbook/assets/image (536).png>)
+![](<../../../../.gitbook/assets/image (144).png>)
 
 
 
@@ -1645,24 +1645,24 @@ Modules are - PropertyTax, TradeLicense, Water\&Sewerage, FireNoc, OBPS, and mCo
 * **SLA Achievement:** This represents the total no of applications closed within the time from common-index across the modules.
 * **Citizen Registered:** This represents the total no of Citizen Registered from common-index across the modules.
 
-![](<../../../../.gitbook/assets/image (561).png>)
+![](<../../../../.gitbook/assets/image (169).png>)
 
 **Total & Closed Applications -** This line chart represents the total and closed applications graph month-wise (non-cumulative) aggregated data lines from the modules PropertyTax, TradeLicense, Water\&Sewerage, FireNoc, and OBPS.
 
-![](<../../../../.gitbook/assets/image (541).png>)
+![](<../../../../.gitbook/assets/image (268).png>)
 
 **Total Applications(Service Wise) -** This graph represents the module-wise application registered.
 
 Modules are - PropertyTax, TradeLicense, Water\&Sewerage, FireNoc, and OBPS.
 
-![](<../../../../.gitbook/assets/image (596).png>)
+![](<../../../../.gitbook/assets/image (193).png>)
 
 **Top 3 Performing States By Completion -** This graph represents the States based on the aggregated data by application closed within SLA from the modules PropertyTax, TradeLicense, Water\&Sewerage, OBPS and Firenoc in bar chart representation with the % of completion in descending order.
 
-![](<../../../../.gitbook/assets/image (534).png>)
+![](<../../../../.gitbook/assets/image (171).png>)
 
 **Bottom 3 Performing States By Completion -** This graph represents the States based on the aggregated data by application closed within SLA from the modules PropertyTax, TradeLicense, Water\&Sewerage, OBPS and Firenoc in bar chart representation with the % of completion in ascending order.
 
-![](<../../../../.gitbook/assets/image (600).png>)
+![](<../../../../.gitbook/assets/image (213).png>)
 
 \

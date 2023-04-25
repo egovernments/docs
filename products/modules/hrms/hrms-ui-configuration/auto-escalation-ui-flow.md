@@ -12,7 +12,7 @@ The auto-escalation option provides employees with the option to view all escala
 
 Route - [https://egov-micro-uat.egovernments.org/employee/inbox](https://egov-micro-uat.egovernments.org/employee/inbox)
 
-![](<../../../../.gitbook/assets/image (133) (1).png>)
+![](<../../../../.gitbook/assets/image (133).png>)
 
 ## **Technical Implementation Details**
 

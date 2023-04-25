@@ -1326,7 +1326,7 @@ More details about the respective charts are discussed below.
 * **Today's Collection -** This represents the day’s collection amount for OBPS Application Fee + Permit Fee.
 * **Total Collection** - This represents the total collection amount for OBPS Application Fee + Permit Fee.
 
-![](<../../../../.gitbook/assets/image (29).png>)
+![](<../../../../.gitbook/assets/image (541).png>)
 
 **Overview-Service:** This chart illustrates multiple data information as below for the selected time period.
 
@@ -1339,7 +1339,7 @@ More details about the respective charts are discussed below.
 * **Avg. days to issue OC** - This represents the average number of days taken to issue an OC.
 * **SLA Compliance (OC)** - This represents the percentage of OCs issued within SLA
 
-![](<../../../../.gitbook/assets/image (489).png>)
+![](<../../../../.gitbook/assets/image (319).png>)
 
 &#x20;
 
@@ -1347,55 +1347,55 @@ More details about the respective charts are discussed below.
 
 **line** - this graph/chart is data representation on date histograms or date groupings.
 
-![](<../../../../.gitbook/assets/image (271).png>)
+![](<../../../../.gitbook/assets/image (581).png>)
 
 **Total permits issued vs Total OC submitted vs Total OC issued:** This graph shows total permits issued vs total OC submitted vs total OC issued for a given time period in the form of a line chart.
 
 **line** - this graph/chart is data representation on date histograms or date groupings.
 
-![](<../../../../.gitbook/assets/image (481).png>)
+![](<../../../../.gitbook/assets/image (313).png>)
 
 **Collection by Payment Mode:** This pie chart shows the bifurcation of total collections by payment mode (online, cash, card, cheque) which is the sum of revenue collected from the OBPS module for the applied date filter.
 
-![](<../../../../.gitbook/assets/image (17).png>)
+![](<../../../../.gitbook/assets/image (538).png>)
 
 &#x20;
 
 **Top 3 Performing States:** This card shows the top 3 performing states/ULBs/wards based on the percentage of permits issued. Number of Permits issued / Number of applications
 
-&#x20;![](<../../../../.gitbook/assets/image (336).png>)
+&#x20;![](<../../../../.gitbook/assets/image (488).png>)
 
 Clicking on the Show More option displays the data for all states.
 
-![](<../../../../.gitbook/assets/image (368).png>)
+![](<../../../../.gitbook/assets/image (518).png>)
 
 **Bottom 3 Performing States:** This card shows the bottom 3 performing states/ULBs/wards based on the percentage of permits issued. Number of Permits issued / Number of applications
 
-![](<../../../../.gitbook/assets/image (487).png>)
+![](<../../../../.gitbook/assets/image (323).png>)
 
 Clicking on the Show More option displays the data for all states.
 
-![](<../../../../.gitbook/assets/image (304).png>)
+![](<../../../../.gitbook/assets/image (564).png>)
 
 **Permits Issued by Risk Type:** This pie chart illustrates the bifurcation of total permits issued by risk type (low risk, medium risk, high risk) for the applied date filter.
 
-![](<../../../../.gitbook/assets/image (507).png>)
+![](<../../../../.gitbook/assets/image (307).png>)
 
 **Permits Issued by Occupancy Type:** This pie chart illustrates the bifurcation of total permits issued by occupancy type (Residential, Institutional etc) for the applied date filter.
 
-![](<../../../../.gitbook/assets/image (93).png>)
+![](<../../../../.gitbook/assets/image (472).png>)
 
 **Service Report:** This tabular chart representation graph shows information about multiple OBPS metrics like Total Collection or Total Cumulative Collection, Total Plans Scrutinized, Total applications submitted, Total permits issued, Avg. days to issue a permit, SLA Compliance (Permits), Total OC Plans scrutinized, Total OC submitted, Total OC issued, Deviation Percentage, Avg. days to issue OC, SLA Compliance (OC), and Total OCs with deviation. The table displays the data at the state level and also provides a drill down chart from state to ULB and from ULB to ward level.
 
-![](<../../../../.gitbook/assets/image (102).png>)
+![](<../../../../.gitbook/assets/image (468).png>)
 
 Clicking on the state name provides drill-down charts representing the state-specific data.
 
-![](<../../../../.gitbook/assets/image (358).png>)
+![](<../../../../.gitbook/assets/image (491).png>)
 
 Clicking on the ULB navigates to the display of ward-level data for the specified ULB.
 
-![](<../../../../.gitbook/assets/image (3).png>)
+![](<../../../../.gitbook/assets/image (530).png>)
 
 #### **Newly introduced property:** <a href="#newly-introduced-property" id="newly-introduced-property"></a>
 

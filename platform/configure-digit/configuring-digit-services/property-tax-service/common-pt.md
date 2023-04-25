@@ -2,7 +2,7 @@
 
 **Objective**: Common PT is used as a plugin for other modules to search or create a lightweight property data on the go and tag it to the requesting module.
 
-![](<../../../../.gitbook/assets/1 (2).png>)
+![](<../../../../.gitbook/assets/1 (1).png>)
 
 ## **Search Property** <a href="#seach-property" id="seach-property"></a>
 
@@ -17,7 +17,7 @@ CommonPT module provides two ways to search for a property. Users can search for
   * Old Property Id (Input Field)
 * where City Name is mandatory and at least one more parameter like Mobile Number, Property Id or Old Property Id must be provided to find properties.
 
-![](<../../../../.gitbook/assets/image (569).png>)
+![](<../../../../.gitbook/assets/image (186).png>)
 
 **Search By Door Number**
 
@@ -28,27 +28,27 @@ CommonPT module provides two ways to search for a property. Users can search for
   * Consumer Name(Input Field)
 * Where City Name and Locality are mandatory at least one more parameter like Door Number or Consumer Name is required to find properties.
 
-![](<../../../../.gitbook/assets/image (592).png>)
+![](<../../../../.gitbook/assets/image (216).png>)
 
 Once the user enters all required details, the form redirects the user to the list of all properties registered with the property id or as per the search parameters entered by the user
 
-![](<../../../../.gitbook/assets/image (563).png>)
+![](<../../../../.gitbook/assets/image (178).png>)
 
 Clicking on the Select button redirects users to the OTP verification page. Users must enter the OTP sent on their mobile number to proceed further.
 
-![](<../../../../.gitbook/assets/image (533).png>)
+![](<../../../../.gitbook/assets/image (195).png>)
 
 Users are redirected to the Property Details pages where the user can create new property using the existing property ID.
 
-![](<../../../../.gitbook/assets/image (573).png>)
+![](<../../../../.gitbook/assets/image (149).png>)
 
 Clicking on Create New Property button, redirects users to create a new property page form. Users can enter the property details to be registered.
 
-![](<../../../../.gitbook/assets/image (606).png>)
+![](<../../../../.gitbook/assets/image (294).png>)
 
 After filling in all details users can submit.  The Acknowledgment page displays the application status as either Success or Failed along with the application number.
 
-![](<../../../../.gitbook/assets/image (551).png>)![](<../../../../.gitbook/assets/image (607).png>)
+![](<../../../../.gitbook/assets/image (165).png>)![](<../../../../.gitbook/assets/image (228).png>)
 
 ## Common PT Integration With TL
 

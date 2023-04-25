@@ -8,12 +8,12 @@
 
 Particular entries of an object from the search API will appear masked if it is enabled in the MDMS (mentioned in the technical implementation section below). This is based on roles and if the value is masked in UI, the eye icon will be available adjacent to it. Clicking on this icon allows users to unmask it.
 
-<figure><img src="../../../../../.gitbook/assets/image (156).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (457).png" alt=""><figcaption></figcaption></figure>
 
 Once the user clicks on the eye icon, the corresponding search API is called with `plainAccessRequest`object in the request info. This allows the data to be unmasked in the response object and leads to the refreshing of values and the whole data is visible. The eye icon will not be visible anymore.\
 
 
-<figure><img src="../../../../../.gitbook/assets/image (66).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (375).png" alt=""><figcaption></figcaption></figure>
 
 ## **Technical Implementation Details** <a href="#technical-implementation-details" id="technical-implementation-details"></a>
 
@@ -84,7 +84,7 @@ In the UI code repository, If any particular data has to be masked then we have 
 
 Example:
 
-<figure><img src="../../../../../.gitbook/assets/image (168).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (459).png" alt=""><figcaption></figcaption></figure>
 
 For water application details the connection holder details have to be masked. The privacy object is passed from the applicationdetails hook.
 
@@ -183,7 +183,7 @@ export const checkPrivacy = (mdmsObj, privacyDetail) => {
 
 If the checkprivacy is returned true, the eye icon is visible and clicking on it calls the updateprivacy method defined in useprivacycontext hook: Refer - [DIGIT-Dev/usePrivacyContext.js at 090ef18028a50f38222e426ec59ab9f123833af0 · egovernments/DIGIT-Dev (github.com)](https://github.com/egovernments/DIGIT-Dev/blob/090ef18028a50f38222e426ec59ab9f123833af0/frontend/micro-ui/web/micro-ui-internals/packages/libraries/src/hooks/usePrivacyContext.js)
 
-<figure><img src="../../../../../.gitbook/assets/image (71).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (348).png" alt=""><figcaption></figcaption></figure>
 
 This triggers the search hook called again with `plainAccessRequest` (mentioned in the above picture), but for that privacy object has to be sent in the hook for re-triggering.
 
@@ -197,7 +197,7 @@ For all methods related to privacy, refer to the document here: [DIGIT-Dev/priva
 
 Unmasking in Edit Details page
 
-<figure><img src="../../../../../.gitbook/assets/image (155).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (466).png" alt=""><figcaption></figcaption></figure>
 
 For enabling the eye icon in the text field similar steps have to be followed :
 

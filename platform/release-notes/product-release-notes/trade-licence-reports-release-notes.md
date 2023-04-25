@@ -22,7 +22,7 @@ Trade license renewal pending report
 
 TL Daily collection report
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-02-16 at 3.34.08 PM (1).png" alt=""><figcaption><p>TL Daily Collection report</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-02-16 at 3.34.08 PM.png" alt=""><figcaption><p>TL Daily Collection report</p></figcaption></figure>
 
 TL Application status report
 

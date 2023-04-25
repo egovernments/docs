@@ -1030,19 +1030,19 @@ National DSS consists of the following charts in National Urban Real-time Dashbo
 * **Total Citizens:** This represents the total number of citizens registered across modules and states.
 * **SLA Achievement:** This represents the total number of citizens registered across the modules and States.
 
-![](<../../../../.gitbook/assets/image (539).png>)
+![](<../../../../.gitbook/assets/image (189).png>)
 
 **Project Status:** This Graph Represent the states int he nation with their status of the DIGIT implementation into 4 different states Live, Under Implementation and Onboarded and None
 
 **Onboarded Vs Live ULBs** - This Graph represents the Onboarded ULBs count vs Live ULBs count month wise for a given period.
 
-![](<../../../../.gitbook/assets/image (583).png>)
+![](<../../../../.gitbook/assets/image (162).png>)
 
 **DrilDown of the Project Status for a given State Ex: Punjab**
 
 Project Status shows the list of the Live ULBs module wise for a given state. Bar chart shows the onboarded vs live ULBs count month wise for a given state.
 
-![](<../../../../.gitbook/assets/image (608).png>)
+![](<../../../../.gitbook/assets/image (225).png>)
 
 All the modules specific metrics discussed below are queried from the data in their respective National Dashboard Elastic Search index.
 
@@ -1052,7 +1052,7 @@ All the modules specific metrics discussed below are queried from the data in th
 
 **Properties Assessed -** This metric represents the Total No of Properties Assessed by Property Tax Service across the ULBs and States with in the nation.
 
-![](<../../../../.gitbook/assets/image (599).png>)
+![](<../../../../.gitbook/assets/image (265).png>)
 
 **Trade License**
 
@@ -1060,7 +1060,7 @@ All the modules specific metrics discussed below are queried from the data in th
 
 **Total Applications -** This metric represents the Total No of Trade Licenses processed by Trade License Service across the ULBs and States with in the nation.
 
-![](<../../../../.gitbook/assets/image (550).png>)
+![](<../../../../.gitbook/assets/image (209).png>)
 
 **Municipal Grievances**
 
@@ -1068,7 +1068,7 @@ All the modules specific metrics discussed below are queried from the data in th
 
 **SLA Achievement -** This metric represents the Percentage of the Grievances Addressed/Solved with in the Grievances created across the ULBs across the states in the Nation.
 
-![](<../../../../.gitbook/assets/image (190).png>)
+![](../../../../.gitbook/assets/image.png)
 
 **Water & Sewerage**
 
@@ -1076,7 +1076,7 @@ All the modules specific metrics discussed below are queried from the data in th
 
 **Total Connections -** This metric represents the Total No of Connections issued across the Water & Sewerage across the ULBs and states with in the Nation.
 
-![](<../../../../.gitbook/assets/image (597).png>)
+![](<../../../../.gitbook/assets/image (221).png>)
 
 **Building Permissions**
 
@@ -1084,7 +1084,7 @@ All the modules specific metrics discussed below are queried from the data in th
 
 **Total Permits Issued -** This metric represents the Total No of permission issued across the ULBs and states with in the Nation
 
-![](<../../../../.gitbook/assets/image (555).png>)
+![](<../../../../.gitbook/assets/image (130).png>)
 
 **Fire NOC**
 
@@ -1092,7 +1092,7 @@ All the modules specific metrics discussed below are queried from the data in th
 
 **Total Fire NOCs Issued -** This metric represents the Total No of Fire NOCs issued across the ULBs and states with in the Nation
 
-![](<../../../../.gitbook/assets/image (548).png>)
+![](<../../../../.gitbook/assets/image (185).png>)
 
 **User Charges**
 
@@ -1100,7 +1100,7 @@ All the modules specific metrics discussed below are queried from the data in th
 
 **Total Receipts -** This metric represents the Total No of Receipts issued across the ULBs and states with in the Nation
 
-![](<../../../../.gitbook/assets/image (567).png>)
+![](<../../../../.gitbook/assets/image (293).png>)
 
 #### **Newly introduced property:** <a href="#newly-introduced-property" id="newly-introduced-property"></a>
 

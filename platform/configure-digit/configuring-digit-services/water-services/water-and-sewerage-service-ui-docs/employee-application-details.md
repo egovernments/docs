@@ -17,29 +17,29 @@ A search call is made before rendering the screen and details are populated base
 
 **Application Details Screen**
 
-![](<../../../../../.gitbook/assets/image (144).png>)
+![](<../../../../../.gitbook/assets/image (451).png>)
 
 **Refer to** [Employee: Ad-hoc Rebate/Penalty and View Breakup in application details](employee-ad-hoc-rebate-penalty-and-view-breakup.md)
 
 #### **Timeline View**
 
-![](<../../../../../.gitbook/assets/image (75).png>)
+![](<../../../../../.gitbook/assets/image (345).png>)
 
 #### **Downloads** <a href="#downloads" id="downloads"></a>
 
-<figure><img src="../../../../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (359).png" alt=""><figcaption></figcaption></figure>
 
 #### Estimation Letter
 
 Once the Pending for Field Inspection stage is complete (if the status is pending approval) an Estimation Letter is generated.
 
-<figure><img src="../../../../../.gitbook/assets/image (103).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (421).png" alt=""><figcaption></figcaption></figure>
 
 #### Sanction Letter & Download Receipt
 
 Once the payment stage is complete (and the status is pending for connection activation), the Sanction letter and receipt are generated.
 
-<figure><img src="../../../../../.gitbook/assets/image (142).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (445).png" alt=""><figcaption></figcaption></figure>
 
 ### **Water & Sewerage Workflow Table**
 

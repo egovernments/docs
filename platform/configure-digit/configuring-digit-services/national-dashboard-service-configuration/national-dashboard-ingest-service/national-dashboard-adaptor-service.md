@@ -20,4 +20,4 @@ A list of tasks for this has been tracked for the Adaptor&#x20;
 
 &#x20;A national dashboard adaptor extracts data from the state DSS at a scheduled time which can be configured and then would ingest in the National Dashboard. The adaptor ingests data at the state/ULB/Ward level for each module on a daily basis. The adapter sends the data in a batch size of 50 to the national dashboard.
 
-<figure><img src="../../../../../.gitbook/assets/image (127).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (407).png" alt=""><figcaption></figcaption></figure>

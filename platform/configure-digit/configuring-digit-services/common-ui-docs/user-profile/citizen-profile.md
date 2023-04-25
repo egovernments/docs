@@ -8,7 +8,7 @@ description: User manual for common UI/UX revamp for citizen screens
 
 The User Profile page for citizens can be accessed by clicking on the Edit Profile icon in the app drawer. Click on the hamburger menu in the top bar on the app to open the app drawer.
 
-![](<../../../../../.gitbook/assets/image (603).png>)
+![](<../../../../../.gitbook/assets/image (222).png>)
 
 
 
@@ -21,7 +21,7 @@ The User Profile page for citizens can be accessed by clicking on the Edit Profi
 * A user can upload or remove their profile picture by clicking on the camera icon available over the profile thumbnail.
 * Clicking on the camera icon displays the bottom drawer. Select the upload photo from the gallery or remove the profile picture option as required.
 
-![](<../../../../../.gitbook/assets/image (19).png>)
+![](<../../../../../.gitbook/assets/image (529).png>)
 
 The user can upload a new photo or remove the old photo.
 
@@ -42,7 +42,7 @@ The user can upload a new photo or remove the old photo.
 * All changes are updated when the Save button is clicked.&#x20;
 * Saving changes validates the fields and the status is shown in the toast messages.
 
-![](<../../../../../.gitbook/assets/image (340).png>)
+![](<../../../../../.gitbook/assets/image (498).png>)
 
 User details are updated successfully.
 

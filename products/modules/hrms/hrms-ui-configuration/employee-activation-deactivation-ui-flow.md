@@ -19,7 +19,7 @@ Optional
 * Supported Documents (File Upload)
 * Remarks
 
-![](<../../../../.gitbook/assets/image (145).png>)
+![](<../../../../.gitbook/assets/image (145) (1).png>)
 
 On deactivation, users will be re-directed to the Acknowledgement screen
 
@@ -40,7 +40,7 @@ Optional
 * Supported Documents (File Upload)
 * Remarks
 
-![](<../../../../.gitbook/assets/image (140) (1).png>)
+![](<../../../../.gitbook/assets/image (140).png>)
 
 On reactivation, users are routed to the Acknowledgement screen
 

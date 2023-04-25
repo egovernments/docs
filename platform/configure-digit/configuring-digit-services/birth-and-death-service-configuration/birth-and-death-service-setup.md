@@ -1781,7 +1781,7 @@ _**URLs for the external API references:**_
 
 ### &#x20; <a href="#database-schema" id="database-schema"></a>
 
-<figure><img src="../../../../.gitbook/assets/image (183).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (432).png" alt=""><figcaption></figcaption></figure>
 
 ### Postman Links <a href="#postman-links" id="postman-links"></a>
 

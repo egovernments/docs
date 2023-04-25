@@ -1282,59 +1282,59 @@ National DSS contains the following charts in Fire NOC:
 * **SLA Compliance (Actual Fire NOC):** % of Actual NOCs issued within SLA
 * **SLA Compliance (Provisional Fire NOC):** % of Provisional NOCs issued within SLA
 
-![](<../../../../.gitbook/assets/image (545).png>)
+![](<../../../../.gitbook/assets/image (255).png>)
 
 **Total Cumulative Collection:** This graph contains the Fire NOC collection amount information on a monthly base as a cumulative line graph for each Fire NOC collection separately. This will change as per the denomination amount filter selection.
 
 **line** - this graph/chart is data representation on date histograms or date groupings.
 
-![](<../../../../.gitbook/assets/image (200).png>)
+![](<../../../../.gitbook/assets/image (6).png>)
 
 **Total applications vs Provisional NOCs issued vs Actual NOCs issued:** This graph contains the Fire NOC showing total applications submitted vs provisional NOCs issued vs actual NOCs issued for a given month collection separately. This changes as per the denomination amount filter selection.
 
 **line** - this graph/chart is data representation on date histograms or date groupings.
 
-![](<../../../../.gitbook/assets/image (602).png>)
+![](<../../../../.gitbook/assets/image (136).png>)
 
 **Collection by Payment Mode:** This is a pie chart showing the bifurcation of total collections by payment mode (online, cash, card, cheque) which is the sum of revenue collected from Fire NOC for the applied date filter.
 
-![](<../../../../.gitbook/assets/image (587).png>)
+![](<../../../../.gitbook/assets/image (153).png>)
 
 **Total NOCs issued by type:** This is a pie chart showing bifurcation of Total NOCs issued into Provisional and Actual Fire NOCs. The sum of Provisional and Actual Fire NOCs issued.
 
-![](<../../../../.gitbook/assets/image (532).png>)
+![](<../../../../.gitbook/assets/image (263).png>)
 
 **Actual Fire NOCs by usage typeThe total:** This is a pie chart showing a bifurcation of Actual Fire NOCs by usage type. Total number of Fire NOCs issued by the concerned authority.
 
-![](<../../../../.gitbook/assets/image (531).png>)
+![](<../../../../.gitbook/assets/image (128).png>)
 
 **Top 3 Performing States:** This card shows the Top 3 Performing States/ULBs/Wards based on % NOCs issued. The number of Fire NOCs issued / Number of applications depends on whether a user selects 'Provisional' or 'Actual'.
 
 Clicking on Actual shows the % of NOCs issued for Actual Fire NOCs.
 
-![](<../../../../.gitbook/assets/image (562).png>)
+![](<../../../../.gitbook/assets/image (235).png>)
 
 Clicking on Provisional shows the % of NOCs issued for Actual Fire NOCs.
 
-![](<../../../../.gitbook/assets/image (585).png>)
+![](<../../../../.gitbook/assets/image (229).png>)
 
 Clicking on the Show More option displays information about all states.
 
-![](<../../../../.gitbook/assets/image (609).png>)
+![](<../../../../.gitbook/assets/image (173).png>)
 
 **Bottom 3 Performing States:** This card shows the Bottom 3 Performing States/ULBs/Wards based on % NOCs issued. The Number of Fire NOCs issued / Number of applications depends on whether a user selects 'Provisional' or 'Actual'.
 
 Clicking on Actual shows the % of NOCs issued for Actual Fire NOCs.
 
-![](<../../../../.gitbook/assets/image (549).png>)
+![](<../../../../.gitbook/assets/image (172).png>)
 
 Clicking on Provisional shows the % of NOCs issued for Actual Fire NOCs.
 
-![](<../../../../.gitbook/assets/image (559).png>)
+![](<../../../../.gitbook/assets/image (184).png>)
 
 Clicking on Show More provides information on all the states.
 
-![](<../../../../.gitbook/assets/image (571).png>)
+![](<../../../../.gitbook/assets/image (243).png>)
 
 **Service Report:** This tabular chart representation graph shows multiple Fire NOC information like Total Collection, Applications Submitted, Provisional Fire NOC issued, New Fire NOC Issued, Average days to issue Provisional NOC, SLA Compliance (Provisional NOC), Average days to issue New NOC, SLA Compliance (New NOC). And this table shows the data at the state level and also has the drill-down chart for each state to ULB and from ULB to the ward level data for the same.
 
@@ -1342,17 +1342,17 @@ xtable type allows to add multiple computed fields with the aggregated fields dy
 
 To add multiple computed columns,  computedFields \[]  where actionName (IComputedField\<T> interface), fields \[] names as in exist in query key, newField as name to appear for computation must be defined.
 
-![](<../../../../.gitbook/assets/image (577).png>)
+![](<../../../../.gitbook/assets/image (227).png>)
 
-![](<../../../../.gitbook/assets/image (570).png>)
+![](<../../../../.gitbook/assets/image (266).png>)
 
 Clicking on any region name provides drill-down charts representing the specific state data.
 
-![](<../../../../.gitbook/assets/image (525).png>)
+![](<../../../../.gitbook/assets/image (218).png>)
 
 Clicking on the ULB navigates to wards under that specific ULB and each ward shows the specific data regarding that ward.
 
-![](<../../../../.gitbook/assets/image (553).png>)
+![](<../../../../.gitbook/assets/image (220).png>)
 
 ### **Newly Introduced Properties** <a href="#newly-introduced-property" id="newly-introduced-property"></a>
 

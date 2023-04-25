@@ -129,11 +129,11 @@ Select that notebook (Ex: sample.pynb)
 
 **Opening an existing notebook**
 
-![](<../../../../.gitbook/assets/image (285) (1).png>)
+![](<../../../../.gitbook/assets/image (285).png>)
 
 After opening
 
-![](<../../../../.gitbook/assets/image (283) (1).png>)
+![](<../../../../.gitbook/assets/image (283).png>)
 
 ### Table 1.1 - File Names for each Module <a href="#table-1.1-file-names-for-each-module" id="table-1.1-file-names-for-each-module"></a>
 

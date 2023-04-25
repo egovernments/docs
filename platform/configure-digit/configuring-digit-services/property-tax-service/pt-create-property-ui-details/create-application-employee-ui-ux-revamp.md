@@ -6,7 +6,7 @@
 
 A counter employee can use create an application form, to register a citizen’s property.
 
-![](<../../../../../.gitbook/assets/image (190) (1).png>)
+![](<../../../../../.gitbook/assets/image (190).png>)
 
 ## **Technical Implementation**
 
@@ -50,7 +50,7 @@ _which calls the property create API:_`1property-services/property/_create`
 
 If the Property creation is successful. then the employee is directed to this screen that shows Acknowledgement Id and the option to download a hardcopy of the acknowledgement containing property details.
 
-![](<../../../../../.gitbook/assets/image (137).png>)
+![](<../../../../../.gitbook/assets/image (137) (5).png>)
 
 ## **Role Mapping**
 

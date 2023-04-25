@@ -17,9 +17,9 @@ Once a new application connection is activated, the system generates a consumer 
 Clicking on the Take Action button displays multiple options based on conditions. Clicking on the Apply for Disconnection option routes users to the Disconnect Document Required screen.\
 
 
-<figure><img src="../../../../../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (425).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../.gitbook/assets/image (84).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (344).png" alt=""><figcaption></figcaption></figure>
 
 #### **Validations** <a href="#validations" id="validations"></a>
 
@@ -31,13 +31,13 @@ Clicking on the Take Action button displays multiple options based on conditions
 
 Clicking on the Apply button routes users to the Disconnection apply screen.
 
-<figure><img src="../../../../../.gitbook/assets/image (283).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (587).png" alt=""><figcaption></figcaption></figure>
 
 **Acknowledgement screen**
 
 Successful create and update calls routes users to the acknowledgement screen.
 
-<figure><img src="../../../../../.gitbook/assets/image (296).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (576).png" alt=""><figcaption></figcaption></figure>
 
 #### W\&S Application <a href="#w-and-s-application" id="w-and-s-application"></a>
 
@@ -47,7 +47,7 @@ Users get the acknowledgement form once they have created and submitted their ap
 
 Users can download the acknowledgement after submitting the W\&S Create Application.
 
-<figure><img src="../../../../../.gitbook/assets/image (285).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (561).png" alt=""><figcaption></figcaption></figure>
 
 ## Technical Implementation Details
 

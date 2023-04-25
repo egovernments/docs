@@ -162,7 +162,7 @@ Click on the Search button to fetch budgets based on the selected parameters.
 
 Click on the Name field to open the details of that particular budget.
 
-![](<../../../../.gitbook/assets/image (100) (1).png>)
+![](<../../../../.gitbook/assets/image (100).png>)
 
 ### Period End Activities
 

@@ -22,7 +22,7 @@ After searching for a Challan with a click on the Challan number it navigates to
 
 Action modal - This comes up on the click of cancel Challan.
 
-![](<../../../../../.gitbook/assets/image (233).png>)
+![](<../../../../../.gitbook/assets/image (233) (1).png>)
 
 Click on yes, the challan will be cancelled and users will be routed to the acknowledgement screen.
 
@@ -34,7 +34,7 @@ Update Challan screen, This comes up on the click of update Challan ([![](https:
 
 File path:[ <img src="https://github.com/fluidicon.png" alt="" data-size="line">digit-ui-internals/index.js at main · egovernments/digit-ui-internals](https://github.com/egovernments/digit-ui-internals/blob/main/packages/modules/mCollect/src/pages/employee/EditChallan/index.js)
 
-![](<../../../../../.gitbook/assets/image (261).png>)
+![](<../../../../../.gitbook/assets/image (261) (1).png>)
 
 Clicking on the Update Challan option updates and routes users to the acknowledgement screen.
 
@@ -48,11 +48,11 @@ The common pay screen is visible once the user clicks on the Pay Challan/Proceed
 
 This pay screen is common for all the modules.
 
-![](<../../../../../.gitbook/assets/image (271) (1).png>)
+![](<../../../../../.gitbook/assets/image (271).png>)
 
 Clicking on the Collect Payment button payment allows users to collect and route to the acknowledgement screen it is common for all modules.
 
-<figure><img src="../../../../../.gitbook/assets/image (388).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (628).png" alt=""><figcaption></figcaption></figure>
 
 Click on Print Receipt, `qa.digit.org/collection-services/payments/{challanBusinessService}/_search` (we need to configure bussinessServices to the respective roles in the MDMS like below ) API will get the payment response, by using that response again we need to call `pdf-service/v1/_create` API.
 

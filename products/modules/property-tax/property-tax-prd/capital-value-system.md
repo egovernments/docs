@@ -117,7 +117,7 @@ Documents which are required to avail of the service are already configurable.
 
 **Property Registration From (UI)**
 
-<figure><img src="../../../../.gitbook/assets/image (136).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (448).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://lh5.googleusercontent.com/AiE0yyMUKTVD7d5MuP5Wp3pnhR68MgbnSldrz2q8gSGzdjkCDjynabf64Vip3RdfO00FhoSURqTiKXU7VzS7JCidBqPlmmQjZWLFKhvYEic00ikfQ40aZcNmTAquat_ubXyhtEZODcTdTjUP9zhqqmEu3lsGrpUNzZSRop1RkW0PW8W05Bs790MkJZZb9Q" alt=""><figcaption></figcaption></figure>
 

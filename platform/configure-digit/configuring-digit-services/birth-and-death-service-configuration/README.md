@@ -36,7 +36,7 @@ Birth registration file link: frontend/mono-ui/web/rainmaker/dev-packages/egov-b
 
 Death registration file link: frontend/mono-ui/web/rainmaker/dev-packages/egov-bnd-dev/src/ui-config/screens/specs/death-employee/newRegistration.js
 
-![](<../../../../.gitbook/assets/image (565).png>)
+![](<../../../../.gitbook/assets/image (183).png>)
 
 Filename: newRegistrationFooter.js
 
@@ -60,13 +60,13 @@ The search certificate is the same for both employees and citizens.
 
 The employee has a view option. Whereas citizens can download it for free for the first time. Second-time downloads requires the citizens to Pay & Download.&#x20;
 
-![](<../../../../.gitbook/assets/image (576).png>)
+![](<../../../../.gitbook/assets/image (281).png>)
 
 `BIRTH_APPLICATION_CREATOR` & `DEATH_APPLICATION_CREATOR` - the Birth Registration button is enabled on the search screen for this role.
 
 Citizen View
 
-![](<../../../../.gitbook/assets/image (547).png>)
+![](<../../../../.gitbook/assets/image (138).png>)
 
 API Details
 
@@ -105,7 +105,7 @@ Clicking on the **Download** button - searches for the filestore id and download
 
 Citizens can download certificates and receipts from the My Applications screen.
 
-![](<../../../../.gitbook/assets/image (529).png>)
+![](<../../../../.gitbook/assets/image (137).png>)
 
 Download receipt MDMS configuration to fetch the Birth and death in business service dropdown file link: [<img src="https://github.com/fluidicon.png" alt="" data-size="line">RAIN-6838 :: BND Download receipt config updated typt to adhoc · egovernments/egov-mdms-data@bc9efec](https://github.com/egovernments/egov-mdms-data/commit/bc9efec16a8c61e341e24be6a387939e36937675)
 

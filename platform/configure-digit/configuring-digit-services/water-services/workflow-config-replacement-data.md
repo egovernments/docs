@@ -376,7 +376,7 @@ _**update eg\_wf\_processinstance\_v2 set status={new state uuid} AND businessse
 _**update eg\_wf\_processinstance\_v2 set status={new state uuid} AND businessservice={SW.AMENDMENT}  and modulename={SW} where businessservice={BS.AMENDMENT} and status={old state uuid}  and businessid like '%SW%';**_\
 
 
-<figure><img src="../../../../.gitbook/assets/image (159).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (434).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Note:** businessid like '%SW% or businessid like '%WS% will be used depending on the New businessService that you are using. moduleName in the above query would take WS or SW in sync with the new businessService

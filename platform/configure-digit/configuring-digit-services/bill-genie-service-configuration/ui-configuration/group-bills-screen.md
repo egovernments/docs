@@ -12,15 +12,15 @@
 * Inbox has a search feature which helps employees quickly find search bills based on the selected **bill no**, **consumer code** and **mobile no** fields.
 * Inbox also has a filter option where employees can filter search bills based on the **service** **categories** & **ULB**.
 
-<figure><img src="../../../../../.gitbook/assets/image (43).png" alt=""><figcaption><p>Employee Search Bill Inbox Default View</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (356).png" alt=""><figcaption><p>Employee Search Bill Inbox Default View</p></figcaption></figure>
 
-<figure><img src="../../../../../.gitbook/assets/image (115).png" alt=""><figcaption><p>Employee Search Bill Inbox after applying filter</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (458).png" alt=""><figcaption><p>Employee Search Bill Inbox after applying filter</p></figcaption></figure>
 
 ### **Citizen Screens**
 
 **Citizen Bill Genie Card**
 
-![](<../../../../../.gitbook/assets/image (151).png>)
+![](<../../../../../.gitbook/assets/image (436).png>)
 
 **Citizen Search Bill Inbox**
 
@@ -28,7 +28,7 @@
 * Inbox has a search feature which helps citizens quickly find search bills based on the selected **bill no**, **consumer code** and **mobile no** fields.
 * Inbox also has a filter option where citizens can filter search bills based on the **service categories** & **ULB**.
 
-![](<../../../../../.gitbook/assets/image (116).png>)
+![](<../../../../../.gitbook/assets/image (438).png>)
 
 ### **API Used**
 
@@ -64,9 +64,9 @@ curl ‘https://qa.digit.org/egov-searcher/bill-genie/mcollectbills/_get?_=16540
 * Inbox also has a filter option where employees can filter search bills based on the **service** **categories**, **ULB** & **locality.**\
 
 
-<figure><img src="../../../../../.gitbook/assets/image (76).png" alt=""><figcaption><p>Employee Group Bills default view</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (347).png" alt=""><figcaption><p>Employee Group Bills default view</p></figcaption></figure>
 
-<figure><img src="../../../../../.gitbook/assets/image (45).png" alt=""><figcaption><p>Employee Group Bills Inbox after applying filter</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (351).png" alt=""><figcaption><p>Employee Group Bills Inbox after applying filter</p></figcaption></figure>
 
 ### **API Used**
 

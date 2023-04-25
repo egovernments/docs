@@ -40,7 +40,7 @@ The cancel receipt action is shown only for the following state of receipt.
 
 `Receipt?.paymentStatus !== "CANCELLED" && Receipt?.paymentStatus !== "DEPOSITED" && (Receipt?.instrumentStatus == "APPROVED" || Receipt?.instrumentStatus == "REMITTED"`
 
-![](<../../../../../.gitbook/assets/image (224) (1).png>)
+![](<../../../../../.gitbook/assets/image (224).png>)
 
 **Data fetch, load and render**
 

@@ -34,7 +34,7 @@ Or, enter **Application No.** or any other search parameter to search for the ap
 
 Click on the **Application No.** link to open the application.
 
-![](<../../../../.gitbook/assets/Screenshot 2022-01-27 at 1.54.52 PM.png>)
+![](<../../../../.gitbook/assets/Screenshot 2022-01-27 at 1.54.52 PM (1).png>)
 
 Scroll down the application page to review the filled-in details.&#x20;
 
@@ -210,7 +210,7 @@ State the reasons for rejecting the application in the **Comments** section. Cli
 
 The application is rejected and a notification is sent to the owner informing the same.
 
-![](<../../../../.gitbook/assets/Screenshot 2022-01-27 at 3.05.51 PM.png>)
+![](<../../../../.gitbook/assets/Screenshot 2022-01-27 at 3.05.51 PM (1).png>)
 
 ### **Revocate application**
 
@@ -220,11 +220,11 @@ The FI can revocate an application if the documents and information furnished by
 
 Click on the **Take Action** button.
 
-![](<../../../../.gitbook/assets/Screenshot 2022-01-27 at 3.05.51 PM (1).png>)
+![](<../../../../.gitbook/assets/Screenshot 2022-01-27 at 3.05.51 PM.png>)
 
 Enter the reason for revoking the application in the **Comments** field. Click on **Choose File** to attach supporting documents. Click on the **Revocate** button.&#x20;
 
-![](<../../../../.gitbook/assets/Screenshot 2022-01-27 at 3.06.08 PM (1).png>)
+![](<../../../../.gitbook/assets/Screenshot 2022-01-27 at 3.06.08 PM.png>)
 
 ### **Forward application**
 

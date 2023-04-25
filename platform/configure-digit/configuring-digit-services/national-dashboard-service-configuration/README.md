@@ -10,7 +10,7 @@
 
 **How it Works:** This property is added to support the new requirement to show the Date and the last updated time in the Todays Collection Metric Chart
 
-&#x20;![](<../../../../.gitbook/assets/image (568).png>)
+&#x20;![](<../../../../.gitbook/assets/image (179).png>)
 
 Populating true for **isTodaysCollection** for any chart config in chartApiConfig.json of type metric chart, MetricChartResponseHandler looks for **todaysDate** and **lastUpdatedTime** aggregations with the bucket(s) having epoch in key. These are used as values for todaysDate and lastUpdatedTime respectively and added to plots in the response. The UI framework is used to show the Collection on Date and lastupdate time tooltip.
 

@@ -6,11 +6,11 @@
 
 On the employee home screen, the Bill Genie module card contains the links related to Bill Genie screens.
 
-<figure><img src="../../../../../.gitbook/assets/image (365).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (482).png" alt=""><figcaption></figcaption></figure>
 
 #### **Search Bill Screen** <a href="#search-bill-screen" id="search-bill-screen"></a>
 
-<figure><img src="../../../../../.gitbook/assets/image (522).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
 
 #### Parameters required to search a bill <a href="#parameters-required-for-searching-a-bill" id="parameters-required-for-searching-a-bill"></a>
 
@@ -24,7 +24,7 @@ On the employee home screen, the Bill Genie module card contains the links relat
 
 #### **Search Results** <a href="#search-results" id="search-results"></a>
 
-<figure><img src="../../../../../.gitbook/assets/image (334).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (504).png" alt=""><figcaption></figcaption></figure>
 
 * Search Results are shown in a Tabular format with the columns as displayed above.
 * Any Bill can have these 3 statuses and a unique action corresponding to that status

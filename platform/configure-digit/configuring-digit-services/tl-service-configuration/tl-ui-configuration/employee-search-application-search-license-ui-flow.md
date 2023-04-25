@@ -14,7 +14,7 @@ A search field component is a form which takes inputs and passes them into tl-se
 
 Result Table uses the Table react component and the result from API is adapted to the table config using a custom hook inside the common parent wrapper and passing the response to individual components.
 
-![](<../../../../../.gitbook/assets/image (184).png>)
+![](<../../../../../.gitbook/assets/image (184) (1).png>)
 
 Search License has a fixed param where the status of the application is _“APPROVED”_, other than differences in table config
 

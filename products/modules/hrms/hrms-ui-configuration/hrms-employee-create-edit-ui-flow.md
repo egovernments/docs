@@ -12,9 +12,9 @@ The Boundary is auto-filled with current `TenantId`. The user is able to add Mul
 
 ![](<../../../../.gitbook/assets/image (256).png>)
 
-![](<../../../../.gitbook/assets/image (258).png>)
+![](<../../../../.gitbook/assets/image (258) (1).png>)
 
-![](<../../../../.gitbook/assets/image (179).png>)
+![](<../../../../.gitbook/assets/image (179) (1).png>)
 
 ![](<../../../../.gitbook/assets/image (171) (1).png>)
 

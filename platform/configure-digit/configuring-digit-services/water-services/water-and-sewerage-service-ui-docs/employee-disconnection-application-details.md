@@ -19,21 +19,21 @@ A search call is made before rendering the screen and details are populated base
 
 **Application Details Screen**
 
-<figure><img src="../../../../../.gitbook/assets/image (148).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (419).png" alt=""><figcaption></figcaption></figure>
 
 #### Application Timeline
 
-<figure><img src="../../../../../.gitbook/assets/image (291).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (574).png" alt=""><figcaption></figcaption></figure>
 
 #### Downloads <a href="#downloads" id="downloads"></a>
 
 Application Form
 
-<figure><img src="../../../../../.gitbook/assets/image (265).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (569).png" alt=""><figcaption></figcaption></figure>
 
 **Disconnection Notice**
 
-<figure><img src="../../../../../.gitbook/assets/image (177).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (423).png" alt=""><figcaption></figcaption></figure>
 
 **Water & Sewerage Disconnection Workflow Table**
 

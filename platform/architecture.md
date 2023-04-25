@@ -10,7 +10,7 @@ DIGIT is India’s largest open-source platform for digital governance. It is bu
 
 * DIGIT is a microservices-based platform that is built to scale. Microservices are small, autonomous and developer-friendly services that work together.
 
-![](<../.gitbook/assets/image (84) (1).png>)
+![](<../.gitbook/assets/image (84).png>)
 
 * A big software or system can be broken down into multiple small components or services. These components can be designed, developed & deployed independently without compromising the integrity of the application.
 * Parallelism in development: Microservices architectures are mainly business-centric.
@@ -24,7 +24,7 @@ DIGIT is India’s largest open-source platform for digital governance. It is bu
 
 ![](<../.gitbook/assets/image (36) (1).png>)
 
-![](<../.gitbook/assets/image (13).png>)
+![](<../.gitbook/assets/image (13) (1).png>)
 
 ### Multi-layer Architecture
 

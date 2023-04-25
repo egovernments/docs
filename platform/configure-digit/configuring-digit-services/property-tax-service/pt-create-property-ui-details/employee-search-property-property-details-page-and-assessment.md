@@ -34,7 +34,7 @@ Here employees can see the latest approved property details. The employee also h
 
 ![](<../../../../../.gitbook/assets/image (115) (1).png>)
 
-![](<../../../../../.gitbook/assets/image (160) (1).png>)
+![](<../../../../../.gitbook/assets/image (160).png>)
 
 The employee also has the option to view history - this enables the users to view the owner details within the history of the property.
 
@@ -60,7 +60,7 @@ The popup is displayed when an employee chooses to assess property from the prop
 
 The popup displays the list of financial years to select from:-
 
-![](<../../../../../.gitbook/assets/image (199) (1).png>)
+![](<../../../../../.gitbook/assets/image (199).png>)
 
 A financial year is selected for the assessment of the property.
 
@@ -72,7 +72,7 @@ The financial year list is fetched from the MDMS:[<img src="https://github.com/f
 
 Clicking on the Assess Property button displays the Property Assessment screen.
 
-![](<../../../../../.gitbook/assets/image (194) (1).png>)
+![](<../../../../../.gitbook/assets/image (194).png>)
 
 This screen gives the assessment details of the selected financial year from the popup. It also provides an overview of the property as well as the total calculation details. This value is fetched from the MDMS.
 

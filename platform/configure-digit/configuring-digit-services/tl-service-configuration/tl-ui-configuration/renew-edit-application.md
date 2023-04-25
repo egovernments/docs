@@ -6,13 +6,13 @@ Will get the Renew Trade License option, when the application is in an approved 
 
 File path:[ <img src="https://github.com/fluidicon.png" alt="" data-size="line">digit-ui-internals/ApplicationDetails.js at main · egovernments/digit-ui-internals](https://github.com/egovernments/digit-ui-internals/blob/main/packages/modules/tl/src/pages/employee/ApplicationDetails.js)
 
-![](<../../../../../.gitbook/assets/image (269).png>)
+![](<../../../../../.gitbook/assets/image (269) (1).png>)
 
 When we click on the Renew Trade License application, it will route to Renew screen
 
 File Path:[ <img src="https://github.com/fluidicon.png" alt="" data-size="line">digit-ui-internals/ApplicationDetails.js at main · egovernments/digit-ui-internals](https://github.com/egovernments/digit-ui-internals/blob/main/packages/modules/tl/src/pages/employee/ApplicationDetails.js)
 
-![](<../../../../../.gitbook/assets/image (232) (1).png>)
+![](<../../../../../.gitbook/assets/image (232).png>)
 
 File Path:[ <img src="https://github.com/fluidicon.png" alt="" data-size="line">digit-ui-internals/index.js at main · egovernments/digit-ui-internals](https://github.com/egovernments/digit-ui-internals/blob/main/packages/modules/tl/src/pages/employee/ReNewApplication/index.js)
 

@@ -24,11 +24,11 @@ File Path:[ <img src="https://github.com/fluidicon.png" alt="" data-size="line">
 
 ## **Trade Details**
 
-![](<../../../../../.gitbook/assets/image (130).png>)
+![](<../../../../../.gitbook/assets/image (130) (1).png>)
 
 ### Timeline View
 
-![](<../../../../../.gitbook/assets/image (176) (1).png>)
+![](<../../../../../.gitbook/assets/image (176).png>)
 
 It is common for all modules, find the path here:[ <img src="https://github.com/fluidicon.png" alt="" data-size="line">digit-ui-internals/ApplicationDetailsContent.js at main · egovernments/digit-ui-internals](https://github.com/egovernments/digit-ui-internals/blob/main/packages/modules/templates/ApplicationDetails/components/ApplicationDetailsContent.js)
 

@@ -1729,19 +1729,19 @@ National DSS contains the following charts in Trade License:
 
 **line** - this graph/chart is data representation on date histograms or date groupings.
 
-![](<../../../../.gitbook/assets/image (7).png>)
+![](<../../../../.gitbook/assets/image (525).png>)
 
 **Top 3 Performing States By Completion:** This graph represents the States based on the Target achieved in bar chart representation with the % of target achieved in descending order.
 
-![](<../../../../.gitbook/assets/image (506).png>)
+![](<../../../../.gitbook/assets/image (327).png>)
 
 **Bottom 3 States by Performance:** This graph represents the States based on the Target achieved in bar chart representation with the % of target achieved in ascending order.
 
-![](<../../../../.gitbook/assets/image (97).png>)
+![](<../../../../.gitbook/assets/image (450).png>)
 
 **Collection by Trade Type:** This graph shows the collection amount based on the trade type.
 
-![](<../../../../.gitbook/assets/image (8).png>)
+![](<../../../../.gitbook/assets/image (528).png>)
 
 **Key Financial Indicators:** This tabular chart representation displays multiple Trade License information like Target Collection, Total Collection, Total Transactions, Total Licenses Issued and Target Achievement (in %). The table shows the data at the State level and also provides the drill-down chart for each State to ULB and from ULB to the ward level data.
 
@@ -1749,29 +1749,29 @@ _**xtable**_ type allows adding multiple computed fields with the aggregated fie
 
 To add multiple computed columns, define **computedFields** \[]  where actionName (IComputedField\<T> interface), fields \[] names as existing in query key, newField as name to appear for computation must be defined.
 
-![](<../../../../.gitbook/assets/image (493).png>)
+![](<../../../../.gitbook/assets/image (329).png>)
 
 Clicking on any State name provides the drill-down charts and data for that specific ULB.
 
-![](<../../../../.gitbook/assets/image (480).png>)
+![](<../../../../.gitbook/assets/image (330).png>)
 
 Clicking on the ULB navigates to the ward-level data for that specific ULB.
 
-![](<../../../../.gitbook/assets/image (491).png>)
+![](<../../../../.gitbook/assets/image (320).png>)
 
 **Tax Heads:** This tabular chart representation graph shows multiple Trade License information like TL Tax, Adhoc Penalty, Adhoc Rebate, Total Amount etc. The table displays the data at the State level and also provides a drill-down chart for each State to ULB and from ULB to ward level data for the same.
 
 _**table**_ type allows adding multiple aggregated fields.
 
-![](<../../../../.gitbook/assets/image (267).png>)
+![](<../../../../.gitbook/assets/image (584).png>)
 
 Clicking on the State name provides the drill-down charts that represent the specific ULB data.
 
-![](<../../../../.gitbook/assets/image (11).png>)
+![](<../../../../.gitbook/assets/image (547).png>)
 
 Clicking on the ULB navigates to the ward level data illustration.
 
-![](<../../../../.gitbook/assets/image (166).png>)
+![](<../../../../.gitbook/assets/image (417).png>)
 
 **Service Tab:**
 
@@ -1780,37 +1780,37 @@ Clicking on the ULB navigates to the ward level data illustration.
 * **Total Applications:** This represents the total number of trade license applications.
 * **Total Licenses:**  This represents the total licenses issued.
 
-![](<../../../../.gitbook/assets/image (375).png>)
+![](<../../../../.gitbook/assets/image (486).png>)
 
 **Total Cumulative Licenses Issued:** This graph displays the licenses issued and total application information on a monthly base as a cumulative line graph.
 
 **line** - this graph/chart is data representation on date histograms or date groupings.
 
-![](<../../../../.gitbook/assets/image (366).png>)
+![](<../../../../.gitbook/assets/image (520).png>)
 
 **Top 3 Performing States By Completion:** This graph represents the States based on the number of licenses issued within SLA and the number of licenses issued, in bar chart representation with the % in descending order.
 
-![](<../../../../.gitbook/assets/image (24).png>)
+![](<../../../../.gitbook/assets/image (545).png>)
 
 &#x20;
 
 **Bottom 3 Performing States By Completion:** This graph represents the states based on the number of licenses issued within SLA and the number of licenses issued, in bar chart representation with the % in ascending order.
 
-![](<../../../../.gitbook/assets/image (500).png>)
+![](<../../../../.gitbook/assets/image (314).png>)
 
 &#x20;
 
 **Trade Licenses by Status:** This circular chart represents the number of trade licenses according to status.
 
-![](<../../../../.gitbook/assets/image (25).png>)
+![](<../../../../.gitbook/assets/image (552).png>)
 
 **Status report:** This table shows the status-wise breakup of trade licenses by states for the selected year.
 
-![](<../../../../.gitbook/assets/image (353).png>)
+![](<../../../../.gitbook/assets/image (515).png>)
 
 If we select a state, the drill down chart for ULBs in that state appears.
 
-![](<../../../../.gitbook/assets/image (497).png>)
+![](<../../../../.gitbook/assets/image (325).png>)
 
 **Index Properties of National Trade License:** The index that contains the data for National-Trade License is- _tl-national-dashboard_
 

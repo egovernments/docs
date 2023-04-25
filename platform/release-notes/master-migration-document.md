@@ -74,7 +74,7 @@ W\&S Bill Amendment workflow config migration&#x20;
 
 
 
-    <figure><img src="../../.gitbook/assets/image (511).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (78).png" alt=""><figcaption></figcaption></figure>
 * **W\&S privacy (Skip over if encryption is not carried out)**
   1. Deploy the latest builds provided for the 2.8 release {builds}
   2. Add privacy configs to MDMS ([**SecurityPolicy.json**](https://github.com/egovernments/egov-mdms-data/blob/QA/data/pb/DataSecurity/SecurityPolicy.json))

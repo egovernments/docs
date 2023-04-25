@@ -14,7 +14,7 @@ The clicking of Search Challan navigates to the Inbox/search challan screen.
 
 Route - [mSeva](https://qa.digit.org/digit-ui/employee/mcollect/inbox)
 
-![](<../../../../../.gitbook/assets/image (164).png>)
+![](<../../../../../.gitbook/assets/image (164) (1).png>)
 
 Inbox File link -&#x20;
 

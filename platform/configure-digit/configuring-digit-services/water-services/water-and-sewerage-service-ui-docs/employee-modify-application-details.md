@@ -18,15 +18,15 @@ Clicking on the Application Number in the inbox/search screen/connection search 
 
 **Modify Application Details Screen**
 
-<figure><img src="../../../../../.gitbook/assets/image (169).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (404).png" alt=""><figcaption></figcaption></figure>
 
 **Timeline View:**
 
-![](<../../../../../.gitbook/assets/image (52).png>)
+![](<../../../../../.gitbook/assets/image (381).png>)
 
 #### Downloads <a href="#downloads" id="downloads"></a>
 
-<figure><img src="../../../../../.gitbook/assets/image (309).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (570).png" alt=""><figcaption></figcaption></figure>
 
 **Water & Sewerage Workflow Table**
 

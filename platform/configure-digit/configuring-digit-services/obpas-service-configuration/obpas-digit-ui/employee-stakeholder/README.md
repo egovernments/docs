@@ -12,7 +12,7 @@ The stakeholder MDMS data is used to filter views and service types displayed on
 
 The localization module used in the OBPS module comprises rainmaker-bpareg and rainmaker-common. The rainmaker-bpareg is initialized for module localization.
 
-![](../../../../../../.gitbook/assets/image-20211207-124358.png)
+![](<../../../../../../.gitbook/assets/image-20211207-124358 (1).png>)
 
 ## API Role Action Mapping <a href="#roles" id="roles"></a>
 

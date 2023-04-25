@@ -12,7 +12,7 @@ On the Application details page, on the employee side, if the application is mar
 
 After this, On clicking the button, the user can edit the trade license details by going through the Create Flow again. First, it will land on the Summary page, where for each section “change” button is there. Clicking on the Change button, the user will be redirected to the particular content, the only exception here will be the values will be pre-populated from the License object received from Trade License Search API, on completing the flow, Update API will be called and License application will get successfully updated.
 
-![Acknowledgement Screen](<../../../../../.gitbook/assets/image (125) (1).png>)
+![Acknowledgement Screen](<../../../../../.gitbook/assets/image (125).png>)
 
 ## **Technical Implementation Details**
 
@@ -36,7 +36,7 @@ On completing the flow, the same object structure which was being used earlier i
 
 {% embed url="https://github.com/egovernments/digit-ui-internals/blob/main/packages/modules/tl/src/utils/index.js" %}
 
-<figure><img src="../../../../../.gitbook/assets/image (472).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (393).png" alt=""><figcaption></figcaption></figure>
 
 ## **MDMS**
 

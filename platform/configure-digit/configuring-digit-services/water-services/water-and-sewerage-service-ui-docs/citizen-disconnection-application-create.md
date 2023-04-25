@@ -14,7 +14,7 @@ description: >-
 * In cases dues are pending, user has to clear the dues before applying for Disconnection.
 * ‘Disconnect’ option itself is not displayed in the action list for the connection which are **INACTIVE**.
 
-![](<../../../../../.gitbook/assets/image (64).png>)![](<../../../../../.gitbook/assets/image (176).png>)![](<../../../../../.gitbook/assets/image (59).png>)
+![](<../../../../../.gitbook/assets/image (379).png>)![](<../../../../../.gitbook/assets/image (465).png>)![](<../../../../../.gitbook/assets/image (364).png>)
 
 &#x20;**Route**&#x20;
 
@@ -22,11 +22,11 @@ My Connections → View Connection Details → Disconnect
 
 Clicking on Disconnect it navigates to the Water and Sewerage Disconnection Application Document required screen.
 
-![](<../../../../../.gitbook/assets/image (57).png>)
+![](<../../../../../.gitbook/assets/image (343).png>)
 
 File Path: [https://github.com/egovernments/DIGIT-Dev/blob/develop/frontend/micro-ui/web/micro-ui-internals/packages/modules/ws/src/pageComponents/WSDisconnectionDocsRequired.js](https://github.com/egovernments/DIGIT-Dev/blob/develop/frontend/micro-ui/web/micro-ui-internals/packages/modules/ws/src/pageComponents/WSDisconnectionDocsRequired.js)
 
-&#x20;![](<../../../../../.gitbook/assets/image (63).png>)
+&#x20;![](<../../../../../.gitbook/assets/image (363).png>)
 
 File Path: [https://github.com/egovernments/DIGIT-Dev/blob/develop/frontend/micro-ui/web/micro-ui-internals/packages/modules/ws/src/pageComponents/WSDisconnectionForm.js](https://github.com/egovernments/DIGIT-Dev/blob/develop/frontend/micro-ui/web/micro-ui-internals/packages/modules/ws/src/pageComponents/WSDisconnectionForm.js)
 
@@ -56,13 +56,13 @@ On Clicking on Next button in the Application Form Screen , it will route to Upl
 
 File Path: [https://github.com/egovernments/DIGIT-Dev/blob/develop/frontend/micro-ui/web/micro-ui-internals/packages/modules/ws/src/pageComponents/WSDisconnectionDocumentsForm.js](https://github.com/egovernments/DIGIT-Dev/blob/develop/frontend/micro-ui/web/micro-ui-internals/packages/modules/ws/src/pageComponents/WSDisconnectionDocumentsForm.js)
 
-![](<../../../../../.gitbook/assets/image (123).png>)
+![](<../../../../../.gitbook/assets/image (440).png>)
 
 On Clicking on Next button in the Upload Documents Screen , it will route to Summary Check Page Screen
 
 File Path: [https://github.com/egovernments/DIGIT-Dev/blob/develop/frontend/micro-ui/web/micro-ui-internals/packages/modules/ws/src/pages/citizen/WSDisconnection/CheckPage.js](https://github.com/egovernments/DIGIT-Dev/blob/develop/frontend/micro-ui/web/micro-ui-internals/packages/modules/ws/src/pages/citizen/WSDisconnection/CheckPage.js)
 
-![](<../../../../../.gitbook/assets/image (91).png>)
+![](<../../../../../.gitbook/assets/image (453).png>)
 
 In Check Page you can edit the entered data for Disconnection.
 
@@ -148,7 +148,7 @@ After the Success of the Create and Update calls it routes users to the Disconne
 
 File Path: [https://github.com/egovernments/DIGIT-Dev/blob/develop/frontend/micro-ui/web/micro-ui-internals/packages/modules/ws/src/pageComponents/WSDisconnectAcknowledgement.js](https://github.com/egovernments/DIGIT-Dev/blob/develop/frontend/micro-ui/web/micro-ui-internals/packages/modules/ws/src/pageComponents/WSDisconnectAcknowledgement.js)
 
-![](<../../../../../.gitbook/assets/image (173).png>)
+![](<../../../../../.gitbook/assets/image (414).png>)
 
 Clicking on the Download Acknowledgement Form button downloads the Water or Sewerage Disconnection Acknowledgement PDF.
 

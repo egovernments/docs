@@ -27,7 +27,7 @@ Notiification based on channels.
 * Open link for stakeholder registration flow
 * Daily collection report
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-02-16 at 2.41.26 PM (1).png" alt=""><figcaption><p>OBPS daily collection report</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-02-16 at 2.41.26 PM (2).png" alt=""><figcaption><p>OBPS daily collection report</p></figcaption></figure>
 
 OBPS application status report
 

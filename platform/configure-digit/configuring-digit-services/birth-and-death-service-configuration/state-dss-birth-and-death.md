@@ -1055,21 +1055,21 @@ State DSS contains the following charts in the Birth & Death module:
 * **Total Certificate Downloads:** This represents the total number of birth certificates downloaded.
 * &#x20;**Total Collection:** Total revenue collected for downloading birth certificates for the applied date filter.
 
-![](<../../../../.gitbook/assets/image (174).png>)
+![](<../../../../.gitbook/assets/image (415).png>)
 
 **Certificates Download Trend:** This is a line graph that shows the total birth certificates downloaded for a given month, the and total Birth Certificates downloaded for the applied date filter.
 
 **line** - this graph/chart is data representation on date histograms or date groupings.
 
-![](<../../../../.gitbook/assets/image (37).png>)
+![](<../../../../.gitbook/assets/image (539).png>)
 
 **Downloads by Channel:** This is a pie chart where total birth certificate downloads are bifurcated by channel (Mobile App, Web etc.)
 
-![](<../../../../.gitbook/assets/image (10).png>)
+![](<../../../../.gitbook/assets/image (526).png>)
 
 **Births by Gender:** A pie chart illustrating the total births registered are bifurcated by gender
 
-![](<../../../../.gitbook/assets/image (505).png>)
+![](<../../../../.gitbook/assets/image (304).png>)
 
 **Certificate Downloads by Boundary:** This tabular chart representation graph shows multiple Birth information like Total Downloads (Mobile App), Total Downloads (Web), Total Downloads, and Delayed Registrations. And this table shows the data at the DDR level and also has the drill-down chart for each state to ULB and from ULB to ward level data for the same.
 
@@ -1081,15 +1081,15 @@ To add multiple computed columns -&#x20;
 * provide the fields \[] names as it exists in the query key
 * provide the newField as a name to reflect the computed details
 
-![](<../../../../.gitbook/assets/image (35).png>)
+![](<../../../../.gitbook/assets/image (553).png>)
 
 Clicking on any DDR name offers a drill-down chart that represents the specific state data.
 
-![](<../../../../.gitbook/assets/image (21).png>)
+![](<../../../../.gitbook/assets/image (531).png>)
 
 Clicking on the ULB navigates to show the data at the ward level.
 
-![](<../../../../.gitbook/assets/image (20).png>)
+![](<../../../../.gitbook/assets/image (548).png>)
 
 **Death:**
 
@@ -1104,25 +1104,25 @@ Clicking on the ULB navigates to show the data at the ward level.
 * **Total Certificate Downloads:** This represents the total number of death certificates downloaded.
 * &#x20;**Total Collection:** Total revenue collected for downloading death certificates for the applied date filter.
 
-![](<../../../../.gitbook/assets/image (482).png>)
+![](<../../../../.gitbook/assets/image (316).png>)
 
 **Certificates Download Trend: A** line graph that shows the total death certificates downloaded for a given month, and the total death Certificates downloaded for the applied date filter.
 
 **line** - this graph/chart is data representation on date histograms or date groupings.
 
-![](<../../../../.gitbook/assets/image (504).png>)
+![](<../../../../.gitbook/assets/image (303).png>)
 
 **Downloads by Channel:** This is a pie chart where total death certificate downloads are bifurcated by channel (Mobile App, Web etc.)
 
-![](<../../../../.gitbook/assets/image (4).png>)
+![](<../../../../.gitbook/assets/image (540).png>)
 
 **Deaths by Gender:** This will be a split bar graph where total deaths registered will be bifurcated by age category (< 2 years, 2-15, 15-29, 30-44, 45-59, 60-74, >= 75) and each bar will show gender wise split
 
-![](<../../../../.gitbook/assets/image (302).png>)
+![](<../../../../.gitbook/assets/image (565).png>)
 
 Clicking on any Category name drills down to charts that provide specific age group data.
 
-![](<../../../../.gitbook/assets/image (92).png>)
+![](<../../../../.gitbook/assets/image (461).png>)
 
 **Certificate Downloads by Boundary:** This tabular chart representation graph shows multiple Birth information like Total Downloads (Mobile App), Total Downloads (Web), Total Downloads, and Delayed Registrations. And this table shows the data at the DDR level and also has the drill-down chart for each state to ULB and from ULB to ward level data for the same.
 
@@ -1130,15 +1130,15 @@ xtable type allows to add multiple computed fields with the aggregated fields dy
 
 To add multiple computed columns,  computedFields \[]  where actionName (IComputedField\<T> interface), fields \[] names as in exist in query key, newField as name to appear for computation must be defined.
 
-<figure><img src="../../../../.gitbook/assets/image (150).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (429).png" alt=""><figcaption></figcaption></figure>
 
 Clicking on any DDR name provides the drill-down charts that represent state-specific data.
 
-<figure><img src="../../../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (361).png" alt=""><figcaption></figcaption></figure>
 
 Clicking on the ULB navigates to wards under that specific ULB and each ward shows the specific data regarding that ward.
 
-<figure><img src="../../../../.gitbook/assets/image (125).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (408).png" alt=""><figcaption></figcaption></figure>
 
 ## **Newly Introduced Property** <a href="#newly-introduced-property" id="newly-introduced-property"></a>
 

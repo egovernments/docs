@@ -45,7 +45,7 @@ Here `data.originalData` is the property before the update. The `data.documents`
 
 If the Property Mutation is successful. then the employee is directed to the acknowledgement screen. The screen displays the Acknowledgement Id and the option to download a pdf copy of the acknowledgement containing property details.
 
-![](<../../../../../.gitbook/assets/image (134) (1).png>)
+![](<../../../../../.gitbook/assets/image (134).png>)
 
 ## **Role Action Mapping**
 

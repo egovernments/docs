@@ -6,7 +6,7 @@ The Inbox page contains 4 react components:-
 
 Application Links is a separate component that holds links to other pages of possible navigation from the inbox. This component is common in both mobile and desktop views. Links are conditionally rendered according to the user roles.
 
-![](<../../../../../.gitbook/assets/image (127) (1).png>)
+![](<../../../../../.gitbook/assets/image (127).png>)
 
 ## Search Application
 
@@ -28,7 +28,7 @@ It contains 3 sections
 2. Locality - Filter result according to the selected locality by sending locality code in module search params in inbox API.
 3. Status - Status filters are achieved by sending the id received from the inbox API response and mapping the name of businessService, status name and count
 
-![](<../../../../../.gitbook/assets/image (118) (1).png>)
+![](<../../../../../.gitbook/assets/image (118).png>)
 
 ## Table
 

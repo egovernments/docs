@@ -12,13 +12,13 @@ Logged in users should able to see details of employees
 
 ![](<../../../../.gitbook/assets/image (291) (1).png>)
 
-![](<../../../../.gitbook/assets/image (279).png>)
+![](<../../../../.gitbook/assets/image (279) (1).png>)
 
 **Supported Documents**
 
 If the user has uploaded any documents against Employment Status. Those documents are downloadable in one click.
 
-![](<../../../../.gitbook/assets/image (277) (1).png>)
+![](<../../../../.gitbook/assets/image (277).png>)
 
 **API details**
 

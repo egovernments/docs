@@ -6,7 +6,7 @@ To provide users with the option to select cancel reasons and the options to can
 
 ## Workflow Details
 
-![](<../../../../../.gitbook/assets/image (254) (1).png>)
+![](<../../../../../.gitbook/assets/image (254).png>)
 
 ## **Implementation Details**
 
@@ -20,7 +20,7 @@ The reasons for bill cancellation options are fetched from the MDMS service.
 
 **PREVIOUS STEP:** Clicking on the Previous Step option redirects users to the bill details screen.
 
-![](<../../../../../.gitbook/assets/image (267) (1).png>)
+![](<../../../../../.gitbook/assets/image (267).png>)
 
 ## **Cancel Bill**
 

@@ -24,7 +24,7 @@ Log in to the employee portal using your credential.
 
 Click on the **New Application** option in the top left corner of the landing page.
 
-![](<../../../../.gitbook/assets/image (248).png>)
+![](<../../../../.gitbook/assets/image (248) (1).png>)
 
 An employee can create the application on behalf of citizens over the counter.
 
@@ -36,7 +36,7 @@ Fill in the application details (same as given in the citizen application proces
 
 Click on the Submit button once all details are found complete and accurate.
 
-![](<../../../../.gitbook/assets/image (187) (1).png>)
+![](<../../../../.gitbook/assets/image (187).png>)
 
 A unique application reference number is generated. This number is used to access the application and for further processing. The citizen receives a notification along with this application number in the registered mobile number.
 
@@ -60,7 +60,7 @@ Enter the **Payment** and **Payer Details**. Click on **Collect Payment** to pro
 
 The system generates a unique payment **Receipt Number**. Click on the **Print Receipt** button to print the receipt. Click on the **Go Back to Home Page** button to navigate back to the home page.
 
-![](<../../../../.gitbook/assets/image (200) (1).png>)
+![](<../../../../.gitbook/assets/image (200).png>)
 
 ## **Renew License**
 
@@ -94,7 +94,7 @@ The employee landing page displays the list of applications waiting for processi
 
 Click on the **Application Number** hyperlink to open the application.
 
-![](<../../../../.gitbook/assets/image (153).png>)
+![](<../../../../.gitbook/assets/image (153) (1).png>)
 
 Scroll through the application details and review the uploaded documents.
 
@@ -122,7 +122,7 @@ Scroll through the application details and review the details.
 
 Click on the **Take Action** button and click on **Verify and Forward** option if all details are found complete and satisfactory.
 
-![](<../../../../.gitbook/assets/image (226) (1).png>)
+![](<../../../../.gitbook/assets/image (226).png>)
 
 Select the **Assignee Name**. The application will be forwarded to the selected assignee for approval.
 
@@ -144,11 +144,11 @@ Scroll through the application details and review the details.
 
 Click on the **Take Action** button and click on **Approve** option if all documents and details are found complete and satisfactory. The trade license is approved and a Trade License certificate is issued to the applicant.
 
-![](<../../../../.gitbook/assets/image (146).png>)
+![](<../../../../.gitbook/assets/image (146) (1).png>)
 
 Click on the **Reject** option if the application details are found inaccurate. This will reject the application.
 
-![](<../../../../.gitbook/assets/image (170) (1).png>)
+![](<../../../../.gitbook/assets/image (170).png>)
 
 Click on **Send Back** option to send the application back to the previous employee (field inspector in this case) for further action.
 

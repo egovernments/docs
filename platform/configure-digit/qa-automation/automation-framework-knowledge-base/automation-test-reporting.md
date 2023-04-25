@@ -45,7 +45,7 @@ Select the **karate runner** tab and click on **overview-features.html** to view
 
 Now, observe below **Feature Report**, you can see lots of verbose logging in the console and the actual output whether the features/scenarios are passed/ failed are skipped.
 
-![](<../../../../.gitbook/assets/159 (2).png>)
+![](<../../../../.gitbook/assets/159 (6).png>)
 
 * karate-summary.html:
 
