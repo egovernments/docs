@@ -63,8 +63,8 @@ Explore the DIGIT Ecosystem
 [modules](products/modules/)
 {% endcontent-ref %}
 
-{% content-ref url="platform/installation/" %}
-[installation](platform/installation/)
+{% content-ref url="platform/installation.md" %}
+[installation.md](platform/installation.md)
 {% endcontent-ref %}
 
 {% content-ref url="platform/configure-digit/" %}
