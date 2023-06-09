@@ -27,11 +27,19 @@ Open the Google Play console by entering the URL ([https://play.google.com/apps/
 
 After login in the following screen can be seen.
 
-![](<../../../../.gitbook/assets/1 (2).png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/1 (2).png" alt="">
+
+</div>
 
 Now on the top-right click on the Create Application button and you get a popup to enter the title of the apk. Refer to the screenshot below and click on create.
 
-![](<../../../../.gitbook/assets/2 (2).png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/2 (2).png" alt="">
+
+</div>
 
 After clicking the create you will be redirected to the page where we need to enter the product details, graphics assets, categorization ..etc
 

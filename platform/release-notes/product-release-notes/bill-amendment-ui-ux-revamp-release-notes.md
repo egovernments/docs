@@ -10,10 +10,7 @@ UI/UX revamp of Bill Amendment Inbox and Application View.
 
 ## Release Features <a href="#release-features" id="release-features"></a>
 
-| Key Features     | Description                                                       |
-| ---------------- | ----------------------------------------------------------------- |
-| Inbox            | UI/UX revamp of employee inbox and service wise separate inboxes. |
-| View Application | UI/ UX revamp of the application details view.                    |
+<table><thead><tr><th width="193">Key Features</th><th>Description</th></tr></thead><tbody><tr><td>Inbox</td><td>UI/UX revamp of employee inbox and service wise separate inboxes.</td></tr><tr><td>View Application</td><td>UI/ UX revamp of the application details view.</td></tr></tbody></table>
 
 ## Known Issues
 

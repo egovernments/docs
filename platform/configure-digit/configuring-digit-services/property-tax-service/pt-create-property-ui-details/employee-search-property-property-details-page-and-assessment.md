@@ -44,7 +44,11 @@ The employee also has the option to view history - this enables the users to vie
 
 Users can access the payment history of a specific property as well as download the receipt for the same.
 
-![](<../../../../../.gitbook/assets/Screenshot from 2022-03-11 16-11-32.png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/Screenshot from 2022-03-11 16-11-32.png" alt="">
+
+</div>
 
 ## **Technical Implementation**
 

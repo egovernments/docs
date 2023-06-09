@@ -192,21 +192,37 @@ Screenshots are attached below.&#x20;
 
 Apply for amalgamation
 
+<div align="left">
+
 <figure><img src="../../../../.gitbook/assets/image (485).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 Login into the account (If not already logged in)
 
+<div align="left">
+
 <figure><img src="../../../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 Select retaining the property for amalgamation&#x20;
 
 The user will be displayed all the properties currently linked with the logged-in account and allowed to select one of them as a retaining property.
 
+<div align="left">
+
 <figure><img src="../../../../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 The retaining property address and ownership details is displayed on apply.
 
+<div align="left">
+
 <figure><img src="../../../../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 Select a property to merge&#x20;
 
@@ -217,19 +233,31 @@ The user will be displayed a list of all those properties which are owned by him
 * The property should be active property, **also there should not be any application in flow for an integrated module associated with the property.**&#x20;
 * The property should belong to the same locality as the retaining property.
 
+<div align="left">
+
 <figure><img src="../../../../.gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 Modify the assessment details of retaining property&#x20;
 
 * Property Type&#x20;
 * Plot Size
 
+<div align="left">
+
 <figure><img src="../../../../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 * Number of basements&#x20;
 * Number of floors
 
+<div align="left">
+
 <figure><img src="../../../../.gitbook/assets/image (505).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 Unit details&#x20;
 
@@ -247,11 +275,19 @@ In case the property type is ‘Flat’, flat details are modified.
 
 In the case property type is vacant land, vacant land details are modified.
 
+<div align="left">
+
 <figure><img src="https://lh4.googleusercontent.com/drLwE5wx93-H50p5FJZL8JiPBWugfi2BMPaXWAe4kZwdRLx_qUxyx8mA9z2nKve6bgI-irsjd1Gz0wXOL161Pe9ESW_gqharBIdrff-KiAHpMlbGf8Je_gRDUVy3Qwdmes1xnaoFNrL3nSbKvXqkyivOsumYD9hHZ4Rh8nkQHNVVUNarDhfU4pNO" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 Documents attachment and summary of the application
 
+<div align="left">
+
 <figure><img src="https://lh6.googleusercontent.com/FzYpT4agDDCHYz6kEkSKBgNZhbr4RcEWHqOOyPUA_lnRIGjxlywNFG-vruOy72SERphC7O2ZYfWLg8-xhYSjvt5c20b4GJ62CV09Pz8a6HULDfmz1WSEOlVFVWJqgxsV6_53N02DsJW-35zkXbrFbzVNe3T7CyX1GN-0pmSzGbhRUk5msbfycY22" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 ![](<../../../../.gitbook/assets/image (483).png>)![](<../../../../.gitbook/assets/image (499).png>)
 

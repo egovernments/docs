@@ -8,7 +8,11 @@ description: Migration details from v1 to v2
 
 According to the new collection service, which follows the payment structure for storing information about payments and payment details, it is necessary to migrate the old collection structure into the new payment structure.
 
-![](../../../../../.gitbook/assets/109.png)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/109.png" alt="">
+
+</div>
 
 ## Migration Details
 

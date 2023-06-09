@@ -4,7 +4,11 @@
 
 To provide the facility for the user for creating New Building Permit Application by the citizen.&#x20;
 
-![BPA Home Card](<../../../../../.gitbook/assets/Screenshot from 2021-09-30 10-20-48 (1).png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/Screenshot from 2021-09-30 10-20-48 (1).png" alt="BPA Home Card">
+
+</div>
 
 ## **Workflow Details**
 
@@ -18,29 +22,49 @@ Architects will first need to generate an eDCR Scrutiny Number if it is not alre
 
 The Create API is called in the middle of the workflow after owner details. And, at the end of the flow, a summary screen is visible for the review of the entered details. Click on the submit button calls the Update API that changes the status from Initiated to Applied and the Registration Application gets updated.
 
-![](<../../../../../.gitbook/assets/Screenshot from 2021-11-08 10-25-18.png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/Screenshot from 2021-11-08 10-25-18.png" alt="">
+
+</div>
 
 ### eDCR Scrutiny Registration
 
 Users must provide the City, Applicant Name and upload the dxf file in order to generate eDCR number.
 
-![](<../../../../../.gitbook/assets/Screenshot from 2021-11-08 11-09-36.png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/Screenshot from 2021-11-08 11-09-36.png" alt="">
+
+</div>
 
 The Acknowledgement Page gets displayed. Users can apply for the building permit by clicking on the Apply for Building Plan Permit button. Or, they can go back and apply from the home page as mentioned in the previous section.
 
-![](<../../../../../.gitbook/assets/Screenshot from 2021-11-08 11-10-11.png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/Screenshot from 2021-11-08 11-10-11.png" alt="">
+
+</div>
 
 ### New Building Plan Permit Registration
 
 The New Building Permit Document Required screen is displayed after login, which helps the user to understand the necessary documents needed to complete the new registration for New Building Permit. A Citizen Info card is also shown at the bottom of the page for any additional information such as the maximum size of the file that can be uploaded.
 
-![](<../../../../../.gitbook/assets/Screenshot from 2021-11-08 11-18-49.png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/Screenshot from 2021-11-08 11-18-49.png" alt="">
+
+</div>
 
 ### TimeLine Component
 
 The TimeLine component is present on all pages of the application. It informs the user about each stepper in completing the registration application.
 
-![](<../../../../../.gitbook/assets/Screenshot from 2021-11-08 11-20-19.png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/Screenshot from 2021-11-08 11-20-19.png" alt="">
+
+</div>
 
 ### Scrutiny Details Step
 
@@ -50,29 +74,49 @@ In this step, the users need to provide and verify the details from the scrutiny
 
 Users will need to verify the basic details received from the API, using the eDCR scrutiny number. In case the scrutiny number is not entered, users can enter the number and search for the result.
 
-![](<../../../../../.gitbook/assets/Screenshot from 2021-11-08 11-21-41.png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/Screenshot from 2021-11-08 11-21-41.png" alt="">
+
+</div>
 
 #### Plot Details
 
 The data asked here is not compulsory - users can enter or skip it too.
 
-![](<../../../../../.gitbook/assets/Screenshot from 2021-11-08 11-24-21.png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/Screenshot from 2021-11-08 11-24-21.png" alt="">
+
+</div>
 
 #### Scrutiny Details
 
 On this page, half of the details are received from the scrutiny details API and a drop-down for sub-occupancy which is multiple in nature. Users can select accordingly.
 
-![](<../../../../../.gitbook/assets/Screenshot from 2021-11-08 11-33-00.png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/Screenshot from 2021-11-08 11-33-00.png" alt="">
+
+</div>
 
 #### Location Details
 
 Users can click on the GIS icon and select and pinpoint the current address on the geolocation component.
 
-![](<../../../../../.gitbook/assets/Screenshot from 2021-11-08 11-55-41.png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/Screenshot from 2021-11-08 11-55-41.png" alt="">
+
+</div>
 
 If the user does not want to select the location on the map, they can enter the Pincode. The city and locality get selected accordingly.
 
-![](<../../../../../.gitbook/assets/Screenshot from 2021-11-08 11-53-55.png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/Screenshot from 2021-11-08 11-53-55.png" alt="">
+
+</div>
 
 ### Owner & Document Step
 
@@ -82,27 +126,47 @@ In this step, users have to provide details about the owner. Owners could be sin
 
 Select the type of owner and enter owner's details
 
-![](<../../../../../.gitbook/assets/Screenshot from 2021-11-08 12-02-46.png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/Screenshot from 2021-11-08 12-02-46.png" alt="">
+
+</div>
 
 In case, the multiple owner option is selected, the Add Owner button is visible. The Primary Owner checkbox is also available. Click on the Add Owner button allows users to add multiple owners accordingly. Click on the Next button calls the Create API.
 
-![](<../../../../../.gitbook/assets/Screenshot from 2021-11-08 12-12-49.png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/Screenshot from 2021-11-08 12-12-49.png" alt="">
+
+</div>
 
 #### Document Details
 
 Users have to select the document type. Upload multiple documents if needed using the document upload component. If the type is only one, then it came pre-selected for user convenience. Also, the documents which are mandatory are defined in MDMS from where it is fetched.
 
-![](<../../../../../.gitbook/assets/Screenshot from 2021-11-08 12-20-55.png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/Screenshot from 2021-11-08 12-20-55.png" alt="">
+
+</div>
 
 An info card is also visible which informs the user about the application number of the application created in the create API call.
 
-![](<../../../../../.gitbook/assets/Screenshot from 2021-11-08 14-40-29.png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/Screenshot from 2021-11-08 14-40-29.png" alt="">
+
+</div>
 
 ### NOC Details
 
 Users need to verify and upload the documents, if required, for the NOC details. This information is also fetched from the MDMS.
 
-![](<../../../../../.gitbook/assets/Screenshot from 2021-11-08 14-43-01.png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/Screenshot from 2021-11-08 14-43-01.png" alt="">
+
+</div>
 
 ### Summary Page & Acknowledgement Screen
 
@@ -110,7 +174,11 @@ Users can cross-verify the data entered throughout the flow on the Summary page.
 
 Along with this Fee estimate for the corresponding application is also shown on the summary page.
 
-![](<../../../../../.gitbook/assets/Screenshot from 2021-11-08 14-45-20.png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/Screenshot from 2021-11-08 14-45-20.png" alt="">
+
+</div>
 
 For BPA Application the Update API call is made. Below is the snippet of the Update API used:
 
@@ -120,7 +188,11 @@ update: "/bpa-services/v1/bpa/_update",
 
 If the API response is successful, then the Acknowledgement Screen is displayed. Else, the Failed Acknowledgement Screen is displayed.
 
-![](<../../../../../.gitbook/assets/Screenshot from 2021-11-08 14-48-42.png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/Screenshot from 2021-11-08 14-48-42.png" alt="">
+
+</div>
 
 ### **OC Apply For New Building Permit Application (BPA)**
 
@@ -134,21 +206,37 @@ Click on the OC Plan Scrutiny for New Construction button to generate an OC eDCR
 
 The Documents Required screen lists all the documents or data required to generate the OC eDCR number.
 
-![](<../../../../../.gitbook/assets/Screenshot from 2021-11-08 14-56-12.png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/Screenshot from 2021-11-08 14-56-12.png" alt="">
+
+</div>
 
 ### OC eDCR scrutiny details
 
 Once the user provides the Permit Number and Date, the application details are pre-populated.
 
-![](<../../../../../.gitbook/assets/Screenshot from 2021-11-08 14-56-54.png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/Screenshot from 2021-11-08 14-56-54.png" alt="">
+
+</div>
 
 After verifying the details the user needs to upload the DXF file in order to generate the OC Scrutiny number.
 
-![](<../../../../../.gitbook/assets/Screenshot from 2021-11-08 14-58-15.png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/Screenshot from 2021-11-08 14-58-15.png" alt="">
+
+</div>
 
 The success acknowledgement page is shown in case of no errors in the application.
 
-![](<../../../../../.gitbook/assets/Screenshot from 2021-11-08 14-59-15.png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/Screenshot from 2021-11-08 14-59-15.png" alt="">
+
+</div>
 
 Clicking on Apply for OC New Construction redirects users to the Apply for new building permit form page. The Location & Owner Details will get auto-populated from the previous application details. The application triggers the Create API call from the scrutiny details page. The remaining flow is the same as for New Building Plan Permit.
 
@@ -170,7 +258,11 @@ The links for the OCBPA & OCEDCR Main Index are given below. These help in under
 
 The OBPS Module is segregated into a specified structure. All the screen configurations are available inside the PageComponent Folder and the configuration for routing of the pages are available within the config folder which is common for both Citizen as well as Employees. New components like TimeLine are defined within the component folder. Below is the snippet for folder structure and routing configuration.
 
-![](<../../../../../.gitbook/assets/Screenshot from 2021-10-07 22-55-13 (1).png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/Screenshot from 2021-10-07 22-55-13 (1).png" alt="">
+
+</div>
 
 Config responsible for the routing of each flow
 

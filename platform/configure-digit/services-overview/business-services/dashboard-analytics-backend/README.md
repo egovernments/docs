@@ -40,7 +40,11 @@ Topic context configuration is an outline to define which data is received on wh
 
 Indexer Service and many other services are sending out data on different Kafka Topics. If the Ingest Service receives the data and passes it through the pipeline, the context and the version of the data received have to be set. This configuration is used to identify which Kafka topic consumed the data and the mapping details.
 
-![Figure 1](../../../../../.gitbook/assets/110.png)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/110.png" alt="Figure 1">
+
+</div>
 
 [Click here for the full configuration](https://github.com/egovernments/configs/blob/master/egov-dss-dashboards/dashboard-ingest/TopicContextConfiguration.json)
 
@@ -66,7 +70,11 @@ While the transformation schemas are written for each data context, the data is 
 
 [Follow the slide deck for JOLT Transformations](https://docs.google.com/presentation/d/1sAiuiFC4Lzz4-064sg1p8EQt2ev0o442MfEbvrpD1ls/edit#slide=id.p)
 
-![Figure 3](../../../../../.gitbook/assets/112.png)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/112.png" alt="Figure 3">
+
+</div>
 
 [Click here for an example configuration](https://github.com/egovernments/configs/blob/master/egov-dss-dashboards/dashboard-ingest/transform\_collection\_v1.json)
 
@@ -239,7 +247,11 @@ To add new visualisations, modify the MasterDashboardConfig.json (**vizArray** n
 **Note:** vizArray is used to hold multiple visualizations.
 {% endhint %}
 
-![Figure 11](../../../../../.gitbook/assets/122.png)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/122.png" alt="Figure 11">
+
+</div>
 
 ## Adding Charts&#x20;
 
@@ -255,7 +267,11 @@ To add a new chart, chartApiConf.json has to be modified as shown below. A new c
 
 **Line chart Sample as shown in Figure 14.**
 
-![Figure 14](../../../../../.gitbook/assets/125.png)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/125.png" alt="Figure 14">
+
+</div>
 
 **Table chart Sample:** This chart is of 2 types - table and xtable.table (as shown in Figure 15.) Type allows the addition of aggregated fields as available in the query keys. To extract the values based on the key, **aggegationPaths** have to be added along with their data type as in **pathDataTypeMapping**.
 

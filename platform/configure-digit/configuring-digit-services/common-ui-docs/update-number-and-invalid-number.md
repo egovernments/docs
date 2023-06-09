@@ -10,11 +10,19 @@
 
 Users can update the mobile number from the application details page by clicking on the assign button at the workflow level.
 
-![](<../../../../.gitbook/assets/Screenshot from 2022-03-11 16-54-45.png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/Screenshot from 2022-03-11 16-54-45.png" alt="">
+
+</div>
 
 This opens a pop-up window where users can enter the respective details required to update the mobile number.
 
-![](<../../../../.gitbook/assets/Screenshot from 2022-03-11 16-56-24.png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/Screenshot from 2022-03-11 16-56-24.png" alt="">
+
+</div>
 
 Click on the Update button once the details are entered.
 
@@ -39,7 +47,11 @@ Clicking on the Collect Tax button displays an alert dialogue box communicating 
 2. Continue to Collect- **a**ction button
 3. Update Mobile Number - action button
 
-![](<../../../../.gitbook/assets/Screenshot from 2022-03-11 17-04-41.png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/Screenshot from 2022-03-11 17-04-41.png" alt="">
+
+</div>
 
 Continue to Collect - The user is taken to the collection page and the collection process is completed.
 
@@ -55,7 +67,11 @@ Update Mobile Number - Users must provide the below details to update the mobile
      * Choose File - File picker to upload the file.
 5. **Update** - action button to update the mobile no.
 
-![](<../../../../.gitbook/assets/Screenshot from 2022-03-11 17-05-23.png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/Screenshot from 2022-03-11 17-05-23.png" alt="">
+
+</div>
 
 The remaining process is the same as in the application details edit page.
 

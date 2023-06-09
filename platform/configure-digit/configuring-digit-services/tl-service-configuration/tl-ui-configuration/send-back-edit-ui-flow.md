@@ -8,11 +8,19 @@ This feature allows the user to edit the application already created under their
 
 On the Application details page, on the employee side, if the application is marked with “Send Back to Citizen”, the edit option will appear dynamically at the end of the application details page, which the user can navigate through my applications.
 
-![](<../../../../../.gitbook/assets/image (166) (1).png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/image (166) (1).png" alt="">
+
+</div>
 
 After this, On clicking the button, the user can edit the trade license details by going through the Create Flow again. First, it will land on the Summary page, where for each section “change” button is there. Clicking on the Change button, the user will be redirected to the particular content, the only exception here will be the values will be pre-populated from the License object received from Trade License Search API, on completing the flow, Update API will be called and License application will get successfully updated.
 
-![Acknowledgement Screen](<../../../../../.gitbook/assets/image (125).png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/image (125).png" alt="Acknowledgement Screen">
+
+</div>
 
 ## **Technical Implementation Details**
 
@@ -36,7 +44,11 @@ On completing the flow, the same object structure which was being used earlier i
 
 {% embed url="https://github.com/egovernments/digit-ui-internals/blob/main/packages/modules/tl/src/utils/index.js" %}
 
+<div align="left">
+
 <figure><img src="../../../../../.gitbook/assets/image (393).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 ## **MDMS**
 

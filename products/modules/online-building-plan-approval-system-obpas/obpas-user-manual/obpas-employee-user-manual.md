@@ -64,7 +64,11 @@ Click on the **Choose File** button to upload any supporting documents. Click on
 
 The application is placed back in the **Citizen** queue for required edits.
 
-![](<../../../../.gitbook/assets/Screenshot 2022-01-27 at 2.15.15 PM.png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/Screenshot 2022-01-27 at 2.15.15 PM.png" alt="">
+
+</div>
 
 ### **Reject** Application or **Revoke** Application
 
@@ -88,7 +92,11 @@ State the reasons for rejecting the application in the **Comments** section. Cli
 
 The application is rejected and a notification is sent to the owner informing the same.
 
-![](<../../../../.gitbook/assets/Screenshot 2022-01-27 at 2.18.01 PM.png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/Screenshot 2022-01-27 at 2.18.01 PM.png" alt="">
+
+</div>
 
 Permit orders are sanctioned instantly for low-risk applications. However, the application goes through the normal workflows for document verification, field inspection, and NOC verification. The ULB authorities can revoke the permit order in case any anomalies are detected during the verification process.
 
@@ -194,7 +202,11 @@ Click on the **Choose File** button to upload any supporting documents. Click on
 
 The application is placed back in the Citizen queue for required edits.
 
-![](<../../../../.gitbook/assets/Screenshot 2022-01-27 at 2.54.47 PM.png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/Screenshot 2022-01-27 at 2.54.47 PM.png" alt="">
+
+</div>
 
 ### **Reject application**
 
@@ -204,7 +216,11 @@ The FI can reject the application if the documents and information furnished by 
 
 Click on the **Reject** button if the documents do not meet the application requirements or the information provided in the application is inaccurate.
 
-![](<../../../../.gitbook/assets/Screenshot 2022-01-27 at 3.00.10 PM.png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/Screenshot 2022-01-27 at 3.00.10 PM.png" alt="">
+
+</div>
 
 State the reasons for rejecting the application in the **Comments** section. Click on the **Choose File** button to upload any supporting documents. Click on the **Reject** button.
 
@@ -238,7 +254,11 @@ Select the applicable **Assignee Name** who will carry out the next phase of ver
 
 Click on the **Choose File** button to upload any supporting documents. Click on the **Verify and Forward** button.
 
-![](<../../../../.gitbook/assets/Screenshot 2022-01-27 at 3.00.22 PM.png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/Screenshot 2022-01-27 at 3.00.22 PM.png" alt="">
+
+</div>
 
 The application is forwarded to the **NOC Verifier** for further processing.
 
@@ -293,7 +313,11 @@ Click on the **Choose File** button to upload any supporting documents. Click on
 
 The application is placed back in the Citizen queue for required edits.
 
-![](<../../../../.gitbook/assets/Screenshot 2022-01-27 at 3.21.15 PM.png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/Screenshot 2022-01-27 at 3.21.15 PM.png" alt="">
+
+</div>
 
 ### **Reject application**
 
@@ -329,7 +353,11 @@ Enter the reason for revoking the permit in the **Comments** field.
 
 Click on **Choose File** to attach supporting documents. Click on the **Revocate** button.&#x20;
 
-![](<../../../../.gitbook/assets/Screenshot 2022-01-27 at 4.44.52 PM.png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/Screenshot 2022-01-27 at 4.44.52 PM.png" alt="">
+
+</div>
 
 ### **Forward application**
 
@@ -418,7 +446,11 @@ BPA Approver can reject the application if the documents and information furnish
 
 State the reasons for rejecting the application in the **Comments** section. Click on the **Choose File** button to upload any supporting documents. Click on the **Reject** button.
 
-![](<../../../../.gitbook/assets/Screenshot 2022-01-27 at 3.29.00 PM.png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/Screenshot 2022-01-27 at 3.29.00 PM.png" alt="">
+
+</div>
 
 
 

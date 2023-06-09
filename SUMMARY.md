@@ -442,8 +442,6 @@
         * [Search Employee By Multiple Criteria UI Flow](products/modules/hrms/hrms-ui-configuration/search-employee-by-multiple-criteria-ui-flow.md)
         * [Employees Count UI Flow](products/modules/hrms/hrms-ui-configuration/employees-count-ui-flow.md)
         * [Auto Escalation UI Flow](products/modules/hrms/hrms-ui-configuration/auto-escalation-ui-flow.md)
-    * [Bill Genie](products/modules/bill-genie.md)
-    * [Bill Amendment](products/modules/bill-amendment.md)
     * [Citizen Engagement Module](products/modules/citizen-engagement-module/README.md)
       * [Survey](products/modules/citizen-engagement-module/survey/README.md)
         * [Survey User Manual](products/modules/citizen-engagement-module/survey/survey-user-manual/README.md)

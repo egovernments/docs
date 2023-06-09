@@ -22,57 +22,113 @@ Citizens or CE can apply for a new trade license through the DIGIT web portal or
 
 Enter your **Mobile Number**, **Name**, and **City** details. Click on the **Continue** button.
 
-![](<../../../../.gitbook/assets/image (128) (1).png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/image (128) (1).png" alt="">
+
+</div>
 
 Enter the **OTP** received on the given mobile number. Click on **Continue**. The system validates the details and allows the user to log in to the system with the registered mobile number.
 
-![](<../../../../.gitbook/assets/image (220) (1).png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/image (220) (1).png" alt="">
+
+</div>
 
 Enter your registered mobile number and the OTP received on the mobile to log in. Click on **Continue with Whatsapp** button to register your service request using the WhatsApp channel.
 
-![](<../../../../.gitbook/assets/image (124).png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/image (124).png" alt="">
+
+</div>
 
 Click on the **Continue** button.
 
-![](<../../../../.gitbook/assets/image (262).png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/image (262).png" alt="">
+
+</div>
 
 Click on **Apply for Trade License.**
 
-![](<../../../../.gitbook/assets/image (222) (1).png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/image (222) (1).png" alt="">
+
+</div>
 
 The initial application screen displays the list of documents that have to be submitted for trade license registration. Scroll through the list and make sure the required documents are scanned and ready for submission online.
 
-![](<../../../../.gitbook/assets/image (163) (1).png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/image (163) (1).png" alt="">
+
+</div>
 
 Enter the **Trade Name**. Click on the **Next** button.
 
-![](<../../../../.gitbook/assets/image (143) (3).png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/image (143) (3).png" alt="">
+
+</div>
 
 Click on the **Yes** or **No** option to indicate the **Structure Type** of the trading premises. **Yes** to indicate the trade will run on an immovable structure. And, **No** to indicate the trade will run on a movable structure.
 
-![](<../../../../.gitbook/assets/image (169) (1).png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/image (169) (1).png" alt="">
+
+</div>
 
 Select **Pucca** or **Kutcha** option to indicate the **Building Type**. The **Building Type** option appears if the selected **Structure Type** in the previous screen is **Immovable**. In the case of **Movable** structures, the system displays the **Structure Sub Type** as **Vehicle Type**. Select **Hand Driven Vehicle** or **Motor-Driven Vehicle** option depending on the trading plans.
 
-![](<../../../../.gitbook/assets/image (268) (4).png>)
+<div align="left">
 
-![](<../../../../.gitbook/assets/image (191).png>)
+<img src="../../../../.gitbook/assets/image (268) (4).png" alt="">
+
+</div>
+
+<div align="left">
+
+<img src="../../../../.gitbook/assets/image (191).png" alt="">
+
+</div>
 
 Enter the **Trade Commencement Date**. This date indicates the inception or starting date of the trade.
 
-![](<../../../../.gitbook/assets/image (237) (4).png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/image (237) (4).png" alt="">
+
+</div>
 
 Select the **Trade Category** as either **Goods** or **Services** in the **Trade Units** screen. Next, select the appropriate **Trade Type** and **Trade Sub Type** from the available drop-down list. Click on **Add More Trade Units** button to append multiple trading units.
 
-![](<../../../../.gitbook/assets/image (215) (3).png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/image (215) (3).png" alt="">
+
+</div>
 
 Select **Yes** or **No** to indicate if you have any trade accessories.
 
-![](<../../../../.gitbook/assets/image (180) (1).png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/image (180) (1).png" alt="">
+
+</div>
 
 If **Yes**, select the applicable **Accessory** from the drop-down list. Enter the **Count** for the selected **Accessory** to provide details on the number of accessories required. The system auto-populates the applicable **UOM**, if any, for the selected accessory. Enter the **UOM value**. Click on **Add More Trade Accessories** button to append multiple accessories.
 
-![](<../../../../.gitbook/assets/image (159) (5).png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/image (159) (5).png" alt="">
+
+</div>
 
 Enable the **Location** Finder to allow GPS to track the current location. Or, move the pin to the location manually. Alternatively, you can also enter the location in the Search bar.
 
@@ -82,13 +138,21 @@ The **Pincode** field gets auto-populated if the location is selected on the map
 
 **City** and **Locality/Mohalla** fields are auto-populated once the **Pincode** is entered. Else, select the **City** and applicable **Locality/Mohalla** from the drop-down list.
 
-![](<../../../../.gitbook/assets/image (177).png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/image (177).png" alt="">
+
+</div>
 
 Enter the **Street Name** and **Door No.** details.
 
 Provide a **Landmark** to locate the trading premise.
 
-![](<../../../../.gitbook/assets/image (206) (4).png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/image (206) (4).png" alt="">
+
+</div>
 
 Select either the **Single Owner** or **Multiple Owners** option to indicate the type of ownership in the **Ownership Details** screen.
 
@@ -102,11 +166,19 @@ Upload the documents as required.
 
 Validate the information entered in the application summary screen. Click on **Change** to modify the information if required. Click on **Submit** button once the filled-in details are found correct and complete.
 
-![](<../../../../.gitbook/assets/image (139) (3).png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/image (139) (3).png" alt="">
+
+</div>
 
 The system generates a unique application reference number. Click on **Download Acknowledgement Form** to download and print the acknowledgement.
 
-![](<../../../../.gitbook/assets/image (183) (1).png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/image (183) (1).png" alt="">
+
+</div>
 
 ### **Renew Trade License**
 
@@ -132,23 +204,43 @@ The Trade License is submitted for renewal.
 
 My Applications option allows applicants to view their applications and track their status.
 
-![](<../../../../.gitbook/assets/image (240) (1).png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/image (240) (1).png" alt="">
+
+</div>
 
 Click on **My Applications**.
 
-![](<../../../../.gitbook/assets/image (135).png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/image (135).png" alt="">
+
+</div>
 
 The screen displays all the applications tagged to the registered mobile number. Click on the **View Details** button to view the application details. In case the application is pending payment click on **View Details & Pay** button to make the payment.
 
-![](<../../../../.gitbook/assets/image (195) (1).png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/image (195) (1).png" alt="">
+
+</div>
 
 The **Application Timeline** displays the current status and completed actions on the selected application. If the application status shows **Pending for Payment**, click on the **View Details** and then the **Pay** button to initiate payment.
 
-![](<../../../../.gitbook/assets/image (173) (1).png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/image (173) (1).png" alt="">
+
+</div>
 
 Click on **Pay** redirects the citizen to the internet banking page and make the payment.
 
-![](<../../../../.gitbook/assets/image (122) (1).png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/image (122) (1).png" alt="">
+
+</div>
 
 Click on **Print Receipt** to download the receipt. The citizen can also click on the home page to go back to the home page.
 

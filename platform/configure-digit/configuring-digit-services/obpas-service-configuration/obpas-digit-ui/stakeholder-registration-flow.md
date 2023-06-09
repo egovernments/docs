@@ -4,7 +4,11 @@
 
 This page provides details on the Stakeholder Registration workflow in the OBPAS module. Citizens have the option to submit registration applications for various stakeholders such as architects and construction companies.&#x20;
 
-![BPA Home Card](<../../../../../.gitbook/assets/Screenshot from 2021-09-30 10-20-48.png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/Screenshot from 2021-09-30 10-20-48.png" alt="BPA Home Card">
+
+</div>
 
 ## Workflow Details
 
@@ -16,13 +20,21 @@ Users can apply for stakeholder application by clicking on the “Register as a 
 
 The stakeholder Document Required screen is displayed after login, which helps the user to understand the necessary documents needed to complete the new registration for stakeholders. A citizen info card is also shown at the bottom of the page containing additional information such as the maximum size of the file that can be uploaded.
 
-![Document Required Screen](<../../../../../.gitbook/assets/Screenshot from 2021-09-30 10-41-39.png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/Screenshot from 2021-09-30 10-41-39.png" alt="Document Required Screen">
+
+</div>
 
 ### TimeLine Component
 
 The TimeLine component is present on all pages. It informs the users about the steppers in completing the application for registration.
 
-![TimeLine](<../../../../../.gitbook/assets/Screenshot from 2021-10-07 22-28-57.png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/Screenshot from 2021-10-07 22-28-57.png" alt="TimeLine">
+
+</div>
 
 ### Licensee Details&#x20;
 
@@ -32,13 +44,21 @@ In this step, users need to provide information about the License type and Licen
 
 The system asks for the type of license that the user is registering for. If the user selects architecture, then a new field is displayed i.e. architecture number. For all other roles, no additional information user is required. All the roles are populated from the MDMS.
 
-![License Type](<../../../../../.gitbook/assets/Screenshot from 2021-10-07 22-26-32.png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/Screenshot from 2021-10-07 22-26-32.png" alt="License Type">
+
+</div>
 
 #### Licensee Details
 
 Here users have to provide the information of the person for whom the license application is being generated. By default, the name and mobile number field will be automatically pre-filled with the logged-in user data. Edits to this detail are disabled. Applicants must fill in the remaining information accordingly.
 
-![Licensee Details](<../../../../../.gitbook/assets/Screenshot from 2021-10-07 22-32-30.png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/Screenshot from 2021-10-07 22-32-30.png" alt="Licensee Details">
+
+</div>
 
 ### Address Details
 
@@ -48,13 +68,21 @@ In this step, users have to enter their address details.
 
 Users have to provide a permanent address. This is mandatory information that the user needs to provide to move to proceed with the application.
 
-![Permanent Adress](<../../../../../.gitbook/assets/Screenshot from 2021-10-07 22-35-30.png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/Screenshot from 2021-10-07 22-35-30.png" alt="Permanent Adress">
+
+</div>
 
 #### Correspondence Address
 
 Here user gets the option to either pre-fill the form with the permanent address provided earlier or enter a different address. Users can also skip this step as it is non-mandatory.
 
-![Correspondence Address](<../../../../../.gitbook/assets/Screenshot from 2021-10-07 22-37-59.png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/Screenshot from 2021-10-07 22-37-59.png" alt="Correspondence Address">
+
+</div>
 
 Clicking on the Next button calls the Create API. Further information is available in the technical Implementation details section.
 
@@ -64,7 +92,11 @@ Clicking on the Next button calls the Create API. Further information is availab
 
 This screen displays a list of documents and their type (in dropdown format) from the MDMS. The document list displayed is as per the role selected by the user in the license step. Users have to upload all the mandatory documents in order to proceed further.
 
-![Document Details](<../../../../../.gitbook/assets/Screenshot from 2021-10-07 22-42-20.png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/Screenshot from 2021-10-07 22-42-20.png" alt="Document Details">
+
+</div>
 
 ### Summary Page & Acknowledgement Screen
 
@@ -72,7 +104,11 @@ Users can cross-verify the data entered throughout the flow on the Summary page.
 
 Along with the application details, the fee estimate for the corresponding application is also shown on the summary page.
 
-![Fee Estimate](<../../../../../.gitbook/assets/Screenshot from 2021-10-07 22-48-38.png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/Screenshot from 2021-10-07 22-48-38.png" alt="Fee Estimate">
+
+</div>
 
 The Update API is called for the BPAREG Application update. Update API snippet is given below:&#x20;
 
@@ -82,7 +118,15 @@ bpaRegUpdate: "/tl-services/v1/BPAREG/_update"
 
 If the API response is successful, the Acknowledgement Screen is displayed. Else, the Failed Acknowledgement Screen is displayed.
 
-![Summary Page](<../../../../../.gitbook/assets/Screenshot from 2021-10-07 22-47-12.png>) ![Acknowledgement Page](<../../../../../.gitbook/assets/Screenshot from 2021-10-07 22-49-38.png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/Screenshot from 2021-10-07 22-47-12.png" alt="Summary Page">
+
+ 
+
+<img src="../../../../../.gitbook/assets/Screenshot from 2021-10-07 22-49-38.png" alt="Acknowledgement Page">
+
+</div>
 
 Click on the Make Payment option to pay the registration fees on the summary screen.
 
@@ -96,7 +140,11 @@ The link for the Stakeholder Registration Main Index is given below, it can be u
 
 The OBPAS module is segregated into a specified structure. The screen configuration details are available in the PageComponent folder and the configuration for routing of the pages is available in the config folder which is common for both citizens as well as employees. New components like TimeLine are defined in the component folder. Below is the snippet for folder structure and routing configuration.
 
-![](<../../../../../.gitbook/assets/Screenshot from 2021-10-07 22-55-13.png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/Screenshot from 2021-10-07 22-55-13.png" alt="">
+
+</div>
 
 The stakeholder config responsible for the routing of the pages is defined under the config folder. Click on the link below to access the code.
 
@@ -186,16 +234,7 @@ Localization keys are added in the ‘_rainmaker-bpareg_’ locale module. In fu
 
 ## **API Call Role Action Mapping**
 
-| [**S.No**](http://s.no/)**.** | <p><strong>API</strong></p><p> </p>   | **Action id** | **Roles** |
-| ----------------------------- | ------------------------------------- | ------------- | --------- |
-| 1                             | `/egov-mdms-service/v1/_search`       | `954`         | `CITIZEN` |
-| 2                             | `/tl-services/v1/BPAREG/_create`      |               | `CITIZEN` |
-| 3                             | `/filestore/v1/files/url`             | `1528`        | `CITIZEN` |
-| 4                             | `/billing-service/bill/v2/_fetchbill` | `1862`        | `CITIZEN` |
-| 5                             | `/tl-calculator/billingslab/_search`  | `1684`        | `CITIZEN` |
-| 6                             | `/tl-services/v1/BPAREG/_update`      |               | `CITIZEN` |
-| 7                             | `/localization/messages/v1/_search`   | `1531`        | `CITIZEN` |
-| 8                             | `/tl-calculator/v1/BPAREG/_getbill`   |               | `CITIZEN` |
+<table data-header-hidden><thead><tr><th width="150"></th><th width="294"></th><th></th><th></th></tr></thead><tbody><tr><td><a href="http://s.no/"><strong>S.No</strong></a><strong>.</strong></td><td><p><strong>API</strong></p><p> </p></td><td><strong>Action id</strong></td><td><strong>Roles</strong></td></tr><tr><td>1</td><td><code>/egov-mdms-service/v1/_search</code></td><td><code>954</code></td><td><code>CITIZEN</code></td></tr><tr><td>2</td><td><code>/tl-services/v1/BPAREG/_create</code></td><td> </td><td><code>CITIZEN</code></td></tr><tr><td>3</td><td><code>/filestore/v1/files/url</code></td><td><code>1528</code></td><td><code>CITIZEN</code></td></tr><tr><td>4</td><td><code>/billing-service/bill/v2/_fetchbill</code></td><td><code>1862</code></td><td><code>CITIZEN</code></td></tr><tr><td>5</td><td><code>/tl-calculator/billingslab/_search</code></td><td><code>1684</code></td><td><code>CITIZEN</code></td></tr><tr><td>6</td><td><code>/tl-services/v1/BPAREG/_update</code></td><td> </td><td><code>CITIZEN</code></td></tr><tr><td>7</td><td><code>/localization/messages/v1/_search</code></td><td><code>1531</code></td><td><code>CITIZEN</code></td></tr><tr><td>8</td><td><code>/tl-calculator/v1/BPAREG/_getbill</code></td><td> </td><td><code>CITIZEN</code></td></tr></tbody></table>
 
 
 

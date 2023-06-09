@@ -5,7 +5,11 @@ Admin can see the total count of employees in the following format -
 * Active Employee Count
 * Total Employee Count
 
-![](<../../../../.gitbook/assets/image (197).png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/image (197).png" alt="">
+
+</div>
 
 File link - [https://github.com/egovernments/digit-ui-internals/blob/development/packages/modules/hrms/src/components/hrmscard.js](https://github.com/egovernments/digit-ui-internals/blob/development/packages/modules/hrms/src/components/hrmscard.js)
 

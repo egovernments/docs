@@ -35,15 +35,27 @@ The overview and the module level cards are differentiated by vizType,
 
 **Request Payload for dashboardConfig**
 
-![](../../../../../.gitbook/assets/134.png)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/134.png" alt="">
+
+</div>
 
 **auth-token**: authenticate the request and it fetches from a local storage key called **“Employee.token”**
 
 **DashboardConfig API Response**
 
-![](../../../../../.gitbook/assets/135.png)
+<div align="left">
 
-![](../../../../../.gitbook/assets/136.png)
+<img src="../../../../../.gitbook/assets/135.png" alt="">
+
+</div>
+
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/136.png" alt="">
+
+</div>
 
 roleName: the type of user.
 
@@ -55,7 +67,11 @@ Collection chart & module chart **refer figure 1**
 
 ### **2. Overview Dashboard**
 
-![](../../../../../.gitbook/assets/137.png)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/137.png" alt="">
+
+</div>
 
 ### **3. Module Level Dashboard**
 
@@ -82,11 +98,23 @@ In dashboardConfig response, the **visualisation** key contains all rows & chart
 
 ![Dashboard](../../../../../.gitbook/assets/139.png)
 
-![Metric-collection](../../../../../.gitbook/assets/140.png)
+<div align="left">
 
-![PERFORMING-METRIC](../../../../../.gitbook/assets/141.png)
+<img src="../../../../../.gitbook/assets/140.png" alt="Metric-collection">
 
-![PIE CHART](../../../../../.gitbook/assets/142.png)
+</div>
+
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/141.png" alt="PERFORMING-METRIC">
+
+</div>
+
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/142.png" alt="PIE CHART">
+
+</div>
 
 ![Line Chart](../../../../../.gitbook/assets/143.png)
 
@@ -98,7 +126,11 @@ In dashboardConfig response, the **visualisation** key contains all rows & chart
 
 ![Fig 2.8 - GLOBAL FILTERS](../../../../../.gitbook/assets/147.png)
 
-![Fig 2.9 - DOWNLOAD & SHARE BUTTON](../../../../../.gitbook/assets/148.png)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/148.png" alt="Fig 2.9 - DOWNLOAD &#x26; SHARE BUTTON">
+
+</div>
 
 ## **ULB Dashboard**
 
@@ -129,7 +161,11 @@ Denomination filter: The Denomination filter has three options to display the am
 
 The denomination filter is not applied to the percentage and text (refer to **figure 2.10**). The type of data is identified by a symbol in the plots of charts API.
 
-![Fig 2.10 - Denomination Filter](../../../../../.gitbook/assets/149.png)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/149.png" alt="Fig 2.10 - Denomination Filter">
+
+</div>
 
 **Custom Date Filter**
 
@@ -148,7 +184,11 @@ Currently, the dashboard contains two types of tabs -
 
 Tabs are identified by name in visualisations of config API.
 
-![Tabs](../../../../../.gitbook/assets/150.png)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/150.png" alt="Tabs">
+
+</div>
 
 **Table Chart with drill-down**
 

@@ -4,14 +4,7 @@ DIGIT 2.8 release has a new module, new features, bug fixes and a few non-functi
 
 ### Account Wise Feature Demand <a href="#account-wise-feature-demand" id="account-wise-feature-demand"></a>
 
-| [**S. No**](http://sr.no/)**.** | **Accounts**       | **No. of ULBs** | **Current Version** | **Features to be use from digit 2.8**                        | **Expected Timeline**        |
-| ------------------------------- | ------------------ | --------------- | ------------------- | ------------------------------------------------------------ | ---------------------------- |
-| 1                               | UKD                | 93              | Digit 2.5           | TL Reports , bulk bill generation                            | Q1 2023-24                   |
-| 2                               | PUNJAB             | 166             | Digit 2.2           | Finance rollout dashboard, TL Reports , bulk bill generation | Q1 2023-24                   |
-| 3                               | ODISSA             | 114             | Digit 2.3           | Finance rollout dashboard, TL Reports , bulk bill generation | Client decision on upgrade   |
-| 4                               | NIUA- UPYOG        | NA              | Digit 2.7           | All features of digit 2.8 , build APK and publish            | March 27th                   |
-| 5                               | NIUA-Kerala        | 93              | Digit 2.7           | All features of digit 2.8                                    | Client decision on upgrade   |
-| 6                               | Partners(e.g. BEL) | NA              |                     | As per demand                                                | Partners' decision to update |
+<table data-header-hidden><thead><tr><th width="100"></th><th></th><th></th><th></th><th></th><th></th></tr></thead><tbody><tr><td><a href="http://sr.no/"><strong>S. No</strong></a><strong>.</strong></td><td><strong>Accounts</strong></td><td><strong>No. of ULBs</strong></td><td><strong>Current Version</strong></td><td><strong>Features to be use from digit 2.8</strong></td><td><strong>Expected Timeline</strong></td></tr><tr><td>1</td><td>UKD</td><td>93</td><td>Digit 2.5</td><td>TL Reports , bulk bill generation</td><td>Q1 2023-24</td></tr><tr><td>2</td><td>PUNJAB</td><td>166</td><td>Digit 2.2</td><td>Finance rollout dashboard, TL Reports , bulk bill generation</td><td>Q1 2023-24</td></tr><tr><td>3</td><td>ODISSA</td><td>114</td><td>Digit 2.3</td><td>Finance rollout dashboard, TL Reports , bulk bill generation</td><td>Client decision on upgrade</td></tr><tr><td>4</td><td>NIUA- UPYOG</td><td>NA</td><td>Digit 2.7</td><td>All features of digit 2.8 , build APK and publish</td><td>March 27th</td></tr><tr><td>5</td><td>NIUA-Kerala</td><td>93</td><td>Digit 2.7</td><td>All features of digit 2.8</td><td>Client decision on upgrade</td></tr><tr><td>6</td><td>Partners(e.g. BEL)</td><td>NA</td><td></td><td>As per demand</td><td>Partners' decision to update</td></tr></tbody></table>
 
 Punjab W\&S is using the old UI. So W\&S new features, which are using new UI, cannot be used in Punjab
 

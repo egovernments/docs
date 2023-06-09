@@ -25,7 +25,11 @@ Here we use `echallan-services/eChallan/v1/_search` API to get the Challan Infor
 
 To cancel challan, click on cancel and enter the reason for cancellation. This action calls the `echallan-services/eChallan/v1/_update` API to cancel.
 
-![](../../../../../.gitbook/assets/image-20210514-105626.png)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/image-20210514-105626.png" alt="">
+
+</div>
 
 ### **Update challan**
 

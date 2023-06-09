@@ -105,31 +105,51 @@ The GenericChart is a common wrapper for all charts. It adds the basic styles to
 
 The MetricChart component is a wrapper component around the MetricChartRow component. MetricChartRow component uses getChart API to fetch data for the “METRIC“ chart type. The MetricData component is a styling component used to format data.
 
-![](<../../../../../.gitbook/assets/image (217) (1).png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/image (217) (1).png" alt="">
+
+</div>
 
 #### Area Chart
 
 The CustomAreaChart component is used to render line chart types. It can format data based on denomination filter data. It uses the AreaChart component from the recharts package to draw the chart.
 
-![](<../../../../../.gitbook/assets/image (126).png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/image (126).png" alt="">
+
+</div>
 
 #### Bar Chart
 
 The CustomBarChart component is used to render the performing-metric chart type. It uses the BarChart component from the recharts package to draw the chart.
 
-![](<../../../../../.gitbook/assets/image (272).png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/image (272).png" alt="">
+
+</div>
 
 #### Horizontal Bar Chart
 
 The CustomHorizontalBarChart component is used to render horizontal bar chart type. It uses the BarChart component from the recharts package to draw the chart.
 
-![](<../../../../../.gitbook/assets/image (174).png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/image (174).png" alt="">
+
+</div>
 
 #### Pie Chart
 
 The CustomPieChart component is used to render the doughnut chart type. It displays the top 4 categories and aggregates all the other categories into the “Others“ category. It uses the PieChart component from the recharts package to draw the chart.
 
-![](<../../../../../.gitbook/assets/image (253).png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/image (253).png" alt="">
+
+</div>
 
 #### Tabular Chart
 

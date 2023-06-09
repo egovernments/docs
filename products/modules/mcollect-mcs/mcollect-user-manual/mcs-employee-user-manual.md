@@ -23,15 +23,27 @@ The counter employees or field employees collect and process the miscellaneous p
 
 CE can process and collect payments for miscellaneous services through the DIGIT web portal or the DIGIT mobile app. To process a new payment navigate to the **Universal Collections** option in the sidebar main menu.
 
-![](https://docs.google.com/drawings/u/0/d/sHDxtCHirCj-8f8WY383r5g/image?w=289\&h=357\&rev=59\&ac=1\&parent=1GZKzf7O\_6WDB5ba1gb6QUT6CqipoQzuRuWT44fTAgGo)
+<div align="left">
+
+<img src="https://docs.google.com/drawings/u/0/d/sHDxtCHirCj-8f8WY383r5g/image?w=289&#x26;h=357&#x26;rev=59&#x26;ac=1&#x26;parent=1GZKzf7O_6WDB5ba1gb6QUT6CqipoQzuRuWT44fTAgGo" alt="">
+
+</div>
 
 Click on the **New Collection** button on the screen. This will open a new collection form page.
 
-![](https://docs.google.com/drawings/u/0/d/sZFok4oTVR3-Z5P6RpiHlrQ/image?w=624\&h=184\&rev=57\&ac=1\&parent=1GZKzf7O\_6WDB5ba1gb6QUT6CqipoQzuRuWT44fTAgGo)
+<div align="left">
+
+<img src="https://docs.google.com/drawings/u/0/d/sZFok4oTVR3-Z5P6RpiHlrQ/image?w=624&#x26;h=184&#x26;rev=57&#x26;ac=1&#x26;parent=1GZKzf7O_6WDB5ba1gb6QUT6CqipoQzuRuWT44fTAgGo" alt="">
+
+</div>
 
 Enter the **Mobile No.** and the **Consumer Name** of the payee.
 
-![](https://docs.google.com/drawings/u/0/d/sU091UrGzf-BIhQXc-K1OnA/image?w=598\&h=349\&rev=65\&ac=1\&parent=1GZKzf7O\_6WDB5ba1gb6QUT6CqipoQzuRuWT44fTAgGo)
+<div align="left">
+
+<img src="https://docs.google.com/drawings/u/0/d/sU091UrGzf-BIhQXc-K1OnA/image?w=598&#x26;h=349&#x26;rev=65&#x26;ac=1&#x26;parent=1GZKzf7O_6WDB5ba1gb6QUT6CqipoQzuRuWT44fTAgGo" alt="">
+
+</div>
 
 Select the applicable **Service Category.**
 
@@ -45,7 +57,11 @@ The **Capture Payment** panel displays the available payment methods. Click on t
 
 Enter the **Paid By** and the **Payee Name** details.
 
-![](https://docs.google.com/drawings/u/0/d/s\_tv2UAnfFyxWdg76C7\_GMQ/image?w=624\&h=331\&rev=71\&ac=1\&parent=1GZKzf7O\_6WDB5ba1gb6QUT6CqipoQzuRuWT44fTAgGo)
+<div align="left">
+
+<img src="https://docs.google.com/drawings/u/0/d/s_tv2UAnfFyxWdg76C7_GMQ/image?w=624&#x26;h=331&#x26;rev=71&#x26;ac=1&#x26;parent=1GZKzf7O_6WDB5ba1gb6QUT6CqipoQzuRuWT44fTAgGo" alt="">
+
+</div>
 
 Enter the **Payer Mobile No.**
 

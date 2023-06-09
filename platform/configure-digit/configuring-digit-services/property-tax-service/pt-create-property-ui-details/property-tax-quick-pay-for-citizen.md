@@ -2,13 +2,21 @@
 
 **Objective:** The Quick Pay feature allows a citizen to quickly view or pay all his pending bills for Property Tax (or any other supported business Service) by clicking links directly from the Digit-UI home screen.
 
-![DIGIT UI Home Screen](../../../../../.gitbook/assets/screenshot-2021-05-17-221319.png)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/screenshot-2021-05-17-221319.png" alt="DIGIT UI Home Screen">
+
+</div>
 
 Clicking on the Property Tax link in the Quick Pay section, a user is redirected to the My Bills screen. Else, the user has to log in using his mobile number and the OTP is sent to the number. The user is then redirected to the My Bills screen.
 
 On the My Bills screen, the user finds his pending property tax bills (displayed as cards) for registered properties. The user can click on the View Details button of the corresponding card to check the detailed bill summary which takes him to the bill details page. There is also a link for the case when the user is unable to find the property tax bills.
 
-![My Bills Screen](../../../../../.gitbook/assets/screenshot-2021-05-17-121222.png)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/screenshot-2021-05-17-121222.png" alt="My Bills Screen">
+
+</div>
 
 The Bill Details screen shows a list of various categories of applicable taxes. After checking the user can select to pay either the full amount or the custom amount, which cannot be less than ₹100 and not more than the total tax. These restrictions, however, are customizable as per ULB requirement and can be changed in the MDMS.
 
@@ -16,25 +24,45 @@ The Bill Details screen shows a list of various categories of applicable taxes. 
 
 Clicking on the Proceed To Pay button redirects the user to the Pay screen. The user is asked to select the payment gateway using the radio buttons. On clicking pay, the user is redirected to the bank payment gateway.&#x20;
 
-![Payment Screen](../../../../../.gitbook/assets/screenshot-2021-05-17-142349.png)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/screenshot-2021-05-17-142349.png" alt="Payment Screen">
+
+</div>
 
 After making a successful payment through the bank gateway, the user is redirected to the response screen which shows the details of the payment and other bill details.
 
-![Response Screen (Success)](../../../../../.gitbook/assets/screenshot-2021-05-17-143056.png)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/screenshot-2021-05-17-143056.png" alt="Response Screen (Success)">
+
+</div>
 
 In case the payment fails for any reason the response screen shows the message, that the payment transaction has failed.
 
-![Response Screen (Failed)](../../../../../.gitbook/assets/screenshot-2021-05-17-220609.png)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/screenshot-2021-05-17-220609.png" alt="Response Screen (Failed)">
+
+</div>
 
 **Use Case: when user wants to pay for property registered to a different mobile number**
 
 My Bills page only displays the properties with pending taxes linked to the mobile number used to log in. To search and pay for any other property, users can click on the link below the My Bills screen that redirects the user to the search screen.
 
-![Search Screen](../../../../../.gitbook/assets/screenshot-2021-05-19-094911.png)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/screenshot-2021-05-19-094911.png" alt="Search Screen">
+
+</div>
 
 On the Search screen, the user can search a property by mobile number, a unique property ID, or an existing property ID. The search parameters redirects the user to the search results screen. Here users can see all the properties with the matching criteria, whether or not they have pending taxes.
 
-![Search Results Screen](../../../../../.gitbook/assets/screenshot-2021-05-19-095824.png)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/screenshot-2021-05-19-095824.png" alt="Search Results Screen">
+
+</div>
 
 Clicking on the View Details buttons redirects  the user to the bill details screen.
 

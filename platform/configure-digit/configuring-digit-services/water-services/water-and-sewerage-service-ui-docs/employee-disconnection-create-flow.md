@@ -37,7 +37,11 @@ Clicking on the Apply button routes users to the Disconnection apply screen.
 
 Successful create and update calls routes users to the acknowledgement screen.
 
+<div align="left">
+
 <figure><img src="../../../../../.gitbook/assets/image (576).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 #### W\&S Application <a href="#w-and-s-application" id="w-and-s-application"></a>
 
@@ -79,12 +83,5 @@ File Path: [https://github.com/egovernments/DIGIT-Dev/blob/develop/frontend/micr
 
 ## **Role Action Mapping**
 
-| S.No. | API                             | Roles              | Action ID    |
-| ----- | ------------------------------- | ------------------ | ------------ |
-| 1     | `/egov-mdms-service/v1/_search` | `WS_CEMP, SW_CEMP` | `954`        |
-| 2     | `/ws-services/wc/_create`       | `WS_CEMP, SW_CEMP` | `1899, 1917` |
-| 3     | `/sw-services/swc/_create`      | `WS_CEMP, SW_CEMP` | `1899, 1917` |
-| 4     | `/ws-services/wc/_update`       | `WS_CEMP, SW_CEMP` | `1899, 1917` |
-| 5     | `/sw-services/swc/_update`      | `WS_CEMP, SW_CEMP` | `1899, 1917` |
-| 6     | `/filestore/v1/files/url`       | `EMPLOYEE`         |              |
+<table><thead><tr><th width="95">S.No.</th><th>API</th><th>Roles</th><th>Action ID</th></tr></thead><tbody><tr><td>1</td><td><code>/egov-mdms-service/v1/_search</code></td><td><code>WS_CEMP, SW_CEMP</code></td><td><code>954</code></td></tr><tr><td>2</td><td><code>/ws-services/wc/_create</code></td><td><code>WS_CEMP, SW_CEMP</code></td><td><code>1899, 1917</code></td></tr><tr><td>3</td><td><code>/sw-services/swc/_create</code></td><td><code>WS_CEMP, SW_CEMP</code></td><td><code>1899, 1917</code></td></tr><tr><td>4</td><td><code>/ws-services/wc/_update</code></td><td><code>WS_CEMP, SW_CEMP</code></td><td><code>1899, 1917</code></td></tr><tr><td>5</td><td><code>/sw-services/swc/_update</code></td><td><code>WS_CEMP, SW_CEMP</code></td><td><code>1899, 1917</code></td></tr><tr><td>6</td><td><code>/filestore/v1/files/url</code></td><td><code>EMPLOYEE</code></td><td> </td></tr></tbody></table>
 

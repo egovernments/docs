@@ -41,9 +41,4 @@ File Path:[ <img src="https://github.com/fluidicon.png" alt="" data-size="line">
 
 ## **Role Action Mapping**
 
-| S.No. | API                                  | Roles     | Action ID |
-| ----- | ------------------------------------ | --------- | --------- |
-| 1     | `/egov-mdms-service/v1/_search`      | `TL_CEMP` | `954`     |
-| 2     | `/tl-services/v1/_create`            | `TL_CEMP` | `1685`    |
-| 3     | `/tl-services/v1/_update`            | `TL_CEMP` | `1686`    |
-| 4     | `/tl-calculator/billingslab/_search` | `TL_CEMP` | `1684`    |
+<table><thead><tr><th width="126">S.No.</th><th>API</th><th>Roles</th><th>Action ID</th></tr></thead><tbody><tr><td>1</td><td><code>/egov-mdms-service/v1/_search</code></td><td><code>TL_CEMP</code></td><td><code>954</code></td></tr><tr><td>2</td><td><code>/tl-services/v1/_create</code></td><td><code>TL_CEMP</code></td><td><code>1685</code></td></tr><tr><td>3</td><td><code>/tl-services/v1/_update</code></td><td><code>TL_CEMP</code></td><td><code>1686</code></td></tr><tr><td>4</td><td><code>/tl-calculator/billingslab/_search</code></td><td><code>TL_CEMP</code></td><td><code>1684</code></td></tr></tbody></table>

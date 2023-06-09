@@ -1052,7 +1052,11 @@ All the modules specific metrics discussed below are queried from the data in th
 
 **Properties Assessed -** This metric represents the Total No of Properties Assessed by Property Tax Service across the ULBs and States with in the nation.
 
-![](<../../../../.gitbook/assets/image (265).png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/image (265).png" alt="">
+
+</div>
 
 **Trade License**
 
@@ -1060,7 +1064,11 @@ All the modules specific metrics discussed below are queried from the data in th
 
 **Total Applications -** This metric represents the Total No of Trade Licenses processed by Trade License Service across the ULBs and States with in the nation.
 
-![](<../../../../.gitbook/assets/image (209).png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/image (209).png" alt="">
+
+</div>
 
 **Municipal Grievances**
 
@@ -1068,7 +1076,11 @@ All the modules specific metrics discussed below are queried from the data in th
 
 **SLA Achievement -** This metric represents the Percentage of the Grievances Addressed/Solved with in the Grievances created across the ULBs across the states in the Nation.
 
-![](../../../../.gitbook/assets/image.png)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/image.png" alt="">
+
+</div>
 
 **Water & Sewerage**
 
@@ -1076,7 +1088,11 @@ All the modules specific metrics discussed below are queried from the data in th
 
 **Total Connections -** This metric represents the Total No of Connections issued across the Water & Sewerage across the ULBs and states with in the Nation.
 
-![](<../../../../.gitbook/assets/image (221).png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/image (221).png" alt="">
+
+</div>
 
 **Building Permissions**
 
@@ -1084,7 +1100,11 @@ All the modules specific metrics discussed below are queried from the data in th
 
 **Total Permits Issued -** This metric represents the Total No of permission issued across the ULBs and states with in the Nation
 
-![](<../../../../.gitbook/assets/image (130).png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/image (130).png" alt="">
+
+</div>
 
 **Fire NOC**
 
@@ -1092,7 +1112,11 @@ All the modules specific metrics discussed below are queried from the data in th
 
 **Total Fire NOCs Issued -** This metric represents the Total No of Fire NOCs issued across the ULBs and states with in the Nation
 
-![](<../../../../.gitbook/assets/image (185).png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/image (185).png" alt="">
+
+</div>
 
 **User Charges**
 
@@ -1100,7 +1124,11 @@ All the modules specific metrics discussed below are queried from the data in th
 
 **Total Receipts -** This metric represents the Total No of Receipts issued across the ULBs and states with in the Nation
 
-![](<../../../../.gitbook/assets/image (293).png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/image (293).png" alt="">
+
+</div>
 
 #### **Newly introduced property:** <a href="#newly-introduced-property" id="newly-introduced-property"></a>
 

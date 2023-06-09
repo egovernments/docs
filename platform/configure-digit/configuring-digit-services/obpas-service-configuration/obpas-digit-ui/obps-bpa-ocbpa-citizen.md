@@ -8,7 +8,11 @@ To provide the facility for the citizen user to view the application details, up
 
 Users can review the list of applications and their status registered using their mobile number on the My Applications page. Each Application initially displays the Application Number, Application Type, Service Type, status, and SLA with the View Details option.
 
-![BPA Home Card](<../../../../../.gitbook/assets/Screenshot from 2021-09-30 10-20-48 (3).png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/Screenshot from 2021-09-30 10-20-48 (3).png" alt="BPA Home Card">
+
+</div>
 
 ### **View Application By Citizen**
 
@@ -16,7 +20,11 @@ Click on the View Applications by Citizen link routes users to the My Applicatio
 The screen provides BPA, OC-BPA and stakeholder registration applications and details.\
 The BPA search API and the Stakeholder Registration search APIs are called and the application cards are visible after getting the response from the APIs.
 
-![](../../../../../.gitbook/assets/image-20211207-092617.png)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/image-20211207-092617.png" alt="">
+
+</div>
 
 &#x20;File Path
 
@@ -28,7 +36,19 @@ Click on the View Details button. It routes users to the application details scr
 
 Clicking on the BPA/OC BPA application card routes users to the BPA application details page. The application details page displays the details of the application and also showcases all the actions that can be taken on the application.
 
-![](../../../../../.gitbook/assets/image-20211207-092333.png) ![](../../../../../.gitbook/assets/image-20211207-092355.png) ![](../../../../../.gitbook/assets/image-20211207-092417.png)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/image-20211207-092333.png" alt="">
+
+ 
+
+<img src="../../../../../.gitbook/assets/image-20211207-092355.png" alt="">
+
+ 
+
+<img src="../../../../../.gitbook/assets/image-20211207-092417.png" alt="">
+
+</div>
 
 &#x20;
 
@@ -63,7 +83,11 @@ File Path
 
 Clicking on the Stakeholder Application card routes the user to the stakeholder application details. The application details page displays the details of the application and also showcases all the actions that can be taken on the application.
 
-![](../../../../../.gitbook/assets/image-20211207-093009.png)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/image-20211207-093009.png" alt="">
+
+</div>
 
 File Path
 
@@ -73,7 +97,11 @@ File Path
 
 The Timeline component is present at the end of the application details and provides information on the current status.
 
-![](../../../../../.gitbook/assets/image-20211209-054317.png)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/image-20211209-054317.png" alt="">
+
+</div>
 
 ## **Technical Implementation**&#x20;
 
@@ -131,21 +159,7 @@ Localisation keys are added under the ‘_rainmaker-bpa_’ and ‘rainmaker-bpa
 
 ## **API Call Role Action Mapping**
 
-| [**S.No**](http://s.no/)**.** | <p><strong>API</strong></p><p> </p>                       | **Action id** | **Roles** |
-| ----------------------------- | --------------------------------------------------------- | ------------- | --------- |
-| 1                             | `/egov-mdms-service/v1/_search`                           | `954`         | `CITIZEN` |
-| 2                             | `/edcr/rest/dcr/scrutinydetails`                          |               | `CITIZEN` |
-| 3                             | `/filestore/v1/files/url`                                 | `1528`        | `CITIZEN` |
-| 4                             | `/billing-service/bill/v2/_fetchbill`                     | `1862`        | `CITIZEN` |
-| 5                             | `collection-services/payments/{businessService}/_search/` | `1864`        | `CITIZEN` |
-| 6                             | `/noc-services/v1/noc/_search`                            |               | `CITIZEN` |
-| 7                             | `/localization/messages/v1/_search`                       | `1531`        | `CITIZEN` |
-| 8                             | `/noc-services/v1/noc/_update`                            |               | `CITIZEN` |
-| 9                             | `/bpa-services/v1/bpa/_update`                            |               | `CITIZEN` |
-| 10                            | `/bpa-services/v1/bpa/_search`                            |               | `CITIZEN` |
-| 11                            | `/egov-workflow-v2/egov-wf/process/_search`               |               | `CITIZEN` |
-| 12                            | `/egov-workflow-v2/egov-wf/businessservice/_search`       |               | `CITIZEN` |
-| 13                            | `/tl-services/v1/BPAREG/_search`                          |               | `CITIZEN` |
+<table data-header-hidden><thead><tr><th width="150"></th><th width="274"></th><th width="150"></th><th></th></tr></thead><tbody><tr><td><a href="http://s.no/"><strong>S.No</strong></a><strong>.</strong></td><td><p><strong>API</strong></p><p> </p></td><td><strong>Action id</strong></td><td><strong>Roles</strong></td></tr><tr><td>1</td><td><code>/egov-mdms-service/v1/_search</code></td><td><code>954</code></td><td><code>CITIZEN</code></td></tr><tr><td>2</td><td><code>/edcr/rest/dcr/scrutinydetails</code></td><td> </td><td><code>CITIZEN</code></td></tr><tr><td>3</td><td><code>/filestore/v1/files/url</code></td><td><code>1528</code></td><td><code>CITIZEN</code></td></tr><tr><td>4</td><td><code>/billing-service/bill/v2/_fetchbill</code></td><td><code>1862</code></td><td><code>CITIZEN</code></td></tr><tr><td>5</td><td><code>collection-services/payments/{businessService}/_search/</code></td><td><code>1864</code></td><td><code>CITIZEN</code></td></tr><tr><td>6</td><td><code>/noc-services/v1/noc/_search</code></td><td> </td><td><code>CITIZEN</code></td></tr><tr><td>7</td><td><code>/localization/messages/v1/_search</code></td><td><code>1531</code></td><td><code>CITIZEN</code></td></tr><tr><td>8</td><td><code>/noc-services/v1/noc/_update</code></td><td> </td><td><code>CITIZEN</code></td></tr><tr><td>9</td><td><code>/bpa-services/v1/bpa/_update</code></td><td> </td><td><code>CITIZEN</code></td></tr><tr><td>10</td><td><code>/bpa-services/v1/bpa/_search</code></td><td> </td><td><code>CITIZEN</code></td></tr><tr><td>11</td><td><code>/egov-workflow-v2/egov-wf/process/_search</code></td><td> </td><td><code>CITIZEN</code></td></tr><tr><td>12</td><td><code>/egov-workflow-v2/egov-wf/businessservice/_search</code></td><td> </td><td><code>CITIZEN</code></td></tr><tr><td>13</td><td><code>/tl-services/v1/BPAREG/_search</code></td><td> </td><td><code>CITIZEN</code></td></tr></tbody></table>
 
 \
 

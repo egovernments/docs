@@ -1746,7 +1746,11 @@ The Overview graph contains multiple data information as listed below:
 * **Target Collection:** This represents the target collection amount for the Water and Sewerage connections.
 * **Target Achievement:** This represents the target achieved in percentage. This is calculated by the formula- (Total Collection/Target Collection)\*100%
 
-![](../../../../.gitbook/assets/nssws-revenue-overview.png)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/nssws-revenue-overview.png" alt="">
+
+</div>
 
 **Total Cumulative Collection**
 
@@ -1760,7 +1764,11 @@ This graph illustrates the Water and Sewerage collection amount information on a
 
 This graph represents the States performance based on the % of target achieved in the form of bar charts in descending order.
 
-![](<../../../../.gitbook/assets/nssws-top 3--1.png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/nssws-top 3--1.png" alt="">
+
+</div>
 
 On the click of the Show More button the system displays the information of all the states as seen in the screenshot below:
 
@@ -1770,7 +1778,11 @@ On the click of the Show More button the system displays the information of all 
 
 This graph represents the States performance based on the % of target achieved in the form of bar charts in ascending order.
 
-![](<../../../../.gitbook/assets/nssws-bootom 3--1.png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/nssws-bootom 3--1.png" alt="">
+
+</div>
 
 On the click of the Show More button, the system displays the information of all the states as seen in the screenshot below:
 
@@ -1780,13 +1792,21 @@ On the click of the Show More button, the system displays the information of all
 
 This graph shows the collection amount based on the usage/property type and this amount changes as per the selected denomination filter.
 
-![](<../../../../.gitbook/assets/nssws-collection by usage--1.png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/nssws-collection by usage--1.png" alt="">
+
+</div>
 
 **W\&S Collection by Channel Type**
 
 This graph shows the collection amount based on the collection channel type (eg-online, counter, etc) and this amount changes as per the selected denomination filter.
 
-![](<../../../../.gitbook/assets/nssws-collection by channel--1.png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/nssws-collection by channel--1.png" alt="">
+
+</div>
 
 **W\&S Key Financial Indicators**
 
@@ -1837,7 +1857,11 @@ Clicking on the ULB name provides a drill-down view of data at the ward level.
 * **Water-Non-MeteredInformation Connections:** the total active non-metered water connections
 * **Sewerage Connections:** the total active sewerage connections
 
-![](../../../../.gitbook/assets/nssws-service-overview.png)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/nssws-service-overview.png" alt="">
+
+</div>
 
 **Cumulative Connections**
 
@@ -1851,19 +1875,31 @@ This graph provides insights into the Water and Sewerage connections on a monthl
 
 This graph provides the active water connection insights based on the usage/property type.
 
-![](<../../../../.gitbook/assets/nssws-water connections--1.png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/nssws-water connections--1.png" alt="">
+
+</div>
 
 **Sewerage Connections by Usage Type**
 
 This graph offers the active Sewerage connection details based on the usage/property type.
 
-![](<../../../../.gitbook/assets/nssws-sewerage connections--1.png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/nssws-sewerage connections--1.png" alt="">
+
+</div>
 
 **W\&S Connections by Channel Type**
 
 This graph provides the active water and sewerage connection details by channel type (eg-online, counter, etc).
 
-![](<../../../../.gitbook/assets/nssws-connections by channel--1.png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/nssws-connections by channel--1.png" alt="">
+
+</div>
 
 **W\&S Connection Ageing**
 
@@ -2128,21 +2164,7 @@ The mapping for this index is:
 
 The following table describes the properties mentioned above:
 
-| **Attributes**                       | **Definition**                                                             | **Breakup**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| ------------------------------------ | -------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ulb                                  | The district or region for which the data is ingested.                     | Nil                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| state                                | The ULB name for which the data is ingested.                               | Nil                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| ward                                 | The ward for which the data is ingested.                                   | Nil                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| transactions                         | Number of transactions related to WS/SW module on a given date             | Nil                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| connectionsCreated                   | Number of connections related to WS/SW module on a given date.             | <p>Breakup by:<br>1.) channel type(<code>Counter</code>, <code>ONLINE</code>, <code>CSC</code>, <code>SYSTEM</code>) and<br>2.) connection type(<code>WATER.METERED</code>, <code>WATER.NONMETERED</code>, <code>SEWERAGE</code>)<br>has to be provided</p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| todaysCollection                     | Total collection related to WS/SW module on a given date                   | <p>Breakup by:<br>1.)usage type(<code>Domestic</code>, <code>Commercial</code>, <code>Institutional</code>, <code>Domestic SLC</code>, <code>Domestic Exempted</code>,<code>Commercial Motor</code>,etc), 2.)payment channel type(<code>System</code>, <code>Paytm</code>, <code>Field</code>, <code>RazorPay</code>, <code>PayU</code>, <code>BBPS</code>, <code>POS</code>, <code>Sewakendra</code>, <code>Freecharge</code>),<br>3.) tax head(<code>INTEREST</code>,<code>LATE.CHARGES</code>, <code>ADVANCE</code>, <code>CURRENT.CHARGES</code>, <code>ARREAR.CHARGES</code>), and<br>4.) connection type(<code>WATER.METERED</code>, <code>WATER.NONMETERED</code>, <code>SEWERAGE</code>)<br>has to be provided</p> |
-| waterConnections                     | new connections created on the given date                                  | <p>Breakup by:<br>1.) meter type(<code>METERED</code>, <code>NON.METERED</code>), 2.) usage(<code>Domestic</code>, <code>Commercial</code>, <code>Residential</code>, <code>Institutional</code>, <code>Domestic Exempted</code>) and<br>3.) channel(<code>Counter</code>, <code>ONLINE</code>, <code>CSC</code>, <code>SYSTEM</code>)</p>                                                                                                                                                                                                                                                                                                                                                                                 |
-| sewerageConnections                  | new sewreage connections created on the given date                         | <p>Breakup by:<br>1.) usage(<code>Domestic</code>, <code>Commercial</code>, <code>Residential</code>, <code>Institutional</code>, <code>Domestic Exempted</code>) and<br>2.) channel(<code>ONLINE</code>, <code>CSC</code>, <code>SYSTEM</code>)</p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| pendingConnections                   | pending connections on the given date                                      | <p>Breakup by:</p><p>duration(<code>0to3Days</code>, <code>3to7Days</code>, <code>7to15Days</code>, <code>MoreThan15Days</code>)</p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| slaCompliance                        | Percentage of complaints that are resolved within SLA till the given date. | Nil                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| todaysTotalApplications              | # of Applications created on the given date                                | Nil                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| todaysClosedApplications             | # of Applications closed on the given date                                 | Nil                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| todaysCompletedApplicationsWithinSLA | # of Applications closed on the given date within SLA                      | Nil                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+<table data-header-hidden><thead><tr><th width="203.33333333333331"></th><th></th><th></th></tr></thead><tbody><tr><td><strong>Attributes</strong></td><td><strong>Definition</strong></td><td><strong>Breakup</strong></td></tr><tr><td>ulb</td><td>The district or region for which the data is ingested.</td><td>Nil</td></tr><tr><td>state</td><td>The ULB name for which the data is ingested.</td><td>Nil</td></tr><tr><td>ward</td><td>The ward for which the data is ingested.</td><td>Nil</td></tr><tr><td>transactions</td><td>Number of transactions related to WS/SW module on a given date</td><td>Nil</td></tr><tr><td>connectionsCreated</td><td>Number of connections related to WS/SW module on a given date.</td><td>Breakup by:<br>1.) channel type(<code>Counter</code>, <code>ONLINE</code>, <code>CSC</code>, <code>SYSTEM</code>) and<br>2.) connection type(<code>WATER.METERED</code>, <code>WATER.NONMETERED</code>, <code>SEWERAGE</code>)<br>has to be provided</td></tr><tr><td>todaysCollection</td><td>Total collection related to WS/SW module on a given date</td><td>Breakup by:<br>1.)usage type(<code>Domestic</code>, <code>Commercial</code>, <code>Institutional</code>, <code>Domestic SLC</code>, <code>Domestic Exempted</code>,<code>Commercial Motor</code>,etc), 2.)payment channel type(<code>System</code>, <code>Paytm</code>, <code>Field</code>, <code>RazorPay</code>, <code>PayU</code>, <code>BBPS</code>, <code>POS</code>, <code>Sewakendra</code>, <code>Freecharge</code>),<br>3.) tax head(<code>INTEREST</code>,<code>LATE.CHARGES</code>, <code>ADVANCE</code>, <code>CURRENT.CHARGES</code>, <code>ARREAR.CHARGES</code>), and<br>4.) connection type(<code>WATER.METERED</code>, <code>WATER.NONMETERED</code>, <code>SEWERAGE</code>)<br>has to be provided</td></tr><tr><td>waterConnections</td><td>new connections created on the given date</td><td>Breakup by:<br>1.) meter type(<code>METERED</code>, <code>NON.METERED</code>), 2.) usage(<code>Domestic</code>, <code>Commercial</code>, <code>Residential</code>, <code>Institutional</code>, <code>Domestic Exempted</code>) and<br>3.) channel(<code>Counter</code>, <code>ONLINE</code>, <code>CSC</code>, <code>SYSTEM</code>)</td></tr><tr><td>sewerageConnections</td><td>new sewreage connections created on the given date</td><td>Breakup by:<br>1.) usage(<code>Domestic</code>, <code>Commercial</code>, <code>Residential</code>, <code>Institutional</code>, <code>Domestic Exempted</code>) and<br>2.) channel(<code>ONLINE</code>, <code>CSC</code>, <code>SYSTEM</code>)</td></tr><tr><td>pendingConnections</td><td>pending connections on the given date</td><td><p>Breakup by:</p><p>duration(<code>0to3Days</code>, <code>3to7Days</code>, <code>7to15Days</code>, <code>MoreThan15Days</code>)</p></td></tr><tr><td>slaCompliance</td><td>Percentage of complaints that are resolved within SLA till the given date.</td><td>Nil</td></tr><tr><td>todaysTotalApplications</td><td># of Applications created on the given date</td><td>Nil</td></tr><tr><td>todaysClosedApplications</td><td># of Applications closed on the given date</td><td>Nil</td></tr><tr><td>todaysCompletedApplicationsWithinSLA</td><td># of Applications closed on the given date within SLA</td><td>Nil</td></tr></tbody></table>
 
 ### **Postman Collection - National W\&S-DSS**
 

@@ -143,14 +143,7 @@ Here all the filter options are derived from the records that we receive through
 
 ## **Role Action Mapping**
 
-| [**S.NO**](http://s.no/) | **API**                                            | **ROLES**  | **ACTION ID** |
-| ------------------------ | -------------------------------------------------- | ---------- | ------------- |
-| 1                        | `egov-mdms-service/v1/_search`                     |            | `954`         |
-| 2                        | `access/v1/actions/mdms/_get`                      |            | `870`         |
-| 3                        | `egov-workflow-v2/egov-wf/process/_count`          | `EMPLOYEE` | `2027`        |
-| 4                        | `egov-workflow-v2/egov-wf/process/_search`         | `EMPLOYEE` | 1730          |
-| 5                        | `egov-workflow-v2/egov-wf/businessservice/_search` | `EMPLOYEE` | `1743`        |
-| 6                        | `egov-workflow-v2/egov-wf/escalate/_search`        | `EMPLOYEE` | `2168`        |
+<table data-header-hidden><thead><tr><th width="150"></th><th width="280"></th><th width="154"></th><th></th></tr></thead><tbody><tr><td><a href="http://s.no/"><strong>S.NO</strong></a></td><td><strong>API</strong></td><td><strong>ROLES</strong></td><td><strong>ACTION ID</strong></td></tr><tr><td>1</td><td><code>egov-mdms-service/v1/_search</code></td><td> </td><td><code>954</code></td></tr><tr><td>2</td><td><code>access/v1/actions/mdms/_get</code></td><td> </td><td><code>870</code></td></tr><tr><td>3</td><td><code>egov-workflow-v2/egov-wf/process/_count</code></td><td><code>EMPLOYEE</code></td><td><code>2027</code></td></tr><tr><td>4</td><td><code>egov-workflow-v2/egov-wf/process/_search</code></td><td><code>EMPLOYEE</code></td><td>1730</td></tr><tr><td>5</td><td><code>egov-workflow-v2/egov-wf/businessservice/_search</code></td><td><code>EMPLOYEE</code></td><td><code>1743</code></td></tr><tr><td>6</td><td><code>egov-workflow-v2/egov-wf/escalate/_search</code></td><td><code>EMPLOYEE</code></td><td><code>2168</code></td></tr></tbody></table>
 
 &#x20;
 

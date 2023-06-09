@@ -4,15 +4,27 @@
 
 Initially, only four applications are loaded on the screen. The user can click on the Load More option to view more applications. Each application displays the Application Number, Service Category, Property Id, Application Type and Status details along with the Track option. This enables the user to find more details about the application. If users are unable to find their property details on the system, a new application can be created using the link provided at the bottom of the page.
 
-![](../../../../../.gitbook/assets/screenshot-from-2021-05-04-19-16-07.png)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/screenshot-from-2021-05-04-19-16-07.png" alt="">
+
+</div>
 
 Once the user clicks on the Track button, the Application Details page is displayed with all the necessary information about the application.
 
-![](../../../../../.gitbook/assets/screenshot-from-2021-05-04-19-16-16.png)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/screenshot-from-2021-05-04-19-16-16.png" alt="">
+
+</div>
 
 **Timeline component:** The timeline component is available at the end of the application details. This provides the details on the current status and history of the application passing through various workflows and actions taken.
 
-![](../../../../../.gitbook/assets/screenshot-from-2021-05-07-14-30-40.png)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/screenshot-from-2021-05-07-14-30-40.png" alt="">
+
+</div>
 
 ## **Technical Implementation Details**
 

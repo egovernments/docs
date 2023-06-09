@@ -6,17 +6,29 @@
 
 &#x20;If the property is marked as Send Back to Citizen, the application details page for employees displays the edit option at the bottom of the page.&#x20;
 
-![](../../../../../.gitbook/assets/screenshot-from-2021-05-07-14-31-50.png)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/screenshot-from-2021-05-07-14-31-50.png" alt="">
+
+</div>
 
 ## Update Property
 
 If the property is marked as Verify → Forward → Approved, the Property Details page for the employees displays the Update option at the bottom of the page.
 
-![](../../../../../.gitbook/assets/screenshot-from-2021-05-07-14-31-32.png)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/screenshot-from-2021-05-07-14-31-32.png" alt="">
+
+</div>
 
 Clicking on the Update button allows users to edit or update property details. The Create Property flow is revisited. The only exception here is the values are pre-populated from the Property object received from Property Search API. On completing the flow the Update API is called and the property is updated successfully.
 
-![Acknowledgement screen](../../../../../.gitbook/assets/screenshot-from-2021-05-10-17-15-49.png)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/screenshot-from-2021-05-10-17-15-49.png" alt="Acknowledgement screen">
+
+</div>
 
 ## **Technical Implementation Details**
 

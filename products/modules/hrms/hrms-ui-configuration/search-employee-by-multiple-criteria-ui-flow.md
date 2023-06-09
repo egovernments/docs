@@ -24,7 +24,11 @@ The search screen has a pagination feature.
 
 Logged Users can see the detailed assigned roles
 
-![](<../../../../.gitbook/assets/image (141).png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/image (141).png" alt="">
+
+</div>
 
 On clicking upon Employee Id logged-in users are routed to the Employee Detail screen.
 

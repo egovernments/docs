@@ -1294,29 +1294,53 @@ National DSS contains the following charts in Fire NOC:
 
 **line** - this graph/chart is data representation on date histograms or date groupings.
 
-![](<../../../../.gitbook/assets/image (136).png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/image (136).png" alt="">
+
+</div>
 
 **Collection by Payment Mode:** This is a pie chart showing the bifurcation of total collections by payment mode (online, cash, card, cheque) which is the sum of revenue collected from Fire NOC for the applied date filter.
 
-![](<../../../../.gitbook/assets/image (153).png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/image (153).png" alt="">
+
+</div>
 
 **Total NOCs issued by type:** This is a pie chart showing bifurcation of Total NOCs issued into Provisional and Actual Fire NOCs. The sum of Provisional and Actual Fire NOCs issued.
 
-![](<../../../../.gitbook/assets/image (263).png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/image (263).png" alt="">
+
+</div>
 
 **Actual Fire NOCs by usage typeThe total:** This is a pie chart showing a bifurcation of Actual Fire NOCs by usage type. Total number of Fire NOCs issued by the concerned authority.
 
-![](<../../../../.gitbook/assets/image (128).png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/image (128).png" alt="">
+
+</div>
 
 **Top 3 Performing States:** This card shows the Top 3 Performing States/ULBs/Wards based on % NOCs issued. The number of Fire NOCs issued / Number of applications depends on whether a user selects 'Provisional' or 'Actual'.
 
 Clicking on Actual shows the % of NOCs issued for Actual Fire NOCs.
 
-![](<../../../../.gitbook/assets/image (235).png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/image (235).png" alt="">
+
+</div>
 
 Clicking on Provisional shows the % of NOCs issued for Actual Fire NOCs.
 
-![](<../../../../.gitbook/assets/image (229).png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/image (229).png" alt="">
+
+</div>
 
 Clicking on the Show More option displays information about all states.
 
@@ -1326,11 +1350,19 @@ Clicking on the Show More option displays information about all states.
 
 Clicking on Actual shows the % of NOCs issued for Actual Fire NOCs.
 
-![](<../../../../.gitbook/assets/image (172).png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/image (172).png" alt="">
+
+</div>
 
 Clicking on Provisional shows the % of NOCs issued for Actual Fire NOCs.
 
-![](<../../../../.gitbook/assets/image (184).png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/image (184).png" alt="">
+
+</div>
 
 Clicking on Show More provides information on all the states.
 

@@ -8,7 +8,11 @@ Provide employees with the option to search challans, download receipts, check t
 
 Once the user login with **UC\_EMP** Role, then the User will get the mCollect module card with the Total Challan Count.
 
-![](<../../../../../.gitbook/assets/image (209) (1).png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/image (209) (1).png" alt="">
+
+</div>
 
 The clicking of Search Challan navigates to the Inbox/search challan screen.
 

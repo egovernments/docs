@@ -4,11 +4,19 @@
 
 The initial view for each property offers the Property Id, Owner Name, Address and status, along with the View Details button. Users can click on this button to look up more details about the registered property. In case the users do not find the property they are looking for, they can click on the Click here to Register New Property option to register the property.
 
-![](../../../../../.gitbook/assets/screenshot-from-2021-05-04-18-52-15.png)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/screenshot-from-2021-05-04-18-52-15.png" alt="">
+
+</div>
 
 Clicking on the View Details button displays the Property Information page containing the necessary information about the property.
 
-![](../../../../../.gitbook/assets/screenshot-from-2021-05-04-18-54-49.png)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/screenshot-from-2021-05-04-18-54-49.png" alt="">
+
+</div>
 
 ## **Technical Implementation Details**
 

@@ -4,27 +4,51 @@
 
 The Transfer of Ownership Option is provided to citizens on the home screen in the citizen App, under property Tax card.
 
-![](<../../../../../.gitbook/assets/image (196).png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/image (196).png" alt="">
+
+</div>
 
 Upon clicking on “Transfer Property Ownership/Mutation” link, users are taken to property search page just like in case of “search & Pay” option, where he can search for the property he wants to search the property for.
 
-![](<../../../../../.gitbook/assets/image (210).png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/image (210).png" alt="">
+
+</div>
 
 After searching the property the user is shown the property details for the properties based on the search criteria. With Total Dues on top of the card.
 
-![](<../../../../../.gitbook/assets/image (245).png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/image (245).png" alt="">
+
+</div>
 
 If there are dues owed on the property (unpaid taxes), then users are shown a popup stating that the citizen has to clear his dues first. with a proceed to pay button that takes citizens to the common pay page, just like in the case of Search & Pay.
 
-![](<../../../../../.gitbook/assets/image (167).png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/image (167).png" alt="">
+
+</div>
 
 In case of dues cleared the citizen is taken to the Docs required Page, just like in the case of Employee Mutation, where he is shown the list of docs he is supposed to have in order to be able to transfer the property.
 
-![](<../../../../../.gitbook/assets/image (208) (1).png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/image (208) (1).png" alt="">
+
+</div>
 
 on this page after clicking on Transfer of Ownership, the citizen is made to go through the Ownership Transfer flow where he fills in the Ownership details and Mutation Details. After completing the flow citizen is shown with the success screen with his application number and the option to download his acknowledgement as a pdf.
 
-![](<../../../../../.gitbook/assets/image (201) (1).png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/image (201) (1).png" alt="">
+
+</div>
 
 ## **Technical Details**
 

@@ -5,7 +5,11 @@
 DIGIT is India's largest open-source platform for Urban Governance. It provides API-based access to government functions enabling the government to provide facilities via integration with relevant service players.\
 This document provides the details of how system integrators enable bill collection facilities to customers using DIGIT as the governance platform. It outlines the integration approach with Billing and Collections services to enable fetching bill dues to citizens and recording their payments into the system.
 
-![](../../../../.gitbook/assets/108.png)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/108.png" alt="">
+
+</div>
 
 ## Integration Approach <a href="#high-level-approach" id="high-level-approach"></a>
 

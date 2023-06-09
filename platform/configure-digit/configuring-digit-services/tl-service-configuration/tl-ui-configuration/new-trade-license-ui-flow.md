@@ -6,9 +6,17 @@ The trade license 'apply' is the major feature in TL Module. It allows Citizens 
 
 Every application is a part of the workflow. Once the user login with `TL_CEMP` role, then the User will get the option for creating a New TL Application in the TL card as well as in the inbox.
 
-![](<../../../../../.gitbook/assets/image (123) (1).png>)
+<div align="left">
 
-![](<../../../../../.gitbook/assets/image (138) (1).png>)
+<img src="../../../../../.gitbook/assets/image (123) (1).png" alt="">
+
+</div>
+
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/image (138) (1).png" alt="">
+
+</div>
 
 File path:[ <img src="https://github.com/fluidicon.png" alt="" data-size="line">digit-ui-internals/TLCard.js at main · egovernments/digit-ui-internals](https://github.com/egovernments/digit-ui-internals/blob/main/packages/modules/tl/src/components/TLCard.js) and[ <img src="https://github.com/fluidicon.png" alt="" data-size="line">digit-ui-internals/DesktopInbox.js at main · egovernments/digit-ui-internals](https://github.com/egovernments/digit-ui-internals/blob/main/packages/modules/tl/src/components/inbox/DesktopInbox.js)
 
@@ -53,9 +61,4 @@ File Path:[ <img src="https://github.com/fluidicon.png" alt="" data-size="line">
 
 ## **Role Action Mapping**
 
-| S.No. | API                                  | Roles     | Action ID |
-| ----- | ------------------------------------ | --------- | --------- |
-| 1     | `/egov-mdms-service/v1/_search`      | `TL_CEMP` | `954`     |
-| 2     | `/tl-services/v1/_create`            | `TL_CEMP` | `1685`    |
-| 3     | `/tl-services/v1/_update`            | `TL_CEMP` | `1686`    |
-| 4     | `/tl-calculator/billingslab/_search` | `TL_CEMP` | `1684`    |
+<table><thead><tr><th width="102">S.No.</th><th>API</th><th>Roles</th><th>Action ID</th></tr></thead><tbody><tr><td>1</td><td><code>/egov-mdms-service/v1/_search</code></td><td><code>TL_CEMP</code></td><td><code>954</code></td></tr><tr><td>2</td><td><code>/tl-services/v1/_create</code></td><td><code>TL_CEMP</code></td><td><code>1685</code></td></tr><tr><td>3</td><td><code>/tl-services/v1/_update</code></td><td><code>TL_CEMP</code></td><td><code>1686</code></td></tr><tr><td>4</td><td><code>/tl-calculator/billingslab/_search</code></td><td><code>TL_CEMP</code></td><td><code>1684</code></td></tr></tbody></table>

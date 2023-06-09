@@ -12,21 +12,37 @@ Users can add new property using the Create Property button. The workflow captur
 
 Property tax registration information screen is displayed after login. This helps the user identify the required documents to complete the new registration for the property.
 
-![](../../../../../.gitbook/assets/screenshot-from-2021-05-04-12-16-22.png)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/screenshot-from-2021-05-04-12-16-22.png" alt="">
+
+</div>
 
 ### **Property Details Flow**
 
 The users are prompted to enter the details about the property first. The flow chart below illustrates the property details flow.
 
-![](../../../../../.gitbook/assets/pt1.jpg)
+<div align="left">
 
-![](../../../../../.gitbook/assets/screenshot-from-2021-05-04-17-10-36.png)
+<img src="../../../../../.gitbook/assets/pt1.jpg" alt="">
+
+</div>
+
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/screenshot-from-2021-05-04-17-10-36.png" alt="">
+
+</div>
 
 ### **Assessment Details Flow**
 
 The user is next asked to provide the assessment details. This flow captures information related to each floor and the basement.
 
-![](../../../../../.gitbook/assets/pt2.jpg)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/pt2.jpg" alt="">
+
+</div>
 
 ![](../../../../../.gitbook/assets/screenshot-from-2021-05-04-17-36-32.png)
 
@@ -34,7 +50,11 @@ The user is next asked to provide the assessment details. This flow captures inf
 
 **I**nstead of capturing unit data in separate pages the system captures data in one page only. Users can add multiple units by clicking on the Add One More Unit button. The respective unit page loads for each floor and users can add the corresponding units as required.
 
-![](<../../../../../.gitbook/assets/Screenshot from 2022-03-03 14-32-32.png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/Screenshot from 2022-03-03 14-32-32.png" alt="">
+
+</div>
 
 ### **Address Details Flow**
 
@@ -52,11 +72,19 @@ Finally, the user is prompted to enter the property owner details. Ownership can
 
 In the case of Institutional, the following data is asked in the first screen. The subsequent screen does not change.
 
-![](../../../../../.gitbook/assets/screenshot-from-2021-05-04-17-49-11.png)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/screenshot-from-2021-05-04-17-49-11.png" alt="">
+
+</div>
 
 In the case of single or multiple owners the following screen is displayed. The rest of the flow remains the same.
 
-![](../../../../../.gitbook/assets/screenshot-from-2021-05-04-17-48-32.png)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/screenshot-from-2021-05-04-17-48-32.png" alt="">
+
+</div>
 
 ### **Check Page and Acknowledgement Screen**
 
@@ -66,9 +94,17 @@ The Create API is called for registration of property. Following is the snippet 
 
 If the API response is successful, then the acknowledgement screen is displayed, else the failed acknowledgement screen is displayed.
 
-![](../../../../../.gitbook/assets/screenshot-from-2021-05-04-18-40-58.png)
+<div align="left">
 
-![](../../../../../.gitbook/assets/screenshot-from-2021-05-04-18-41-03.png)
+<img src="../../../../../.gitbook/assets/screenshot-from-2021-05-04-18-40-58.png" alt="">
+
+</div>
+
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/screenshot-from-2021-05-04-18-41-03.png" alt="">
+
+</div>
 
 ## **Technical Implementation Details**
 
@@ -80,15 +116,27 @@ The link for the Create Property main index is given below. This provides a bett
 
 PT (Property Tax) Module has been segregated into a specified structure. All the screens configuration is available inside the PageComponent Folder. The configuration for routing the pages are mentioned in the config folder common for both citizens and employees. The snippet for the folder structure and routing configuration is given below.
 
-![](../../../../../.gitbook/assets/screenshot-from-2021-05-04-18-01-28.png)
+<div align="left">
 
-![](../../../../../.gitbook/assets/screenshot-from-2021-05-04-18-01-11.png)
+<img src="../../../../../.gitbook/assets/screenshot-from-2021-05-04-18-01-28.png" alt="">
+
+</div>
+
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/screenshot-from-2021-05-04-18-01-11.png" alt="">
+
+</div>
 
 The high-level configuration for controlling the whole flow for citizens and employees is available in the Pages folder. Citizen flows include Create, Edit, My Properties, My Application and Search Property. The search property flow carries the index (the main starting point of the whole flow).
 
 After completing the flow users can download the acknowledgement details of the property created in pdf format. Click [here to find](https://github.com/egovernments/digit-ui-internals/blob/development/packages/modules/pt/src/getPTAcknowledgementData.js) the config for the PDF generation.
 
-![](<../../../../../.gitbook/assets/Screenshot from 2021-05-07 15-53-20.png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/Screenshot from 2021-05-07 15-53-20.png" alt="">
+
+</div>
 
 The Utils folder basically contains all the methods used across the PT module. In case there is a common method that needs to be added, it can be imported into other files.
 
@@ -121,7 +169,11 @@ const { data: OwnerShipCategoryOb } = Digit.Hooks.pt.usePropertyMDMS(stateId, "P
 
 Localization keys are added to the ‘_rainmaker-pt_’ locale module. In future, if any new labels are implemented in the Property Tax (Citizen) they should also be pushed to the locale DB under _rainmaker-pt_ locale module. Below is an example of few locale labels.
 
-![](../../../../../.gitbook/assets/screenshot-from-2021-05-04-18-22-52.png)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/screenshot-from-2021-05-04-18-22-52.png" alt="">
+
+</div>
 
 ## **Role Action Mapping**
 

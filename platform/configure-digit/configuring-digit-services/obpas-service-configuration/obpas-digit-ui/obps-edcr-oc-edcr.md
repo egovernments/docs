@@ -6,7 +6,11 @@ To provide the facility for the stakeholder users to create and submit the eDCR 
 
 ## **Workflow Details**
 
+<div align="left">
+
 <figure><img src="../../../../../.gitbook/assets/image (617).png" alt=""><figcaption><p>BPA Home Card</p></figcaption></figure>
+
+</div>
 
 File Path: [https://github.com/egovernments/DIGIT-Dev/blob/develop/frontend/micro-ui/web/micro-ui-internals/packages/modules/obps/src/Module.js](https://github.com/egovernments/DIGIT-Dev/blob/develop/frontend/micro-ui/web/micro-ui-internals/packages/modules/obps/src/Module.js)
 
@@ -20,7 +24,11 @@ Stakeholders can generate the eDCR scrutiny number by clicking on Plan Scrutiny 
 \
 **If eDCR API is Failure** => it routes to the acknowledgement screen. Stakeholders can see the application number and download option but not eDCR number.
 
-![](<../../../../../.gitbook/assets/Screenshot from 2021-11-08 10-25-18 (1).png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/Screenshot from 2021-11-08 10-25-18 (1).png" alt="">
+
+</div>
 
 File Path: [https://github.com/egovernments/DIGIT-Dev/blob/develop/frontend/micro-ui/web/micro-ui-internals/packages/modules/obps/src/pages/citizen/home.js](https://github.com/egovernments/DIGIT-Dev/blob/develop/frontend/micro-ui/web/micro-ui-internals/packages/modules/obps/src/pages/citizen/home.js)
 
@@ -28,7 +36,11 @@ File Path: [https://github.com/egovernments/DIGIT-Dev/blob/develop/frontend/micr
 
 Users need to provide their City, Applicant Name and Upload dxf file in order to generate the eDCR number.
 
-![](<../../../../../.gitbook/assets/Screenshot from 2021-11-08 11-09-36 (1).png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/Screenshot from 2021-11-08 11-09-36 (1).png" alt="">
+
+</div>
 
 File Path: [https://github.com/egovernments/DIGIT-Dev/blob/develop/frontend/micro-ui/web/micro-ui-internals/packages/modules/obps/src/pageComponents/EDCRForm.js](https://github.com/egovernments/DIGIT-Dev/blob/develop/frontend/micro-ui/web/micro-ui-internals/packages/modules/obps/src/pageComponents/EDCRForm.js)
 
@@ -42,7 +54,11 @@ The acknowledgement Page gets displayed after the success of eDCR creates call. 
 4. Apply for the building plan permit button for creating the BPA application( [OBPS BPA/OCBPA - ARCHITECT](https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/1987379201) )
 5. Go Back To Home button to navigate to the home page
 
-![](<../../../../../.gitbook/assets/Screenshot from 2021-11-08 11-10-11 (1).png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/Screenshot from 2021-11-08 11-10-11 (1).png" alt="">
+
+</div>
 
 File Path: [https://github.com/egovernments/DIGIT-Dev/blob/develop/frontend/micro-ui/web/micro-ui-internals/packages/modules/obps/src/pages/citizen/EDCR/EDCRAcknowledgement.js](https://github.com/egovernments/DIGIT-Dev/blob/develop/frontend/micro-ui/web/micro-ui-internals/packages/modules/obps/src/pages/citizen/EDCR/EDCRAcknowledgement.js)
 
@@ -54,7 +70,11 @@ The failure acknowledgement page gets displayed if the eDCR Create API call resu
 2. Download option for downloading the scrutiny report
 3. Go Back To Home button to navigate back to the home page
 
-![](../../../../../.gitbook/assets/image-20211203-042427.png)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/image-20211203-042427.png" alt="">
+
+</div>
 
 File Path: [https://github.com/egovernments/DIGIT-Dev/blob/develop/frontend/micro-ui/web/micro-ui-internals/packages/modules/obps/src/pages/citizen/EDCR/EDCRAcknowledgement.js](https://github.com/egovernments/DIGIT-Dev/blob/develop/frontend/micro-ui/web/micro-ui-internals/packages/modules/obps/src/pages/citizen/EDCR/EDCRAcknowledgement.js)
 
@@ -70,7 +90,11 @@ The Permit Date and Permit Number of BPA are required to generate the OC eDCR. T
 
 Click on **OC Plan Scrutiny for new Construction** link. This routes the user to the Data Required screen and the screen provides information about the data required to generate OC eDCR number.
 
-![](<../../../../../.gitbook/assets/Screenshot from 2021-11-08 14-56-12 (1).png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/Screenshot from 2021-11-08 14-56-12 (1).png" alt="">
+
+</div>
 
 Clicking on the Next button routes the user to the OC eDCR scrutiny details screen.
 
@@ -80,11 +104,19 @@ File Path: [https://github.com/egovernments/DIGIT-Dev/blob/develop/frontend/micr
 
 After entering the permit number and permit date, stakeholders need to click the Search button. Internally BPA and eDCR search fetches the required data.
 
-![](../../../../../.gitbook/assets/image-20211203-043920.png)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/image-20211203-043920.png" alt="">
+
+</div>
 
 The BPA and eDCR search results display all details regarding the application along with the **proceed for OC scrutiny** button on a separate card.
 
-![](<../../../../../.gitbook/assets/Screenshot from 2021-11-08 14-56-54 (1).png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/Screenshot from 2021-11-08 14-56-54 (1).png" alt="">
+
+</div>
 
 On clicking the Procced for OC scrutiny button users are redirected to the Upload OC Plan Diagram screen.
 
@@ -96,7 +128,11 @@ File Path:
 
 Users have to upload the dxf file and click on the Submit button that triggers the Create API call.&#x20;
 
-![](<../../../../../.gitbook/assets/Screenshot from 2021-11-08 14-58-15 (1).png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/Screenshot from 2021-11-08 14-58-15 (1).png" alt="">
+
+</div>
 
 File Path:
 
@@ -174,14 +210,7 @@ Localization keys are added under the ‘_rainmaker-bpa_’ locale module. In fu
 
 ## &#x20;**API Call Role Action Mapping**
 
-| [**S.No**](http://s.no/)**.** | <p><strong>API</strong></p><p> </p> | **Action id** | **Roles**                                                                                                     |
-| ----------------------------- | ----------------------------------- | ------------- | ------------------------------------------------------------------------------------------------------------- |
-| 1                             | `/egov-mdms-service/v1/_search`     | `954`         | `CITIZEN`                                                                                                     |
-| 2                             | `/edcr/rest/dcr/scrutinize`         | `2075`        | `BPA_ARCHITECT`, `BPA_TOWNPLANNER`, `BPA_BUILDER`, `BPA_STRUCTURALENGINEER`, `BPA_ENGINEER`, `BPA_SUPERVISOR` |
-| 3                             | `/edcr/rest/dcr/scrutinydetails`    |               | `CITIZEN`                                                                                                     |
-| 4                             | `/bpa-services/v1/bpa/_search`      |               | `CITIZEN`                                                                                                     |
-| 5                             | `/filestore/v1/files/url`           | `1528`        | `CITIZEN`                                                                                                     |
-| 6                             | `/localization/messages/v1/_search` | `1531`        | `CITIZEN`                                                                                                     |
+<table data-header-hidden><thead><tr><th width="150"></th><th></th><th width="150"></th><th></th></tr></thead><tbody><tr><td><a href="http://s.no/"><strong>S.No</strong></a><strong>.</strong></td><td><p><strong>API</strong></p><p> </p></td><td><strong>Action id</strong></td><td><strong>Roles</strong></td></tr><tr><td>1</td><td><code>/egov-mdms-service/v1/_search</code></td><td><code>954</code></td><td><code>CITIZEN</code></td></tr><tr><td>2</td><td><code>/edcr/rest/dcr/scrutinize</code></td><td><code>2075</code></td><td><code>BPA_ARCHITECT</code>, <code>BPA_TOWNPLANNER</code>, <code>BPA_BUILDER</code>, <code>BPA_STRUCTURALENGINEER</code>, <code>BPA_ENGINEER</code>, <code>BPA_SUPERVISOR</code></td></tr><tr><td>3</td><td><code>/edcr/rest/dcr/scrutinydetails</code></td><td> </td><td><code>CITIZEN</code></td></tr><tr><td>4</td><td><code>/bpa-services/v1/bpa/_search</code></td><td> </td><td><code>CITIZEN</code></td></tr><tr><td>5</td><td><code>/filestore/v1/files/url</code></td><td><code>1528</code></td><td><code>CITIZEN</code></td></tr><tr><td>6</td><td><code>/localization/messages/v1/_search</code></td><td><code>1531</code></td><td><code>CITIZEN</code></td></tr></tbody></table>
 
 
 

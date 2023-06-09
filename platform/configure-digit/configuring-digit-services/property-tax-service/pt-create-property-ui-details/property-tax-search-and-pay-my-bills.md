@@ -10,15 +10,31 @@ description: Bill details and payer details
 
 Users can search for Property with or without login. Property can be searched either using Property Id or using property details.
 
-![](<../../../../../.gitbook/assets/Screenshot from 2022-03-03 10-39-23.png>) ![](<../../../../../.gitbook/assets/Screenshot from 2022-03-03 10-43-26.png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/Screenshot from 2022-03-03 10-39-23.png" alt="">
+
+ 
+
+<img src="../../../../../.gitbook/assets/Screenshot from 2022-03-03 10-43-26.png" alt="">
+
+</div>
 
 Once the user provides certain parameters it calls the search property API and displays the search results accordingly.
 
-![](<../../../../../.gitbook/assets/Screenshot from 2022-03-03 10-46-08.png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/Screenshot from 2022-03-03 10-46-08.png" alt="">
+
+</div>
 
 Clicking on the View Details button redirects the user to the bill details page. The users can pay the dues from this page.
 
-![](<../../../../../.gitbook/assets/Screenshot from 2022-03-03 10-50-21.png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/Screenshot from 2022-03-03 10-50-21.png" alt="">
+
+</div>
 
 Users can view the break-up of the total amount due and select full or partial payment as required. They can enter the amount to be paid in case the partial payment option is selected.&#x20;
 
@@ -35,7 +51,11 @@ Clicking on the Proceed To Pay button redirects the users to the Payer’s Detai
      * In case of option (i) is selected, the owner’s detail is linked with the receipt.
      * In case option (ii) is selected, the user is asked to enter the Name and Mobile No. and the same is linked with the receipt.
 
-![](<../../../../../.gitbook/assets/Screenshot from 2022-03-03 12-39-51.png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/Screenshot from 2022-03-03 12-39-51.png" alt="">
+
+</div>
 
 Based on the selected option the user is redirected to the total amount page. The flow is same as DIGIT Payments from this screen.
 

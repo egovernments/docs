@@ -25,7 +25,11 @@ When an employee wants to capture payments made to the ULB by the citizen. He wi
 
 On the Payment page, the employee selects the payment instrument, enters the payer details and clicks on the “Generate Receipt” to capture the payment and generate the receipt for the same.
 
-![](https://lh6.googleusercontent.com/VQa6Z0MPcAxbxQHhGUfUSnJnZu89q5hHaNyKXj6J1VmuLwFskNrzJLVI2fWk029k491GiYd\_0v-BIcExpETzbX3DamEPkKUoCnFMPOiScCg3z4f8hGqi8LWWhovG3FgnLOrUBSB1laXj2KBTFA)
+<div align="left">
+
+<img src="https://lh6.googleusercontent.com/VQa6Z0MPcAxbxQHhGUfUSnJnZu89q5hHaNyKXj6J1VmuLwFskNrzJLVI2fWk029k491GiYd_0v-BIcExpETzbX3DamEPkKUoCnFMPOiScCg3z4f8hGqi8LWWhovG3FgnLOrUBSB1laXj2KBTFA" alt="">
+
+</div>
 
 ![](https://lh4.googleusercontent.com/NULcWyKjpJxWm4jRbVDgoGVhLxFHW8fqWxJWCzd3EZw\_iXF3k3rXE2lDjVJisdZaVtLoJTkjLPQ7YcK0Fmuhg\_MndPFCHWCyLMotnb77bMX4jSeaHU6CWM5Qq9OJMw1njowzPiwBtX8UPBzUxQ)
 

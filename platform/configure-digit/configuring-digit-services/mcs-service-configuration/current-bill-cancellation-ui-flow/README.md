@@ -10,11 +10,19 @@ Once the user logs in with `WS_CEMP` **or** `SW_CEMP` roles the BillGenie tree o
 
 ## Workflow Details
 
-![](<../../../../../.gitbook/assets/image (157) (1).png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/image (157) (1).png" alt="">
+
+</div>
 
 Clicking on the BillGenie displays two options as seen in the screenshot below.
 
-![](<../../../../../.gitbook/assets/image (136) (1).png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/image (136) (1).png" alt="">
+
+</div>
 
 Click on the Bill Cancellation option. This routes the user to the search bill screen.
 
@@ -33,7 +41,11 @@ Route -[ mSeva](https://qa.digit.org/employee/bills/billSearch)
 * Initial page - [<img src="https://github.com/fluidicon.png" alt="" data-size="line">frontend/billSearch.js at master · egovernments/frontend](https://github.com/egovernments/frontend/blob/master/web/rainmaker/dev-packages/egov-abg-dev/src/ui-config/screens/specs/bills/billSearch.js)
 * Initial MDMS call is made on page load
 
-![](<../../../../../.gitbook/assets/image (230).png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/image (230).png" alt="">
+
+</div>
 
 {% hint style="info" %}
 Note: The search, cancel bill and service category options are available only for enabled services. This is configured in uiCommonPay config by marking the following`cancelBill` path as **true**.

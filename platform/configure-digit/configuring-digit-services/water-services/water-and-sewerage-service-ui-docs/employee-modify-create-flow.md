@@ -28,7 +28,11 @@ Clicking on the Take Action button displays multiple options based on conditions
 
 #### **Acknowledgement screen**
 
+<div align="left">
+
 <figure><img src="../../../../../.gitbook/assets/image (589).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 #### W\&S-Application <a href="#w-and-s-application" id="w-and-s-application"></a>
 

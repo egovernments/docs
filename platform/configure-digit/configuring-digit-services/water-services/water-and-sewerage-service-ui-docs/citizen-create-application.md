@@ -47,7 +47,11 @@ sewarage_create: "/sw-services/swc/_create",
 ```
 {% endcode %}
 
+<div align="left">
+
 <figure><img src="../../../../../.gitbook/assets/image (405).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 **Document Details:**
 

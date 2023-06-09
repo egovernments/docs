@@ -61,11 +61,19 @@ Common PT search and create feature is integrated with the TL (Trade License) mo
 
 Once the property is selected/created, property details is available on the next page Property Details.
 
-![](<../../../../.gitbook/assets/Screenshot from 2022-05-20 17-48-36.png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/Screenshot from 2022-05-20 17-48-36.png" alt="">
+
+</div>
 
 Clicking on the View More Details button redirects users to the view property page that offers an overview detail of the attached property.
 
-![](<../../../../.gitbook/assets/Screenshot from 2022-05-20 17-51-17.png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/Screenshot from 2022-05-20 17-51-17.png" alt="">
+
+</div>
 
 ## &#x20;**Technical Implementation**
 

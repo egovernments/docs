@@ -24,7 +24,11 @@ The reasons for bill cancellation options are fetched from the MDMS service.
 
 ## **Cancel Bill**
 
-![](<../../../../../.gitbook/assets/image (147) (1).png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/image (147) (1).png" alt="">
+
+</div>
 
 Clicking on the cancel bill option triggers the cancel bill API (`billing-service/bill/v2/_cancelbill` ). Once the API call is successful it routes to the acknowledgement screen.
 

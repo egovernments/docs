@@ -4,7 +4,11 @@
 
 ## Workflow Details
 
-![TL Home Card](<../../../../../.gitbook/assets/image (198).png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/image (198).png" alt="TL Home Card">
+
+</div>
 
 #### **Apply for Trade License**
 
@@ -12,43 +16,83 @@ Users can apply for a trade license application by clicking on the Apply for Tra
 
 **Apply Flow** - The trade license registration screen is displayed after login which helps users identify the documents required to apply for a trade license. A citizen info card at the bottom of the page displays any additional information about the maximum size of the file that can be uploaded.
 
-![Information Screen](<../../../../../.gitbook/assets/image (207) (3).png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/image (207) (3).png" alt="Information Screen">
+
+</div>
 
 **Trade License Details/Assessment Flow -** This flow captures the trade-specific information required for registering the trade.&#x20;
 
 Trade Name - The user provides the name of the trade. An info card is displayed at the bottom of the screen stating that the license will be issued for the current financial year. The financial year value is retrieved from the MDMS.
 
-![](<../../../../../.gitbook/assets/image (263) (1).png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/image (263) (1).png" alt="">
+
+</div>
 
 Structure Type - The users can select yes or no based on whether the trade has mobility or not. If yes, the next screen prompts you to enter the vehicle type. If no, the next screen moves to the building type page.
 
-![](<../../../../../.gitbook/assets/image (238) (3).png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/image (238) (3).png" alt="">
+
+</div>
 
 Vehicle Type / Building Type - The options for vehicle and building type are fetched from the MDMS. The Building Type screen displays an information card about the pucca or kuccha options.
 
-![Vehicle Type](<../../../../../.gitbook/assets/image (193) (7).png>)
+<div align="left">
 
-![Building Type](<../../../../../.gitbook/assets/image (243) (1).png>)
+<img src="../../../../../.gitbook/assets/image (193) (7).png" alt="Vehicle Type">
+
+</div>
+
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/image (243) (1).png" alt="Building Type">
+
+</div>
 
 Commencement Date - It defines the date on which the trade started or will start in the future.
 
-![](<../../../../../.gitbook/assets/image (202) (1).png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/image (202) (1).png" alt="">
+
+</div>
 
 Trade Units - Users must provide the trade category as either goods or services. Based on the selected option the Trade Type is loaded from the MDMS as a drop-down list. The trade sub-type options are loaded based on the selected trade type. The unit of measure and UOM value get pre-populated from the MDMS as per the options selected above.
 
 Users must enter at least one unit to move forward. Clicking on Add More Unit option enables users to enter additional units. Clicking on the delete icon on the top right corner of the unit card removes the unit.
 
-![](<../../../../../.gitbook/assets/image (175).png>)
+<div align="left">
 
-![](<../../../../../.gitbook/assets/image (155) (1).png>)
+<img src="../../../../../.gitbook/assets/image (175).png" alt="">
+
+</div>
+
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/image (155) (1).png" alt="">
+
+</div>
 
 Accessories - The Accessory page inquires if there are any accessories required for the business. Accessories may not be compulsory for all trades. If yes, it will move to the accessory details page. If not, it will skip it altogether and will load the address flow.
 
-![](<../../../../../.gitbook/assets/image (182) (5).png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/image (182) (5).png" alt="">
+
+</div>
 
 Accessory details - The options for accessories are retrieved from the MDMS. The Unit of Measure or UOM is pre-populated and cannot be edited. The users can edit the UOM value and the accessory count. In some cases, these are pre-populated from the MDMS. Clicking on Add More Trade Accessory button allows users to add multiple accessories.
 
-![](<../../../../../.gitbook/assets/image (161) (1).png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/image (161) (1).png" alt="">
+
+</div>
 
 #### TL Enhanced Flow
 
@@ -71,7 +115,11 @@ Once a property is selected user can see the details of the property on the prop
 
 ![](<../../../../../.gitbook/assets/image (117) (6).png>)
 
-![](<../../../../../.gitbook/assets/image (203) (4).png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/image (203) (4).png" alt="">
+
+</div>
 
 Users can pinpoint the location in the Geo-location map, according to which pin code and city, as well as locality, is auto-filled.
 
@@ -79,7 +127,11 @@ Users can pinpoint the location in the Geo-location map, according to which pin 
 
 In the case of single/multiple owners, the following screen is displayed. The remaining flows remain the same.
 
-![](<../../../../../.gitbook/assets/image (223).png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/image (223).png" alt="">
+
+</div>
 
 Users can add multiple owners by clicking on the add owner button - a similar functionality as in trade units and accessories. The Add Owner button is not visible in case the user selects a single owner on the previous page.
 
@@ -93,13 +145,25 @@ The Applying of Trade License Create API is called. Create API snippet:`1create:
 
 If the API response is successful, then the Acknowledgement Screen is displayed, otherwise Failed Acknowledgement Screen is displayed.
 
-![](<../../../../../.gitbook/assets/image (186) (1).png>)
+<div align="left">
 
-![](<../../../../../.gitbook/assets/image (205) (4).png>)
+<img src="../../../../../.gitbook/assets/image (186) (1).png" alt="">
+
+</div>
+
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/image (205) (4).png" alt="">
+
+</div>
 
 Clicking on the Download Acknowledgement Form button downloads the PDF copy of the acknowledgement.
 
-![](<../../../../../.gitbook/assets/image (247).png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/image (247).png" alt="">
+
+</div>
 
 ## **Release 2.8 Enhancements & Changes**
 
@@ -138,7 +202,11 @@ The link for the Apply Trade License Main Index is given here and it helps under
 
 The TL (Trade License) module is segregated into a specified structure. The screen configuration is inside the PageComponent folder, and the configuration for routing of the pages are mentioned under the config folder which is common for both citizen users and employees. Below is the snippet for folder structure and routing configuration.
 
-![](<../../../../../.gitbook/assets/image (265) (1).png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/image (265) (1).png" alt="">
+
+</div>
 
 ```
 export const newConfig = [
@@ -192,7 +260,11 @@ const { isLoading, data: Documentsob = {} } = Digit.Hooks.tl.useTradeLicenseMDMS
 
 Localization keys are added to the ‘_rainmaker-tl_’ locale module. In future, if any new labels are implemented in the Trade License (Citizen) it is pushed to the locale DB in the _rainmaker-tl_ locale module. Below is an example of a few locale labels.
 
-![](<../../../../../.gitbook/assets/image (158).png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/image (158).png" alt="">
+
+</div>
 
 ## **API Role Action Mapping**
 

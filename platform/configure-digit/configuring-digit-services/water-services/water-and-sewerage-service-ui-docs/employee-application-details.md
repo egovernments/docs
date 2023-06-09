@@ -43,17 +43,7 @@ Once the payment stage is complete (and the status is pending for connection act
 
 ### **Water & Sewerage Workflow Table**
 
-| **Role**                                     | **Action**           | **Next State**                                   | **Status**                        |
-| -------------------------------------------- | -------------------- | ------------------------------------------------ | --------------------------------- |
-| Citizen/ Counter Employee/WS\_CEMP/ SW\_CEMP | INITIATE             | INITIATED                                        | INITIATED                         |
-| Citizen/Counter Employee/WS\_CEMP / SW\_CEMP | EDIT                 | EDIT/ DOCUMENTVERIFICATION                       | Pending for Document Verification |
-| Citizen/Counter Employee/WS\_CEMP / SW\_CEMP | Send Back to Citizen | <p>Pending for Citizen Action</p><p><br><br></p> | Pending for Citizen Action        |
-| WS\_DOC\_VERIFIER / SW\_DOC\_VERIFIER        | VERIFY \&FORWARD     | FIELDVERIFICATION                                | Pending for Field Verification    |
-| WS\_FIELD\_INSPECTOR / SW\_FIELD\_INSPECTOR  | VERIFY \&FORWARD     | PENDINGAPPROVAL                                  | Pending for APproval              |
-| WS\_APPROVER / SW\_APPROVER                  | APPROVE              | PENDINGPAYMENT                                   | Pending for Payment               |
-| Citizen/Counter Employee/WS\_CEMP / SW\_CEMP | PAY                  | Approved                                         | <p>Approved</p><p> </p>           |
-| WS\_APPROVER / SW\_APPROVER                  | REJECT               | Rejected                                         | Rejected                          |
-| WS\_CLERK/SW\_CLERK                          | Activate Connection  | Connection activated                             | Connection activated              |
+<table data-header-hidden><thead><tr><th width="193"></th><th width="226"></th><th></th><th></th></tr></thead><tbody><tr><td><strong>Role</strong></td><td><strong>Action</strong></td><td><strong>Next State</strong></td><td><strong>Status</strong></td></tr><tr><td>Citizen/ Counter Employee/WS_CEMP/ SW_CEMP</td><td>INITIATE</td><td>INITIATED</td><td>INITIATED</td></tr><tr><td>Citizen/Counter Employee/WS_CEMP / SW_CEMP</td><td>EDIT</td><td>EDIT/ DOCUMENTVERIFICATION</td><td>Pending for Document Verification</td></tr><tr><td>Citizen/Counter Employee/WS_CEMP / SW_CEMP</td><td>Send Back to Citizen</td><td><p>Pending for Citizen Action</p><p><br><br></p></td><td>Pending for Citizen Action</td></tr><tr><td>WS_DOC_VERIFIER / SW_DOC_VERIFIER</td><td>VERIFY &#x26;FORWARD</td><td>FIELDVERIFICATION</td><td>Pending for Field Verification</td></tr><tr><td>WS_FIELD_INSPECTOR / SW_FIELD_INSPECTOR</td><td>VERIFY &#x26;FORWARD</td><td>PENDINGAPPROVAL</td><td>Pending for APproval</td></tr><tr><td>WS_APPROVER / SW_APPROVER</td><td>APPROVE</td><td>PENDINGPAYMENT</td><td>Pending for Payment</td></tr><tr><td>Citizen/Counter Employee/WS_CEMP / SW_CEMP</td><td>PAY</td><td>Approved</td><td><p>Approved</p><p> </p></td></tr><tr><td>WS_APPROVER / SW_APPROVER</td><td>REJECT</td><td>Rejected</td><td>Rejected</td></tr><tr><td>WS_CLERK/SW_CLERK</td><td>Activate Connection</td><td>Connection activated</td><td>Connection activated</td></tr></tbody></table>
 
 ## **Technical Implementation Details**
 

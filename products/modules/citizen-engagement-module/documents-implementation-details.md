@@ -148,7 +148,11 @@ MDMS KEYS: API + `"DocumentUploader", ["UlbLevelCategories"]`
 
 Localization keys are added under the ‘_rainmaker-common_’ locale module. In future, if any new labels are implemented in the Trade License (Citizen) these should also be pushed to the locale DB under _rainmaker-tl_ locale module. Below is an example of a few locale labels.
 
-![](../../../.gitbook/assets/image-20211214-033054.png)
+<div align="left">
+
+<img src="../../../.gitbook/assets/image-20211214-033054.png" alt="">
+
+</div>
 
 ## **API Call Role Action Mapping**
 

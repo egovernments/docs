@@ -4,25 +4,49 @@
 
 Users can review the list of applications and their status registered under their mobile numbers in the My Applications tab. Each Application for the initial view displays the Application No, Service Category, Owner Name (Multiple with a comma), status, SLA, and Trade Name with the View Details option. If the status is pending for payment the View Details & Pay button is available that enables the users to look up more details about the application.
 
-![](<../../../../../.gitbook/assets/image (231) (5).png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/image (231) (5).png" alt="">
+
+</div>
 
 Once the user clicks on the View Details or View Details & Pay button, the Application Details Page is displayed with all the necessary information about the application.
 
-![](<../../../../../.gitbook/assets/image (260).png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/image (260).png" alt="">
+
+</div>
 
 The user can download the Application Acknowledgement Form (status - pending for payment ) or TL Certificate or the payment receipt using the Download Link button available at the top right corner of the page.
 
-![](<../../../../../.gitbook/assets/image (148).png>)
+<div align="left">
 
-![](<../../../../../.gitbook/assets/image (150).png>)
+<img src="../../../../../.gitbook/assets/image (148).png" alt="">
+
+</div>
+
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/image (150).png" alt="">
+
+</div>
 
 If the status is Pending for Payment for the application or Action required by a citizen (discussed elaborately here), a button will be visible to pay or edit at the end of the page respectively. On clicking on the Make Payment button it will redirect to the common pay screen through which the user can make the payment.
 
-![](<../../../../../.gitbook/assets/image (270).png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/image (270).png" alt="">
+
+</div>
 
 **Timeline Component -** timeline component is present at the end of the application details which tells about the current status and history of the application being initiated, Applied, Pending for Document Verification, Pending for Field Inspection, Pending approval, Pending payment, Approved etc.
 
-![](<../../../../../.gitbook/assets/image (257).png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/image (257).png" alt="">
+
+</div>
 
 ## **Technical Implementation Details**
 

@@ -6,11 +6,19 @@
 
 Users can view the list of payments for properties registered to their mobile number in My Payments tab. The initial view displays the Amount Paid, Property Id, Owner Name, Receipt Date and Receipt Number, and the Download Receipt options. Clicking on the Download Receipt button offers a payment receipt details.&#x20;
 
-![](<../../../../../.gitbook/assets/Screenshot from 2022-03-11 12-59-07.png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/Screenshot from 2022-03-11 12-59-07.png" alt="">
+
+</div>
 
 Clicking on the Download Receipt button downloads the payment receipt.
 
-![](<../../../../../.gitbook/assets/Screenshot from 2022-03-11 13-32-31.png>)
+<div align="left">
+
+<img src="../../../../../.gitbook/assets/Screenshot from 2022-03-11 13-32-31.png" alt="">
+
+</div>
 
 ## **Technical Implementation Details**
 

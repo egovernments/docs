@@ -84,7 +84,11 @@ In the UI code repository, If any particular data has to be masked then we have 
 
 Example:
 
+<div align="left">
+
 <figure><img src="../../../../../.gitbook/assets/image (459).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 For water application details the connection holder details have to be masked. The privacy object is passed from the applicationdetails hook.
 
@@ -183,7 +187,11 @@ export const checkPrivacy = (mdmsObj, privacyDetail) => {
 
 If the checkprivacy is returned true, the eye icon is visible and clicking on it calls the updateprivacy method defined in useprivacycontext hook: Refer - [DIGIT-Dev/usePrivacyContext.js at 090ef18028a50f38222e426ec59ab9f123833af0 · egovernments/DIGIT-Dev (github.com)](https://github.com/egovernments/DIGIT-Dev/blob/090ef18028a50f38222e426ec59ab9f123833af0/frontend/micro-ui/web/micro-ui-internals/packages/libraries/src/hooks/usePrivacyContext.js)
 
+<div align="left">
+
 <figure><img src="../../../../../.gitbook/assets/image (348).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 This triggers the search hook called again with `plainAccessRequest` (mentioned in the above picture), but for that privacy object has to be sent in the hook for re-triggering.
 
