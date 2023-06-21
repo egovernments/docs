@@ -12,9 +12,9 @@ Complaints can also be registered by ULB counter employees on behalf of the citi
 
 The CSR or counter employees can perform the following actions on PGR -
 
-1. File Complaints
-2. Search or Track Complaints
-3. Reopen Complaints
+1. [File Complaints](employee-user-manual.md#file-complaints)
+2. [Search or Track Complaints](employee-user-manual.md#search-complaints)
+3. [Reopen Complaints](employee-user-manual.md#reopen-complaints)
 
 ### File Complaints
 
@@ -82,10 +82,10 @@ The Grievance Routing Officer or GRO manages the complaints queue. The role ensu
 
 GROs can
 
-1. [Assign complaints](employee-user-manual.md)
-2. [Re-Assign complaints](employee-user-manual.md)
-3. [Share complaints](employee-user-manual.md)
-4. [Reject complaints](employee-user-manual.md)
+1. [Assign complaints](employee-user-manual.md#assign-complaints)
+2. [Re-Assign complaints](employee-user-manual.md#re-assign-complaints)
+3. [Share complaints](employee-user-manual.md#share-complaints)
+4. [Reject complaints](employee-user-manual.md#reject-complaints)
 5. Call citizens
 6. Comment on complaints
 
@@ -155,12 +155,8 @@ First Mile Employees or FMEs are responsible for acting on citizen complaints.
 
 FMEs can -
 
-1. [Request Re-Assign](employee-user-manual.md)
-2. [Mark Resolved](employee-user-manual.md)
-3. Call citizens
-4. Comment on complaints
-5. [Search complaints](employee-user-manual.md)
-6. [Share complaints](employee-user-manual.md)
+1. [Request Re-Assign](employee-user-manual.md#request-re-assign)
+2. [Mark Resolved](employee-user-manual.md#resolve-complaints)
 
 ### **Request Re-Assign**
 

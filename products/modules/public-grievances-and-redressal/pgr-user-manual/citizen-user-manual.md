@@ -8,10 +8,10 @@ Citizens represent individuals or communities who are the system end-users. The 
 
 The Citizen role can -
 
-* [File complaints](https://app.gitbook.com/@egov-digit/s/external/understand-digit/product-user-guides/public-grievance/citizen-guide#file-complaints)
-* [Track complaints](https://app.gitbook.com/@egov-digit/s/external/understand-digit/product-user-guides/public-grievance/citizen-guide#my-complaints)
-* [Rate complaints](https://app.gitbook.com/@egov-digit/s/external/understand-digit/product-user-guides/public-grievance/citizen-guide#rate-complaints)
-* [Reopen complaints](https://app.gitbook.com/@egov-digit/s/external/understand-digit/product-user-guides/public-grievance/citizen-guide#reopen-complaints)
+* [File complaints](citizen-user-manual.md#file-complaints)
+* [Track complaints](citizen-user-manual.md#view-complaints)
+* [Rate complaints](citizen-user-manual.md#rate-complaints)
+* [Reopen complaints](citizen-user-manual.md#reopen-complaints)
 
 ## File Complaints
 
