@@ -71,7 +71,6 @@
           * [Workflow Process](platform/configure-digit/configuring-master-data-templates/module-setup/workflow-data/workflow-process.md)
         * [Common Configuration Details](platform/configure-digit/configuring-master-data-templates/module-setup/common-config/README.md)
           * [Standard Document List](platform/configure-digit/configuring-master-data-templates/module-setup/common-config/standard-document-list.md)
-          * [Service Document Mapping](platform/configure-digit/configuring-master-data-templates/module-setup/common-config/service-document-mapping.md)
           * [Checklist](platform/configure-digit/configuring-master-data-templates/module-setup/common-config/checklist.md)
           * [Configuring Data FAQs](platform/configure-digit/configuring-master-data-templates/module-setup/common-config/configuring-data-faqs.md)
     * [Configuring DIGIT Service Stack](platform/configure-digit/services-overview/README.md)
