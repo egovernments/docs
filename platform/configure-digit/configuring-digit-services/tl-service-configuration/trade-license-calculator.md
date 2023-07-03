@@ -198,34 +198,19 @@ So in future, if calculation logic needs to modify then changes can be carried o
 3. ULB Employee can update billing slab calling /tl-calculator/billingslab/\_update
 4. ULB Employee can search billing slab calling /tl-calculator/billingslab/\_search
 
-### Interaction Diagram
-
-TBD
-
 ## Reference Docs
 
 #### Doc Links <a href="#doc-links" id="doc-links"></a>
 
-|                        |                                                                                                                                                                                                                             |
-| ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Title**              | **Link**                                                                                                                                                                                                                    |
-| API Swagger Contract   | [![](https://editor.swagger.io/dist/favicon-32x32.png)Swagger Editor](https://editor.swagger.io/?url=https://raw.githubusercontent.com/egovernments/egov-services/master/docs/rainmaker/trade-license/tl-calculator.yml#!/) |
-| Trade License Document | [Trade License Service](https://digit-discuss.atlassian.net/l/c/WQ1uMqaa)                                                                                                                                                   |
+<table><thead><tr><th width="296.5">Title</th><th>Link</th></tr></thead><tbody><tr><td>API Swagger Contract</td><td><a href="https://editor.swagger.io/?url=https://raw.githubusercontent.com/egovernments/egov-services/master/docs/rainmaker/trade-license/tl-calculator.yml#!/"><img src="https://editor.swagger.io/dist/favicon-32x32.png" alt="">Swagger Editor</a></td></tr><tr><td>Trade License Document</td><td><a href="https://digit-discuss.atlassian.net/l/c/WQ1uMqaa">Trade License Service</a></td></tr></tbody></table>
 
 #### API List <a href="#api-list" id="api-list"></a>
 
-|                                    |                                                                                                                            |
+| Title                              | Link                                                                                                                       |
 | ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| Title                              | **Link**                                                                                                                   |
 | tl-calculator/billingslab/\_create | [https://www.getpostman.com/collections/a3d3bca66635df2395a3](https://www.getpostman.com/collections/a3d3bca66635df2395a3) |
 | tl-calculator/billingslab/\_search | [https://www.getpostman.com/collections/a3d3bca66635df2395a3](https://www.getpostman.com/collections/a3d3bca66635df2395a3) |
 | tl-calculator/billingslab/\_update | [https://www.getpostman.com/collections/a3d3bca66635df2395a3](https://www.getpostman.com/collections/a3d3bca66635df2395a3) |
 | tl-calculator/v1/\_calculate       | [https://www.getpostman.com/collections/a3d3bca66635df2395a3](https://www.getpostman.com/collections/a3d3bca66635df2395a3) |
 
-_(Note: All the API’s are in the same postman collection therefore the same link is added in each row)_
-
-\_\_
-
-\_\_
-
-> [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)\_\_](http://creativecommons.org/licenses/by/4.0/)_All content on this page by_ [_eGov Foundation_ ](https://egov.org.in/)_is licensed under a_ [_Creative Commons Attribution 4.0 International License_](http://creativecommons.org/licenses/by/4.0/)_._
+_(Note: All the APIs are in the same postman collection therefore the same link is added in each row)_

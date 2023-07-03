@@ -57,9 +57,8 @@ Each flow in property has a workflow associated with it, which can be controlled
 
 The Boolean field which can enable/disable Workflow - same field controls the update and create the workflow
 
-|                                                                                        |               |                                                                            |
+| name                                                                                   | value         | description                                                                |
 | -------------------------------------------------------------------------------------- | ------------- | -------------------------------------------------------------------------- |
-| **name**                                                                               | **value**     | **description**                                                            |
 | **is.workflow.enabled**                                                                | true/false    | enable disbale workflow                                                    |
 | [**property.workflow.name**](http://property.workflow.name/)                           | **PT.CREATE** | the name should match the config name in the workflow businessservice JSON |
 | [**property.legacy.entry.workflow.name**](http://property.legacy.entry.workflow.name/) | **PT.LEGACY** |                                                                            |
@@ -493,7 +492,7 @@ To enable or disable notifcation\
 **egov.notif.view.property** = citizen/property-tax/my-properties/property/{PROPERTYID}/{TENANTID}\
 **egov.notif.view.mutation** = citizen/pt-mutation/search-preview?applicationNumber={APPID}\&tenantId={TENANTID}
 
-The Current localization messages for notification
+The current localization messages for notification
 
 ```
 [
@@ -618,11 +617,11 @@ Property service can be integrated with any organization or system that wants to
 
 * Easy to create and simple process of self-assessment to avoid the hassle.
 * Helps maintain property data which can be used in the integration of other essential services like asset management, water connection and so on.
-* provides additional functionalities like mutation, assessment of properties.
+* provides additional functionalities like mutation, and assessment of properties.
 
 ### Steps to Integration
 
-1. Customer can create a property using the /property/\_create
+1. Customers can create a property using the /property/\_create
 2. Search the property using /property/\_searchendpoint
 3. /property/\_update endpoint to update the property demand as per need.
 4. Mutation can be carried out with the help of /property/\_update itself, no extra API is needed.
@@ -631,26 +630,9 @@ Property service can be integrated with any organization or system that wants to
 
 **Doc Links**
 
-|                 |                                                                                                                     |
-| --------------- | ------------------------------------------------------------------------------------------------------------------- |
-| **Title**       | **Link**                                                                                                            |
-| USER Service    | [User Service](https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/669450371/User+Service)                     |
-| url-shortening  | [URL Shortening service](https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/896892936/URL+Shortening+service) |
-| MDMS            | [MDMS (Master Data Management Service)](https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/723189807)         |
-| Billing-service | [Billing Service](https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/1620672528/Billing+Service)              |
-| Location        | [Location Service](https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/664338482/Location+Service)             |
-| Workflow        | [Workflow Service](https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/664174657/Workflow+Service)             |
-| Persister       | \*\*\*\*                                                                                                            |
-| Localization    |                                                                                                                     |
-| Id-Gen service  |                                                                                                                     |
+<table><thead><tr><th width="270">Title</th><th>Link</th></tr></thead><tbody><tr><td>USER Service</td><td><a href="https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/669450371/User+Service">User Service</a></td></tr><tr><td>url-shortening</td><td><a href="https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/896892936/URL+Shortening+service">URL Shortening service</a></td></tr><tr><td>MDMS</td><td><a href="https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/723189807">MDMS (Master Data Management Service)</a></td></tr><tr><td>Billing-service</td><td><a href="https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/1620672528/Billing+Service">Billing Service</a></td></tr><tr><td>Location</td><td><a href="https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/664338482/Location+Service">Location Service</a></td></tr><tr><td>Workflow</td><td><a href="https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/664174657/Workflow+Service">Workflow Service</a></td></tr><tr><td>Persister</td><td>****</td></tr><tr><td>Localization</td><td></td></tr><tr><td>Id-Gen service</td><td></td></tr></tbody></table>
 
-API LIST:
+API LIST
 
-|                    |                                                                                                                            |
-| ------------------ | -------------------------------------------------------------------------------------------------------------------------- |
-| **Title**          | **Link**                                                                                                                   |
-| /Property/\_create | [https://www.getpostman.com/collections/02d01e7b46c79c140863](https://www.getpostman.com/collections/02d01e7b46c79c140863) |
-| /Property/\_update | [https://www.getpostman.com/collections/02d01e7b46c79c140863](https://www.getpostman.com/collections/02d01e7b46c79c140863) |
-| /property/\_search | [https://www.getpostman.com/collections/02d01e7b46c79c140863](https://www.getpostman.com/collections/02d01e7b46c79c140863) |
+<table><thead><tr><th width="235">Title</th><th>Link</th></tr></thead><tbody><tr><td>/Property/_create</td><td><a href="https://www.getpostman.com/collections/02d01e7b46c79c140863">https://www.getpostman.com/collections/02d01e7b46c79c140863</a></td></tr><tr><td>/Property/_update</td><td><a href="https://www.getpostman.com/collections/02d01e7b46c79c140863">https://www.getpostman.com/collections/02d01e7b46c79c140863</a></td></tr><tr><td>/property/_search</td><td><a href="https://www.getpostman.com/collections/02d01e7b46c79c140863">https://www.getpostman.com/collections/02d01e7b46c79c140863</a></td></tr></tbody></table>
 
-> [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)\_\_](http://creativecommons.org/licenses/by/4.0/)_All content on this page by_ [_eGov Foundation_ ](https://egov.org.in/)_is licensed under a_ [_Creative Commons Attribution 4.0 International License_](http://creativecommons.org/licenses/by/4.0/)_._

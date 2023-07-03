@@ -32,10 +32,6 @@ Before you proceed with the documentation, make sure the following pre-requisite
 | egov.idgen.wcid.name                                   | This variable contain the idgen format name for water connection                                                              |
 | egov.idgen.wcid.format                                 | This variable contain the idgen format for water connection ex:- WS\_AP/\[CITY.CODE]/\[fy:yyyy-yy]/\[SEQ\_EGOV\_COMMON]       |
 
-### Interaction Diagram <a href="#interaction-diagram" id="interaction-diagram"></a>
-
-To Do
-
 _**Table UML diagram**_
 
 ![](../../../../.gitbook/assets/152.png)
@@ -848,6 +844,3 @@ This ws-service module is used to manage water service connections against a pro
 
 _(Note: All the APIs are in the same postman collection therefore the same link is added in each row)_
 
-
-
-> [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)\_\_](http://creativecommons.org/licenses/by/4.0/)_All content on this page by_ [_eGov Foundation_ ](https://egov.org.in/)_is licensed under a_ [_Creative Commons Attribution 4.0 International License_](http://creativecommons.org/licenses/by/4.0/)_._

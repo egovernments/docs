@@ -441,10 +441,4 @@ So in future, if calculation logic needs to modify then changes can be carried o
 | /waterCalculator/\_jobscheduler         | [https://www.getpostman.com/collections/b9a7bde133b0e1fa465f](https://www.getpostman.com/collections/b9a7bde133b0e1fa465f) |
 | /waterCalculator/\_applyAdhocTax        | [https://www.getpostman.com/collections/b9a7bde133b0e1fa465f](https://www.getpostman.com/collections/b9a7bde133b0e1fa465f) |
 
-_(Note: All the API’s are in the same postman collection therefore same link is added in each row)_
-
-\_\_
-
-\_\_
-
-> [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)\_\_](http://creativecommons.org/licenses/by/4.0/)_All content on this page by_ [_eGov Foundation_ ](https://egov.org.in/)_is licensed under a_ [_Creative Commons Attribution 4.0 International License_](http://creativecommons.org/licenses/by/4.0/)_._
+_(Note: All the APIs are in the same Postman collection therefore the same link is added in each row)_

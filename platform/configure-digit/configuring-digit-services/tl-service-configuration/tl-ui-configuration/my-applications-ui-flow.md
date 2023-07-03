@@ -88,6 +88,3 @@ No MDMS data is being used here, all the data is being loaded from Search API/Fe
 
 For My Applications also the localization keys are added in the ‘_rainmaker-tl_’ locale module same as other parts of the TL module. Change, update or add any new localization key is done in the same locale module only.
 
-
-
-> [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)_​_](http://creativecommons.org/licenses/by/4.0/)_All content on this page by_ [_eGov Foundation_](https://egov.org.in/) _is licensed under a_ [_Creative Commons Attribution 4.0 International License_](http://creativecommons.org/licenses/by/4.0/)_._

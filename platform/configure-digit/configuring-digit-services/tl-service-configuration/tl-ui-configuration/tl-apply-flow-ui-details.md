@@ -268,13 +268,5 @@ Localization keys are added to the ‘_rainmaker-tl_’ locale module. In future
 
 ## **API Role Action Mapping**
 
-| API                                   | Action ID | Roles     |
-| ------------------------------------- | --------- | --------- |
-| `/egov-mdms-service/v1/_search`       | `954`     | `CITIZEN` |
-| `/tl-services/v1/_create`             | `1685`    | `CITIZEN` |
-| `/filestore/v1/files/url`             | `1528`    | `CITIZEN` |
-| `/billing-service/bill/v2/_fetchbill` | `1862`    | `CITIZEN` |
-| `/tl-calculator/billingslab/_search`  | `1684`    | `CITIZEN` |
-| `/tl-services/v1/_update`             | `1686`    | `CITIZEN` |
-| `/localization/messages/v1/_search`   | `1531`    | `CITIZEN` |
+<table><thead><tr><th width="390">API</th><th width="125">Action ID</th><th>Roles</th></tr></thead><tbody><tr><td><code>/egov-mdms-service/v1/_search</code></td><td><code>954</code></td><td><code>CITIZEN</code></td></tr><tr><td><code>/tl-services/v1/_create</code></td><td><code>1685</code></td><td><code>CITIZEN</code></td></tr><tr><td><code>/filestore/v1/files/url</code></td><td><code>1528</code></td><td><code>CITIZEN</code></td></tr><tr><td><code>/billing-service/bill/v2/_fetchbill</code></td><td><code>1862</code></td><td><code>CITIZEN</code></td></tr><tr><td><code>/tl-calculator/billingslab/_search</code></td><td><code>1684</code></td><td><code>CITIZEN</code></td></tr><tr><td><code>/tl-services/v1/_update</code></td><td><code>1686</code></td><td><code>CITIZEN</code></td></tr><tr><td><code>/localization/messages/v1/_search</code></td><td><code>1531</code></td><td><code>CITIZEN</code></td></tr></tbody></table>
 

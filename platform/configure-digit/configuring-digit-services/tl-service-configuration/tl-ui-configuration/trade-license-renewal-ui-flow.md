@@ -69,9 +69,9 @@ Once the user has completed the flow as required or clicked the submit button di
 
 If it is a direct renewal only one update API is being called which updates the financial year only.
 
-but if it is an edit renewal, two updated API is called after the first API successful call the application status gets changed to Initiated but after the second API call it is changed to applied. with the next action pending for document verification.
+but if it is an edit renewal, two updated API is called after the first API successful call the application status gets changed to Initiated but after the second API call, it is changed to apply. with the next action pending for document verification.
 
-the code for these can be found in the utils folder index please refer to the below link for the same:
+The code for these can be found in the utils folder index please refer to the below link for the same:
 
 [https://github.com/egovernments/digit-ui-internals/blob/main/packages/modules/tl/src/utils/index.js](https://github.com/egovernments/digit-ui-internals/blob/main/packages/modules/tl/src/utils/index.js)
 
@@ -83,4 +83,4 @@ MDMS data which is being used here is the same as the Apply flow only, as the fl
 
 ## **Localization**
 
-For Renew Trade also, the Localization keys are being added in the ‘_rainmaker-tl_’ locale module. Change, update or add of any new localization key will be done in the same locale module only.
+For Renew Trade also, the Localization keys are being added in the ‘_rainmaker-tl_’ locale module. Change, update or add any new localization key will be done in the same locale module only.

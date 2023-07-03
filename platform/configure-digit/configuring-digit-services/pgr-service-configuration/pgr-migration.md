@@ -103,8 +103,6 @@ _\*(Last query related to document might need little modification as values in N
 4. For some records in the media column corrupt data is present. For example, in one case instead of fileStore uuid some normal text describing the complaint is present. While some other records have values like no. For data with such text having a length greater than 64 are set to null, else DB validations are violated.
 5. In the old system-id is stored for referencing user data. In new systems we use uuid to refer user, therefore all id is mapped to respective uuid which are then migrated to the new system. If some user has uuid as NULL default value NOT\_SPECIFIED will be used.
 6. Some 1104 complaints has value in the column named feedback which seems to be from some set of predefined values like "Resolution Time", "Quality of work", ”others” etc. The new structure does not have any such column so we will be storing this in additionalDetails.
-7. Address and landmark column in eg\_pgr\_service has values in some column they are also stored in additionalDetails.
-8. Phone column contains phone numbers, we are not migrating that column as it has PII data and will be already present in user service as well.
-9. If sla is not found in the old config (will only happen if some complaint category is removed from MDMS and complaints are present in the system of that category) default SLA value will be used.
-
-[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)All content on this page by [eGov Foundation ](https://egov.org.in/)is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+7. The address and landmark column in eg\_pgr\_service has values in some column they are also stored in additionalDetails.
+8. The phone column contains phone numbers, we are not migrating that column as it has PII data and will be already present in user service as well.
+9. If SLA is not found in the old config (will only happen if some complaint category is removed from MDMS and complaints are present in the system of that category) default SLA value will be used.

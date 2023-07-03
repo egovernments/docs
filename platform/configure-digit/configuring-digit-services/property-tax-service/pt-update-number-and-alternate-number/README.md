@@ -112,7 +112,7 @@ Alternate Number component details link
 
 ## **API Call Role Action Mapping**
 
-<table data-header-hidden><thead><tr><th width="150"></th><th width="269"></th><th width="150"></th><th></th></tr></thead><tbody><tr><td></td><td><strong>API</strong></td><td><strong>Action Id</strong></td><td><strong>Roles</strong></td></tr><tr><td>1</td><td><code>property-services/property/_addAlternateNumber</code></td><td>870</td><td><code>CITIZEN</code>,<code>PT_CEMP</code></td></tr><tr><td>2</td><td><code>property-services/property/_update</code></td><td>954</td><td><code>CITIZEN,PT_CEMP</code></td></tr><tr><td>3</td><td><code>user-otp/v1/_send</code></td><td>1531</td><td><code>CITIZEN</code></td></tr><tr><td>4</td><td>/property-services/property/_search</td><td>1897</td><td><code>CITIZEN</code> ,<code>PT_CEMP</code></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="90"></th><th width="269"></th><th width="150"></th><th></th></tr></thead><tbody><tr><td></td><td><strong>API</strong></td><td><strong>Action Id</strong></td><td><strong>Roles</strong></td></tr><tr><td>1</td><td><code>property-services/property/_addAlternateNumber</code></td><td>870</td><td><code>CITIZEN</code>,<code>PT_CEMP</code></td></tr><tr><td>2</td><td><code>property-services/property/_update</code></td><td>954</td><td><code>CITIZEN,PT_CEMP</code></td></tr><tr><td>3</td><td><code>user-otp/v1/_send</code></td><td>1531</td><td><code>CITIZEN</code></td></tr><tr><td>4</td><td>/property-services/property/_search</td><td>1897</td><td><code>CITIZEN</code> ,<code>PT_CEMP</code></td></tr></tbody></table>
 
 
 

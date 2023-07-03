@@ -10,8 +10,8 @@ The update feature in property services provides a facility to update the owner�
 * Prior Knowledge of Spring Boot.
 * Prior Knowledge of REST APIs and related concepts like path parameters, headers, JSON, etc.
 * Prior knowledge of Git
-* Prior knowledge of the demand-based systems.
-* Following services should be up and running:
+* Prior knowledge of demand-based systems.
+* The following services should be up and running:
   * user MDMS
   * Persister
   * Location
@@ -22,7 +22,7 @@ The update feature in property services provides a facility to update the owner�
 
 ## **Key Functionality**
 
-Enables user to update property owner’s mobile number and to add/update the alternate mobile number.
+Enables the user to update the property owner’s mobile number and to add/update the alternate mobile number.
 
 ## **Configuration Details**  <a href="#configuration-details" id="configuration-details"></a>
 
@@ -30,7 +30,7 @@ Enables user to update property owner’s mobile number and to add/update the al
 
 All the property information (except the owner’s mobile number/ alternate number) should be the same as the information from the search result. The owner’s primary mobile number has to be necessarily different from the existing one.
 
-The Creation Reason in the property should be sent as **UPDATE** for the request to be considered as an update request. Also, the property has to be in **ACTIVE** status.\
+The Creation Reason in the property should be sent as an **UPDATE** for the request to be considered as an update request. Also, the property has to be in **ACTIVE** status.\
 \
 For adding/updating alternate numbers, modify the **alternateMobileNumber** field in the Property.
 
@@ -278,6 +278,3 @@ The update service belongs to the property service itself and provides the same 
 
 **Reference Docs: -** For additional details please refer to the property document [Property Services | Doc-Links](../#reference-docs)
 
-
-
-> [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)_​_](http://creativecommons.org/licenses/by/4.0/)_All content on this page by_ [_eGov Foundation_](https://egov.org.in/) _is licensed under a_ [_Creative Commons Attribution 4.0 International License_](http://creativecommons.org/licenses/by/4.0/)_._

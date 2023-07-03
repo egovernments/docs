@@ -36,10 +36,6 @@ The sewerage service provides multiple functionalities starting from serving as 
 | egov.idgen.scid.name                                         | This variable contain the idgen format name for sewerage connection                                                              |
 | egov.idgen.scid.format                                       | This variable contain the idgen format for sewerage connection ex:- WS\_AP/\[CITY.CODE]/\[fy:yyyy-yy]/\[SEQ\_EGOV\_COMMON]       |
 
-### Interaction Diagram <a href="#interaction-diagram" id="interaction-diagram"></a>
-
-To Do
-
 _**Table UML Diagram**_
 
 ![](../../../../../.gitbook/assets/153.png)
@@ -622,7 +618,7 @@ _**Indexer config for sewerage-service**_
 
 1. Write the configuration for sewerage service. [https://github.com/egovernments/configs/blob/DEV/egov-indexer/sewerage-service.yml](https://github.com/egovernments/configs/blob/DEV/egov-indexer/sewerage-service.yml)
 2. Provide the absolute path of the checked-in file to DevOps, to add it to the file-read path of egov-indexer. The file will be added to the egov-indexer's environment manifest file for it to be read at the start-up of the application.
-3. Put indexer config file to the config repo under egov-indexer folder. ([![](https://github.com/fluidicon.png)egovernments/configs](https://github.com/egovernments/configs) )
+3. Put indexer config file to the config repo under egov-indexer folder. ([<img src="https://github.com/fluidicon.png" alt="" data-size="line">egovernments/configs](https://github.com/egovernments/configs) )
 4. Run the egov-indexer app, Since it is a consumer, it starts listening to the configured topics and indexes the data.
 
 _**Modify connection**_
@@ -633,6 +629,7 @@ After connection activation or legacy connection, we can edit the connection. Th
 
 Create businessService (workflow configuration) using the \_\_/businessservice/\_create. Following is the product configuration for editing sewerage connection.
 
+{% code lineNumbers="true" %}
 ```
 {
   "RequestInfo": {
@@ -744,8 +741,7 @@ Create businessService (workflow configuration) using the \_\_/businessservice/\
   ]
 }
 ```
-
-`1{ 2 "RequestInfo": { 3 "apiId": "Rainmaker", 4 "action": "", 5 "did": 1, 6 "key": "", 7 "msgId": "20170310130900|en_IN", 8 "requesterId": "", 9 "ts": 1513579888683, 10 "ver": ".01", 11 "authToken": "{{Auth_Token}}" 12 }, 13 "BusinessServices": [ 14 { 15 "tenantId": "pb", 16 "businessService": "ModifySWConnection", 17 "business": "sw-services", 18 "businessServiceSla": 259200000, 19 "states": [ 20 { 21 "sla": null, 22 "state": null, 23 "applicationStatus": null, 24 "docUploadRequired": false, 25 "isStartState": true, 26 "isTerminateState": false, 27 "isStateUpdatable": false, 28 "actions": [ 29 { 30 "action": "INITIATE", 31 "nextState": "INITIATED", 32 "roles": [ 33 "SW_CEMP" 34 ] 35 } 36 ] 37 }, 38 { 39 "sla": null, 40 "state": "INITIATED", 41 "applicationStatus": "INITIATED", 42 "docUploadRequired": false, 43 "isStartState": false, 44 "isTerminateState": false, 45 "isStateUpdatable": true, 46 "actions": [ 47 { 48 "action": "SUBMIT_APPLICATION", 49 "nextState": "PENDING_FOR_APPROVAL", 50 "roles": [ 51 "SW_CEMP" 52 ] 53 } 54 ] 55 }, 56 { 57 "sla": 86400000, 58 "state": "PENDING_FOR_APPROVAL", 59 "applicationStatus": "PENDING_FOR_APPROVAL", 60 "docUploadRequired": false, 61 "isStartState": false, 62 "isStateUpdatable": true, 63 "isTerminateState": false, 64 "actions": [ 65 { 66 "action": "APPROVE_CONNECTION", 67 "nextState": "APPROVED", 68 "roles": [ 69 "SW_APPROVER" 70 ] 71 }, 72 { 73 "action": "REJECT", 74 "nextState": "REJECTED", 75 "roles": [ 76 "SW_APPROVER" 77 ] 78 }, 79 { 80 "action": "SEND_BACK", 81 "nextState": "INITIATED", 82 "roles": [ 83 "SW_APPROVER" 84 ] 85 } 86 ] 87 }, 88 { 89 "sla": null, 90 "state": "REJECTED", 91 "applicationStatus": "REJECTED", 92 "isStateUpdatable": false, 93 "docUploadRequired": false, 94 "isStartState": false, 95 "isTerminateState": true 96 }, 97 { 98 "sla": null, 99 "state": "APPROVED", 100 "applicationStatus": "APPROVED", 101 "isStateUpdatable": false, 102 "docUploadRequired": false, 103 "isStartState": false, 104 "isTerminateState": true 105 } 106 ] 107 } 108 ] 109} 110`
+{% endcode %}
 
 **Notification**
 
@@ -758,27 +754,27 @@ We can add connection holders to the sewerage connection which will be the owner
 The connection holder will get a notification based on a different state of the application. We are pushing the data of the connection holders in the user service too.
 
 **Multiple Road Type Support**\
-We can add road cutting details of multiple roads to the sewerage connection. For each road which goes under cutting process we have to fill their road type details and road cutting area.\
-Based on this information, application one time fee estimate is calculated.
+We can add road-cutting details of multiple roads to the sewerage connection. For each road which goes under the cutting process, we have to fill in their road type details and road cutting area.\
+Based on this information, the application one-time fee estimate is calculated.
 
 ## Integration
 
 ### Integration Scope
 
-This sw-service module is use to manage sewerage service connections against a property in the system.
+This sw-service module is used to manage sewerage service connections against a property in the system.
 
 ### Integration Benefits
 
-* Provide backend support for the different sewerage connection registration process.
+* Provide backend support for the different sewerage connection registration processes.
 * Mseva and SMS notifications on application status changes.
-* Elastic search index for creating visualisations and Dashboards.
+* The elastic search index for creating visualisations and Dashboards.
 * Supports workflow which is configurable
 
 ### Steps to Integration
 
-1. To integrate, the host of sw-service module should be overwritten in helm chart.
+1. To integrate, the host of sw-service module should be overwritten in the helm chart.
 2. /sw-services/swc/\_create should be added as the create endpoint for creating sewerage application/connection in the system
-3. /sw-services/swc/\_search should be added as the search endpoint .This method handles all requests to search existing records depending on different search criteria
+3. /sw-services/swc/\_search should be added as the search endpoint. This method handles all requests to search existing records depending on different search criteria
 4. /sw-services/swc/\_update should be added as the update endpoint. This method is used to update fields in existing records or to update the status of the application based on workflow.
 
 ## Reference Docs
@@ -800,10 +796,4 @@ This sw-service module is use to manage sewerage service connections against a p
 | _/sw-services/swc/\_update_ | [https://www.getpostman.com/collections/c160dd65f1d585ed855f](https://www.getpostman.com/collections/c160dd65f1d585ed855f) |
 | _/sw-services/swc/\_search_ | [https://www.getpostman.com/collections/c160dd65f1d585ed855f](https://www.getpostman.com/collections/c160dd65f1d585ed855f) |
 
-_(Note: All the API’s are in the same postman collection therefore same link is added in each row)_
-
-\_\_
-
-\_\_
-
-> [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)\_\_](http://creativecommons.org/licenses/by/4.0/)_All content on this page by_ [_eGov Foundation_ ](https://egov.org.in/)_is licensed under a_ [_Creative Commons Attribution 4.0 International License_](http://creativecommons.org/licenses/by/4.0/)_._
+_(Note: All the APIs are in the same Postman collection therefore the same link is added in each row)_
