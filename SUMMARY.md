@@ -360,7 +360,6 @@
         * [Grievance Type](products/modules/public-grievances-and-redressal/pgr-master-data-templates/grievance-type.md)
         * [Grievance Sub Type](products/modules/public-grievances-and-redressal/pgr-master-data-templates/grievance-sub-type.md)
         * [Routing Matrix](products/modules/public-grievances-and-redressal/pgr-master-data-templates/routing-matrix.md)
-        * [Escalation Matrix](products/modules/public-grievances-and-redressal/pgr-master-data-templates/escalation-matrix.md)
       * [PGR User Manual](products/modules/public-grievances-and-redressal/pgr-user-manual/README.md)
         * [Complaint Types List](products/modules/public-grievances-and-redressal/pgr-user-manual/complaint-types-list.md)
         * [PGR Citizen User Manual](products/modules/public-grievances-and-redressal/pgr-user-manual/citizen-user-manual.md)
