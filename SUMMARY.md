@@ -452,7 +452,6 @@
       * [National Urban Dashboard User Manual](products/modules/national-urban-real-time-dashboard/national-urban-dashboard-user-manual.md)
       * [National Urban Dashboard Functional Specifications](products/modules/national-urban-real-time-dashboard/national-urban-dashboard-functional-specifications.md)
     * [Product Specific Pages](products/modules/product-specific-pages.md)
-    * [Product FAQs](products/modules/product-faqs.md)
   * [Training Resources](products/training-and-demo/README.md)
     * [Training Videos](products/training-and-demo/training-videos.md)
     * [Technical Enablement Areas](products/training-and-demo/technical-enablement-areas.md)
