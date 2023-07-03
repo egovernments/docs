@@ -24,6 +24,6 @@ Learn how to configure the DIGIT Urban platform. Partner with us to enhance and 
 [qa-automation](qa-automation/)
 {% endcontent-ref %}
 
-{% content-ref url="configuration-faqs.md" %}
-[configuration-faqs.md](configuration-faqs.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
