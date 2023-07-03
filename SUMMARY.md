@@ -69,7 +69,6 @@
           * [Workflow Actions](platform/configure-digit/configuring-master-data-templates/module-setup/workflow-data/workflow-actions.md)
           * [Workflow Levels](platform/configure-digit/configuring-master-data-templates/module-setup/workflow-data/workflow-levels.md)
           * [Workflow Process](platform/configure-digit/configuring-master-data-templates/module-setup/workflow-data/workflow-process.md)
-          * [Workflow Notifications](platform/configure-digit/configuring-master-data-templates/module-setup/workflow-data/workflow-notifications.md)
         * [Common Configuration Details](platform/configure-digit/configuring-master-data-templates/module-setup/common-config/README.md)
           * [Standard Document List](platform/configure-digit/configuring-master-data-templates/module-setup/common-config/standard-document-list.md)
           * [Service Document Mapping](platform/configure-digit/configuring-master-data-templates/module-setup/common-config/service-document-mapping.md)
