@@ -13,11 +13,11 @@ DIGIT Property Tax facilitate ULBs and citizens to automate the assessment/ re-a
 The main features of the product are as given below.
 
 1. Completely automated assessment and re-assessment of property tax against a property.
-   1. Online self-assessment process
-   2. Integrated workflow for ULB staff to perform the check and approve.
+   * Online self-assessment process
+   * Integrated workflow for ULB staff to perform the check and approve.
 2. Transfer of title (Mutation)
-   1. Online application
-   2. Integrated workflow for ULB staff to perform the check and approve.
+   * Online application
+   * Integrated workflow for ULB staff to perform the check and approve.
 3. Generating the demand
 4. Collection of property tax through various modes (Cash, Cheque, POS (Credit/ Debit Card), NEFT/RTGS, Online - Through Payment Gateway)
 5. Auto calculation of rebate, interest and penalty.

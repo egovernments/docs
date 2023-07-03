@@ -22,4 +22,6 @@ The data described in the above table is a sample.
 
 ## Attachments
 
-> [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)_All content on this page by_ [_eGov Foundation_ ](https://egov.org.in/)_is licensed under a_ [_Creative Commons Attribution 4.0 International License_](http://creativecommons.org/licenses/by/4.0/)_._
+{% file src="../../../../.gitbook/assets/Configuration Data Template- PT Master (1).xlsx" %}
+
+{% file src="../../../../.gitbook/assets/Configuration Sample Data-PT Master.xlsx" %}
