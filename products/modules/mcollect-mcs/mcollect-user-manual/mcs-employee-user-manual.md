@@ -10,7 +10,11 @@ description: >-
 
 The counter employees or field employees collect and process the miscellaneous payments on behalf of the citizens.
 
-![](https://docs.google.com/drawings/u/0/d/sdqYT5-oQRjT\_c5OP\_fcsbA/image?w=303\&h=297\&rev=128\&ac=1\&parent=1GZKzf7O\_6WDB5ba1gb6QUT6CqipoQzuRuWT44fTAgGo)
+<div align="left">
+
+<img src="https://docs.google.com/drawings/u/0/d/sdqYT5-oQRjT_c5OP_fcsbA/image?w=303&#x26;h=297&#x26;rev=128&#x26;ac=1&#x26;parent=1GZKzf7O_6WDB5ba1gb6QUT6CqipoQzuRuWT44fTAgGo" alt="" width="188">
+
+</div>
 
 **The CE or FE role can -**
 
@@ -25,7 +29,7 @@ CE can process and collect payments for miscellaneous services through the DIGIT
 
 <div align="left">
 
-<img src="https://docs.google.com/drawings/u/0/d/sHDxtCHirCj-8f8WY383r5g/image?w=289&#x26;h=357&#x26;rev=59&#x26;ac=1&#x26;parent=1GZKzf7O_6WDB5ba1gb6QUT6CqipoQzuRuWT44fTAgGo" alt="">
+<img src="https://docs.google.com/drawings/u/0/d/sHDxtCHirCj-8f8WY383r5g/image?w=289&#x26;h=357&#x26;rev=59&#x26;ac=1&#x26;parent=1GZKzf7O_6WDB5ba1gb6QUT6CqipoQzuRuWT44fTAgGo" alt="" width="188">
 
 </div>
 
@@ -33,7 +37,7 @@ Click on the **New Collection** button on the screen. This will open a new colle
 
 <div align="left">
 
-<img src="https://docs.google.com/drawings/u/0/d/sZFok4oTVR3-Z5P6RpiHlrQ/image?w=624&#x26;h=184&#x26;rev=57&#x26;ac=1&#x26;parent=1GZKzf7O_6WDB5ba1gb6QUT6CqipoQzuRuWT44fTAgGo" alt="">
+<img src="https://docs.google.com/drawings/u/0/d/sZFok4oTVR3-Z5P6RpiHlrQ/image?w=624&#x26;h=184&#x26;rev=57&#x26;ac=1&#x26;parent=1GZKzf7O_6WDB5ba1gb6QUT6CqipoQzuRuWT44fTAgGo" alt="" width="375">
 
 </div>
 
@@ -41,7 +45,7 @@ Enter the **Mobile No.** and the **Consumer Name** of the payee.
 
 <div align="left">
 
-<img src="https://docs.google.com/drawings/u/0/d/sU091UrGzf-BIhQXc-K1OnA/image?w=598&#x26;h=349&#x26;rev=65&#x26;ac=1&#x26;parent=1GZKzf7O_6WDB5ba1gb6QUT6CqipoQzuRuWT44fTAgGo" alt="">
+<img src="https://docs.google.com/drawings/u/0/d/sU091UrGzf-BIhQXc-K1OnA/image?w=598&#x26;h=349&#x26;rev=65&#x26;ac=1&#x26;parent=1GZKzf7O_6WDB5ba1gb6QUT6CqipoQzuRuWT44fTAgGo" alt="" width="375">
 
 </div>
 
@@ -59,7 +63,7 @@ Enter the **Paid By** and the **Payee Name** details.
 
 <div align="left">
 
-<img src="https://docs.google.com/drawings/u/0/d/s_tv2UAnfFyxWdg76C7_GMQ/image?w=624&#x26;h=331&#x26;rev=71&#x26;ac=1&#x26;parent=1GZKzf7O_6WDB5ba1gb6QUT6CqipoQzuRuWT44fTAgGo" alt="">
+<img src="https://docs.google.com/drawings/u/0/d/s_tv2UAnfFyxWdg76C7_GMQ/image?w=624&#x26;h=331&#x26;rev=71&#x26;ac=1&#x26;parent=1GZKzf7O_6WDB5ba1gb6QUT6CqipoQzuRuWT44fTAgGo" alt="" width="375">
 
 </div>
 
@@ -79,7 +83,11 @@ To search for payment receipts navigate to the Universal Collections page in the
 
 Enter the relevant search parameter. The system enables you to search using payment **Receipt No**. or **Service Category**, or payee **Mobile No.** Click on the **Search** button.
 
-<figure><img src="../../../../.gitbook/assets/image (615).png" alt=""><figcaption></figcaption></figure>
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/image (615).png" alt="" width="375"><figcaption></figcaption></figure>
+
+</div>
 
 The system will display the relevant search results in the panel below. Click on the relevant record to view the payment receipt. The system will generate a pdf format of the payment receipt.
 
@@ -87,5 +95,3 @@ Click on the download icon on the pdf page to download the receipt. Click on the
 
 Click on the **Reset** button to renew your search with different parameters.[\
 ](https://docs.digit.org/v/v2.1/modules-features/user-guides/guide-mcollect/citizen-user-manual)
-
-[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)All content on this page by [eGov Foundation ](https://egov.org.in/)is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
