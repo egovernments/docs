@@ -33,10 +33,6 @@ Before you proceed with the documentation, make sure the following pre-requisite
 
 ## Configuration Details <a href="#configuration-details" id="configuration-details"></a>
 
-**MDMS Configuration**
-
-
-
 #### Actions & Role Action Mapping <a href="#actions-and-role-action-mapping" id="actions-and-role-action-mapping"></a>
 
 \
@@ -303,7 +299,7 @@ The eChallan service is used to generate **e-challans / bill** for all miscellan
 * Provides the capability of capturing the unique identifier of the entity for which the challan is generated.
 * In the future, if we want to expose the application to citizens then it can be done easily.
 * Workflows or Service-specific workflows can be enabled at the challan service level at any time without changing the design.
-* Allow an employee to update / cancel challan
+* Allow an employee to update/cancel challan
 
 ### Steps to Integration
 
@@ -329,8 +325,5 @@ The eChallan service is used to generate **e-challans / bill** for all miscellan
 | _echallan-services/eChallan/v1/\_search_ | [https://www.getpostman.com/collections/349413e52bf743d50b0a](https://www.getpostman.com/collections/349413e52bf743d50b0a) |
 | _echallan-services/eChallan/v1/\_count_  | [https://www.getpostman.com/collections/773565d7b5866f0851e3](https://www.getpostman.com/collections/773565d7b5866f0851e3) |
 
-_(Note: All the APIs are in the same postman collection therefore the same link is added in each row)_
+_(Note: All the APIs are in the same Postman collection therefore the same link is added in each row)_
 
-
-
-> [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)_All content on this page by_ [_eGov Foundation_](https://egov.org.in/) _is licensed under a_ [_Creative Commons Attribution 4.0 International License_](http://creativecommons.org/licenses/by/4.0/)_._
