@@ -10,88 +10,62 @@ description: >-
 
 The counter employees or field employees collect and process the miscellaneous payments on behalf of the citizens.
 
-<div align="left">
-
-<img src="https://docs.google.com/drawings/u/0/d/sdqYT5-oQRjT_c5OP_fcsbA/image?w=303&#x26;h=297&#x26;rev=128&#x26;ac=1&#x26;parent=1GZKzf7O_6WDB5ba1gb6QUT6CqipoQzuRuWT44fTAgGo" alt="" width="188">
-
-</div>
-
 **The CE or FE role can -**
 
-* Collect payment
-* Search payment receipts
-* Print receipts
-* Download payment receipts
+* [Generate challan](mcs-employee-user-manual.md#collect-payment)
+* [Make payment](mcs-employee-user-manual.md#make-payment)
+* [Search challan](mcs-employee-user-manual.md#search-challan)
 
-### **Collect Payment** <a href="#collect-payment" id="collect-payment"></a>
+### **Generate Challan** <a href="#collect-payment" id="collect-payment"></a>
 
-CE can process and collect payments for miscellaneous services through the DIGIT web portal or the DIGIT mobile app. To process a new payment navigate to the **Universal Collections** option in the sidebar main menu.
-
-<div align="left">
-
-<img src="https://docs.google.com/drawings/u/0/d/sHDxtCHirCj-8f8WY383r5g/image?w=289&#x26;h=357&#x26;rev=59&#x26;ac=1&#x26;parent=1GZKzf7O_6WDB5ba1gb6QUT6CqipoQzuRuWT44fTAgGo" alt="" width="188">
-
-</div>
-
-Click on the **New Collection** button on the screen. This will open a new collection form page.
+CE can process and collect payments for miscellaneous services through the DIGIT web portal or the DIGIT mobile app. To process a new payment, click the **mCollect** card on the employee home screen. Click on **Generate New Challan** button.
 
 <div align="left">
 
-<img src="https://docs.google.com/drawings/u/0/d/sZFok4oTVR3-Z5P6RpiHlrQ/image?w=624&#x26;h=184&#x26;rev=57&#x26;ac=1&#x26;parent=1GZKzf7O_6WDB5ba1gb6QUT6CqipoQzuRuWT44fTAgGo" alt="" width="375">
+<figure><img src="../../../../.gitbook/assets/mSeva.png" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
-Enter the **Mobile No.** and the **Consumer Name** of the payee.
+On the **New Challan** page, enter the **Consumer Details** and **Service Details**.&#x20;
 
 <div align="left">
 
-<img src="https://docs.google.com/drawings/u/0/d/sU091UrGzf-BIhQXc-K1OnA/image?w=598&#x26;h=349&#x26;rev=65&#x26;ac=1&#x26;parent=1GZKzf7O_6WDB5ba1gb6QUT6CqipoQzuRuWT44fTAgGo" alt="" width="375">
+<figure><img src="../../../../.gitbook/assets/mSeva (2).png" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
-Select the applicable **Service Category.**
+Click on **Submit** button at the bottom of the page. The success message screen pops with the **Challan No.** Click on the **Print Challan** option to print the challan.
 
-The system will prompt the input of Tax amount, CGST, SGST, Field Fee, or any other details depending on the selected Service Category.
+<figure><img src="../../../../.gitbook/assets/mSeva (3).png" alt=""><figcaption></figcaption></figure>
 
-Enter the **From Date** and **To Date** to identify the applicable payment period. **\*\*Enter any additional information in the** Comments\*\* field.
+Click on **Proceed to Payment** button to make the payment.
 
-Click on the **Next** button to move to the payment section. The **Payment Collection Details** page displays the fee details and captures the payment form. The **Fee Details** panel displays the fee breakup and **Total Amount** details.
+## Make Payment
 
-The **Capture Payment** panel displays the available payment methods. Click on the preferred payment tab. The available payment tabs are **Cash, Cheque, and Credit/Debit Card.**
+The **Generate Receipt** page displays the payment information details. Enter the **Payer Details**. Select the **Payment Mode**.
 
-Enter the **Paid By** and the **Payee Name** details.
+<figure><img src="../../../../.gitbook/assets/mSeva (4).png" alt=""><figcaption></figcaption></figure>
+
+Enter the **Gen/G8 Receipt Details**, in case the receipt is generated manually. Click on the **Collect Payment** button at the bottom of the screen to register payment details.&#x20;
+
+<figure><img src="../../../../.gitbook/assets/mSeva (5).png" alt=""><figcaption></figcaption></figure>
+
+The success message is displayed. Click on **Print Receipt** to print the receipt.&#x20;
+
+### Search Challan
+
+Click on **Search Challan** option on the employee home page.&#x20;
 
 <div align="left">
 
-<img src="https://docs.google.com/drawings/u/0/d/s_tv2UAnfFyxWdg76C7_GMQ/image?w=624&#x26;h=331&#x26;rev=71&#x26;ac=1&#x26;parent=1GZKzf7O_6WDB5ba1gb6QUT6CqipoQzuRuWT44fTAgGo" alt="" width="375">
+<figure><img src="../../../../.gitbook/assets/mSeva (6).png" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
-Enter the **Payer Mobile No.**
-
-Enter the **Cheque No., Cheque Date, IFSC, Bank Name,** and **Bank Branch** details in case of payment by cheque. Enter your credit card or debit card **Last 4 digits, Transaction No.**, and **Re-enter Transaction No.** details if you have selected the Credit/Debit Card payment option.
-
-Enter the **Gen/G8 Receipt No**. issued at the payment counter in case payments are made offline. Enter **Gen/G8 Receipt Issue Date** mentioned on the receipt.
-
-Click on the **Generate Receipt** button once the payment is collected or processed. The system will display the payment success acknowledgement message.
-
-Click on the **Download** button to download/view the receipt. Click on the **Print** button to print the receipt.
-
-### **Search Receipts** <a href="#search-receipts" id="search-receipts"></a>
-
-To search for payment receipts navigate to the Universal Collections page in the sidebar main menu.
-
-Enter the relevant search parameter. The system enables you to search using payment **Receipt No**. or **Service Category**, or payee **Mobile No.** Click on the **Search** button.
+Select the required filters and click on the **Search** button. The results will be displayed on the page.
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (615).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/mSeva (7).png" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
-
-The system will display the relevant search results in the panel below. Click on the relevant record to view the payment receipt. The system will generate a pdf format of the payment receipt.
-
-Click on the download icon on the pdf page to download the receipt. Click on the Print icon on the pdf page to print the receipt.
-
-Click on the **Reset** button to renew your search with different parameters.[\
-](https://docs.digit.org/v/v2.1/modules-features/user-guides/guide-mcollect/citizen-user-manual)
