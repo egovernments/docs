@@ -458,7 +458,6 @@
   * [Partner Support](products/digit-support/README.md)
     * [eGov Enablement Support for DIGIT](products/digit-support/egov-enablement-support-for-digit.md)
     * [Security Guidelines Handbook](products/digit-support/security-guidelines-handbook.md)
-    * [Troubleshooting Guide](products/digit-support/troubleshooting-guides.md)
 
 ## 🛃 Ecosystem
 
