@@ -171,11 +171,7 @@ Amendment integration helps organizations add additional value to the demand wit
 
 This is integrated into the billing system by default.
 
-1. The amendment facility can be used in case of a legal issue to add values to existing demands using /amendment/\_create. The parameter /amendment/\_update is used to cancel the created updates or update configured workflows.
-
-### Interaction Diagram <a href="#interaction-diagram" id="interaction-diagram"></a>
-
-{yet to be added}
+* The amendment facility can be used in case of a legal issue to add values to existing demands using /amendment/\_create. The parameter /amendment/\_update is used to cancel the created updates or update configured workflows.
 
 ## **Doc Links**
 
@@ -188,5 +184,3 @@ This is integrated into the billing system by default.
 | Description                   | Link                                                                                                                       |
 | ----------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
 | /amendment/\_create, \_update | [https://www.getpostman.com/collections/b195d3b1d354c767b6bd](https://www.getpostman.com/collections/b195d3b1d354c767b6bd) |
-
-[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)_​_](http://creativecommons.org/licenses/by/4.0/)_All content on this page by_ [_eGov Foundation_](https://egov.org.in/) _is licensed under a_ [_Creative Commons Attribution 4.0 International License_](http://creativecommons.org/licenses/by/4.0/)_._
