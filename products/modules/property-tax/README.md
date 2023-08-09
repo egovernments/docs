@@ -12,7 +12,6 @@ DIGIT-Property Tax (PT) is a self-serve web and mobile-based, easy-to-use and co
 
 * Manage property database
 * Property registration feature and title transfer&#x20;
-* GIS embedded and integrated with eGov financials municipal accounting system
 * Various payment options available to citizens to make payments from their convenient places
 * Auto-generated defaulters’ list and real-time online tracking
 
