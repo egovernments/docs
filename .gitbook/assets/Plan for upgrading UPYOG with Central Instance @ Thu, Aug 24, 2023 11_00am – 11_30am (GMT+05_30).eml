@@ -1,0 +1,567 @@
+Delivered-To: ajay.rawat@egovernments.org
+Received: by 2002:a05:7208:50c:b0:6c:3543:9c62 with SMTP id e12csp1809618rbf;
+        Mon, 11 Sep 2023 01:50:46 -0700 (PDT)
+X-Received: by 2002:a81:4916:0:b0:570:2542:cc9b with SMTP id w22-20020a814916000000b005702542cc9bmr10533661ywa.18.1694422246592;
+        Mon, 11 Sep 2023 01:50:46 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1694422246; cv=none;
+        d=google.com; s=arc-20160816;
+        b=Ha9JSDy/p13VD+1QDBmoXPSHU/TyFh2+AONxQmXY4FKcpN7e2Pb+IjOGv1mKRwhFH+
+         zgONl/Bv82ogfD8cMDGJK73lE0K3qfdZQ0YKTrY0FD7cpvrDbA+Xg9+DWccGJur2lfuD
+         cltCeaRakwu3ke0BNytxyb/BGy88VQZ3scrr2v5PrGselh2dMXhSQ0A6pNrGMXAbyjDB
+         8hk7gWa8S8BiG42lMy3SyTdSohBPhDIy3PeSEYmKeGoqxBQ9V+78F/t3KoDEPDv64i15
+         sAEtAu4rpUsEfcBNpPlqgZ+rAT3iMrnWF1rqUuLS494UHizlgvZvFzEMAleb3cjYrDf5
+         KWMQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=cc:to:subject:message-id:date:from:in-reply-to:references
+         :mime-version:dkim-signature;
+        bh=j/R5Y4XmojHYt43pl1AO63ckUYmkUBlTzmfmGdvczJs=;
+        fh=KvjHce4v5wo+s6B1y2xf/9xPMND3QI3jcJKOy32zToo=;
+        b=uRN6lR4FFCihHFZLqBHxu9Jm3aNVEL1QFz7jNda8zedVFwkMBy4UN8Ms2veuI+r8Mb
+         kaM+wrr/j7GIBb8hdMZrEaNiKuskW2FLmF/7AFTlZBvHqrFGOmtduSFsKcFbManLOtFb
+         BdkplY5ooXxOmOPQSNxXyW6VzxgpYWaZ+DwbQkbY2e5tlklSzSYeL00XNRg05oacwOEb
+         7HZ9Dv4L/1aUg559jQ/tcVyMPTylKx+iUtvyQpyR07THPR7KOxFjaVR1dkyTyrr9XGcO
+         4racySI6Z9kN3/BNBJAaNPqAsb7JpoNg3NtVJ9uFnsAWO0uENjnXx+sQxC46O/AURwmH
+         zhOw==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@niua.org header.s=google header.b=eKALwcOT;
+       spf=permerror (google.com: permanent error in processing during lookup of manishsharma@niua.org: _ not found) smtp.mailfrom=manishsharma@niua.org
+Return-Path: <manishsharma@niua.org>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id i13-20020a816d0d000000b00583b10fb024sor3638020ywc.2.2023.09.11.01.50.46
+        for <ajay.rawat@egovernments.org>
+        (Google Transport Security);
+        Mon, 11 Sep 2023 01:50:46 -0700 (PDT)
+Received-SPF: permerror (google.com: permanent error in processing during lookup of manishsharma@niua.org: _ not found) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@niua.org header.s=google header.b=eKALwcOT;
+       spf=permerror (google.com: permanent error in processing during lookup of manishsharma@niua.org: _ not found) smtp.mailfrom=manishsharma@niua.org
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=niua.org; s=google; t=1694422246; x=1695027046; darn=egovernments.org;
+        h=cc:to:subject:message-id:date:from:in-reply-to:references
+         :mime-version:from:to:cc:subject:date:message-id:reply-to;
+        bh=j/R5Y4XmojHYt43pl1AO63ckUYmkUBlTzmfmGdvczJs=;
+        b=eKALwcOTjqlefkmfo6XBN/jB4B5MpnmV2/NUCBlX2YkUM1M2zt191Y5rGh6f9l+bJ0
+         Jqnanj70iAeL4JnAdpsj2aqRh0wiEpss2X3TsMsgz8Qj5FNtlKsf+B8blo5i5wCCWUZT
+         HVeUjXL9MdBrdohGslzCvrUoBRHBeY3BoBPQg=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1694422246; x=1695027046;
+        h=cc:to:subject:message-id:date:from:in-reply-to:references
+         :mime-version:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=j/R5Y4XmojHYt43pl1AO63ckUYmkUBlTzmfmGdvczJs=;
+        b=iSAnyE43mi/hTk5IMin7wvPmxEn7k7+jIYVmD+Ldk3eeyXLNGtxDVOvCtjZ/uEQlFD
+         9vIZkGDLsAEy82XYB3G9zRE4TwErTRNNTWtitzYzG3zD9afcXvbJc59utXJScTQ5SkF/
+         aRnpBfkgAjRCPn2VKaFYfbJYDIPo0NX7bF+C06bu5gR+5eDioepTKCmddJlzcJO9UDsw
+         NvENFlM6AH6GNNKUPwS5/aoRE63Un89cqBP8Q8y38Prk4wTJsaxrm8xgRQXoLaDhpPVV
+         LszzBEf/SaNcN3i6BfGGTP6x+MOg4jp+ZbdKptgUYU/bPUtuEdes7s/kcgZ9jOYNqouq
+         FXKw==
+X-Gm-Message-State: AOJu0Yxwtt+HZ7RiL1W103U5kqBRIZURKnaKWashFKlhK30E20SVvv98
+	T6A22Cqi/2Kqb7+T4LKUgPplXM6S4BjUeZRyVV8glfSk2wGojedSViTUq4DeTQgGjo+VQb+XkVm
+	Vnsf1Ce9Y5AqxzuDaChIIGUydv7yyWn1z+nemz7iVlgUA
+X-Google-Smtp-Source: AGHT+IEFejuC4+G/V/rxlad2vL/0yhOsSP91EV2iyO5Z8nYHKsclLyPOUqjrN5ExqbRkrUvoPilEI67fFB3u4vSxP7A=
+X-Received: by 2002:a81:4e57:0:b0:595:844a:364 with SMTP id
+ c84-20020a814e57000000b00595844a0364mr14030979ywb.17.1694422245793; Mon, 11
+ Sep 2023 01:50:45 -0700 (PDT)
+MIME-Version: 1.0
+References: <CAGwz-a0kXRuenK+ZGGig52pbTx4SVrqoOu2+1ARH3+U7DhBSew@mail.gmail.com>
+ <CAKfwC7chBBx=j_xC9SaAZXW2TdkyAQ+rosc8PkmHPXm5+7RPdQ@mail.gmail.com> <CADJ9dspfdXzxdOdDwC3ZWNosMPMBaxdJy6k_rvLd3OL5q2x8bQ@mail.gmail.com>
+In-Reply-To: <CADJ9dspfdXzxdOdDwC3ZWNosMPMBaxdJy6k_rvLd3OL5q2x8bQ@mail.gmail.com>
+From: Manish Sharma <manishsharma@niua.org>
+Date: Mon, 11 Sep 2023 14:20:34 +0530
+Message-ID: <CAKfwC7c=fYesvMtxSdnjQ_DEO4YSVbYeP7UoZfJ+Ekb5WJuaeg@mail.gmail.com>
+Subject: =?UTF-8?Q?Re=3A_Plan_for_upgrading_UPYOG_with_Central_Instance_=40?=
+	=?UTF-8?Q?_Thu=2C_Aug_24=2C_2023_11=3A00am_=E2=80=93_11=3A30am_=28GMT=2B05=3A30=29?=
+To: Ajay Rawat <ajay.rawat@egovernments.org>
+Cc: Pradeep Kumar <pradeep@egovernments.org>, 
+	"Sriranjan Srivastava (IN)" <sriranjan.srivastava@pwc.com>, 
+	"Jatinder Singh (IN)" <jatinder.s.singh@pwc.com>, Vinoth R <vinoth.r@egovernments.org>, 
+	Elzan Mathew <elzan.mathew@egovernments.org>, Chandar Muthukrishnan <chandar@egov.org.in>, 
+	Manpreet Singh <manpreet@niua.org>, Rahul Sharma <rsharma@niua.org>
+Content-Type: multipart/alternative; boundary="0000000000000f76f10605116ca8"
+
+--0000000000000f76f10605116ca8
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Ajay,
+
+Thanks for the update, We will first go through the implementation approach
+and then decide whether to upgrade UPYOG or not.
+
+*Regards*
+Manish Sharma
+*Product Manager*
+*National Urban Digital Mission*
+*National Institute of Urban Affairs*
+Ministry of Housing and Urban Affairs (MoHUA), Government of India
+Email:- manishsharma@niua.org
+Mobile:- 9582577917
+
+<https://www.linkedin.com/company/national-urban-digital-mission-nudm/>
+<https://twitter.com/NUDM_NIUA?t=3D9L2tbCiT8BuEDaCdFKBxNw&s=3D09>
+<https://m.facebook.com/112096704861555/>
+<https://www.instagram.com/nudm_niua/>
+<https://m.youtube.com/channel/UCn7pFALADtR-s869gX0tphg>
+
+
+On Mon, Sep 11, 2023 at 2:13=E2=80=AFPM Ajay Rawat <ajay.rawat@egovernments=
+.org>
+wrote:
+
+> Hello Manish,
+>
+> Team has been working on testing the Central Instance with Multi-tenancy
+> feature for internal release first which will be completed by 20th Sep '2=
+3.
+> To comment on the list of features(design requirements) requested by PWC
+> team, the team will require additional testing efforts, which will be
+> undertaken after the internal release.
+>
+> We will share the response and discuss further on the approach for
+> implementing the feature on UPYOG. If a consent is received from NUDM tea=
+m,
+> then we can plan for the upgrade in October accordingly.
+>
+> Regards,
+>
+> Ajay Rawat
+>
+> Program Manager, eGov Foundation
+>
+> Tel: +91 9980057320 | +91 8076904806
+>
+> www.egov.org.in |www.digit.org
+>
+>
+>
+> On Fri, Sep 1, 2023 at 1:05=E2=80=AFPM Manish Sharma <manishsharma@niua.o=
+rg>
+> wrote:
+>
+>> Hi Pradeep,
+>>
+>> With reference to the discussion, you were supposed to revert on the
+>> issues raised by the team.
+>>
+>> *Regards*
+>> Manish Sharma
+>> *Product Manager*
+>> *National Urban Digital Mission*
+>> *National Institute of Urban Affairs*
+>> Ministry of Housing and Urban Affairs (MoHUA), Government of India
+>> Email:- manishsharma@niua.org
+>> Mobile:- 9582577917
+>>
+>> <https://www.linkedin.com/company/national-urban-digital-mission-nudm/>
+>> <https://twitter.com/NUDM_NIUA?t=3D9L2tbCiT8BuEDaCdFKBxNw&s=3D09>
+>> <https://m.facebook.com/112096704861555/>
+>> <https://www.instagram.com/nudm_niua/>
+>> <https://m.youtube.com/channel/UCn7pFALADtR-s869gX0tphg>
+>>
+>>
+>> On Thu, Aug 24, 2023 at 11:01=E2=80=AFAM Jatinder Singh (IN) <
+>> jatinder.s.singh@pwc.com> wrote:
+>>
+>>>
+>>> Dear All,
+>>>
+>>> Following are the prerequisites discussion in last discussion for this
+>>> to be available and perform Nationally
+>>>
+>>>    - Role & Access Management at Cluster Level so that each State SI is
+>>>    able to do its scope of work
+>>>    - Role & Access Management at Logs Level  so that each State SI is
+>>>    able to do its scope of work
+>>>    - Role & Access Management at Elastic Search & Kibana Level  so that
+>>>    each State SI is able to do its scope of work
+>>>    - Enhancement & verification of Product default Kafka with more
+>>>    nodes, partitions, etc so that it sustains and perform for National =
+Level
+>>>    traffic
+>>>    - Enhancement & verification of Product default ElasticSearch with
+>>>    more nodes, shards, etc so that it sustains and perform for National=
+ Level
+>>>    traffic
+>>>    - Availability of all States data in its own DB schemas and same
+>>>    should apply with ElasticSearch
+>>>    - Others enhancements so that State Infra & DevOps team should be
+>>>    able to manage their resources independently
+>>>
+>>> Regards,
+>>> Jatinder Singh
+>>>
+>>> The information transmitted, including any attachments, is intended onl=
+y
+>>> for the person or entity to which it is addressed and may contain
+>>> confidential and/or privileged material. Any review, retransmission,
+>>> dissemination or other use of, or taking of any action in reliance upon=
+,
+>>> this information by persons or entities other than the intended recipie=
+nt
+>>> is prohibited, and all liability arising therefrom is disclaimed. If yo=
+u
+>>> received this in error, please contact the sender and delete the materi=
+al
+>>> from any computer. Please note if the e-mail address include "TPR", the
+>>> sender of this e-mail is a third party resource, and not an employee, w=
+ho
+>>> has been specifically authorized to correspond routine matters related =
+to
+>>> the project only. For any clarification with regard to any non-routine =
+or
+>>> engagement specific deliverables please contact the assigned project
+>>> manager/ project partner.
+>>
+>>
+>> *This email and any files transmitted with it are confidential and
+>> intended solely for the use of the individual or entity to whom they are
+>> addressed. If you have received this email in error please notify the
+>> sender and delete this e-mail from your system. If you are not the named
+>> recipient you should not disseminate, distribute or copy this e-mail. If
+>> you are not the intended recipient you are notified that disclosing,
+>> copying, distributing or taking any action in reliance on the contents o=
+f
+>> this information is strictly prohibited.*
+>>
+>>
+>>
+>> *WARNING: Computer viruses can be transmitted via email. The recipient
+>> should check this email and any attachments for the presence of viruses.
+>> NIUA accepts no liability for any damage caused by any virus transmitted=
+ by
+>> this email. *
+>>
+>
+
+--=20
+
+
+
+*This
+ email and any files transmitted with it are confidential and=20
+intended=20
+solely for the use of the individual or entity to whom they are=20
+addressed. If you have received this email in error please notify the=20
+sender and delete this e-mail from your system. If you are not the=20
+named=20
+recipient you should not disseminate, distribute or copy this=20
+e-mail. If=20
+you are not the intended recipient you are notified that=20
+disclosing,=20
+copying, distributing or taking any action in reliance on=20
+the contents of=20
+this information is strictly prohibited.*
+
+**=C2=A0**
+
+*WARNING:
+ Computer=20
+viruses can be transmitted via email. The recipient should=20
+check this=20
+email and any attachments for the presence of viruses. NIUA=20
+accepts no=20
+liability for any damage caused by any virus transmitted by=20
+this email. *
+
+
+--0000000000000f76f10605116ca8
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Hi=C2=A0Ajay,<div><br></div><div>Thanks for the update, We=
+ will first go through the implementation approach and then decide whether =
+to upgrade UPYOG or not.</div><div><br clear=3D"all"><div><div dir=3D"ltr" =
+class=3D"gmail_signature" data-smartmail=3D"gmail_signature"><div dir=3D"lt=
+r"><div><font color=3D"#000000"><b>Regards</b></font></div><div><div><font =
+color=3D"#000000">Manish Sharma</font></div><div><font color=3D"#3d85c6"><b=
+>Product Manager</b></font></div><div style=3D"color:rgb(34,34,34)"><div st=
+yle=3D"color:rgb(32,33,36)"><font color=3D"#0b5394"><b>National Urban Digit=
+al Mission</b></font></div><div style=3D"color:rgb(32,33,36)"><font color=
+=3D"#000000"><b>National Institute of Urban Affairs</b></font></div></div><=
+div style=3D"color:rgb(34,34,34)">Ministry of Housing and Urban Affairs (Mo=
+HUA), Government of India</div><div style=3D"color:rgb(34,34,34)">Email:- <=
+a href=3D"mailto:manishsharma@niua.org" target=3D"_blank">manishsharma@niua=
+.org</a></div><div style=3D"color:rgb(34,34,34)">Mobile:- 9582577917</div><=
+div style=3D"color:rgb(34,34,34)"><br></div><div style=3D"color:rgb(34,34,3=
+4)"><span style=3D"background-color:transparent;font-size:11pt;font-family:=
+Arial;color:rgb(0,0,0);vertical-align:baseline;white-space:pre-wrap"><a hre=
+f=3D"https://www.linkedin.com/company/national-urban-digital-mission-nudm/"=
+ style=3D"color:rgb(17,85,204);font-size:small;white-space:normal;backgroun=
+d-color:transparent;font-family:&quot;Google Sans&quot;,Roboto,RobotoDraft,=
+Helvetica,Arial,sans-serif" target=3D"_blank"><span style=3D"font-size:11pt=
+;font-family:Arial;color:rgb(0,0,0);background-color:transparent;vertical-a=
+lign:baseline;white-space:pre-wrap"><span style=3D"border:none;display:inli=
+ne-block;overflow:hidden;width:29px;height:29px"><img src=3D"https://lh6.go=
+ogleusercontent.com/IS5rXMlJ3WKHoR70AIWiH82TN2rI-7UlY797qkX4lH6aHF0H9kGwkad=
+Oxv27dCzI17mz9u6bwBbPr0CNPw-rXJykgBZIuNQuxfalirRLsD-usuvSuOAjfSX4MGuTt6TsGo=
+0YfxijADoJ5Ml45uiOQpcL3CXpbh6itcyLFovtYDldRzXDRI5TdoRCFA" width=3D"29" heig=
+ht=3D"29" style=3D"margin-left:0px;margin-top:0px"></span></span></a><font =
+color=3D"#000000" style=3D"font-size:small;white-space:normal;background-co=
+lor:transparent;font-family:&quot;Google Sans&quot;,Roboto,RobotoDraft,Helv=
+etica,Arial,sans-serif">=C2=A0</font><span style=3D"background-color:transp=
+arent;font-size:11pt;vertical-align:baseline"><span style=3D"border:none;di=
+splay:inline-block;overflow:hidden;width:29px;height:29px"><a href=3D"https=
+://twitter.com/NUDM_NIUA?t=3D9L2tbCiT8BuEDaCdFKBxNw&amp;s=3D09" style=3D"co=
+lor:rgb(17,85,204)" target=3D"_blank"><img src=3D"https://lh6.googleusercon=
+tent.com/M7ED7ZxSqB-W3k6q58cqVW6XNuEKfMUlP4llQxs_sUd77ILpFR7BHIzGeHOUJWhevx=
+Im1hIi8zE2JjyRg9auFuzm77nFO3fNmxTMPhPWNbDpWStAWmQs_uiCtJliPHpqmF__i3tK0SLKX=
+PJQgCSGFIYDj75PXktn7Z9C2xQi2bxtviEz4c9bg0chiw" width=3D"29" height=3D"29" s=
+tyle=3D"margin-left:0px;margin-top:0px"></a></span></span><span style=3D"ba=
+ckground-color:transparent;font-size:11pt;vertical-align:baseline"> </span>=
+<span style=3D"background-color:transparent;font-size:11pt;vertical-align:b=
+aseline"><span style=3D"border:none;display:inline-block;overflow:hidden;wi=
+dth:29px;height:29px"><a href=3D"https://m.facebook.com/112096704861555/" s=
+tyle=3D"color:rgb(17,85,204)" target=3D"_blank"><img src=3D"https://lh5.goo=
+gleusercontent.com/2qgSFp0iVCqhYZYPa7YhmyBzJnQdXjDOQuLKIYzfqGdj2r3zgDMf6MU3=
+mOjrx5p8J91RPAPO8X9yzICsSnY6AWVdMSOytQXSdMo89KQtbap7UECmxYAitcfZ9gcYOfffYmU=
+bpf4aLBtuIrCvxEeNYBtQryPDo0a5Ht7U5q-dM44B7tvmH3LsDDhygQ" width=3D"29" heigh=
+t=3D"29" style=3D"margin-left:0px;margin-top:0px"></a></span></span><span s=
+tyle=3D"background-color:transparent;font-size:11pt;vertical-align:baseline=
+"> </span><span style=3D"background-color:transparent;font-size:11pt;vertic=
+al-align:baseline"><span style=3D"border:none;display:inline-block;overflow=
+:hidden;width:29px;height:29px"><a href=3D"https://www.instagram.com/nudm_n=
+iua/" style=3D"color:rgb(17,85,204)" target=3D"_blank"><img src=3D"https://=
+lh3.googleusercontent.com/ThUd7QEDOZ1hs73dmxbCYq1PHMWIwN1W_IKAbGbSW_ywUoYL1=
+Ngs0o-p0GE8x6yubfRUVNbMbm1NJqSC3m5cyGmRNOOXtZqzm82A8h3YwK-Wh3fXCEAhxfZL6UQ9=
+8lg7cGti_0H3K0x9-YITqfuXrtaCAiQUAkashY9TP5-pepyLOiQSSQUyS_MewQ" width=3D"29=
+" height=3D"29" style=3D"margin-left:0px;margin-top:0px"></a></span></span>=
+<span style=3D"background-color:transparent;font-size:11pt;vertical-align:b=
+aseline"> </span><span style=3D"background-color:transparent;font-size:11pt=
+;vertical-align:baseline"><span style=3D"border:none;display:inline-block;o=
+verflow:hidden;width:29px;height:29px"><a href=3D"https://m.youtube.com/cha=
+nnel/UCn7pFALADtR-s869gX0tphg" style=3D"color:rgb(17,85,204)" target=3D"_bl=
+ank"><img src=3D"https://lh6.googleusercontent.com/FE1WGcRRg_ALs6iqgCEqUs47=
+-DwRSBHmpwyi_GDQhk4jA78_24KUPlzjczvwtDdgfRUtDUS4hpdakmvWU9Ai_THMe9niJPrnoQ-=
+vd6Y6r4dHHTIPCAmi6icy5SpsjZZVSCIg_21kN4ZQaBkSVzAf7_3GrTmS3HPDem_XTtUS28sPdb=
+Xsc9NZEJUrsw" width=3D"29" height=3D"29" style=3D"margin-left:0px;margin-to=
+p:0px"></a></span></span> </span><img src=3D"https://lh5.googleusercontent.=
+com/VS528nSWCQDvwcm5Vmm5tNnK7q6onZGNI7tPmk84k2MdGRH_lJIgxGSR9PjYQ9Hh4sOymQK=
+mJYtvi21n4UxXw7I429WlzOPVMZU5X2FFWgX7v_VxD9wanCEsnb-FqeObTocaPfckCPB0XIaYjp=
+QiCLJC-H6G0yiIZBhOx2LVFOe7u4UEEiYizzSn6Ogu3E1Z" width=3D"50" height=3D"27" =
+style=3D"background-color:transparent;color:rgb(0,0,0);font-family:&quot;Ti=
+mes New Roman&quot;;font-size:11pt;font-weight:700;white-space:pre-wrap;mar=
+gin-left:0px;margin-top:0px">=C2=A0<img src=3D"https://lh5.googleuserconten=
+t.com/6W8WxRvEVsKaKqDqidXCh9rtJfrNP2gmU3Mv0LSd7eweQ0t0aZDAcWPXkABACp6Edzvyx=
+TL1IpSoii0YsOF_deeai1DaY2lb-c3wvZYGCyOkKn1iQ-3VPVRYL6jTTUwp539P3QJOUjwnxcNc=
+6abbXZdS0gWBd8yS_GEe_5VrJWxXNPc8V-47ZwhCciQAQ9a9" width=3D"51" height=3D"29=
+" style=3D"background-color:transparent;color:rgb(0,0,0);font-family:&quot;=
+Times New Roman&quot;;font-size:11pt;font-weight:700;white-space:pre-wrap;m=
+argin-left:0px;margin-top:0px"><br></div></div></div></div></div><br></div>=
+</div><br><div class=3D"gmail_quote"><div dir=3D"ltr" class=3D"gmail_attr">=
+On Mon, Sep 11, 2023 at 2:13=E2=80=AFPM Ajay Rawat &lt;<a href=3D"mailto:aj=
+ay.rawat@egovernments.org">ajay.rawat@egovernments.org</a>&gt; wrote:<br></=
+div><blockquote class=3D"gmail_quote" style=3D"margin:0px 0px 0px 0.8ex;bor=
+der-left:1px solid rgb(204,204,204);padding-left:1ex"><div dir=3D"ltr">Hell=
+o Manish,<div><br></div><div><div>Team has been working on testing the Cent=
+ral Instance with Multi-tenancy feature for internal release first which wi=
+ll be completed by 20th Sep &#39;23.<br></div><div>To comment on the list o=
+f features(design requirements) requested by PWC team, the team will requir=
+e additional testing efforts, which will be undertaken after the internal r=
+elease.=C2=A0</div><div><br></div><div>We will share the response and discu=
+ss further on the approach for implementing the feature on UPYOG. If a cons=
+ent is received from NUDM team, then we can plan for the upgrade in October=
+ accordingly.=C2=A0=C2=A0</div><div><br></div><div><div><div dir=3D"ltr" cl=
+ass=3D"gmail_signature"><div dir=3D"ltr"><p style=3D"color:rgb(34,34,34);li=
+ne-height:1.2;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-size:11=
+pt;font-family:&quot;Open Sans&quot;,sans-serif;color:rgb(64,64,64);backgro=
+und-color:transparent;vertical-align:baseline;white-space:pre-wrap">Regards=
+,</span></p><p dir=3D"ltr" style=3D"color:rgb(34,34,34);line-height:1.2;mar=
+gin-top:0pt;margin-bottom:0pt"><span style=3D"font-size:11pt;font-family:&q=
+uot;Open Sans&quot;,sans-serif;color:rgb(64,64,64);background-color:transpa=
+rent;font-weight:700;vertical-align:baseline;white-space:pre-wrap">Ajay Raw=
+at</span></p><p dir=3D"ltr" style=3D"color:rgb(34,34,34);line-height:1.2;ma=
+rgin-top:0pt;margin-bottom:0pt"><span style=3D"font-size:11pt;font-family:&=
+quot;Open Sans&quot;,sans-serif;color:rgb(61,133,198);background-color:tran=
+sparent;font-weight:700;vertical-align:baseline;white-space:pre-wrap">Progr=
+am Manager, eGov Foundation</span></p><p dir=3D"ltr" style=3D"color:rgb(34,=
+34,34);line-height:1.2;margin-top:0pt;margin-bottom:0pt"><span style=3D"fon=
+t-size:11pt;font-family:&quot;Open Sans&quot;,sans-serif;color:rgb(64,64,64=
+);background-color:transparent;vertical-align:baseline;white-space:pre-wrap=
+">Tel: +91 9980057320 | +91 8076904806</span></p><p dir=3D"ltr" style=3D"co=
+lor:rgb(34,34,34);line-height:1.2;margin-top:0pt;margin-bottom:0pt"><a href=
+=3D"https://www.egov.org.in/" style=3D"color:rgb(17,85,204)" target=3D"_bla=
+nk"><span style=3D"font-size:11pt;font-family:&quot;Open Sans&quot;,sans-se=
+rif;color:rgb(0,151,167);background-color:transparent;font-weight:700;verti=
+cal-align:baseline;white-space:pre-wrap">www.egov.org.in</span><span style=
+=3D"font-size:14pt;font-family:&quot;Open Sans&quot;,sans-serif;color:rgb(0=
+,151,167);background-color:transparent;font-weight:700;vertical-align:basel=
+ine;white-space:pre-wrap"> </span></a><span style=3D"font-size:14pt;font-fa=
+mily:&quot;Open Sans&quot;,sans-serif;color:rgb(0,112,192);background-color=
+:transparent;font-weight:700;vertical-align:baseline;white-space:pre-wrap">=
+|</span><a href=3D"http://www.digit.org/" style=3D"color:rgb(17,85,204)" ta=
+rget=3D"_blank"><span style=3D"font-size:11pt;font-family:&quot;Open Sans&q=
+uot;,sans-serif;color:rgb(0,112,192);background-color:transparent;font-weig=
+ht:700;vertical-align:baseline;white-space:pre-wrap">www.digit.org</span></=
+a><span style=3D"font-size:11pt;font-family:&quot;Open Sans&quot;,sans-seri=
+f;color:rgb(0,112,192);background-color:transparent;font-weight:700;vertica=
+l-align:baseline;white-space:pre-wrap">=C2=A0</span></p><div><span style=3D=
+"font-size:11pt;font-family:&quot;Open Sans&quot;,sans-serif;color:rgb(0,11=
+2,192);background-color:transparent;font-weight:700;vertical-align:baseline=
+;white-space:pre-wrap"><br></span></div></div></div></div><br></div></div><=
+/div><br><div class=3D"gmail_quote"><div dir=3D"ltr" class=3D"gmail_attr">O=
+n Fri, Sep 1, 2023 at 1:05=E2=80=AFPM Manish Sharma &lt;<a href=3D"mailto:m=
+anishsharma@niua.org" target=3D"_blank">manishsharma@niua.org</a>&gt; wrote=
+:<br></div><blockquote class=3D"gmail_quote" style=3D"margin:0px 0px 0px 0.=
+8ex;border-left:1px solid rgb(204,204,204);padding-left:1ex"><div dir=3D"lt=
+r">Hi=C2=A0Pradeep,<div><br></div><div>With reference to the discussion, yo=
+u were supposed=C2=A0to revert on the issues raised by the team.</div><div>=
+<br clear=3D"all"><div><div dir=3D"ltr" class=3D"gmail_signature"><div dir=
+=3D"ltr"><div><font color=3D"#000000"><b>Regards</b></font></div><div><div>=
+<font color=3D"#000000">Manish Sharma</font></div><div><font color=3D"#3d85=
+c6"><b>Product Manager</b></font></div><div style=3D"color:rgb(34,34,34)"><=
+div style=3D"color:rgb(32,33,36)"><font color=3D"#0b5394"><b>National Urban=
+ Digital Mission</b></font></div><div style=3D"color:rgb(32,33,36)"><font c=
+olor=3D"#000000"><b>National Institute of Urban Affairs</b></font></div></d=
+iv><div style=3D"color:rgb(34,34,34)">Ministry of Housing and Urban Affairs=
+ (MoHUA), Government of India</div><div style=3D"color:rgb(34,34,34)">Email=
+:- <a href=3D"mailto:manishsharma@niua.org" target=3D"_blank">manishsharma@=
+niua.org</a></div><div style=3D"color:rgb(34,34,34)">Mobile:- 9582577917</d=
+iv><div style=3D"color:rgb(34,34,34)"><br></div><div style=3D"color:rgb(34,=
+34,34)"><span style=3D"background-color:transparent;font-size:11pt;font-fam=
+ily:Arial;color:rgb(0,0,0);vertical-align:baseline;white-space:pre-wrap"><a=
+ href=3D"https://www.linkedin.com/company/national-urban-digital-mission-nu=
+dm/" style=3D"color:rgb(17,85,204);font-size:small;white-space:normal;backg=
+round-color:transparent;font-family:&quot;Google Sans&quot;,Roboto,RobotoDr=
+aft,Helvetica,Arial,sans-serif" target=3D"_blank"><span style=3D"font-size:=
+11pt;font-family:Arial;color:rgb(0,0,0);background-color:transparent;vertic=
+al-align:baseline;white-space:pre-wrap"><span style=3D"border:none;display:=
+inline-block;overflow:hidden;width:29px;height:29px"><img src=3D"https://lh=
+6.googleusercontent.com/IS5rXMlJ3WKHoR70AIWiH82TN2rI-7UlY797qkX4lH6aHF0H9kG=
+wkadOxv27dCzI17mz9u6bwBbPr0CNPw-rXJykgBZIuNQuxfalirRLsD-usuvSuOAjfSX4MGuTt6=
+TsGo0YfxijADoJ5Ml45uiOQpcL3CXpbh6itcyLFovtYDldRzXDRI5TdoRCFA" width=3D"29" =
+height=3D"29" style=3D"margin-left: 0px; margin-top: 0px;"></span></span></=
+a><font color=3D"#000000" style=3D"font-size:small;white-space:normal;backg=
+round-color:transparent;font-family:&quot;Google Sans&quot;,Roboto,RobotoDr=
+aft,Helvetica,Arial,sans-serif">=C2=A0</font><span style=3D"background-colo=
+r:transparent;font-size:11pt;vertical-align:baseline"><span style=3D"border=
+:none;display:inline-block;overflow:hidden;width:29px;height:29px"><a href=
+=3D"https://twitter.com/NUDM_NIUA?t=3D9L2tbCiT8BuEDaCdFKBxNw&amp;s=3D09" st=
+yle=3D"color:rgb(17,85,204)" target=3D"_blank"><img src=3D"https://lh6.goog=
+leusercontent.com/M7ED7ZxSqB-W3k6q58cqVW6XNuEKfMUlP4llQxs_sUd77ILpFR7BHIzGe=
+HOUJWhevxIm1hIi8zE2JjyRg9auFuzm77nFO3fNmxTMPhPWNbDpWStAWmQs_uiCtJliPHpqmF__=
+i3tK0SLKXPJQgCSGFIYDj75PXktn7Z9C2xQi2bxtviEz4c9bg0chiw" width=3D"29" height=
+=3D"29" style=3D"margin-left: 0px; margin-top: 0px;"></a></span></span><spa=
+n style=3D"background-color:transparent;font-size:11pt;vertical-align:basel=
+ine"> </span><span style=3D"background-color:transparent;font-size:11pt;ver=
+tical-align:baseline"><span style=3D"border:none;display:inline-block;overf=
+low:hidden;width:29px;height:29px"><a href=3D"https://m.facebook.com/112096=
+704861555/" style=3D"color:rgb(17,85,204)" target=3D"_blank"><img src=3D"ht=
+tps://lh5.googleusercontent.com/2qgSFp0iVCqhYZYPa7YhmyBzJnQdXjDOQuLKIYzfqGd=
+j2r3zgDMf6MU3mOjrx5p8J91RPAPO8X9yzICsSnY6AWVdMSOytQXSdMo89KQtbap7UECmxYAitc=
+fZ9gcYOfffYmUbpf4aLBtuIrCvxEeNYBtQryPDo0a5Ht7U5q-dM44B7tvmH3LsDDhygQ" width=
+=3D"29" height=3D"29" style=3D"margin-left: 0px; margin-top: 0px;"></a></sp=
+an></span><span style=3D"background-color:transparent;font-size:11pt;vertic=
+al-align:baseline"> </span><span style=3D"background-color:transparent;font=
+-size:11pt;vertical-align:baseline"><span style=3D"border:none;display:inli=
+ne-block;overflow:hidden;width:29px;height:29px"><a href=3D"https://www.ins=
+tagram.com/nudm_niua/" style=3D"color:rgb(17,85,204)" target=3D"_blank"><im=
+g src=3D"https://lh3.googleusercontent.com/ThUd7QEDOZ1hs73dmxbCYq1PHMWIwN1W=
+_IKAbGbSW_ywUoYL1Ngs0o-p0GE8x6yubfRUVNbMbm1NJqSC3m5cyGmRNOOXtZqzm82A8h3YwK-=
+Wh3fXCEAhxfZL6UQ98lg7cGti_0H3K0x9-YITqfuXrtaCAiQUAkashY9TP5-pepyLOiQSSQUyS_=
+MewQ" width=3D"29" height=3D"29" style=3D"margin-left: 0px; margin-top: 0px=
+;"></a></span></span><span style=3D"background-color:transparent;font-size:=
+11pt;vertical-align:baseline"> </span><span style=3D"background-color:trans=
+parent;font-size:11pt;vertical-align:baseline"><span style=3D"border:none;d=
+isplay:inline-block;overflow:hidden;width:29px;height:29px"><a href=3D"http=
+s://m.youtube.com/channel/UCn7pFALADtR-s869gX0tphg" style=3D"color:rgb(17,8=
+5,204)" target=3D"_blank"><img src=3D"https://lh6.googleusercontent.com/FE1=
+WGcRRg_ALs6iqgCEqUs47-DwRSBHmpwyi_GDQhk4jA78_24KUPlzjczvwtDdgfRUtDUS4hpdakm=
+vWU9Ai_THMe9niJPrnoQ-vd6Y6r4dHHTIPCAmi6icy5SpsjZZVSCIg_21kN4ZQaBkSVzAf7_3Gr=
+TmS3HPDem_XTtUS28sPdbXsc9NZEJUrsw" width=3D"29" height=3D"29" style=3D"marg=
+in-left: 0px; margin-top: 0px;"></a></span></span> </span><img src=3D"https=
+://lh5.googleusercontent.com/VS528nSWCQDvwcm5Vmm5tNnK7q6onZGNI7tPmk84k2MdGR=
+H_lJIgxGSR9PjYQ9Hh4sOymQKmJYtvi21n4UxXw7I429WlzOPVMZU5X2FFWgX7v_VxD9wanCEsn=
+b-FqeObTocaPfckCPB0XIaYjpQiCLJC-H6G0yiIZBhOx2LVFOe7u4UEEiYizzSn6Ogu3E1Z" wi=
+dth=3D"50" height=3D"27" style=3D"background-color: transparent; color: rgb=
+(0, 0, 0); font-family: &quot;Times New Roman&quot;; font-size: 11pt; font-=
+weight: 700; white-space: pre-wrap; margin-left: 0px; margin-top: 0px;">=C2=
+=A0<img src=3D"https://lh5.googleusercontent.com/6W8WxRvEVsKaKqDqidXCh9rtJf=
+rNP2gmU3Mv0LSd7eweQ0t0aZDAcWPXkABACp6EdzvyxTL1IpSoii0YsOF_deeai1DaY2lb-c3wv=
+ZYGCyOkKn1iQ-3VPVRYL6jTTUwp539P3QJOUjwnxcNc6abbXZdS0gWBd8yS_GEe_5VrJWxXNPc8=
+V-47ZwhCciQAQ9a9" width=3D"51" height=3D"29" style=3D"background-color: tra=
+nsparent; color: rgb(0, 0, 0); font-family: &quot;Times New Roman&quot;; fo=
+nt-size: 11pt; font-weight: 700; white-space: pre-wrap; margin-left: 0px; m=
+argin-top: 0px;"><br></div></div></div></div></div><br></div></div><br><div=
+ class=3D"gmail_quote"><div dir=3D"ltr" class=3D"gmail_attr">On Thu, Aug 24=
+, 2023 at 11:01=E2=80=AFAM Jatinder Singh (IN) &lt;<a href=3D"mailto:jatind=
+er.s.singh@pwc.com" target=3D"_blank">jatinder.s.singh@pwc.com</a>&gt; wrot=
+e:<br></div><blockquote class=3D"gmail_quote" style=3D"margin:0px 0px 0px 0=
+.8ex;border-left:1px solid rgb(204,204,204);padding-left:1ex"><div dir=3D"l=
+tr"><br><div>Dear All,</div><div><br></div><div>Following are the prerequis=
+ites=C2=A0discussion in last discussion for this to be available and perfor=
+m Nationally</div><div><ul><li>Role &amp; Access Management at Cluster Leve=
+l so that each State SI is able to do its scope of work</li><li>Role &amp; =
+Access Management at Logs Level=C2=A0
+
+so that each State SI is able to do its scope of work</li><li>Role &amp; Ac=
+cess Management at Elastic Search &amp; Kibana Level=C2=A0
+
+so that each State SI is able to do its scope of work</li><li>Enhancement &=
+amp; verification of Product default Kafka with more nodes, partitions, etc=
+ so that it sustains and perform for National Level traffic</li><li>Enhance=
+ment &amp; verification of Product default ElasticSearch with more nodes, s=
+hards, etc so that it sustains and perform for National Level traffic</li><=
+li>Availability of all States data in its own DB schemas and same should ap=
+ply with ElasticSearch</li><li>Others enhancements so that State Infra &amp=
+; DevOps team should be able to manage their resources independently</li></=
+ul><div>Regards,</div></div><div>Jatinder Singh</div></div>
+
+<br>
+<font face=3D"Arial, Helvetica, sans-serif"><span style=3D"font-size:13px">=
+The information transmitted, including any attachments, is intended only fo=
+r the person or entity to which it is addressed and may contain confidentia=
+l and/or privileged material. Any review, retransmission, dissemination or =
+other use of, or taking of any action in reliance upon, this information by=
+ persons or entities other than the intended recipient is prohibited, and a=
+ll liability arising therefrom is disclaimed. If you received this in error=
+, please contact the sender and delete the material from any computer. Plea=
+se note if the e-mail address include &quot;TPR&quot;, the sender of this e=
+-mail is a third party resource, and not an employee, who has been specific=
+ally authorized to correspond routine matters related to the project only. =
+For any clarification with regard to any non-routine or engagement specific=
+ deliverables please contact the assigned project manager/ project partner.=
+</span></font></blockquote></div>
+
+<br>
+
+<p><i><span style=3D"background-color:transparent"><span>This
+ email and any files transmitted with it are confidential and intended=20
+solely for the use of the individual or entity to whom they are=20
+addressed. If you have received this email in error please notify the=20
+sender and delete this e-mail from your system. If you are not the=20
+named recipient you should not disseminate, distribute or copy this=20
+e-mail. If you are not the intended recipient you are notified that=20
+disclosing, copying, distributing or taking any action in reliance on=20
+the contents of this information is strictly prohibited.</span><span></span=
+></span></i></p><p><i><span style=3D"background-color:transparent"><b><span=
+>=C2=A0</span></b></span></i></p><p><i><span style=3D"background-color:tran=
+sparent"><span>WARNING:
+ Computer viruses can be transmitted via email. The recipient should=20
+check this email and any attachments for the presence of viruses. NIUA=20
+accepts no liability for any damage caused by any virus transmitted by=20
+this email. </span></span></i></p>
+
+</blockquote></div>
+</blockquote></div>
+
+<br>
+
+<p><i><span style=3D"background-color:transparent"><span>This
+ email and any files transmitted with it are confidential and intended=20
+solely for the use of the individual or entity to whom they are=20
+addressed. If you have received this email in error please notify the=20
+sender and delete this e-mail from your system. If you are not the=20
+named recipient you should not disseminate, distribute or copy this=20
+e-mail. If you are not the intended recipient you are notified that=20
+disclosing, copying, distributing or taking any action in reliance on=20
+the contents of this information is strictly prohibited.</span><span></span=
+></span></i></p><p><i><span style=3D"background-color:transparent"><b><span=
+>=C2=A0</span></b></span></i></p><p><i><span style=3D"background-color:tran=
+sparent"><span>WARNING:
+ Computer viruses can be transmitted via email. The recipient should=20
+check this email and any attachments for the presence of viruses. NIUA=20
+accepts no liability for any damage caused by any virus transmitted by=20
+this email. </span></span></i></p>
+
+
+--0000000000000f76f10605116ca8--
