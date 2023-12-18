@@ -8,10 +8,10 @@ Citizens represent individuals or communities who are the system end-users. The 
 
 The Citizen role can -
 
-* [File complaints](https://app.gitbook.com/@egov-digit/s/external/understand-digit/product-user-guides/public-grievance/citizen-guide#file-complaints)
-* [Track complaints](https://app.gitbook.com/@egov-digit/s/external/understand-digit/product-user-guides/public-grievance/citizen-guide#my-complaints)
-* [Rate complaints](https://app.gitbook.com/@egov-digit/s/external/understand-digit/product-user-guides/public-grievance/citizen-guide#rate-complaints)
-* [Reopen complaints](https://app.gitbook.com/@egov-digit/s/external/understand-digit/product-user-guides/public-grievance/citizen-guide#reopen-complaints)
+* [File complaints](citizen-user-manual.md#file-complaints)
+* [Track complaints](citizen-user-manual.md#view-complaints)
+* [Rate complaints](citizen-user-manual.md#rate-complaints)
+* [Reopen complaints](citizen-user-manual.md#reopen-complaints)
 
 ## File Complaints
 
@@ -105,6 +105,3 @@ The Re-Open button will be available only for 5 days after the complaint is reso
 
 The notification along with the complaint number is sent to your registered mobile number. You can track the complaint status using a mobile or web app. Click on the **Go back to the home page** button to navigate back to the home page.
 
-
-
-[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)All content on this page by [eGov Foundation ](https://egov.org.in/)is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
