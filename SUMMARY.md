@@ -484,5 +484,4 @@
   * [Resource Calculator](ecosystem/digit-pre-sales-toolkit/resource-calculator.md)
   * [DIGIT Services](ecosystem/digit-pre-sales-toolkit/digit-services.md)
 * [Access DIGIT](ecosystem/access-digit.md)
-* [Urban Docs Guide](ecosystem/urban-docs-guide.md)
 * [Open Events](https://core.digit.org/open-events)
