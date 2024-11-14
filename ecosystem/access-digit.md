@@ -13,7 +13,7 @@ Access DIGIT tool is an Open Demo Instance designed to provide you with first-ha
 ### **Access DIGIT in Citizen Role**
 
 * [x] [Click here](https://staging.digit.org/digit-ui/citizen) to access DIGIT as Citizen.&#x20;
-* [x] Provide a mobile number for OTP verification. Make sure you provide a mobile number other than the one shared in the request [form](https://egov.org.in/access-digit/) to generate demo credentials.
+* [x] Provide a mobile number for OTP verification. Make sure you provide a mobile number other than the one shared in the request [form](https://digit.org/access-digit/) to generate demo credentials.
 * [x] Select City as <mark style="color:blue;">**City B**</mark> for all transactions
 
 ### **Access DIGIT in Employee Role**
