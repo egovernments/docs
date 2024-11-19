@@ -1,5 +1,7 @@
 # Resource Calculator
 
-[Click here](https://docs.google.com/spreadsheets/d/1ZxM79LZCUjHCjdrDEZy1vymRDubaHfZg/edit#gid=1752926750) to download the resource calculator.
+Click on the file link below to download the Resource Calculator -
+
+{% file src="../../.gitbook/assets/Resource Calculator_v2.xlsx" %}
 
 {% embed url="https://docs.google.com/spreadsheets/d/1-FooPA7cDU9jlIhom8EyVVRHEkqc1_Tl74yJcXdLz9Y/edit?usp=sharing" %}
