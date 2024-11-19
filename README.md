@@ -75,5 +75,5 @@ Explore the DIGIT Ecosystem
 
 ## Contact Us
 
-{% embed url="https://egov.org.in/contact-eGov/" %}
+{% embed url="https://egov.org.in/contact-us/" %}
 
