@@ -10,11 +10,11 @@ description: Commonly asked questions and its responses
 
 <summary>What is DIGIT?</summary>
 
-Digital Infrastructure for Governance, Impact & Transformation (DIGIT) is an open-source platform that helps governments deliver public services reliably. The platform enables effortless collaboration within or across government bodies ensuring administrators and policymakers have access to the data needed for decision-making. Further, it provides frontline employees and government contractors with the information and tools needed on the ground to deliver services. The platform is continuously evolving with the needs and requirements of the governments to serve the changing needs and aspirations of their citizens.&#x20;
+Digital Infrastructure for Governance, Impact & Transformation (DIGIT) is an open-source platform that helps governments deliver public services reliably. The platform enables effortless collaboration within or across government bodies ensuring administrators and policymakers have access to the data needed for decision-making. Further, it provides frontline employees and government contractors with the information and tools needed on the ground to deliver services. The platform is continuously evolving with the needs and requirements of the governments to serve the changing needs and aspirations of their citizens.
 
 Being open source, the platform empowers market players to design and implement innovative solutions that resolve societal problems. The open digital ecosystem empowers our partners to build system capabilities and run programs that assist ease of living, enable the development of local solutions and accelerate the impact on the ground.
 
-The DIGIT platform is globally recognized for resolving e-governance challenges and is certified as a Digital Public Good (DPG) by the [Digital Public Goods Alliance (DPGA)](https://digitalpublicgoods.net/). Find the DIGIT platform in the [DPG registry](https://digitalpublicgoods.net/registry/) along with a host of other globally recognized DPGs.&#x20;
+The DIGIT platform is globally recognized for resolving e-governance challenges and is certified as a Digital Public Good (DPG) by the [Digital Public Goods Alliance (DPGA)](https://digitalpublicgoods.net/). Find the DIGIT platform in the [DPG registry](https://digitalpublicgoods.net/registry/) along with a host of other globally recognized DPGs.
 
 </details>
 
@@ -65,17 +65,17 @@ Governments use DIGIT to enable DPIs for public service delivery and governance.
 2. Reduction in employee burden – across various geographical locations DIGIT delivers average time savings of 6 hours per week to frontline workers (findings from lean data survey).
 3. Streamlined/re-engineered policies that reduce the paperwork and process burden on frontline workers and citizens.
 
-Find more about the DIGIT value proposition [here](https://core.digit.org/introducing-digit-platform/digit-value-proposition).
+Find more about the DIGIT value proposition [here](https://docs.digit.org/platform/platform/digit-value-proposition).
 
 </details>
 
 <details>
 
-<summary>What is the DIGIT value proposition? </summary>
+<summary>What is the DIGIT value proposition?</summary>
 
-The DIGIT value proposition highlights the key capabilities and aspirations that form the foundational base of the technology platform. Accelerated reforms, trustworthiness, productivity, adoption, sustainability, ease of access, quick deployment, a strong network of system integrators, support and global recognition - These buzzwords reflect the robust design of the DPIs built on this platform, geared to resolve complex societal problems.  DIGIT has carved its own niche space with its open-source platform ​​that leverages the capabilities of microservice design to promote responsive and agile governance solutions.&#x20;
+The DIGIT value proposition highlights the key capabilities and aspirations that form the foundational base of the technology platform. Accelerated reforms, trustworthiness, productivity, adoption, sustainability, ease of access, quick deployment, a strong network of system integrators, support and global recognition - These buzzwords reflect the robust design of the DPIs built on this platform, geared to resolve complex societal problems. DIGIT has carved its own niche space with its open-source platform ​​that leverages the capabilities of microservice design to promote responsive and agile governance solutions.
 
-Find more about the DIGIT value proposition [here](https://core.digit.org/introducing-digit-platform/digit-value-proposition).
+Find more about the DIGIT value proposition [here](https://docs.digit.org/platform/platform/digit-value-proposition).
 
 </details>
 
@@ -85,7 +85,7 @@ Find more about the DIGIT value proposition [here](https://core.digit.org/introd
 
 DIGIT is a technology platform that offers multiple building blocks or microservices that can be reused by products or applications. The platform focuses on inclusion and is designed on the principle of enhancing both platform openness and choice for citizens. The platform uses open APIs and standards, creating a powerful framework to drive convergence across multiple systems currently in use and to lower the barrier to entry for locally-developed solutions.
 
-Explore the DIGIT platform features in detail [here](https://urban.digit.org/platform/platform-features).&#x20;
+Explore the DIGIT platform features in detail [here](../welcome-aboard/digit-platform.md).
 
 </details>
 
@@ -95,7 +95,7 @@ Explore the DIGIT platform features in detail [here](https://urban.digit.org/pla
 
 DIGIT offers multiple modules that facilitate citizen services ranging from submitting public grievances to applying for trade licences, water or sewerage connections, paying property taxes or submitting applications for building permits. The platform also offers public finance management and faecal sludge management applications designed to ease the governance of funds and improve sanitation.
 
-More about DIGIT modules [here](https://urban.digit.org/products/modules).
+More about DIGIT modules [here](../welcome-aboard/products-and-solutions/).
 
 </details>
 
@@ -114,11 +114,11 @@ Planned release features and future enhancements for the next 4 quarters are ava
 Access details for the demo of DIGIT applications and features are available below:
 
 * To browse as a citizen, [click here](https://staging.digit.org/digit-ui/citizen).
-* To browse as an employee, [click here](https://staging.digit.org/employee/language-selection).&#x20;
+* To browse as an employee, [click here](https://staging.digit.org/employee/language-selection).
 
-Additional details on how to access the demo instances are available [here](https://urban.digit.org/ecosystem/access-digit).
+Additional details on DIGIT platform resources and product areas are available [here](../).
 
-You can also access the multiple videos on our  [DIGIT Youtube](https://www.youtube.com/@digit_dpg) channel as well that provide a detailed walkthrough of the DIGIT modules and platform capabilities.
+You can also access the multiple videos on our [DIGIT Youtube](https://www.youtube.com/@digit_dpg) channel as well that provide a detailed walkthrough of the DIGIT modules and platform capabilities.
 
 </details>
 
@@ -126,9 +126,9 @@ You can also access the multiple videos on our  [DIGIT Youtube](https://www.yout
 
 <details>
 
-<summary>What are the open source tools used to build, deploy  and operate the DIGIT platform?</summary>
+<summary>What are the open source tools used to build, deploy and operate the DIGIT platform?</summary>
 
-The list of open-source tools used is listed [here](https://core.digit.org/platform/technology/open-source-tools).
+The list of open-source tools used is listed [here](https://docs.digit.org/platform/platform/architecture/technology-architecture).
 
 </details>
 
@@ -136,7 +136,7 @@ The list of open-source tools used is listed [here](https://core.digit.org/platf
 
 <summary>What are the common DIGIT platform services that I can reuse?</summary>
 
-List and details of common platform services such as notifications, file store, telemetry, payment gateway are listed [here](https://urban.digit.org/ecosystem/digit-pre-sales-toolkit/digit-services).
+List and details of common platform services such as notifications, file store, telemetry, payment gateway are listed [here](https://docs.digit.org/platform/platform/core-services).
 
 </details>
 
@@ -144,7 +144,7 @@ List and details of common platform services such as notifications, file store, 
 
 <summary>Where can I find details about DIGIT architecture?</summary>
 
-DIGIT is a microservices-based platform that is built to scale. All details about the architecture can be found [here](https://core.digit.org/platform/architecture).
+DIGIT is a microservices-based platform that is built to scale. All details about the architecture can be found [here](https://docs.digit.org/platform/platform/architecture).
 
 </details>
 
@@ -152,7 +152,7 @@ DIGIT is a microservices-based platform that is built to scale. All details abou
 
 <summary>What are the setup requirements? What technical skills do I need to set up or use DIGIT?</summary>
 
-Setup requirements and technical skills required on the team can be found [here](https://core.digit.org/knowledge-base/setup-basics/setup-requirements).
+Setup requirements and technical skills required on the team can be found [here](../welcome-aboard/digit-platform.md).
 
 </details>
 
@@ -160,7 +160,7 @@ Setup requirements and technical skills required on the team can be found [here]
 
 <summary>Where can I find the API specs for DIGIT core services?</summary>
 
-The API specs for all core services are listed [here](https://core.digit.org/platform/api-specifications).&#x20;
+The API specs for all core services are listed [here](https://specs.digit.org/common-service-specs).
 
 You can also explore the various application specs [here](https://specs.digit.org/).
 
@@ -170,7 +170,7 @@ You can also explore the various application specs [here](https://specs.digit.or
 
 <summary>Does DIGIT offer analytics dashboards for visualisation of data?</summary>
 
-Yes, the DIGIT National Dashboard Ingest service provides a one-stop framework for ingesting data from defined sources based on configuration.  More about dashboards [here](https://urban.digit.org/products/modules/national-urban-real-time-dashboard).
+Yes, the DIGIT National Dashboard Ingest service provides a one-stop framework for ingesting data from defined sources based on configuration. More about dashboards [here](https://urban.digit.org/products/modules/national-urban-real-time-dashboard).
 
 </details>
 
@@ -180,7 +180,7 @@ Yes, the DIGIT National Dashboard Ingest service provides a one-stop framework f
 
 1. DIGIT uses micro-service architecture and is interoperable with other DPGs exposing integration APIs
 2. Relevant integration adaptors/connectors would need to be developed for this integration
-3. For example -&#x20;
+3. For example -
 
 </details>
 
@@ -192,10 +192,10 @@ Digital building blocks are conceptually similar to physical building blocks wit
 
 * Easier and (almost) free to replicate
 * Exchange info to complete a task
-* Can be simultaneously used&#x20;
+* Can be simultaneously used
 * Evolved differently in multiple solutions
 
-Building blocks are the key design choice to enable solutions to evolve.  The following diagram conceptually illustrates how building blocks make evolution possible.&#x20;
+Building blocks are the key design choice to enable solutions to evolve. The following diagram conceptually illustrates how building blocks make evolution possible.
 
 </details>
 

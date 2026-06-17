@@ -36,7 +36,7 @@ Click on the above discussion board link. This is our primary support channel.
 
 #### How to Ask a Question:
 
-1. Go to the[ Discussions tab](https://github.com/egovernments/DIGIT-Core/discussions)
+1. Go to the [Discussions tab](https://github.com/egovernments/DIGIT-Core/discussions)
 2. Search for your issue to see if it’s already been answered
 3. If not, click “New Discussion”
 4. Select the relevant category and describe your issue
