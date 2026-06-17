@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Fiscal Information Dashboard
 
 * [x] [Explore dashboard features](https://pfm.digit.org/exemplar/ifix-dashboard/features)&#x20;
