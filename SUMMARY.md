@@ -27,6 +27,6 @@
 * [FAQs](faqs/README.md)
   * [The concept of Tenant in DIGIT](faqs/the-concept-of-tenant-in-digit.md)
 * [DIGIT Community](https://github.com/egovernments/Digit-Core/discussions)
-* [Open Events](https://egov.org.in/all-events/)
+* [Open Events](https://egov.org.in/upcoming-events/)
 * [Contact Us](https://egov.org.in/contact-us/)
 * [eGov Partner Program](https://egov.org.in/partners/)

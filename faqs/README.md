@@ -10,11 +10,11 @@ description: Commonly asked questions and its responses
 
 <summary>What is DIGIT?</summary>
 
-Digital Infrastructure for Governance, Impact & Transformation (DIGIT) is an open-source platform that helps governments deliver public services reliably. The platform enables effortless collaboration within or across government bodies ensuring administrators and policymakers have access to the data needed for decision-making. Further, it provides frontline employees and government contractors with the information and tools needed on the ground to deliver services. The platform is continuously evolving with the needs and requirements of the governments to serve the changing needs and aspirations of their citizens.
+Digital Infrastructure for Governance, Impact & Transformation (DIGIT) is an open-source platform that helps governments deliver public services reliably. The platform enables effortless collaboration within or across government bodies, ensuring administrators and policymakers have access to the data needed for decision-making. Further, it provides frontline employees and government contractors with the information and tools needed on the ground to deliver services. The platform is continuously evolving with the needs and requirements of the governments to serve the changing needs and aspirations of their citizens.
 
-Being open source, the platform empowers market players to design and implement innovative solutions that resolve societal problems. The open digital ecosystem empowers our partners to build system capabilities and run programs that assist ease of living, enable the development of local solutions and accelerate the impact on the ground.
+Being open source, the platform empowers market players to design and implement innovative solutions that resolve societal problems. The open digital ecosystem empowers our partners to build system capabilities and run programs that promote ease of living, enable the development of local solutions and accelerate the impact on the ground.
 
-The DIGIT platform is globally recognized for resolving e-governance challenges and is certified as a Digital Public Good (DPG) by the [Digital Public Goods Alliance (DPGA)](https://digitalpublicgoods.net/). Find the DIGIT platform in the [DPG registry](https://digitalpublicgoods.net/registry/) along with a host of other globally recognized DPGs.
+The DIGIT platform is globally recognised for resolving e-governance challenges and is certified as a Digital Public Good (DPG) by the [Digital Public Goods Alliance (DPGA)](https://digitalpublicgoods.net/). Find the DIGIT platform in the [DPG registry](https://digitalpublicgoods.net/registry/) along with a host of other globally recognised DPGs.
 
 </details>
 
@@ -170,7 +170,7 @@ You can also explore the various application specs [here](https://specs.digit.or
 
 <summary>Does DIGIT offer analytics dashboards for visualisation of data?</summary>
 
-Yes, the DIGIT National Dashboard Ingest service provides a one-stop framework for ingesting data from defined sources based on configuration. More about dashboards [here](https://urban.digit.org/products/modules/national-urban-real-time-dashboard).
+Yes, the DIGIT National Dashboard Ingest service provides a one-stop framework for ingesting data from defined sources based on configuration. More about dashboards [here](https://docs.digit.org/local-governance/local-governance-product-suite/local-governance-stack/dashboards-and-analytics).
 
 </details>
 
