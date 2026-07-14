@@ -72,7 +72,7 @@ Programmes refer to the various implementations of our applications at the state
 
 <summary>Additional Help Topics</summary>
 
-* [**Checklist**](https://docs.digit.org/platform/platform/checklists) - API, application security, performance & deployment checklists
-* [**Open Events**](https://egov.org.in/all-events/) **-** Find and register for the events here
+* [**Checklists**](https://docs.digit.org/platform/platform/checklists) - API, application security, performance & deployment checklists
+*
 
 </details>
