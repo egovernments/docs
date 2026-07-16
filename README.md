@@ -77,4 +77,3 @@ Programmes refer to the various implementations of our applications at the state
 
 </details>
 
-<a href="https://app.formbricks.com/s/cmrn9k78n30ty01z29nu1wvr3" class="button primary">Give your feedback </a>
