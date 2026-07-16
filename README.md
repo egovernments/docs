@@ -6,6 +6,7 @@ layout:
   cover:
     visible: true
     size: full
+    mask: none
   title:
     visible: true
   description:
@@ -73,6 +74,7 @@ Programmes refer to the various implementations of our applications at the state
 <summary>Additional Help Topics</summary>
 
 * [**Checklists**](https://docs.digit.org/platform/platform/checklists) - API, application security, performance & deployment checklists
-*
 
 </details>
+
+<a href="https://app.formbricks.com/s/cmrn9k78n30ty01z29nu1wvr3" class="button primary">Give your feedback </a>
